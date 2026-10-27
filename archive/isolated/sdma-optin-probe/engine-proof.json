@@ -1,0 +1,332 @@
+{
+  "scope": "R9700 PCI-specific DRM client fdinfo during a transfer-only process; positive DMA engine time proves engine use, not performance.",
+  "r9700_samples": 36,
+  "max_dma_busy_ns": 19552748,
+  "all_four_copies_exact": true,
+  "samples": [
+    {
+      "monotonic": 5405.300093298,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "4921713 ns"
+      }
+    },
+    {
+      "monotonic": 5405.35697527,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "14688174 ns"
+      }
+    },
+    {
+      "monotonic": 5405.41544115,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5405.471835103,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5405.529117361,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5405.586311313,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5405.64738611,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5405.703487007,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5405.759572807,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5405.818515235,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5405.875703106,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5405.936138272,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5405.992427521,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.052379377,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.108570733,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.165458106,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.222481421,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.287234123,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.343472136,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.40456696,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.460529631,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.520994531,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.58382189,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.642686232,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.701438746,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.758347778,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.821032061,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.877664528,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.938833981,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5406.99403846,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5407.050199309,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5407.10703236,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5407.163490522,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5407.224878071,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5407.288320425,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    },
+    {
+      "monotonic": 5407.344045704,
+      "fields": {
+        "drm-driver": "amdgpu",
+        "drm-client-id": "760",
+        "drm-pdev": "0000:07:00.0",
+        "drm-engine-dma": "19552748 ns"
+      }
+    }
+  ]
+}

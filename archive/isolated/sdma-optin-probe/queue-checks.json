@@ -1,0 +1,82 @@
+[
+  {
+    "optin": "false",
+    "scope": "Physical-device queue query only; no device creation, submits, copies or shaders.",
+    "device": "AMD Radeon AI Pro R9700 (RADV GFX1201)",
+    "queues": [
+      {
+        "index": 0,
+        "flags": 15,
+        "count": 1,
+        "transfer_only": false
+      },
+      {
+        "index": 1,
+        "flags": 14,
+        "count": 4,
+        "transfer_only": false
+      },
+      {
+        "index": 2,
+        "flags": 32,
+        "count": 1,
+        "transfer_only": false
+      },
+      {
+        "index": 3,
+        "flags": 64,
+        "count": 1,
+        "transfer_only": false
+      },
+      {
+        "index": 4,
+        "flags": 8,
+        "count": 1,
+        "transfer_only": false
+      }
+    ]
+  },
+  {
+    "optin": "true",
+    "scope": "Physical-device queue query only; no device creation, submits, copies or shaders.",
+    "device": "AMD Radeon AI Pro R9700 (RADV GFX1201)",
+    "queues": [
+      {
+        "index": 0,
+        "flags": 15,
+        "count": 1,
+        "transfer_only": false
+      },
+      {
+        "index": 1,
+        "flags": 14,
+        "count": 4,
+        "transfer_only": false
+      },
+      {
+        "index": 2,
+        "flags": 32,
+        "count": 1,
+        "transfer_only": false
+      },
+      {
+        "index": 3,
+        "flags": 12,
+        "count": 2,
+        "transfer_only": true
+      },
+      {
+        "index": 4,
+        "flags": 64,
+        "count": 1,
+        "transfer_only": false
+      },
+      {
+        "index": 5,
+        "flags": 8,
+        "count": 1,
+        "transfer_only": false
+      }
+    ]
+  }
+]

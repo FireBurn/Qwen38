@@ -58,3 +58,7 @@ The operator/model qualification suites were rerun under that override. Comparin
 ## Evidence
 
 See archived directories `mtp-transfer-path-sweep`, `mtp-transfer-repeat-repro`, `mtp-q6-input-diagnostic` and `mtp-copy-partial-registers`, including their structured findings and decision files. Some raw logs and executable reproducers remain local; only files listed in the export manifest are included.
+
+## Dedicated transfer-queue follow-up
+
+Per-process SDMA exposure passes the original captured repro and144copy/readback cases across36fresh processes. A PCI-specific DRM counter confirms R9700 DMA use, and the captured16-workgroup model audit remains canonical with default copy selection. This is an alternative path, not a compute-copy fix or a measured speedup. See the [SDMA evidence and limits](SDMA.md).

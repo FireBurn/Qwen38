@@ -1,0 +1,13 @@
+{
+  "all_target_logits_and_hidden_bits_identical": true,
+  "all_canonical_draft_top10_ids_and_score_bits_identical": true,
+  "all_tokens_and_acceptance_counters_identical": true,
+  "cases": [
+    "coding",
+    "math"
+  ],
+  "requested_tokens_per_arm": 128,
+  "groups": 136,
+  "arms": 6,
+  "scope": "Two prompts, native/coalesced/coalesced bounded; captured full numerical audit only. No general quality or throughput claim."
+}

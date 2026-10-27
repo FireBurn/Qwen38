@@ -7571,6 +7571,102 @@
       "export_sha256": "ca25ac52dfcdd93ab71e39ef2203d56a5d10359ac47e2f6274a25249de224a15",
       "bytes": 264,
       "sanitized": false
+    },
+    {
+      "source": "isolated/sdma-optin-probe/STATUS.md",
+      "path": "archive/isolated/sdma-optin-probe/STATUS.md",
+      "source_sha256": "69f2b70788a5417a58e1dd093904a1137c3c8c67b531428eb10881e019a8a1b5",
+      "export_sha256": "69f2b70788a5417a58e1dd093904a1137c3c8c67b531428eb10881e019a8a1b5",
+      "bytes": 3606,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/sdma-optin-probe/queue-checks.json",
+      "path": "archive/isolated/sdma-optin-probe/queue-checks.json",
+      "source_sha256": "d2b263cafa6ba6f591e2ae392befdd7fa6f4c881e791330d93f7c0b1439672a2",
+      "export_sha256": "d2b263cafa6ba6f591e2ae392befdd7fa6f4c881e791330d93f7c0b1439672a2",
+      "bytes": 1610,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/sdma-optin-probe/copy-checks.json",
+      "path": "archive/isolated/sdma-optin-probe/copy-checks.json",
+      "source_sha256": "65fe2e5943dff43f7507784872646a2a0c8cdb7f0da9a35d360f49584d44a644",
+      "export_sha256": "65fe2e5943dff43f7507784872646a2a0c8cdb7f0da9a35d360f49584d44a644",
+      "bytes": 1539,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/sdma-optin-probe/wide-copy-checks.json",
+      "path": "archive/isolated/sdma-optin-probe/wide-copy-checks.json",
+      "source_sha256": "bb865ddf2c8e7dbd27723f6b3e652defb417d3b047dcf796f0f3718ace4ceb55",
+      "export_sha256": "bb865ddf2c8e7dbd27723f6b3e652defb417d3b047dcf796f0f3718ace4ceb55",
+      "bytes": 32088,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/sdma-optin-probe/engine-proof.json",
+      "path": "archive/isolated/sdma-optin-probe/engine-proof.json",
+      "source_sha256": "28d4fa031f17ae02ca5290c50c699791de8f95892724d443ccb96c7b2cde191f",
+      "export_sha256": "28d4fa031f17ae02ca5290c50c699791de8f95892724d443ccb96c7b2cde191f",
+      "bytes": 7949,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/sdma-optin-probe/model16/checks.json",
+      "path": "archive/isolated/sdma-optin-probe/model16/checks.json",
+      "source_sha256": "ffd181a4cc4e8517aad493b1fd9877121900ee167600dba3d298b1f71fcb08a5",
+      "export_sha256": "ffd181a4cc4e8517aad493b1fd9877121900ee167600dba3d298b1f71fcb08a5",
+      "bytes": 3323,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/sdma-optin-probe/model16/comparison.json",
+      "path": "archive/isolated/sdma-optin-probe/model16/comparison.json",
+      "source_sha256": "15b26a16a163ed118dcba9cc11cd6c2154cd531d9bacfd8838a0662ed6ceee5e",
+      "export_sha256": "15b26a16a163ed118dcba9cc11cd6c2154cd531d9bacfd8838a0662ed6ceee5e",
+      "bytes": 311,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/sdma-optin-probe/model16-provenance-correction.json",
+      "path": "archive/isolated/sdma-optin-probe/model16-provenance-correction.json",
+      "source_sha256": "e8393d2ab20ba54ea9ec078c64fe7ffcc057daf10025bb882fadd420e23fe838",
+      "export_sha256": "e8393d2ab20ba54ea9ec078c64fe7ffcc057daf10025bb882fadd420e23fe838",
+      "bytes": 917,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/coalesce-prompts/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/coalesce-prompts/checks.json",
+      "source_sha256": "2c3396069513f08cd075a27292c9fabc86249ff0af9f2551ba14f96e27915123",
+      "export_sha256": "2c3396069513f08cd075a27292c9fabc86249ff0af9f2551ba14f96e27915123",
+      "bytes": 13282,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/coalesce-prompts/comparison.json",
+      "path": "archive/isolated/native-swiglu-q8/coalesce-prompts/comparison.json",
+      "source_sha256": "92d6fdddd23fa352cb746230261b8fe8ee54eca17763bd170ed503053b2fffa0",
+      "export_sha256": "92d6fdddd23fa352cb746230261b8fe8ee54eca17763bd170ed503053b2fffa0",
+      "bytes": 427,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/cpu-load-attribution.json",
+      "path": "archive/isolated/native-swiglu-q8/cpu-load-attribution.json",
+      "source_sha256": "a5f6fa2114c5410786ef0183d8ecbcc45ae7aaa433ad3783bd84d54a14c2f4d1",
+      "export_sha256": "a5f6fa2114c5410786ef0183d8ecbcc45ae7aaa433ad3783bd84d54a14c2f4d1",
+      "bytes": 1203,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-coalesce16/dispatch-barrier-proof-regenerated.json",
+      "path": "archive/isolated/native-swiglu-q8/model-coalesce16/dispatch-barrier-proof-regenerated.json",
+      "source_sha256": "1d663aa8119ada1322025601a3cce45da07e2b176b23cce8a47abcd0f5bb56d9",
+      "export_sha256": "1d663aa8119ada1322025601a3cce45da07e2b176b23cce8a47abcd0f5bb56d9",
+      "bytes": 427,
+      "sanitized": false
     }
   ]
 }

@@ -56,3 +56,7 @@ The expanded-fusion 512-token off/adjacent/expanded comparison is now queued aft
 ## Deferred-only barrier follow-up
 
 The guarded barrier candidate passes focused four-quant tests and captured model audits at 16/136 groups. It removes 1159 recorded barriers with identical normalized dispatches; physical GPU savings remain unmeasured. The serial512 queue is updated to four matched-host modes including this candidate. See the [fusion report](NATIVE-FUSION.md#conditional-barrier-coalescing-and-planner-overhead).
+
+## Longer prompt and transfer-path follow-ups
+
+Two additional prompts pass six128-requested-token native/coalesced/bounded arms. SDMA opt-in passes144fresh-process transfer cases and the captured16-workgroup model audit; it remains experimental and separate from timing. A read-only load sample attributes most observed CPU activity to plasmashell. Timing remains pending under unchanged gates. See [fusion](NATIVE-FUSION.md) and [SDMA](SDMA.md) reports.

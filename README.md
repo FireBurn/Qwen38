@@ -12,6 +12,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 - [Native fusion rounding diagnosis and corrected audit](docs/NATIVE-FUSION.md).
 - [Measurement and reproduction requirements](docs/METHODOLOGY.md).
 - [Transfer-copy correctness investigation](docs/COPY-BUG.md).
+- [SDMA transfer-queue alternative and checks](docs/SDMA.md).
 - [Research and upstream references](docs/REFERENCES.md).
 - [Complete exported report index](docs/ARCHIVE-INDEX.md) and [machine-readable manifest](manifest.json).
 

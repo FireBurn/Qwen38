@@ -1,0 +1,74 @@
+[
+  {
+    "transfer_queue_optin": "false",
+    "copy_path_override": 0,
+    "cases": [
+      {
+        "pad": 42840,
+        "split": 1,
+        "bad_floats": 46,
+        "first": 34770,
+        "last": 34815
+      },
+      {
+        "pad": 42840,
+        "split": 1,
+        "bad_floats": 46,
+        "first": 34770,
+        "last": 34815
+      },
+      {
+        "pad": 42840,
+        "split": 2,
+        "bad_floats": 0,
+        "first": 0,
+        "last": 0
+      },
+      {
+        "pad": 42840,
+        "split": 1,
+        "bad_floats": 0,
+        "first": 0,
+        "last": 0
+      }
+    ],
+    "all_four_exact": false,
+    "scope": "Fresh-process transfer-only34816float repro at42840byteoffset, repeated/split pattern. Not a general copy fix or throughput result."
+  },
+  {
+    "transfer_queue_optin": "true",
+    "copy_path_override": 0,
+    "cases": [
+      {
+        "pad": 42840,
+        "split": 1,
+        "bad_floats": 0,
+        "first": 0,
+        "last": 0
+      },
+      {
+        "pad": 42840,
+        "split": 1,
+        "bad_floats": 0,
+        "first": 0,
+        "last": 0
+      },
+      {
+        "pad": 42840,
+        "split": 2,
+        "bad_floats": 0,
+        "first": 0,
+        "last": 0
+      },
+      {
+        "pad": 42840,
+        "split": 1,
+        "bad_floats": 0,
+        "first": 0,
+        "last": 0
+      }
+    ],
+    "all_four_exact": true,
+    "scope": "Fresh-process transfer-only34816float repro at42840byteoffset, repeated/split pattern. Not a general copy fix or throughput result."
+  }
+]

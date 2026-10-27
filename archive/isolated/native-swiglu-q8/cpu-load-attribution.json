@@ -1,0 +1,60 @@
+{
+  "scope": "Read-only two-second CPU attribution sample; no benchmark or process changes.",
+  "elapsed_seconds": 2.0163094190002084,
+  "online_cpu_count": 16,
+  "global_busy_fraction": 0.582089552238806,
+  "cpu_time_deltas_ticks": {
+    "user": 1820,
+    "nice": 0,
+    "system": 12,
+    "idle": 1316,
+    "iowait": 0,
+    "irq": 0,
+    "softirq": 1,
+    "steal": 0
+  },
+  "top_visible_processes": [
+    {
+      "pid": 568,
+      "name": "plasmashell",
+      "cpu_seconds": 18.96
+    },
+    {
+      "pid": 554,
+      "name": "kwin_wayland",
+      "cpu_seconds": 0.32
+    },
+    {
+      "pid": 7544,
+      "name": "codex",
+      "cpu_seconds": 0.16
+    },
+    {
+      "pid": 14148,
+      "name": "kworker/u64:4-gfx_0.1.0",
+      "cpu_seconds": 0.02
+    },
+    {
+      "pid": 17295,
+      "name": "python3",
+      "cpu_seconds": 0.02
+    },
+    {
+      "pid": 12,
+      "name": "kworker/u64:0-events_unbound",
+      "cpu_seconds": 0.01
+    },
+    {
+      "pid": 15,
+      "name": "rcu_sched",
+      "cpu_seconds": 0.01
+    },
+    {
+      "pid": 189,
+      "name": "napi/phy0-0",
+      "cpu_seconds": 0.01
+    }
+  ],
+  "global_busy_seconds": 18.33,
+  "visible_process_busy_seconds": 19.560000000000002
+}
