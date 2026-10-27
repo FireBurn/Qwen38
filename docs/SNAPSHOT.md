@@ -50,3 +50,5 @@ The earlier failure above is retained as history. Matching native’s `glslc -O`
 ## Metadata-node fusion coverage
 
 An opt-in planner extension increases target coverage from 14 to 56 pairs per graph. Captured model audits pass at 16 and 136 workgroups with and without the bounded head. No throughput result yet. See the [expanded coverage report](NATIVE-FUSION.md#expanded-coverage-across-metadata-nodes).
+
+The expanded-fusion 512-token off/adjacent/expanded comparison is now queued after the standalone component test. Neither has a timing result yet; the follow-up requires a complete valid predecessor result before starting.
