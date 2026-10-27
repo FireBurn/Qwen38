@@ -1,0 +1,17 @@
+{
+  "means": {
+    "reference": 20.1926515,
+    "shader-off": 19.9101175,
+    "fused": 19.8200535
+  },
+  "fused_vs_reference_percent": -1.845215820220536,
+  "fused_vs_shader_off_percent": -0.45235293061428594,
+  "drift_percent": {
+    "reference": 1.8533891917612122,
+    "shader-off": 0.3689743131732981,
+    "fused": 1.1588167914991399
+  },
+  "max_repeat_rsd_percent": 2.034994860948735,
+  "scope": "Fullmodel4K n256/r4 symmetric3arm under external compile. No native-base or quiet-system claim.",
+  "decision": "No fullmodel gain established. Measured -1.845% versusreference and -0.452% versusshaderoff underexternalcompilation. Reference1.853%drift andmaxRSD2.035% make smallchanges inconclusive; retainreference, do not discardfocusedGPUgain asdisproven."
+}

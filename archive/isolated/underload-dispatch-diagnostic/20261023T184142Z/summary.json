@@ -1,0 +1,34 @@
+{
+  "means": {
+    "no-ts": 19.4918095,
+    "ts": 19.7246755
+  },
+  "timestamp_effect_percent": 1.1946864143116187,
+  "dispatch_diagnostics": [
+    {
+      "label": "01-ts",
+      "timestamp_reports": 32,
+      "last256_gpu_ms_per_graph": 36.565,
+      "last256_segments_per_graph": 18.900000000000006,
+      "instrumented_mean_token_ms": 49.83117198930025,
+      "gpu_to_mean_token_ms_ratio": 0.7337776443999999,
+      "warning": "GPU last256-graph window and benchmark mean are not matched windows. Ratio is descriptive, not exact host overhead."
+    },
+    {
+      "label": "02-ts",
+      "timestamp_reports": 32,
+      "last256_gpu_ms_per_graph": 36.48699999999998,
+      "last256_segments_per_graph": 18.900000000000006,
+      "instrumented_mean_token_ms": 51.59535148585067,
+      "gpu_to_mean_token_ms_ratio": 0.7071761108169996,
+      "warning": "GPU last256-graph window and benchmark mean are not matched windows. Ratio is descriptive, not exact host overhead."
+    }
+  ],
+  "scope": "Reference-only timestamp off/on/on/off, n256/r4, under compile load. Diagnostic, not optimization or native speed claim.",
+  "drift_percent": {
+    "no-ts": 3.950256452270917,
+    "ts": 3.4192605452726177
+  },
+  "max_repeat_rsd_percent": 2.437524349781192,
+  "interpretation": "Timestamp throughput effect smaller than control drift and repeat variation; no speed gain. GPU dispatch excludes preceding tape upload/counter clear/API barriers and native fallback. Coverage audit required before interpreting remainder."
+}

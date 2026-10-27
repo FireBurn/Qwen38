@@ -1,0 +1,22 @@
+# Occupancy discovery: research lead, not a tested Vulkan change
+
+Primary source: Sorensen et al., OOPSLA 2016, [author publication page](https://soarlab.org/publications/2016_oopsla_sdbgr/), [paper](https://www.doc.ic.ac.uk/~afd/papers/2016/OOPSLA.pdf), DOI10.1145/3022671.2984032. Search snippets incorrectly described this old paper as recent; bibliographic page and PDF establish2016.
+
+The authors discover a participating set at kernel startup, then synchronize only that set. Their correctness argument depends on an occupancy-bound execution model and OpenCL2 atomic memory ordering. They evaluate eight devices and report platform/workload-dependent overhead. This is a useful formal starting point, not evidence of an R9700/Vulkan speedup or a guarantee for a new Vulkan implementation.
+
+Our hypothesis: the existing conservative192WG launch versus source-derived256resident bound leaves headroom intentionally. Discovery might eventually use more available occupancy while excluding late groups from grid barriers. Do not simply raise the fixed grid, remove the64WG margin, or assume the OpenCL proof automatically transfers to Vulkan/RADV under graphics/preemption. First audit assumptions, atomics, subgroup/WG handoff and actual resource limits; protocol overhead is paid per mega dispatch (currently20targetsegments), and low discovery recall could hurt speed.
+
+No implementation or larger-grid test has been run for this research lead. A future experiment must start at<=16physicalWGs and preserve frozen native outputs, kernel-resource gates and full MTP audits. Keep production/current baseline unchanged.
+
+Alternative own design hypothesis: task-completion epochs whose counts describe actual virtual work rather than all launched physical groups could avoid waiting for unadmitted groups. This would require replacing every static physical-ID partition and single-phys0 shortcut, preserving marker-level dependencies and release/acquire publication. It is a large scheduler redesign, not a local barrier edit, and has no correctness or performance qualification.
+
+
+Local source audit: `rg -n 'gl_WorkGroupID|gl_NumWorkGroups' isolated/mk/gen/operator_only_mtp_all_f32.comp` finds only main's phys/nphys initialization. This makes a participating-ID/count adapter worth studying; all shortcuts such as phys==0 must use normalized IDs, including guaranteedparticipant0. Shared publication must preserve subgroup-uniform descriptor indexing (for example an explicit subgroupBroadcastFirst after WG-uniform shared initialization), and counter pad fields must not overlap grid arrival/dynamic counters. No such adapter exists yet. Before any higher admission cap, validate protocol execution assumptions rather than treating an occupancy formula or one successful run as a safety proof.
+
+## Next concrete experiment (not implemented)
+
+Start from the qualified parent and a hard participating cap16, physical launch16. Model-check admission/closing critical sections before GPU work: unique contiguous IDs, count<=cap, at leastoneparticipant, stable identical count after closure. Such a CPU model does not prove GPU progress or memory ordering. Audit the paper's ticket-lock protocol against [Vulkan memory model](https://docs.vulkan.org/spec/latest/appendices/memorymodel.html) and the actual generated SPIR-V memory model/capabilities; do not equate the paper's OpenCL proof with Vulkan support.
+
+Potential counter storage: existing CntBR pad[0..3] at bytes4..19, separated from grid arrival v at0 and dyn at256. Current host clears the entire prefix before dispatch (including segment-counter setup). Verify this invariant in the derived host. Keep all shared admission publication inside existing LDS size, then broadcast uniform scalars per subgroup before the main operator loop. All nonparticipants return as a complete workgroup before grid barriers.
+
+For observability, a separate private host test API could read the counter prefix after backend synchronization (using an already-loaded global symbol lookup, avoiding the duplicate-image readback issue documented in the gate/up experiments). Check ticket head==tail==physicalgroups+participants, closed==1, participantcount in1..16, and gridarrival divisible by participantcount; add exact outputs/packed bytes plus tail/bias and full MTP audits. These checks are diagnostics, not a forward-progress proof. No larger physical launch or admission cap is part of the initial experiment.

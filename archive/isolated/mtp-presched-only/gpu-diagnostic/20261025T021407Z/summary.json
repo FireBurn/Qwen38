@@ -1,0 +1,14 @@
+{
+  "means_gpu_ms_per_graph": {
+    "default192": 0.8345,
+    "pre192": 0.8194999999999999,
+    "pre256": 0.8194999999999999
+  },
+  "time_reduction_percent": 1.7974835230677222,
+  "drift_percent": {
+    "default192": 5.036855036855048,
+    "pre192": 0.12210012210012167,
+    "pre256": 0.12195121951219523
+  },
+  "scope": "Same FA-free matrix graph. Private same-driver default192/pre192/pre256 controls; pre disables onlypreRA, ILP/VOPD kept. First16WG resource72VGPR/2KiBLDS/0scratch;256groups retains64spare ofsource-derived320. Under-load diagnostic, not fullmodel or unifiedFA endpoint."
+}

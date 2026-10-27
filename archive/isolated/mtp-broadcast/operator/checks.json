@@ -1,0 +1,77 @@
+[
+  {
+    "columns": 2,
+    "mode": "native",
+    "phases": 4,
+    "graphs": 160,
+    "groups": 16,
+    "last32_native_ops": 64,
+    "native_keys": [
+      "add_f32_f32_f32|0,",
+      "softplus_mul_f32|0,0,"
+    ],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  },
+  {
+    "columns": 2,
+    "mode": "prototype",
+    "phases": 4,
+    "graphs": 160,
+    "groups": 16,
+    "last32_native_ops": 0,
+    "native_keys": [],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  },
+  {
+    "columns": 37,
+    "mode": "native",
+    "phases": 4,
+    "graphs": 160,
+    "groups": 16,
+    "last32_native_ops": 64,
+    "native_keys": [
+      "add_f32_f32_f32|0,",
+      "softplus_mul_f32|0,0,"
+    ],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  },
+  {
+    "columns": 37,
+    "mode": "prototype",
+    "phases": 4,
+    "graphs": 160,
+    "groups": 16,
+    "last32_native_ops": 0,
+    "native_keys": [],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  },
+  {
+    "columns": 1,
+    "mode": "native",
+    "phases": 4,
+    "graphs": 160,
+    "groups": 16,
+    "last32_native_ops": 64,
+    "native_keys": [
+      "add_f32_f32_f32_norepeat|1,",
+      "softplus_mul_f32_norepeat|1,0,"
+    ],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  },
+  {
+    "columns": 1,
+    "mode": "prototype",
+    "phases": 4,
+    "graphs": 160,
+    "groups": 16,
+    "last32_native_ops": 0,
+    "native_keys": [],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  }
+]

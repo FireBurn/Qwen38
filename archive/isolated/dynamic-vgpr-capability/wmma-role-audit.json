@@ -1,0 +1,2660 @@
+{
+  "rows": [
+    {
+      "mode": "installed",
+      "wmma_count": 32,
+      "A_B_width_eligible_operands": 0,
+      "wide_physically_tied_C_sites": 15,
+      "wide_tied_C_start_bank_collisions_with_A_B": 0,
+      "instructions": [
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              82,
+              83
+            ],
+            [
+              6,
+              7
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              86,
+              87
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              87,
+              88
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            89,
+            92
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              84,
+              85
+            ],
+            [
+              89,
+              92
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            43,
+            44
+          ],
+          "sources": [
+            [
+              8,
+              9
+            ],
+            [
+              61,
+              62
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            43,
+            44
+          ],
+          "sources": [
+            [
+              87,
+              88
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              43,
+              44
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            43,
+            44
+          ],
+          "sources": [
+            [
+              8,
+              9
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              43,
+              44
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            43,
+            44
+          ],
+          "sources": [
+            [
+              87,
+              88
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              43,
+              44
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            87,
+            88
+          ],
+          "sources": [
+            [
+              8,
+              9
+            ],
+            [
+              29,
+              30
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            87,
+            88
+          ],
+          "sources": [
+            [
+              43,
+              44
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              87,
+              88
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            87,
+            88
+          ],
+          "sources": [
+            [
+              8,
+              9
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              87,
+              88
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            87,
+            88
+          ],
+          "sources": [
+            [
+              43,
+              44
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              87,
+              88
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            87,
+            88
+          ],
+          "sources": [
+            [
+              8,
+              9
+            ],
+            [
+              29,
+              30
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            87,
+            88
+          ],
+          "sources": [
+            [
+              43,
+              44
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              87,
+              88
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            87,
+            88
+          ],
+          "sources": [
+            [
+              8,
+              9
+            ],
+            [
+              29,
+              30
+            ],
+            [
+              87,
+              88
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            87,
+            88
+          ],
+          "sources": [
+            [
+              43,
+              44
+            ],
+            [
+              61,
+              62
+            ],
+            [
+              87,
+              88
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            29,
+            30
+          ],
+          "sources": [
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            29,
+            30
+          ],
+          "sources": [
+            [
+              61,
+              62
+            ],
+            [
+              81,
+              82
+            ],
+            [
+              29,
+              30
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            29,
+            30
+          ],
+          "sources": [
+            [
+              87,
+              88
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              29,
+              30
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            29,
+            30
+          ],
+          "sources": [
+            [
+              8,
+              9
+            ],
+            [
+              43,
+              44
+            ],
+            [
+              29,
+              30
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "private-off",
+      "wmma_count": 32,
+      "A_B_width_eligible_operands": 0,
+      "wide_physically_tied_C_sites": 15,
+      "wide_tied_C_start_bank_collisions_with_A_B": 8,
+      "instructions": [
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              90,
+              91
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              75,
+              76
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              84,
+              85
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              86,
+              87
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              90,
+              91
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              90,
+              91
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              90,
+              91
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              90,
+              91
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              86,
+              87
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              76,
+              77
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              75,
+              76
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              19,
+              20
+            ],
+            [
+              73,
+              74
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              74,
+              75
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              82,
+              83
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              74,
+              75
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              82,
+              83
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              74,
+              75
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              82,
+              83
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            90,
+            91
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            90,
+            91
+          ],
+          "sources": [
+            [
+              74,
+              75
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              90,
+              91
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            90,
+            91
+          ],
+          "sources": [
+            [
+              82,
+              83
+            ],
+            [
+              84,
+              85
+            ],
+            [
+              90,
+              91
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            90,
+            91
+          ],
+          "sources": [
+            [
+              86,
+              87
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              90,
+              91
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "private-on",
+      "wmma_count": 32,
+      "A_B_width_eligible_operands": 0,
+      "wide_physically_tied_C_sites": 15,
+      "wide_tied_C_start_bank_collisions_with_A_B": 8,
+      "instructions": [
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              90,
+              91
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              75,
+              76
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              84,
+              85
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              86,
+              87
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              90,
+              91
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              90,
+              91
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              90,
+              91
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              90,
+              91
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              86,
+              87
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              76,
+              77
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              72,
+              73
+            ],
+            [
+              75,
+              76
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f32_16x16x16_f16",
+          "destination": [
+            22,
+            25
+          ],
+          "sources": [
+            [
+              19,
+              20
+            ],
+            [
+              73,
+              74
+            ],
+            [
+              22,
+              25
+            ]
+          ],
+          "wide_destination": true,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              74,
+              75
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              82,
+              83
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              74,
+              75
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              82,
+              83
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              74,
+              75
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              82,
+              83
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            19,
+            20
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ],
+            [
+              19,
+              20
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            90,
+            91
+          ],
+          "sources": [
+            [
+              24,
+              25
+            ],
+            [
+              72,
+              73
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": false,
+          "C_start_bank_matches_A_or_B": false,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            90,
+            91
+          ],
+          "sources": [
+            [
+              74,
+              75
+            ],
+            [
+              78,
+              79
+            ],
+            [
+              90,
+              91
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            90,
+            91
+          ],
+          "sources": [
+            [
+              82,
+              83
+            ],
+            [
+              84,
+              85
+            ],
+            [
+              90,
+              91
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        },
+        {
+          "opcode": "v_wmma_f16_16x16x16_f16",
+          "destination": [
+            90,
+            91
+          ],
+          "sources": [
+            [
+              86,
+              87
+            ],
+            [
+              88,
+              89
+            ],
+            [
+              90,
+              91
+            ]
+          ],
+          "wide_destination": false,
+          "physical_C_equals_destination": true,
+          "C_start_bank_matches_A_or_B": true,
+          "A_B_width_eligible": [
+            false,
+            false
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": "Captured static physical allocation versus LLVM PR205530 candidate width and start-bank heuristic. No hardware bank-stall measurement and no proof of its pre-RA virtual-register predicate. The patch checks per-register width; a source-width-only dismissal would be incorrect."
+}

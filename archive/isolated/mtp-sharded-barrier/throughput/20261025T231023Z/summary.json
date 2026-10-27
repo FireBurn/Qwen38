@@ -1,0 +1,25 @@
+{
+  "means_tokens_per_second": {
+    "native24": 30.21,
+    "native_rms": 24.0195,
+    "sharded": 25.529
+  },
+  "control_drift_percent": {
+    "native24": 8.845861807137434,
+    "native_rms": 0.7144647781398783,
+    "sharded": 13.684133703109037
+  },
+  "relative_to_native_percent": {
+    "native24": 0.0,
+    "native_rms": -20.491559086395227,
+    "sharded": -15.49486924859318
+  },
+  "relative_to_native_order_mega_percent": {
+    "native24": 25.772809592206336,
+    "native_rms": 0.0,
+    "sharded": 6.284477195611893
+  },
+  "all_tokens_identical": true,
+  "acceptance_counters_identical": true,
+  "scope": "Original asynchronous MTP pipeline. Symmetric6run sharded barrier diagnostic under external compilation; same core/Q8policy/driver. No quiet/adoption claim."
+}

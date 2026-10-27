@@ -1,0 +1,200 @@
+[
+  {
+    "groups": 1,
+    "columns": 1,
+    "cases": 10,
+    "coarse_scores_bounded": true,
+    "bin_winners_exact": true,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_select_bins": {
+        "Driver pipeline hash": 16573682635202133287,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 516,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 54891866,
+        "Instructions": 101,
+        "Copies": 13,
+        "Branches": 4,
+        "Latency": 13613,
+        "Inverse Throughput": 1156,
+        "VMEM Clause": 2,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 13
+      }
+    },
+    "scope": "Graph-integrated bin selector over synthetic131-row F32 scores, zeros/ties/infinities/scaled/separate query winners; graph consumer and explicit prefix/suffix output guards. No head or speed claim."
+  },
+  {
+    "groups": 1,
+    "columns": 2,
+    "cases": 10,
+    "coarse_scores_bounded": true,
+    "bin_winners_exact": true,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_select_bins": {
+        "Driver pipeline hash": 16573682635202133287,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 516,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 54891866,
+        "Instructions": 101,
+        "Copies": 13,
+        "Branches": 4,
+        "Latency": 13613,
+        "Inverse Throughput": 1156,
+        "VMEM Clause": 2,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 13
+      }
+    },
+    "scope": "Graph-integrated bin selector over synthetic131-row F32 scores, zeros/ties/infinities/scaled/separate query winners; graph consumer and explicit prefix/suffix output guards. No head or speed claim."
+  },
+  {
+    "groups": 4,
+    "columns": 1,
+    "cases": 10,
+    "coarse_scores_bounded": true,
+    "bin_winners_exact": true,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_select_bins": {
+        "Driver pipeline hash": 16573682635202133287,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 516,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 54891866,
+        "Instructions": 101,
+        "Copies": 13,
+        "Branches": 4,
+        "Latency": 13613,
+        "Inverse Throughput": 1156,
+        "VMEM Clause": 2,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 13
+      }
+    },
+    "scope": "Graph-integrated bin selector over synthetic131-row F32 scores, zeros/ties/infinities/scaled/separate query winners; graph consumer and explicit prefix/suffix output guards. No head or speed claim."
+  },
+  {
+    "groups": 4,
+    "columns": 2,
+    "cases": 10,
+    "coarse_scores_bounded": true,
+    "bin_winners_exact": true,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_select_bins": {
+        "Driver pipeline hash": 16573682635202133287,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 516,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 54891866,
+        "Instructions": 101,
+        "Copies": 13,
+        "Branches": 4,
+        "Latency": 13613,
+        "Inverse Throughput": 1156,
+        "VMEM Clause": 2,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 13
+      }
+    },
+    "scope": "Graph-integrated bin selector over synthetic131-row F32 scores, zeros/ties/infinities/scaled/separate query winners; graph consumer and explicit prefix/suffix output guards. No head or speed claim."
+  },
+  {
+    "groups": 16,
+    "columns": 1,
+    "cases": 10,
+    "coarse_scores_bounded": true,
+    "bin_winners_exact": true,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_select_bins": {
+        "Driver pipeline hash": 16573682635202133287,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 516,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 54891866,
+        "Instructions": 101,
+        "Copies": 13,
+        "Branches": 4,
+        "Latency": 13613,
+        "Inverse Throughput": 1156,
+        "VMEM Clause": 2,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 13
+      }
+    },
+    "scope": "Graph-integrated bin selector over synthetic131-row F32 scores, zeros/ties/infinities/scaled/separate query winners; graph consumer and explicit prefix/suffix output guards. No head or speed claim."
+  },
+  {
+    "groups": 16,
+    "columns": 2,
+    "cases": 10,
+    "coarse_scores_bounded": true,
+    "bin_winners_exact": true,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_select_bins": {
+        "Driver pipeline hash": 16573682635202133287,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 516,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 54891866,
+        "Instructions": 101,
+        "Copies": 13,
+        "Branches": 4,
+        "Latency": 13613,
+        "Inverse Throughput": 1156,
+        "VMEM Clause": 2,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 13
+      }
+    },
+    "scope": "Graph-integrated bin selector over synthetic131-row F32 scores, zeros/ties/infinities/scaled/separate query winners; graph consumer and explicit prefix/suffix output guards. No head or speed claim."
+  }
+]

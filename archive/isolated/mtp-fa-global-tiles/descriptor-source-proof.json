@@ -1,0 +1,9 @@
+{
+  "parent_sha256": "169fdb3bb2fbf5bc053ac91890ac0703a1ea17d54c7f06ae869475bfebe8a6fe",
+  "source_sha256": "0c33f4318f33f5458d771bee854e37307a25767712fc06c635be279494d9133a",
+  "host_source": "isolated/q8-two-column-f32/ggml-vulkan.cpp",
+  "host_source_sha256": "a9119b01c1c1df4984d8259916bd876bdc6d15c67198852c9b25aa9f1e858d69",
+  "slot": 0,
+  "tile_base_vec4": 4194304,
+  "scope": "Uncompiled follow-up changes only scratch addressing: rowwise Q/P use existing view28[0] scratch descriptor instead of physical buffer reference; same32MiB byte base, perWGstride, barriers and arithmetic. Host fills all slots with1GiB scratch, reserveszero key atslot0, allocates real descriptors fromnext_slot1. Need compiled resource and numerical checks; not a demonstrated improvement."
+}

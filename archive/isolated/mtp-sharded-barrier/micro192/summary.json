@@ -1,0 +1,12 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference": 0.16243749999999998,
+    "sharded": 0.164
+  },
+  "time_reduction_percent": -0.9619084263178257,
+  "drift_percent": {
+    "reference": 0.6949806949806847,
+    "sharded": 1.2121212121212421
+  },
+  "scope": "Twelve dependent scale/RMS stages, six patterns, 128 iterations per pattern; dispatch timestamps under external compile. Not full model token speed. Clock and control drift must qualify interpretation."
+}

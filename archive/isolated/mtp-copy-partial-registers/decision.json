@@ -1,0 +1,6 @@
+{
+  "adopt": false,
+  "reason": "Separating pipeline andpartialthreadregister packets did not change copy corruption in matchedparent/candidate tests. Bothlost46floatsfirsttwofullcopies.",
+  "root_cause": "Unresolved; duplicatepacketwrites hypothesis not supported bythisexperiment.",
+  "driver_use": "Do notusecandidate for performance or modeltests."
+}

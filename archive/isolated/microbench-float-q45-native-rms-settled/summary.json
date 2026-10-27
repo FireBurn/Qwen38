@@ -1,0 +1,12 @@
+{
+  "means": {
+    "control": 29.7532235,
+    "candidate": 29.2264695
+  },
+  "improvement_percent": -1.7704098515577638,
+  "quality_scope": "Both128-token fixed-text contexts satisfy specified conditional-loss/KL/argmax diagnostic gates; not corpus-wide quality validation.",
+  "control_drift_percent": 0.2848032899295805,
+  "max_repeat_stddev_percent": 0.24748410557765396,
+  "accepted_as_improvement": false,
+  "decision": "Reject for throughput: -1.7704%; no fuller benchmark or promotion."
+}

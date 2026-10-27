@@ -1,0 +1,710 @@
+[
+  {
+    "groups": 16,
+    "columns": 1,
+    "records": [
+      {
+        "record": 0,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 1269,
+        "seed": 760,
+        "winner": 760
+      },
+      {
+        "record": 1,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6336,
+        "seed": 760,
+        "winner": 760
+      },
+      {
+        "record": 2,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 3,
+        "seed": 314,
+        "winner": 314
+      },
+      {
+        "record": 3,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 8,
+        "seed": 314,
+        "winner": 314
+      },
+      {
+        "record": 4,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 10,
+        "seed": 11,
+        "winner": 11
+      },
+      {
+        "record": 5,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 24,
+        "seed": 264,
+        "winner": 264
+      },
+      {
+        "record": 6,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 26,
+        "seed": 733,
+        "winner": 733
+      },
+      {
+        "record": 7,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6,
+        "seed": 411,
+        "winner": 411
+      },
+      {
+        "record": 8,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 32,
+        "seed": 19825,
+        "winner": 19825
+      },
+      {
+        "record": 9,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 57,
+        "seed": 11690,
+        "winner": 11690
+      },
+      {
+        "record": 10,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 35,
+        "seed": 780,
+        "winner": 780
+      },
+      {
+        "record": 11,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 50,
+        "seed": 9704,
+        "winner": 9704
+      },
+      {
+        "record": 12,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6,
+        "seed": 13,
+        "winner": 13
+      },
+      {
+        "record": 13,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 40,
+        "seed": 279,
+        "winner": 279
+      },
+      {
+        "record": 14,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 24,
+        "seed": 4486,
+        "winner": 4486
+      },
+      {
+        "record": 15,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 29,
+        "seed": 279,
+        "winner": 279
+      }
+    ],
+    "gpu_sparse_scores_native_bit_exact": true,
+    "compaction_ids_and_guards_exact": true,
+    "empty_and_all_survivors_full_vocabulary_pass": true,
+    "compacted_gpu_reduction_exact": true,
+    "final_gpu_argmax_exact": true,
+    "all_248320_native_head_scores_bit_identical": true,
+    "all_gpu_upper_and_seed_lower_bounds_valid": true,
+    "all_original_winners_retained": true,
+    "keys": [
+      "abs_f32|",
+      "add_f32_f32_f32_norepeat|1,",
+      "argmax_f32|64,",
+      "get_rows_f32_f32|",
+      "get_rows_q8_0_f32|",
+      "mul_f32_f32_f32_norepeat|1,",
+      "mul_f32_f32_f32|0,",
+      "mul_mat_vec_q4_0_f32_f32|64,2,1,",
+      "mul_mat_vec_q8_0_f32_f32|64,1,1,",
+      "repeat_i32|",
+      "scale_f32|",
+      "sqr_f32|",
+      "sqrt_f32|",
+      "step_f32|",
+      "sub_f32_f32_f32_norepeat|1,",
+      "sum_rows_f32|64,"
+    ],
+    "scope": "Full-vocabulary head/filter validation on16saved native states. Original dense Q8 computed for checking only; GPU compaction/sparse Q8/final argmax validated, including full empty/all-survivor cases. No performance or model integration claim."
+  },
+  {
+    "groups": 16,
+    "columns": 2,
+    "records": [
+      {
+        "record": 0,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 1269,
+        "seed": 760,
+        "winner": 760
+      },
+      {
+        "record": 1,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6336,
+        "seed": 760,
+        "winner": 760
+      },
+      {
+        "record": 2,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 3,
+        "seed": 314,
+        "winner": 314
+      },
+      {
+        "record": 3,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 8,
+        "seed": 314,
+        "winner": 314
+      },
+      {
+        "record": 4,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 10,
+        "seed": 11,
+        "winner": 11
+      },
+      {
+        "record": 5,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 24,
+        "seed": 264,
+        "winner": 264
+      },
+      {
+        "record": 6,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 26,
+        "seed": 733,
+        "winner": 733
+      },
+      {
+        "record": 7,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6,
+        "seed": 411,
+        "winner": 411
+      },
+      {
+        "record": 8,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 32,
+        "seed": 19825,
+        "winner": 19825
+      },
+      {
+        "record": 9,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 57,
+        "seed": 11690,
+        "winner": 11690
+      },
+      {
+        "record": 10,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 35,
+        "seed": 780,
+        "winner": 780
+      },
+      {
+        "record": 11,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 50,
+        "seed": 9704,
+        "winner": 9704
+      },
+      {
+        "record": 12,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6,
+        "seed": 13,
+        "winner": 13
+      },
+      {
+        "record": 13,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 40,
+        "seed": 279,
+        "winner": 279
+      },
+      {
+        "record": 14,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 24,
+        "seed": 4486,
+        "winner": 4486
+      },
+      {
+        "record": 15,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 29,
+        "seed": 279,
+        "winner": 279
+      }
+    ],
+    "gpu_sparse_scores_native_bit_exact": true,
+    "compaction_ids_and_guards_exact": true,
+    "empty_and_all_survivors_full_vocabulary_pass": true,
+    "compacted_gpu_reduction_exact": true,
+    "final_gpu_argmax_exact": true,
+    "all_248320_native_head_scores_bit_identical": true,
+    "all_gpu_upper_and_seed_lower_bounds_valid": true,
+    "all_original_winners_retained": true,
+    "keys": [
+      "abs_f32|",
+      "add_f32_f32_f32_norepeat|1,",
+      "argmax_f32|64,",
+      "get_rows_f32_f32|",
+      "get_rows_q8_0_f32|",
+      "mul_f32_f32_f32_norepeat|1,",
+      "mul_f32_f32_f32|0,",
+      "mul_mat_vec_q4_0_f32_f32|64,2,2,",
+      "mul_mat_vec_q8_0_f32_f32|64,1,2,",
+      "repeat_i32|",
+      "scale_f32|",
+      "sqr_f32|",
+      "sqrt_f32|",
+      "step_f32|",
+      "sub_f32_f32_f32_norepeat|1,",
+      "sum_rows_f32|64,"
+    ],
+    "scope": "Full-vocabulary head/filter validation on16saved native states. Original dense Q8 computed for checking only; GPU compaction/sparse Q8/final argmax validated, including full empty/all-survivor cases. No performance or model integration claim."
+  },
+  {
+    "groups": 192,
+    "columns": 1,
+    "records": [
+      {
+        "record": 0,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 1269,
+        "seed": 760,
+        "winner": 760
+      },
+      {
+        "record": 1,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6336,
+        "seed": 760,
+        "winner": 760
+      },
+      {
+        "record": 2,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 3,
+        "seed": 314,
+        "winner": 314
+      },
+      {
+        "record": 3,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 8,
+        "seed": 314,
+        "winner": 314
+      },
+      {
+        "record": 4,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 10,
+        "seed": 11,
+        "winner": 11
+      },
+      {
+        "record": 5,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 24,
+        "seed": 264,
+        "winner": 264
+      },
+      {
+        "record": 6,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 26,
+        "seed": 733,
+        "winner": 733
+      },
+      {
+        "record": 7,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6,
+        "seed": 411,
+        "winner": 411
+      },
+      {
+        "record": 8,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 32,
+        "seed": 19825,
+        "winner": 19825
+      },
+      {
+        "record": 9,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 57,
+        "seed": 11690,
+        "winner": 11690
+      },
+      {
+        "record": 10,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 35,
+        "seed": 780,
+        "winner": 780
+      },
+      {
+        "record": 11,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 50,
+        "seed": 9704,
+        "winner": 9704
+      },
+      {
+        "record": 12,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6,
+        "seed": 13,
+        "winner": 13
+      },
+      {
+        "record": 13,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 40,
+        "seed": 279,
+        "winner": 279
+      },
+      {
+        "record": 14,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 24,
+        "seed": 4486,
+        "winner": 4486
+      },
+      {
+        "record": 15,
+        "columns": 1,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 29,
+        "seed": 279,
+        "winner": 279
+      }
+    ],
+    "gpu_sparse_scores_native_bit_exact": true,
+    "compaction_ids_and_guards_exact": true,
+    "empty_and_all_survivors_full_vocabulary_pass": true,
+    "compacted_gpu_reduction_exact": true,
+    "final_gpu_argmax_exact": true,
+    "all_248320_native_head_scores_bit_identical": true,
+    "all_gpu_upper_and_seed_lower_bounds_valid": true,
+    "all_original_winners_retained": true,
+    "keys": [
+      "abs_f32|",
+      "add_f32_f32_f32_norepeat|1,",
+      "argmax_f32|64,",
+      "get_rows_f32_f32|",
+      "get_rows_q8_0_f32|",
+      "mul_f32_f32_f32_norepeat|1,",
+      "mul_f32_f32_f32|0,",
+      "mul_mat_vec_q4_0_f32_f32|64,2,1,",
+      "mul_mat_vec_q8_0_f32_f32|64,1,1,",
+      "repeat_i32|",
+      "scale_f32|",
+      "sqr_f32|",
+      "sqrt_f32|",
+      "step_f32|",
+      "sub_f32_f32_f32_norepeat|1,",
+      "sum_rows_f32|64,"
+    ],
+    "scope": "Full-vocabulary head/filter validation on16saved native states. Original dense Q8 computed for checking only; GPU compaction/sparse Q8/final argmax validated, including full empty/all-survivor cases. No performance or model integration claim."
+  },
+  {
+    "groups": 192,
+    "columns": 2,
+    "records": [
+      {
+        "record": 0,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 1269,
+        "seed": 760,
+        "winner": 760
+      },
+      {
+        "record": 1,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6336,
+        "seed": 760,
+        "winner": 760
+      },
+      {
+        "record": 2,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 3,
+        "seed": 314,
+        "winner": 314
+      },
+      {
+        "record": 3,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 8,
+        "seed": 314,
+        "winner": 314
+      },
+      {
+        "record": 4,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 10,
+        "seed": 11,
+        "winner": 11
+      },
+      {
+        "record": 5,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 24,
+        "seed": 264,
+        "winner": 264
+      },
+      {
+        "record": 6,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 26,
+        "seed": 733,
+        "winner": 733
+      },
+      {
+        "record": 7,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6,
+        "seed": 411,
+        "winner": 411
+      },
+      {
+        "record": 8,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 32,
+        "seed": 19825,
+        "winner": 19825
+      },
+      {
+        "record": 9,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 57,
+        "seed": 11690,
+        "winner": 11690
+      },
+      {
+        "record": 10,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 35,
+        "seed": 780,
+        "winner": 780
+      },
+      {
+        "record": 11,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 50,
+        "seed": 9704,
+        "winner": 9704
+      },
+      {
+        "record": 12,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 6,
+        "seed": 13,
+        "winner": 13
+      },
+      {
+        "record": 13,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 40,
+        "seed": 279,
+        "winner": 279
+      },
+      {
+        "record": 14,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 24,
+        "seed": 4486,
+        "winner": 4486
+      },
+      {
+        "record": 15,
+        "columns": 2,
+        "different_words": 0,
+        "max_error": 0.0,
+        "survivors": 29,
+        "seed": 279,
+        "winner": 279
+      }
+    ],
+    "gpu_sparse_scores_native_bit_exact": true,
+    "compaction_ids_and_guards_exact": true,
+    "empty_and_all_survivors_full_vocabulary_pass": true,
+    "compacted_gpu_reduction_exact": true,
+    "final_gpu_argmax_exact": true,
+    "all_248320_native_head_scores_bit_identical": true,
+    "all_gpu_upper_and_seed_lower_bounds_valid": true,
+    "all_original_winners_retained": true,
+    "keys": [
+      "abs_f32|",
+      "add_f32_f32_f32_norepeat|1,",
+      "argmax_f32|64,",
+      "get_rows_f32_f32|",
+      "get_rows_q8_0_f32|",
+      "mul_f32_f32_f32_norepeat|1,",
+      "mul_f32_f32_f32|0,",
+      "mul_mat_vec_q4_0_f32_f32|64,2,2,",
+      "mul_mat_vec_q8_0_f32_f32|64,1,2,",
+      "repeat_i32|",
+      "scale_f32|",
+      "sqr_f32|",
+      "sqrt_f32|",
+      "step_f32|",
+      "sub_f32_f32_f32_norepeat|1,",
+      "sum_rows_f32|64,"
+    ],
+    "scope": "Full-vocabulary head/filter validation on16saved native states. Original dense Q8 computed for checking only; GPU compaction/sparse Q8/final argmax validated, including full empty/all-survivor cases. No performance or model integration claim."
+  }
+]

@@ -1,0 +1,23 @@
+# Private ACO cross-descriptor load clauses
+
+Correctness qualified; no throughput result or promotion. Current reference unchanged.
+
+Private Mesa335d5698 source copy includes the previously tested nearest-containing-WMMA LICM filter, which differs from the installed broaderLICM patch. Compare this new binary off/on to isolate the new policy, and compare its on mode to installed reference separately. All changes are AMD-only, six files, no generated source comments/commits/GitLab activity. Installed driver and Claude sources untouched. Build completed nice15/ninja-j2 ThinLTO, with current Clang23/libc++ and native CPU tuning. Immutable driver SHAabb4efb084228b87fbd944db441b16b70f74358bcc14489708d226e2d1fff5fd, linked SPIRVTools SHA36eb432ff17105d9e76d8073c99e10891e1d8363cba6d116ed8abcd8fd78e047; other system dependencies not frozen.
+
+Only post-RA schedule_ilp opts into cross-descriptor MUBUF load clauses. Original dependency/physical-register/barrier checks remain; no new store/atomic permission, FP math/cache-hint/fence or pre-RA budget change. Per-Program policy defaults false and is propagated consistently to waitcnt, hardware clauses and statistics. No thread/global mutable policy.
+
+Enable only with decimal ACO_CROSS_DESC_ENABLE=1, BLOCKS=5865, LDS=15696, VGPRS=96, FINGERPRINT=9762511250236915174 (all keys prefixed ACO_CROSS_DESC_). Additional gfx12/wave64/WG256/large compute guards apply. The fingerprint is the post-RA opcode/format sequence with block indices, not a cryptographic input hash. Missing/mismatched fields disable it. Shader-cache key does not include these environment variables: disable cache for probes, use unique separate caches per policy/fingerprint for timing. Requalify any changed shader before combining other candidates.
+
+All five modified implementation files pass syntax checks; full driver build succeeded. Finalizer refuses a live build, runs remaining target work serially (needed for always-dirty git_sha1 generation/restat), then freezes driver/dependency copies. Never relink a loaded bundle.
+
+Initial16-group off/on/wrong-fingerprint operator probes all pass exact output, actual backend mapping and final8fullymega checks, with IR/RA validation requested. Off reproduces prior qualified nearest baseline hash3959400205/code240684; on hash2357038707/code240924; deliberately wrong fingerprint reproduces off. All96VGPR/7SGPRspills/0VGPRspills/16KBLDS/0scratch. Physical allocation fixed before the policy;192groups retains64spare of256capacity.
+
+Static final ACO audit confirms identical memory-opcode inventories, VALU18155/SALU9645/VMEM2190/SMEM1523, dot4count336/WMMAcount16. Actual s_clause591to689, s_delay_alu3644to3598, wait_loadcnt1494to1493, wait_depctr4450to4447. New maximum clause32 follows existing gfx12 cap. The reported VMEM-Clause metric1620to1480 itself uses the changed predicate, so do not mistake that metric for fewer encoded clause instructions. These are static counts, not executed counts or speed. Final ACO print_program fallback is not encoded machine-code disassembly.
+
+Full model:16-group9short plus192-group9short/long exact; both192-group65short/long bit-identical, last32graphs zero native operations includingFA,2772gather elisions each. In-child backend maps and explicit compiler-enabled fingerprint lines verified. Teacher-forced narrow sequences are not corpus/rollback/other-model quality proof.
+
+Static opportunity audit on installed source saw41adjacent different-descriptor loads, zero in dot4 blocks;181next-load pairs within16listing instructions,6in dot4 blocks. No new dependency legality or executed counts inferred. New off/on actual listings now confirm the intended policy changes.
+
+Performance plan is concrete: existing7-arm quiet model portfolio first, then run_aco_after_portfolio.py validates its terminal/completed result and launches run_aco_cross_descriptor_bench.py serially. Compiler comparison is installed/off/on/on/off/installed at4K n96/r3, own fresh cache per policy and new compiler-free/low-CPU quiet gate. No additional under-load timing. Only a stable improvement warrants fuller n256/r4 and current-native comparison. Both pending waiter handles must be checked before any future GPU correctness job.
+
+LLVM PR140674 remains an open proposal. Its primary diff adds amdgpu-enable-diff-baseptr-mem-clustering and excludes mixing scalar/vector ops. Local LLVM23 hidden options and captured ROCm amd-staging97d298d8ad9b9557a4ec6ab9fcff03217a658b8f source lack this flag; no claim that changing host Clang enables it for Vulkan. Source snapshots in ../research-refresh-20261023.

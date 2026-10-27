@@ -1,0 +1,10 @@
+{
+  "v1_score_probability_alias_only_failed": true,
+  "native_vs_parent_f32_exact": true,
+  "candidate_bad_words": 18432,
+  "total_words": 24576,
+  "first_good_head_dimensions": 64,
+  "invalid_earlier_default_precision_control": true,
+  "diagnosis": "OutputStorage originally shares ScoreStorage. After aliasing probabilities with scores, first HSV output tile overwrites probabilities needed by later HSV tiles. V2 moves output tile to dead V staging (SHMEM_STAGING=0) with read/write handoff barriers.",
+  "no_model_or_192_execution_of_failed_candidate": true
+}

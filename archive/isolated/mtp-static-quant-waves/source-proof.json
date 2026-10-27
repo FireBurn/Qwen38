@@ -1,0 +1,300 @@
+{
+  "opcodes": [
+    1,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    40,
+    41
+  ],
+  "parent_sha256": "903442bfd293f999049a93286ff1e182232aefb29f1a6844e41574739647379a",
+  "only_change": "Quantized matvec wrappers use static wave stripes; arithmetic, LDS layout, global barriers and FA untouched",
+  "coverage": [
+    {
+      "groups": 1,
+      "total": 0,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 1,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 3,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 4,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 7,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 16,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 767,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 768,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 769,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 2048,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 4096,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 8704,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 17408,
+      "exact_coverage": true
+    },
+    {
+      "groups": 1,
+      "total": 17409,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 0,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 1,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 3,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 4,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 7,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 16,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 767,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 768,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 769,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 2048,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 4096,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 8704,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 17408,
+      "exact_coverage": true
+    },
+    {
+      "groups": 4,
+      "total": 17409,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 0,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 1,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 3,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 4,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 7,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 16,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 767,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 768,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 769,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 2048,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 4096,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 8704,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 17408,
+      "exact_coverage": true
+    },
+    {
+      "groups": 16,
+      "total": 17409,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 0,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 1,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 3,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 4,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 7,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 16,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 767,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 768,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 769,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 2048,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 4096,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 8704,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 17408,
+      "exact_coverage": true
+    },
+    {
+      "groups": 192,
+      "total": 17409,
+      "exact_coverage": true
+    }
+  ]
+}

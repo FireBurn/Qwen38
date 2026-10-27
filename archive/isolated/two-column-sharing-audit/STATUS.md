@@ -1,0 +1,5 @@
+# Shared one/two-column Q4/Q5 feasibility
+
+Read-only audit checks3456native dispatch records across12matrix shapes: Q4/Q5 NUM_COLS2 has batch_stride_a0, while NUM_COLS1 hasK*R. Hostsource confirms batch_n convention and contiguousquantized A requirement. This offers a possible runtime column-count discriminator without a new tape field. It is not universal: noncontiguousF32/BF16 can override stride_batch_x, and columns>2 are excluded. No shared-code shader implemented or GPU claim.
+
+A prototype could retain fixed upperbound2/unrolled per-column branches, full accumulator initialization and explicit columns1/2 dispatch aliases, sharing column0 arithmetic rather than cloning whole functions. Dynamic-loop code could prevent compiler weight-load reuse; code-size savings alone are not a speed claim. Requires old-column and two-column oracle checks, finalISA/load reuse inspection, enlarged-module controls and fullmixedoperator benchmarks. Current duplicated prototypes remain qualified unchanged.

@@ -1,0 +1,17 @@
+{
+  "parent_sha256": "1bed2d8b29c6bf81317e76a63a8148e947a976fb7fb0ad7985b434a0f8957625",
+  "source_sha256": "fb2d677fa33577579cca9c275a0eb514d37894e81cd2d2be2d5784e5dd9b5fc5",
+  "normalizers": [
+    "00",
+    "07"
+  ],
+  "native_logical_threads": 512,
+  "physical_threads": 256,
+  "sum_scratch_bytes": [
+    0,
+    1024
+  ],
+  "fused_norm_quant_columns": 5120,
+  "gpu_tested": false,
+  "attention_retained": true
+}

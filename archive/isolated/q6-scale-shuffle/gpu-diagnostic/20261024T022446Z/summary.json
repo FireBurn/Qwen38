@@ -1,0 +1,12 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference": 0.2595,
+    "shuffle": 0.261
+  },
+  "time_reduction_percent": -0.5780346820809301,
+  "drift_percent": {
+    "reference": 1.1627906976744207,
+    "shuffle": 0.7633587786259555
+  },
+  "scope": "Focused repeated Q6_K dispatch timestamps under external compile. Not full model token speed. Clock and control drift must qualify interpretation."
+}

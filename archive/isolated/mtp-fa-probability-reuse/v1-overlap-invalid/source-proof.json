@@ -1,0 +1,24 @@
+{
+  "parent_sha256": "903442bfd293f999049a93286ff1e182232aefb29f1a6844e41574739647379a",
+  "candidate_sha256": "a01b58dcc60e4979f47ce21595d242cad16e82511032e8bacd13fdc146790ca8",
+  "probability_lifetime": "Preserve original rounded F16 probabilities and Lf addition order, retain per-invocation probabilities in registers, workgroup barrier completes all score reads before any aliased probability store.",
+  "score_range": [
+    8448,
+    12544
+  ],
+  "probability_range": [
+    8448,
+    11520
+  ],
+  "slopes_range": [
+    12544,
+    12624
+  ],
+  "iq_range": [
+    12640,
+    12672
+  ],
+  "expected_rounded_lds_bytes": 13312,
+  "warning": "Does not cross<=12KiB LDS target or96VGPR register bound. Additional barrier/staged values may hurt speed. First device test<=16groups; no occupancy/adoption claim.",
+  "gpu_qualified": false
+}

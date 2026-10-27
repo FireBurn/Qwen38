@@ -1,0 +1,5 @@
+{
+  "parent_sha256": "9870c562f8dfe203280155a07791534797af7754d5b033dc2b24c41e498d5fe5",
+  "source_sha256": "169fdb3bb2fbf5bc053ac91890ac0703a1ea17d54c7f06ae869475bfebe8a6fe",
+  "scope": "Uncompiled/unqualified variant: process independent softmax rows sequentially and save L/M immediately, retaining per-row max/reduction/exp/f16 conversion/sum and PV orders. No changed global barriers or scratch layout. Scalar exp lowering versus vector exp must be checked numerically and in ISA; equivalence is not established."
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "columns": 1,
+    "six_call_blocks": 128,
+    "native_gpu_top10_mean_us": 3254.796875,
+    "global_seed10_bounded_mean_us": 2254.16015625,
+    "bounded_mean_us": 2310.984375,
+    "relative_latency_to_seed10_percent": 2.520859868472347,
+    "relative_latency_to_gpu_percent": -28.99758529478126,
+    "median_paired_percent": 4.17902072084545,
+    "paired_range_percent": [
+      -38.75338753387534,
+      83.83192509705412
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1667.0,
+      "1": 1672.0,
+      "2": 1671.5
+    },
+    "mode_background_build_process_ranges": {
+      "0": [
+        13,
+        16
+      ],
+      "1": [
+        13,
+        16
+      ],
+      "2": [
+        14,
+        16
+      ]
+    },
+    "all_ordered_top10_ids_and_scores_saved_native_exact": true,
+    "scope": "Matched head-only API latency: mode0 native GPU Q8 top10; mode1 native coarse plus graph64-bin selection, exact64 Q8 seeds and bounded residual head; mode2 same bounded head with global coarse top10 seeds. All share backend/driver and weight buffers, original native output scores, packed one-transfer result. Symmetric six-call blocks plus excluded warmups, uncontrolled compile load. No whole-model throughput or adoption claim."
+  },
+  {
+    "columns": 2,
+    "six_call_blocks": 64,
+    "native_gpu_top10_mean_us": 3712.28125,
+    "global_seed10_bounded_mean_us": 2962.7578125,
+    "bounded_mean_us": 3087.484375,
+    "relative_latency_to_seed10_percent": 4.209812964589044,
+    "relative_latency_to_gpu_percent": -16.830537152862547,
+    "median_paired_percent": 5.3309224072960575,
+    "paired_range_percent": [
+      -40.62570674707878,
+      113.2777115613826
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1658.5,
+      "1": 1662.0,
+      "2": 1662.5
+    },
+    "mode_background_build_process_ranges": {
+      "0": [
+        13,
+        16
+      ],
+      "1": [
+        13,
+        16
+      ],
+      "2": [
+        13,
+        16
+      ]
+    },
+    "all_ordered_top10_ids_and_scores_saved_native_exact": true,
+    "scope": "Matched head-only API latency: mode0 native GPU Q8 top10; mode1 native coarse plus graph64-bin selection, exact64 Q8 seeds and bounded residual head; mode2 same bounded head with global coarse top10 seeds. All share backend/driver and weight buffers, original native output scores, packed one-transfer result. Symmetric six-call blocks plus excluded warmups, uncontrolled compile load. No whole-model throughput or adoption claim."
+  }
+]

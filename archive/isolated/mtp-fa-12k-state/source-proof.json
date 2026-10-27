@@ -1,0 +1,35 @@
+{
+  "parent_sha256": "8d392e58e281c04a87e4812046690f2d70f2b5e09160af884e9188395fec5ff1",
+  "variants": [
+    {
+      "label": "compact",
+      "source_sha256": "f4ab1a3fa124d453b2af8f7e38410ba7e5014bf2a3c7e76f2f67d41861395615"
+    },
+    {
+      "label": "fa_only",
+      "source_sha256": "504f0fa2457c3465371b09340475f964a67bdd06fd4e97eb747058d63186d2b1"
+    }
+  ],
+  "q_range": [
+    0,
+    8192
+  ],
+  "score_range": [
+    8192,
+    12288
+  ],
+  "probability_range": [
+    8192,
+    11264
+  ],
+  "mask_reduction_range": [
+    8192,
+    8208
+  ],
+  "output_range": [
+    0,
+    2048
+  ],
+  "expected_lds_bytes": 12288,
+  "scope": "Current Q8K/Q8V SHMEM_STAGING0 only. Q row padding removed. Slope recomputed with same formula at mask use. Mask reduction aliases score/K with new read-completion barrier. IQshared unreachable for actualtype8. Probability/output lifetimes use previously verified reuse protocol. Includes disjoint explicit output scratch state and verified Q6. First device <=16groups; no performance/occupancy claim."
+}

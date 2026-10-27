@@ -1,0 +1,15 @@
+{
+  "scope": "Targeted upstreamsearch andlocalregisteremissionreview; no matching upstreamfix verified.",
+  "searches": [
+    "GFX12 duplicate register PAIRS",
+    "radv partial copy NUM_THREAD",
+    "SET_SH_REG_PAIRS same register"
+  ],
+  "local_evidence": [
+    "ac_gfx12_push_sh_reg appends entries withoutdeduplication.",
+    "radv_emit_compute_shader queues defaultCOMPUTE_NUM_THREAD registers.",
+    "radv_emit_userdata_compute queues partialvariants before onebufferedflush."
+  ],
+  "conclusion": "Duplicatewritesinthesamepacketareobservedinsource; theirhardwaresemantics andrelationtothecopyfailure remainunproven. Privateexperimentpending.",
+  "excluded": "Unrelated kernel reset/displaypatches are not evidence for this copy failure."
+}

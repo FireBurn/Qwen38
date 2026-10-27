@@ -1,0 +1,11 @@
+{
+  "all_tokens_and_acceptance_identical": true,
+  "all_model_audit_bits_identical": true,
+  "qualified_arms": [
+    "keep192",
+    "keep256",
+    "keep320"
+  ],
+  "global_fences_preserved": true,
+  "scope": "Canonical correctness: new-driver off16 and keep16/192/256/320 streamed-rowwise bodies, head capped192. All stages require preceding canonical model and resource checks; head capped192. No throughput claim."
+}

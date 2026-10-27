@@ -1,0 +1,57 @@
+[
+  {
+    "kv": 256,
+    "mode": "native",
+    "groups": 16,
+    "queries": 2,
+    "query_heads": 24,
+    "kv_heads": 4,
+    "head_size": 256,
+    "causal_mask": true,
+    "batch_vs_serial_exact": true,
+    "maxabs": 0.0,
+    "nrmse": 0.0,
+    "native_reference_exact": true,
+    "last32_native_ops": 192,
+    "native_keys": [
+      "fa_split_k_reduce|64,",
+      "flash_attn_f32_f16_aligned_cm1|256,16,64,256,256,0,8,4,64,0,2,0,8,8,34,34,",
+      "flash_attn_f32_f16_aligned_cm1|256,16,64,256,256,0,8,4,64,0,34,0,8,8,34,34,"
+    ],
+    "graphs": 40
+  },
+  {
+    "kv": 256,
+    "mode": "reference",
+    "groups": 16,
+    "queries": 2,
+    "query_heads": 24,
+    "kv_heads": 4,
+    "head_size": 256,
+    "causal_mask": true,
+    "batch_vs_serial_exact": true,
+    "maxabs": 0.0,
+    "nrmse": 0.0,
+    "native_reference_exact": true,
+    "last32_native_ops": 0,
+    "native_keys": [],
+    "graphs": 40
+  },
+  {
+    "kv": 256,
+    "mode": "prototype",
+    "groups": 16,
+    "queries": 2,
+    "query_heads": 24,
+    "kv_heads": 4,
+    "head_size": 256,
+    "causal_mask": true,
+    "batch_vs_serial_exact": true,
+    "maxabs": 0.0,
+    "nrmse": 0.0,
+    "native_reference_exact": false,
+    "last32_native_ops": 0,
+    "native_keys": [],
+    "graphs": 40
+  }
+]

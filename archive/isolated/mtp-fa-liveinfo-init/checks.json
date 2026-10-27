@@ -1,0 +1,73 @@
+[
+  {
+    "label": "initialized",
+    "groups": 16,
+    "native_reference_exact": true,
+    "live_lines": 100254,
+    "maximum_across_dumped_programs": 68,
+    "peak_rows": [
+      {
+        "line": 177492,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2b: %35977 = ds_read_u16_d16 %35962 offset0:2432 storage:shared",
+        "block": "BB7348"
+      },
+      {
+        "line": 177493,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2: %35978 = p_create_vector (kill)%35974, (kill)%35975, (kill)%35976, (kill)%35977",
+        "block": "BB7348"
+      },
+      {
+        "line": 177503,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2b: %35988 = ds_read_u16_d16 %35962 offset0:4480 storage:shared",
+        "block": "BB7348"
+      },
+      {
+        "line": 177504,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2: %35989 = p_create_vector (kill)%35985, (kill)%35986, (kill)%35987, (kill)%35988",
+        "block": "BB7348"
+      },
+      {
+        "line": 177514,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2b: %35999 = ds_read_u16_d16 %35962 offset0:6528 storage:shared",
+        "block": "BB7348"
+      },
+      {
+        "line": 177515,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2: %36000 = p_create_vector (kill)%35996, (kill)%35997, (kill)%35998, (kill)%35999",
+        "block": "BB7348"
+      },
+      {
+        "line": 182114,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2b: %38980 = ds_read_u16_d16 %38965 offset0:2432 storage:shared",
+        "block": "BB7629"
+      },
+      {
+        "line": 182115,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2: %38981 = p_create_vector (kill)%38977, (kill)%38978, (kill)%38979, (kill)%38980",
+        "block": "BB7629"
+      },
+      {
+        "line": 182125,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2b: %38991 = ds_read_u16_d16 %38965 offset0:4480 storage:shared",
+        "block": "BB7629"
+      },
+      {
+        "line": 182126,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2: %38992 = p_create_vector (kill)%38988, (kill)%38989, (kill)%38990, (kill)%38991",
+        "block": "BB7629"
+      },
+      {
+        "line": 182136,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2b: %39002 = ds_read_u16_d16 %38965 offset0:6528 storage:shared",
+        "block": "BB7629"
+      },
+      {
+        "line": 182137,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2: %39003 = p_create_vector (kill)%38999, (kill)%39000, (kill)%39001, (kill)%39002",
+        "block": "BB7629"
+      }
+    ],
+    "log_bytes": 31631809,
+    "scope": "Raw dump includes native pipelines and mega at several compile phases; maximum must be attributed to the correct program/phase before interpreting as mega peak. Numerical/resource diagnostic only."
+  }
+]

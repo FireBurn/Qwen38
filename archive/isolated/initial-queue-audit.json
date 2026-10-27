@@ -1,0 +1,62 @@
+{
+  "scope": "Captured full tape before NQ fusion, 192 physical groups, four wave slots/group. Upper opportunity count, not measured time.",
+  "groups": {
+    "mul_mat_vec_q6_k_f32_f32|64,2,1,": {
+      "calls": 50,
+      "small_calls": 4,
+      "small_tasks": 2048,
+      "small_old_atomics": 5120
+    },
+    "mul_mat_vec_bf16_f32_f32|64,2,1,": {
+      "calls": 96,
+      "small_calls": 96,
+      "small_tasks": 2304,
+      "small_old_atomics": 76032
+    },
+    "gated_delta_net_f32_d128|128,0,64,8,": {
+      "calls": 48,
+      "small_calls": 48,
+      "small_tasks": 36864,
+      "small_old_atomics": 73728
+    },
+    "fa_split_k_reduce|64,": {
+      "calls": 16,
+      "small_calls": 16,
+      "small_tasks": 1536,
+      "small_old_atomics": 13824
+    },
+    "quantize_q8_1_x4|64,": {
+      "calls": 224,
+      "small_calls": 224,
+      "small_tasks": 7392,
+      "small_old_atomics": 179424
+    },
+    "mul_mat_vec_q5_k_q8_1_f32|64,1,1,": {
+      "calls": 139,
+      "small_calls": 28,
+      "small_tasks": 14336,
+      "small_old_atomics": 35840
+    },
+    "mul_mat_vec_q3_k_q8_1_f32|64,1,1,": {
+      "calls": 78,
+      "small_calls": 0,
+      "small_tasks": 0,
+      "small_old_atomics": 0
+    },
+    "mul_mat_vec_q4_k_q8_1_f32|64,1,1,": {
+      "calls": 133,
+      "small_calls": 0,
+      "small_tasks": 0,
+      "small_old_atomics": 0
+    },
+    "mul_mat_vec_q8_0_f32_f32|64,1,1,": {
+      "calls": 1,
+      "small_calls": 0,
+      "small_tasks": 0,
+      "small_old_atomics": 0
+    }
+  },
+  "small_calls": 416,
+  "small_old_atomics": 383968,
+  "small_new_atomics": 0
+}

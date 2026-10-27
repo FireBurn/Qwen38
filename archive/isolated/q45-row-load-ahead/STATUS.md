@@ -1,0 +1,15 @@
+# Q4/Q5 two-row load-ahead
+
+Private current-reference shader variant. Only op26/op28 iter bodies change: load/repack both existing rows and their scales before dot arithmetic, keeping the original per-row dot sequence, floating expression and accumulation order. No weight/activation quantization or row-count change. Inactive ahead arrays fully initialized; tail rows issue no extra weight loads. Operator metadata and all other source sections unchanged.
+
+Hypothesis: expose more independent readonly weight loads to overlap memory latency. Extra live data may increase register pressure or code size; compiler may restore the old schedule. Requires final ISA inspection and focused streaming tests, not inference from source order. No occupancy, traffic, latency or speed claim.
+
+GLSL builds, SPIR-V validates. CPU address/source-expression proof in address-proof.json. First GPU9frame short/long probes running16groups with frozen driver/reference host; actual resource checks before any larger dispatch. Existing qualified combinations and quiet queues untouched.
+
+Both9frame model checks pass exact, allocation96VGPR/24spilledSGPR/16KiBLDS/noVGPRspills/zeroScratch, code242924versus241132reference. All24operator comparisons pass exact (K2048/2304/5120/17408 ×R3/5/7 ×control/candidate), final8graphs fullymega, actual backend/frozenRADV maps verified. Both65frame model checks pass exact, final32fullymega includingFA.
+
+Chunked64row streaming harness compiled (fourQ5/fourQ4matrices, avoids full350MB CPUfloat temporary). Both K5120/K17408 R3 streaming-harness controls/candidate pass exact and firsttwo outputs match independent existing Q4/Q5 witness. Focused four-arm reference/candidate/candidate/reference test now live atK5120/R17408,total445644800logical weightbytes,512repeats,192groups/64spare. Source/SPIR-V/ops/host/harness pinned, driver verified. No timing conclusion until terminal batch and control drift examined.
+
+Completed ABBA streaming comparison: reference0.815/0.822ms, candidate0.824/0.824ms; means0.8185/0.8240ms. Candidate0.672%slower, below reference0.859%drift; no demonstrated gain or resolved small regression. Both candidate arms matched reference outputs exactly. Active process clock medians1688/1651/1677.5/1676MHz; early candidate lowerclock qualifies comparison, closing matched-clock control still slightly faster. Candidate zero rounded-arm drift is not proof of zero noise.
+
+Shelved; no optional full-model throughput test queued for this variant. Same96VGPR allocation and unchanged staticVMEM instruction count2190; code+1792bytes and staticVALU/SALU/branch counts increase. These are whole-shader static statistics, not executed counts/stall attribution. Source load ordering alone did not produce measured benefit; whether ACO preserves the intended overlap is unproven. Original generated summary mistakenly saidQ3_K from template; corrected scope with original label retained in summary and raw log unchanged. Actual harness/manifest specify alternatingQ4/Q5. Guard exited0 and resumed original quiet portfolio.

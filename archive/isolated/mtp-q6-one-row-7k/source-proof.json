@@ -1,0 +1,16 @@
+{
+  "parent": "isolated/mtp-fa-rowmajor-cache7/cached.comp",
+  "parent_sha256": "4f3b80b0952029d867ab717f2b293985b51f3e71b5f9c43af9ffb4c8e742976e",
+  "candidate_sha256": "13853141cdcabce504845f69fc3987ec7142467fef2a7ee7ad203a2023a7ca34",
+  "changes": [
+    "Only Q6 C2 row dimension 2 to1, row accumulator initialization1, virtual x dimension doubled in op34 wrapper.",
+    "Record pipeline key and descriptors retained; custom wrapper translates captured two-row grid.",
+    "Per-row dequant/FMA/reduction expressions unchanged."
+  ],
+  "cpu_row_coverage_cases": 30,
+  "status": "Source prepared only; no compilation, resource or GPU correctness qualification.",
+  "risk": "More logical tiles and duplicated input loads; smaller live accumulator state may not change whole-shader allocation.",
+  "cpu_full_xyz_mapping_cases": 378,
+  "all_other_operator_regions_byte_identical": true,
+  "barrier_static_count_preserved": true
+}

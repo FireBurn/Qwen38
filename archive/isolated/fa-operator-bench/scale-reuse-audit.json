@@ -1,0 +1,11 @@
+{
+  "scope": "Logical scalar scale uses from fixed FA Bc64/HSK256/Q8 slice indexing; not dynamic executed loads or DRAM bytes.",
+  "K_logical_scale_uses": 4096,
+  "V_logical_scale_uses": 4096,
+  "K_unique_blocks": 512,
+  "V_unique_blocks": 512,
+  "K_per_lane_adjacent_slice_reuse_verified": true,
+  "potential_K_scale_uses_after_pair_reuse": 2048,
+  "implemented": false,
+  "decision": "Wait for FA and full-model timing before adding another variant; cross-lane reuse would add broadcasts and is not automatically faster."
+}

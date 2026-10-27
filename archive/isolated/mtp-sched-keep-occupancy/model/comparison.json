@@ -1,0 +1,13 @@
+{
+  "all_tokens_and_acceptance_identical": true,
+  "all_model_audit_bits_identical": true,
+  "qualified_arms": [
+    "off16",
+    "off192",
+    "keep16",
+    "keep192",
+    "keep256"
+  ],
+  "global_fences_preserved": true,
+  "scope": "Canonical correctness: same-new-driver off16/192 and keep16/192/256 bodies, head capped192. 256launch only after72VGPR/12KiB/0scratch source-derived320capacity gate. No throughput claim."
+}

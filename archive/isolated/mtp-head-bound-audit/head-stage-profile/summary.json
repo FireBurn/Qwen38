@@ -1,0 +1,58 @@
+[
+  {
+    "columns": 1,
+    "quartets": 16,
+    "native_mean_us": 6256.625,
+    "bounded_mean_us": 7982.59375,
+    "relative_latency_percent": 27.58625856592012,
+    "median_paired_percent": 34.03999876383871,
+    "paired_range_percent": [
+      -32.09857082807902,
+      100.20962670321695
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1688.5,
+      "1": 1688.0
+    },
+    "mode_compiler_ranges": {
+      "0": [
+        15,
+        16
+      ],
+      "1": [
+        15,
+        16
+      ]
+    },
+    "all_winners_saved_native_exact": true,
+    "scope": "Synchronous head-only public API latency incl GPU coarse+filter+compaction+Q8 sparse+GPU argmax and readback versus native Q8+GPU argmax. Four warmup quartets excluded. All measured ABBA quartets retained. External compile load uncontrolled, not model throughput/adoption."
+  },
+  {
+    "columns": 2,
+    "quartets": 8,
+    "native_mean_us": 5635.5,
+    "bounded_mean_us": 7606.1875,
+    "relative_latency_percent": 34.969168662940284,
+    "median_paired_percent": 49.35435371443725,
+    "paired_range_percent": [
+      -8.66510538641686,
+      56.09129532654875
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1666.0,
+      "1": 1676.0
+    },
+    "mode_compiler_ranges": {
+      "0": [
+        16,
+        16
+      ],
+      "1": [
+        16,
+        16
+      ]
+    },
+    "all_winners_saved_native_exact": true,
+    "scope": "Synchronous head-only public API latency incl GPU coarse+filter+compaction+Q8 sparse+GPU argmax and readback versus native Q8+GPU argmax. Four warmup quartets excluded. All measured ABBA quartets retained. External compile load uncontrolled, not model throughput/adoption."
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "means_tokens_per_second": {
+    "native24": 44.6145,
+    "mega24": 38.933,
+    "without_fa": 39.049499999999995
+  },
+  "control_drift_percent": {
+    "native24": 0.7808105128147336,
+    "mega24": 1.250936910392575,
+    "without_fa": 1.3224035264093992
+  },
+  "relative_to_native_percent": {
+    "native24": 0.0,
+    "mega24": -12.734649049075975,
+    "without_fa": -12.473523181925172
+  },
+  "relative_to_installed_mega_percent": {
+    "native24": 14.593018775845689,
+    "mega24": 0.0,
+    "without_fa": 0.2992320139727056
+  },
+  "all_tokens_identical": true,
+  "acceptance_counters_identical": true,
+  "scope": "Original asynchronous MTP pipeline. Symmetric6run native-FA resource control diagnostic; native FA adds dispatch segmentation under external compilation; same core/Q8policy/driver. No quiet/adoption claim."
+}

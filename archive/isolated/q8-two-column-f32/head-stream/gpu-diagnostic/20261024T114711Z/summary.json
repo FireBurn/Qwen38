@@ -1,0 +1,14 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference-single": 8.545000000000002,
+    "prototype-single": 8.5415,
+    "prototype-batch": 4.366
+  },
+  "time_reduction_percent": 48.905792861322425,
+  "drift_percent": {
+    "reference-single": 0.21087160262416305,
+    "prototype-single": 0.10542345086097527,
+    "prototype-batch": 0.5051664753157104
+  },
+  "scope": "Focused two-head Q8F32 two-column versus two separate columns GPU dispatch timestamps under external compile. Enlarged-module single-column control included. Not full model token speed. Clock and control drift must qualify interpretation."
+}

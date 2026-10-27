@@ -1,0 +1,33 @@
+{
+  "mean_steady_tokens_per_second": {
+    "native_cpu": 45.78855396693167,
+    "native_gpu": 46.24284692808018,
+    "native_bound": 46.54283119257571,
+    "mega_bound_parent": 40.65643334025376,
+    "mega_bound_candidate": 41.16137191002329
+  },
+  "control_drift_percent": {
+    "native_cpu": 0.25149838842910555,
+    "native_gpu": 1.2113800943882813,
+    "native_bound": 0.07882140383581593,
+    "mega_bound_parent": 1.3283346761743475,
+    "mega_bound_candidate": 0.16091587060818036
+  },
+  "relative_to_native_cpu_percent": {
+    "native_cpu": 0.0,
+    "native_gpu": 0.9921539812691949,
+    "native_bound": 1.6473051893902912,
+    "mega_bound_parent": -11.208304657064094,
+    "mega_bound_candidate": -10.105543101994696
+  },
+  "relative_to_native_gpu_percent": {
+    "native_cpu": -0.9824069911938071,
+    "native_gpu": 0.0,
+    "native_bound": 0.6487149568496164,
+    "mega_bound_parent": -12.080600479712611,
+    "mega_bound_candidate": -10.988672531256405
+  },
+  "all_tokens_and_acceptance_identical": true,
+  "candidate_relative_to_parent_percent": 1.2419647477281082,
+  "scope": "Same-stack full-model body comparison; common threshold core/backend/head and frozen RADV; telemetry determines quiet status, decoder and encode/process cost retained. Installed .27 comparison outstanding."
+}

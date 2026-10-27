@@ -1,0 +1,17 @@
+{
+  "parent_sha256": "9dc0ed339f9e363a774a7b7fb770b86cbb760059a745be7d584bbf154edbff07",
+  "source_sha256": "9870c562f8dfe203280155a07791534797af7754d5b033dc2b24c41e498d5fe5",
+  "scratch_base": 33554432,
+  "bytes_per_workgroup": 16384,
+  "Q_bytes": [
+    0,
+    8192
+  ],
+  "P_bytes": [
+    8192,
+    11264
+  ],
+  "groups384_end": 39845888,
+  "expected_lds": 8192,
+  "scope": "Uncompiled prototype: Q/P moved to private per-WG global buffer with explicit buffer control barriers; K/score/mask share LDS0 in separate phases; V retains8KiB. Existing Of/Lf/Mf state untouched. Query remains refreshed eachKViteration for first isolation. No resource, numerical, occupancy or performance qualification."
+}

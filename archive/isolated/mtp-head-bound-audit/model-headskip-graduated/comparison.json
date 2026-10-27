@@ -1,0 +1,12 @@
+{
+  "all_tokens_and_acceptance_identical": true,
+  "all_model_audit_bits_identical": true,
+  "qualified_arms": [
+    "native_body_head192",
+    "mega16_head16",
+    "mega192_head192",
+    "fallback_cache16"
+  ],
+  "missing_cache_fallback_exact": true,
+  "scope": "32token correctness at graduated192 head and16/192 mega body+head; no throughput claim."
+}

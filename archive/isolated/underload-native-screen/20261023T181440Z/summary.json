@@ -1,0 +1,18 @@
+{
+  "means": {
+    "native": 20.502279,
+    "reference": 18.91291,
+    "one-row": 19.5623
+  },
+  "one_row_vs_reference_percent": 3.4335805542351716,
+  "one_row_vs_native_percent": -4.5847537242079355,
+  "reference_vs_native_percent": -7.752157699151407,
+  "drift_percent": {
+    "native": 3.5647501731551956,
+    "reference": 1.0981501976301544,
+    "one-row": 0.1481345265824885
+  },
+  "max_repeat_rsd_percent": 3.497703066329715,
+  "stable_screen": false,
+  "scope": "4K n96/r3 symmetric3arm current-native-artifact vs reference/one-row under external compile. No quiet-system or fuller-benchmark claim; observed stability thresholds are screening gates, not statistical confidence."
+}

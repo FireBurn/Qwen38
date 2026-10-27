@@ -1,0 +1,52 @@
+{
+  "cases": [
+    {
+      "groups": 1,
+      "epochs": 4,
+      "exhaustive_states": 13,
+      "terminal_states": 1,
+      "no_premature_release_or_deadlock": true
+    },
+    {
+      "groups": 2,
+      "epochs": 3,
+      "exhaustive_states": 42,
+      "terminal_states": 1,
+      "no_premature_release_or_deadlock": true
+    },
+    {
+      "groups": 3,
+      "epochs": 3,
+      "exhaustive_states": 160,
+      "terminal_states": 1,
+      "no_premature_release_or_deadlock": true
+    },
+    {
+      "groups": 4,
+      "epochs": 2,
+      "exhaustive_states": 244,
+      "terminal_states": 1,
+      "no_premature_release_or_deadlock": true
+    },
+    {
+      "groups": 5,
+      "epochs": 2,
+      "exhaustive_states": 622,
+      "terminal_states": 1,
+      "no_premature_release_or_deadlock": true
+    },
+    {
+      "groups": 16,
+      "epochs": 32,
+      "random_interleavings": 100,
+      "no_premature_release_or_deadlock": true
+    },
+    {
+      "groups": 192,
+      "epochs": 32,
+      "random_interleavings": 100,
+      "no_premature_release_or_deadlock": true
+    }
+  ],
+  "scope": "Sequentially consistent atomic interleaving model of arrival/root protocol. Does not prove SPIR-V memory ordering, GPU progress, compiler correctness, or performance. Existing resident-workgroup limit remains required."
+}

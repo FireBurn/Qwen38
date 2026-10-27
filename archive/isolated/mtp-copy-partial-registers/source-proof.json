@@ -1,0 +1,6 @@
+{
+  "parent_source_sha256": "f4b0834b7a5346ec24667c1e9e0e6dd56013776f25fd0594bc8433a533ef6809",
+  "candidate_source_sha256": "f33f9732d049c27a03a4beb23bfb00daefe55510aae78088bed93ed7e94365e2",
+  "change": "Flush buffered pipeline register writes before unaligned dispatch writes to avoid duplicate register offsets in a single PAIRS packet. No addedsourcecomments.",
+  "scope": "Private experiment. Root cause and correctness unproven; all existingobjects/libs reused read-only."
+}

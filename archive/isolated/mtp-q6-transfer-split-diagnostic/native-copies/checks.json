@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "whole",
+    "returncode": 2,
+    "diagnostics": [
+      "TAIL_ONLY_READBACK bad=46 of64",
+      "UPLOAD_DIFF_COUNT 46 of 34816",
+      "FAIL input upload readback differs"
+    ],
+    "scope": "Native transfer diagnosis only; expected upload failure recorded rather than treated as successful kernel qualification."
+  },
+  {
+    "mode": "split",
+    "returncode": 2,
+    "diagnostics": [
+      "TAIL_ONLY_READBACK bad=46 of64",
+      "UPLOAD_DIFF_COUNT 92 of 34816",
+      "FAIL input upload readback differs"
+    ],
+    "scope": "Native transfer diagnosis only; expected upload failure recorded rather than treated as successful kernel qualification."
+  }
+]

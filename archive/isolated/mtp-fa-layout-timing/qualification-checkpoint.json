@@ -1,0 +1,63 @@
+{
+  "qualified_variants": {
+    "mtp-fa-rowmajor-7k": {
+      "qualified_grids": [
+        192,
+        256,
+        320
+      ],
+      "audit_sha256": "873abacccc270bc1a0669f62ac831dcc14ace252db9f60bbc0006a7c7b84dec2",
+      "all_bits_and_tokens_native_exact": true,
+      "resources": {
+        "keep192": {
+          "VGPRs": 60,
+          "LDS size": 7168,
+          "Scratch size": 0
+        },
+        "keep256": {
+          "VGPRs": 60,
+          "LDS size": 7168,
+          "Scratch size": 0
+        },
+        "keep320": {
+          "VGPRs": 60,
+          "LDS size": 7168,
+          "Scratch size": 0
+        }
+      }
+    },
+    "mtp-fa-rowmajor-cache7": {
+      "qualified_grids": [
+        192,
+        256,
+        320
+      ],
+      "audit_sha256": "873abacccc270bc1a0669f62ac831dcc14ace252db9f60bbc0006a7c7b84dec2",
+      "all_bits_and_tokens_native_exact": true,
+      "resources": {
+        "keep192": {
+          "VGPRs": 60,
+          "LDS size": 7168,
+          "Scratch size": 0
+        },
+        "keep256": {
+          "VGPRs": 60,
+          "LDS size": 7168,
+          "Scratch size": 0
+        },
+        "keep320": {
+          "VGPRs": 60,
+          "LDS size": 7168,
+          "Scratch size": 0
+        }
+      }
+    }
+  },
+  "timing_client_cases": 16,
+  "timing_client_all_native_and_serial_exact": true,
+  "both_performance_asset_sets_unchanged": true,
+  "timing_evidence": "None yet for new variants; background build gate has not passed.",
+  "live_original_exec_session": 10378,
+  "live_fa_layout_exec_session": 31404,
+  "scope": "Current completed correctness evidence; no model-speedup claim or production .27 comparison."
+}

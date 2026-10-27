@@ -1,0 +1,17 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference": 0.8070000000000002,
+    "two-rows": 0.79,
+    "four-rows": 0.7575000000000001
+  },
+  "time_reduction_percent": {
+    "two-rows": 2.106567534076842,
+    "four-rows": 6.133828996282542
+  },
+  "drift_percent": {
+    "reference": 1.4760147601475926,
+    "two-rows": 0.7566204287515754,
+    "four-rows": 2.8112449799196915
+  },
+  "scope": "Focused eight-matrix Q3_K cohort comparison dispatch timestamps under external compile. Not full model token speed. Clock and control drift must qualify interpretation."
+}

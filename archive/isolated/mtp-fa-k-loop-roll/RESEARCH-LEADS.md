@@ -1,0 +1,7 @@
+# Compiler leads checked2026-10-26
+
+[LLVM issue204254](https://github.com/llvm/llvm-project/issues/204254) reports WMMA operand-bank collisions in AMD LLVM, measured on gfx1151, and suggests register-allocation changes. It is open and does not show an accepted fix or R9700 measurement. Our path uses ACO, not that LLVM allocator. Next evidence would be current ACO ISA operand placement and a matched gfx1201 microbenchmark; do not claim the reported throughput loss applies here. Frozen ACO RA has a WMMA destination/accumulator affinity policy around4148 but this alone neither proves nor disproves bank conflicts.
+
+[AMD RDNA4 WMMA builtin documentation](https://rocm-handbook.amd.com/projects/amd-rocm-optimization-guide/en/develop/compiler-builtins/rdna/rdna4-dense-wmma-builtins.html) documents wave32 HIP builtins and different gfx12 input fragments from RDNA3. It cannot be substituted blindly for current Vulkan wave64 cooperative-matrix lowering. FP8/INT4/sparse formats would require suitable data/error handling; the dense original model is not2:4 sparse.
+
+[llama.cpp issue25207](https://github.com/ggml-org/llama.cpp/issues/25207) contains reports of smaller cooperative FA tiles or staging improving other AMD configurations. These reports involve different devices/shapes and are hypotheses for our workload, not patches already verified on this R9700. Existing local FA tests and resource limits take precedence over headline figures.

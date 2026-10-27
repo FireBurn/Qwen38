@@ -1,0 +1,20 @@
+{
+  "task_count": 48,
+  "grid_checks": [
+    {
+      "physical_grid": 64,
+      "worker_groups": 32,
+      "unique_tasks": 48,
+      "duplicate_tasks": 0,
+      "missing_tasks": 0
+    },
+    {
+      "physical_grid": 192,
+      "worker_groups": 160,
+      "unique_tasks": 48,
+      "duplicate_tasks": 0,
+      "missing_tasks": 0
+    }
+  ],
+  "method": "Enumerated v=phys-32+k*(nphys-32), phys32..nphys-1, v<48; only wave0 participates. RMS groups0..31 retain whole-workgroup barriers."
+}

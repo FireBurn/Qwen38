@@ -1,0 +1,5 @@
+# Next small-matvec fusion audit
+
+The last captured graph has 96 small BF16 matvecs in48pairs. The two48-output,5120-input projections use the same source vector and the same output range, separated by two independent RMS operations and an add which consumes the first result into another range. Therefore a naive two-projection fusion cannot preserve both raw outputs in their original destination: they alias.
+
+A possible fusion would combine the first projection with its bias add, write that sum directly to the add destination, and issue the second projection into the original raw destination. It requires proving the first raw result has no other consumer before the second overwrites it, no intermediate write changes the common source or either matrix, and the independent RMS writes do not overlap these ranges. The existing matvec-add preserve/GLU experiments do not implement this delayed tiny-projection pairing. Do not build it by weakening alias guards. Existing GDN gates fuse only sigmoid; decay softplus/multiply fusion was intentionally deferred for stride/alias proof. This is an audit direction, not a claimed gain.

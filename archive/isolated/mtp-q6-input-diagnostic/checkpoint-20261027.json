@@ -1,0 +1,46 @@
+{
+  "utc": "2026-10-27T08:08:42.377785+00:00",
+  "fusion": {
+    "operator_modes_exact": 6,
+    "model_arms_exact": 8,
+    "groups": [
+      16,
+      192,
+      256,
+      320
+    ],
+    "eligible_and_fused_when_enabled": 990,
+    "speedup_proven": false
+  },
+  "copy_bug": {
+    "default_and_forced4DW": "46floats/184bytes missing at end of upload; repeatedfullcopiesfail untilinterveningsmallcopies",
+    "forced1DW_2DW_CP_DMA": "all reproducer cases passed",
+    "queue": "R9700 family1 COMPUTE for synchronouscopies; no dedicatedSDMAfamily exposed",
+    "predicted_final_partial_workgroup_valid_bytes": 184,
+    "root_cause": "unproven; private driver separating duplicate register writes built butGPUtestpending"
+  },
+  "affected_Q6": {
+    "shape": [
+      17408,
+      3,
+      2
+    ],
+    "copy2_native_parent_prefix_one_row": "bit-identical, inputreadbackpassesall4phases; independentCPUmaxerror8.52e-5",
+    "full_candidate_qualification": "live, notcomplete"
+  },
+  "pending_live_handles": {
+    "candidate_qualification": 93596,
+    "private_driver_probe_waiter": 19245,
+    "old_remaining_performance_waiter": 83139,
+    "fusion_performance_waiter": 53067
+  },
+  "evidence_sha256": {
+    "isolated/mtp-transfer-path-sweep/native-copies/checks.json": "1fcebec4ae5c7dba4a980cac8f67946399fb3a7a2dc25b1410da076c8ca3cf83",
+    "isolated/mtp-transfer-path-sweep/partial-workgroup-analysis.json": "14ed32d983019cc83029a2694e55a16f41b568bc749bc89ad744dbd77402253e",
+    "isolated/mtp-transfer-repeat-repro/queue-and-repeat-findings.json": "56f22bb6056d0aba4bc4fae991dcb0e6d70712df5c97aad23f805dff9c3ce47a",
+    "isolated/mtp-q6-input-diagnostic/snapshot-oracle-copy2.json": "831766c209c465e646f6405a4898b162f08b1fa25d81f3d6173d9bee3c892241",
+    "isolated/mtp-glu-quant-60-c2/model-graduated/comparison.json": "e863cdeac97a91c293281d873a8983dec353569d9ff83fd95b690418bb34b01b",
+    "isolated/mtp-copy-partial-registers/source-proof.json": "33230e52cb45e981000f9d332e620536a1720908892a4c245b0f9a4782d2c71c"
+  },
+  "next": "Poll original handles; do not relaunch live jobs. Finishcandidatequalification, thenpendingprivatecopydriverprobe. Larger-gridcandidatechecks preparedonly. Timingqueuesremainindependentprivate snapshots andquietgated."
+}

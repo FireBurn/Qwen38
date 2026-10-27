@@ -1,0 +1,72 @@
+[
+  {
+    "columns": 1,
+    "six_call_blocks": 128,
+    "native_gpu_greedy_mean_us": 6593.78515625,
+    "native_cpu_greedy_mean_us": 6337.984375,
+    "bounded_mean_us": 3958.859375,
+    "relative_latency_to_cpu_percent": -37.537564929702114,
+    "relative_latency_to_gpu_percent": -39.960746654786796,
+    "median_paired_percent": -38.594044091888776,
+    "paired_range_percent": [
+      -61.488982030958205,
+      55.23544896168471
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1674.0,
+      "1": 1674.0,
+      "2": 1680.0
+    },
+    "mode_compiler_ranges": {
+      "0": [
+        15,
+        16
+      ],
+      "1": [
+        15,
+        16
+      ],
+      "2": [
+        15,
+        16
+      ]
+    },
+    "all_winners_saved_native_exact": true,
+    "scope": "Synchronous head-only public API latency incl GPU coarse+filter+compaction+Q8 sparse+GPU argmax and readback versus native Q8+GPU argmax. Four warmup blocks excluded. All measured symmetric six-call blocks (GPU native,bounded,CPU native,CPU native,bounded,GPU native) retained. External compile load uncontrolled, Raw greedy CPU reference includes full-logit download and scan with reused buffer; not model throughput/adoption."
+  },
+  {
+    "columns": 2,
+    "six_call_blocks": 64,
+    "native_gpu_greedy_mean_us": 6781.03125,
+    "native_cpu_greedy_mean_us": 7716.828125,
+    "bounded_mean_us": 4620.0234375,
+    "relative_latency_to_cpu_percent": -40.13053857539428,
+    "relative_latency_to_gpu_percent": -31.868424327052026,
+    "median_paired_percent": -42.941306960412795,
+    "paired_range_percent": [
+      -63.3039689305674,
+      7.025121198765971
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1657.0,
+      "1": 1662.0,
+      "2": 1653.0
+    },
+    "mode_compiler_ranges": {
+      "0": [
+        15,
+        16
+      ],
+      "1": [
+        15,
+        16
+      ],
+      "2": [
+        15,
+        16
+      ]
+    },
+    "all_winners_saved_native_exact": true,
+    "scope": "Synchronous head-only public API latency incl GPU coarse+filter+compaction+Q8 sparse+GPU argmax and readback versus native Q8+GPU argmax. Four warmup blocks excluded. All measured symmetric six-call blocks (GPU native,bounded,CPU native,CPU native,bounded,GPU native) retained. External compile load uncontrolled, Raw greedy CPU reference includes full-logit download and scan with reused buffer; not model throughput/adoption."
+  }
+]

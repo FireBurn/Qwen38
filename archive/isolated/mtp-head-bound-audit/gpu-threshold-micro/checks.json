@@ -1,0 +1,200 @@
+[
+  {
+    "seeds": 10,
+    "physical_groups": 1,
+    "columns": 1,
+    "cases": 10,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_seed_threshold": {
+        "Driver pipeline hash": 12416435058452269052,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 452,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 2711603900,
+        "Instructions": 87,
+        "Copies": 12,
+        "Branches": 7,
+        "Latency": 288,
+        "Inverse Throughput": 35,
+        "VMEM Clause": 3,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 12
+      }
+    },
+    "scope": "Graph seed threshold10/32/64 scores, one or two queries, exact sorted tenth-value bits incl ties/zeros/infinities/scaled scores and guarded output. No head/model speed claim.",
+    "threshold_bits_exact": true
+  },
+  {
+    "seeds": 10,
+    "physical_groups": 2,
+    "columns": 2,
+    "cases": 10,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_seed_threshold": {
+        "Driver pipeline hash": 12416435058452269052,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 452,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 2711603900,
+        "Instructions": 87,
+        "Copies": 12,
+        "Branches": 7,
+        "Latency": 288,
+        "Inverse Throughput": 35,
+        "VMEM Clause": 3,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 12
+      }
+    },
+    "scope": "Graph seed threshold10/32/64 scores, one or two queries, exact sorted tenth-value bits incl ties/zeros/infinities/scaled scores and guarded output. No head/model speed claim.",
+    "threshold_bits_exact": true
+  },
+  {
+    "seeds": 32,
+    "physical_groups": 1,
+    "columns": 1,
+    "cases": 10,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_seed_threshold": {
+        "Driver pipeline hash": 12416435058452269052,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 452,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 2711603900,
+        "Instructions": 87,
+        "Copies": 12,
+        "Branches": 7,
+        "Latency": 288,
+        "Inverse Throughput": 35,
+        "VMEM Clause": 3,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 12
+      }
+    },
+    "scope": "Graph seed threshold10/32/64 scores, one or two queries, exact sorted tenth-value bits incl ties/zeros/infinities/scaled scores and guarded output. No head/model speed claim.",
+    "threshold_bits_exact": true
+  },
+  {
+    "seeds": 32,
+    "physical_groups": 2,
+    "columns": 2,
+    "cases": 10,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_seed_threshold": {
+        "Driver pipeline hash": 12416435058452269052,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 452,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 2711603900,
+        "Instructions": 87,
+        "Copies": 12,
+        "Branches": 7,
+        "Latency": 288,
+        "Inverse Throughput": 35,
+        "VMEM Clause": 3,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 12
+      }
+    },
+    "scope": "Graph seed threshold10/32/64 scores, one or two queries, exact sorted tenth-value bits incl ties/zeros/infinities/scaled scores and guarded output. No head/model speed claim.",
+    "threshold_bits_exact": true
+  },
+  {
+    "seeds": 64,
+    "physical_groups": 1,
+    "columns": 1,
+    "cases": 10,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_seed_threshold": {
+        "Driver pipeline hash": 12416435058452269052,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 452,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 2711603900,
+        "Instructions": 87,
+        "Copies": 12,
+        "Branches": 7,
+        "Latency": 288,
+        "Inverse Throughput": 35,
+        "VMEM Clause": 3,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 12
+      }
+    },
+    "scope": "Graph seed threshold10/32/64 scores, one or two queries, exact sorted tenth-value bits incl ties/zeros/infinities/scaled scores and guarded output. No head/model speed claim.",
+    "threshold_bits_exact": true
+  },
+  {
+    "seeds": 64,
+    "physical_groups": 2,
+    "columns": 2,
+    "cases": 10,
+    "guards_exact": true,
+    "resources": {
+      "head_bound_seed_threshold": {
+        "Driver pipeline hash": 12416435058452269052,
+        "SGPRs": 108,
+        "VGPRs": 48,
+        "Spilled SGPRs": 0,
+        "Spilled VGPRs": 0,
+        "Code size": 452,
+        "LDS size": 0,
+        "Scratch size": 0,
+        "Subgroups per SIMD": 32,
+        "Combined inputs": 0,
+        "Combined outputs": 0,
+        "Hash": 2711603900,
+        "Instructions": 87,
+        "Copies": 12,
+        "Branches": 7,
+        "Latency": 288,
+        "Inverse Throughput": 35,
+        "VMEM Clause": 3,
+        "SMEM Clause": 0,
+        "Pre-Sched SGPRs": 12
+      }
+    },
+    "scope": "Graph seed threshold10/32/64 scores, one or two queries, exact sorted tenth-value bits incl ties/zeros/infinities/scaled scores and guarded output. No head/model speed claim.",
+    "threshold_bits_exact": true
+  }
+]

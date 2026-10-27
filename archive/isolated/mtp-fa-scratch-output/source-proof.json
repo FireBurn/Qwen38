@@ -1,0 +1,20 @@
+{
+  "parent_sha256": "74780be50de42ab15ddf8b61971c1082e63ae75558659ccc5bb44d49f70ec132",
+  "variants": [
+    {
+      "label": "saved",
+      "source_sha256": "8d392e58e281c04a87e4812046690f2d70f2b5e09160af884e9188395fec5ff1"
+    },
+    {
+      "label": "fa_only",
+      "source_sha256": "871f3fac94ce45eadace6e5cc4d653ec1a6d8d2429909ff75b6dd6a3882aa633"
+    }
+  ],
+  "state_record_bytes": 64,
+  "scratch_offset": 16777216,
+  "scratch_end": 19922944,
+  "scratch_allocation_bytes": 1073741824,
+  "scope": "V2 output accumulator remains in disjoint per-invocation scratch during KQ and PV; per-row scale and output accumulation operate on saved half values with unchanged arithmetic. Lf/Mf still restored before softmax and saved after PV. Same current specialization constraints as V1. No adoption claim.",
+  "design_group_limit": 192,
+  "largest_executed_groups": 16
+}

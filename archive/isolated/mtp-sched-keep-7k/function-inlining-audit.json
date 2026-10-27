@@ -1,0 +1,32 @@
+{
+  "stages": {
+    "rowwise.comp.unoptimized.spv": {
+      "bytes": 787144,
+      "functions": 295,
+      "function_calls": 525,
+      "control_barriers": 57,
+      "function_control_masks": {
+        "0": 295
+      }
+    },
+    "rowwise.comp.aliased.spv": {
+      "bytes": 787660,
+      "functions": 295,
+      "function_calls": 525,
+      "control_barriers": 57,
+      "function_control_masks": {
+        "0": 295
+      }
+    },
+    "rowwise.comp.spv": {
+      "bytes": 1642904,
+      "functions": 1,
+      "function_calls": 0,
+      "control_barriers": 142,
+      "function_control_masks": {
+        "0": 1
+      }
+    }
+  },
+  "conclusion": "Optimized SPIR-V function/call counts determine whether function outlining survived the existing offline pipeline; no claim that outlining is performance beneficial."
+}

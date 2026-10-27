@@ -1,0 +1,13 @@
+{
+  "operators": [
+    1,
+    26,
+    27,
+    28,
+    29
+  ],
+  "max_chunk": 2,
+  "source": "$WORKSPACE/isolated/mk/gen/full256_fa_phase_bounds.comp",
+  "ls32_sha256": "5db09fc1fd4944c32002809c0a8efcfd746be5c8ee7ee2253f34c4f3114cf4d4",
+  "task_proof": "Atomic fetch-add claims [g,g+ck), clip to total; increments positive and non-overlapping, independent of stale per-wave remaining estimate; total task coverage and original coordinate mapping retained."
+}

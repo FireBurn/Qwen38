@@ -1,0 +1,41 @@
+{
+  "means_tokens_per_second": {
+    "native24": 45.3,
+    "mega24": 39.8665,
+    "without_fa": 39.6715,
+    "pre192": 36.4805,
+    "pre256": 37.665
+  },
+  "control_drift_percent": {
+    "native24": 0.8869179600886845,
+    "mega24": 1.1935402472874168,
+    "without_fa": 1.0770673357155536,
+    "pre192": 0.14517763716547227,
+    "pre256": 0.053113796308590366
+  },
+  "relative_to_native_percent": {
+    "native24": 0.0,
+    "mega24": -11.99448123620308,
+    "without_fa": -12.424944812362027,
+    "pre192": -19.469094922737305,
+    "pre256": -16.854304635761586
+  },
+  "relative_to_installed_mega_percent": {
+    "native24": 13.629237580424647,
+    "mega24": 0.0,
+    "without_fa": -0.4891324796508334,
+    "pre192": -8.493346544090908,
+    "pre256": -5.522180276673405
+  },
+  "all_tokens_identical": true,
+  "acceptance_counters_identical": true,
+  "scope": "Original asynchronous MTP pipeline. Symmetric10run resource/scheduler/grid diagnostic. Native FA adds segmentation; pre disables only preRA scheduling, postRA ILP/VOPD retained, sameprivate driver for allarms under external compilation; same core/Q8policy/driver. No quiet/adoption claim.",
+  "relative_to_unified_mega_percent": {
+    "native24": 13.629237580424647,
+    "mega24": 0.0,
+    "without_fa": -0.4891324796508334,
+    "pre192": -8.493346544090908,
+    "pre256": -5.522180276673405
+  },
+  "legacy_field_note": "relative_to_installed_mega_percent is inherited nomenclature; control is unifiedmega on same private397driver, not installed driver."
+}

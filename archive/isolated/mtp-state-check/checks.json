@@ -1,0 +1,44 @@
+[
+  {
+    "mode": "native",
+    "groups": 16,
+    "tokens": 2,
+    "head_size": 128,
+    "heads": 1,
+    "snapshots": 2,
+    "batch_vs_serial_exact": true,
+    "rollback_snapshot_exact": true,
+    "rollback_replay_exact": true,
+    "native_reference_exact": true,
+    "last32_native_ops": 128,
+    "graphs": 40
+  },
+  {
+    "mode": "reference",
+    "groups": 16,
+    "tokens": 2,
+    "head_size": 128,
+    "heads": 1,
+    "snapshots": 2,
+    "batch_vs_serial_exact": true,
+    "rollback_snapshot_exact": true,
+    "rollback_replay_exact": true,
+    "native_reference_exact": true,
+    "last32_native_ops": 0,
+    "graphs": 40
+  },
+  {
+    "mode": "prototype",
+    "groups": 16,
+    "tokens": 2,
+    "head_size": 128,
+    "heads": 1,
+    "snapshots": 2,
+    "batch_vs_serial_exact": true,
+    "rollback_snapshot_exact": true,
+    "rollback_replay_exact": true,
+    "native_reference_exact": true,
+    "last32_native_ops": 0,
+    "graphs": 40
+  }
+]

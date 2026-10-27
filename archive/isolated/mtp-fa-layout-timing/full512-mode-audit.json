@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "native_bound",
+    "shader": null,
+    "groups": null,
+    "head_groups": "192",
+    "aco_debug": null,
+    "backend": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-host/bin/libggml-vulkan.so.0.24.0",
+    "core": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-core-host/bin/libllama.so.0.4.1",
+    "cache": "$WORKSPACE/isolated/mtp-fa-layout-timing/cache-native_bound"
+  },
+  {
+    "mode": "mega_bound_colkeep320",
+    "shader": "$WORKSPACE/isolated/mtp-fa-streamed-lds/rowwise.comp",
+    "groups": "320",
+    "head_groups": "192",
+    "aco_debug": "sched-keep-occupancy-7k",
+    "backend": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-host/bin/libggml-vulkan.so.0.24.0",
+    "core": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-core-host/bin/libllama.so.0.4.1",
+    "cache": "$WORKSPACE/isolated/mtp-fa-layout-timing/cache-mega_bound_colkeep320"
+  },
+  {
+    "mode": "mega_bound_rowkeep320",
+    "shader": "$WORKSPACE/isolated/mtp-fa-rowmajor-7k/rowmajor.comp",
+    "groups": "320",
+    "head_groups": "192",
+    "aco_debug": "sched-keep-occupancy-7k",
+    "backend": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-host/bin/libggml-vulkan.so.0.24.0",
+    "core": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-core-host/bin/libllama.so.0.4.1",
+    "cache": "$WORKSPACE/isolated/mtp-fa-layout-timing/cache-mega_bound_rowkeep320"
+  },
+  {
+    "mode": "mega_bound_cachekeep320",
+    "shader": "$WORKSPACE/isolated/mtp-fa-rowmajor-cache7/cached.comp",
+    "groups": "320",
+    "head_groups": "192",
+    "aco_debug": "sched-keep-occupancy-7k",
+    "backend": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-host/bin/libggml-vulkan.so.0.24.0",
+    "core": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-core-host/bin/libllama.so.0.4.1",
+    "cache": "$WORKSPACE/isolated/mtp-fa-layout-timing/cache-mega_bound_cachekeep320"
+  }
+]

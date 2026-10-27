@@ -1,0 +1,5154 @@
+[
+  {
+    "index": 0,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 7,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 11,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 17,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 21,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 25,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 26,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 28,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 29,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 30,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 35,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 39,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 45,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 49,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 52,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 53,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 54,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 56,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 57,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 58,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 63,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 67,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 73,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 80,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": []
+      }
+    ]
+  },
+  {
+    "index": 84,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 85,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 86,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 87,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 90,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 94,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 95,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 96,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 103,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 105,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 106,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 107,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 109,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 110,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 111,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 117,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 121,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 132,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 135,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 136,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 141,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 142,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 143,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 149,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 153,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 167,
+        "key": "rms_norm_mul_f32|0,1,",
+        "bindings": [
+          2
+        ],
+        "exact": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "index": 167,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 168,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 173,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 174,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 175,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 181,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 185,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 196,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 205,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 206,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 212,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 216,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 217,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 218,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 222,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 224,
+        "key": "mul_f32_f32_f32_norepeat|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 226,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 228,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 229,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 234,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 235,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 236,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 242,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 246,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 257,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 260,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 261,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 266,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 267,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 268,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 274,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 278,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 289,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 292,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 293,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 298,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 299,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 300,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 306,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 310,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 325,
+        "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": []
+      }
+    ]
+  },
+  {
+    "index": 330,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 331,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 337,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 341,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 342,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 343,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 351,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 353,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 354,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 359,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 360,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 361,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 367,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 371,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 382,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 385,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 386,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 391,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 392,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 393,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 399,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 403,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 417,
+        "key": "rms_norm_mul_f32|0,1,",
+        "bindings": [
+          2
+        ],
+        "exact": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "index": 417,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 418,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 423,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 424,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 425,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 431,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 435,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 446,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 455,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 456,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 462,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 466,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 467,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 468,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 472,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 474,
+        "key": "mul_f32_f32_f32_norepeat|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 476,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 478,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 479,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 484,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 485,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 486,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 492,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 496,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 507,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 510,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 511,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 516,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 517,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 518,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 524,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 528,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 539,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 542,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 543,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 548,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 549,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 550,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 556,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 560,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 575,
+        "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": []
+      }
+    ]
+  },
+  {
+    "index": 580,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 581,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 587,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 591,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 592,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 593,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 601,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 603,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 604,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 609,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 610,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 611,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 617,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 621,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 632,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 635,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 636,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 641,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 642,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 643,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 649,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 653,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 667,
+        "key": "rms_norm_mul_f32|0,1,",
+        "bindings": [
+          2
+        ],
+        "exact": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "index": 667,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 668,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 673,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 674,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 675,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 681,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 685,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 696,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 705,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 706,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 712,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 716,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 717,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 718,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 722,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 724,
+        "key": "mul_f32_f32_f32_norepeat|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 726,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 728,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 729,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 734,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 735,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 736,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 742,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 746,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 757,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 760,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 761,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 766,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 767,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 768,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 774,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 778,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 789,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 792,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 793,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 798,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 799,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 800,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 806,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 810,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 825,
+        "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": []
+      }
+    ]
+  },
+  {
+    "index": 830,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 831,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 837,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 841,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 842,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 843,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 851,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 853,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 854,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 859,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 860,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 861,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 867,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 871,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 882,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 885,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 886,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 891,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 892,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 893,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 899,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 903,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 917,
+        "key": "rms_norm_mul_f32|0,1,",
+        "bindings": [
+          2
+        ],
+        "exact": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "index": 917,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 918,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 923,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 924,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 925,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 931,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 935,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 946,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 955,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 956,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 962,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 966,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 967,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 968,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 972,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 974,
+        "key": "mul_f32_f32_f32_norepeat|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 976,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 978,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 979,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 984,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 985,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 986,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 992,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 996,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1007,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1010,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1011,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1016,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1017,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1018,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1024,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1028,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1039,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1042,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1043,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1048,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1049,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1050,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1056,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1060,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1075,
+        "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": []
+      }
+    ]
+  },
+  {
+    "index": 1080,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1081,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1087,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1091,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1092,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1093,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1101,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1103,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1104,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1109,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1110,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1111,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1117,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1121,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1132,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1135,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1136,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1141,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1142,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1143,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1149,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1153,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1167,
+        "key": "rms_norm_mul_f32|0,1,",
+        "bindings": [
+          2
+        ],
+        "exact": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1167,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1168,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1173,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1174,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1175,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1181,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1185,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1196,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1205,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1206,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1212,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1216,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1217,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1218,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1222,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1224,
+        "key": "mul_f32_f32_f32_norepeat|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1226,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1228,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1229,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1234,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1235,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1236,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1242,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1246,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1257,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1260,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1261,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1266,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1267,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1268,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1274,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1278,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1289,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1292,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1293,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1298,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1299,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1300,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1306,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1310,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1325,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": []
+      }
+    ]
+  },
+  {
+    "index": 1330,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1331,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1337,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1341,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1342,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1343,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1351,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1353,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1354,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1359,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1360,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1361,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1367,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1371,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1382,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1385,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1386,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1391,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1392,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1393,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1399,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1403,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1417,
+        "key": "rms_norm_mul_f32|0,1,",
+        "bindings": [
+          2
+        ],
+        "exact": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1417,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1418,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1423,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1424,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1425,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1431,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1435,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1446,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1455,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1456,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1462,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1466,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1467,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1468,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1472,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1474,
+        "key": "mul_f32_f32_f32_norepeat|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1476,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1478,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1479,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1484,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1485,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1486,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1492,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1496,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1507,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1510,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1511,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1516,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1517,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1518,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1524,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1528,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1539,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1542,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1543,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1548,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1549,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1550,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1556,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1560,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1575,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": []
+      }
+    ]
+  },
+  {
+    "index": 1580,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1581,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1587,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1591,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1592,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1593,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1601,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1603,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1604,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1609,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1610,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1611,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1617,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1621,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1632,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1635,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1636,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1641,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1642,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1643,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1649,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1653,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1667,
+        "key": "rms_norm_mul_f32|0,1,",
+        "bindings": [
+          2
+        ],
+        "exact": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1667,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1668,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1673,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1674,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1675,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1681,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1685,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1696,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1705,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1706,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1712,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1716,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1717,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1718,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1722,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1724,
+        "key": "mul_f32_f32_f32_norepeat|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1726,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1728,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1729,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1734,
+        "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1735,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1736,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1742,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1746,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1757,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1760,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1761,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1766,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1767,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1768,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1774,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1778,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1789,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1792,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1793,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1798,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1799,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1800,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1806,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1810,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1825,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": []
+      }
+    ]
+  },
+  {
+    "index": 1830,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1831,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1837,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1841,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1842,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1843,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1851,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1853,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1854,
+        "key": "quantize_q8_1_x4|64,",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      },
+      {
+        "index": 1859,
+        "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1860,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1861,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1866,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1870,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1876,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1880,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1883,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1884,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1885,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1887,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1888,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1889,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1894,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1898,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1904,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1911,
+        "key": "rms_norm_mul_f32|0,1,",
+        "bindings": [
+          2
+        ],
+        "exact": [
+          2
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1911,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1912,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1913,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1915,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1916,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1917,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1922,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1926,
+        "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1932,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1936,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": [
+          2,
+          3,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1943,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1944,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1945,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1946,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1949,
+        "key": "fwht_f32|64,64,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1953,
+        "key": "fwht_f32|64,256,",
+        "bindings": [
+          1
+        ],
+        "exact": []
+      },
+      {
+        "index": 1954,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1955,
+        "key": "set_rows_f32_q8_0_i64|1,",
+        "bindings": [
+          0
+        ],
+        "exact": []
+      },
+      {
+        "index": 1964,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          3,
+          4
+        ],
+        "exact": []
+      }
+    ]
+  },
+  {
+    "index": 1963,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": false,
+    "consumers": [
+      {
+        "index": 1964,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1965,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          1
+        ],
+        "exact": [
+          1
+        ]
+      },
+      {
+        "index": 1967,
+        "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+        "bindings": [
+          2,
+          4
+        ],
+        "exact": [
+          2,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1968,
+    "ncols": 5120,
+    "epsilon_bits": 0,
+    "source_equals_dest": true,
+    "consumers": [
+      {
+        "index": 1969,
+        "key": "get_rows_f32_f32|",
+        "bindings": [
+          0
+        ],
+        "exact": [
+          0
+        ]
+      }
+    ]
+  }
+]

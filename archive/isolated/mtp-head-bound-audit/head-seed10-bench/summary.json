@@ -1,0 +1,72 @@
+[
+  {
+    "columns": 1,
+    "six_call_blocks": 128,
+    "native_gpu_top10_mean_us": 5122.53125,
+    "native_cpu_top10_mean_us": 5753.078125,
+    "bounded_mean_us": 2648.3515625,
+    "relative_latency_to_cpu_percent": -53.96635496758528,
+    "relative_latency_to_gpu_percent": -48.29994326535343,
+    "median_paired_percent": -53.4625081797397,
+    "paired_range_percent": [
+      -82.94495873044826,
+      1.9597989949748706
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1666.0,
+      "1": 1659.5,
+      "2": 1662.0
+    },
+    "mode_background_build_process_ranges": {
+      "0": [
+        15,
+        16
+      ],
+      "1": [
+        15,
+        16
+      ],
+      "2": [
+        15,
+        16
+      ]
+    },
+    "all_ordered_top10_ids_and_scores_saved_native_exact": true,
+    "scope": "Head-only public API top10 latency. Entire bounded head uses one GGML graph with three custom Vulkan stages (seed10, corrected mask, sparse/top10); no staged prototype submissions or mask bridge. Complete GPU coarse10 + native Q8 seeds + exact threshold + coarse filter + residual correction + sparse Q8 + compacted top10 + score gather, IDs cast exactly to float32 (all below2^24), concatenated with untouched original-F32 scores into one80byte/query transfer, then ordered on CPU. Both GPU paths use this packing. Native GPU Q8/top10/gather and native CPU Q8/full-logit download/partial_sort10 references; reused buffers/index sets. Four warmup blocks excluded; all symmetric six-call blocks retained. Background Java/build activity uncontrolled; process counts include JVMs, not threads. Not model throughput/adoption."
+  },
+  {
+    "columns": 2,
+    "six_call_blocks": 64,
+    "native_gpu_top10_mean_us": 6771.15625,
+    "native_cpu_top10_mean_us": 7649.1875,
+    "bounded_mean_us": 3453.7578125,
+    "relative_latency_to_cpu_percent": -54.848043501352265,
+    "relative_latency_to_gpu_percent": -48.99308648356771,
+    "median_paired_percent": -56.050553929273114,
+    "paired_range_percent": [
+      -77.91179337231968,
+      -13.089053803339523
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1654.5,
+      "1": 1667.0,
+      "2": 1641.0
+    },
+    "mode_background_build_process_ranges": {
+      "0": [
+        15,
+        16
+      ],
+      "1": [
+        15,
+        16
+      ],
+      "2": [
+        15,
+        16
+      ]
+    },
+    "all_ordered_top10_ids_and_scores_saved_native_exact": true,
+    "scope": "Head-only public API top10 latency. Entire bounded head uses one GGML graph with three custom Vulkan stages (seed10, corrected mask, sparse/top10); no staged prototype submissions or mask bridge. Complete GPU coarse10 + native Q8 seeds + exact threshold + coarse filter + residual correction + sparse Q8 + compacted top10 + score gather, IDs cast exactly to float32 (all below2^24), concatenated with untouched original-F32 scores into one80byte/query transfer, then ordered on CPU. Both GPU paths use this packing. Native GPU Q8/top10/gather and native CPU Q8/full-logit download/partial_sort10 references; reused buffers/index sets. Four warmup blocks excluded; all symmetric six-call blocks retained. Background Java/build activity uncontrolled; process counts include JVMs, not threads. Not model throughput/adoption."
+  }
+]

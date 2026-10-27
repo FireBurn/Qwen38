@@ -1,0 +1,17 @@
+{
+  "samples": {
+    "output.weight": {
+      "absolute_payload_offset": 10995008,
+      "sample_bytes": 4096,
+      "sha256": "188076c656a37641f7e2cb03a6cce37c569af61418798750145514a126ceaa8d"
+    },
+    "token_embd.weight": {
+      "absolute_payload_offset": 1361876288,
+      "sample_bytes": 4096,
+      "sha256": "8eaf1f2cdf17638b1bc54ed6e72ccc3cdd853b1f6db161ec2c043a7c733a2f7d"
+    }
+  },
+  "first4096_bytes_identical": false,
+  "conclusion": "Different payload samples disprove direct byte-identical tensor storage aliasing. Does not rule out other algebraic redundancy or establish every quantized element differs.",
+  "scope": "Read-only GGUF mapping and8192payloadbytes; no GPU initialization or model mutation."
+}

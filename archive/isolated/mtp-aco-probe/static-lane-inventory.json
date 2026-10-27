@@ -1,0 +1,26 @@
+{
+  "scope": "Static ACO listing pseudo-instruction occurrences, not dynamically executed traffic or final machine disassembly. Spill/reload pseudos have not been lowered to lane operations in this listing. Zero readlane counts do not mean zero spill instructions.",
+  "rows": {
+    "installed": {
+      "file": "isolated/mtp-q4/1.log",
+      "v_readlane_b32_occurrences": 0,
+      "v_writelane_b32_occurrences": 0,
+      "p_spill_occurrences": 36,
+      "p_reload_occurrences": 120
+    },
+    "private-off": {
+      "file": "isolated/mtp-aco-probe/off.log",
+      "v_readlane_b32_occurrences": 0,
+      "v_writelane_b32_occurrences": 0,
+      "p_spill_occurrences": 8,
+      "p_reload_occurrences": 89
+    },
+    "private-on": {
+      "file": "isolated/mtp-aco-probe/on.log",
+      "v_readlane_b32_occurrences": 0,
+      "v_writelane_b32_occurrences": 0,
+      "p_spill_occurrences": 8,
+      "p_reload_occurrences": 89
+    }
+  }
+}

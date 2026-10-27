@@ -1,0 +1,29 @@
+{
+  "means_tokens_per_second": {
+    "native24": 44.766999999999996,
+    "mega24": 39.0,
+    "off": 39.067499999999995,
+    "on": 39.1885
+  },
+  "control_drift_percent": {
+    "native24": 1.231654417548822,
+    "mega24": 1.597270683104579,
+    "off": 0.49279950975387177,
+    "on": 0.007655014034191332
+  },
+  "relative_to_native_percent": {
+    "native24": 0.0,
+    "mega24": -12.882257019679667,
+    "off": -12.731476310675271,
+    "on": -12.461187928608119
+  },
+  "relative_to_installed_mega_percent": {
+    "native24": 14.787179487179468,
+    "mega24": 0.0,
+    "off": 0.17307692307690914,
+    "on": 0.4833333333333245
+  },
+  "all_tokens_identical": true,
+  "acceptance_counters_identical": true,
+  "scope": "Original asynchronous MTP pipeline. Symmetric 8-run diagnostic under external compilation, not quiet adoption evidence. Same core and Q8 policy in every arm; private driver off/on separates baseline compiler change from extra scheduling policy."
+}

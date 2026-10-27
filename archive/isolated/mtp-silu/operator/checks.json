@@ -1,0 +1,77 @@
+[
+  {
+    "elements": 6144,
+    "mode": "native",
+    "phases": 5,
+    "graphs": 200,
+    "groups": 16,
+    "last32_native_ops": 64,
+    "native_keys": [
+      "sigmoid_f32|",
+      "silu_f32|"
+    ],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  },
+  {
+    "elements": 6144,
+    "mode": "prototype",
+    "phases": 5,
+    "graphs": 200,
+    "groups": 16,
+    "last32_native_ops": 0,
+    "native_keys": [],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  },
+  {
+    "elements": 12288,
+    "mode": "native",
+    "phases": 5,
+    "graphs": 200,
+    "groups": 16,
+    "last32_native_ops": 64,
+    "native_keys": [
+      "sigmoid_f32|",
+      "silu_f32|"
+    ],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  },
+  {
+    "elements": 12288,
+    "mode": "prototype",
+    "phases": 5,
+    "graphs": 200,
+    "groups": 16,
+    "last32_native_ops": 0,
+    "native_keys": [],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  },
+  {
+    "elements": 6147,
+    "mode": "native",
+    "phases": 5,
+    "graphs": 200,
+    "groups": 16,
+    "last32_native_ops": 64,
+    "native_keys": [
+      "sigmoid_f32|",
+      "silu_f32|"
+    ],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  },
+  {
+    "elements": 6147,
+    "mode": "prototype",
+    "phases": 5,
+    "graphs": 200,
+    "groups": 16,
+    "last32_native_ops": 0,
+    "native_keys": [],
+    "bit_identical": true,
+    "same_pointer_input_updates": true
+  }
+]

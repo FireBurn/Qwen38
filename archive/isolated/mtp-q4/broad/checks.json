@@ -1,0 +1,534 @@
+[
+  {
+    "K": 32,
+    "R": 3,
+    "columns": 1,
+    "forced_quantized_dispatch": true,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 64,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 32,
+    "R": 3,
+    "columns": 1,
+    "forced_quantized_dispatch": true,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 32,
+    "R": 3,
+    "columns": 2,
+    "forced_quantized_dispatch": true,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 112,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 32,
+    "R": 3,
+    "columns": 2,
+    "forced_quantized_dispatch": true,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 96,
+    "R": 7,
+    "columns": 1,
+    "forced_quantized_dispatch": true,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 64,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 96,
+    "R": 7,
+    "columns": 1,
+    "forced_quantized_dispatch": true,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 96,
+    "R": 7,
+    "columns": 2,
+    "forced_quantized_dispatch": true,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 112,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 96,
+    "R": 7,
+    "columns": 2,
+    "forced_quantized_dispatch": true,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 5120,
+    "R": 1,
+    "columns": 1,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 64,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 5120,
+    "R": 1,
+    "columns": 1,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 5120,
+    "R": 1,
+    "columns": 2,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 112,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 5120,
+    "R": 1,
+    "columns": 2,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "columns": 1,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 64,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "columns": 1,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "columns": 2,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 112,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "columns": 2,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 6144,
+    "R": 7,
+    "columns": 1,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 64,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 6144,
+    "R": 7,
+    "columns": 1,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 6144,
+    "R": 7,
+    "columns": 2,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 112,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 6144,
+    "R": 7,
+    "columns": 2,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 10240,
+    "R": 3,
+    "columns": 1,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 64,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 10240,
+    "R": 3,
+    "columns": 1,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 10240,
+    "R": 3,
+    "columns": 2,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 112,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 10240,
+    "R": 3,
+    "columns": 2,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "columns": 1,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 64,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "columns": 1,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "columns": 2,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 112,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "columns": 2,
+    "forced_quantized_dispatch": false,
+    "multi_add_disabled": true,
+    "mode": "prototype",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 0,
+    "observed_native_fusion_flags": [
+      0
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "topology": "independent",
+    "stable_warm_graph_types": [
+      {
+        "nodes": 8,
+        "dispatch_counts": {
+          "quantize_q8_1_x4": 5,
+          "mul_mat_vec_q3_k_q8_1_f32": 2,
+          "mul_mat_vec_q4_k_q8_1_f32": 2,
+          "mul_mat_vec_q5_k_q8_1_f32": 2,
+          "mul_mat_vec_q6_k_f32_f32": 2
+        },
+        "host_sync_calls": 10
+      },
+      {
+        "nodes": 20,
+        "dispatch_counts": {
+          "quantize_q8_1_x4": 10,
+          "mul_mat_vec_q3_k_q8_1_f32": 4,
+          "mul_mat_vec_q4_k_q8_1_f32": 4,
+          "mul_mat_vec_q5_k_q8_1_f32": 4,
+          "mul_mat_vec_q6_k_f32_f32": 4
+        },
+        "host_sync_calls": 20
+      }
+    ]
+  },
+  {
+    "topology": "chain",
+    "stable_warm_graph_types": [
+      {
+        "nodes": 8,
+        "dispatch_counts": {
+          "quantize_q8_1_x4": 6,
+          "mul_mat_vec_q3_k_q8_1_f32": 2,
+          "mul_mat_vec_q4_k_q8_1_f32": 2,
+          "mul_mat_vec_q5_k_q8_1_f32": 2,
+          "mul_mat_vec_q6_k_f32_f32": 2
+        },
+        "host_sync_calls": 14
+      },
+      {
+        "nodes": 18,
+        "dispatch_counts": {
+          "quantize_q8_1_x4": 12,
+          "mul_mat_vec_q3_k_q8_1_f32": 4,
+          "mul_mat_vec_q4_k_q8_1_f32": 4,
+          "mul_mat_vec_q5_k_q8_1_f32": 4,
+          "mul_mat_vec_q6_k_f32_f32": 4
+        },
+        "host_sync_calls": 27
+      }
+    ]
+  }
+]

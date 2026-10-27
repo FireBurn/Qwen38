@@ -1,0 +1,14 @@
+{
+  "parent_sha256": "903442bfd293f999049a93286ff1e182232aefb29f1a6844e41574739647379a",
+  "variants": [
+    {
+      "label": "streamed",
+      "source_sha256": "c12ad5bb73c49c669d5a12cdd9fa43335e3882e54c8d6f6afa994e60d95a9478"
+    },
+    {
+      "label": "q6_q45",
+      "source_sha256": "d7744fecc4f73eab7645b520091dcc2c593fc899f368f2a5ba9f147df0850a39"
+    }
+  ],
+  "change": "Independent Q6 dot chains evaluated serially; each chain retains four FMAs in ascending lane-component order and original final scale/FMA nesting. All barriers and all other operator functions unchanged."
+}

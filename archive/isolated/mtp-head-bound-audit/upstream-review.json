@@ -1,0 +1,21 @@
+{
+  "checked": "2026-10-26",
+  "candidates": [
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/pull/31149",
+      "state_observed": "draft",
+      "diff_sha256": "1975b8993341d99e9de330dbb749a091daef95aaf83008b7ecf26234b9043833",
+      "change": "Replace multi-call-site unrolling with row-width-bounded loops for RMS_NORM_ROPE_FUSION only.",
+      "reported_hardware": "RTX 5070 Ti, Windows Vulkan",
+      "relevance": "Native Vulkan fused RMS/RoPE path; does not directly change private mega RMS implementation. Potential baseline improvement must be tested separately.",
+      "local_validation": "Not applied or benchmarked."
+    },
+    {
+      "url": "https://github.com/ggml-org/llama.cpp/pull/28713",
+      "state_observed": "merged Oct 8 2026",
+      "change": "CUDA top-k algorithm selection by shape.",
+      "relevance": "Algorithm selection lesson for small query counts; CUDA-specific implementation is not directly usable by RADV.",
+      "local_validation": "No code applied; primary PR inspected."
+    }
+  ]
+}

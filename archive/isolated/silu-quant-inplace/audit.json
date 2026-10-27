@@ -1,0 +1,9 @@
+{
+  "historical_pairs": 42,
+  "exact_up_output_alias_pairs": 42,
+  "elements": 6144,
+  "unique_element_ownership": true,
+  "source_sha256": "f40c9ea85c32816b0754201b5bbbb6da9fc513563e548160e5f3b4a75cd4ea06",
+  "shader_sha256": "42d1d759f00b1959286fb6cef573c263f3d1703ce53dffcd41862077f6a30699",
+  "scope": "Historical shape/descriptors and contiguous 64-lane quantizer ownership proof only. Each lane loads its own up vec4 before overwriting the same vec4; no other lane needs those elements. Does not prove runtime eligibility, compiler memory ordering, fused host behavior, GPU correctness, or performance. Partial overlap must be rejected; current host rejects all input/output overlap."
+}

@@ -1,0 +1,454 @@
+[
+  {
+    "groups": 16,
+    "quartets": 12,
+    "pairs": [
+      {
+        "start": 8,
+        "control_cpu_us": 2525.663,
+        "replay_cpu_us": 1676.9005,
+        "cpu_us_percent": -33.60553248790515,
+        "control_wall_ms": 118.913,
+        "replay_wall_ms": 119.97149999999999,
+        "wall_ms_percent": 0.8901465777501061
+      },
+      {
+        "start": 12,
+        "control_cpu_us": 2624.224,
+        "replay_cpu_us": 1530.8519999999999,
+        "cpu_us_percent": -41.66458351116369,
+        "control_wall_ms": 117.5935,
+        "replay_wall_ms": 118.61250000000001,
+        "wall_ms_percent": 0.8665444943810607
+      },
+      {
+        "start": 16,
+        "control_cpu_us": 2553.1549999999997,
+        "replay_cpu_us": 1602.4065,
+        "cpu_us_percent": -37.23818177901458,
+        "control_wall_ms": 116.239,
+        "replay_wall_ms": 117.43,
+        "wall_ms_percent": 1.0246130816679466
+      },
+      {
+        "start": 20,
+        "control_cpu_us": 2654.4195,
+        "replay_cpu_us": 1476.2095,
+        "cpu_us_percent": -44.38672937717645,
+        "control_wall_ms": 115.471,
+        "replay_wall_ms": 116.5385,
+        "wall_ms_percent": 0.92447454339184
+      },
+      {
+        "start": 24,
+        "control_cpu_us": 3217.892,
+        "replay_cpu_us": 1637.6019999999999,
+        "cpu_us_percent": -49.109479124843226,
+        "control_wall_ms": 115.8415,
+        "replay_wall_ms": 116.44200000000001,
+        "wall_ms_percent": 0.5183807184817368
+      },
+      {
+        "start": 28,
+        "control_cpu_us": 2215.3705,
+        "replay_cpu_us": 1710.594,
+        "cpu_us_percent": -22.78519552372842,
+        "control_wall_ms": 115.30850000000001,
+        "replay_wall_ms": 116.4255,
+        "wall_ms_percent": 0.9687056895198554
+      },
+      {
+        "start": 32,
+        "control_cpu_us": 3797.1980000000003,
+        "replay_cpu_us": 1325.2914999999998,
+        "cpu_us_percent": -65.09817238921964,
+        "control_wall_ms": 115.34100000000001,
+        "replay_wall_ms": 116.22800000000001,
+        "wall_ms_percent": 0.7690240244145663
+      },
+      {
+        "start": 36,
+        "control_cpu_us": 2500.165,
+        "replay_cpu_us": 1368.1864999999998,
+        "cpu_us_percent": -45.27615177398292,
+        "control_wall_ms": 115.375,
+        "replay_wall_ms": 116.23349999999999,
+        "wall_ms_percent": 0.744095341278439
+      },
+      {
+        "start": 40,
+        "control_cpu_us": 2388.5910000000003,
+        "replay_cpu_us": 1307.2820000000002,
+        "cpu_us_percent": -45.26974270605558,
+        "control_wall_ms": 115.29400000000001,
+        "replay_wall_ms": 116.19200000000001,
+        "wall_ms_percent": 0.7788783457942206
+      },
+      {
+        "start": 44,
+        "control_cpu_us": 2425.295,
+        "replay_cpu_us": 1629.3015,
+        "cpu_us_percent": -32.82048163213135,
+        "control_wall_ms": 115.3495,
+        "replay_wall_ms": 116.38050000000001,
+        "wall_ms_percent": 0.8938053480942676
+      },
+      {
+        "start": 48,
+        "control_cpu_us": 2968.2285,
+        "replay_cpu_us": 1822.013,
+        "cpu_us_percent": -38.61614764496737,
+        "control_wall_ms": 115.589,
+        "replay_wall_ms": 116.55250000000001,
+        "wall_ms_percent": 0.8335568263416082
+      },
+      {
+        "start": 60,
+        "control_cpu_us": 2140.691,
+        "replay_cpu_us": 1597.2415,
+        "cpu_us_percent": -25.386639173986335,
+        "control_wall_ms": 115.434,
+        "replay_wall_ms": 116.6545,
+        "wall_ms_percent": 1.0573141362163696
+      }
+    ],
+    "excluded": [
+      {
+        "start": 0,
+        "reason": "Initial warmup or incomplete quartet"
+      },
+      {
+        "start": 4,
+        "reason": "Initial warmup or incomplete quartet"
+      },
+      {
+        "start": 52,
+        "reason": "Cache rebuild/miss or differing segment count",
+        "records": [
+          {
+            "index": 52,
+            "requested": 0,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 2155.785,
+            "wall_ms": 115.284
+          },
+          {
+            "index": 53,
+            "requested": 1,
+            "hit": 0,
+            "segments": 35,
+            "cpu_us": 3920.104,
+            "wall_ms": 117.109
+          },
+          {
+            "index": 54,
+            "requested": 1,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 3053.328,
+            "wall_ms": 116.28
+          },
+          {
+            "index": 55,
+            "requested": 0,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 2942.24,
+            "wall_ms": 115.596
+          }
+        ]
+      },
+      {
+        "start": 56,
+        "reason": "Cache rebuild/miss or differing segment count",
+        "records": [
+          {
+            "index": 56,
+            "requested": 0,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 2167.286,
+            "wall_ms": 115.449
+          },
+          {
+            "index": 57,
+            "requested": 1,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 3485.819,
+            "wall_ms": 116.469
+          },
+          {
+            "index": 58,
+            "requested": 1,
+            "hit": 1,
+            "segments": 20,
+            "cpu_us": 1291.914,
+            "wall_ms": 116.318
+          },
+          {
+            "index": 59,
+            "requested": 0,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 3066.853,
+            "wall_ms": 115.969
+          }
+        ]
+      },
+      {
+        "start": 64,
+        "reason": "Initial warmup or incomplete quartet"
+      }
+    ],
+    "all_195_records_native_exact": true,
+    "scope": "Synchronized target stage with alternating ABBA cache requests; CPU time is calling thread CPU before final GPU wait. Wall includes host and GPU. No timestamp/tape/fuser logs. External load uncontrolled; not asynchronous throughput.",
+    "cpu_us": {
+      "control_mean": 2667.574375,
+      "replay_mean": 1556.9900416666667,
+      "relative_percent": -41.63274110523473,
+      "median_pair_percent": -40.14036557806553,
+      "pair_range_percent": [
+        -65.09817238921964,
+        -22.78519552372842
+      ]
+    },
+    "wall_ms": {
+      "control_mean": 115.97908333333334,
+      "replay_mean": 116.97175,
+      "relative_percent": 0.8559014592430136,
+      "median_pair_percent": 0.8783455360655834,
+      "pair_range_percent": [
+        0.5183807184817368,
+        1.0573141362163696
+      ]
+    }
+  },
+  {
+    "groups": 192,
+    "quartets": 12,
+    "pairs": [
+      {
+        "start": 8,
+        "control_cpu_us": 6169.4135,
+        "replay_cpu_us": 2179.91,
+        "cpu_us_percent": -64.66584708578861,
+        "control_wall_ms": 48.759,
+        "replay_wall_ms": 48.423,
+        "wall_ms_percent": -0.6891035501138232
+      },
+      {
+        "start": 12,
+        "control_cpu_us": 4944.8315,
+        "replay_cpu_us": 3057.8374999999996,
+        "cpu_us_percent": -38.16093632310829,
+        "control_wall_ms": 48.9465,
+        "replay_wall_ms": 51.71,
+        "wall_ms_percent": 5.64596038531866
+      },
+      {
+        "start": 16,
+        "control_cpu_us": 5802.610500000001,
+        "replay_cpu_us": 2525.2125,
+        "cpu_us_percent": -56.481440551627585,
+        "control_wall_ms": 46.4645,
+        "replay_wall_ms": 49.8445,
+        "wall_ms_percent": 7.27437075616868
+      },
+      {
+        "start": 20,
+        "control_cpu_us": 6287.937,
+        "replay_cpu_us": 2423.376,
+        "cpu_us_percent": -61.45991920720579,
+        "control_wall_ms": 48.7425,
+        "replay_wall_ms": 53.435500000000005,
+        "wall_ms_percent": 9.628147920192864
+      },
+      {
+        "start": 24,
+        "control_cpu_us": 6514.029,
+        "replay_cpu_us": 2371.5640000000003,
+        "cpu_us_percent": -63.592977556593624,
+        "control_wall_ms": 48.924499999999995,
+        "replay_wall_ms": 51.327,
+        "wall_ms_percent": 4.910627599668893
+      },
+      {
+        "start": 28,
+        "control_cpu_us": 5054.0765,
+        "replay_cpu_us": 2361.535,
+        "cpu_us_percent": -53.274648692001406,
+        "control_wall_ms": 49.454,
+        "replay_wall_ms": 51.306,
+        "wall_ms_percent": 3.7448942451571154
+      },
+      {
+        "start": 32,
+        "control_cpu_us": 5806.2880000000005,
+        "replay_cpu_us": 2234.1365,
+        "cpu_us_percent": -61.522120501084345,
+        "control_wall_ms": 48.218999999999994,
+        "replay_wall_ms": 50.886,
+        "wall_ms_percent": 5.531014745224927
+      },
+      {
+        "start": 36,
+        "control_cpu_us": 5566.964,
+        "replay_cpu_us": 2009.2245,
+        "cpu_us_percent": -63.9080744908715,
+        "control_wall_ms": 48.784000000000006,
+        "replay_wall_ms": 48.7035,
+        "wall_ms_percent": -0.16501311905544602
+      },
+      {
+        "start": 40,
+        "control_cpu_us": 4900.303,
+        "replay_cpu_us": 2080.3630000000003,
+        "cpu_us_percent": -57.5462374469497,
+        "control_wall_ms": 48.422,
+        "replay_wall_ms": 47.8845,
+        "wall_ms_percent": -1.1100326297963647
+      },
+      {
+        "start": 44,
+        "control_cpu_us": 5436.6295,
+        "replay_cpu_us": 2024.092,
+        "cpu_us_percent": -62.76935921419695,
+        "control_wall_ms": 45.91,
+        "replay_wall_ms": 46.826499999999996,
+        "wall_ms_percent": 1.9962971030276666
+      },
+      {
+        "start": 48,
+        "control_cpu_us": 5700.7855,
+        "replay_cpu_us": 2314.3864999999996,
+        "cpu_us_percent": -59.4023227150013,
+        "control_wall_ms": 47.548500000000004,
+        "replay_wall_ms": 50.406,
+        "wall_ms_percent": 6.009653301365958
+      },
+      {
+        "start": 60,
+        "control_cpu_us": 5588.204,
+        "replay_cpu_us": 2535.692,
+        "cpu_us_percent": -54.624204842915546,
+        "control_wall_ms": 45.7575,
+        "replay_wall_ms": 51.257000000000005,
+        "wall_ms_percent": 12.018794733103878
+      }
+    ],
+    "excluded": [
+      {
+        "start": 0,
+        "reason": "Initial warmup or incomplete quartet"
+      },
+      {
+        "start": 4,
+        "reason": "Initial warmup or incomplete quartet"
+      },
+      {
+        "start": 52,
+        "reason": "Cache rebuild/miss or differing segment count",
+        "records": [
+          {
+            "index": 52,
+            "requested": 0,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 5170.98,
+            "wall_ms": 45.748
+          },
+          {
+            "index": 53,
+            "requested": 1,
+            "hit": 0,
+            "segments": 35,
+            "cpu_us": 6806.278,
+            "wall_ms": 50.079
+          },
+          {
+            "index": 54,
+            "requested": 1,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 7511.753,
+            "wall_ms": 54.09
+          },
+          {
+            "index": 55,
+            "requested": 0,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 5121.889,
+            "wall_ms": 48.339
+          }
+        ]
+      },
+      {
+        "start": 56,
+        "reason": "Cache rebuild/miss or differing segment count",
+        "records": [
+          {
+            "index": 56,
+            "requested": 0,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 4406.156,
+            "wall_ms": 51.771
+          },
+          {
+            "index": 57,
+            "requested": 1,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 7599.427,
+            "wall_ms": 51.72
+          },
+          {
+            "index": 58,
+            "requested": 1,
+            "hit": 1,
+            "segments": 20,
+            "cpu_us": 2013.247,
+            "wall_ms": 47.286
+          },
+          {
+            "index": 59,
+            "requested": 0,
+            "hit": 0,
+            "segments": 20,
+            "cpu_us": 5528.15,
+            "wall_ms": 45.848
+          }
+        ]
+      },
+      {
+        "start": 64,
+        "reason": "Initial warmup or incomplete quartet"
+      }
+    ],
+    "all_195_records_native_exact": true,
+    "scope": "Synchronized target stage with alternating ABBA cache requests; CPU time is calling thread CPU before final GPU wait. Wall includes host and GPU. No timestamp/tape/fuser logs. External load uncontrolled; not asynchronous throughput.",
+    "cpu_us": {
+      "control_mean": 5647.672666666666,
+      "replay_mean": 2343.1107916666665,
+      "relative_percent": -58.51192287584184,
+      "median_pair_percent": -60.431120961103545,
+      "pair_range_percent": [
+        -64.66584708578861,
+        -38.16093632310829
+      ]
+    },
+    "wall_ms": {
+      "control_mean": 47.99433333333333,
+      "replay_mean": 50.167458333333336,
+      "relative_percent": 4.527878291187171,
+      "median_pair_percent": 5.22082117244691,
+      "pair_range_percent": [
+        -1.1100326297963647,
+        12.018794733103878
+      ]
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "means_gpu_ms_per_graph": {
+    "parent": 0.84,
+    "without_fa": 0.835
+  },
+  "time_reduction_percent": 0.5952380952380931,
+  "drift_percent": {
+    "parent": 4.878048780487809,
+    "without_fa": 5.1597051597051635
+  },
+  "scope": "Same192WG matrix graph with and without FA reachability in module. EightQ4/Q5 K5120/R17408/two-cols matrices;445644800logical weightbytes. FA not executed in either graph. Resource/code/compiler changes coupled; under-load diagnostic, no adoption/model speed claim."
+}

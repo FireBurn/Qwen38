@@ -1,0 +1,7 @@
+# Actual MTP full logits and hidden-feature audit
+
+Private copy of existing instrumented runner additionally saves all draft proposal logits/hidden features immediately after proposal and all target verification logits/hidden features immediately after decode. Record header includes role,position,row,vocabwidth,hiddenwidth. All saved values checked finite. One draft/fullvocabulary/greedy controls;same shortprompt/request16/physical16.
+
+Parent mega (Q4_0native fallback) versus Q4_0mega: entire ordered audit files byte-identical, including headers,every248320-vocabulary logit vector and every5120hidden-feature vector. Emitted17tokens and drafted10/accepted7 also match exactly. This directly checks the real large-row Q4_0draft shapes and enabled norm/quant fusion effects, exceeding earlier output-token-only evidence. See logits-comparison.json for per-role counts and recordlayout. All private backend/frozen driver mappings verified. Guard completed/restored original quiet waiter.
+
+No general stochastic/long-context equivalence or speed conclusion. Existing native/parent numerical differences are outside this comparison; it isolates newly fused Q4_0 against same-stack parent. Next longer/multi-prompt acceptance and state stress, then local GPU/memory and quiet full-model/native baselines. Heavy compiles still block adoption timing. Source/binary/library/SPVassets pinned; prior runner and qualified model artifacts unchanged.

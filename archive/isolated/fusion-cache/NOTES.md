@@ -1,0 +1,7 @@
+# Immutable fusion metadata and preserve-mode scan removal
+
+The current mega program initializes its operation dictionary once per process; it has no shader hot-reload lifecycle. Cache the same per-pass ID selection and write-mask/matvec classification maps once, preserving exact prefix/equality predicates and iteration order. Cache process-lifetime GDN gates/norm-scale/GDN-QK/log flags, consistent with existing NQ and BF16 flag handling. Preserve-output NQ mode retains the float output, and the later old-buffer death scan cannot affect its eligibility; skip that unused scan only in this mode. Non-preserve scans remain.
+
+Both9/65-frame prompt outputs and all ordered fusion event sequences match. Shader and driver allocation unchanged. Elapsed diagnostic fuser time432->105us/token, inclusive flush501->173us. Instrumented results are not comparable throughput and inclusive scopes must not be added. Uninstrumented n96/r3:+0.288%; n256/r4:-0.225%. No end-to-end gain established; do not replace current bf16-pair reference. A real conditional-likelihood test and coverage promotion were not run for this unadopted library. Existing reference's benchmark-shape coverage was separately strengthened to255/256fullymega graphs.
+
+This prototype's static metadata assumes the existing single global mega program, not generic multiple independently reloaded devices/models. Nothing installed or published.

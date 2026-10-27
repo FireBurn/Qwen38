@@ -1,0 +1,38 @@
+{
+  "Q_vector_coordinate_set_identical": 1024,
+  "V_vector_coordinate_set_identical": 4096,
+  "probability_unique_writers": 256,
+  "phase_ranges": {
+    "KQ": [
+      [
+        0,
+        3072
+      ],
+      [
+        3072,
+        3840
+      ]
+    ],
+    "score+P": [
+      [
+        0,
+        4096
+      ],
+      [
+        4096,
+        7168
+      ]
+    ],
+    "PV": [
+      [
+        0,
+        2048
+      ],
+      [
+        4096,
+        7168
+      ]
+    ]
+  },
+  "scope": "CPU logical-coordinate and shared-bound audit at actualBr16/Bc64/HSK256/HSV256/WG256 constants. Proves these enumerations/ranges only, not synchronization/device codegen/numerical equivalence."
+}

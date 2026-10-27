@@ -1,0 +1,36 @@
+{
+  "hardware": {
+    "device_id": 30033,
+    "drm_major": 3,
+    "drm_minor": 64,
+    "l2_cache_kib": 8192,
+    "infinity_cache_bytes": 67108864
+  },
+  "working_sets": [
+    {
+      "kv": 3328,
+      "Q8_KV_bytes": 7241728,
+      "Q8_KV_MiB": 6.90625,
+      "fraction_of_infinity_cache": 0.10791015625,
+      "Q_F32_bytes": 24576,
+      "mask_F16_bytes": 6656
+    },
+    {
+      "kv": 32768,
+      "Q8_KV_bytes": 71303168,
+      "Q8_KV_MiB": 68.0,
+      "fraction_of_infinity_cache": 1.0625,
+      "Q_F32_bytes": 24576,
+      "mask_F16_bytes": 65536
+    },
+    {
+      "kv": 65536,
+      "Q8_KV_bytes": 142606336,
+      "Q8_KV_MiB": 136.0,
+      "fraction_of_infinity_cache": 2.125,
+      "Q_F32_bytes": 24576,
+      "mask_F16_bytes": 131072
+    }
+  ],
+  "scope": "Allocated input K+V bytes, excluding scratch/outputs. No cache hit-rate claim."
+}

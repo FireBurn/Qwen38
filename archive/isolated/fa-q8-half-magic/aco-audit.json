@@ -1,0 +1,30 @@
+{
+  "rows": [
+    {
+      "mode": "reference",
+      "static_opcode_counts": {
+        "v_cvt_f16_i16": 128,
+        "v_cvt_i32_i16": 88,
+        "v_perm_b32": 225,
+        "v_pk_add_f16": 32,
+        "v_pk_mul_f16": 88,
+        "v_and_b32": 1032,
+        "v_xor_b32": 112
+      }
+    },
+    {
+      "mode": "magic",
+      "static_opcode_counts": {
+        "v_cvt_f16_i16": 0,
+        "v_cvt_i32_i16": 56,
+        "v_perm_b32": 60,
+        "v_pk_add_f16": 96,
+        "v_pk_mul_f16": 88,
+        "v_and_b32": 1096,
+        "v_xor_b32": 176
+      }
+    }
+  ],
+  "finding": "Signed integer-to-half conversions disappear in the final ACO listing, replaced by packed-half arithmetic and packing operations. These are static selected opcode counts, not executed instruction counts or runtime improvement.",
+  "scope": "Final ACO print_program fallback; not an encoded machine-code disassembly."
+}

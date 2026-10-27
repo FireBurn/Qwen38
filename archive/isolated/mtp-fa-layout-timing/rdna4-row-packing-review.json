@@ -1,0 +1,26 @@
+{
+  "external_source": "https://github.com/ggml-org/llama.cpp/discussions/21043",
+  "external_scope": "Author reports rm_kq=1 small RADV gain and larger AMDVLK gain on old Qwen3.5 stack; not local evidence.",
+  "local_tape": "isolated/mtp-glu-quant-60/model16/off16.tape",
+  "tape_sha256": "a03b57b40b9dae76c9fabb8e22512feaac420f1024a1fef04fac97a20080e557",
+  "matrix_dispatch_inventory": {
+    "mul_mat_vec_q6_k_f32_f32|64,2,2,": 50,
+    "mul_mat_vec_bf16_f32_f32|64,2,2,": 96,
+    "mul_mat_vec_q5_k_q8_1_f32|64,1,2,": 278,
+    "mul_mat_vec_q3_k_q8_1_f32|64,1,2,": 156,
+    "mul_mat_vec_q4_k_q8_1_f32|64,1,2,": 266,
+    "mul_mat_vec_q8_0_f32_f32|64,1,1,": 2,
+    "mul_mat_vec_q4_0_q8_1_f32|64,1,2,": 16,
+    "mul_mat_vec_q4_0_q8_1_f32|64,1,1,": 8,
+    "mul_mat_vec_q4_0_f32_f32|64,2,1,": 19,
+    "mul_mat_vec_q8_0_f32_f32|64,1,2,": 1
+  },
+  "local_source": "isolated/llama.cpp/ggml/src/ggml-vulkan/ggml-vulkan.cpp",
+  "interpretation": [
+    "Local floating input K-quant pipelines use rm_kq=2; integer Q8_1 input paths independently use rm_kq_int=1.",
+    "Captured trace includes Q6_K F32 input with two rows and two columns: smaller row packing is a candidate, not a proven improvement.",
+    "Changing native rm_kq alone does not change embedded mega op implementations and is not a fair mega improvement comparison.",
+    "Do not alter PCIe/clock/driver system settings. Retain explicit private ICD and load/clock gates."
+  ],
+  "status": "Research/source/trace evidence only. No implementation or performance claim."
+}

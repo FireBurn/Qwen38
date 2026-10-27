@@ -1,0 +1,29 @@
+{
+  "means_tokens_per_second": {
+    "native24": 26.144,
+    "mega24": 23.226999999999997,
+    "control": 36.9625,
+    "coalesce2": 29.128
+  },
+  "control_drift_percent": {
+    "native24": 9.861818181818183,
+    "mega24": 18.048646743174967,
+    "control": 1.9863930708489352,
+    "coalesce2": 40.03514745455543
+  },
+  "relative_to_native_percent": {
+    "native24": 0.0,
+    "mega24": -11.157435740514089,
+    "control": 41.38043145654835,
+    "coalesce2": 11.413708690330493
+  },
+  "relative_to_installed_mega_percent": {
+    "native24": 12.558660179962988,
+    "mega24": 0.0,
+    "control": 59.13591940414176,
+    "coalesce2": 25.405777758642966
+  },
+  "all_tokens_identical": true,
+  "acceptance_counters_identical": true,
+  "scope": "Original asynchronous MTP pipeline. Symmetric8run dispatch coalescing diagnostic under external compilation; same core/Q8policy/driver. No quiet/adoption claim."
+}

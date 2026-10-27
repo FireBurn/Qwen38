@@ -1,0 +1,13 @@
+# ACO live-info capture
+
+Guarded35544 terminal0. Qualified12KiB FA-only and combinedGDN-late/Q6/FA modules at16groups,KV256,F32-native reference; raw output byte exact. Driver/backend in-client maps and frozen driver manifest checked. ACO_DEBUG=liveinfo,RADV_DEBUG=shaders,MESA_SHADER_CACHE_DISABLE=true. No driver rebuild or system modification. RawFAlog~4MiB,combined~31MiB.
+
+Dump stages attributed from frozen aco_interface.cpp: DEBUG_LIVE_INFO +dump_ir prints live-variable/instruction demands immediately before schedule_program, then subsequent ACO dumps show post-allocation/final forms. First annotated ACO program is the mega pipeline; its resource stats immediately follow stages. Other native graph pipelines also dumped later. Do not interpret an unqualified maximum across all programs as a measured runtime occupancy.
+
+Peak pre-scheduling annotated live count68FA-only/77combined (per-instruction counts need not equal exportedPreSchedVGPR67/76 due transient/summary conventions; do not silently equate them). FA-only first peakBB80 aroundlines10107+,combinedBB7348 around177580+. LDSreads into PMat at8192+ and VMat at0/128/256/384 then2048/2176/2304/2432 etc, directly feedingv_wmma_f16_16x16x16_f16. This maps peak toPV stage, not justKQ. P/V WMMA fragments and accumulator overlap other live state.
+
+Additional source/IR finding: combined outermain loopBB1 has nine v1phis36..44 withundefinitial values. All propagate through finalBB10510 and are preserved between unrelated opcodes. `carried-phi-origins.json` follows phi/copy chains to first nonphi defs.36comesfromopcode40(Q4_0C1);37/38from41(Q4_0C2);39/40from26(Q5C1),41/42from27(Q3C1),43/44from28(Q4C1). Leaves are floating result additions including fused bias/residual loads, so these are accumulated result temporaries, not established activation-cache data. AtFApeak six of these carried values remain live; three others have been overwritten along that dispatch path. Additional linearVGPR scalar spills contribute to interpreter overhead; the9register difference cannot all be assigned to9phis atoneinstruction without precise def/use counting.
+
+Next source hypothesis: affected local matvec arrays initialize only n<num_rows. Fully initializing their fixed-size rows could eliminate incidental undefined-tail carry around the interpreter loop. This is not implemented/proven. Must preserve active-row arithmetic and check odd-row tails, first_row>=stride guards, C1/C2 changing inputs and canonical fullmodel before promotion. Do not blindly zero global cached values: actualphi leaves trace accumulator sums. Pure register-liveness/SSA cleanup could be preferable to more explicit device-memory traffic.
+
+No performance result from debug dump; all ownGPU jobs terminal.

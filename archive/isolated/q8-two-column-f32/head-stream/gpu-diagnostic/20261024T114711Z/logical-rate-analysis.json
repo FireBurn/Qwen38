@@ -1,0 +1,9 @@
+{
+  "summary": "isolated/q8-two-column-f32/head-stream/gpu-diagnostic/20261024T114711Z/summary.json",
+  "logical_weight_bytes_per_pass": 2701721600,
+  "equivalent_logical_weight_GBps": {
+    "reference_two_passes": 632.3514569923931,
+    "prototype_one_pass_two_columns": 618.8093449381585
+  },
+  "scope": "Logical byte/time ratios assume two separate weight traversals vs one two-column traversal. Not measured DRAM traffic/bandwidth counters, not proof of saturation, not model/MTP token speed."
+}

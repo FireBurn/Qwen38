@@ -1,0 +1,22 @@
+{
+  "parent": "isolated/mtp-matvec-full-init/combined.comp",
+  "parent_sha256": "9dc0ed339f9e363a774a7b7fb770b86cbb760059a745be7d584bbf154edbff07",
+  "changed_wrappers": [
+    1,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    40,
+    41
+  ],
+  "claim_coverage_cases": 100,
+  "change": "Only quantized subgroup claim size; original atomicAdd, broadcast, dynamic scheduling, output arithmetic and barriers retained. No static task assignment.",
+  "scope": "CPU randomized claim-interval coverage check, not GPU numerical or forward-progress qualification.",
+  "status": "Prepared only; not compiled or run. Existing benchmark remains exclusive GPU owner."
+}

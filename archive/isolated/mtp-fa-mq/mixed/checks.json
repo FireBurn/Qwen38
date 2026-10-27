@@ -1,0 +1,410 @@
+[
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "native",
+    "phase": 0,
+    "phases": [
+      0
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "native",
+    "phase": 1,
+    "phases": [
+      1
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "native",
+    "phase": 2,
+    "phases": [
+      2
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "native",
+    "phase": 3,
+    "phases": [
+      3
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "native",
+    "phase": 4,
+    "phases": [
+      4
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "native",
+    "phase": 5,
+    "phases": [
+      5
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "native",
+    "phase": 6,
+    "phases": [
+      6
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "native",
+    "phase": 7,
+    "phases": [
+      7
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "reference",
+    "phase": -1,
+    "phases": [
+      0,
+      6,
+      1,
+      7,
+      2,
+      5,
+      3,
+      4
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": true,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 40,
+    "last24_native_ops": 96,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "prototype",
+    "phase": -1,
+    "phases": [
+      0,
+      6,
+      1,
+      7,
+      2,
+      5,
+      3,
+      4
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": true,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 40,
+    "last24_native_ops": 0,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "mode": "native",
+    "phase": 0,
+    "phases": [
+      0
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "mode": "native",
+    "phase": 1,
+    "phases": [
+      1
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "mode": "native",
+    "phase": 2,
+    "phases": [
+      2
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "mode": "native",
+    "phase": 3,
+    "phases": [
+      3
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "mode": "native",
+    "phase": 4,
+    "phases": [
+      4
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "mode": "native",
+    "phase": 5,
+    "phases": [
+      5
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "mode": "native",
+    "phase": 6,
+    "phases": [
+      6
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "mode": "native",
+    "phase": 7,
+    "phases": [
+      7
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": false,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 19,
+    "last24_native_ops": null,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "mode": "reference",
+    "phase": -1,
+    "phases": [
+      0,
+      6,
+      1,
+      7,
+      2,
+      5,
+      3,
+      4
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": true,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 40,
+    "last24_native_ops": 96,
+    "backend_verified": true,
+    "driver_verified": true
+  },
+  {
+    "K": 17408,
+    "R": 7,
+    "mode": "prototype",
+    "phase": -1,
+    "phases": [
+      0,
+      6,
+      1,
+      7,
+      2,
+      5,
+      3,
+      4
+    ],
+    "format_count": 6,
+    "bit_identical": true,
+    "batch_vs_separate_exact": true,
+    "fresh_native_per_phase_oracle": true,
+    "consecutive_same_pointer_input_updates": true,
+    "groups": 16,
+    "graphs": 40,
+    "last24_native_ops": 0,
+    "backend_verified": true,
+    "driver_verified": true
+  }
+]

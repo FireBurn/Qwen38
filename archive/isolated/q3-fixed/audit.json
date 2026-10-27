@@ -1,0 +1,45 @@
+{
+  "fields": [
+    "ncols",
+    "stride_a",
+    "stride_b",
+    "stride_d",
+    "batch_stride_a",
+    "batch_stride_b",
+    "batch_stride_d",
+    "fusion_flags",
+    "base_work_group_y",
+    "ne02",
+    "ne12",
+    "broadcast2",
+    "broadcast3"
+  ],
+  "values": [
+    5120,
+    5120,
+    5120,
+    17408,
+    89128960,
+    5120,
+    17408,
+    null,
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "functions": [
+    "op27_get_offsets",
+    "op27_reduce_result",
+    "op27_repack4",
+    "op27_get_d_scale",
+    "op27_mmvq_dot_product",
+    "op27_iter",
+    "op27_compute_outputs",
+    "op27_main"
+  ],
+  "fallback": true,
+  "source": "$WORKSPACE/isolated/mk/gen/full256_fa_phase_bf16_pair.comp",
+  "candidate": "$WORKSPACE/isolated/mk/gen/full256_fa_phase_q3_fixed.comp"
+}

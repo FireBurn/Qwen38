@@ -1,0 +1,1 @@
+GPU hold lifted by user instruction "keep going" after the desktop restart cause was identified in a separate Konsole/KWin test session. Continue isolated GPU tests, one at a time, monitoring external inference and driver errors. See isolated/crash-audit-20261023/findings.json.

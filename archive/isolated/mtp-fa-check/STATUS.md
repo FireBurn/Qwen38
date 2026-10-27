@@ -1,0 +1,5 @@
+# Two-query attention diagnostic - qualification failed
+
+KV256 Qwen head256/queryheads24/KVheads4, Q8 K/V, two distinct queries and causal F16 mask. First query masks final key; second sees all. Native batch matches native separate calls bit-identically. Reference mega batch falls back to native USE_MQ specialization (Flags34 versus existing Flags2), while separate calls run mega. Batched output remains native exact but both separate outputs differ: maxabs0.000103211030364, NRMSE0.00066901534587. All values finite, process exits0; Python correctness assertion stops the runner and guard resumes original quiet waiter. This is a numerical qualification failure, not a GPU crash.
+
+Differences affect all6144values in each single-query output. Queries use strided views, an unqualified layout compared with earlier contiguous FA microbenchmarks. Need isolate stride/layout versus masked tails versus other arithmetic before modifying shader. No claim that root cause is identified. KV3328/prototype not reached; no automatic rerun. Raw source, binary, logs, tapes, outputs and assets.json preserved. No model-path promotion.

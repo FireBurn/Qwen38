@@ -1,0 +1,78 @@
+[
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "float",
+    "values": [
+      2.554760694503784,
+      0.7597849369049072,
+      -0.5645847320556641,
+      -3.0806875228881836,
+      5.482468605041504,
+      -3.6071579456329346
+    ],
+    "max_abs": 0.0,
+    "normalized_rms_error": 0.0,
+    "actual_native_dispatch_key": "mul_mat_vec_q6_k_f32_f32|",
+    "dispatches": 64,
+    "backend_verified": true,
+    "scope": "Operator dispatch and finite-output audit only. Integer path quantizes activations; not expected bit exact, no model quality/speed claim. Timings ignored under compile."
+  },
+  {
+    "K": 5120,
+    "R": 3,
+    "mode": "integer",
+    "values": [
+      2.6299848556518555,
+      0.7060432434082031,
+      -0.5166850090026855,
+      -3.145608425140381,
+      5.532668113708496,
+      -3.657597541809082
+    ],
+    "max_abs": 0.07522416114807129,
+    "normalized_rms_error": 0.018314820431325655,
+    "actual_native_dispatch_key": "mul_mat_vec_q6_k_q8_1_f32|",
+    "dispatches": 64,
+    "backend_verified": true,
+    "scope": "Operator dispatch and finite-output audit only. Integer path quantizes activations; not expected bit exact, no model quality/speed claim. Timings ignored under compile."
+  },
+  {
+    "K": 17408,
+    "R": 3,
+    "mode": "float",
+    "values": [
+      -1.8110179901123047,
+      3.0437307357788086,
+      -1.7526216506958008,
+      -0.2565460205078125,
+      5.886756896972656,
+      -3.883396625518799
+    ],
+    "max_abs": 0.0,
+    "normalized_rms_error": 0.0,
+    "actual_native_dispatch_key": "mul_mat_vec_q6_k_f32_f32|",
+    "dispatches": 64,
+    "backend_verified": true,
+    "scope": "Operator dispatch and finite-output audit only. Integer path quantizes activations; not expected bit exact, no model quality/speed claim. Timings ignored under compile."
+  },
+  {
+    "K": 17408,
+    "R": 3,
+    "mode": "integer",
+    "values": [
+      -1.7670745849609375,
+      3.0110740661621094,
+      -1.737086296081543,
+      -0.24823951721191406,
+      5.806181907653809,
+      -3.870290756225586
+    ],
+    "max_abs": 0.08057498931884766,
+    "normalized_rms_error": 0.012346575630420124,
+    "actual_native_dispatch_key": "mul_mat_vec_q6_k_q8_1_f32|",
+    "dispatches": 64,
+    "backend_verified": true,
+    "scope": "Operator dispatch and finite-output audit only. Integer path quantizes activations; not expected bit exact, no model quality/speed claim. Timings ignored under compile."
+  }
+]

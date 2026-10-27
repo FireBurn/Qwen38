@@ -1,0 +1,17 @@
+{
+  "means": {
+    "control": {
+      "mean_gpu_ms": 1.3505,
+      "mean_segments": 8.0,
+      "wall_ms_per_graph": 1.5957294921875
+    },
+    "coalesce2": {
+      "mean_gpu_ms": 1.3255,
+      "mean_segments": 5.0,
+      "wall_ms_per_graph": 1.54256640625
+    }
+  },
+  "gpu_percent": -1.8511662347278857,
+  "wall_percent": -3.3315850962071014,
+  "scope": "64 small independent FFNs sharing weights. Host/dispatch diagnostic only; not a representative model memory workload or throughput/adoption result."
+}

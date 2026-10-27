@@ -1,0 +1,14 @@
+{
+  "parent_sha256": "903442bfd293f999049a93286ff1e182232aefb29f1a6844e41574739647379a",
+  "shader_sha256": "e12288d12ec88035a179336e78ab2b9e91b843f385ea23be264ddcfa12938a74",
+  "counter_offsets_bytes": [
+    64,
+    128,
+    192
+  ],
+  "counter_arena_prefix_bytes": 256,
+  "matvec_scheduler": "original dynamic",
+  "arithmetic_and_FA_unchanged": true,
+  "all_original_memory_barriers_preserved": true,
+  "scope": "Build description and CPU protocol proof; not GPU correctness or performance."
+}

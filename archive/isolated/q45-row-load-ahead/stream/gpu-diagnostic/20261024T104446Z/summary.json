@@ -1,0 +1,13 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference": 0.8185,
+    "candidate": 0.824
+  },
+  "time_reduction_percent": -0.6719609040928498,
+  "drift_percent": {
+    "reference": 0.8588957055214674,
+    "candidate": 0.0
+  },
+  "scope": "Focused eight alternating Q5_K/Q4_K matrix streaming dispatch timestamps under external compile. K5120/R17408,445644800 logical weight bytes. Not full model token speed. Clock and control drift qualify interpretation. Original Q3 label was inherited from runner template; raw log preserved.",
+  "original_generated_scope": "Focused eight-matrix Q3_K streaming dispatch timestamps under external compile. Not full model token speed. Clock and control drift must qualify interpretation."
+}

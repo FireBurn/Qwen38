@@ -1,0 +1,29 @@
+{
+  "mean_stage_us": {
+    "native24": {
+      "target_us": 1315279.5,
+      "draft_us": 964891.5,
+      "catchup_us": 2530230.5,
+      "sample_us": 45176.5,
+      "other_us": 58954,
+      "total_us": 4914532
+    },
+    "mega24": {
+      "target_us": 1189150,
+      "draft_us": 983452,
+      "catchup_us": 3216795.5,
+      "sample_us": 55722,
+      "other_us": 95200,
+      "total_us": 5540319.5
+    }
+  },
+  "mega_minus_native_us": {
+    "target_us": -126129.5,
+    "draft_us": 18560.5,
+    "catchup_us": 686565.0,
+    "sample_us": 10545.5,
+    "other_us": 36246,
+    "total_us": 625787.5
+  },
+  "scope": "ABBA same-stack MTP stage wall timers under compilation; includes driver submission, GPUwaits and CPUscheduling, not isolated GPUtimestamps. No adoption timing."
+}

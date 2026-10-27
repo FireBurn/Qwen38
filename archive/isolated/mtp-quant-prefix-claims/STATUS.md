@@ -1,0 +1,5 @@
+# First-tile assignment plus dynamic tail
+
+Separate candidate based oncachedFA/7KiB parent. Only12quantized wrappers change; all42ops retained. Eachlogical64-lane worker receivesone first tile byphys*4+slot withoutatomic; remainingtiles useoriginaldynamiccounter withworker_countoffset. Unlikeprevious fullystatic assignment oradaptivebatches, retainsdynamicloadbalancing afterfirsttile. Originalcounterreset remainszero, nophysicalworkgroupbarriersremoved.
+
+CPU312coveragecases pass, includingzero/small/boundary/largegrids andround/random/worker-drainorders; everytilecoveredonce. Reverse source transformation matchesparentexactly; operationmetadataidentical; gridbarrierdoesnotreadclaimcounter. No shadercompileorGPUtestyet. Possiblefirsttilelocality/branch/livenesscostsmayoutweighsavedatomics. BuildhelperpreparedbutNOTexecuted whileperformance13954 active. Futurefirst16VGPR/LDS/scratch+rawmatrix/FA+fullmodel gates required, thenquietmicro/fullmodeltiming. Directoryname doesnotestablishspeedup.

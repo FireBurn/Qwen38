@@ -1,0 +1,174 @@
+[
+  {
+    "label": "parent",
+    "groups": 16,
+    "native_reference_exact": true,
+    "live_lines": 100254,
+    "maximum_across_dumped_programs": 68,
+    "peak_rows": [
+      {
+        "line": 177492,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2b: %35977 = ds_read_u16_d16 %35962 offset0:2432 storage:shared",
+        "block": "BB7348"
+      },
+      {
+        "line": 177493,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2: %35978 = p_create_vector (kill)%35974, (kill)%35975, (kill)%35976, (kill)%35977",
+        "block": "BB7348"
+      },
+      {
+        "line": 177503,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2b: %35988 = ds_read_u16_d16 %35962 offset0:4480 storage:shared",
+        "block": "BB7348"
+      },
+      {
+        "line": 177504,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2: %35989 = p_create_vector (kill)%35985, (kill)%35986, (kill)%35987, (kill)%35988",
+        "block": "BB7348"
+      },
+      {
+        "line": 177514,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2b: %35999 = ds_read_u16_d16 %35962 offset0:6528 storage:shared",
+        "block": "BB7348"
+      },
+      {
+        "line": 177515,
+        "instruction": "( 68 vgpr, 101 sgpr)    v2: %36000 = p_create_vector (kill)%35996, (kill)%35997, (kill)%35998, (kill)%35999",
+        "block": "BB7348"
+      },
+      {
+        "line": 182114,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2b: %38980 = ds_read_u16_d16 %38965 offset0:2432 storage:shared",
+        "block": "BB7629"
+      },
+      {
+        "line": 182115,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2: %38981 = p_create_vector (kill)%38977, (kill)%38978, (kill)%38979, (kill)%38980",
+        "block": "BB7629"
+      },
+      {
+        "line": 182125,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2b: %38991 = ds_read_u16_d16 %38965 offset0:4480 storage:shared",
+        "block": "BB7629"
+      },
+      {
+        "line": 182126,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2: %38992 = p_create_vector (kill)%38988, (kill)%38989, (kill)%38990, (kill)%38991",
+        "block": "BB7629"
+      },
+      {
+        "line": 182136,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2b: %39002 = ds_read_u16_d16 %38965 offset0:6528 storage:shared",
+        "block": "BB7629"
+      },
+      {
+        "line": 182137,
+        "instruction": "( 68 vgpr,  97 sgpr)    v2: %39003 = p_create_vector (kill)%38999, (kill)%39000, (kill)%39001, (kill)%39002",
+        "block": "BB7629"
+      }
+    ],
+    "log_bytes": 31630536,
+    "scope": "Raw dump includes native pipelines and mega at several compile phases; maximum must be attributed to the correct program/phase before interpreting as mega peak. Numerical/resource diagnostic only."
+  },
+  {
+    "label": "descriptor",
+    "groups": 16,
+    "native_reference_exact": true,
+    "live_lines": 100277,
+    "maximum_across_dumped_programs": 74,
+    "peak_rows": [
+      {
+        "line": 177581,
+        "instruction": "( 74 vgpr, 101 sgpr)    v4: %35834 = global_load_dwordx4 %34824,  s1: undef offset:16 device storage:buffer",
+        "block": "BB7348"
+      },
+      {
+        "line": 177582,
+        "instruction": "( 74 vgpr, 101 sgpr)    v1: %35835,  v1: %35836,  v1: %35837,  v1: %35838 = p_split_vector (kill)%35834",
+        "block": "BB7348"
+      },
+      {
+        "line": 177583,
+        "instruction": "( 74 vgpr, 101 sgpr)    v1: %35839 = v_pk_mul_f16 (kill)%35835, %35833.xx",
+        "block": "BB7348"
+      },
+      {
+        "line": 177584,
+        "instruction": "( 74 vgpr, 101 sgpr)    v1: %35840 = v_pk_mul_f16 (kill)%35836, (kill)%35833.xx",
+        "block": "BB7348"
+      },
+      {
+        "line": 177588,
+        "instruction": "( 74 vgpr, 101 sgpr)    v2b: %35844 = v_fma_mixlo_f16 1.0, %35843, neg(lo(0))",
+        "block": "BB7348"
+      },
+      {
+        "line": 177589,
+        "instruction": "( 74 vgpr, 101 sgpr)    v1: %35845 = v_fma_f32 (kill)%35832, (kill)%35785, (kill)%35843",
+        "block": "BB7348"
+      },
+      {
+        "line": 177597,
+        "instruction": "( 74 vgpr,  99 sgpr)    v2b: %35855 = v_fma_mixlo_f16 1.0, %35854, neg(lo(0))",
+        "block": "BB7348"
+      },
+      {
+        "line": 177598,
+        "instruction": "( 74 vgpr,  99 sgpr)    v1: %35856 = v_pk_mul_f16 (kill)%35837, %35855.xx",
+        "block": "BB7348"
+      },
+      {
+        "line": 177599,
+        "instruction": "( 74 vgpr,  99 sgpr)    v1: %35857 = v_pk_mul_f16 (kill)%35838, (kill)%35855.xx",
+        "block": "BB7348"
+      },
+      {
+        "line": 182197,
+        "instruction": "( 74 vgpr, 100 sgpr)    v4: %38819 = global_load_dwordx4 %37710,  s1: undef offset:16 device storage:buffer",
+        "block": "BB7629"
+      },
+      {
+        "line": 182198,
+        "instruction": "( 74 vgpr, 100 sgpr)    v1: %38820,  v1: %38821,  v1: %38822,  v1: %38823 = p_split_vector (kill)%38819",
+        "block": "BB7629"
+      },
+      {
+        "line": 182199,
+        "instruction": "( 74 vgpr, 100 sgpr)    v1: %38824 = v_pk_mul_f16 (kill)%38820, %38818.xx",
+        "block": "BB7629"
+      },
+      {
+        "line": 182200,
+        "instruction": "( 74 vgpr, 100 sgpr)    v1: %38825 = v_pk_mul_f16 (kill)%38821, (kill)%38818.xx",
+        "block": "BB7629"
+      },
+      {
+        "line": 182204,
+        "instruction": "( 74 vgpr, 100 sgpr)    v2b: %38829 = v_fma_mixlo_f16 1.0, %38828, neg(lo(0))",
+        "block": "BB7629"
+      },
+      {
+        "line": 182205,
+        "instruction": "( 74 vgpr, 100 sgpr)    v1: %38830 = v_fma_f32 (kill)%38817, (kill)%38770, (kill)%38828",
+        "block": "BB7629"
+      },
+      {
+        "line": 182213,
+        "instruction": "( 74 vgpr,  98 sgpr)    v2b: %38840 = v_fma_mixlo_f16 1.0, %38839, neg(lo(0))",
+        "block": "BB7629"
+      },
+      {
+        "line": 182214,
+        "instruction": "( 74 vgpr,  98 sgpr)    v1: %38841 = v_pk_mul_f16 (kill)%38822, %38840.xx",
+        "block": "BB7629"
+      },
+      {
+        "line": 182215,
+        "instruction": "( 74 vgpr,  98 sgpr)    v1: %38842 = v_pk_mul_f16 (kill)%38823, (kill)%38840.xx",
+        "block": "BB7629"
+      }
+    ],
+    "log_bytes": 31515153,
+    "scope": "Raw dump includes native pipelines and mega at several compile phases; maximum must be attributed to the correct program/phase before interpreting as mega peak. Numerical/resource diagnostic only."
+  }
+]

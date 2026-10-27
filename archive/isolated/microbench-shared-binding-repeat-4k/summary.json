@@ -1,0 +1,7 @@
+{
+  "batch": "microbench-shared-binding-repeat-4k",
+  "control_mean": 28.7952345,
+  "candidate_mean": 29.113776,
+  "improvement_percent": 1.1062299214823268,
+  "note": "4K depth, n256, r4, ABBA. Initial batch followed higher historical CPU load; repeat had no live compilers and loadavg near 0.5. Both directions favor the shared binding."
+}

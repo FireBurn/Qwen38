@@ -1,0 +1,31 @@
+{
+  "means_gpu_ms_per_graph": {
+    "parent": 0.84,
+    "off": 0.842,
+    "on": 0.883
+  },
+  "time_reduction_percent": -5.119047619047623,
+  "drift_percent": {
+    "parent": 4.628501827040199,
+    "off": 4.617253948967193,
+    "on": 6.067677946324412
+  },
+  "scope": "Eight-matrix Q4/Q5 packed activation cache, parent/off/on controls; GPU timestamps under compile, not adoption timing or model speed.",
+  "decision": "shelve: no observed advantage, no adoption",
+  "same_module_cache_on_vs_off_percent": 4.869358669833734,
+  "reverse_pass": {
+    "on": {
+      "gpu_ms": 0.9090000000000001,
+      "active_clock_median_mhz": 1688.5
+    },
+    "off": {
+      "gpu_ms": 0.861,
+      "active_clock_median_mhz": 1678.0
+    },
+    "parent": {
+      "gpu_ms": 0.859,
+      "active_clock_median_mhz": 1677.5
+    }
+  },
+  "interpretation": "External compiler jobs remained active. Aggregate drift4.6-6.1percent prevents precise quiet speedup attribution. Reverse pass on/off/parent clocks1688.5/1678/1677.5MHz nevertheless show no cache advantage. Shared-copy/barrier costs and activation reuse effectiveness remain hypotheses; no hardware traffic counters collected."
+}

@@ -1,0 +1,13 @@
+{
+  "means_gpu_ms": {
+    "parent": 0.3245,
+    "wg8": 0.323,
+    "shared": 0.3725
+  },
+  "relative_to_parent_percent": {
+    "parent": 0.0,
+    "wg8": -0.46224961479198745,
+    "shared": 14.791987673343598
+  },
+  "scope": "Under-load diagnostic. Fixed two-row fast path restored in all arms. WG8 uses workgroup jobs with paired code eliminated; shared label denotes hybrid independent-subgroup scheduler with runtime paired branch false. No host fusion in any arm. Under-load diagnostic, not single-instruction causal proof."
+}

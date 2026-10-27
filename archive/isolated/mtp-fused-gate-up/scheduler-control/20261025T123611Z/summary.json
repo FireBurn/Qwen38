@@ -1,0 +1,13 @@
+{
+  "means_gpu_ms": {
+    "parent": 0.3235,
+    "wg8": 0.463,
+    "shared": 0.4755
+  },
+  "relative_to_parent_percent": {
+    "parent": 0.0,
+    "wg8": 43.122102009273576,
+    "shared": 46.986089644513115
+  },
+  "scope": "Under-load diagnostic. WG8 fixes paired flag false at compile time; shared has runtime paired branch false. No host fusion in any arm. Both new paths use WG8 scheduler; parent uses independent subgroups. Source factors can change compiler scheduling/register allocation too; not single-instruction causal proof."
+}

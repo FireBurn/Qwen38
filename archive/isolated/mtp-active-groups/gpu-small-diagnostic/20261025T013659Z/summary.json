@@ -1,0 +1,14 @@
+{
+  "means_gpu_ms_per_graph": {
+    "parent": 0.13247450980392156,
+    "spread": 0.12884705882352943,
+    "packed": 0.13332745098039217
+  },
+  "time_reduction_percent": -0.6438530534916165,
+  "drift_percent": {
+    "parent": 0.7666706287887681,
+    "spread": 6.291203616500285,
+    "packed": 3.6936073332934027
+  },
+  "scope": "Eight small Q4/Q5 matrices K5120/R3, two columns. Parent/spread/packed active WG policies, under-load diagnostic. Steady cumulative timestamp difference excludes first32warmup graphs;1us printed-average resolution limits fine gains. Not model/adoption speed."
+}

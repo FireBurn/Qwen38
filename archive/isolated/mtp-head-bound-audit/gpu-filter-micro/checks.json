@@ -1,0 +1,60 @@
+[
+  {
+    "columns": 1,
+    "records": 30,
+    "coarse_winner_misses": 19,
+    "gpu_pruned_candidates": 6,
+    "all_gpu_bounds_valid": true,
+    "exact_gpu_refine_bit_identical_to_original_dense_q8": true,
+    "all_winners_native_q8_exact": true,
+    "max_native_workgroups": 10,
+    "keys": [
+      "abs_f32|",
+      "add_f32_f32_f32_norepeat|1,",
+      "argmax_f32|64,",
+      "get_rows_f32_f32|",
+      "get_rows_q8_0_f32|",
+      "mul_f32_f32_f32_norepeat|1,",
+      "mul_f32_f32_f32|0,",
+      "mul_mat_vec_q4_0_f32_f32|64,2,1,",
+      "mul_mat_vec_q8_0_f32_f32|64,1,1,",
+      "repeat_i32|",
+      "scale_f32|",
+      "sqr_f32|",
+      "sqrt_f32|",
+      "step_f32|",
+      "sub_f32_f32_f32_norepeat|1,",
+      "sum_rows_f32|64,"
+    ],
+    "scope": "GPU coarse scores, conservative bounds, seed lower threshold and inclusive candidate mask, exact Q8 row refinements. CPU orchestrates selected row calls; no full-head performance or model integration claim."
+  },
+  {
+    "columns": 2,
+    "records": 30,
+    "coarse_winner_misses": 38,
+    "gpu_pruned_candidates": 12,
+    "all_gpu_bounds_valid": true,
+    "exact_gpu_refine_bit_identical_to_original_dense_q8": true,
+    "all_winners_native_q8_exact": true,
+    "max_native_workgroups": 20,
+    "keys": [
+      "abs_f32|",
+      "add_f32_f32_f32_norepeat|1,",
+      "argmax_f32|64,",
+      "get_rows_f32_f32|",
+      "get_rows_q8_0_f32|",
+      "mul_f32_f32_f32_norepeat|1,",
+      "mul_f32_f32_f32|0,",
+      "mul_mat_vec_q4_0_f32_f32|64,2,2,",
+      "mul_mat_vec_q8_0_f32_f32|64,1,2,",
+      "repeat_i32|",
+      "scale_f32|",
+      "sqr_f32|",
+      "sqrt_f32|",
+      "step_f32|",
+      "sub_f32_f32_f32_norepeat|1,",
+      "sum_rows_f32|64,"
+    ],
+    "scope": "GPU coarse scores, conservative bounds, seed lower threshold and inclusive candidate mask, exact Q8 row refinements. CPU orchestrates selected row calls; no full-head performance or model integration claim."
+  }
+]

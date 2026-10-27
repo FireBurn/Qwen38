@@ -1,0 +1,25 @@
+{
+  "means_tokens_per_second": {
+    "native24": 28.564,
+    "native_rms": 23.424500000000002,
+    "weight_nt": 23.3435
+  },
+  "control_drift_percent": {
+    "native24": 0.05599888002238984,
+    "native_rms": 0.11519754245241653,
+    "weight_nt": 2.2132709632709524
+  },
+  "relative_to_native_percent": {
+    "native24": 0.0,
+    "native_rms": -17.99292816132194,
+    "weight_nt": -18.276501890491538
+  },
+  "relative_to_native_order_mega_percent": {
+    "native24": 21.940703109991656,
+    "native_rms": 0.0,
+    "weight_nt": -0.3457917991846249
+  },
+  "all_tokens_identical": true,
+  "acceptance_counters_identical": true,
+  "scope": "Original asynchronous MTP pipeline. Symmetric6run weight cache-hint diagnostic under external compilation; same core/Q8policy/driver. No quiet/adoption claim."
+}

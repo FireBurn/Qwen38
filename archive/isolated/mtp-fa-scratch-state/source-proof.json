@@ -1,0 +1,20 @@
+{
+  "parent_sha256": "c12ad5bb73c49c669d5a12cdd9fa43335e3882e54c8d6f6afa994e60d95a9478",
+  "variants": [
+    {
+      "label": "saved",
+      "source_sha256": "74780be50de42ab15ddf8b61971c1082e63ae75558659ccc5bb44d49f70ec132"
+    },
+    {
+      "label": "fa_only",
+      "source_sha256": "62b82d006a6e29ffdc7677d3bec1ef884a7950afd0312196da79865a92edfb9a"
+    }
+  ],
+  "state_record_bytes": 64,
+  "scratch_offset": 16777216,
+  "scratch_end": 19922944,
+  "scratch_allocation_bytes": 1073741824,
+  "scope": "Current FA specialization only: rows_per_thread4,d_per_thread1,physicalWG256threads. Per-invocation disjoint state, full initialization before first load, exact half/float typed stores, no arithmetic change. No adopted/performance claim. Existing1GiB scratch is only dummy descriptor filling and push constant BDA; current parent shader never dereferences mpc.scratch. Full shader also retains verified Q6 component.",
+  "design_group_limit": 192,
+  "largest_executed_groups": 16
+}

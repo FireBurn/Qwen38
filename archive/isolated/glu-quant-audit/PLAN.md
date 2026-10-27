@@ -1,0 +1,7 @@
+# SwiGLU to Q8 fusion direction
+
+Historical graph audit:56adjacent mode2/N17408 separate-buffer swiglu/Q8 pairs. Restrict initial implementation to contiguous scalar F32 N multiple128, source strides1 and full single-row shapes, zero misalignment, distinct gate/up andfloatoutput/quantoutput ranges; preserve original floatoutput. Quantizer must retain subgroupClusteredMax/Add size8, two round operations, original sumorder, original float division and half scale conversion. Eachlane computes its samefour original SwiGLU values then writes floatandquant locally. Reject overlap/shape/mode/range uncertainty.
+
+Use a new private hostcopy basedoncurrent gather backend. Add exact opt-in ABI and a hostrecord rewrite only for adjacent live records; remap oldGLUrecord toexistingquant virtualworkgroup shape64/4slots and loadgate/up floataddresses plusquantoutput. Keeporiginalnrec/fallback/barrier protocol. Newshader uses unused recordfields onlyafter explicit audit againstallcurrentfusers andtapeABI; do not invent overlappingcontrolfields. Preserve allotheroperations/FA. Countactualfusions and verifyin16group operator/changinginput witness before model tests.
+
+No implementation yet. FirstGPUprobe<=16groups; actualVGPR/LDS residency determines latergroups with64spare. Require9/65bothpromptsexact andfullymegaFA tail, thenmicroandlongerfullmodel comparison. No expectation of gain from savedtracealone.

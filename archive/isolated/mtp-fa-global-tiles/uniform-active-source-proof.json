@@ -1,0 +1,10 @@
+{
+  "parent_sha256": "7712a3cc15e7c410dcbb10c00f960b40c27db5795602955384ac66bb4673c125",
+  "variants": {
+    "uniform_max": "cad5d9334eb0b5295ef8df843665317ce32ff0c7e1bded0be16663b4abcd2fd1",
+    "active_rows": "232271337feeb599103ebfdff7acdb78835642bef91f7476217f9378a008cad1"
+  },
+  "uniform_max_argument": "M initialized identically within each subgroup; subgroupMax row max and previous uniform M produce identical stored M in each lane. Broadcast makes that invariant visible to compiler, with no intended numerical change.",
+  "inactive_rows_argument": "Uses exact same global query row bound as Q initialization. Guard is subgroup-uniform at WG256/wave64/row_split4. No workgroup barrier inside guarded region. All probability elements initialized zero before row loop and written after it, including inactive rows; only real query rows are output.",
+  "scope": "Unqualified shader variants. Native exact comparisons/resource gates needed; no grid increase authorized."
+}

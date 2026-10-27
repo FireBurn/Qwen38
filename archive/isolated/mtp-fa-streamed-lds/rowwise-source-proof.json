@@ -1,0 +1,5 @@
+{
+  "parent_sha256": "ac5aebcd7d960b9bf95d2d47723dde8432c6edb1a6f56acf6795b452ab54f08e",
+  "source_sha256": "ad76225f8be143115bfaa20c2bca74804389005cb02d07a7df8d8735fe2ca16b",
+  "scope": "Compose previously native-exact rowwise softmax with native-exact Q/V shared streaming. Per-row max/decay/exp/f16 conversion/Lsum order and PV chunk order preserved. Full Pvec staged locally then stored in disjoint shared P; L/M saved immediately, stale end-of-KV stores removed. Original FA state layout and all barriers retained at producer/read-completion boundaries. Need fresh native/resource checks."
+}

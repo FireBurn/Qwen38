@@ -1,0 +1,21 @@
+# Settled FA layout comparison client
+
+Build76004 terminal0. New private client derives from existing deterministic Q8KV/head256/24Qheads/4KVheads/two-query causal FA stream client. Keeps source data, graph creation and precision request. Adds64compile-warm graphs plus synchronization, then >=3seconds synchronized selected-graph warmup, followed by steady_clock around only graph_compute+final synchronize. Same timing method available for native and mega. Output includes all finite tensors for raw comparison. Argument mode validated batch|single. No GPU qualification or timing run yet.
+
+Copies share Q/K/V buffers, so this is a cache-friendly controlled FA microbenchmark, not a model-throughput prediction. Future first16 qualification must compare all output bytes to native in batch and serial modes, validate paths and zero candidate fallback, and record actual shader resources. Higher grids need the relevant shader model/capacity gates. Timing needs per-phase build/CPU/clock gates like settled3 matrix harness. Keep this client separate from frozen timing assets already queued in keep7 portfolio.
+
+Prepared16-case native/column/row/cached bybatch/serial byKV256/3328 qualification using128copies,2timed iterations plusnormal compile/settling phases. Fullrawbatch/serialoutputs andlast32graphfallbacks asserted,60VGPR/7168LDS/0scratch required for allcandidates. Queued wrapper waits forcachedwide/causal/model16 success; guardedGPUjob at16WGs only. Timings from qualification notperformanceevidence.
+
+Separate run_mtp_fa_layout_full512.py prepared, not launched: native/column60/row60/cached60, allmega320WGs, commonhead192 andsameprivate .24core/driver;4modes forward/reverse. Requires bothnewshader graduated192/256/320 gates and16timing-client numericalcases. Inheritssteadyphase CPU/build/clock checks andsame tokens/counters comparison. Originalkeep7queuedassets unchanged.
+
+Prepared run_mtp_fa_layout_micro.py,32arms:2KVlengths(256,3328)*2timingmodes(batch,serial)*4implementations(native,column,row,cached)*2forward/reverse repeats. Common320WGmega/128copies/4096timedgraphs,>=3s postcompile settling, phase CPU/build/clock gates andrawalloutput checks. AllKVbufferssharedacrosscopies; no model/BWclaim. Not launched; requires16client numericalchecks andbothnewshader graduatedmodel qualification.
+
+CPUmode audit evaluated actual full512mode setup withoutGPU, confirming nativeunsetshader,3distinctmegaSPVs,allmega320WGs/commonhead192/samebackend/core/7Kpolicy. Corrected copied qualification-variable reference before anytimingrun. full512-mode-audit.json recordsconfiguration.
+
+Quietportfolio31404 live:26assetshashes frozen inqueued-assets.json; waits forcachedgraduated66511 terminalsuccess andoriginalkeep7quietportfolio10378 terminalsuccess, then15consecutive build-free seconds beforeeachguardedmicro/full512batch. No duplicateperformanceGPUjob. Do notmodifynewqueuedassets whilewatcherlive; status/auditdocuments remain writable. Originalkeep7pinnedassets unchanged.
+
+Timingclient8584 terminal0:all16KV256/3328 batch/serial native/column/row/cached cases native-exact andbatchserialexact;all12candidates60VGPR/7168LDS/0scratch,zero last32nativefallback. Normal64compilewarm+>=3ssettling path exercised. These runs hadtape/concurrentcompilation andare NOTperformanceevidence. Cachedgraduated66511 nowactive.
+
+Originaltiming10378 terminal1 aftercompiler375484/375485appeared duringthirdarm at20261027T035632Z; clockssettled/CPUmean.141, outputs exact, quietgatecorrectlyrejected. Dependent31404 terminal1 bydependencygate. NOTGPUcrash. Newrecovery13954 live,original20armmicro/full512thenFAlayoutmicro/full512,allunchangedpinnedassets/15squiet/phasegates. Oldlogsretained. Currentbuildersnone. timing-gate-incident.json recordsdetails.
+
+Recovered13954 terminal1 AFTERvalid20armmatrixcompletion. Full512firstnative arm invalidatedbynewPortageHIPbuild500421 with3buildprocesses insteadiyphase, notnumericalfailure. Partialfull512results20261027T071207Zretained, notcomparison. Preservecompletedmatrix070002Z(no rerunneeded). GLUfreshCPUwitness81681 terminal0/392cases; guardedGLU16FA/modelqualification8291 nowactive whileexternalcompilecontinues. Remainingperformancefull512/FAmicro/FAfull512mustresumeafterbothGPUqualificationandbuildquiet.

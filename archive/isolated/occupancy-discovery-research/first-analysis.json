@@ -1,0 +1,149 @@
+[
+  {
+    "folder": "first16/20261025T133753Z",
+    "physical_groups": 16,
+    "cap": 16,
+    "native_exact_raw_and_packed": true,
+    "counts": [
+      {
+        "phase": 0,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 1,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 2,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 3,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      }
+    ],
+    "resource": {
+      "VGPRs": 192,
+      "Spilled SGPRs": 40,
+      "Spilled VGPRs": 0,
+      "Code size": 425356,
+      "LDS size": 16384,
+      "Scratch size": 0
+    },
+    "resource_gate_pass": false
+  },
+  {
+    "folder": "structured-first16/20261025T134301Z",
+    "physical_groups": 16,
+    "cap": 16,
+    "native_exact_raw_and_packed": true,
+    "counts": [
+      {
+        "phase": 0,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 1,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 2,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 3,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      }
+    ],
+    "resource": {
+      "VGPRs": 192,
+      "Spilled SGPRs": 40,
+      "Spilled VGPRs": 0,
+      "Code size": 425356,
+      "LDS size": 16384,
+      "Scratch size": 0
+    },
+    "resource_gate_pass": false
+  },
+  {
+    "folder": "tail-storage-first16/20261025T140019Z",
+    "physical_groups": 16,
+    "cap": 16,
+    "native_exact_raw_and_packed": true,
+    "counts": [
+      {
+        "phase": 0,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 1,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 2,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 3,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      }
+    ],
+    "resource": {
+      "VGPRs": 192,
+      "Spilled SGPRs": 40,
+      "Spilled VGPRs": 0,
+      "Code size": 425356,
+      "LDS size": 16384,
+      "Scratch size": 0
+    },
+    "resource_gate_pass": false
+  }
+]

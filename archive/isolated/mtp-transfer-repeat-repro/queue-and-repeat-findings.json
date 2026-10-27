@@ -1,0 +1,52 @@
+{
+  "evidence": "vulkaninfo.txt captured with exact private7K ICD; R9700 device queue families and actual host selector source.",
+  "r9700_queue_families": [
+    {
+      "index": 0,
+      "flags": [
+        "graphics",
+        "compute",
+        "transfer",
+        "sparse"
+      ],
+      "count": 1
+    },
+    {
+      "index": 1,
+      "flags": [
+        "compute",
+        "transfer",
+        "sparse"
+      ],
+      "count": 4
+    },
+    {
+      "index": 2,
+      "flags": [
+        "video_decode"
+      ],
+      "count": 1
+    },
+    {
+      "index": 3,
+      "flags": [
+        "video_encode"
+      ],
+      "count": 1
+    },
+    {
+      "index": 4,
+      "flags": [
+        "sparse"
+      ],
+      "count": 1
+    }
+  ],
+  "ALLOW_GRAPHICS_QUEUE": true,
+  "selected_compute_family": 0,
+  "selected_transfer_family": 1,
+  "derivation": "Compute first required compute selects0. No noncompute transfer family; fallback required transfer excludingcomputeindex0 selects1.",
+  "radv_copy_path": "Non-RADV_QUEUE_TRANSFER family: compute-copy or CP DMA selection, not radv_sdma_copy_memory.",
+  "repeated_sequence": "fulluploadbad46,fulluploadbad46,splithalvesgood,fulluploadgood; newpatternpercase.",
+  "conclusion": "Not simply firstcopyonly. Smaller interveningcopies change subsequentfullcopybehavior. Inspect RADV compute/CPDMA copy path before SDMA."
+}

@@ -1,0 +1,8 @@
+{
+  "query_vec4_initializers": 1024,
+  "probability_vec4_writers": 256,
+  "unique_writer_per_element": true,
+  "Q_P_disjoint": true,
+  "physical_WG_ranges_disjoint": true,
+  "scope": "CPU address audit for compiledBr16,Bc64,HSK256,row_split4,WG256,vSlot0. Does not prove synchronization, shader compilation or numerical equivalence."
+}

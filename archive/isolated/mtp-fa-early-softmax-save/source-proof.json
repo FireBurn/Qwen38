@@ -1,0 +1,14 @@
+{
+  "parent_sha256": "4f867408e3513482b71b1816e07d2e960080010cce9f5103ee6defb29cf1d28b",
+  "variants": [
+    {
+      "label": "early",
+      "source_sha256": "18477e64f88f88b443897e0d66f0304813c43bc99c3da028878cc36cea511375"
+    },
+    {
+      "label": "fa_only",
+      "source_sha256": "50a3e4fc0f26201460f8e5020207cf930f6321a226baebe7652874d11f36479f"
+    }
+  ],
+  "scope": "Move existing per-invocation Lf/Mf exactF32 stores from KViteration end to immediately after complete probability formation before V staging/PV. No Lf/Mf use in moved-over region; next KV and final output reload saved state as before. No arithmetic/load/store count changes or changed barriers; same explicit scratch ownership/range and12KiBLDS; all42ops/integratedFA retained in full variant."
+}

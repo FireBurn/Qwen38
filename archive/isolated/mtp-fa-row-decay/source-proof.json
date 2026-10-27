@@ -1,0 +1,18 @@
+{
+  "parent_sha256": "903442bfd293f999049a93286ff1e182232aefb29f1a6844e41574739647379a",
+  "variants": [
+    {
+      "label": "decay",
+      "source_sha256": "e5fe728a8f7dc5a8e34a2139296334122f5b8f51c9d67303206da925356543b5"
+    },
+    {
+      "label": "combined",
+      "source_sha256": "705543727ac562d5102a249ea552195c99a6d0f80175d69cbd0e1b0295169a94"
+    },
+    {
+      "label": "fa_only",
+      "source_sha256": "e702d6cb3e5e3c8b3b80d1f7afced754b707ab77f7cc06afacbfbf140dce54c4"
+    }
+  ],
+  "change": "For each independent FA row compute eM, multiply Lf, scale corresponding Of row immediately. Per-row max/subgroup/exp/conversion/multiply unchanged. Other loops and all barriers unchanged. Combined additionally includes verified Q6 streamed dot component."
+}

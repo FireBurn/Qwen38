@@ -1,0 +1,91 @@
+{
+  "exact_captured_pc_arrays": {
+    "34816": [
+      34816,
+      17408,
+      17408,
+      2,
+      0,
+      0,
+      1,
+      17408,
+      34816,
+      34816,
+      1,
+      17408,
+      34816,
+      34816,
+      1,
+      17408,
+      34816,
+      34816,
+      2,
+      1,
+      0,
+      3789677026,
+      16,
+      3789677026,
+      16,
+      3789677026,
+      15
+    ],
+    "17408": [
+      17408,
+      17408,
+      17408,
+      2,
+      0,
+      0,
+      1,
+      17408,
+      17408,
+      17408,
+      1,
+      17408,
+      17408,
+      17408,
+      1,
+      17408,
+      17408,
+      17408,
+      1,
+      1,
+      0,
+      3789677026,
+      15,
+      3789677026,
+      15,
+      3789677026,
+      15
+    ]
+  },
+  "shape_checks": [
+    {
+      "elements": 17408,
+      "columns": 1,
+      "float_bytes": 69632,
+      "quant_grid": 68,
+      "quant_packed_bytes": 19584,
+      "contiguous_index_cases": 17408
+    },
+    {
+      "elements": 34816,
+      "columns": 2,
+      "float_bytes": 139264,
+      "quant_grid": 136,
+      "quant_packed_bytes": 39168,
+      "contiguous_index_cases": 34816
+    }
+  ],
+  "captured_native_pairs": 59,
+  "checks_retained": [
+    "exact producer PC",
+    "adjacent record",
+    "exact quant input descriptor",
+    "exact quant PC/grid",
+    "source/output byte ranges",
+    "all previous overlap checks",
+    "no previous fusion flags"
+  ],
+  "scope": "Prepared source/mapping only. No new host compilation or CPU rewrite execution, no current-segment eligibility, GPU numerical or timing claim."
+}

@@ -1,0 +1,9 @@
+# GLU quantization composed with cachedFA/7KiB shader
+
+Build66740 terminal0: shader alias annotations/SPIR-V validation andseparatehost compilation/link passed. Hostcopiesimmutablethreshold-host source plusverbatimhistoricalglu-quant/fusion.cpp.inc, defaultoff/auditflag; hooksafterexistingfusionpasses. ShadercopiescachedFA variant andchangesonlyquantizeop25 tocomputeoriginalSwiGLUscalarvalues whenrecord0x400, preservefloatoutput, thenoriginalquantizer. Existingnormquant0x100/0x200branches retained. Allotheropcodes/metadata/sharedlayout/barriers preserved. Manifest recordsparents,source,binary,hosthashes.
+
+CPUactualhostrewritewitness, newhost ABI/path audit and <=16WG resource/numerical/eligibility checks PENDING. NoGPUexperiment started fornewcomposition, no60VGPRallocationclaim fromitsdirectoryname. Legacy9.8%focusedGLUgain notamodelgain. DeferanynewCPUcompiler/GPUjob untilrecoveredperformance13954 finishes toavoidinvalidatingtiming. Currentqueuedassets untouched.
+
+OldCPUwitnesssource mismatch isolated toadded auditdiagnostic block; nooldbinary proofclaimed forcurrenthelper. Fresh generator copied intoownproject, currenthelper copiedverbatim; compilation deferred untilperformance13954 terminal. Preparedfirst16FAresource checks andoff/fused16modelcanonicalcontrols onnewprivatehost, actualkeepVGPR-basedresidency gate instead ofassuming60, explicitcurrentruntimeeligible/fusedpair assertions. Scripts not addedtoguardallowlist orlaunched.
+
+Freshcurrent-helperCPUwitness81681 terminal0/392cases passed. Addedguardallowlist fornewfirst16andmodel16only; batch8291nowactive. Previousperformance13954authoritativelyterminal, externalHIPcompileactive; no concurrentGPUbenchmark. No highergridclaim.

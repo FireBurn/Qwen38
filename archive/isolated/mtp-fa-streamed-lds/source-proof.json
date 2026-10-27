@@ -1,0 +1,31 @@
+{
+  "parent_sha256": "9dc0ed339f9e363a774a7b7fb770b86cbb760059a745be7d584bbf154edbff07",
+  "source_sha256": "ac5aebcd7d960b9bf95d2d47723dde8432c6edb1a6f56acf6795b452ab54f08e",
+  "shared_ranges": {
+    "K": [
+      0,
+      3072
+    ],
+    "Q": [
+      3072,
+      3840
+    ],
+    "score": [
+      0,
+      4096
+    ],
+    "probability": [
+      4096,
+      7168
+    ],
+    "V": [
+      0,
+      2048
+    ],
+    "output": [
+      0,
+      2048
+    ]
+  },
+  "scope": "Q8K/Q8V SHMEM_STAGING0 only, WG256/wave64. Q staged per16feature slice alongside K. V staged per16token slice alongside full P. KQ/PV accumulation order retained; read completion and producer barriers retained/added. P and scores disjoint, removing staged-probability locals. Same original FA state; no global Q/P scratch. Unqualified until native numerical/resource checks."
+}

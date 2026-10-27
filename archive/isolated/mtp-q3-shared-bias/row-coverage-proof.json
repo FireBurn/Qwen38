@@ -1,0 +1,5 @@
+{
+  "checked_x_values": 65536,
+  "invariant": "4*ceil(oldX/2)>=2*oldX; new row spans contiguous in x+newX*z, same batch y; stride_d guards all extra rows; exact fixed4 fast path plus1..3 row tails.",
+  "scope": "Coverage arithmetic only, not GPU correctness or speed."
+}

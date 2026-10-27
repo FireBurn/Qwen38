@@ -1,0 +1,40 @@
+{
+  "mean_steady_tokens_per_second": {
+    "native_cpu": 29.134676821814544,
+    "native_gpu": 29.283250878562104,
+    "native_bound32": 30.743767443338193,
+    "native_bound10": 30.97623563335825,
+    "mega_bound32": 24.05110487025243,
+    "mega_bound10": 25.014346041259394
+  },
+  "control_drift_percent": {
+    "native_cpu": 0.2633731086132185,
+    "native_gpu": 1.3304512818861358,
+    "native_bound32": 2.4311076805369036,
+    "native_bound10": 1.5091497556112832,
+    "mega_bound32": 1.2746774948162454,
+    "mega_bound10": 3.135965310158406
+  },
+  "relative_to_native_cpu_percent": {
+    "native_cpu": 0.0,
+    "native_gpu": 0.5099560831109518,
+    "native_bound32": 5.52293966178079,
+    "native_bound10": 6.320848598412598,
+    "mega_bound32": -17.44852699981143,
+    "mega_bound10": -14.142359655316506
+  },
+  "relative_to_native_gpu_percent": {
+    "native_cpu": -0.5073687254318116,
+    "native_gpu": 0.0,
+    "native_bound32": 4.987549267780622,
+    "native_bound10": 5.781409864010545,
+    "mega_bound32": -17.867367356197672,
+    "mega_bound10": -14.577974470819155
+  },
+  "all_tokens_and_acceptance_identical": true,
+  "seed10_relative_to_seed32_percent": {
+    "native": 0.7561473734424506,
+    "mega": 4.004976803366511
+  },
+  "scope": "Under-load same-stack full-model diagnostic only; decoder timing, first-window and full process wall retained per run; installed .27 baseline and quiet validation outstanding."
+}

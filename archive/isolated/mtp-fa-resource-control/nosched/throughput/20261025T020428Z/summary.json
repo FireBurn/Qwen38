@@ -1,0 +1,33 @@
+{
+  "means_tokens_per_second": {
+    "native24": 44.757000000000005,
+    "mega24": 38.88849999999999,
+    "without_fa": 38.932,
+    "nosched192": 32.537000000000006,
+    "nosched256": 34.166
+  },
+  "control_drift_percent": {
+    "native24": 1.1324570273002932,
+    "mega24": 0.7873812474184172,
+    "without_fa": 1.4436136910459751,
+    "nosched192": 0.28848514608397213,
+    "nosched256": 0.1523140011716384
+  },
+  "relative_to_native_percent": {
+    "native24": 0.0,
+    "mega24": -13.111915454565793,
+    "without_fa": -13.014723953794938,
+    "nosched192": -27.302991710793833,
+    "nosched256": -23.66333757847936
+  },
+  "relative_to_installed_mega_percent": {
+    "native24": 15.090579477223386,
+    "mega24": 0.0,
+    "without_fa": 0.11185826143977895,
+    "nosched192": -16.332591897347516,
+    "nosched256": -12.143692865500078
+  },
+  "all_tokens_identical": true,
+  "acceptance_counters_identical": true,
+  "scope": "Original asynchronous MTP pipeline. Symmetric10run resource/scheduler/grid diagnostic. Native FA adds segmentation; nosched disables all3ACO schedulers process-wide including native kernels under external compilation; same core/Q8policy/driver. No quiet/adoption claim."
+}

@@ -1,0 +1,33 @@
+{
+  "source_sha256": "2f48e2f19ee181a37de51aebae6ac176fb5a9487ac40170dbfe0da2bf6c876bd",
+  "scope": "Executed actual mode/environment setup without GPU launch; samehost/core, nativeunsetmega,off/on320,policy7K,head192. No correctness or speed claim.",
+  "modes": [
+    {
+      "mode": "native_bound",
+      "backend": "$WORKSPACE/isolated/mtp-glu-quant-60-c2/host/bin/libggml-vulkan.so.0.24.0",
+      "core": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-core-host/bin/libllama.so.0.4.1",
+      "shader": null,
+      "groups": null,
+      "fused": null,
+      "audit": null
+    },
+    {
+      "mode": "mega_bound_off320",
+      "backend": "$WORKSPACE/isolated/mtp-glu-quant-60-c2/host/bin/libggml-vulkan.so.0.24.0",
+      "core": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-core-host/bin/libllama.so.0.4.1",
+      "shader": "$WORKSPACE/isolated/mtp-glu-quant-60-c2/combined.comp",
+      "groups": "320",
+      "fused": null,
+      "audit": null
+    },
+    {
+      "mode": "mega_bound_fused320",
+      "backend": "$WORKSPACE/isolated/mtp-glu-quant-60-c2/host/bin/libggml-vulkan.so.0.24.0",
+      "core": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-core-host/bin/libllama.so.0.4.1",
+      "shader": "$WORKSPACE/isolated/mtp-glu-quant-60-c2/combined.comp",
+      "groups": "320",
+      "fused": "1",
+      "audit": null
+    }
+  ]
+}

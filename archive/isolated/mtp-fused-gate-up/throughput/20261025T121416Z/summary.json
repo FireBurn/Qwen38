@@ -1,0 +1,29 @@
+{
+  "means_tokens_per_second": {
+    "native24": 44.7475,
+    "mega24": 38.879999999999995,
+    "off": 38.370000000000005,
+    "fused": 38.167
+  },
+  "control_drift_percent": {
+    "native24": 1.6107231358414076,
+    "mega24": 1.5552099533437058,
+    "off": 1.2746872295223755,
+    "fused": 1.5685238975442273
+  },
+  "relative_to_native_percent": {
+    "native24": 0.0,
+    "mega24": -13.112464383485122,
+    "off": -14.252192859936308,
+    "fused": -14.705849488798261
+  },
+  "relative_to_installed_mega_percent": {
+    "native24": 15.091306584362151,
+    "mega24": 0.0,
+    "off": -1.3117283950617065,
+    "fused": -1.8338477366254935
+  },
+  "all_tokens_identical": true,
+  "acceptance_counters_identical": true,
+  "scope": "Original asynchronous MTP pipeline. Symmetric8run gate/up\u2013SwiGLU\u2013Q8 fusion diagnostic under external compilation; same core/Q8policy/driver. No quiet/adoption claim."
+}

@@ -1,0 +1,18 @@
+{
+  "means": {
+    "control": 29.8333825,
+    "compact": 29.7552115,
+    "margin6": 29.703253500000002
+  },
+  "improvement_percent": {
+    "compact": -0.26202526649466984,
+    "margin6": -0.43618587332494574
+  },
+  "control_drift_percent": 0.3777905424260708,
+  "background_compiler_present": false,
+  "valid_for_stable_environment_claim": true,
+  "scope": "4K depth n96/r3, six alternating runs; not a native-base win or unloaded result",
+  "max_repeat_stddev_percent": 0.3944584118424443,
+  "accepted_as_improvement": false,
+  "decision": "No full benchmark or promotion: compact -0.2620%, margin6 -0.4362% versus unchanged reference under quiet conditions."
+}

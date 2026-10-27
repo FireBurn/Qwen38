@@ -1,0 +1,12 @@
+{
+  "means": {
+    "control": 29.846159999999998,
+    "candidate": 28.944526
+  },
+  "improvement_percent": -3.0209380369199845,
+  "quality_scope": "Underlying FP32 float-RMS path passes both128-token contexts; this dot2 change has only9-frame incremental model gates and needs its own fixed-text quality validation before promotion.",
+  "control_drift_percent": 0.5361689489556842,
+  "max_repeat_stddev_percent": 0.5082824216624563,
+  "accepted_as_improvement": false,
+  "decision": "Reject inline activation conversion implementation: -3.0209%; no fuller benchmark or promotion."
+}

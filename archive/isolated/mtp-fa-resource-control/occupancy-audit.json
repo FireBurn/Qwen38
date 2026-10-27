@@ -1,0 +1,86 @@
+{
+  "hardware_query": {
+    "device": "AMD Radeon AI Pro R9700",
+    "num_cu": 64,
+    "simd_per_cu": 2,
+    "wave64_vgprs_per_simd": 768,
+    "wave64_vgpr_granularity": 12,
+    "max_waves_per_simd": 16,
+    "lds_per_cu_bytes": 65536,
+    "threads_per_workgroup": 256,
+    "wave_size": 64
+  },
+  "provenance": "RADV_DEBUG=info with frozen installed snapshot and vulkaninfo --summary, current local read-only query; relevant source ac_gpu_info.c242-310,aco_live_var_analysis.cpp605-668,radv_shader.c2985-3015. Uses bothCU/WGP mode and lower bound. Source-derived capacity estimate, not proof of complete actual scheduling/residency; unknown shaders still first<=16. No grid increase executed.",
+  "rows": [
+    {
+      "vgprs": 96,
+      "allocated_vgprs": 96,
+      "lds_bytes": 16384,
+      "register_limited_wave64_per_simd": 8,
+      "cu_mode_resident_bound": 256,
+      "wgp_mode_resident_bound": 256,
+      "conservative_resident_bound": 256,
+      "grid_after_64_group_spare": 192
+    },
+    {
+      "vgprs": 96,
+      "allocated_vgprs": 96,
+      "lds_bytes": 2048,
+      "register_limited_wave64_per_simd": 8,
+      "cu_mode_resident_bound": 256,
+      "wgp_mode_resident_bound": 256,
+      "conservative_resident_bound": 256,
+      "grid_after_64_group_spare": 192
+    },
+    {
+      "vgprs": 84,
+      "allocated_vgprs": 84,
+      "lds_bytes": 2048,
+      "register_limited_wave64_per_simd": 9,
+      "cu_mode_resident_bound": 256,
+      "wgp_mode_resident_bound": 288,
+      "conservative_resident_bound": 256,
+      "grid_after_64_group_spare": 192
+    },
+    {
+      "vgprs": 72,
+      "allocated_vgprs": 72,
+      "lds_bytes": 16384,
+      "register_limited_wave64_per_simd": 10,
+      "cu_mode_resident_bound": 256,
+      "wgp_mode_resident_bound": 256,
+      "conservative_resident_bound": 256,
+      "grid_after_64_group_spare": 192
+    },
+    {
+      "vgprs": 72,
+      "allocated_vgprs": 72,
+      "lds_bytes": 12288,
+      "register_limited_wave64_per_simd": 10,
+      "cu_mode_resident_bound": 320,
+      "wgp_mode_resident_bound": 320,
+      "conservative_resident_bound": 320,
+      "grid_after_64_group_spare": 256
+    },
+    {
+      "vgprs": 72,
+      "allocated_vgprs": 72,
+      "lds_bytes": 2048,
+      "register_limited_wave64_per_simd": 10,
+      "cu_mode_resident_bound": 320,
+      "wgp_mode_resident_bound": 320,
+      "conservative_resident_bound": 320,
+      "grid_after_64_group_spare": 256
+    },
+    {
+      "vgprs": 60,
+      "allocated_vgprs": 60,
+      "lds_bytes": 2048,
+      "register_limited_wave64_per_simd": 12,
+      "cu_mode_resident_bound": 384,
+      "wgp_mode_resident_bound": 384,
+      "conservative_resident_bound": 384,
+      "grid_after_64_group_spare": 320
+    }
+  ]
+}

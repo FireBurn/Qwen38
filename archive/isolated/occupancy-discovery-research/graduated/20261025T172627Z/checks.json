@@ -1,0 +1,194 @@
+[
+  {
+    "physical_groups": 16,
+    "cap": 192,
+    "all_raw_and_packed_outputs_native_exact": true,
+    "counts": [
+      {
+        "phase": 0,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 1,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 2,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 3,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      }
+    ],
+    "resource": {
+      "VGPRs": 96,
+      "Spilled SGPRs": 11,
+      "Spilled VGPRs": 0,
+      "Code size": 425528,
+      "LDS size": 16384,
+      "Scratch size": 0,
+      "Pre-Sched VGPRs": 83
+    }
+  },
+  {
+    "physical_groups": 64,
+    "cap": 192,
+    "all_raw_and_packed_outputs_native_exact": true,
+    "counts": [
+      {
+        "phase": 0,
+        "arrival": 256,
+        "next": 128,
+        "serving": 128,
+        "closed": 1,
+        "participants": 64
+      },
+      {
+        "phase": 1,
+        "arrival": 256,
+        "next": 128,
+        "serving": 128,
+        "closed": 1,
+        "participants": 64
+      },
+      {
+        "phase": 2,
+        "arrival": 256,
+        "next": 128,
+        "serving": 128,
+        "closed": 1,
+        "participants": 64
+      },
+      {
+        "phase": 3,
+        "arrival": 256,
+        "next": 128,
+        "serving": 128,
+        "closed": 1,
+        "participants": 64
+      }
+    ],
+    "resource": {
+      "VGPRs": 96,
+      "Spilled SGPRs": 11,
+      "Spilled VGPRs": 0,
+      "Code size": 425528,
+      "LDS size": 16384,
+      "Scratch size": 0,
+      "Pre-Sched VGPRs": 83
+    }
+  },
+  {
+    "physical_groups": 128,
+    "cap": 192,
+    "all_raw_and_packed_outputs_native_exact": true,
+    "counts": [
+      {
+        "phase": 0,
+        "arrival": 512,
+        "next": 256,
+        "serving": 256,
+        "closed": 1,
+        "participants": 128
+      },
+      {
+        "phase": 1,
+        "arrival": 512,
+        "next": 256,
+        "serving": 256,
+        "closed": 1,
+        "participants": 128
+      },
+      {
+        "phase": 2,
+        "arrival": 512,
+        "next": 256,
+        "serving": 256,
+        "closed": 1,
+        "participants": 128
+      },
+      {
+        "phase": 3,
+        "arrival": 512,
+        "next": 256,
+        "serving": 256,
+        "closed": 1,
+        "participants": 128
+      }
+    ],
+    "resource": {
+      "VGPRs": 96,
+      "Spilled SGPRs": 11,
+      "Spilled VGPRs": 0,
+      "Code size": 425528,
+      "LDS size": 16384,
+      "Scratch size": 0,
+      "Pre-Sched VGPRs": 83
+    }
+  },
+  {
+    "physical_groups": 192,
+    "cap": 192,
+    "all_raw_and_packed_outputs_native_exact": true,
+    "counts": [
+      {
+        "phase": 0,
+        "arrival": 768,
+        "next": 384,
+        "serving": 384,
+        "closed": 1,
+        "participants": 192
+      },
+      {
+        "phase": 1,
+        "arrival": 768,
+        "next": 384,
+        "serving": 384,
+        "closed": 1,
+        "participants": 192
+      },
+      {
+        "phase": 2,
+        "arrival": 768,
+        "next": 384,
+        "serving": 384,
+        "closed": 1,
+        "participants": 192
+      },
+      {
+        "phase": 3,
+        "arrival": 768,
+        "next": 384,
+        "serving": 384,
+        "closed": 1,
+        "participants": 192
+      }
+    ],
+    "resource": {
+      "VGPRs": 96,
+      "Spilled SGPRs": 11,
+      "Spilled VGPRs": 0,
+      "Code size": 425528,
+      "LDS size": 16384,
+      "Scratch size": 0,
+      "Pre-Sched VGPRs": 83
+    }
+  }
+]

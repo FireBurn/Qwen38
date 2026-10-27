@@ -1,0 +1,13 @@
+{
+  "scalar_pairs_exhaustive": 4096,
+  "random_blocks": 10000,
+  "exact_16_element_subdots": 160000,
+  "each_subdot_within_one_32_element_scale_group": true,
+  "block_indices_cover_256_elements_once": true,
+  "dot_instructions_per_16_elements": {
+    "current_dot4": 4,
+    "decomposed_dot8": 4
+  },
+  "scope": "CPU arithmetic and current op28 nibble-order proof only. No shader compiler support, model integration, GPU correctness or speed qualification. Scales/min corrections and float reduction must remain unchanged. Activation packing overhead unmeasured.",
+  "reference_shader_sha256": "d5ae6ae10a573aaa3931ef6df542933ef7a2a32a52f46fe4f2578c9d301b39ab"
+}

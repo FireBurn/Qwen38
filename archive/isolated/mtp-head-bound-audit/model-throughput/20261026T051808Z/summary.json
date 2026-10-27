@@ -1,0 +1,32 @@
+{
+  "mean_steady_tokens_per_second": {
+    "native_cpu": 28.406987721688793,
+    "native_gpu": 30.106671418842367,
+    "native_bound": 29.056106238708566,
+    "mega_gpu": 23.479264828738657,
+    "mega_bound": 25.078012890988614
+  },
+  "control_drift_percent": {
+    "native_cpu": 4.318414352382948,
+    "native_gpu": 8.9595143214802,
+    "native_bound": 6.316509886416499,
+    "mega_gpu": 4.157071247882893,
+    "mega_bound": 3.7285819951498045
+  },
+  "relative_to_native_cpu_percent": {
+    "native_cpu": 0.0,
+    "native_gpu": 5.983329573011575,
+    "native_bound": 2.285066348390652,
+    "mega_gpu": -17.34686880998583,
+    "mega_bound": -11.71885897693581
+  },
+  "relative_to_native_gpu_percent": {
+    "native_cpu": -5.64553840412202,
+    "native_gpu": 0.0,
+    "native_bound": -3.4894763539894402,
+    "mega_gpu": -22.01308307352743,
+    "mega_bound": -16.702804696990015
+  },
+  "all_tokens_and_acceptance_identical": true,
+  "scope": "Under-load same-stack full-model diagnostic only; decoder timing, first-window and full process wall retained per run; installed .27 baseline and quiet validation outstanding."
+}

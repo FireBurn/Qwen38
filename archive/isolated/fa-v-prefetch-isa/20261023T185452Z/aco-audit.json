@@ -1,0 +1,56 @@
+{
+  "rows": [
+    {
+      "mode": "control",
+      "block": "BB4370",
+      "anchor": "second descriptor offset16 load in block, corresponding to V stage after QK/softmax path",
+      "global_load_count_before_first_V_LDS_store": 8,
+      "load_waits": [
+        0,
+        3,
+        2,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "mode": "partial",
+      "block": "BB4370",
+      "anchor": "second descriptor offset16 load in block, corresponding to V stage after QK/softmax path",
+      "global_load_count_before_first_V_LDS_store": 10,
+      "load_waits": [
+        5,
+        3,
+        2,
+        3,
+        2,
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "mode": "full",
+      "block": "BB4370",
+      "anchor": "second descriptor offset16 load in block, corresponding to V stage after QK/softmax path",
+      "global_load_count_before_first_V_LDS_store": 16,
+      "load_waits": [
+        15,
+        13,
+        10,
+        9,
+        8,
+        7,
+        5,
+        3,
+        1,
+        0
+      ]
+    }
+  ],
+  "finding": "Earlier V loads survive final ACO scheduling:8/10/16 before first V LDS store. All paths wait_loadcnt0 before that store, so next tile memory requests are not proven outstanding over current PV WMMA. Possible gains are earlier issue/more memory-level parallelism or overlap with intervening scalar/vector work. Timing required.",
+  "scope": "Static final ACO listings only; not runtime instruction trace or cache-stall measurement."
+}

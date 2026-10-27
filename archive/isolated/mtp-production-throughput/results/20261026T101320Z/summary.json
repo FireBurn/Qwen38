@@ -1,0 +1,24 @@
+{
+  "mean_steady_tokens_per_second": {
+    "production_cpu": 46.59968120691981,
+    "frozen_cpu": 45.86409193899077,
+    "frozen_gpu": 46.21914070777635,
+    "production_gpu": 47.252546546394
+  },
+  "control_drift_percent": {
+    "production_cpu": 0.37862918975521964,
+    "frozen_cpu": 0.7260820747691632,
+    "frozen_gpu": 0.8990056967149052,
+    "production_gpu": 0.12153812641315653
+  },
+  "cross_stack_tokens_identical": true,
+  "within_stack_cpu_gpu_tokens_identical": {
+    "production": true,
+    "frozen": true
+  },
+  "production_vs_frozen_percent": {
+    "cpu": 1.603845703317397,
+    "gpu": 2.235882845921844
+  },
+  "scope": "Frozen production aa8 .27 full stack versus qualified private .24 native path, CPU and GPU draft sampling, same model/prompt/MTP1/Q8KV, frozen RADV. Different default activation quantization retained, not isolated compiler/shader attribution. Telemetry determines quiet status."
+}

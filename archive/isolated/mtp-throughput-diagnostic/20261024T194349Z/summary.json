@@ -1,0 +1,16 @@
+{
+  "means_tokens_per_second": {
+    "native24": 26.597,
+    "mega24": 22.7415,
+    "native27": 26.413
+  },
+  "control_drift_percent": {
+    "native24": 8.171251907799459,
+    "mega24": 5.963863605488395,
+    "native27": 3.4893237110334097
+  },
+  "mega_vs_native24_percent": -14.495995788998773,
+  "mega_vs_native27_percent": -13.900352099345026,
+  "all_first128_tokens_identical": true,
+  "scope": "Single symmetric batch under external CPUcompilation. Not adoption evidence; inspect CPU/clock/acceptance and control drift. No disabled-MTP throughput baseline in this batch."
+}

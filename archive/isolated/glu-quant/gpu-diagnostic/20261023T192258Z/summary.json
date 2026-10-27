@@ -1,0 +1,16 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference": 1.0729375,
+    "shader-off": 1.0744375000000002,
+    "fused": 0.9673749999999988
+  },
+  "fused_vs_reference_time_reduction_percent": 9.838643909827116,
+  "fused_vs_shader_off_time_reduction_percent": 9.964516316677463,
+  "drift_percent": {
+    "reference": 0.011649580614991883,
+    "shader-off": 0.081404814513375,
+    "fused": 1.2838618564643522
+  },
+  "scope": "Focused repeated64pair GPU dispatch timestamps under external compile; excludes native fallback, uploads/counter clearing/submission gaps. Not fullmodel token speed.",
+  "interpretation": "Focused graph dispatch time improvement clear versus0.012%reference drift andmatching1729/1730MHz medians. Timestamp logger prints cumulative means rounded0.001ms; reconstructedwindowRSD containsquantizationnoise. Not a fullmodel token-speed result."
+}

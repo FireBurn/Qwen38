@@ -1,0 +1,14 @@
+{
+  "counter_member_offsets": {
+    "0": 0,
+    "1": 4,
+    "2": 256,
+    "3": 260,
+    "4": 512
+  },
+  "explicit_device_buffer_shared_acqrel_control_barriers": 2,
+  "device_uniform_release_atomic_stores": 1,
+  "device_uniform_acquire_atomic_loads": 1,
+  "device_uniform_acqrel_atomic_adds": 1,
+  "note": "Static semantics and ABI audit, not a GPU-cache simulation or machine-code proof."
+}

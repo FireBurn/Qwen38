@@ -1,0 +1,46 @@
+[
+  {
+    "mode": "native",
+    "groups": 16,
+    "native_bit_exact": true,
+    "changing_inputs_and_biases": true,
+    "resources": {},
+    "scope": "Q5K5120x4097,C2,4same-pointer query patterns,3bias cases,64graphs. Instrumented run captures4complete graphs/allrecords/fourphysicalgroups and exports only at explicit finish. No performance claim."
+  },
+  {
+    "mode": "parent",
+    "groups": 16,
+    "native_bit_exact": true,
+    "changing_inputs_and_biases": true,
+    "resources": {
+      "VGPRs": 96,
+      "LDS size": 16384,
+      "Scratch size": 0
+    },
+    "scope": "Q5K5120x4097,C2,4same-pointer query patterns,3bias cases,64graphs. Instrumented run captures4complete graphs/allrecords/fourphysicalgroups and exports only at explicit finish. No performance claim."
+  },
+  {
+    "mode": "instrument_off",
+    "groups": 16,
+    "native_bit_exact": true,
+    "changing_inputs_and_biases": true,
+    "resources": {
+      "VGPRs": 96,
+      "LDS size": 16384,
+      "Scratch size": 0
+    },
+    "scope": "Q5K5120x4097,C2,4same-pointer query patterns,3bias cases,64graphs. Instrumented run captures4complete graphs/allrecords/fourphysicalgroups and exports only at explicit finish. No performance claim."
+  },
+  {
+    "mode": "instrument_on",
+    "groups": 16,
+    "native_bit_exact": true,
+    "changing_inputs_and_biases": true,
+    "resources": {
+      "VGPRs": 96,
+      "LDS size": 16384,
+      "Scratch size": 0
+    },
+    "scope": "Q5K5120x4097,C2,4same-pointer query patterns,3bias cases,64graphs. Instrumented run captures4complete graphs/allrecords/fourphysicalgroups and exports only at explicit finish. No performance claim."
+  }
+]

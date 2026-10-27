@@ -1,0 +1,9 @@
+{
+  "cpu_mapping": "passed",
+  "ownership_cells": 16384,
+  "bounds_helper_reused": "op22_fa_kv_index",
+  "same_per_slice_workgroup_barriers": true,
+  "source_sha256": "8ea8e9934ba1b4b77a1be2897e36159e6fd1eb0126ee89eaae22dbb89f26dae0",
+  "status": "SPIR-V validated, GPU resource probe and full model checks pending",
+  "scope": "fixed 256-thread/Bc64/HSK256/Q8 K slice prefetch; no throughput claim"
+}

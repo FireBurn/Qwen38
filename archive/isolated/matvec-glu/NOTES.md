@@ -1,0 +1,11 @@
+# Row-wise gate/up/SwiGLU fusion
+
+The captured trace contains 64 matching gate/up matvec pairs, each followed by two-source SwiGLU. All pairs have the same matvec kind within each pair. The first two operators are independent except for sharing activation input. Their output row count is 17408, K is 5120, and the generated matvec handles two rows per virtual workgroup.
+
+The opt-in host pass guards equal matvec opcode, all 13 PC words, input slot, workgroup dimensions, zero bias flags/base-Y, separate writable ranges and exact contiguous SwiGLU mode 2. It puts the up-weight slot in tape[18], up-output slot in [19], activation-output slot in [20], and sets bit 0x800. The first matvec stays in the tape, and the second plus SwiGLU records are removed. Original raw gate and up outputs are still written.
+
+The shader executes both matvecs for the same row task, switches weight/output slots for the second phase, then invokes the unchanged SwiGLU scalar helper. This removes inter-operator global barriers while requiring no new inter-workgroup waits or producer queue: the same worker produces both inputs for its own activation row. A non-unrolled two-phase loop avoids duplicating the matvec body. Off mode executes one phase.
+
+The first diagnostic build incorrectly read the q6 implementation's global `temp` after the integer paths, which use function-local arrays. It failed with non-finite logits at step 2 and is excluded. The corrected result-handoff build assigns a separate private result array in each matvec reduction epilogue before the wrapper consumes it. Both short checks then pass bit-identically. Driver allocation remains 96 VGPRs / 16 KB LDS, no VGPR spills, 241360-byte code. Both 65-frame regressions also pass bit-identically at 192 workgroups. Timing is underway. Actual short-run fusion count is 434 triples across eight decode steps, versus 64 whole-graph opportunities: segmentation limits coverage.
+
+Descriptor indices are uniform within each wave through the two-phase loop. Current Vulkan SPIR-V environment VUID-RuntimeSpirv-StorageBufferArrayNonUniformIndexing-10136 permits subgroup-uniform or invocation-group-uniform indexing. See https://docs.vulkan.org/spec/latest/appendices/spirvenv.html . Do not assume that the same language rules hold for every older implementation; this experiment targets the installed R9700 stack.

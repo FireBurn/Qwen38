@@ -1,0 +1,19 @@
+{
+  "scope": "Analytical traffic ceiling only, not executed-byte or timing measurement.",
+  "per_c2_pair": {
+    "elements": 34816,
+    "avoided_quantizer_float_reload_bytes": 139264,
+    "float_output_write_preserved": true
+  },
+  "illustrative_64_layer_target_pass": {
+    "pairs_assumed": 64,
+    "avoided_reload_bytes": 8912896,
+    "seconds_at_640e9_bytes_per_second": 1.39264e-05
+  },
+  "interpretation": [
+    "Even64eligibleC2FFNpairs avoid only8.91MB float reload, versus14.35GB target-body weight payload.",
+    "Reload removal alone is unlikely to close a roughly6token/s gap; reduced stage synchronization and dispatch cost must supply most benefit.",
+    "Recorded trace eligibility is not an executed frequency count. Runtime fused counters and fullmodel measurements remain mandatory.",
+    "If fusion is numerically exact but no faster, retain the result as a bounded negative rather than adding it blindly to other changes."
+  ]
+}

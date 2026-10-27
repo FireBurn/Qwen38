@@ -1,0 +1,120 @@
+{
+  "rows": [
+    {
+      "mode": "off",
+      "statistics": {
+        "Hash": 3959400205,
+        "Code size": 240684,
+        "VGPRs": 96,
+        "LDS size": 16384,
+        "Spilled SGPRs": 7,
+        "VALU": 18155,
+        "SALU": 9645,
+        "VMEM": 2190,
+        "SMEM": 1523,
+        "VMEM Clause": 1620
+      },
+      "selected_opcode_counts": {
+        "s_clause": 591,
+        "s_wait_loadcnt": 1494,
+        "s_wait_kmcnt": 905,
+        "s_wait_dscnt": 122,
+        "s_waitcnt_depctr": 4450,
+        "s_delay_alu": 3644,
+        "v_dot4_i32_iu8": 336,
+        "v_wmma_f32_16x16x16_f16": 16
+      },
+      "hardware_clause_length_histogram": {
+        "2": 283,
+        "3": 210,
+        "4": 35,
+        "5": 15,
+        "6": 17,
+        "7": 18,
+        "8": 5,
+        "9": 2,
+        "10": 3,
+        "16": 3
+      }
+    },
+    {
+      "mode": "on",
+      "statistics": {
+        "Hash": 2357038707,
+        "Code size": 240924,
+        "VGPRs": 96,
+        "LDS size": 16384,
+        "Spilled SGPRs": 7,
+        "VALU": 18155,
+        "SALU": 9645,
+        "VMEM": 2190,
+        "SMEM": 1523,
+        "VMEM Clause": 1480
+      },
+      "selected_opcode_counts": {
+        "s_clause": 689,
+        "s_wait_loadcnt": 1493,
+        "s_wait_kmcnt": 905,
+        "s_wait_dscnt": 122,
+        "s_waitcnt_depctr": 4447,
+        "s_delay_alu": 3598,
+        "v_dot4_i32_iu8": 336,
+        "v_wmma_f32_16x16x16_f16": 16
+      },
+      "hardware_clause_length_histogram": {
+        "2": 381,
+        "3": 212,
+        "4": 18,
+        "5": 16,
+        "6": 22,
+        "7": 18,
+        "8": 11,
+        "9": 3,
+        "10": 4,
+        "16": 3,
+        "32": 1
+      }
+    },
+    {
+      "mode": "wrong-fingerprint",
+      "statistics": {
+        "Hash": 3959400205,
+        "Code size": 240684,
+        "VGPRs": 96,
+        "LDS size": 16384,
+        "Spilled SGPRs": 7,
+        "VALU": 18155,
+        "SALU": 9645,
+        "VMEM": 2190,
+        "SMEM": 1523,
+        "VMEM Clause": 1620
+      },
+      "selected_opcode_counts": {
+        "s_clause": 591,
+        "s_wait_loadcnt": 1494,
+        "s_wait_kmcnt": 905,
+        "s_wait_dscnt": 122,
+        "s_waitcnt_depctr": 4450,
+        "s_delay_alu": 3644,
+        "v_dot4_i32_iu8": 336,
+        "v_wmma_f32_16x16x16_f16": 16
+      },
+      "hardware_clause_length_histogram": {
+        "2": 283,
+        "3": 210,
+        "4": 35,
+        "5": 15,
+        "6": 17,
+        "7": 18,
+        "8": 5,
+        "9": 2,
+        "10": 3,
+        "16": 3
+      }
+    }
+  ],
+  "memory_opcode_inventory_identical": true,
+  "allocation_and_arithmetic_opcode_counts_unchanged": true,
+  "wrong_fingerprint_reproduces_disabled_code_hash": true,
+  "scope": "Static final ACO print_program listing, not encoded disassembly or executed instruction counts. VMEM Clause metric itself uses the changed predicate; physical s_clause inventory/histogram provided separately. No performance result."
+}

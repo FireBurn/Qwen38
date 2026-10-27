@@ -1,0 +1,38 @@
+{
+  "adopt": false,
+  "reason": "Both dynamic claim variants regress paired and serial mixed-matrix execution with valid environment and repeat controls. No full-model throughput test warranted for these versions.",
+  "groups": [
+    {
+      "timing": "batch",
+      "extra_time_vs_parent_percent": {
+        "native": -18.977374810943417,
+        "parent": 0.0,
+        "chunk2": 3.038605681070816,
+        "chunk4": 5.001890768882067
+      },
+      "repeat_drift_percent": {
+        "native": 0.24529886666462275,
+        "parent": 0.07310298497043011,
+        "chunk2": 0.0933659926756425,
+        "chunk4": 0.004302845388648446
+      }
+    },
+    {
+      "timing": "single",
+      "extra_time_vs_parent_percent": {
+        "native": -12.126522787878047,
+        "parent": 0.0,
+        "chunk2": 2.8804914646292312,
+        "chunk4": 4.696671725330637
+      },
+      "repeat_drift_percent": {
+        "native": 0.08317285639747318,
+        "parent": 0.10763079317994695,
+        "chunk2": 0.03528247712818455,
+        "chunk4": 0.3092105231350617
+      }
+    }
+  ],
+  "model_correctness": true,
+  "micro_native_exact_cases": 150
+}

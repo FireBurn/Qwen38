@@ -1,0 +1,15 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference": 0.841,
+    "shader-off": 0.837,
+    "fused": 0.7464999999999999
+  },
+  "fused_vs_reference_time_reduction_percent": 11.236623067776463,
+  "fused_vs_shader_off_time_reduction_percent": 10.812425328554365,
+  "drift_percent": {
+    "reference": 1.416765053128688,
+    "shader-off": 0.7142857142857117,
+    "fused": 0.13404825737266535
+  },
+  "scope": "Focused repeated64pair GPU dispatch timestamps under external compile; excludes native fallback, uploads/counter clearing/submission gaps. Not fullmodel token speed."
+}

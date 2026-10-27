@@ -1,0 +1,14 @@
+{
+  "host_guard": true,
+  "unique_score_probability_output_writers": true,
+  "fragment_loads_in_bounds": true,
+  "phase_regions_disjoint": true,
+  "lds_end": 7920,
+  "counts": {
+    "score": 512,
+    "probability": 512,
+    "output": 512,
+    "qload": 128,
+    "pload": 512
+  }
+}

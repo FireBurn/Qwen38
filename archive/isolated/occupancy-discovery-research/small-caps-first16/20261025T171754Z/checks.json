@@ -1,0 +1,102 @@
+[
+  {
+    "mode": "cap1",
+    "physical_groups": 16,
+    "all_raw_and_packed_outputs_native_exact": true,
+    "counts": [
+      {
+        "phase": 0,
+        "arrival": 4,
+        "next": 17,
+        "serving": 17,
+        "closed": 1,
+        "participants": 1
+      },
+      {
+        "phase": 1,
+        "arrival": 4,
+        "next": 17,
+        "serving": 17,
+        "closed": 1,
+        "participants": 1
+      },
+      {
+        "phase": 2,
+        "arrival": 4,
+        "next": 17,
+        "serving": 17,
+        "closed": 1,
+        "participants": 1
+      },
+      {
+        "phase": 3,
+        "arrival": 4,
+        "next": 17,
+        "serving": 17,
+        "closed": 1,
+        "participants": 1
+      }
+    ],
+    "resource": {
+      "VGPRs": 96,
+      "Spilled SGPRs": 11,
+      "Spilled VGPRs": 0,
+      "Code size": 425528,
+      "LDS size": 16384,
+      "Scratch size": 0,
+      "Pre-Sched VGPRs": 83
+    },
+    "resource_gate_pass": true,
+    "driver": "$WORKSPACE/isolated/mtp-presched-only/driver"
+  },
+  {
+    "mode": "cap4",
+    "physical_groups": 16,
+    "all_raw_and_packed_outputs_native_exact": true,
+    "counts": [
+      {
+        "phase": 0,
+        "arrival": 16,
+        "next": 20,
+        "serving": 20,
+        "closed": 1,
+        "participants": 4
+      },
+      {
+        "phase": 1,
+        "arrival": 16,
+        "next": 20,
+        "serving": 20,
+        "closed": 1,
+        "participants": 4
+      },
+      {
+        "phase": 2,
+        "arrival": 16,
+        "next": 20,
+        "serving": 20,
+        "closed": 1,
+        "participants": 4
+      },
+      {
+        "phase": 3,
+        "arrival": 16,
+        "next": 20,
+        "serving": 20,
+        "closed": 1,
+        "participants": 4
+      }
+    ],
+    "resource": {
+      "VGPRs": 96,
+      "Spilled SGPRs": 11,
+      "Spilled VGPRs": 0,
+      "Code size": 425528,
+      "LDS size": 16384,
+      "Scratch size": 0,
+      "Pre-Sched VGPRs": 83
+    },
+    "resource_gate_pass": true,
+    "driver": "$WORKSPACE/isolated/mtp-presched-only/driver"
+  }
+]

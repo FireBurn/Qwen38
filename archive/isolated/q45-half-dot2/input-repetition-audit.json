@@ -1,0 +1,2462 @@
+{
+  "scope": "Last native-float decode graph; shape-derived counts, not measured ISA instructions. Compiler may CSE within its two-row cohort; no cross-op reuse or producer-lifetime proof inferred.",
+  "matrix_calls": 272,
+  "counts": {
+    "mul_mat_vec_q5_k_f32_f32": 139,
+    "mul_mat_vec_q4_k_f32_f32": 133
+  },
+  "cast_once_per_call_elements": 2138112,
+  "temporary_half_bytes_if_disjoint_per_call": 4276224,
+  "inline_scalar_conversions_without_two_row_sharing": 14334033920,
+  "inline_scalar_conversions_with_two_row_sharing": 7167016960,
+  "matrices": [
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q4_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 10240,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 52428800,
+      "half_conversions_if_shared_by_two_rows": 26214400
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 6144,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 12288,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 62914560,
+      "half_conversions_if_shared_by_two_rows": 31457280
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 1024,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 5242880,
+      "half_conversions_if_shared_by_two_rows": 2621440
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 6144,
+      "rows": 5120,
+      "source_float_bytes": 24576,
+      "once_half_bytes": 12288,
+      "source_scalar_half_conversions": 31457280,
+      "half_conversions_if_shared_by_two_rows": 15728640
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 5120,
+      "rows": 17408,
+      "source_float_bytes": 20480,
+      "once_half_bytes": 10240,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    },
+    {
+      "type": "mul_mat_vec_q5_k_f32_f32",
+      "columns": 17408,
+      "rows": 5120,
+      "source_float_bytes": 69632,
+      "once_half_bytes": 34816,
+      "source_scalar_half_conversions": 89128960,
+      "half_conversions_if_shared_by_two_rows": 44564480
+    }
+  ]
+}

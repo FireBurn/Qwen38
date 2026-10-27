@@ -1,0 +1,9 @@
+{
+  "status": "candidate_failed_do_not_adopt",
+  "candidate_mean": null,
+  "control_mean": 29.208992000000002,
+  "stock_mean": 31.857864,
+  "control_slower_than_stock_percent": 8.314656626068828,
+  "throughput_increase_to_match_stock_percent": 9.068686793436754,
+  "note": "Physical runs both terminated with GPUVM faults. No physical throughput result exists. Runner now fails immediately after any GPU process failure; it previously continued after failure. Control and stock values are descriptive surviving measurements, not a successful candidate ABBA batch."
+}

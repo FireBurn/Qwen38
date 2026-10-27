@@ -1,0 +1,346 @@
+[
+  {
+    "groups": 16,
+    "prompt": "roman",
+    "paired_quartets": 8,
+    "pairs": [
+      {
+        "start": 4,
+        "control_ms": 142.772,
+        "coalesced_ms": 134.726,
+        "percent": -5.635558793040651,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 8,
+        "control_ms": 119.14099999999999,
+        "coalesced_ms": 119.571,
+        "percent": 0.36091689678616756,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 12,
+        "control_ms": 118.086,
+        "coalesced_ms": 117.2515,
+        "percent": -0.7066883457818918,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 16,
+        "control_ms": 117.01599999999999,
+        "coalesced_ms": 116.7075,
+        "percent": -0.2636391604566857,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 20,
+        "control_ms": 116.1525,
+        "coalesced_ms": 115.0685,
+        "percent": -0.933255848991632,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 24,
+        "control_ms": 115.97399999999999,
+        "coalesced_ms": 115.1815,
+        "percent": -0.6833428182178691,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 28,
+        "control_ms": 116.2425,
+        "coalesced_ms": 114.719,
+        "percent": -1.3106221906789783,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 32,
+        "control_ms": 116.2875,
+        "coalesced_ms": 115.68199999999999,
+        "percent": -0.5206922498118938,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      }
+    ],
+    "skipped": [
+      {
+        "start": 0,
+        "reason": "Startup quartet includes initial pipeline/descriptor registration (0/273 segments), not steady target execution"
+      },
+      {
+        "start": 36,
+        "reason": "Incomplete quartet or includes single-column graph"
+      }
+    ],
+    "mean_control_ms": 120.20893749999999,
+    "mean_coalesced_ms": 118.61337499999999,
+    "relative_percent": -1.3273243514027366,
+    "median_pair_percent": -0.6950155819998804,
+    "pair_range_percent": [
+      -5.635558793040651,
+      0.36091689678616756
+    ],
+    "scope": "Synchronized target verification wall time in model, ABBA by target graph; not asynchronous throughput. All graphs synchronized, external compiler load uncontrolled."
+  },
+  {
+    "groups": 16,
+    "prompt": "cpp",
+    "paired_quartets": 7,
+    "pairs": [
+      {
+        "start": 4,
+        "control_ms": 200.2335,
+        "coalesced_ms": 207.96949999999998,
+        "percent": 3.8634893761533284,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 8,
+        "control_ms": 199.55849999999998,
+        "coalesced_ms": 199.6905,
+        "percent": 0.06614601733325731,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 12,
+        "control_ms": 197.805,
+        "coalesced_ms": 197.4895,
+        "percent": -0.15950051818710564,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 16,
+        "control_ms": 205.1905,
+        "coalesced_ms": 201.78,
+        "percent": -1.6621139867586399,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 20,
+        "control_ms": 198.18349999999998,
+        "coalesced_ms": 200.089,
+        "percent": 0.9614826663168374,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 24,
+        "control_ms": 191.5645,
+        "coalesced_ms": 200.82299999999998,
+        "percent": 4.833097990494051,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 28,
+        "control_ms": 141.6105,
+        "coalesced_ms": 137.261,
+        "percent": -3.071453034909144,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      }
+    ],
+    "skipped": [
+      {
+        "start": 0,
+        "reason": "Startup quartet includes initial pipeline/descriptor registration (0/273 segments), not steady target execution"
+      },
+      {
+        "start": 32,
+        "reason": "Incomplete quartet or includes single-column graph"
+      }
+    ],
+    "mean_control_ms": 190.5922857142857,
+    "mean_coalesced_ms": 192.1575,
+    "relative_percent": 0.8212369560752775,
+    "median_pair_percent": 0.06614601733325731,
+    "pair_range_percent": [
+      -3.071453034909144,
+      4.833097990494051
+    ],
+    "scope": "Synchronized target verification wall time in model, ABBA by target graph; not asynchronous throughput. All graphs synchronized, external compiler load uncontrolled."
+  },
+  {
+    "groups": 192,
+    "prompt": "roman",
+    "paired_quartets": 8,
+    "pairs": [
+      {
+        "start": 4,
+        "control_ms": 45.8505,
+        "coalesced_ms": 46.672,
+        "percent": 1.7916925660570682,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 8,
+        "control_ms": 46.168000000000006,
+        "coalesced_ms": 46.239999999999995,
+        "percent": 0.1559521746664183,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 12,
+        "control_ms": 45.7705,
+        "coalesced_ms": 46.968,
+        "percent": 2.616314001376452,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 16,
+        "control_ms": 46.04,
+        "coalesced_ms": 46.373,
+        "percent": 0.7232841007819291,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 20,
+        "control_ms": 42.804,
+        "coalesced_ms": 43.528999999999996,
+        "percent": 1.693766937669361,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 24,
+        "control_ms": 40.170500000000004,
+        "coalesced_ms": 40.416,
+        "percent": 0.611144994461088,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 28,
+        "control_ms": 38.96,
+        "coalesced_ms": 39.468999999999994,
+        "percent": 1.3064681724845872,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 32,
+        "control_ms": 38.406000000000006,
+        "coalesced_ms": 38.7635,
+        "percent": 0.930844138936604,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      }
+    ],
+    "skipped": [
+      {
+        "start": 0,
+        "reason": "Startup quartet includes initial pipeline/descriptor registration (0/273 segments), not steady target execution"
+      },
+      {
+        "start": 36,
+        "reason": "Incomplete quartet or includes single-column graph"
+      }
+    ],
+    "mean_control_ms": 43.0211875,
+    "mean_coalesced_ms": 43.5538125,
+    "relative_percent": 1.238052761793229,
+    "median_pair_percent": 1.1186561557105956,
+    "pair_range_percent": [
+      0.1559521746664183,
+      2.616314001376452
+    ],
+    "scope": "Synchronized target verification wall time in model, ABBA by target graph; not asynchronous throughput. All graphs synchronized, external compiler load uncontrolled."
+  },
+  {
+    "groups": 192,
+    "prompt": "cpp",
+    "paired_quartets": 7,
+    "pairs": [
+      {
+        "start": 4,
+        "control_ms": 46.09,
+        "coalesced_ms": 46.192499999999995,
+        "percent": 0.22239097418093046,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 8,
+        "control_ms": 45.769000000000005,
+        "coalesced_ms": 46.304500000000004,
+        "percent": 1.170005899189408,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 12,
+        "control_ms": 45.659,
+        "coalesced_ms": 46.796,
+        "percent": 2.490199084517841,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 16,
+        "control_ms": 45.547,
+        "coalesced_ms": 45.7445,
+        "percent": 0.43361802094541435,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 20,
+        "control_ms": 43.256,
+        "coalesced_ms": 44.328,
+        "percent": 2.478268910671355,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 24,
+        "control_ms": 40.974000000000004,
+        "coalesced_ms": 41.446,
+        "percent": 1.1519500170839914,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      },
+      {
+        "start": 28,
+        "control_ms": 39.6345,
+        "coalesced_ms": 39.992000000000004,
+        "percent": 0.9019919514564378,
+        "control_segments": 20,
+        "coalesced_segments": 12
+      }
+    ],
+    "skipped": [
+      {
+        "start": 0,
+        "reason": "Startup quartet includes initial pipeline/descriptor registration (0/273 segments), not steady target execution"
+      },
+      {
+        "start": 32,
+        "reason": "Incomplete quartet or includes single-column graph"
+      }
+    ],
+    "mean_control_ms": 43.84707142857143,
+    "mean_coalesced_ms": 44.4005,
+    "relative_percent": 1.2621790997606963,
+    "median_pair_percent": 1.1519500170839914,
+    "pair_range_percent": [
+      0.22239097418093046,
+      2.490199084517841
+    ],
+    "scope": "Synchronized target verification wall time in model, ABBA by target graph; not asynchronous throughput. All graphs synchronized, external compiler load uncontrolled."
+  }
+]

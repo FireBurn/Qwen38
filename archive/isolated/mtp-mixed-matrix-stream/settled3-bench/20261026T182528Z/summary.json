@@ -1,0 +1,170 @@
+[
+  {
+    "K": 5120,
+    "R": 17408,
+    "topology": "independent",
+    "timing": "batch",
+    "mean_us": {
+      "native": 802.9135739999999,
+      "original": 994.928711,
+      "keep": 987.4370120000001
+    },
+    "drift_percent": {
+      "native": 0.3092893784727657,
+      "original": 0.4141358385482352,
+      "keep": 0.20304722453396984
+    },
+    "time_vs_native_percent": {
+      "native": 0.0,
+      "original": 23.914795218046734,
+      "keep": 22.981731032485975
+    }
+  },
+  {
+    "K": 5120,
+    "R": 17408,
+    "topology": "independent",
+    "timing": "single",
+    "mean_us": {
+      "native": 1526.051758,
+      "original": 1741.975586,
+      "keep": 1741.2875975
+    },
+    "drift_percent": {
+      "native": 0.18793113131982953,
+      "original": 0.23607266687859507,
+      "keep": 0.08410342916789215
+    },
+    "time_vs_native_percent": {
+      "native": 0.0,
+      "original": 14.149181170826308,
+      "keep": 14.104098263487597
+    }
+  },
+  {
+    "K": 5120,
+    "R": 17408,
+    "topology": "chain",
+    "timing": "batch",
+    "mean_us": {
+      "native": 807.344238,
+      "original": 998.5322265,
+      "keep": 996.04541
+    },
+    "drift_percent": {
+      "native": 0.4047022315925908,
+      "original": 0.08277278393560294,
+      "keep": 0.019120434029340494
+    },
+    "time_vs_native_percent": {
+      "native": 0.0,
+      "original": 23.681099028293296,
+      "keep": 23.37307472057537
+    }
+  },
+  {
+    "K": 5120,
+    "R": 17408,
+    "topology": "chain",
+    "timing": "single",
+    "mean_us": {
+      "native": 1536.9404295,
+      "original": 1746.6225585000002,
+      "keep": 1756.5546875
+    },
+    "drift_percent": {
+      "native": 0.16623004100748684,
+      "original": 0.6017914572134853,
+      "keep": 0.03803445653836057
+    },
+    "time_vs_native_percent": {
+      "native": 0.0,
+      "original": 13.642827332495532,
+      "keep": 14.289054655907862
+    }
+  },
+  {
+    "K": 17408,
+    "R": 5120,
+    "topology": "independent",
+    "timing": "batch",
+    "mean_us": {
+      "native": 811.911621,
+      "original": 980.910156,
+      "keep": 974.7651364999999
+    },
+    "drift_percent": {
+      "native": 0.05859324073216321,
+      "original": 0.11156578598949807,
+      "keep": 0.12685314375262546
+    },
+    "time_vs_native_percent": {
+      "native": 0.0,
+      "original": 20.814892979589473,
+      "keep": 20.058034801795245
+    }
+  },
+  {
+    "K": 17408,
+    "R": 5120,
+    "topology": "independent",
+    "timing": "single",
+    "mean_us": {
+      "native": 1522.027832,
+      "original": 1730.247559,
+      "keep": 1729.928711
+    },
+    "drift_percent": {
+      "native": 0.12112845226693869,
+      "original": 0.2716786236319546,
+      "keep": 0.2742013406678012
+    },
+    "time_vs_native_percent": {
+      "native": 0.0,
+      "original": 13.680415208070906,
+      "keep": 13.659466313885392
+    }
+  },
+  {
+    "K": 17408,
+    "R": 5120,
+    "topology": "chain",
+    "timing": "batch",
+    "mean_us": {
+      "native": 813.199707,
+      "original": 983.510254,
+      "keep": 980.373535
+    },
+    "drift_percent": {
+      "native": 0.221809750044355,
+      "original": 0.34365928345995167,
+      "keep": 0.18854251185278503
+    },
+    "time_vs_native_percent": {
+      "native": 0.0,
+      "original": 20.943262218858628,
+      "keep": 20.55753667407556
+    }
+  },
+  {
+    "K": 17408,
+    "R": 5120,
+    "topology": "chain",
+    "timing": "single",
+    "mean_us": {
+      "native": 1531.9125975,
+      "original": 1754.777832,
+      "keep": 1755.133789
+    },
+    "drift_percent": {
+      "native": 0.04429499983152896,
+      "original": 0.5337283804742299,
+      "keep": 0.1961066318084903
+    },
+    "time_vs_native_percent": {
+      "native": 0.0,
+      "original": 14.548169057667138,
+      "keep": 14.571405174439134
+    }
+  }
+]

@@ -1,0 +1,207 @@
+{
+  "hardware_source_sha256": "979654523c060a1ba8fbe788e3e118607dc2b9d1848af4f76842c0df7290ee78",
+  "allocation_granule": 12,
+  "rows": [
+    {
+      "requested_vgprs": 54,
+      "rounded_allocation": 60,
+      "lds_bytes": 8192,
+      "wave64_per_simd": 12,
+      "cu_bound": 384,
+      "wgp_bound": 384,
+      "conservative_bound": 384,
+      "grid_after_64_spare": 320
+    },
+    {
+      "requested_vgprs": 54,
+      "rounded_allocation": 60,
+      "lds_bytes": 12288,
+      "wave64_per_simd": 12,
+      "cu_bound": 320,
+      "wgp_bound": 320,
+      "conservative_bound": 320,
+      "grid_after_64_spare": 256
+    },
+    {
+      "requested_vgprs": 60,
+      "rounded_allocation": 60,
+      "lds_bytes": 8192,
+      "wave64_per_simd": 12,
+      "cu_bound": 384,
+      "wgp_bound": 384,
+      "conservative_bound": 384,
+      "grid_after_64_spare": 320
+    },
+    {
+      "requested_vgprs": 60,
+      "rounded_allocation": 60,
+      "lds_bytes": 12288,
+      "wave64_per_simd": 12,
+      "cu_bound": 320,
+      "wgp_bound": 320,
+      "conservative_bound": 320,
+      "grid_after_64_spare": 256
+    },
+    {
+      "requested_vgprs": 61,
+      "rounded_allocation": 72,
+      "lds_bytes": 8192,
+      "wave64_per_simd": 10,
+      "cu_bound": 320,
+      "wgp_bound": 320,
+      "conservative_bound": 320,
+      "grid_after_64_spare": 256
+    },
+    {
+      "requested_vgprs": 61,
+      "rounded_allocation": 72,
+      "lds_bytes": 12288,
+      "wave64_per_simd": 10,
+      "cu_bound": 320,
+      "wgp_bound": 320,
+      "conservative_bound": 320,
+      "grid_after_64_spare": 256
+    },
+    {
+      "requested_vgprs": 64,
+      "rounded_allocation": 72,
+      "lds_bytes": 8192,
+      "wave64_per_simd": 10,
+      "cu_bound": 320,
+      "wgp_bound": 320,
+      "conservative_bound": 320,
+      "grid_after_64_spare": 256
+    },
+    {
+      "requested_vgprs": 64,
+      "rounded_allocation": 72,
+      "lds_bytes": 12288,
+      "wave64_per_simd": 10,
+      "cu_bound": 320,
+      "wgp_bound": 320,
+      "conservative_bound": 320,
+      "grid_after_64_spare": 256
+    },
+    {
+      "requested_vgprs": 67,
+      "rounded_allocation": 72,
+      "lds_bytes": 8192,
+      "wave64_per_simd": 10,
+      "cu_bound": 320,
+      "wgp_bound": 320,
+      "conservative_bound": 320,
+      "grid_after_64_spare": 256
+    },
+    {
+      "requested_vgprs": 67,
+      "rounded_allocation": 72,
+      "lds_bytes": 12288,
+      "wave64_per_simd": 10,
+      "cu_bound": 320,
+      "wgp_bound": 320,
+      "conservative_bound": 320,
+      "grid_after_64_spare": 256
+    },
+    {
+      "requested_vgprs": 72,
+      "rounded_allocation": 72,
+      "lds_bytes": 8192,
+      "wave64_per_simd": 10,
+      "cu_bound": 320,
+      "wgp_bound": 320,
+      "conservative_bound": 320,
+      "grid_after_64_spare": 256
+    },
+    {
+      "requested_vgprs": 72,
+      "rounded_allocation": 72,
+      "lds_bytes": 12288,
+      "wave64_per_simd": 10,
+      "cu_bound": 320,
+      "wgp_bound": 320,
+      "conservative_bound": 320,
+      "grid_after_64_spare": 256
+    },
+    {
+      "requested_vgprs": 73,
+      "rounded_allocation": 84,
+      "lds_bytes": 8192,
+      "wave64_per_simd": 9,
+      "cu_bound": 256,
+      "wgp_bound": 288,
+      "conservative_bound": 256,
+      "grid_after_64_spare": 192
+    },
+    {
+      "requested_vgprs": 73,
+      "rounded_allocation": 84,
+      "lds_bytes": 12288,
+      "wave64_per_simd": 9,
+      "cu_bound": 256,
+      "wgp_bound": 288,
+      "conservative_bound": 256,
+      "grid_after_64_spare": 192
+    },
+    {
+      "requested_vgprs": 84,
+      "rounded_allocation": 84,
+      "lds_bytes": 8192,
+      "wave64_per_simd": 9,
+      "cu_bound": 256,
+      "wgp_bound": 288,
+      "conservative_bound": 256,
+      "grid_after_64_spare": 192
+    },
+    {
+      "requested_vgprs": 84,
+      "rounded_allocation": 84,
+      "lds_bytes": 12288,
+      "wave64_per_simd": 9,
+      "cu_bound": 256,
+      "wgp_bound": 288,
+      "conservative_bound": 256,
+      "grid_after_64_spare": 192
+    },
+    {
+      "requested_vgprs": 92,
+      "rounded_allocation": 96,
+      "lds_bytes": 8192,
+      "wave64_per_simd": 8,
+      "cu_bound": 256,
+      "wgp_bound": 256,
+      "conservative_bound": 256,
+      "grid_after_64_spare": 192
+    },
+    {
+      "requested_vgprs": 92,
+      "rounded_allocation": 96,
+      "lds_bytes": 12288,
+      "wave64_per_simd": 8,
+      "cu_bound": 256,
+      "wgp_bound": 256,
+      "conservative_bound": 256,
+      "grid_after_64_spare": 192
+    },
+    {
+      "requested_vgprs": 96,
+      "rounded_allocation": 96,
+      "lds_bytes": 8192,
+      "wave64_per_simd": 8,
+      "cu_bound": 256,
+      "wgp_bound": 256,
+      "conservative_bound": 256,
+      "grid_after_64_spare": 192
+    },
+    {
+      "requested_vgprs": 96,
+      "rounded_allocation": 96,
+      "lds_bytes": 12288,
+      "wave64_per_simd": 8,
+      "cu_bound": 256,
+      "wgp_bound": 256,
+      "conservative_bound": 256,
+      "grid_after_64_spare": 192
+    }
+  ],
+  "scope": "Static source/hardware arithmetic only; does not assert measured occupancy or authorize unknown shader launches. Compiler allocation, SGPR spill impact, resource qualification and gradual model checks remain required."
+}

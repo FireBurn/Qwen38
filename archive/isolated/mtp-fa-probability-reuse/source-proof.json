@@ -1,0 +1,29 @@
+{
+  "parent_sha256": "903442bfd293f999049a93286ff1e182232aefb29f1a6844e41574739647379a",
+  "candidate_sha256": "7ebb96db54f2bdfb83a19850e65119497942aded7b163167d718207454322c9e",
+  "probability_lifetime": "Preserve original rounded F16 probabilities and Lf addition order, retain per-invocation probabilities in registers, workgroup barrier completes all score reads before any aliased probability store.",
+  "output_tile_range": [
+    0,
+    2048
+  ],
+  "output_lifetime": "SHMEM_STAGING=0 only: wait for all V matrix reads, overwrite V staging with output tile, wait for all Of reads before next V tile load.",
+  "score_range": [
+    8448,
+    12544
+  ],
+  "probability_range": [
+    8448,
+    11520
+  ],
+  "slopes_range": [
+    12544,
+    12624
+  ],
+  "iq_range": [
+    12640,
+    12672
+  ],
+  "expected_rounded_lds_bytes": 13312,
+  "warning": "Does not cross<=12KiB LDS target or96VGPR register bound. Additional barrier/staged values may hurt speed. First device test<=16groups; no occupancy/adoption claim.",
+  "gpu_qualified": false
+}

@@ -1,0 +1,9 @@
+# Synchronized stage attribution
+
+ABBA same-stack native0.24/mega0.24, same Romanprompt/oneMTPdraft/Q8F32policy/greedy,requested128. Everyrun emits identical129tokens,drafts74/accepts55,74calls perstage. Explicit llama_synchronize aftertarget verification and afterdraft proposal/catchup makes stage boundaries completion boundaries. This changes overlap; walltimers include driver/CPU scheduling/GPU waits and are not isolatedGPUtimestamps or original pipeline throughput.
+
+Mean native versusmega:target verification2517.470/2904.839ms;proposal282.879/295.832ms;catchup97.940/111.785ms;sampling37.263/33.314ms;other2.856/3.018ms;total2938.407/3348.787ms. Targetdifference387.370ms accounts94.39%of410.380ms totalgap. Perverification34.02 versus39.25ms. This localizes this diagnostic deficit primarily to targetverification, not smallQ4draft kernels or proposalacceptance. It does not identify a particular instruction/memory bottleneck.
+
+External loadchanged materially beforethisbatch:three compilerprocesses andCPUbusy22.7-24.5%,generationclocknative3144/3134MHz,mega3174/3173MHz. Earlier under20compilerworkersclock~1670MHz andabsolute rates cannot be compared to these rates without qualification. Quietgate still requireszero compilers. Nativecontrol total drift2.36%,megacontrol1.98%;targetwallgap15.39% persists withslightlyhighermega clocks. No adoption/basewin claim;guard completed/restoredwaiter. Allassets/logs/telemetry/rawstats retained.
+
+Nextcandidate:bounded packedactivationB cache for large targetQ4/Q5two-column kernels. Preservecoherent producer reads and exactbarriers;prior tests prohibit stripping mutableactivationvisibility. Onlyimplement/testif same-module/nativecontrols andresourceconditions canbequalified. Otherpotentialcauses remain resourceoccupancy,globalbarriers,instructionfootprint,host/tape overhead.

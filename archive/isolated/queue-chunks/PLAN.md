@@ -1,0 +1,7 @@
+# Heavy matvec queue amortization
+
+Current matvec queues claim2tasks until local remaining<4096, then1. Many common output grids contain2560tasks, so every task is an individual globalatomicclaim. Native kernels have no such software-task claim. Five heavy LS64wrappers only(op1Q6,op26Q5,op27Q3,op28Q4,op29Q8LMhead) change; BF16 tiny pair, standalonequant,FAreduce,GDN and LS32cachewriter unchanged. Source is current bounds-correct reference, not losingFA/nosched variants.
+
+Tail-wave candidate uses2until localremaining<waves(physicalgroups*4), then1. Chunk4 adds4whenremaining>=4waves. Chunk8 adds8whenremaining>=8waves. Chunks4/8 are chosen only when the initial grid can supply a wave-budget's worth of such claims. The2task branch can still underfill grids between1and2wave-budgets, an explicit balance risk to measure. The localremaining estimate can lag global progress but never affects correctness. AtomicAdd returns disjoint positive-sized intervals[g,g+ck); min(g+ck,total) clips tail; loop processes eachv once with original mapping. No arithmetic, descriptors, state/output ranges, barriers or host/counterprotocol change. More contiguous work per claim may improve locality and reduce atomics, but can worsen balance and occupancy; only timing decides.
+
+Both9/65-frame prompts, resource check64then192, partial-row witness if source relevant, paired8-run microbeforefull. Never apply64lanequeue toLS32; builder asserts byte-identical op21staticwrapper. Current reference remains bounds192. No larger grid or compiler flags in this experiment.

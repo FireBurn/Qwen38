@@ -1,0 +1,12 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference": 4.2755,
+    "four-rows": 4.3355
+  },
+  "time_reduction_percent": -1.403344638054027,
+  "drift_percent": {
+    "reference": 0.21072348396160567,
+    "four-rows": 0.06917223887478174
+  },
+  "scope": "Focused full-shape Q8 output-head dispatch timestamps under external compile. Not full model token speed. Clock and control drift must qualify interpretation."
+}

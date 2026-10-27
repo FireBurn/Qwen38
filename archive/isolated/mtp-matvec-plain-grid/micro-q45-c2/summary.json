@@ -1,0 +1,12 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference": 0.8414999999999999,
+    "plain_grid": 0.8374999999999999
+  },
+  "time_reduction_percent": 0.4753416518122444,
+  "drift_percent": {
+    "reference": 4.9939098660170655,
+    "plain_grid": 4.767726161369201
+  },
+  "scope": "Focused eight-matrix Q4K/Q5K C2 streaming dispatch timestamps under external compile. Not full model token speed. Clock and control drift must qualify interpretation."
+}

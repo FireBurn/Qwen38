@@ -1,0 +1,33 @@
+{
+  "means_tokens_per_second": {
+    "native24": 44.6035,
+    "mega24": 39.024,
+    "bias2": 38.8455,
+    "rows4": 38.476,
+    "bias4": 38.662
+  },
+  "control_drift_percent": {
+    "native24": 1.6934590427095442,
+    "mega24": 0.8078832943113623,
+    "bias2": 0.7311905746176128,
+    "rows4": 1.9048618581586352,
+    "bias4": 1.0975007151959648
+  },
+  "relative_to_native_percent": {
+    "native24": 0.0,
+    "mega24": -12.509108029638927,
+    "bias2": -12.909300839620197,
+    "rows4": -13.73771116616409,
+    "bias4": -13.320703532234013
+  },
+  "relative_to_installed_mega_percent": {
+    "native24": 14.297611726117253,
+    "mega24": 0.0,
+    "bias2": -0.45741082410823974,
+    "rows4": -1.4042640426404351,
+    "bias4": -0.9276342763427703
+  },
+  "all_tokens_identical": true,
+  "acceptance_counters_identical": true,
+  "scope": "Original asynchronous MTP pipeline. Symmetric10run row-count/shared-bias factorial diagnostic under external compilation; same core/Q8policy/driver. No quiet/adoption claim."
+}

@@ -1,0 +1,25 @@
+{
+  "variants": [
+    {
+      "label": "gdn_parent",
+      "source_sha256": "c5755d9324fb5d909ffc76a35751cad909840ba66fabe7329aa2f78d2a9e5049",
+      "parent_sha256": "c12ad5bb73c49c669d5a12cdd9fa43335e3882e54c8d6f6afa994e60d95a9478"
+    },
+    {
+      "label": "gdn_late",
+      "source_sha256": "d30694fc292874365c7a0a33fc0ca866e15b6ca6cf364557162f2caa06a1f7ce",
+      "parent_sha256": "c12ad5bb73c49c669d5a12cdd9fa43335e3882e54c8d6f6afa994e60d95a9478"
+    },
+    {
+      "label": "no_fa_late",
+      "source_sha256": "083bc70b8d8d254e530287a7f8dd0ac51b3fe62054d96ff2f5f5ee6c4ff81aa8",
+      "parent_sha256": "c12ad5bb73c49c669d5a12cdd9fa43335e3882e54c8d6f6afa994e60d95a9478"
+    },
+    {
+      "label": "combined",
+      "source_sha256": "4f867408e3513482b71b1816e07d2e960080010cce9f5103ee6defb29cf1d28b",
+      "parent_sha256": "f4ab1a3fa124d453b2af8f7e38410ba7e5014bf2a3c7e76f2f67d41861395615"
+    }
+  ],
+  "scope": "Only GDN query load placement changed: replace16element query array with per-row load after kv reduction at attention accumulation. Original state/beta/gate/F32 reduction and arithmetic order retained. Supported GGML GDN inputs/output allocation must not overlap Q with output/state writes. No new barriers or changed scheduling. Partial partitions diagnostic only; combined retains integratedFA/all42ops."
+}

@@ -1,0 +1,12 @@
+{
+  "means_gpu_ms_per_graph": {
+    "parent": 4.0865,
+    "candidate": 4.066999999999999
+  },
+  "time_reduction_percent": 0.477180961703183,
+  "drift_percent": {
+    "parent": 0.41514041514040256,
+    "candidate": 0.09830425165887613
+  },
+  "scope": "Matched two-query FA unpadded versus padded12KiB saved-state FA, same private scheduler policy,128copies/shared KV3328/Q8KV/F32/causal, ABBA, graph GPU timestamps and clock telemetry; near-L2 working set, no model-throughput claim."
+}

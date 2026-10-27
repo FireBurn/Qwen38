@@ -1,0 +1,14 @@
+{
+  "all_tokens_and_acceptance_identical": true,
+  "all_model_audit_bits_identical": true,
+  "qualified_arms": [
+    "off192",
+    "fused192",
+    "off256",
+    "fused256",
+    "off320",
+    "fused320"
+  ],
+  "global_fences_preserved": true,
+  "scope": "Canonical correctness: streamed-rowwise body at192/256/320groups, head capped192. All requested arms must pass. No throughput claim."
+}

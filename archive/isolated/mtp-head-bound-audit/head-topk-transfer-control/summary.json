@@ -1,0 +1,114 @@
+[
+  {
+    "columns": 1,
+    "ten_call_blocks": 64,
+    "mode_names": {
+      "0": "native_packed",
+      "1": "bounded_packed",
+      "2": "native_cpu_partial_sort10",
+      "3": "native_unpacked",
+      "4": "bounded_unpacked"
+    },
+    "mean_us": {
+      "0": 5644.6875,
+      "1": 4741.4921875,
+      "2": 6582.4296875,
+      "3": 6301.1171875,
+      "4": 4831.0625
+    },
+    "best_native_gpu_mode": 0,
+    "bounded_packed_vs_best_native_gpu_percent": -16.000802745944753,
+    "bounded_packed_vs_cpu_percent": -27.96744648098454,
+    "bounded_packing_change_percent": -1.854049963129234,
+    "native_packing_change_percent": -10.41767146946908,
+    "median_paired_bounded_packing_change_percent": -4.226762393359068,
+    "median_paired_bounded_vs_best_native_gpu_percent": -17.546809687846384,
+    "mode_clock_medians_mhz": {
+      "0": 1661.0,
+      "1": 1660.0,
+      "2": 1664.0,
+      "3": 1661.0,
+      "4": 1652.0
+    },
+    "mode_background_build_process_ranges": {
+      "0": [
+        15,
+        16
+      ],
+      "1": [
+        15,
+        16
+      ],
+      "2": [
+        15,
+        16
+      ],
+      "3": [
+        15,
+        16
+      ],
+      "4": [
+        15,
+        16
+      ]
+    },
+    "all_ordered_top10_ids_and_scores_saved_native_exact": true,
+    "scope": "Head-only matched symmetric10-call blocks, all five native/bounded packing variants in same process. Four warmups excluded, all measured blocks retained. Native CPU reference includes original Q8, full-logit download and reused-index partial_sort10. Uncontrolled external CPU/build/JVM load. No full-model throughput or quiet adoption claim."
+  },
+  {
+    "columns": 2,
+    "ten_call_blocks": 32,
+    "mode_names": {
+      "0": "native_packed",
+      "1": "bounded_packed",
+      "2": "native_cpu_partial_sort10",
+      "3": "native_unpacked",
+      "4": "bounded_unpacked"
+    },
+    "mean_us": {
+      "0": 6331.734375,
+      "1": 6741.515625,
+      "2": 7739.9375,
+      "3": 6945.953125,
+      "4": 7312.15625
+    },
+    "best_native_gpu_mode": 0,
+    "bounded_packed_vs_best_native_gpu_percent": 6.471864195977117,
+    "bounded_packed_vs_cpu_percent": -12.899611592470873,
+    "bounded_packing_change_percent": -7.8039993333019915,
+    "native_packing_change_percent": -8.842828895422471,
+    "median_paired_bounded_packing_change_percent": -4.829594019761413,
+    "median_paired_bounded_vs_best_native_gpu_percent": 4.6840618154520115,
+    "mode_clock_medians_mhz": {
+      "0": 1646.5,
+      "1": 1641.0,
+      "2": 1645.0,
+      "3": 1640.0,
+      "4": 1647.0
+    },
+    "mode_background_build_process_ranges": {
+      "0": [
+        15,
+        16
+      ],
+      "1": [
+        15,
+        16
+      ],
+      "2": [
+        15,
+        16
+      ],
+      "3": [
+        15,
+        16
+      ],
+      "4": [
+        15,
+        16
+      ]
+    },
+    "all_ordered_top10_ids_and_scores_saved_native_exact": true,
+    "scope": "Head-only matched symmetric10-call blocks, all five native/bounded packing variants in same process. Four warmups excluded, all measured blocks retained. Native CPU reference includes original Q8, full-logit download and reused-index partial_sort10. Uncontrolled external CPU/build/JVM load. No full-model throughput or quiet adoption claim."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "mode": "clamped",
+    "physical_groups": 16,
+    "all_raw_and_packed_outputs_native_exact": true,
+    "counts": [
+      {
+        "phase": 0,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 1,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 2,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      },
+      {
+        "phase": 3,
+        "arrival": 64,
+        "next": 32,
+        "serving": 32,
+        "closed": 1,
+        "participants": 16
+      }
+    ],
+    "resource": {
+      "VGPRs": 192,
+      "Spilled SGPRs": 40,
+      "Spilled VGPRs": 0,
+      "Code size": 425420,
+      "LDS size": 16384,
+      "Scratch size": 0,
+      "Pre-Sched VGPRs": 158
+    },
+    "resource_gate_pass": false
+  },
+  {
+    "mode": "broadcast_control",
+    "physical_groups": 16,
+    "all_raw_and_packed_outputs_native_exact": true,
+    "counts": [],
+    "resource": {
+      "VGPRs": 192,
+      "Spilled SGPRs": 40,
+      "Spilled VGPRs": 0,
+      "Code size": 424972,
+      "LDS size": 16384,
+      "Scratch size": 0,
+      "Pre-Sched VGPRs": 158
+    },
+    "resource_gate_pass": false
+  }
+]

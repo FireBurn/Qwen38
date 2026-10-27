@@ -1,0 +1,14 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference-single": 10.279,
+    "prototype-single": 10.416,
+    "prototype-batch": 5.5489999999999995
+  },
+  "time_reduction_percent": 46.01614943087849,
+  "drift_percent": {
+    "reference-single": 0.7617187499999956,
+    "prototype-single": 0.32588900603853777,
+    "prototype-batch": 4.9492151431209885
+  },
+  "scope": "Focused two-query FA versus two separate queries,128copies with shared KV3328,Q8 K/V,F32 accumulation,causal masks. GPU timestamps under CPU compile. Enlarged-module separate-query control included. Working set near L2; not full model token speed. Clock and control drift qualify interpretation."
+}

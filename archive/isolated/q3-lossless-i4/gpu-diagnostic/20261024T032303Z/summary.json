@@ -1,0 +1,17 @@
+{
+  "means_gpu_ms_per_graph": {
+    "reference": 0.7615000000000001,
+    "same-module": 0.7665,
+    "repacked": 0.7565
+  },
+  "time_reduction_percent": {
+    "same-module": -0.6565988181221227,
+    "repacked": 0.6565988181221449
+  },
+  "drift_percent": {
+    "reference": 2.257636122177953,
+    "same-module": 2.77777777777779,
+    "repacked": 0.1322751322751392
+  },
+  "scope": "Operator-only Q3 lossless-repack comparison dispatch timestamps under external compile. Not full model token speed. Clock and control drift must qualify interpretation."
+}

@@ -1,0 +1,22 @@
+{
+  "variants": [
+    {
+      "label": "combined",
+      "parent_sha256": "4f867408e3513482b71b1816e07d2e960080010cce9f5103ee6defb29cf1d28b",
+      "source_sha256": "9dc0ed339f9e363a774a7b7fb770b86cbb760059a745be7d584bbf154edbff07"
+    },
+    {
+      "label": "plain",
+      "parent_sha256": "903442bfd293f999049a93286ff1e182232aefb29f1a6844e41574739647379a",
+      "source_sha256": "7e2bb329bd71a0df2af86f7e6569d1cf6d5529210994c5c80821f2ccb493cb04"
+    }
+  ],
+  "changed_opcodes": [
+    26,
+    27,
+    28,
+    40,
+    41
+  ],
+  "scope": "Initialize all fixed-size temporary rows instead ofonlyn<num_rows. Previouslyactive elements still initialized tosame0before identicalarithmetic; extraelements notused foroutput. No load/store arithmetic or barriers changed, no unsupported opcode fallback; full42ops retained. Hypothesis: eliminate false accumulator carry around outerloop caused by undefined local-array tails."
+}

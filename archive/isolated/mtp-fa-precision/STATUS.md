@@ -1,0 +1,7 @@
+# Attention precision contract established
+
+Explicit GGML_PREC_F32 accumulator request makes native and reference mega outputs bit-identical, including two-query batch versus separate calls, at KV256 and3328 with causal masks. Four process cases,40graphs each. Reference batch still uses native USE_MQ fallback; final32 graphs contain32native calls. This establishes the earlier native-default versus mega mismatch is removed by matching accumulation precision; layout and masks were separately ruled out.
+
+Private host selects f32acc from !device.fp16, op_params[3]==GGML_PREC_F32, or BF16 K. Shader generator chooses ACC_TYPE=float versus float16_t accordingly. Existing mega FA uses float QK score accumulation (PV remains half) regardless of the native setting. Pipeline name and specialization vector omit f32acc: both precision variants share the printed lookup key. Consequently native-default is not an appropriate exact oracle for this fixed-F32 mega FA. A general host must key or gate precision explicitly; no global change was made to existing model-qualified host/shader. Test wrapper deliberately requests F32 for both batch and serial calls.
+
+No throughput claim. Actual private host and frozen driver mappings verified; guard completed/restored quiet waiter. The deprecated precision setter was intentionally used because it exists in the frozen0.24 ABI; current headers emit warnings. New-header replacement API must not be assumed present in the frozen library.

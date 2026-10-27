@@ -1,0 +1,13 @@
+{
+  "parent_sha256": "0c33f4318f33f5458d771bee854e37307a25767712fc06c635be279494d9133a",
+  "source_sha256": "7712a3cc15e7c410dcbb10c00f960b40c27db5795602955384ac66bb4673c125",
+  "rewritten_field_accesses": 13,
+  "row_expected_offsets": {
+    "o": 0,
+    "l": 8,
+    "m": 12
+  },
+  "row_expected_stride": 16,
+  "record_expected_stride": 64,
+  "scope": "FA state AoS-per-row layout only. Same per-invocation64bytes at scratch16MiB, query/probability descriptor addressing at32MiB, same arithmetic/rounding/barriers. Hypothesis: prevent adjacent-row state load/store coalescing that extends liveness. SPIR-V layout, resources and numerical checks required."
+}

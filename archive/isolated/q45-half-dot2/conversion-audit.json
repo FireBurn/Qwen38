@@ -1,0 +1,7 @@
+{
+  "cases": 75536,
+  "all_byte_values_in_every_position": true,
+  "every_16bit_pair": true,
+  "exact_decoded_values": true,
+  "precision_note": "Only byte conversion is lossless; FP32 activations are newly rounded to FP16 and dot accumulation order changes. Full-model quality validation is required."
+}

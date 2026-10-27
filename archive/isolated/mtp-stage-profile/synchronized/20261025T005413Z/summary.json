@@ -1,0 +1,29 @@
+{
+  "mean_stage_us": {
+    "native24": {
+      "target_us": 2517469.5,
+      "draft_us": 282878.5,
+      "catchup_us": 97940,
+      "sample_us": 37262.5,
+      "other_us": 2856,
+      "total_us": 2938406.5
+    },
+    "mega24": {
+      "target_us": 2904839,
+      "draft_us": 295831.5,
+      "catchup_us": 111785,
+      "sample_us": 33313.5,
+      "other_us": 3017.5,
+      "total_us": 3348786.5
+    }
+  },
+  "mega_minus_native_us": {
+    "target_us": 387369.5,
+    "draft_us": 12953.0,
+    "catchup_us": 13845,
+    "sample_us": -3949.0,
+    "other_us": 161.5,
+    "total_us": 410380.0
+  },
+  "scope": "Explicitly synchronized stage wall timers. Synchronize target after verify and draft after proposal/catchup; removes deferred-work attribution but alters overlap. Under compile; not original pipeline throughput or isolated GPUtime."
+}

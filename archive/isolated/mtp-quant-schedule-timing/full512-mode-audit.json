@@ -1,0 +1,34 @@
+{
+  "source_sha256": "0dc890f992ce06d24996f80e814a5c93dd0b97f793247c2c78183a9f4de57c91",
+  "modes": [
+    {
+      "mode": "native_bound",
+      "shader": null,
+      "backend": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-host/bin/libggml-vulkan.so.0.24.0",
+      "headgroups": "192",
+      "copy_path": "2"
+    },
+    {
+      "mode": "mega_bound_parent320",
+      "shader": "$WORKSPACE/isolated/mtp-fa-rowmajor-cache7/cached.comp",
+      "backend": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-host/bin/libggml-vulkan.so.0.24.0",
+      "headgroups": "192",
+      "copy_path": "2"
+    },
+    {
+      "mode": "mega_bound_prefix320",
+      "shader": "$WORKSPACE/isolated/mtp-quant-prefix-claims/prefix.comp",
+      "backend": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-host/bin/libggml-vulkan.so.0.24.0",
+      "headgroups": "192",
+      "copy_path": "2"
+    },
+    {
+      "mode": "mega_bound_one320",
+      "shader": "$WORKSPACE/isolated/mtp-q6-one-row-7k/one-row.comp",
+      "backend": "$WORKSPACE/isolated/mtp-head-bound-audit/threshold-host/bin/libggml-vulkan.so.0.24.0",
+      "headgroups": "192",
+      "copy_path": "2"
+    }
+  ],
+  "scope": "ExecutedactualenvironmentsetupwithoutGPUlaunch. Not speed orcorrectness evidence."
+}

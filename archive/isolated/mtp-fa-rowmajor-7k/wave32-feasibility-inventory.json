@@ -1,0 +1,58 @@
+{
+  "source": "rowmajor.comp",
+  "subgroup_sensitive_source_lines": {
+    "const uint SUBGROUP_SIZE = 64u": [
+      1826
+    ],
+    "fa_mask_reduce[vSlot * 4u": [
+      3206,
+      3210
+    ],
+    "const uint32_t rows_per_thread = Br / row_split": [
+      3066
+    ],
+    "coopMatLoad": [
+      3284,
+      3287,
+      3291,
+      3293,
+      3415,
+      3416
+    ],
+    "subgroupAdd": [
+      663,
+      1099,
+      1874,
+      2255,
+      2343,
+      3449,
+      3836,
+      4019,
+      4210,
+      4388,
+      4570,
+      4755,
+      4994,
+      5209,
+      5430,
+      5601,
+      5926,
+      6071
+    ],
+    "subgroupMax": [
+      3340
+    ],
+    "subgroupShuffle": [
+      528,
+      2609,
+      2670
+    ]
+  },
+  "scope": "Feasibility inventory only, not an exhaustive proof of wave32 correctness. No source/binary modified.",
+  "constraints": [
+    "FA maps four wave64 subgroups into row_split4 and shared mask slots4; wave32 would produce8 physical subgroups for WG256.",
+    "GDN and quantized matrix paths require their own lane mapping and reduction-order review.",
+    "Changing subgroup size alone is insufficient; preserve native output comparisons for all42ops.",
+    "RDNA4 wave32-only instruction opportunities require an independently qualified wave32 kernel and new occupancy/resource analysis."
+  ]
+}

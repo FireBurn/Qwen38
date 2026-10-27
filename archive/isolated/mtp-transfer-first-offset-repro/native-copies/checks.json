@@ -1,0 +1,24 @@
+[
+  {
+    "copy_cases": [
+      {
+        "pad": 42840,
+        "split": 1,
+        "bad_floats": 46,
+        "first": 34770,
+        "last": 34815
+      },
+      {
+        "pad": 42840,
+        "split": 2,
+        "bad_floats": 0,
+        "first": 0,
+        "last": 0
+      }
+    ],
+    "mode": "whole",
+    "returncode": 0,
+    "diagnostics": [],
+    "scope": "Native transfer diagnosis only; expected upload failure recorded rather than treated as successful kernel qualification."
+  }
+]

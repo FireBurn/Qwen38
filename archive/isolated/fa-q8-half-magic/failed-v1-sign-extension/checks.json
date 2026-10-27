@@ -1,0 +1,37 @@
+[
+  {
+    "prompt": "short",
+    "groups": 16,
+    "frames": 9,
+    "bit_identical": false,
+    "backend_verified": true,
+    "statistics": {
+      "Driver pipeline hash": 10058905241508314332,
+      "SGPRs": 108,
+      "VGPRs": 96,
+      "Spilled SGPRs": 24,
+      "Spilled VGPRs": 0,
+      "Code size": 240172,
+      "LDS size": 16384,
+      "Scratch size": 0,
+      "Subgroups per SIMD": 16,
+      "Combined inputs": 0,
+      "Combined outputs": 0,
+      "Hash": 847861263,
+      "Instructions": 44629,
+      "Copies": 2796,
+      "Branches": 1327,
+      "Latency": 504854,
+      "Inverse Throughput": 84049,
+      "VMEM Clause": 1627,
+      "SMEM Clause": 879,
+      "Pre-Sched SGPRs": 162,
+      "Pre-Sched VGPRs": 91,
+      "VALU": 18176,
+      "SALU": 9690,
+      "VMEM": 2190,
+      "SMEM": 1523,
+      "VOPD": 0
+    }
+  }
+]

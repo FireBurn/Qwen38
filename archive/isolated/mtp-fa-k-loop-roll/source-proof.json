@@ -1,0 +1,7 @@
+{
+  "parent_sha256": "903442bfd293f999049a93286ff1e182232aefb29f1a6844e41574739647379a",
+  "candidate_sha256": "474bf932b6a99e9f7c858bc46a003442e250741c8b0d7ea8b4cbb44947a5fbc0",
+  "only_change": "FA KQ feature loop requested DontUnroll instead of Unroll. Same sixteen sequential native-order cooperative matrix accumulations, dimensions, memory fences, LDS layout and all other opcodes.",
+  "hypothesis": "Reduce static code size and scheduler live ranges without global ACO nosched, which earlier regressed performance. Compiler may ignore annotation; resources and timing must be measured.",
+  "gpu_qualified": false
+}

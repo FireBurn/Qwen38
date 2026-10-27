@@ -1,0 +1,9 @@
+{
+  "random_blocks": 10000,
+  "scalar_values_roundtripped": 2560000,
+  "exact_gpu_layout_partial_dots": 160000,
+  "original_block_bytes": 110,
+  "repacked_block_bytes": 144,
+  "storage_increase_percent": 30.909090909090907,
+  "scope": "CPU proof of raw Q3 byte layout, signed6-bit scale metadata and integer dot identity in a Q4-shaped144byte container. d half bits preserved including arbitrary encodings; not GPU numeric/model/performance qualification. No quantization or original model modification."
+}

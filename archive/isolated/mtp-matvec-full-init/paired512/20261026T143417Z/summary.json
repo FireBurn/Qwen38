@@ -1,0 +1,29 @@
+{
+  "mean_steady_tokens_per_second": {
+    "native_bound": 49.55435767598915,
+    "mega_bound_parent": 43.407102115148334,
+    "mega_bound_init": 43.154671895920565,
+    "mega_bound_pre256": 40.57570029255001
+  },
+  "control_drift_percent": {
+    "native_bound": 0.25987178527776544,
+    "mega_bound_parent": 0.7049545558556858,
+    "mega_bound_init": 0.20232604549319522,
+    "mega_bound_pre256": 0.8438118428377384
+  },
+  "all_tokens_and_acceptance_identical": true,
+  "all_arms_quiet": true,
+  "relative_to_native_percent": {
+    "native_bound": 0.0,
+    "mega_bound_parent": -12.405075656584252,
+    "mega_bound_init": -12.914476304814382,
+    "mega_bound_pre256": -18.118804893297245
+  },
+  "relative_to_original_mega_percent": {
+    "native_bound": 14.161865826780296,
+    "mega_bound_parent": 0.0,
+    "mega_bound_init": -0.5815412845532331,
+    "mega_bound_pre256": -6.522899904921808
+  },
+  "scope": "512requested forward/reverse4mode matched .24 stack/common bounded head. Not production .27 comparison. Resource control disables preRA scheduling but retains postRA schedulers. No prompt-general adoption claim."
+}

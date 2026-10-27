@@ -1,0 +1,18 @@
+{
+  "total": 1268,
+  "kept": 1267,
+  "removable": 1,
+  "conservative_hazards_without_barrier": 0,
+  "removed_before": {
+    "rms_norm_mul_f32|0,1,": 1
+  },
+  "examples": [
+    {
+      "next_operation": "rms_norm_mul_f32|0,1,",
+      "barriers": [
+        "B 18242"
+      ]
+    }
+  ],
+  "note": "Full captured tape upper bound; host segmentation boundaries must remain intact. All used bindings are conservatively treated as reads."
+}

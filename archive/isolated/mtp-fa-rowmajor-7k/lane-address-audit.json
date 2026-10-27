@@ -1,0 +1,16 @@
+{
+  "workgroup_lanes": 256,
+  "rows_per_lane": 4,
+  "threads_per_rowgroup": 64,
+  "producer_half_addresses": 1024,
+  "consumer_half_addresses": 1024,
+  "same_coordinate_multiset": true,
+  "one_writer_per_probability": true,
+  "half_row_stride": 72,
+  "active_probability_end_exclusive": 6384,
+  "reserved_probability_end_exclusive": 7168,
+  "score_end_exclusive": 4096,
+  "cooperative_load_stride_bytes": 144,
+  "stride_multiple_16": true,
+  "scope": "CPU producer mapping and logical cooperative tile coverage; actual GPU equivalence remains unverified."
+}

@@ -1,0 +1,15 @@
+# FA output accumulator saved through PV (V2)
+
+Build85594 and guarded first-device7903 terminal0. Current FA Br16/HSV256/row_split4 specialization only; retains all42ops and verifiedQ6 component. Uses same V1 bounded64byte per-physical-invocation record in existing1GiB private scratch at offset16MiB. Exact ownership/range proof in ../mtp-fa-scratch-state/STATUS.md. Only16groups executed;192design bound is not execution qualification.
+
+V2 keeps Of in scratch across both KQ and PV, applies exact FP16 decay and per-hsv-tile FP16 output addition directly to saved row, reloads Of only at final output. Lf/Mf are restored before softmax and saved after PV as before. Same FP16/FP32 types, component order and original barriers; explicit buffer traffic increases.
+
+Eight arms(native,parent,V2,FA-only)xKV256/3328, two queries24heads/4KVheads/d256, causal masks,C1/C2, all native and serial/batch outputs bit exact. Final32graphs candidate FA/reduce no native dispatches. Actual driver/backend checked. No causal perturbation restoration,192launch or full-model qualification yet; no promotion.
+
+Resource result: FA-only pre-schedule VGPR demand74->68 (V1was76), final allocation remains96VGPR/16KiBLDS/0compiler-scratch; code43216,instructions7348,VMEM286. Unified pre83->77, final96/16KiB/0; code495720,instructions91422,VMEM4649. This supports an output-state lifetime reduction but not a speed improvement. Compiler-scratch0 does not mean no introduced scratch-buffer traffic.
+
+Source-derived constraint:16KiBLDS allows4workgroups/CU, i.e.8wave64/SIMD for256threadgroups across2SIMDs.768VGPR/wave64 units /8waves =96; ACO scheduling can consume that budget without reducing LDS-limited residency. Thus reduced pre-demand alone does not guarantee smaller final allocation or more resident persistent groups. Full noFA+noQ6 also independently remains96/pre65, so other paths must be addressed even if FA gets smaller.
+
+Next combination to investigate: V2 with <=12KiBLDS. Existing verified probability-reuse layout ends12672bytes rounded13KiB (still4groups/CU). Potential12KiB layout: remove query row padding (HSK256->qstride64,16*64*8=8192bytes), place score/K/probability alias at8192,4096score bytes ends12288. Remove shared slopes by recomputing same per-row slope at mask application; for actualFaTypeK=FaTypeV=8 no IQ-shared initialization is reachable (onlytype20needs it). Must inspect compiled LDS, preserve code for supported metadata, prove alias phases and WG barriers, and test bank-conflict/performance costs. SHMEM_STAGING must remain0 or have explicit fallback. Q is already reloaded inside every KV iteration; it is not live across iterations. None of this12KiB combination implemented yet.
+
+Alternative/parallel next diagnostic: isolate remaining nonFA/nonQ6 resource ceiling (GDN/RoPE/norm/control paths). Do not assume FA alone controls unified resources. No long throughput rerun at unchanged resource gate and increased instructions/traffic. All jobs terminal, no installed/Claude changes.

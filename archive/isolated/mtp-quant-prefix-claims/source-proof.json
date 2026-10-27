@@ -1,0 +1,23 @@
+{
+  "parent": "$WORKSPACE/isolated/mtp-fa-rowmajor-cache7/cached.comp",
+  "parent_sha256": "4f3b80b0952029d867ab717f2b293985b51f3e71b5f9c43af9ffb4c8e742976e",
+  "source_sha256": "1d2e95bcfdb25954746a5afe0f9eaabf3aa5d598ee2b43f5c0d4c5f17ee3a732",
+  "changed_wrappers": [
+    1,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    40,
+    41
+  ],
+  "cpu_claim_coverage_cases": 312,
+  "barriers_unchanged": true,
+  "change": "One fixed first tile per logical64-lane worker, then original dynamic tail claims with workers added to counter result. Counter still starts0; tail never claims reserved prefix. No arithmetic changes.",
+  "scope": "CPU work-coverage/source proof only. No compilation, GPU resource, forward-progress, numerical or speed qualification yet."
+}

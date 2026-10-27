@@ -1,0 +1,14 @@
+{
+  "means_gpu_ms_per_graph": {
+    "scheduled192": 0.835,
+    "nosched192": 0.8535000000000001,
+    "nosched256": 0.8425
+  },
+  "time_reduction_percent": -0.8982035928143839,
+  "drift_percent": {
+    "scheduled192": 4.907975460122693,
+    "nosched192": 0.11723329425556983,
+    "nosched256": 0.11862396204033177
+  },
+  "scope": "Same FA-free matrix graph. Scheduled192/nosched192/nosched256 controls, all3ACO schedulers disabled fornosched. First16WG resource72VGPR/2KiBLDS/0scratch;256groups retains64spare ofsource-derived320. Under-load diagnostic, not fullmodel or unifiedFA endpoint."
+}

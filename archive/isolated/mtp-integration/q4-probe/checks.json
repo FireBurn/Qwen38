@@ -1,0 +1,44 @@
+[
+  {
+    "columns": 1,
+    "K": 10240,
+    "R": 3,
+    "native": true,
+    "finite_nonzero": true,
+    "new_matrix_kernels": [
+      [
+        "mul_mat_vec_q4_0_q8_1_f32|64,1,1,",
+        3
+      ]
+    ],
+    "qualification": "Small-grid execution only; not accuracy or performance proof"
+  },
+  {
+    "columns": 2,
+    "K": 10240,
+    "R": 3,
+    "native": true,
+    "finite_nonzero": true,
+    "new_matrix_kernels": [
+      [
+        "mul_mat_vec_q4_0_q8_1_f32|64,1,2,",
+        3
+      ]
+    ],
+    "qualification": "Small-grid execution only; not accuracy or performance proof"
+  },
+  {
+    "columns": 37,
+    "K": 10240,
+    "R": 3,
+    "native": true,
+    "finite_nonzero": true,
+    "new_matrix_kernels": [
+      [
+        "matmul_quant_f16_f16acc_0|64,32,32,32,32,32,2,16,16,16,64,0,2,",
+        16
+      ]
+    ],
+    "qualification": "Small-grid execution only; not accuracy or performance proof"
+  }
+]

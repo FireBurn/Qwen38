@@ -1,0 +1,26 @@
+{
+  "mul_mat_vec_q6_k_f32_f32|64,2,1,": {
+    "calls": 50,
+    "weight_bytes": 2494464000
+  },
+  "mul_mat_vec_bf16_f32_f32|64,2,1,": {
+    "calls": 96,
+    "weight_bytes": 47185920
+  },
+  "mul_mat_vec_q5_k_f32_f32|64,2,1,": {
+    "calls": 139,
+    "weight_bytes": 4123525120
+  },
+  "mul_mat_vec_q3_k_q8_1_f32|64,1,1,": {
+    "calls": 78,
+    "weight_bytes": 2987212800
+  },
+  "mul_mat_vec_q4_k_f32_f32|64,2,1,": {
+    "calls": 133,
+    "weight_bytes": 4689100800
+  },
+  "mul_mat_vec_q8_0_f32_f32|64,1,1,": {
+    "calls": 1,
+    "weight_bytes": 1350860800
+  }
+}

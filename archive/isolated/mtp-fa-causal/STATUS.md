@@ -1,0 +1,5 @@
+# Causal future-value perturbation and restore
+
+Native F32 and all-matvec+MQ mega pass at KV256/3328. Query0 masks final cache row, query1 sees it. After baseline40graphs, change every value in the final V row of all fourKV heads by+4, requantize Q8 and upload into the same buffer. Eight more graphs: query0 stays bit-identical, query1 changes, batch and serial outputs stay bit-identical. Restore original cache bytes via deterministic requantization and upload into same buffer; eight further graphs restore all original results exactly. Entire native/prototype output files agree, including changed/restored outputs. All values finite.56graphs/mode, physical mega16, final32graphs entirelymega. Exact backend/frozen driver self-mappings verified; guard completed/restored waiter.
+
+This proves the tested masked future V row cannot influence query0 and that cache input updates are observed without changing tensor pointers. It does not prove full KV insertion/rollback, K perturbation, SSM convolution history or model/controller correctness. No timing or token-speed claim. Prior model-qualified assets remain unchanged.

@@ -1,0 +1,42 @@
+[
+  {
+    "mode": "native",
+    "K": 5120,
+    "R": 3,
+    "columns": 2,
+    "batch_vs_separate_bit_identical": false,
+    "batch_vs_separate_max_abs": 0.11208748817443848,
+    "native_and_mega_mode_outputs_identical": true,
+    "normalized_rms_batch_vs_separate": 0.016710504156632427,
+    "native_dispatch_keys": [
+      "mul_mat_vec_q8_0_f32_f32|64,1,1,",
+      "mul_mat_vec_q8_0_q8_1_f32|64,1,2,",
+      "quantize_q8_1_x4|64,"
+    ],
+    "two_column_native_dispatch_count": 96,
+    "first_probe_two_column_workgroups_max": 3,
+    "backend_verified": true,
+    "driver_verified": true,
+    "scope": "Tiny Q8_0 column-count numerical contract diagnostic. Native column2 may quantize activations while column1 uses F32; non-equivalence is measured, not treated as a prototype arithmetic bug. Not model quality/performance."
+  },
+  {
+    "mode": "mega",
+    "K": 5120,
+    "R": 3,
+    "columns": 2,
+    "batch_vs_separate_bit_identical": false,
+    "batch_vs_separate_max_abs": 0.11208748817443848,
+    "native_and_mega_mode_outputs_identical": true,
+    "normalized_rms_batch_vs_separate": 0.016710504156632427,
+    "native_dispatch_keys": [
+      "mul_mat_vec_q8_0_f32_f32|64,1,1,",
+      "mul_mat_vec_q8_0_q8_1_f32|64,1,2,",
+      "quantize_q8_1_x4|64,"
+    ],
+    "two_column_native_dispatch_count": 96,
+    "first_probe_two_column_workgroups_max": 3,
+    "backend_verified": true,
+    "driver_verified": true,
+    "scope": "Tiny Q8_0 column-count numerical contract diagnostic. Native column2 may quantize activations while column1 uses F32; non-equivalence is measured, not treated as a prototype arithmetic bug. Not model quality/performance."
+  }
+]

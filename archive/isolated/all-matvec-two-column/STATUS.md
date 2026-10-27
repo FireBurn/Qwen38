@@ -1,0 +1,13 @@
+# Operator-only target matrix formats, columns1/2
+
+Parent qualified Q3/Q4/Q5/Q8F32module extended with Q6F32column2op34 and BF16column2op35. Reuses descriptor/shared storage, preserves original arithmetic/one-column functions; Q6 global accumulator and double-buffer selector renamed to avoid aliasing old one-column private state. Q8column2 requires private float-activation hostflag. Operator-only; not fullmodel/MTPqualified.
+
+GLSL builds andSPIR-V validates despite a transient CPUallocator message under external compiles; exit0. First16group K5120/R3 unrounded native/prototype probes exact, final32mega graphs fullymega, new nativegroups<=2. Allocation96VGPR/28spilledSGPR/16KiBLDS/zeroVGPRspills/zeroScratch; parent24spilledSGPR, code381064bytes versus347680parent/reference241132. Global code footprint/extra scalar spills need mixedoperator/fullmodel performance checks.
+
+All72broader native/prototype comparisons pass exact: Q6superblock tails atK256/512/768/1280 plus K5120/17408, R1/2/3/5/6/7, half-rounded/unrounded/zero/scaled/tiny inputs. Native/prototype and batched/separate byte equality; prior independentQ6first-column oracle checked whereavailable. Every mega-mode final32graphs fullymega. Actualbackend/frozenRADVverified.
+
+Firstbroad runner stopped after20valid cases because a fast child exited0 before external/proc/mapping poll observed libraries. No numerical/GPU failure. Added self-validation of every backend/driver mapping and exact expected-path markers inside harness; rebuilt and reran all72under same source/module. Original attempt archived in mapping-observer-race. Guard exited0/restored waiter.
+
+This supplies operator prototypes for all six matrix formats in historical target weight audit; it does not prove a complete two-token graph or performance. Q6/BF16 streaming performance and FA/GDN/rollback/controller validation remain. Mixed-format changing-input correctness is now qualified as described below. MTPdraft adds Q4_0projection/concat paths outside target audit. No installed or Claude files changed, no fullmodelMTP launched.
+
+Mixed-format changing-input qualification: mixed/checks.json contains 20 successful process cases across K5120/R3 and K17408/R7. All six formats share one input tensor; eight input phases include zeros, signed zeros, scaled/tiny values and unrounded F32. Consecutive batched calls update the same input pointer. Reference and prototype outputs match concatenated fresh-native phase oracles exactly, including batch versus separate outputs. Prototype final24 graphs have zero native operations; backend and frozen driver self-mappings verified. Guard completed and restored the original quiet waiter. This is operator correctness, not a mixed-model performance or full MTP proof.

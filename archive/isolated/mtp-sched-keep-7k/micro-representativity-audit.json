@@ -1,0 +1,32 @@
+{
+  "target_block_payload_bytes": 14352050176,
+  "target_weight_share_percent": {
+    "q6_K": 17.380541242611663,
+    "f32": 0.07358904038435825,
+    "bf16": 0.3287747703035901,
+    "q5_K": 28.731261871530403,
+    "q4_K": 32.67199279891927,
+    "q3_K": 20.81384027625072
+  },
+  "synthetic_equal_family_weight_share_percent": {
+    "q3_K": 17.1875,
+    "q4_K": 22.5,
+    "q5_K": 27.5,
+    "q6_K": 32.8125
+  },
+  "largest_target_roles_bytes": {
+    "ffn_down": 3503882240,
+    "ffn_gate": 3042222080,
+    "ffn_up": 3042222080,
+    "attn_qkv": 1555660800,
+    "ssm_out": 1035632640,
+    "attn_gate": 933396480,
+    "attn_q": 708771840,
+    "attn_output": 354385920,
+    "attn_k": 59064320,
+    "attn_v": 59064320,
+    "ssm_alpha": 23592960,
+    "ssm_beta": 23592960
+  },
+  "scope": "Static tensor payload, not runtime GPU time/traffic. Existing equal-family mixed microbench overweights Q6 and omits small BF16/F32 operators; it remains a controlled synthetic comparison. Full-model512comparison is authoritative for model throughput. No benchmark inputs or queued assets changed."
+}

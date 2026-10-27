@@ -1,0 +1,72 @@
+[
+  {
+    "columns": 1,
+    "six_call_blocks": 128,
+    "native_gpu_top10_mean_us": 5838.4296875,
+    "original_threshold_bounded_mean_us": 2689.41796875,
+    "bounded_mean_us": 2563.8203125,
+    "relative_latency_to_original_percent": -4.670068308808684,
+    "relative_latency_to_gpu_percent": -56.08715956639667,
+    "median_paired_percent": -2.8223572086214954,
+    "paired_range_percent": [
+      -49.45572227125625,
+      85.80747183237793
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1660.5,
+      "1": 1660.0,
+      "2": 1669.0
+    },
+    "mode_background_build_process_ranges": {
+      "0": [
+        15,
+        16
+      ],
+      "1": [
+        15,
+        16
+      ],
+      "2": [
+        15,
+        16
+      ]
+    },
+    "all_ordered_top10_ids_and_scores_saved_native_exact": true,
+    "scope": "Matched head-only API latency: mode0 native GPU Q8 top10; mode1 ten-seed bounded head with one-wave threshold custom op; mode2 same ten-seed bounded head with original NEG/ARGMAX/GET_ROWS threshold. Shared backend/weights/coarse and exact seed graph; identical native output bits, packed result, symmetric blocks, under external compile load. No model throughput/adoption claim."
+  },
+  {
+    "columns": 2,
+    "six_call_blocks": 64,
+    "native_gpu_top10_mean_us": 7142.984375,
+    "original_threshold_bounded_mean_us": 3385.453125,
+    "bounded_mean_us": 3362.78125,
+    "relative_latency_to_original_percent": -0.6696850956989686,
+    "relative_latency_to_gpu_percent": -52.921901078637035,
+    "median_paired_percent": 2.12285147301966,
+    "paired_range_percent": [
+      -40.39210233592881,
+      59.24399856682192
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1623.0,
+      "1": 1633.0,
+      "2": 1619.0
+    },
+    "mode_background_build_process_ranges": {
+      "0": [
+        15,
+        16
+      ],
+      "1": [
+        16,
+        16
+      ],
+      "2": [
+        15,
+        16
+      ]
+    },
+    "all_ordered_top10_ids_and_scores_saved_native_exact": true,
+    "scope": "Matched head-only API latency: mode0 native GPU Q8 top10; mode1 ten-seed bounded head with one-wave threshold custom op; mode2 same ten-seed bounded head with original NEG/ARGMAX/GET_ROWS threshold. Shared backend/weights/coarse and exact seed graph; identical native output bits, packed result, symmetric blocks, under external compile load. No model throughput/adoption claim."
+  }
+]

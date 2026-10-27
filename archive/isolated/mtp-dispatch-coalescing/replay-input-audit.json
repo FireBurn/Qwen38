@@ -1,0 +1,83 @@
+{
+  "source": "$WORKSPACE/isolated/mtp-integration/native.tape",
+  "source_sha256": "7d87ac2c9169019d01b232431185a3adb1cc76f74cfa669b923ec895d148e66f",
+  "steady_graphs": 10,
+  "comparisons": [
+    {
+      "dispatches": 2147,
+      "key_changed": 0,
+      "workgroups_changed": 0,
+      "push_constants_changed": 0,
+      "buffers_changed": 0,
+      "exact_replayable_dispatches": 2147
+    },
+    {
+      "dispatches": 2147,
+      "key_changed": 0,
+      "workgroups_changed": 0,
+      "push_constants_changed": 0,
+      "buffers_changed": 0,
+      "exact_replayable_dispatches": 2147
+    },
+    {
+      "dispatches": 2147,
+      "key_changed": 0,
+      "workgroups_changed": 0,
+      "push_constants_changed": 0,
+      "buffers_changed": 0,
+      "exact_replayable_dispatches": 2147
+    },
+    {
+      "dispatches": 2147,
+      "key_changed": 0,
+      "workgroups_changed": 0,
+      "push_constants_changed": 0,
+      "buffers_changed": 0,
+      "exact_replayable_dispatches": 2147
+    },
+    {
+      "dispatches": 2147,
+      "key_changed": 0,
+      "workgroups_changed": 0,
+      "push_constants_changed": 0,
+      "buffers_changed": 0,
+      "exact_replayable_dispatches": 2147
+    },
+    {
+      "dispatches": 2147,
+      "key_changed": 0,
+      "workgroups_changed": 0,
+      "push_constants_changed": 0,
+      "buffers_changed": 0,
+      "exact_replayable_dispatches": 2147
+    },
+    {
+      "dispatches": 2147,
+      "key_changed": 0,
+      "workgroups_changed": 0,
+      "push_constants_changed": 0,
+      "buffers_changed": 0,
+      "exact_replayable_dispatches": 2147
+    },
+    {
+      "dispatches": 2147,
+      "key_changed": 0,
+      "workgroups_changed": 0,
+      "push_constants_changed": 0,
+      "buffers_changed": 0,
+      "exact_replayable_dispatches": 2147
+    },
+    {
+      "dispatches": 2147,
+      "key_changed": 0,
+      "workgroups_changed": 0,
+      "push_constants_changed": 0,
+      "buffers_changed": 0,
+      "exact_replayable_dispatches": 2147
+    }
+  ],
+  "push_constant_mutations_by_pipeline": {},
+  "changed_words": [],
+  "scope": "Historical native MTP tape for current 4086-node topology, 2147 dispatches. Read-only replay feasibility evidence; not a proof of current packed mega tape invariance, graph lifetime safety, or replay correctness. Buffer descriptor identity alone does not prove tensor contents immutable.",
+  "conclusion": "Blind command/tape replay is unsafe if any recorded push constant, workgroup count, or buffer tuple changes. Stable portions may be cacheable only with validated patching and graph/buffer lifetime rules."
+}

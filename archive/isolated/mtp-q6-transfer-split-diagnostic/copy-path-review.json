@@ -1,0 +1,11 @@
+{
+  "scope": "Private source path inventory; actual queue family/copy implementation not observed yet.",
+  "radv_source": "isolated/mtp-sched-keep-7k/source/src/amd/vulkan/meta/radv_meta_buffer.c",
+  "dispatch": "CmdCopyBuffer2 passes exact region size into radv_copy_memory.",
+  "paths": {
+    "RADV_QUEUE_TRANSFER": "radv_sdma_copy_memory",
+    "other_queues": "radv_prepare_cs_clear_copy_buffer selects compute copy or CP DMA"
+  },
+  "conclusion": "Do not attribute missing184bytes to SDMA without verifying the actual transfer queue family. ALLOW_GRAPHICS_QUEUE does not itself prove which path transfer queue uses.",
+  "next_evidence": "Whole/split upload and tail-onlyreadback; if reproducible, private instrumentation of selected queue and copy size."
+}

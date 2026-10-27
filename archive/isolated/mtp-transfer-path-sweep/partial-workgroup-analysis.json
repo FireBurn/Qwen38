@@ -1,0 +1,12 @@
+{
+  "scope": "CPU reconstruction, assumes256alignedBO base; not GPU commandstream proof.",
+  "dst_offset": 42840,
+  "size": 139264,
+  "start_thread": 11,
+  "copy_threads": 8705,
+  "dispatch_threads": 8716,
+  "last_partial_workgroup_threads": 12,
+  "predicted_last_partial_valid_bytes": 184,
+  "observed_missing_bytes": 184,
+  "finding": "Missing bytes exactly match final partial workgroup. Inspect GFX12 partialthreadregister emission and pipelinebind order; rootcause unproven."
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "K": 10240,
+    "R": 3,
+    "columns": 1,
+    "native_stack": "0.27",
+    "finite_nonzero": true,
+    "source_derived_matrix_grid_bound": 3,
+    "dispatch_bound_observed": false,
+    "scope": "Native release has no tape hook. Bounds from matching source MMVQ rowcount, MMQ minimum32tiles and splitK cap8; K256 uses splitK1. Execution gate only, not numerical accuracy or speed."
+  },
+  {
+    "K": 10240,
+    "R": 3,
+    "columns": 2,
+    "native_stack": "0.27",
+    "finite_nonzero": true,
+    "source_derived_matrix_grid_bound": 3,
+    "dispatch_bound_observed": false,
+    "scope": "Native release has no tape hook. Bounds from matching source MMVQ rowcount, MMQ minimum32tiles and splitK cap8; K256 uses splitK1. Execution gate only, not numerical accuracy or speed."
+  },
+  {
+    "K": 10240,
+    "R": 3,
+    "columns": 37,
+    "native_stack": "0.27",
+    "finite_nonzero": true,
+    "source_derived_matrix_grid_bound": 16,
+    "dispatch_bound_observed": false,
+    "scope": "Native release has no tape hook. Bounds from matching source MMVQ rowcount, MMQ minimum32tiles and splitK cap8; K256 uses splitK1. Execution gate only, not numerical accuracy or speed."
+  },
+  {
+    "K": 256,
+    "R": 16,
+    "columns": 16,
+    "native_stack": "0.27",
+    "finite_nonzero": true,
+    "source_derived_matrix_grid_bound": 1,
+    "dispatch_bound_observed": false,
+    "scope": "Native release has no tape hook. Bounds from matching source MMVQ rowcount, MMQ minimum32tiles and splitK cap8; K256 uses splitK1. Execution gate only, not numerical accuracy or speed."
+  }
+]

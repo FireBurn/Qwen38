@@ -1,0 +1,60 @@
+{
+  "scope": "Under-load diagnostic only",
+  "means_ms": {
+    "parent": 0.3255,
+    "off": 0.475,
+    "fused": 0.4785
+  },
+  "fused_vs_parent_percent": 47.004608294930875,
+  "fused_vs_same_shader_off_percent": 0.7368421052631691,
+  "rows": [
+    {
+      "mode": "parent",
+      "groups": 192,
+      "graphs": 512,
+      "fused_ffns": 0,
+      "mean_gpu_ms": 0.326,
+      "all_outputs_native_exact": true
+    },
+    {
+      "mode": "fused",
+      "groups": 192,
+      "graphs": 512,
+      "fused_ffns": 511,
+      "mean_gpu_ms": 0.478,
+      "all_outputs_native_exact": true
+    },
+    {
+      "mode": "off",
+      "groups": 192,
+      "graphs": 512,
+      "fused_ffns": 0,
+      "mean_gpu_ms": 0.476,
+      "all_outputs_native_exact": true
+    },
+    {
+      "mode": "off",
+      "groups": 192,
+      "graphs": 512,
+      "fused_ffns": 0,
+      "mean_gpu_ms": 0.474,
+      "all_outputs_native_exact": true
+    },
+    {
+      "mode": "fused",
+      "groups": 192,
+      "graphs": 512,
+      "fused_ffns": 511,
+      "mean_gpu_ms": 0.479,
+      "all_outputs_native_exact": true
+    },
+    {
+      "mode": "parent",
+      "groups": 192,
+      "graphs": 512,
+      "fused_ffns": 0,
+      "mean_gpu_ms": 0.325,
+      "all_outputs_native_exact": true
+    }
+  ]
+}

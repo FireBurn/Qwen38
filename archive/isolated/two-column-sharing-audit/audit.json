@@ -1,0 +1,73 @@
+{
+  "records": 3456,
+  "records_by_column_count": {
+    "2": 1152,
+    "1": 2304
+  },
+  "shapes": [
+    [
+      2048,
+      3
+    ],
+    [
+      2048,
+      7
+    ],
+    [
+      2304,
+      3
+    ],
+    [
+      2304,
+      7
+    ],
+    [
+      5120,
+      1
+    ],
+    [
+      5120,
+      2
+    ],
+    [
+      5120,
+      3
+    ],
+    [
+      5120,
+      5
+    ],
+    [
+      5120,
+      6
+    ],
+    [
+      5120,
+      7
+    ],
+    [
+      17408,
+      3
+    ],
+    [
+      17408,
+      7
+    ]
+  ],
+  "tape_sources": {
+    "$WORKSPACE/isolated/q45-two-column/17408-3-native.tape": "34dbe406d18a3d46285b31dcb601f7bf3a69836d746242d910be644895fbffe4",
+    "$WORKSPACE/isolated/q45-two-column/17408-7-native.tape": "f5356ac9873010c70c3abcd7b7ce70153ad32a9bc98e31c1a79e226b37648886",
+    "$WORKSPACE/isolated/q45-two-column/2048-3-native.tape": "9d2f213436df21a71288be9178b351fb7ba83cc49c3a140d1de4d53b830f9437",
+    "$WORKSPACE/isolated/q45-two-column/2048-7-native.tape": "fd8e6c66124c1c912d6dd271aff65664f206890e32d09a6fd90f2556b0cf4108",
+    "$WORKSPACE/isolated/q45-two-column/2304-3-native.tape": "d3b6d82ea1d25a1cd98ac944eb49a0342c576809982c5ba82207ca78f1dcb29c",
+    "$WORKSPACE/isolated/q45-two-column/2304-7-native.tape": "d64511acfc81ab1e373cfd1fca3f5332ddd7bb631f98f8b2eeac8b9b27a59b6a",
+    "$WORKSPACE/isolated/q45-two-column/5120-1-native.tape": "09046caba8f4d88101bdb3f717bba22be4cd76f6b57621bc74760744ccf7bf09",
+    "$WORKSPACE/isolated/q45-two-column/5120-2-native.tape": "2b3c0a9c5eff68741ab31d590e87046ba1a88952249d64deac073c6353b1bc3a",
+    "$WORKSPACE/isolated/q45-two-column/5120-3-native.tape": "8f004a26deac9d4f1adf4599e199bf4a486dea3b199a42e073941ed7f791703f",
+    "$WORKSPACE/isolated/q45-two-column/5120-5-native.tape": "2b8efc698a372deeeb982a49e1dc9ba4bc0806020724b9c945de1ea0b818b80c",
+    "$WORKSPACE/isolated/q45-two-column/5120-6-native.tape": "1895c62d43eb659de1e6f928efb59679a89e5667b72ca7bee0ded8ec48d58977",
+    "$WORKSPACE/isolated/q45-two-column/5120-7-native.tape": "322924b0467118689d0969f9da9cf7d30f9a0bce9e5bc9c5485a6a91ea8b0e51"
+  },
+  "host_source_sha256": "ee2bc7a1090b0e0ba5ba00a32ecf6595da62f21e05f6b21ff7e09cc7df594339",
+  "scope": "Q4/Q5 captured nativePCs: batch_stride_a zero distinguishes two columns versus positive K*R single-column stride. Source confirms batch_n convention and quantized A contiguous requirement. Not a universal dtype/batch-layout proof: noncontiguous F32/BF16 can override stride_batch_x; unsupported column counts excluded. No shader edit or GPU result."
+}

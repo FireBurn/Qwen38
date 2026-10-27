@@ -1,0 +1,16 @@
+{
+  "binary32_partial_reduction_cases": 1000,
+  "same_order_as_native_512_tree": true,
+  "output_coverage_columns": [
+    1,
+    7,
+    128,
+    256,
+    512,
+    1024,
+    5120,
+    8192,
+    17408
+  ],
+  "scope": "Checks summation DAG for supplied per-thread partials and output indexing. Does not prove GPU accumulation contraction/rsqrt behavior or resource use; native GPU comparisons required."
+}

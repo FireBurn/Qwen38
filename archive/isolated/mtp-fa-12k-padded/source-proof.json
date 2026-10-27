@@ -1,0 +1,43 @@
+{
+  "parent_sha256": "9dc0ed339f9e363a774a7b7fb770b86cbb760059a745be7d584bbf154edbff07",
+  "variants": [
+    {
+      "label": "padded",
+      "source_sha256": "ed203f94b441ff111bf02658c403c384b277693801a50c94a2b9b2f942e22161"
+    },
+    {
+      "label": "fa_only",
+      "source_sha256": "280decc848637509ac953b63f9b8a86010a1b3c8022fa50510c53888555bd1e8"
+    }
+  ],
+  "q_range": [
+    0,
+    8448
+  ],
+  "k_range": [
+    8448,
+    11520
+  ],
+  "mask_reduction_range": [
+    11520,
+    11536
+  ],
+  "score_range": [
+    8192,
+    12288
+  ],
+  "probability_range": [
+    8192,
+    11264
+  ],
+  "v_staging_range": [
+    0,
+    8192
+  ],
+  "output_range": [
+    0,
+    2048
+  ],
+  "expected_lds_bytes": 12288,
+  "scope": "Restore original66elementQrowpitch and QV1056 allocation, keep V staging1024 stride. Mask reductions no longer overlapQtail. Existingbarrier immediately before coopMatStore(SfMat) completes allQ/Kreads before score overwritesQtail/K. Existing probability/V/output reuse barriers unchanged. Current Q8KV,SHMEM_STAGING0,oneFA-slot,HSK256 only; no new arithmetic or barriers, all42ops retained in full. Existing disjoint explicit FA state/Q6/GDN/full temporary initialization unchanged. Firstdevice<=16groups; no performance claim."
+}

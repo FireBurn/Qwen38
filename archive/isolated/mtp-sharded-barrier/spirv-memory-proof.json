@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "parent": {
+      "('MemoryBarrier', 1, 72)": 2,
+      "('ControlBarrier', 2, 2, 264)": 119,
+      "('AtomicIAdd', 1, 72)": 1,
+      "('AtomicLoad', 1, 66)": 1,
+      "('AtomicIAdd', 5, 0)": 17,
+      "('ControlBarrier', 3, 3, 3400)": 13,
+      "('MemoryBarrier', 3, 264)": 13
+    },
+    "sharded": {
+      "('MemoryBarrier', 1, 72)": 2,
+      "('ControlBarrier', 2, 2, 264)": 119,
+      "('AtomicIAdd', 1, 72)": 2,
+      "('AtomicLoad', 1, 66)": 1,
+      "('AtomicIAdd', 5, 0)": 17,
+      "('ControlBarrier', 3, 3, 3400)": 13,
+      "('MemoryBarrier', 3, 264)": 13
+    }
+  },
+  "all_original_scope_semantic_counts_preserved": true,
+  "only_extra_sync_instruction": "One device-scope AtomicIAdd with UniformMemory64|AcquireRelease8, semantics72",
+  "scope": "Static instruction counts; not a full memory-model proof or hardware execution."
+}

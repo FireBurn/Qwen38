@@ -1,0 +1,24 @@
+{
+  "parent_sha256": "903442bfd293f999049a93286ff1e182232aefb29f1a6844e41574739647379a",
+  "candidate_sha256": "7b823a17fc100364336c9a3248cef7640215647b620590397c8a5538c65ba281",
+  "wrappers": [
+    1,
+    6,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    40,
+    41
+  ],
+  "cpu_mapping_cases": 274418,
+  "only_change": "Guarded workgroup-uniform 1D virtual-grid mapping, generic3D fallback retained. Existing atomic scheduler, task claims, row order, native arithmetic, all FA and memory fences unchanged.",
+  "fast_path_invariant": "Scheduler has v<total. When wgn.y=wgn.z=1, total=wgn.x and generic(v%x,(v/x)%1,v/x) equals(v,0,0). Existing BF16 half remapping remains before this mapping.",
+  "gpu_qualified": false
+}

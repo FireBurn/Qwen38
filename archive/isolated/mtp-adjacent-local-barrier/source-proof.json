@@ -1,0 +1,7 @@
+{
+  "parent_sha256": "903442bfd293f999049a93286ff1e182232aefb29f1a6844e41574739647379a",
+  "candidate_sha256": "34d26c4dd73a7a8cb1cad162c49039a084023957e20aaa65db5ad92102588852",
+  "change": "Only outer workgroup barrier immediately preceding an explicit global-barrier tape record becomes conditional. Last-record barrier retained. All device memory fences, counter acquire-release operations, spin protocol and inner barriers unchanged.",
+  "reason": "All invocations perform their own preceding stores before the following gridbar memoryBarrier(Buffer AcquireRelease), then its workgroup barrier waits for every invocation before lane0 publishes arrival. gridbar final workgroup barrier and device memoryBarrier remain. Immutable tape lookahead is workgroup-uniform. No dependence may be moved across a device fence.",
+  "qualified": false
+}

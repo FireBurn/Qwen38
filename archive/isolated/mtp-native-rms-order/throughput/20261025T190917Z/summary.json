@@ -1,0 +1,25 @@
+{
+  "means_tokens_per_second": {
+    "native24": 28.6535,
+    "mega24": 27.146,
+    "native_rms": 38.1295
+  },
+  "control_drift_percent": {
+    "native24": 17.32491791782219,
+    "mega24": 26.40447641886491,
+    "native_rms": 3.764699827590623
+  },
+  "relative_to_native_percent": {
+    "native24": 0.0,
+    "mega24": -5.261137382867709,
+    "native_rms": 33.07100354232466
+  },
+  "relative_to_installed_mega_percent": {
+    "native24": 5.553304354232669,
+    "mega24": 0.0,
+    "native_rms": 40.46084137626169
+  },
+  "all_tokens_identical": true,
+  "acceptance_counters_identical": true,
+  "scope": "Original asynchronous MTP pipeline. Symmetric6run native-order RMS diagnostic under external compilation; same core/Q8policy/driver. No quiet/adoption claim."
+}

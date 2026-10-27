@@ -1,0 +1,10 @@
+{
+  "scope": "Source review; GPU input diagnostic still pending.",
+  "upload_path": "ggml_backend_vk_buffer_set_tensor -> ggml_vk_buffer_write -> ggml_vk_buffer_write_2d",
+  "device_local_path_waits_for_transfer_fence": true,
+  "host_visible_path": "Direct memcpy requires host coherent memory. Current environment disables host-visible VRAM.",
+  "finding": "Source does not support simply assuming asynchronous upload lifetime. Readback checks and saved inputs are needed before changing barriers or staging.",
+  "observed_failing_input_descriptor_byte_offset": 42840,
+  "offset_mod16": 8,
+  "caveat": "Offset modulo16 is an alignment lead, not proof of invalid Vulkan binding or compiler bug."
+}

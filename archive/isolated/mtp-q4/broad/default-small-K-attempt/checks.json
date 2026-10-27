@@ -1,0 +1,20 @@
+[
+  {
+    "K": 32,
+    "R": 3,
+    "columns": 1,
+    "mode": "native",
+    "phases": 4,
+    "bias_variants": 3,
+    "same_pointer_input_updates": true,
+    "native_bit_identical": true,
+    "groups": 16,
+    "graphs": 64,
+    "last16_native_ops": 48,
+    "observed_native_fusion_flags": [
+      0,
+      1,
+      3
+    ]
+  }
+]

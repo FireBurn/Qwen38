@@ -1,0 +1,14 @@
+{
+  "all_tokens_and_acceptance_identical": true,
+  "all_model_audit_bits_identical": true,
+  "qualified_arms": [
+    "chunk2-16",
+    "chunk2-192",
+    "chunk2-256",
+    "chunk4-16",
+    "chunk4-192",
+    "chunk4-256"
+  ],
+  "global_fences_preserved": true,
+  "scope": "Canonical correctness: adaptive chunk2/chunk4 keep-policy bodies at16/192/256, head capped192. 256launch only after72VGPR/12KiB/0scratch source-derived320capacity gate. No throughput claim."
+}

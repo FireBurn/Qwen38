@@ -1,0 +1,11 @@
+{
+  "all_tokens_and_acceptance_identical": true,
+  "all_model_audit_bits_identical": true,
+  "qualified_arms": [
+    "one-row-192",
+    "one-row-256",
+    "one-row-320"
+  ],
+  "global_fences_preserved": true,
+  "scope": "Canonical correctness: streamed-rowwise Q6one-row body at192/256/320groups, head capped192; all arms must pass. No throughput claim."
+}

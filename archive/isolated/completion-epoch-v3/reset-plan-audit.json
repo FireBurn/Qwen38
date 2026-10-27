@@ -1,0 +1,37 @@
+{
+  "extracted_actual_backend_counter_blocks": true,
+  "cases": 180,
+  "headers": [
+    256,
+    512
+  ],
+  "records": [
+    1,
+    4,
+    128,
+    3968,
+    3969,
+    4000,
+    4032,
+    4033,
+    65536
+  ],
+  "segment_indices": [
+    0,
+    1,
+    255,
+    256,
+    257
+  ],
+  "segmented_modes": [
+    false,
+    true
+  ],
+  "fallback_tail_separate": true,
+  "only_active_range_zeroed": true,
+  "simulated_gpu_counter_writes_do_not_corrupt_future_segments": true,
+  "old_overlap_negative_control_detected": true,
+  "original_reference_overlap_negative_control_detected": true,
+  "original_negative_control_records": 4100,
+  "source_sha256": "6c181199319c4a8262ff3f6d3ed3c1192eef5cc41b89c0f9e3c4136c731b2eb1"
+}

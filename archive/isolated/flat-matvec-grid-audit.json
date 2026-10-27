@@ -1,0 +1,4979 @@
+{
+  "scope": "Last saved single-token graph before host fusions; row-remap opportunity count, not measured elapsed cost",
+  "calls": 497,
+  "flat_calls": 497,
+  "virtual_tasks": 2076160,
+  "flat_virtual_tasks": 2076160,
+  "rows": [
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        3072,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        3072,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        3072,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        512,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        512,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q3_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q4_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        10240,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        12288,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        1024,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        17408,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q5_k_q8_1_f32|64,1,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        3072,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        3072,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        5120,
+        1,
+        1
+      ],
+      "mega_tasks": 5120,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_bf16_f32_f32|64,2,1,",
+      "native_grid": [
+        24,
+        1,
+        1
+      ],
+      "mega_tasks": 24,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        3072,
+        1,
+        1
+      ],
+      "mega_tasks": 3072,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        6144,
+        1,
+        1
+      ],
+      "mega_tasks": 6144,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        512,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        512,
+        1,
+        1
+      ],
+      "mega_tasks": 512,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        8704,
+        1,
+        1
+      ],
+      "mega_tasks": 8704,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q6_k_f32_f32|64,2,1,",
+      "native_grid": [
+        2560,
+        1,
+        1
+      ],
+      "mega_tasks": 2560,
+      "flat": true
+    },
+    {
+      "key": "mul_mat_vec_q8_0_f32_f32|64,1,1,",
+      "native_grid": [
+        248320,
+        1,
+        1
+      ],
+      "mega_tasks": 124160,
+      "flat": true
+    }
+  ]
+}

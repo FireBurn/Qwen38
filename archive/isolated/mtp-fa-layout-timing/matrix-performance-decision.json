@@ -1,0 +1,26 @@
+{
+  "source": "isolated/mtp-sched-keep-7k/stream-bench/20261027T070002Z/summary.json",
+  "all20_arms_exact_and_quiet": true,
+  "comparisons": [
+    {
+      "timing": "batch",
+      "native_us": 806.2421875,
+      "parent_us": 996.571289,
+      "keep320_us": 1004.5302735,
+      "keep320_time_vs_parent_percent": 0.7986367445911968,
+      "keep320_time_vs_native_percent": 24.594109446796963,
+      "max_control_drift_percent": 0.2848418343756931
+    },
+    {
+      "timing": "single",
+      "native_us": 1538.674316,
+      "parent_us": 1760.1865235,
+      "keep320_us": 1744.111816,
+      "keep320_time_vs_parent_percent": -0.9132388690282989,
+      "keep320_time_vs_native_percent": 13.35159090287954,
+      "max_control_drift_percent": 0.5943597845792681
+    }
+  ],
+  "decision": "No adoption based on theoretical residency. C2slower andC1smallgain relativeparent; both slowernative. Retain qualified candidate for independentFA/fullmodel evaluation.",
+  "scope": "Equal-family synthetic mixed-matrix chain, not actual model quant/shape mix. Does not isolate whether scheduling, locality, activewaves or claim overhead causes remaininggap."
+}

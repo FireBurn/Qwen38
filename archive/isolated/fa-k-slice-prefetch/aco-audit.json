@@ -1,0 +1,34 @@
+{
+  "rows": [
+    {
+      "mode": "control",
+      "first_k_staging_block": "BB4370",
+      "global_loads_before_first_K_LDS_store": [
+        "buffer_load_dwordx2",
+        "buffer_load_short_d16"
+      ],
+      "global_load_count_before_first_K_LDS_store": 2,
+      "wait_loadcnt_sequence_before_first_K_LDS_store": [
+        "1",
+        "0"
+      ]
+    },
+    {
+      "mode": "prefetch",
+      "first_k_staging_block": "BB4370",
+      "global_loads_before_first_K_LDS_store": [
+        "buffer_load_dwordx2",
+        "buffer_load_short_d16",
+        "buffer_load_dwordx2",
+        "buffer_load_short_d16"
+      ],
+      "global_load_count_before_first_K_LDS_store": 4,
+      "wait_loadcnt_sequence_before_first_K_LDS_store": [
+        "3",
+        "0"
+      ]
+    }
+  ],
+  "finding": "The first K staging block issues two additional global loads before its first LDS store. Earlier loads survive compilation. The variant also reaches wait_loadcnt0 before that store, so this is not proof that future global loads remain outstanding across a barrier or overlap an entire WMMA. Timing still required.",
+  "scope": "Static final ACO listing, not machine-code disassembly or dynamic instruction trace."
+}

@@ -1,0 +1,17 @@
+{
+  "mean_steady_tokens_per_second": {
+    "mega_bound_parent": 40.54922904222661,
+    "mega_bound_off": 40.68032655692187,
+    "mega_bound_on": 40.70118292134849
+  },
+  "control_drift_percent": {
+    "mega_bound_parent": 0.39453739686254874,
+    "mega_bound_off": 0.5116587999414612,
+    "mega_bound_on": 1.4225625609301185
+  },
+  "all_tokens_and_acceptance_identical": true,
+  "instrument_off_relative_to_parent_percent": 0.3233045801160461,
+  "instrument_on_relative_to_off_percent": 0.051268920856473166,
+  "instrument_on_relative_to_parent_percent": 0.3747392557418072,
+  "scope": "Profiler observer diagnostic only,128tokens symmetric parent/off/on/on/off/parent. Trace captures graph20..211 at1/64density, most but not necessarily all steady graphs. Full decoder, encode/process costs and load telemetry retained; compilation perturbation is distinct from active clock/copy cost."
+}

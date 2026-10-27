@@ -1,0 +1,27 @@
+{
+  "target_verification_profile_means": {
+    "mega24": {
+      "gpu_ms": 36.393652753623186,
+      "proof_us": 1.9057971014492754,
+      "fuser_us": 32.6231884057971,
+      "fused": 0,
+      "segments": 20
+    },
+    "off": {
+      "gpu_ms": 36.86044057971014,
+      "proof_us": 205.02173913043478,
+      "fuser_us": 32.8768115942029,
+      "fused": 0,
+      "segments": 20
+    },
+    "fused": {
+      "gpu_ms": 37.00477478260869,
+      "proof_us": 203.1231884057971,
+      "fuser_us": 76.36231884057972,
+      "fused": 39,
+      "segments": 20
+    }
+  },
+  "all_tokens_identical": true,
+  "scope": "Matched six-arm graph GPU timestamp/CPU wall-time diagnostic under compilation. Query waits alter pipeline overlap; not adoption throughput."
+}

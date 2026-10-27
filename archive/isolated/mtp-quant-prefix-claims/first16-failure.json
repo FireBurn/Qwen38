@@ -1,0 +1,153 @@
+{
+  "case": "q6-17408-3-c2-",
+  "elements": 72,
+  "mismatched_elements": 18,
+  "max_absolute_error": 57.44878387451172,
+  "mismatches": [
+    {
+      "index": 39,
+      "native": -38.29623031616211,
+      "candidate": -83.00870513916016,
+      "abs_error": 44.71247482299805,
+      "native_bits": "572f19c2",
+      "candidate_bits": "7504a6c2"
+    },
+    {
+      "index": 40,
+      "native": -21.912612915039062,
+      "candidate": 35.536170959472656,
+      "abs_error": 57.44878387451172,
+      "native_bits": "084dafc1",
+      "candidate_bits": "0a250e42"
+    },
+    {
+      "index": 41,
+      "native": -7.969032287597656,
+      "candidate": -52.82051086425781,
+      "abs_error": 44.851478576660156,
+      "native_bits": "5002ffc0",
+      "candidate_bits": "344853c2"
+    },
+    {
+      "index": 45,
+      "native": -38.29623031616211,
+      "candidate": -83.00870513916016,
+      "abs_error": 44.71247482299805,
+      "native_bits": "572f19c2",
+      "candidate_bits": "7504a6c2"
+    },
+    {
+      "index": 46,
+      "native": -21.850112915039062,
+      "candidate": 35.598670959472656,
+      "abs_error": 57.44878387451172,
+      "native_bits": "08cdaec1",
+      "candidate_bits": "0a650e42"
+    },
+    {
+      "index": 47,
+      "native": -7.844032287597656,
+      "candidate": -52.69551086425781,
+      "abs_error": 44.851478576660156,
+      "native_bits": "5002fbc0",
+      "candidate_bits": "34c852c2"
+    },
+    {
+      "index": 51,
+      "native": -38.29623031616211,
+      "candidate": -83.00870513916016,
+      "abs_error": 44.71247482299805,
+      "native_bits": "572f19c2",
+      "candidate_bits": "7504a6c2"
+    },
+    {
+      "index": 52,
+      "native": -21.826675415039062,
+      "candidate": 35.622108459472656,
+      "abs_error": 57.44878387451172,
+      "native_bits": "089daec1",
+      "candidate_bits": "0a7d0e42"
+    },
+    {
+      "index": 53,
+      "native": -7.797157287597656,
+      "candidate": -52.64863586425781,
+      "abs_error": 44.851478576660156,
+      "native_bits": "5082f9c0",
+      "candidate_bits": "349852c2"
+    },
+    {
+      "index": 57,
+      "native": -3.063705094064062e-07,
+      "candidate": -6.6407022814019e-07,
+      "abs_error": 3.576997187337838e-07,
+      "native_bits": "3e7ba4b4",
+      "candidate_bits": "8f4232b5"
+    },
+    {
+      "index": 58,
+      "native": -1.7530101104057394e-07,
+      "candidate": 2.842892854459933e-07,
+      "abs_error": 4.5959029648656724e-07,
+      "native_bits": "603a3cb4",
+      "candidate_bits": "6ca09834"
+    },
+    {
+      "index": 59,
+      "native": -6.375194061547518e-08,
+      "candidate": -4.22563687152433e-07,
+      "abs_error": 3.588117465369578e-07,
+      "native_bits": "00e888b3",
+      "candidate_bits": "b6dce2b4"
+    },
+    {
+      "index": 63,
+      "native": -3.063705094064062e-07,
+      "candidate": -6.6407022814019e-07,
+      "abs_error": 3.576997187337838e-07,
+      "native_bits": "3e7ba4b4",
+      "candidate_bits": "8f4232b5"
+    },
+    {
+      "index": 64,
+      "native": 0.06249982491135597,
+      "candidate": 0.06250028312206268,
+      "abs_error": 4.5821070671081543e-07,
+      "native_bits": "d1ff7f3d",
+      "candidate_bits": "2600803d"
+    },
+    {
+      "index": 65,
+      "native": 0.12499993294477463,
+      "candidate": 0.12499957531690598,
+      "abs_error": 3.5762786865234375e-07,
+      "native_bits": "f7ffff3d",
+      "candidate_bits": "c7ffff3d"
+    },
+    {
+      "index": 69,
+      "native": -3.063705094064062e-07,
+      "candidate": -6.6407022814019e-07,
+      "abs_error": 3.576997187337838e-07,
+      "native_bits": "3e7ba4b4",
+      "candidate_bits": "8f4232b5"
+    },
+    {
+      "index": 70,
+      "native": 0.08593732118606567,
+      "candidate": 0.08593778312206268,
+      "abs_error": 4.6193599700927734e-07,
+      "native_bits": "e8ffaf3d",
+      "candidate_bits": "2600b03d"
+    },
+    {
+      "index": 71,
+      "native": 0.17187494039535522,
+      "candidate": 0.17187458276748657,
+      "abs_error": 3.5762786865234375e-07,
+      "native_bits": "fcff2f3e",
+      "candidate_bits": "e4ff2f3e"
+    }
+  ],
+  "status": "Exactness failure; no model or higher-grid qualification permitted. Investigate native-parent baseline before attributing mismatch to claim scheduling."
+}

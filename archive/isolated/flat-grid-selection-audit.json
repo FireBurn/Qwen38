@@ -1,0 +1,24 @@
+[
+  {
+    "variant": "bf16_pair",
+    "selection_control": {
+      "0": 1125
+    },
+    "dont_flatten_merges": 0
+  },
+  {
+    "variant": "flat_matvec_grid",
+    "selection_control": {
+      "0": 1137
+    },
+    "dont_flatten_merges": 0
+  },
+  {
+    "variant": "flat_matvec_branch",
+    "selection_control": {
+      "0": 1131,
+      "2": 6
+    },
+    "dont_flatten_merges": 6
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "columns": 1,
+    "six_call_blocks": 128,
+    "native_gpu_top10_mean_us": 5107.1328125,
+    "native_cpu_top10_mean_us": 5264.33984375,
+    "bounded_mean_us": 5552.2890625,
+    "relative_latency_to_cpu_percent": 5.469806800027599,
+    "relative_latency_to_gpu_percent": 8.716363297043195,
+    "median_paired_percent": 5.758379514333289,
+    "paired_range_percent": [
+      -56.22937293729373,
+      207.41481144934122
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1673.0,
+      "1": 1677.0,
+      "2": 1673.0
+    },
+    "mode_background_build_process_ranges": {
+      "0": [
+        11,
+        16
+      ],
+      "1": [
+        11,
+        16
+      ],
+      "2": [
+        11,
+        16
+      ]
+    },
+    "all_ordered_top10_ids_and_scores_saved_native_exact": true,
+    "scope": "Head-only public API top10 latency. Complete GPU coarse32 + native Q8 seeds + exact threshold + coarse filter + residual correction + sparse Q8 + compacted top10 + score gather, IDs and exact scores read back and ordered. Native GPU Q8/top10/gather and native CPU Q8/full-logit download/partial_sort10 references; reused buffers/index sets. Four warmup blocks excluded; all symmetric six-call blocks retained. Background Java/build activity uncontrolled; process counts include JVMs, not threads. Not model throughput/adoption."
+  },
+  {
+    "columns": 2,
+    "six_call_blocks": 64,
+    "native_gpu_top10_mean_us": 5438.8359375,
+    "native_cpu_top10_mean_us": 6248.0078125,
+    "bounded_mean_us": 7004.9140625,
+    "relative_latency_to_cpu_percent": 12.114361452713052,
+    "relative_latency_to_gpu_percent": 28.794362304663657,
+    "median_paired_percent": 21.62300350539971,
+    "paired_range_percent": [
+      -53.50771697735017,
+      140.9058572444866
+    ],
+    "mode_clock_medians_mhz": {
+      "0": 1656.0,
+      "1": 1657.5,
+      "2": 1646.0
+    },
+    "mode_background_build_process_ranges": {
+      "0": [
+        13,
+        16
+      ],
+      "1": [
+        13,
+        16
+      ],
+      "2": [
+        13,
+        16
+      ]
+    },
+    "all_ordered_top10_ids_and_scores_saved_native_exact": true,
+    "scope": "Head-only public API top10 latency. Complete GPU coarse32 + native Q8 seeds + exact threshold + coarse filter + residual correction + sparse Q8 + compacted top10 + score gather, IDs and exact scores read back and ordered. Native GPU Q8/top10/gather and native CPU Q8/full-logit download/partial_sort10 references; reused buffers/index sets. Four warmup blocks excluded; all symmetric six-call blocks retained. Background Java/build activity uncontrolled; process counts include JVMs, not threads. Not model throughput/adoption."
+  }
+]

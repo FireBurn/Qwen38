@@ -1,0 +1,11 @@
+# Operator-only Q3 two-column extension
+
+Adds Q3column2dispatch op33 to qualified Q45/Q8F32column2 parent. Reuses original descriptors and arithmetic, clones NUM_COLS2/twooutputrows with distinct activation cache, initializes every accumulator tail. Original operators unchanged; private Q8F32host flag does not alter Q3 selection. Operator-only, not fullmodel/MTP-qualified.
+
+GLSL builds andSPIR-V validates. Compiler emitted a transient allocator page-population message but exited0 and validation succeeded; no GPU involved at that point. Read-only host memory sample showed~9GBavailable amid external compiles. No external processes/system settings changed.
+
+First16group K5120/R3 native/prototype probes pass exact batch/separate and independent priorQ3single-column oracle. New native column2<=3workgroups. All52broader comparisons pass exact acrossK2048/2304/5120/17408, R1/2/3/5/6/7 and zero/scaled/half-rounded/unrounded/tiny inputs. Prototype final32graphs fullymega in each case; native/frozenRADV maps checked. Allocation96VGPR/24spilledSGPR/16KiBLDS/noVGPRspills/zeroScratch, code347680bytes vsparent311264. Guard exited0/resumed quietwaiter.
+
+Eight-matrix streaming harness compiled from corrected column-ordered/quantization-audited Q45harness, allweights Q3_K,64row CPU staging. Small-shape correctness/nativequantization audit followed by six-arm timestamp comparison now running serially: originalsingle/enlarged-module-single/batch/reverse atK5120/R17408,306380800logicalweightbytes,192groups/64spare after16groupchecks. No streaming/fullmodel gain claim yet. Q6/BF16/FA/GDN/state/rollback still require two-column qualification; code-size effects need mixedoperator testing.
+
+Completed Q3six-arm streaming comparison: isolated/q3-two-column/stream/gpu-diagnostic/20261024T120548Z/summary.json. Means reference-single1.556ms, enlarged-module-single1.554ms, batch0.954ms, each emits bothcolumns; mean reduction38.6889%. Batch0.930/0.978ms both beat allcontrols, but batchdrift5.1613%versusreference0.3863% andmodule0.6456%. Firstbatch/controlclosing clocks1665MHz match; secondbatch1628MHz lower, so report approximate~39%local gain rather than precise stable effect. Outputs exact everyarm. Modulecontrol difference~-0.13%belowdrift. No model/MTP speed claim, no DRAMcounter attribution; guard exited0/resumed waiter.

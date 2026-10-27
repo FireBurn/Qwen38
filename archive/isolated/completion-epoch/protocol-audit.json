@@ -1,0 +1,22 @@
+{
+  "randomized_schedules": 256,
+  "participant_counts": [
+    1,
+    2,
+    3,
+    16,
+    64,
+    128,
+    192,
+    256
+  ],
+  "phases_per_case": 64,
+  "actions": 2727936,
+  "early_publish_negative_control_detected": true,
+  "arrival_offset": 0,
+  "completed_offset": 256,
+  "dynamic_counter_offset": 512,
+  "host_clear_paths_cover_header": true,
+  "segmented_record_limit": 3968,
+  "scope": "Interleaving/progress and counter-layout audit only; does not simulate GPU caches. Shader requires explicit Buffer|Shared AcqRel control barriers, AcqRel arrival RMW, Release epoch store, Acquire polling and resident-grid headroom."
+}

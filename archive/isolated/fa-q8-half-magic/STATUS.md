@@ -1,0 +1,13 @@
+# Exact Q8 byte conversion using packed FP16
+
+Bounds-derived private shader; independent of K-slice fetch-ahead. Only FA Q8 K/V dequantize4 conversion changes. For each unsigned byte, XOR its sign bit, reinterpret1024+(byte XOR128) as FP16, then subtract1152 in FP16. All resulting signed integers[-128,127] are exact; scale multiplication and original data/order remain unchanged. Unlike the Q4/Q5 mixed-dot experiment, this does not round activation inputs differently.
+
+The packed16 Q8 fields are signed. Initial prototype incorrectly sign-extended the low16bit word when packing; first16-group9-frame GPU test rejected it, and the runner stopped. Historical source/SPIRV/logits and proof preserved in failed-v1-sign-extension. Corrected v2 casts both words through uint16_t. CPU66560packed cases cover every byte value in each position plus random inputs, including a negative control that catches the first packing bug.
+
+Corrected short16-group9-frame model check is bit-identical. Actual96VGPR/24SGPRspills/zeroVGPRspills orscratch/16KBLDS; code239788 versus241132 reference; preVGPR91 unchanged, staticVALU18105 versus18189. These are compiler statistics, not executed counts or a speedup. Both corrected16-group9-frame checks and192-group65-frame short/long checks pass bit-identically. Final32graphs contain zero native operations includingFA,2772gather elisions per sequence. Backend loaded from the intended private path verified in-child; frozen RADV/SPIRV-Tools snapshot used.192groups leaves64spare.
+
+Final ACO audit confirms selected conversion instructions change: v_cvt_f16_i16 128to0, v_cvt_i32_i16 88to56, v_perm_b32 225to60; packed-half adds32to96, and/xor each+64, packed-half multiplies unchanged88. Static selected counts across the mega, not executed counts or speed. Runtime operator witness output matches reference. Installed driver lacks encoded machine-code disassembly; final print_program listing preserved.
+
+Added as seventh correctness-qualified portfolio arm. The old idle waiter was stopped without children during GPU checks, then terminated after all tests/captures were terminal, and replaced with the seven-arm waiter. No quiet throughput result yet. No changes to installed driver, shared Claude workspace or current reference.
+
+Focused cache-warm FA GPU micro: warm six-run reference5.123ms per128FA, magic5.0925ms (0.5954% lower time), below0.7778% control drift; one magic run has lower clock. No gain established from this test. Outputs exact and128-call192-group coverage fullymega at final32graphs. Preserve in portfolio for the quiet full-model comparison; do not infer speed from smaller code or removed conversion instructions.

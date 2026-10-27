@@ -1,0 +1,251 @@
+{
+  "source": "$WORKSPACE/isolated/fa-k-slice-prefetch/isa-control.log",
+  "same_descriptor_adjacent_load_pairs": 491,
+  "different_descriptor_adjacent_load_pairs": 41,
+  "different_descriptor_pairs_in_dot4_blocks": 0,
+  "different_descriptor_next_load_pairs_within16_listing_instructions": 181,
+  "window_pairs_in_dot4_blocks": 6,
+  "examples": [
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17523,
+      "second_descriptor_temp": 17528,
+      "physical_descriptor_registers": [
+        "56-59",
+        "60-63"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17528,
+      "second_descriptor_temp": 17523,
+      "physical_descriptor_registers": [
+        "60-63",
+        "56-59"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17523,
+      "second_descriptor_temp": 17528,
+      "physical_descriptor_registers": [
+        "56-59",
+        "60-63"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17528,
+      "second_descriptor_temp": 17523,
+      "physical_descriptor_registers": [
+        "60-63",
+        "56-59"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17523,
+      "second_descriptor_temp": 17528,
+      "physical_descriptor_registers": [
+        "56-59",
+        "60-63"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17528,
+      "second_descriptor_temp": 17523,
+      "physical_descriptor_registers": [
+        "60-63",
+        "56-59"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17523,
+      "second_descriptor_temp": 17528,
+      "physical_descriptor_registers": [
+        "56-59",
+        "60-63"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17528,
+      "second_descriptor_temp": 17523,
+      "physical_descriptor_registers": [
+        "60-63",
+        "56-59"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17523,
+      "second_descriptor_temp": 17528,
+      "physical_descriptor_registers": [
+        "56-59",
+        "60-63"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17528,
+      "second_descriptor_temp": 17523,
+      "physical_descriptor_registers": [
+        "60-63",
+        "56-59"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17523,
+      "second_descriptor_temp": 17528,
+      "physical_descriptor_registers": [
+        "56-59",
+        "60-63"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17528,
+      "second_descriptor_temp": 17523,
+      "physical_descriptor_registers": [
+        "60-63",
+        "56-59"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17523,
+      "second_descriptor_temp": 17528,
+      "physical_descriptor_registers": [
+        "56-59",
+        "60-63"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17528,
+      "second_descriptor_temp": 17523,
+      "physical_descriptor_registers": [
+        "60-63",
+        "56-59"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17523,
+      "second_descriptor_temp": 17528,
+      "physical_descriptor_registers": [
+        "56-59",
+        "60-63"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17528,
+      "second_descriptor_temp": 17523,
+      "physical_descriptor_registers": [
+        "60-63",
+        "56-59"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17523,
+      "second_descriptor_temp": 17528,
+      "physical_descriptor_registers": [
+        "56-59",
+        "60-63"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17528,
+      "second_descriptor_temp": 17523,
+      "physical_descriptor_registers": [
+        "60-63",
+        "56-59"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17523,
+      "second_descriptor_temp": 17528,
+      "physical_descriptor_registers": [
+        "56-59",
+        "60-63"
+      ],
+      "block_contains_integer_dot4": false
+    },
+    {
+      "block": "BB3953",
+      "first_opcode": "buffer_load_dword",
+      "second_opcode": "buffer_load_dword",
+      "first_descriptor_temp": 17528,
+      "second_descriptor_temp": 17523,
+      "physical_descriptor_registers": [
+        "60-63",
+        "56-59"
+      ],
+      "block_contains_integer_dot4": false
+    }
+  ],
+  "scope": "Static adjacent MUBUF load pairs in installed-driver final ACO listing. Candidate dependency/physical-register hazards are not re-proven here; compiler retains original hazard machinery. Not executed counts, not total window-scheduling opportunity, not a speed claim. Private driver source baseline differs from installed LICM, so its own listing must be checked after compilation."
+}
