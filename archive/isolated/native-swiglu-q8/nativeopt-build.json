@@ -1,0 +1,16 @@
+{
+  "commands": [
+    [
+      "glslc",
+      "-fshader-stage=compute",
+      "--target-env=vulkan1.2",
+      "-O",
+      "isolated/native-swiglu-q8/fused-scalar.comp",
+      "-o",
+      "isolated/native-swiglu-q8/fused-nativeopt.comp.spv"
+    ]
+  ],
+  "source_sha256": "b8027ffd44ac588896228800d57d436429ceb224008d059c5c213873f588010c",
+  "spirv_sha256": "2612deb5fac79131d72ad6305658e8529a422a1ba1af7b1643d76fb81949273c",
+  "scope": "Match native glslc -O pipeline; runtime tests pending"
+}

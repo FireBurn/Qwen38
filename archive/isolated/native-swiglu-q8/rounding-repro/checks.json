@@ -1,0 +1,16 @@
+[
+  {
+    "arm": "unoptimized",
+    "returncode": 2,
+    "packed_mismatch": true,
+    "exact_cases": 0,
+    "scope": "GPU quantization threshold regression. No performance claim."
+  },
+  {
+    "arm": "nativeopt",
+    "returncode": 0,
+    "packed_mismatch": false,
+    "exact_cases": 2,
+    "scope": "GPU quantization threshold regression. No performance claim."
+  }
+]

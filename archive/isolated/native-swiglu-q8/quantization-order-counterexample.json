@@ -1,0 +1,11 @@
+{
+  "scope": "CPU FP32 arithmetic illustration only; GPU validation is separate. np.rint ties-even illustrates a threshold crossing; GLSL Round tie choice is implementation dependent.",
+  "values": {
+    "amax": 19.534229278564453,
+    "value": 3.4607887268066406,
+    "unoptimized_inv": 6.501408576965332,
+    "native_optimized_inv": 6.501408100128174,
+    "unoptimized_rounded": 23.0,
+    "native_optimized_rounded": 22.0
+  }
+}

@@ -7283,6 +7283,126 @@
       "export_sha256": "0417fcc515f2a0a1d023f3592a9b4dd5f446645a8ee352e33d56d48360b2dc3f",
       "bytes": 2361,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/NATIVE-FUSION.md",
+      "path": "archive/isolated/native-swiglu-q8/NATIVE-FUSION.md",
+      "source_sha256": "55415b446431c25881229ea4cb6f442df55d3bd58265b07f083a7c04bad3e3b3",
+      "export_sha256": "55415b446431c25881229ea4cb6f442df55d3bd58265b07f083a7c04bad3e3b3",
+      "bytes": 3779,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/rounding-repro/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/rounding-repro/checks.json",
+      "source_sha256": "5b78c948830966e5d40ef306ffaed5b7797da3361c5f3de0054e10d8affe5b84",
+      "export_sha256": "5b78c948830966e5d40ef306ffaed5b7797da3361c5f3de0054e10d8affe5b84",
+      "bytes": 368,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/quantization-order-counterexample.json",
+      "path": "archive/isolated/native-swiglu-q8/quantization-order-counterexample.json",
+      "source_sha256": "c6dee4cf7b06074c4ebdd2f4f8bc373ed016fa79350aef67b9a0a95b86fca447",
+      "export_sha256": "c6dee4cf7b06074c4ebdd2f4f8bc373ed016fa79350aef67b9a0a95b86fca447",
+      "bytes": 430,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/operator-nativeopt16/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/operator-nativeopt16/checks.json",
+      "source_sha256": "9f70cd0013a261ec305f69abac3498bc0b3f4433621db8afb7aefb6b8b792903",
+      "export_sha256": "9f70cd0013a261ec305f69abac3498bc0b3f4433621db8afb7aefb6b8b792903",
+      "bytes": 2697,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-nativeopt16/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/model-nativeopt16/checks.json",
+      "source_sha256": "07b5ac4a767be69fc8af5274138bf2021f5d139bcda10999c201677f2cafa275",
+      "export_sha256": "07b5ac4a767be69fc8af5274138bf2021f5d139bcda10999c201677f2cafa275",
+      "bytes": 2361,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-nativeopt16/comparison.json",
+      "path": "archive/isolated/native-swiglu-q8/model-nativeopt16/comparison.json",
+      "source_sha256": "15b26a16a163ed118dcba9cc11cd6c2154cd531d9bacfd8838a0662ed6ceee5e",
+      "export_sha256": "15b26a16a163ed118dcba9cc11cd6c2154cd531d9bacfd8838a0662ed6ceee5e",
+      "bytes": 311,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-nativeopt136/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/model-nativeopt136/checks.json",
+      "source_sha256": "17e376570b718a419ec3534cba564b97552ac652fab448e10a07a42975c343d2",
+      "export_sha256": "17e376570b718a419ec3534cba564b97552ac652fab448e10a07a42975c343d2",
+      "bytes": 2364,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-nativeopt136/comparison.json",
+      "path": "archive/isolated/native-swiglu-q8/model-nativeopt136/comparison.json",
+      "source_sha256": "15b26a16a163ed118dcba9cc11cd6c2154cd531d9bacfd8838a0662ed6ceee5e",
+      "export_sha256": "15b26a16a163ed118dcba9cc11cd6c2154cd531d9bacfd8838a0662ed6ceee5e",
+      "bytes": 311,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model16/numerical-diff.json",
+      "path": "archive/isolated/native-swiglu-q8/model16/numerical-diff.json",
+      "source_sha256": "53638dc70e23820bb13dfe0f4aac3c14e8002d024f93b3cfdaacabde2f3e4076",
+      "export_sha256": "53638dc70e23820bb13dfe0f4aac3c14e8002d024f93b3cfdaacabde2f3e4076",
+      "bytes": 19301,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-scalar16/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/model-scalar16/checks.json",
+      "source_sha256": "0417fcc515f2a0a1d023f3592a9b4dd5f446645a8ee352e33d56d48360b2dc3f",
+      "export_sha256": "0417fcc515f2a0a1d023f3592a9b4dd5f446645a8ee352e33d56d48360b2dc3f",
+      "bytes": 2361,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-shadow16/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/model-shadow16/checks.json",
+      "source_sha256": "0417fcc515f2a0a1d023f3592a9b4dd5f446645a8ee352e33d56d48360b2dc3f",
+      "export_sha256": "0417fcc515f2a0a1d023f3592a9b4dd5f446645a8ee352e33d56d48360b2dc3f",
+      "bytes": 2361,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-shadow-quant16/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/model-shadow-quant16/checks.json",
+      "source_sha256": "5aed7c534b674a49de1e9f881b9621bf4535525b5b8b484779767517410e3f57",
+      "export_sha256": "5aed7c534b674a49de1e9f881b9621bf4535525b5b8b484779767517410e3f57",
+      "bytes": 1569,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/nativeopt-timing/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/nativeopt-timing/checks.json",
+      "source_sha256": "98d568f362c035c793be40b46c98c730a63eb9593e3d01593ede65d75db0d4cd",
+      "export_sha256": "98d568f362c035c793be40b46c98c730a63eb9593e3d01593ede65d75db0d4cd",
+      "bytes": 4259,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/nativeopt-build.json",
+      "path": "archive/isolated/native-swiglu-q8/nativeopt-build.json",
+      "source_sha256": "92fa44c3b423a21760ab1ace748988429d31bdd33e71c53a51352447f665f755",
+      "export_sha256": "92fa44c3b423a21760ab1ace748988429d31bdd33e71c53a51352447f665f755",
+      "bytes": 492,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/superseded-timing-waiter.json",
+      "path": "archive/isolated/native-swiglu-q8/superseded-timing-waiter.json",
+      "source_sha256": "e04b6a9330ac73791388ad24a2f4e2405ed12950cd05d4c6852c83bc4bfc85cf",
+      "export_sha256": "e04b6a9330ac73791388ad24a2f4e2405ed12950cd05d4c6852c83bc4bfc85cf",
+      "bytes": 235,
+      "sanitized": false
     }
   ]
 }

@@ -9,6 +9,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 - [Results and conclusions](docs/RESULTS.md): measured gains, losses and inconclusive results.
 - [Experiment catalog](docs/EXPERIMENTS.md): the main lines of investigation.
 - [Smaller fusions and shader roadmap](docs/ROADMAP.md): what the evidence suggests trying next.
+- [Native fusion rounding diagnosis and corrected audit](docs/NATIVE-FUSION.md).
 - [Measurement and reproduction requirements](docs/METHODOLOGY.md).
 - [Transfer-copy correctness investigation](docs/COPY-BUG.md).
 - [Research and upstream references](docs/REFERENCES.md).

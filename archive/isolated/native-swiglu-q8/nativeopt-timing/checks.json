@@ -1,0 +1,161 @@
+{
+  "cases": [
+    {
+      "n": 17408,
+      "phase": 0,
+      "floating_bytes": 69632,
+      "packed_bytes": 19584
+    },
+    {
+      "n": 17408,
+      "phase": 1,
+      "floating_bytes": 69632,
+      "packed_bytes": 19584
+    },
+    {
+      "n": 17408,
+      "phase": 2,
+      "floating_bytes": 69632,
+      "packed_bytes": 19584
+    },
+    {
+      "n": 17408,
+      "phase": 3,
+      "floating_bytes": 69632,
+      "packed_bytes": 19584
+    },
+    {
+      "n": 17408,
+      "phase": 4,
+      "floating_bytes": 69632,
+      "packed_bytes": 19584
+    },
+    {
+      "n": 17408,
+      "phase": 5,
+      "floating_bytes": 69632,
+      "packed_bytes": 19584
+    },
+    {
+      "n": 34816,
+      "phase": 0,
+      "floating_bytes": 139264,
+      "packed_bytes": 39168
+    },
+    {
+      "n": 34816,
+      "phase": 1,
+      "floating_bytes": 139264,
+      "packed_bytes": 39168
+    },
+    {
+      "n": 34816,
+      "phase": 2,
+      "floating_bytes": 139264,
+      "packed_bytes": 39168
+    },
+    {
+      "n": 34816,
+      "phase": 3,
+      "floating_bytes": 139264,
+      "packed_bytes": 39168
+    },
+    {
+      "n": 34816,
+      "phase": 4,
+      "floating_bytes": 139264,
+      "packed_bytes": 39168
+    },
+    {
+      "n": 34816,
+      "phase": 5,
+      "floating_bytes": 139264,
+      "packed_bytes": 39168
+    }
+  ],
+  "float_and_packed_bit_exact": true,
+  "guards_pass": true,
+  "groups": 16,
+  "source": "StandaloneVulkancontrols, scalarGLUexpressionandmechanicallyderivedquantizer. Notfullnativebackendintegration. Mappedcoherentdevice-localbuffers; no transfercopy.",
+  "stats_lines": [
+    "STAT glu Driver pipeline hash 3012385783149387456",
+    "STAT glu SGPRs 108",
+    "STAT glu VGPRs 12",
+    "STAT glu Spilled SGPRs 0",
+    "STAT glu Spilled VGPRs 0",
+    "STAT glu Code size 168",
+    "STAT glu LDS size 0",
+    "STAT glu Scratch size 0",
+    "STAT glu Subgroups per SIMD 32",
+    "STAT glu Combined inputs 0",
+    "STAT glu Combined outputs 0",
+    "STAT glu Hash 1247628134",
+    "STAT glu Instructions 30",
+    "STAT glu Copies 5",
+    "STAT glu Branches 2",
+    "STAT glu Latency 3344",
+    "STAT glu Inverse Throughput 209",
+    "STAT glu VMEM Clause 3",
+    "STAT glu SMEM Clause 1",
+    "STAT glu Pre-Sched SGPRs 13",
+    "STAT glu Pre-Sched VGPRs 5",
+    "STAT glu VALU 10",
+    "STAT glu SALU 5",
+    "STAT glu VMEM 3",
+    "STAT glu SMEM 2",
+    "STAT glu VOPD 0",
+    "STAT quant Driver pipeline hash 4577464946500640449",
+    "STAT quant SGPRs 108",
+    "STAT quant VGPRs 48",
+    "STAT quant Spilled SGPRs 0",
+    "STAT quant Spilled VGPRs 0",
+    "STAT quant Code size 624",
+    "STAT quant LDS size 0",
+    "STAT quant Scratch size 0",
+    "STAT quant Subgroups per SIMD 32",
+    "STAT quant Combined inputs 0",
+    "STAT quant Combined outputs 0",
+    "STAT quant Hash 226193439",
+    "STAT quant Instructions 115",
+    "STAT quant Copies 18",
+    "STAT quant Branches 5",
+    "STAT quant Latency 3018",
+    "STAT quant Inverse Throughput 603",
+    "STAT quant VMEM Clause 3",
+    "STAT quant SMEM Clause 2",
+    "STAT quant Pre-Sched SGPRs 16",
+    "STAT quant Pre-Sched VGPRs 13",
+    "STAT quant VALU 57",
+    "STAT quant SALU 21",
+    "STAT quant VMEM 3",
+    "STAT quant SMEM 2",
+    "STAT quant VOPD 0",
+    "STAT fused.comp Driver pipeline hash 17967039590421522684",
+    "STAT fused.comp SGPRs 108",
+    "STAT fused.comp VGPRs 48",
+    "STAT fused.comp Spilled SGPRs 0",
+    "STAT fused.comp Spilled VGPRs 0",
+    "STAT fused.comp Code size 820",
+    "STAT fused.comp LDS size 0",
+    "STAT fused.comp Scratch size 0",
+    "STAT fused.comp Subgroups per SIMD 32",
+    "STAT fused.comp Combined inputs 0",
+    "STAT fused.comp Combined outputs 0",
+    "STAT fused.comp Hash 862297437",
+    "STAT fused.comp Instructions 154",
+    "STAT fused.comp Copies 23",
+    "STAT fused.comp Branches 5",
+    "STAT fused.comp Latency 3493",
+    "STAT fused.comp Inverse Throughput 765",
+    "STAT fused.comp VMEM Clause 5",
+    "STAT fused.comp SMEM Clause 2",
+    "STAT fused.comp Pre-Sched SGPRs 19",
+    "STAT fused.comp Pre-Sched VGPRs 14",
+    "STAT fused.comp VALU 85",
+    "STAT fused.comp SALU 22",
+    "STAT fused.comp VMEM 5",
+    "STAT fused.comp SMEM 3",
+    "STAT fused.comp VOPD 0"
+  ],
+  "performance_claim": false
+}
