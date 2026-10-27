@@ -28,8 +28,17 @@ Evidence: [checks](../archive/isolated/mtp-quant-schedule-timing/stream-bench/20
 ## Still pending
 
 - Remaining quiet model and FA comparisons were not executed by this portfolio after its microbenchmark validity failure.
-- Candidate512-token comparison queued after that portfolio.
+- The follow-up candidate512-token comparison stopped at its first native arm because CPU load invalidated the measurement; no paired result was obtained.
 - A general fix and broader qualification for the four-dword copy failure.
 - Current production`.27` comparison before adoption.
 
 Queues continue independently of publication; future results are not implied by this snapshot.
+
+
+## Native-path SwiGLU→Q8 prototype follow-up
+
+This is a separate, default-off native-backend prototype, not the already-qualified mega-kernel fusion above.
+
+- Focused native-versus-fused C1/C2 tests pass byte-for-byte for all 64 floating SwiGLU and downstream Q4/Q5 matrix outputs across four input cases. The fused pipeline uses 48 VGPRs, zero LDS and zero scratch. [Operator evidence](../archive/isolated/native-swiglu-q8/operator-host16/checks.json).
+- The 16-workgroup model test preserves generated tokens and counters (34 predicted, 19 drafted, 15 accepted), but **fails the complete byte audit**. Off SHA-256 is `873abacccc270bc1a0669f62ac831dcc14ace252db9f60bbc0006a7c7b84dec2`; both fused variants produce `933f5338802427c5e26fdb7c10621c37f78bea4c1c166a57bfd9df9edbbe2145`. [Model evidence](../archive/isolated/native-swiglu-q8/model16/checks.json).
+- The model mismatch remains unexplained. The prototype is unqualified and no throughput improvement is claimed. Component equality is insufficient to promote it.
