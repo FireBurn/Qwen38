@@ -46,3 +46,7 @@ This is a separate, default-off native-backend prototype, not the already-qualif
 ## Native fusion diagnosis resolved
 
 The earlier failure above is retained as history. Matching native’s `glslc -O` compilation fixes the quantization rounding discrepancy. Focused operators and full captured model audits now pass at 16 and 136 workgroups. No speedup is established; quiet timing and current-production comparisons remain pending. See the [diagnosis and evidence](NATIVE-FUSION.md).
+
+## Metadata-node fusion coverage
+
+An opt-in planner extension increases target coverage from 14 to 56 pairs per graph. Captured model audits pass at 16 and 136 workgroups with and without the bounded head. No throughput result yet. See the [expanded coverage report](NATIVE-FUSION.md#expanded-coverage-across-metadata-nodes).

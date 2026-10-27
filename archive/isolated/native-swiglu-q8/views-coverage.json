@@ -1,0 +1,58 @@
+[
+  {
+    "groups": 16,
+    "mode": "fused",
+    "fused_pairs_per_target_graph": 56,
+    "target_graphs": 20,
+    "fused_pairs_per_draft_graph": 1,
+    "draft_graphs": 39,
+    "total_fused_pairs": 1159,
+    "graph_gap_histogram": {
+      "2": 840,
+      "1": 319
+    },
+    "scope": "Captured32-requested-token model; no timing or general graph correctness claim."
+  },
+  {
+    "groups": 16,
+    "mode": "fused_bounded",
+    "fused_pairs_per_target_graph": 56,
+    "target_graphs": 20,
+    "fused_pairs_per_draft_graph": 1,
+    "draft_graphs": 39,
+    "total_fused_pairs": 1159,
+    "graph_gap_histogram": {
+      "2": 840,
+      "1": 319
+    },
+    "scope": "Captured32-requested-token model; no timing or general graph correctness claim."
+  },
+  {
+    "groups": 136,
+    "mode": "fused",
+    "fused_pairs_per_target_graph": 56,
+    "target_graphs": 20,
+    "fused_pairs_per_draft_graph": 1,
+    "draft_graphs": 39,
+    "total_fused_pairs": 1159,
+    "graph_gap_histogram": {
+      "2": 840,
+      "1": 319
+    },
+    "scope": "Captured32-requested-token model; no timing or general graph correctness claim."
+  },
+  {
+    "groups": 136,
+    "mode": "fused_bounded",
+    "fused_pairs_per_target_graph": 56,
+    "target_graphs": 20,
+    "fused_pairs_per_draft_graph": 1,
+    "draft_graphs": 39,
+    "total_fused_pairs": 1159,
+    "graph_gap_histogram": {
+      "2": 840,
+      "1": 319
+    },
+    "scope": "Captured32-requested-token model; no timing or general graph correctness claim."
+  }
+]

@@ -33,3 +33,8 @@ The tested Vulkan shaders are generated through **ACO**. LLVM/clang may build th
 Dynamic VGPR, wave32, instruction prefetch and bank-hint proposals were investigated. Compiler acceptance or an opcode definition was not treated as runtime support or a measured gain. The current wave64 kernel cannot simply be changed to wave32: subgroup counts, cooperative-matrix mapping, reductions and shared ownership must be redesigned and requalified.
 
 No contribution was made to Mesa GitLab. The private experiments are not upstream patches or endorsements.
+
+## Additional upstream leads checked October 27
+
+- [CUDA MoE gate/up plus GLU MMQ, PR 31188](https://github.com/ggml-org/llama.cpp/pull/31188): extends dense fusion from PR 29948 to expert FFNs. Its published result concerns NVIDIA prompt processing, so it is design evidence rather than an R9700 dense C1/C2 decode result. Our older gate/up fusion did not establish a model gain.
+- [RDNA4 Q3_K discussion 22663](https://github.com/ggml-org/llama.cpp/discussions/22663): reports a Q3 efficiency gap, principally on HIP, with a later Vulkan comparison. This supports investigating quant-specific loading and unpacking; it does not establish that this Vulkan build has the same bottleneck. The current model-weighted mix and captured native shaders remain the appropriate local tests.
