@@ -1,6 +1,6 @@
 # Exported experiment archive
 
-The manifest currently lists **934 archived files**, including the root notebooks. The manifest is the authoritative file inventory.
+The manifest currently lists **946 archived files**, including the root notebooks. The manifest is the authoritative file inventory.
 
 Historical notes can describe unfinished or superseded work. JSON artifacts establish only their stated scope. Missing raw logs or executables are not implied to be present.
 

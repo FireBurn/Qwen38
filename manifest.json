@@ -7475,6 +7475,102 @@
       "export_sha256": "f9eeca16ce878f9c4bd1176e9897cc94327940b36dbbfbd44bc37e94d1612377",
       "bytes": 140,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/COALESCE-FUSION.md",
+      "path": "archive/isolated/native-swiglu-q8/COALESCE-FUSION.md",
+      "source_sha256": "d372d436fb1cecfc7fe1c87b20190cba2880d48e2acad9a355188c1aa2ce9909",
+      "export_sha256": "d372d436fb1cecfc7fe1c87b20190cba2880d48e2acad9a355188c1aa2ce9909",
+      "bytes": 3468,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/coalesce-host/source-proof.json",
+      "path": "archive/isolated/native-swiglu-q8/coalesce-host/source-proof.json",
+      "source_sha256": "349a933f7b110bc0d1aa375cac272505a3645a28a8923badeb03a077d2237312",
+      "export_sha256": "349a933f7b110bc0d1aa375cac272505a3645a28a8923badeb03a077d2237312",
+      "bytes": 424,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/operator-coalesce16/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/operator-coalesce16/checks.json",
+      "source_sha256": "97eb2e1e1073f22b71ec42d7d07ca442803bedfe98f9d04383898de1d381b0aa",
+      "export_sha256": "97eb2e1e1073f22b71ec42d7d07ca442803bedfe98f9d04383898de1d381b0aa",
+      "bytes": 5173,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/operator-four-quant16/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/operator-four-quant16/checks.json",
+      "source_sha256": "f90bc2021ef8e84a18370432613d0efff2c55cfc021831a739e062d669956691",
+      "export_sha256": "f90bc2021ef8e84a18370432613d0efff2c55cfc021831a739e062d669956691",
+      "bytes": 5238,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-coalesce16/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/model-coalesce16/checks.json",
+      "source_sha256": "e222d1d6d39ea65262eec7682e0055582a2ecdcaaf23202285fcb65a239846fb",
+      "export_sha256": "e222d1d6d39ea65262eec7682e0055582a2ecdcaaf23202285fcb65a239846fb",
+      "bytes": 3155,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-coalesce16/comparison.json",
+      "path": "archive/isolated/native-swiglu-q8/model-coalesce16/comparison.json",
+      "source_sha256": "15b26a16a163ed118dcba9cc11cd6c2154cd531d9bacfd8838a0662ed6ceee5e",
+      "export_sha256": "15b26a16a163ed118dcba9cc11cd6c2154cd531d9bacfd8838a0662ed6ceee5e",
+      "bytes": 311,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-coalesce16/dispatch-barrier-proof.json",
+      "path": "archive/isolated/native-swiglu-q8/model-coalesce16/dispatch-barrier-proof.json",
+      "source_sha256": "7bc4bded52b89ed859e9f48b4328ec76c72f55085701ba1af48a6367d7480b92",
+      "export_sha256": "7bc4bded52b89ed859e9f48b4328ec76c72f55085701ba1af48a6367d7480b92",
+      "bytes": 479,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-coalesce136/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/model-coalesce136/checks.json",
+      "source_sha256": "97286d3588f7ab0540f2734c89074df9429de45f3e0b934fcc83e9325a80b437",
+      "export_sha256": "97286d3588f7ab0540f2734c89074df9429de45f3e0b934fcc83e9325a80b437",
+      "bytes": 3159,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-coalesce136/comparison.json",
+      "path": "archive/isolated/native-swiglu-q8/model-coalesce136/comparison.json",
+      "source_sha256": "15b26a16a163ed118dcba9cc11cd6c2154cd531d9bacfd8838a0662ed6ceee5e",
+      "export_sha256": "15b26a16a163ed118dcba9cc11cd6c2154cd531d9bacfd8838a0662ed6ceee5e",
+      "bytes": 311,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/model-coalesce136/dispatch-barrier-proof.json",
+      "path": "archive/isolated/native-swiglu-q8/model-coalesce136/dispatch-barrier-proof.json",
+      "source_sha256": "7d90a646d07a8f641ac982ecf4ace0ae2818ea00e39f294db73b2c026eb362cd",
+      "export_sha256": "7d90a646d07a8f641ac982ecf4ace0ae2818ea00e39f294db73b2c026eb362cd",
+      "bytes": 397,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/compressed-completed-evidence.json",
+      "path": "archive/isolated/native-swiglu-q8/compressed-completed-evidence.json",
+      "source_sha256": "4f881785bdda748c84ea11134ed97661969b11163cda926619d4e2f2554fcb44",
+      "export_sha256": "4f881785bdda748c84ea11134ed97661969b11163cda926619d4e2f2554fcb44",
+      "bytes": 4367,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-swiglu-q8/superseded-full512-followup.json",
+      "path": "archive/isolated/native-swiglu-q8/superseded-full512-followup.json",
+      "source_sha256": "ca25ac52dfcdd93ab71e39ef2203d56a5d10359ac47e2f6274a25249de224a15",
+      "export_sha256": "ca25ac52dfcdd93ab71e39ef2203d56a5d10359ac47e2f6274a25249de224a15",
+      "bytes": 264,
+      "sanitized": false
     }
   ]
 }

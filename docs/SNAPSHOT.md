@@ -52,3 +52,7 @@ The earlier failure above is retained as history. Matching native’s `glslc -O`
 An opt-in planner extension increases target coverage from 14 to 56 pairs per graph. Captured model audits pass at 16 and 136 workgroups with and without the bounded head. No throughput result yet. See the [expanded coverage report](NATIVE-FUSION.md#expanded-coverage-across-metadata-nodes).
 
 The expanded-fusion 512-token off/adjacent/expanded comparison is now queued after the standalone component test. Neither has a timing result yet; the follow-up requires a complete valid predecessor result before starting.
+
+## Deferred-only barrier follow-up
+
+The guarded barrier candidate passes focused four-quant tests and captured model audits at 16/136 groups. It removes 1159 recorded barriers with identical normalized dispatches; physical GPU savings remain unmeasured. The serial512 queue is updated to four matched-host modes including this candidate. See the [fusion report](NATIVE-FUSION.md#conditional-barrier-coalescing-and-planner-overhead).
