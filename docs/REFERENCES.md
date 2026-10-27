@@ -21,6 +21,11 @@ These are mechanisms and design references, not measured speedups on this R9700 
 | [AOTriton 0.14.2b](https://github.com/ROCm/aotriton/releases/tag/0.14.2b) | gfx1201 attention scheduling/reference implementations | Not a persistent Q8-KV Vulkan replacement |
 | [T-MAC](https://github.com/microsoft/T-MAC) | Activation-dependent low-bit LUT methods | CPU/NPU-oriented; GGUF block scales and GPU register tables complicate reuse |
 
+## Additional upstream notebooks
+
+- [RDNA lab](https://github.com/MrLordCat/llama.cpp-rdna-lab): external D138 and performance reports are referenced rather than republished; the archive retains our local review.
+- [RDNA fetch-ahead proposal](https://github.com/stew675/llama-cpp-rdna-boosts/pull/195): external patch documentation informed the independent K-slice experiment. Its complete upstream README is not republished.
+
 ## LLVM, ROCm and ACO
 
 The tested Vulkan shaders are generated through **ACO**. LLVM/clang may build the host driver and application, while HIP/HSA experiments use a different GPU compiler path. A newer host clang, LTO setting or ROCm compiler fix does not automatically change ACO shader code.

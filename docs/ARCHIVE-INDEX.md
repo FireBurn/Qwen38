@@ -1,6 +1,6 @@
 # Exported experiment archive
 
-This export contains **911 files across 231 experiment directories**, plus the root notebooks. The manifest is the authoritative file inventory.
+This export contains **908 files across 231 experiment directories**, plus the root notebooks. The manifest is the authoritative file inventory.
 
 Historical notes can describe unfinished or superseded work. JSON artifacts establish only their stated scope. Missing raw logs or executables are not implied to be present.
 
@@ -232,7 +232,7 @@ Historical notes can describe unfinished or superseded work. JSON artifacts esta
 | `q8-two-column-f32` | [STATUS.md](../archive/isolated/q8-two-column-f32/STATUS.md) | 5 |
 | `queue-chunks` | [PLAN.md](../archive/isolated/queue-chunks/PLAN.md) | 3 |
 | `register-pressure` | [NOTES.md](../archive/isolated/register-pressure/NOTES.md) | 0 |
-| `research-refresh-20261023` | [NOTES.md](../archive/isolated/research-refresh-20261023/NOTES.md); [fetch-ahead-README.md](../archive/isolated/research-refresh-20261023/fetch-ahead-README.md); [fetch-ahead-RESOLUTION.md](../archive/isolated/research-refresh-20261023/fetch-ahead-RESOLUTION.md); [D138.md](../archive/isolated/research-refresh-20261023/rdna-lab/D138.md); [PERFORMANCE.md](../archive/isolated/research-refresh-20261023/rdna-lab/PERFORMANCE.md); [REVIEW.md](../archive/isolated/research-refresh-20261023/rdna-lab/REVIEW.md) | 1 |
+| `research-refresh-20261023` | [NOTES.md](../archive/isolated/research-refresh-20261023/NOTES.md); [fetch-ahead-RESOLUTION.md](../archive/isolated/research-refresh-20261023/fetch-ahead-RESOLUTION.md); [REVIEW.md](../archive/isolated/research-refresh-20261023/rdna-lab/REVIEW.md) | 1 |
 | `research-refresh-20261024` | [NOTES.md](../archive/isolated/research-refresh-20261024/NOTES.md) | 0 |
 | `rms-pair` | [BUNDLE-PLAN.md](../archive/isolated/rms-pair/BUNDLE-PLAN.md); [NOTES.md](../archive/isolated/rms-pair/NOTES.md) | 1 |
 | `segment-counters` | [NOTES.md](../archive/isolated/segment-counters/NOTES.md) | 0 |
