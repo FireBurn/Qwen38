@@ -8563,6 +8563,78 @@
       "export_sha256": "a5a9172f059bdd17caffa5a832e15f63e63d5c3a0d0c910d646889d98fc0a28f",
       "bytes": 2500,
       "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/STATUS.md",
+      "path": "archive/isolated/q3-pad112/STATUS.md",
+      "source_sha256": "f2feef98ad3626174ef04fdad2927ace99816e6dc2296c9f0c3b2e0ce9c80c59",
+      "export_sha256": "f2feef98ad3626174ef04fdad2927ace99816e6dc2296c9f0c3b2e0ce9c80c59",
+      "bytes": 4146,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/NEXT.md",
+      "path": "archive/isolated/q3-pad112/NEXT.md",
+      "source_sha256": "92ed6306b5b8347952e7effe459b5e89a7e89687a9d4c45bc6cde12fd2d163dd",
+      "export_sha256": "92ed6306b5b8347952e7effe459b5e89a7e89687a9d4c45bc6cde12fd2d163dd",
+      "bytes": 2155,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/build.json",
+      "path": "archive/isolated/q3-pad112/build.json",
+      "source_sha256": "35f7ce0a749d7adfcee15472eebdd8a65e15e1ce56fc73b98f6c73a396d62983",
+      "export_sha256": "3fc9904681a1804e7ceb830ce8249af57880f0f9e286a5eabd037464dc0f4ab3",
+      "bytes": 8393,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/layout-proof.json",
+      "path": "archive/isolated/q3-pad112/layout-proof.json",
+      "source_sha256": "791df658cf4bdb54a0b7797ec092884e8539fd9be7bde50751ac59f3c4345741",
+      "export_sha256": "791df658cf4bdb54a0b7797ec092884e8539fd9be7bde50751ac59f3c4345741",
+      "bytes": 573,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/probe-build.json",
+      "path": "archive/isolated/q3-pad112/probe-build.json",
+      "source_sha256": "b4ff5ed9d36f13aa50285f3c722a592de0efbae0aa67e1a7ddedd6e5aa838fc1",
+      "export_sha256": "78161d62d02639c4e9ea208dfa01793d30e32b4f44a55bc590659e9bf4413d96",
+      "bytes": 367,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/diagnostics/checks.json",
+      "path": "archive/isolated/q3-pad112/diagnostics/checks.json",
+      "source_sha256": "b209543441677c036604fed45d98443b3520e4d270c8f5deffe95b7e539f79db",
+      "export_sha256": "b209543441677c036604fed45d98443b3520e4d270c8f5deffe95b7e539f79db",
+      "bytes": 4477,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/diagnostics-attempt1-timeout/attempt.json",
+      "path": "archive/isolated/q3-pad112/diagnostics-attempt1-timeout/attempt.json",
+      "source_sha256": "c3a6bf717d71da63bba450aab410d845071815b325910e62d4bc689e539711a8",
+      "export_sha256": "c3a6bf717d71da63bba450aab410d845071815b325910e62d4bc689e539711a8",
+      "bytes": 1934,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/earlier-quiet-queue-audit.json",
+      "path": "archive/isolated/q3-pad112/earlier-quiet-queue-audit.json",
+      "source_sha256": "c12366efb196a416c9429912a26b9ff070f6001b3d28be3af50bf9ddbe34c5ab",
+      "export_sha256": "ab1cba09a25f9bde8a8c4c07b0c50996f3956628a1a483b487c3b899e4def941",
+      "bytes": 1685,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-swiglu-q8/nativeopt-timing/timing/20261028T185406Z/checks.json",
+      "path": "archive/isolated/native-swiglu-q8/nativeopt-timing/timing/20261028T185406Z/checks.json",
+      "source_sha256": "443c9d424bf1dcbcb415d9031016ca2695747410611017509e3a6868b1d459b3",
+      "export_sha256": "443c9d424bf1dcbcb415d9031016ca2695747410611017509e3a6868b1d459b3",
+      "bytes": 2554,
+      "sanitized": false
     }
   ]
 }

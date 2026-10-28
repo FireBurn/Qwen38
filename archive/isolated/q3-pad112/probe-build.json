@@ -1,0 +1,13 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "<workspace>/isolated/q3-pad112/probe.cpp",
+    "-lvulkan",
+    "-o",
+    "<workspace>/isolated/q3-pad112/operator_bench"
+  ],
+  "source_sha256": "4b6ed2a691aca402214e3627bba2d97c43c5b4cda3c048c7f2bec22cbf76434a",
+  "binary_sha256": "cbddfa4ada79323321e6a637b0c401877cdaf19d245e47b1e9beb7f2b297f018"
+}

@@ -1,0 +1,28 @@
+{
+  "pid": 1870363,
+  "terminal": "Own client terminated after180second harness timeout",
+  "exact_dispatches_completed": 693,
+  "last_progress": "EXACT k=17408 rows=4 cols=2 phase=2 mode=2 groups=2",
+  "gpu_fence_failure_printed": false,
+  "current_target_driver_fault_lines": [
+    "[ 5152.294815] amdgpu 0000:07:00.0: [gfxhub] page fault (src_id:0 ring:24 vmid:6 pasid:623)",
+    "[ 5152.294823] amdgpu 0000:07:00.0: GCVM_L2_PROTECTION_FAULT_STATUS:0x00601030",
+    "[ 5152.294824] amdgpu 0000:07:00.0: \t Faulty UTCL2 client ID: TCP (0x8)",
+    "[ 5152.294824] amdgpu 0000:07:00.0: \t MORE_FAULTS: 0x0",
+    "[ 5152.294826] amdgpu 0000:07:00.0: \t PERMISSION_FAULTS: 0x3",
+    "[ 5155.327833] amdgpu 0000:07:00.0: ring comp_1.0.1 timeout, signaled seq=58908, emitted seq=58909",
+    "[ 5157.328094] amdgpu 0000:07:00.0: MES(0) failed to respond to msg=SUSPEND fence_wait_ret=408804 status=0x81000602_0",
+    "[ 5157.334081] amdgpu 0000:07:00.0: [gfxhub] page fault (src_id:0 ring:24 vmid:6 pasid:623)",
+    "[ 5157.334112] amdgpu 0000:07:00.0: GCVM_L2_PROTECTION_FAULT_STATUS:0x00601030",
+    "[ 5157.334114] amdgpu 0000:07:00.0: \t Faulty UTCL2 client ID: TCP (0x8)",
+    "[ 5157.334115] amdgpu 0000:07:00.0: \t MORE_FAULTS: 0x0",
+    "[ 5157.334117] amdgpu 0000:07:00.0: \t PERMISSION_FAULTS: 0x3",
+    "[ 5160.384205] amdgpu 0000:07:00.0: ring comp_1.0.1 timeout, signaled seq=58909, emitted seq=58910",
+    "[ 5162.384419] amdgpu 0000:07:00.0: MES(0) failed to respond to msg=SUSPEND fence_wait_ret=570462 status=0x81000602_0"
+  ],
+  "classification": "Incompletequalification. CPUoracle readsmappedVRAMbytewise; replacewithhostcopy. No kerneloutputmismatchorbuffer failureprinted.",
+  "preserved_source_sha256": "292d165be6c1bb20249a017fc52f9d1ab972d78f72bb14c8864ad86d36b9e737",
+  "attempt_start_approx_uptime_seconds": 92316.44828128815,
+  "target_driver_faults_since_attempt_start": [],
+  "historical_faults_only": true
+}

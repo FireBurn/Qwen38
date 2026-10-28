@@ -1,0 +1,39 @@
+# Q3_K 112-byte aligned layout feasibility
+
+This is a new weight-layout experiment, not a model integration or speed result. Original GGUF weights and all production/Claude sources are unchanged.
+
+## Variants and proof
+
+NativeQ3blockstride110 forces2-byte-alignedloads;repackscombinehalfwordsinto32-bitwords. Preserveall110bytes andappend2zero paddingbytes soeachblockstride112 supportswordalignment. Cost+1.818%Q3weightstorage,not+1.818%entiremodelstorage. Actualmodelcacheallocation/preprocessingcost remains unimplemented.
+
+Threevariants: native110;pad16(theexistinghalfwordsourcewithpaddingonly);pad32(paddingplusdirectwordloadsource). Threeoriginalreductionmodescompiled/validatedforeach. Allnativecontrolsbyte-identicaltorecordedfrozenQ3modules;candidateSPIR-VArrayStride112verified. NativeFP32arithmetic unchanged. prepare.py snapshotsliteralincludeclosureintoprivatevariantdirectories;nooriginalfileedits.
+
+CPUproof4096randomblocksroundtripallbytes,262144packedwordcomparisons acrossallsubblocks/halves;metadataoffsetsunchanged(hmask0,qs32,scales96,d108,pad110). layout-proof.json. No requantization or quality reduction.
+
+## Capped GPU feasibility
+
+Finalprobe720dispatchchecks: native/pad16/pad32 × C1/C2 × K256/512/1024/4096/17408 × rows1/2/3/4/7/47 ×4patterns.240nativecontrols and480padded/nativebytecomparisons. EverydispatchalsoindependentscalarCPUoracle-tolerancechecked,zero-caseexact,allinputbytesunchanged,256byteguardsintact. Fixed64threads/wave64,NUM_ROWS=3,max16physicalworkgroups,NoShmemsubgroupreduction. Normalexit,ACOIR/RAvalidationpassed,no newtargetdrivererrors.
+
+Thisthree-rowgeometryisadiagnosticconfiguration,not thecurrentproductionone-/two-rowconfiguration. Otherreductionmodesbuildvalidatedonly. No shader isinstalledorusedbymodelinference.
+
+|variant|C1instructions|C1VMEM|C2instructions|C2VMEM|
+|---|---:|---:|---:|---:|
+|native110|5717|328|8974|509|
+|pad16|4969|244|7904|383|
+|pad32|4969|244|7904|383|
+
+C1VGPR48,C2VGPR60 unchanged;zeroLDS/scratch/spills. Pad16/pad32haveidenticalreportedcompiledshaderhashes/code/resourcecounts for eachcolumnsetting. Thuspaddingaloneletsthecompilercoalesceexistinghalfwordloads;explicitwordrewriteprovidesnoadditionalobservedcodegensaving. Preferthesimplerpadding-onlyprototypeforperformanceinvestigation. Thesearecompilerstaticcounts,not measuredspeedorbandwidth. Loadinstructioncountdropsabout25%,butactualstoragebytesincrease.
+
+## Incomplete first attempt and correction
+
+Attempt1completed693exactdispatchesbefore180secondharnesstimeout. TheCPUscalaroraclewasdereferencingmappeddevice-localVRAMbyte-by-byte. Preserved diagnostics-attempt1-timeout/input-probe.cpp,input-operator_bench,probe.log,attempt.json. No outputmismatch,guardfailureorGPUfencefailureprinted. Alltargetfaultlinesinthesystemlogwerehistorical(uptime~5152seconds);noneoccurredduringthisattempt(uptime~92kseconds). Do not call theincompletesetqualification.
+
+ThefixedoraclefirstcopiestheimmutableweightsintoordinaryCPUstorage,thenperformsscalarchecksagainstthatcopy. Finalfull720checksnormalexit,no newdrivererrors. Runnernowretainsfailureinfoanddriverchecksevenonfuturetimeout. ThiswasaharnessCPU-readproblem,not evidenceofashader speedup or GPUcorrectnessfailure.
+
+## Next gates
+
+MatchactualproductionNUM_ROWS(C1one,C2two),collectresources,thenGPUtimestampA/Bswithweightworking-setlargerthanthe64MBInfinityCache(notjust8MiBL2)andnative/paddedbytesaccountedfor. Userauthorizesmatchedmeasurementunderbackgroundload; do notwaitforquietCPUforever. Keepmodel/driverguards andrecordload/clocks.
+
+Onlyifcomponentgainsjustifyit,buildprivateper-contextimmutableWEIGHTS-bufferpaddingcache,keepnativeformatforprefill/otherconsumers,tracksourceoffset/lifetime andcleanupsafely. RepackcostandextraVRAMmustbereported;fulltarget-logit/model/throughputqualificationrequired. No model speed claim now.
+
+Memoryboundary:1.818%isformatpaddingoverheadonly. Keepingoriginalweightsfornativeprefillpluspaddeddecodecopies addsapproximatelyonefullQ3weightcopypluspadding. QueryactualVRAMbudgetbeforemodelintegration;keepnativeandpaddedpipelinesdistinctforcache/fallback;neverreinterpretuncached110-byteweightsas112-byteblocks.

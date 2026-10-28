@@ -1,0 +1,18 @@
+{
+  "blocks": 4096,
+  "all_halfword_to_word_checks_exact": true,
+  "packed_word_comparisons": 262144,
+  "roundtrip_preserves_every_original_byte": true,
+  "native_block_bytes": 110,
+  "padded_block_bytes": 112,
+  "q3_storage_increase_percent": 1.8181818181818181,
+  "metadata_offsets": {
+    "hmask": 0,
+    "qs": 32,
+    "scales": 96,
+    "d": 108,
+    "padding": 110
+  },
+  "source_sha256": "41fa5ac0f25de073a19b5997a900dfe0d6b89c615459ec4aa666fce89a1aee4e",
+  "scope": "CPUlayout/loadidentity only. No newquantization,modelweightedit,GPUruntime orspeedqualification."
+}

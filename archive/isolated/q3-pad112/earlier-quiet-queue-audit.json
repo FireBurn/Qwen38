@@ -1,0 +1,51 @@
+{
+  "component_result": {
+    "result": "<workspace>/isolated/native-swiglu-q8/nativeopt-timing/timing/20261028T185406Z/checks.json",
+    "quiet_valid": true,
+    "driver_errors_absent": true
+  },
+  "gpu_time_summary": [
+    {
+      "n": 17408,
+      "separate_us": 1.3975646975,
+      "fused_us": 0.81027359,
+      "time_change_percent": -42.02246297080641
+    },
+    {
+      "n": 34816,
+      "separate_us": 1.5485466005,
+      "fused_us": 0.9319883725,
+      "time_change_percent": -39.81528407352569
+    }
+  ],
+  "scope": "Clean isolatedoriginalnativefusiontimestampcheck passed. Fullmodelpairedworkflowlaterfaileditsload/clockgate;downstreampredecessorqueuesexitedincomplete. Not a fullmodelspeedresult.",
+  "full_model_arms": [
+    {
+      "mode": "native_bound",
+      "steady_tokens_per_second": 50.00944734922706,
+      "steady_cpu_busy_mean": 0.03047337920682885,
+      "clock_settled": true,
+      "phase_build_process_max": 0,
+      "quiet_environment_valid": true
+    },
+    {
+      "mode": "adjacent_bound",
+      "steady_tokens_per_second": 38.93377349429518,
+      "steady_cpu_busy_mean": 0.47483606801749256,
+      "clock_settled": false,
+      "phase_build_process_max": 0,
+      "quiet_environment_valid": false
+    }
+  ],
+  "full_model_stage_driver_check": {
+    "task": "run_native_swiglu_q8_coalesce_full512.py",
+    "returncode": 1,
+    "started_monotonic": 79088.96218422,
+    "finished_monotonic": 79220.179292313,
+    "new_target_driver_messages": [
+      "[79181.701162] amdgpu 0000:07:00.0: GECC is disabled, set amdgpu_ras_enable=1 to enable GECC in next boot cycle if needed"
+    ],
+    "driver_error_messages": [],
+    "driver_errors_absent": true
+  }
+}
