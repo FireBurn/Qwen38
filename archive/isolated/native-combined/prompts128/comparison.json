@@ -1,0 +1,14 @@
+{
+  "all_model_bits_match_prior_native": true,
+  "all_tokens_and_counters_match_prior_native": true,
+  "no_duplicate_quantization": true,
+  "quantizer_q3_preserve_fused_dispatch_sequence_and_barriers": true,
+  "cases": [
+    "coding",
+    "math"
+  ],
+  "requested_tokens_per_arm": 128,
+  "arms": 6,
+  "fusion_groups": 136,
+  "scope": "Native,fusiononly,allcombined captured audits for two prompts. Not arbitrary longcontexts, production or performance qualification."
+}

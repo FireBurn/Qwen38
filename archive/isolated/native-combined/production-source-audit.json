@@ -1,0 +1,87 @@
+{
+  "scope": "Read-only source equality audit only; not current-production binary/pipeline/model/speed qualification. Claude tree observed but not modified.",
+  "production_snapshot_head": "dc02e987641e6d90803f41979f66762bd14f5f95",
+  "claude_head": "5fe40ed1ea4f2d41717926b62dc9866584c4e742",
+  "files": [
+    {
+      "path": "ggml/src/ggml-vulkan/vulkan-shaders/quantize_q8_1.comp",
+      "sha256": {
+        "frozen": "9f16a5781b7c2ffebec4d18debbeb03ba86be6b473b69dd658aa42d1188825cd",
+        "production_snapshot": "9f16a5781b7c2ffebec4d18debbeb03ba86be6b473b69dd658aa42d1188825cd",
+        "claude": "9f16a5781b7c2ffebec4d18debbeb03ba86be6b473b69dd658aa42d1188825cd"
+      },
+      "snapshot_matches_frozen": true,
+      "claude_matches_frozen": true
+    },
+    {
+      "path": "ggml/src/ggml-vulkan/vulkan-shaders/mul_mat_vecq.comp",
+      "sha256": {
+        "frozen": "5c7078feed144c6b4706e25390be63a18666f27382119b11d8361fb9a7559260",
+        "production_snapshot": "17d3557e3eb924ddc2e41274505eb8c904752ad2b71de58c204e82f6dc32e28a",
+        "claude": "17d3557e3eb924ddc2e41274505eb8c904752ad2b71de58c204e82f6dc32e28a"
+      },
+      "snapshot_matches_frozen": false,
+      "claude_matches_frozen": false
+    },
+    {
+      "path": "ggml/src/ggml-vulkan/vulkan-shaders/mul_mat_vecq_funcs.glsl",
+      "sha256": {
+        "frozen": "d6394df8252736a9f4c430722646c94ed9bd45f0c3a619d8ca3ea324abfcf4f6",
+        "production_snapshot": "09d3c0c51323401046a86ef9b4fddfbda62635959b4b87fa7dc4e8ed507f55fd",
+        "claude": "09d3c0c51323401046a86ef9b4fddfbda62635959b4b87fa7dc4e8ed507f55fd"
+      },
+      "snapshot_matches_frozen": false,
+      "claude_matches_frozen": false
+    },
+    {
+      "path": "ggml/src/ggml-vulkan/vulkan-shaders/mul_mat_vec_base.glsl",
+      "sha256": {
+        "frozen": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+        "production_snapshot": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+        "claude": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323"
+      },
+      "snapshot_matches_frozen": true,
+      "claude_matches_frozen": true
+    },
+    {
+      "path": "ggml/src/ggml-vulkan/vulkan-shaders/mul_mat_vec_iface.glsl",
+      "sha256": {
+        "frozen": "e5b825d83c6250e4b75459c2584e6530bb443e08252df7069e107ec1eb6bd001",
+        "production_snapshot": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+        "claude": "e5b825d83c6250e4b75459c2584e6530bb443e08252df7069e107ec1eb6bd001"
+      },
+      "snapshot_matches_frozen": false,
+      "claude_matches_frozen": true
+    },
+    {
+      "path": "ggml/src/ggml-vulkan/vulkan-shaders/types.glsl",
+      "sha256": {
+        "frozen": "66531aa893ca65100a2dc898d753441392b84d15f7b63a1728896f3e9628ea50",
+        "production_snapshot": "a88aade2345ab25eb681632d79632df5da7579460e0781f616338343e823a84c",
+        "claude": "6bb1b1e21b10dffec3b91b87f7cdfd182ee654a4607b2a3ed518dcc21a3bc1bb"
+      },
+      "snapshot_matches_frozen": false,
+      "claude_matches_frozen": false
+    },
+    {
+      "path": "ggml/src/ggml-vulkan/vulkan-shaders/swiglu.comp",
+      "sha256": {
+        "frozen": "cd10f81a22d2a1d2435a5d229656a5b187cdaf664b45867da894452586b1943a",
+        "production_snapshot": "cd10f81a22d2a1d2435a5d229656a5b187cdaf664b45867da894452586b1943a",
+        "claude": "cd10f81a22d2a1d2435a5d229656a5b187cdaf664b45867da894452586b1943a"
+      },
+      "snapshot_matches_frozen": true,
+      "claude_matches_frozen": true
+    },
+    {
+      "path": "ggml/src/ggml-vulkan/ggml-vulkan.cpp",
+      "sha256": {
+        "frozen": "5f6a044d6929a7f8e67fc933985559a9eaa0224af0189163aaad88f0be41aaa4",
+        "production_snapshot": "f80d592a84968402e5da3f954e2fa96306a4569cdb01ebec56519d0c4530f9c4",
+        "claude": "5d9913035e4eea72a0317bf64346e061b2c8f1419b7b984535afebd30ec91a78"
+      },
+      "snapshot_matches_frozen": false,
+      "claude_matches_frozen": false
+    }
+  ]
+}

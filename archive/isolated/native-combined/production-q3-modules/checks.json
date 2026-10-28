@@ -1,0 +1,142 @@
+{
+  "q3_function_body_unchanged": true,
+  "modules": [
+    {
+      "shader": "mul_mat_vec_q3_k_q8_1_f32",
+      "candidate": false,
+      "sha256": "b2cf7935ee766ffb1bdb5f556069095e4f323cb88aa3198b04e57e5a38b8f620",
+      "bytes": 49000,
+      "matches_tested_frozen_module": true,
+      "command": [
+        "glslc",
+        "-fshader-stage=compute",
+        "--target-env=vulkan1.2",
+        "-O",
+        "-I<workspace>/production/llama.cpp/ggml/src/ggml-vulkan/vulkan-shaders",
+        "-DDATA_A_Q3_K=1",
+        "-DD_TYPE=float",
+        "-DFLOAT_TYPE=float",
+        "-DFLOAT_TYPEV2=vec2",
+        "-DACC_TYPE=float",
+        "<workspace>/production/llama.cpp/ggml/src/ggml-vulkan/vulkan-shaders/mul_mat_vecq.comp",
+        "-o",
+        "<workspace>/isolated/native-combined/production-q3-modules/native-mul_mat_vec_q3_k_q8_1_f32.spv"
+      ]
+    },
+    {
+      "shader": "mul_mat_vec_q3_k_q8_1_f32",
+      "candidate": true,
+      "sha256": "770f278bc958363c5698e4b153758915be2d921a263cd57ef9d7b67886d03048",
+      "bytes": 48632,
+      "matches_tested_frozen_module": true,
+      "command": [
+        "glslc",
+        "-fshader-stage=compute",
+        "--target-env=vulkan1.2",
+        "-O",
+        "-I<workspace>/production/llama.cpp/ggml/src/ggml-vulkan/vulkan-shaders",
+        "-DDATA_A_Q3_K=1",
+        "-DD_TYPE=float",
+        "-DFLOAT_TYPE=float",
+        "-DFLOAT_TYPEV2=vec2",
+        "-DACC_TYPE=float",
+        "<workspace>/isolated/native-combined/production-q3-modules/mul_mat_vecq.comp",
+        "-o",
+        "<workspace>/isolated/native-combined/production-q3-modules/candidate-mul_mat_vec_q3_k_q8_1_f32.spv"
+      ]
+    },
+    {
+      "shader": "mul_mat_vec_q3_k_q8_1_f32_subgroup",
+      "candidate": false,
+      "sha256": "f9e293ef209532d85e64ea1f88153c9048ae25612571bab9bfaecb0556ee69e0",
+      "bytes": 49128,
+      "matches_tested_frozen_module": true,
+      "command": [
+        "glslc",
+        "-fshader-stage=compute",
+        "--target-env=vulkan1.2",
+        "-O",
+        "-I<workspace>/production/llama.cpp/ggml/src/ggml-vulkan/vulkan-shaders",
+        "-DDATA_A_Q3_K=1",
+        "-DD_TYPE=float",
+        "-DFLOAT_TYPE=float",
+        "-DFLOAT_TYPEV2=vec2",
+        "-DACC_TYPE=float",
+        "-DUSE_SUBGROUP_ADD=1",
+        "<workspace>/production/llama.cpp/ggml/src/ggml-vulkan/vulkan-shaders/mul_mat_vecq.comp",
+        "-o",
+        "<workspace>/isolated/native-combined/production-q3-modules/native-mul_mat_vec_q3_k_q8_1_f32_subgroup.spv"
+      ]
+    },
+    {
+      "shader": "mul_mat_vec_q3_k_q8_1_f32_subgroup",
+      "candidate": true,
+      "sha256": "073e6b04bafdc2a4b8dc59963c2f7d50f48b120ef7f9fc9509c1c943be355c74",
+      "bytes": 48760,
+      "matches_tested_frozen_module": true,
+      "command": [
+        "glslc",
+        "-fshader-stage=compute",
+        "--target-env=vulkan1.2",
+        "-O",
+        "-I<workspace>/production/llama.cpp/ggml/src/ggml-vulkan/vulkan-shaders",
+        "-DDATA_A_Q3_K=1",
+        "-DD_TYPE=float",
+        "-DFLOAT_TYPE=float",
+        "-DFLOAT_TYPEV2=vec2",
+        "-DACC_TYPE=float",
+        "-DUSE_SUBGROUP_ADD=1",
+        "<workspace>/isolated/native-combined/production-q3-modules/mul_mat_vecq.comp",
+        "-o",
+        "<workspace>/isolated/native-combined/production-q3-modules/candidate-mul_mat_vec_q3_k_q8_1_f32_subgroup.spv"
+      ]
+    },
+    {
+      "shader": "mul_mat_vec_q3_k_q8_1_f32_subgroup_no_shmem",
+      "candidate": false,
+      "sha256": "eb5ec9cb6030657818f8e9a5409dcf75d159d7d4cc78b21182eadc176b17eab6",
+      "bytes": 47508,
+      "matches_tested_frozen_module": true,
+      "command": [
+        "glslc",
+        "-fshader-stage=compute",
+        "--target-env=vulkan1.2",
+        "-O",
+        "-I<workspace>/production/llama.cpp/ggml/src/ggml-vulkan/vulkan-shaders",
+        "-DDATA_A_Q3_K=1",
+        "-DD_TYPE=float",
+        "-DFLOAT_TYPE=float",
+        "-DFLOAT_TYPEV2=vec2",
+        "-DACC_TYPE=float",
+        "-DUSE_SUBGROUP_ADD_NO_SHMEM=1",
+        "<workspace>/production/llama.cpp/ggml/src/ggml-vulkan/vulkan-shaders/mul_mat_vecq.comp",
+        "-o",
+        "<workspace>/isolated/native-combined/production-q3-modules/native-mul_mat_vec_q3_k_q8_1_f32_subgroup_no_shmem.spv"
+      ]
+    },
+    {
+      "shader": "mul_mat_vec_q3_k_q8_1_f32_subgroup_no_shmem",
+      "candidate": true,
+      "sha256": "4b185a69aac3c321f79f56f6a2b08ad6c6483fa66588ffc580b97349d387f884",
+      "bytes": 47140,
+      "matches_tested_frozen_module": true,
+      "command": [
+        "glslc",
+        "-fshader-stage=compute",
+        "--target-env=vulkan1.2",
+        "-O",
+        "-I<workspace>/production/llama.cpp/ggml/src/ggml-vulkan/vulkan-shaders",
+        "-DDATA_A_Q3_K=1",
+        "-DD_TYPE=float",
+        "-DFLOAT_TYPE=float",
+        "-DFLOAT_TYPEV2=vec2",
+        "-DACC_TYPE=float",
+        "-DUSE_SUBGROUP_ADD_NO_SHMEM=1",
+        "<workspace>/isolated/native-combined/production-q3-modules/mul_mat_vecq.comp",
+        "-o",
+        "<workspace>/isolated/native-combined/production-q3-modules/candidate-mul_mat_vec_q3_k_q8_1_f32_subgroup_no_shmem.spv"
+      ]
+    }
+  ],
+  "scope": "Production snapshot source compilation/validation only; uses recorded defines, not proof of installed pipeline specialization, runtime model or performance compatibility."
+}

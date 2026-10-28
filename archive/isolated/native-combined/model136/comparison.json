@@ -1,0 +1,12 @@
+{
+  "all_model_bits_identical": true,
+  "all_tokens_and_counters_identical": true,
+  "native_and_all_combined_passed": true,
+  "no_duplicate_quantization": true,
+  "original_quantizer_dispatches": 4675,
+  "combined_separate_quantizer_dispatches": 3516,
+  "combined_fused_dispatches": 1159,
+  "combined_q3_dispatches": 1560,
+  "fusion_barriers_removed": 1159,
+  "scope": "Captured32requested-token native/all-combined comparison with bounded head and136fusionworkgroups. Not performance, longcontext or production qualification."
+}

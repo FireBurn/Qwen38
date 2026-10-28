@@ -1,0 +1,36 @@
+{
+  "actual_monitor_cases": [
+    {
+      "sensor_fails": true,
+      "steady": false,
+      "sample_count": 0,
+      "recorded_errors": [
+        {
+          "errno": 16,
+          "message": "[Errno 16] synthetic busy",
+          "steady_seen": false
+        }
+      ]
+    },
+    {
+      "sensor_fails": true,
+      "steady": true,
+      "sample_count": 0,
+      "recorded_errors": [
+        {
+          "errno": 16,
+          "message": "[Errno 16] synthetic busy",
+          "steady_seen": true
+        }
+      ]
+    },
+    {
+      "sensor_fails": false,
+      "steady": true,
+      "sample_count": 1,
+      "recorded_errors": []
+    }
+  ],
+  "timed_error_rejection_test_passed": true,
+  "scope": "Synthetic tests execute actual monitor AST and arm validity expression; no GPU run."
+}
