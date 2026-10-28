@@ -1,0 +1,38 @@
+[
+  {
+    "columns": 1,
+    "mode": "native",
+    "all_outputs_exact": true,
+    "output_sha256": "4396a848537b2a0140f57c71c6ecf21328785bd22b53e231c92a934f40925c1c",
+    "candidate_q3_dispatches": 0,
+    "native_q3_dispatches": 11328,
+    "scope": "C1/C2 four-quant consumers,64SwiGLU pairs,four patterns; only native Q3 integer correction changed. No fusion or performance claim."
+  },
+  {
+    "columns": 1,
+    "mode": "shuffle",
+    "all_outputs_exact": true,
+    "output_sha256": "4396a848537b2a0140f57c71c6ecf21328785bd22b53e231c92a934f40925c1c",
+    "candidate_q3_dispatches": 11584,
+    "native_q3_dispatches": 0,
+    "scope": "C1/C2 four-quant consumers,64SwiGLU pairs,four patterns; only native Q3 integer correction changed. No fusion or performance claim."
+  },
+  {
+    "columns": 2,
+    "mode": "native",
+    "all_outputs_exact": true,
+    "output_sha256": "9f32c0055a53a782585d33ef6289df2a674d133877007f00c8645c5de731139f",
+    "candidate_q3_dispatches": 0,
+    "native_q3_dispatches": 11776,
+    "scope": "C1/C2 four-quant consumers,64SwiGLU pairs,four patterns; only native Q3 integer correction changed. No fusion or performance claim."
+  },
+  {
+    "columns": 2,
+    "mode": "shuffle",
+    "all_outputs_exact": true,
+    "output_sha256": "9f32c0055a53a782585d33ef6289df2a674d133877007f00c8645c5de731139f",
+    "candidate_q3_dispatches": 11328,
+    "native_q3_dispatches": 0,
+    "scope": "C1/C2 four-quant consumers,64SwiGLU pairs,four patterns; only native Q3 integer correction changed. No fusion or performance claim."
+  }
+]

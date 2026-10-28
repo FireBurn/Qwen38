@@ -12,6 +12,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 - [Native fusion rounding diagnosis and corrected audit](docs/NATIVE-FUSION.md).
 - [Shuffle8variant, source and model checks](docs/SHUFFLE8.md).
 - [Native quantizer shuffle checks](docs/NATIVE-QUANT-SHUFFLE.md).
+- [Native Q3 correction and precomputed-sum experiments](docs/NATIVE-Q3.md).
 - [Measurement and reproduction requirements](docs/METHODOLOGY.md).
 - [Transfer-copy correctness investigation](docs/COPY-BUG.md).
 - [SDMA transfer-queue alternative and checks](docs/SDMA.md).

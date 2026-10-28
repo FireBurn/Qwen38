@@ -1,0 +1,14 @@
+{
+  "scope": "CPU integer identity, half-sum shuffle topology and binary16 storage checks only. No GPU implementation, scheduling, descriptor correctness or speed qualification.",
+  "scalar_cases": 2040,
+  "random_32value_cases": 100000,
+  "binary16_exact_integer_half_sums": 4065,
+  "half_sum_absolute_bound": 2032,
+  "unsigned_dot_absolute_bound": 14224,
+  "correction_absolute_bound": 8128,
+  "conservative_intermediate_absolute_bound": 22352,
+  "packed_bytes_per_32_values": 36,
+  "auxiliary_bytes_per_32_values": 4,
+  "activation_storage_increase_percent": 11.11111111111111,
+  "source_sha256": "1e5968022d72c1aaaa6b740a1b8249513b911c34296705d3aec8d50e83bedb25"
+}
