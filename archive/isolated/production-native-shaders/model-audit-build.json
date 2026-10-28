@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I<claude-workspace>/prodtree/common",
+    "-I<workspace>/isolated/production-baseline-aa8/include",
+    "-I<workspace>/isolated/production-baseline-aa8/ggml-include",
+    "<workspace>/isolated/production-native-shaders/model-audit-runner.cpp",
+    "-L<workspace>/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,<workspace>/isolated/production-baseline-aa8/bin",
+    "-lllama-common",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "<workspace>/isolated/production-native-shaders/model-audit-runner"
+  ],
+  "parent_sha256": "710e748ed5a844e660010283de12303661447b581d6dad5d6e32c8e6927422d7",
+  "source_sha256": "387a28b2d8b6603145511da000296a49b9415da0250b3d9f51dac9edc0960c3a",
+  "binary_sha256": "d466072f782afbf5af9b1160ca4736e397d08537d1b08be190a1e2d8f5043a07",
+  "scope": "Capture every requested target logit vector in the runner calls. No target hidden/draft score capture, no core modification, correctness-only runner."
+}

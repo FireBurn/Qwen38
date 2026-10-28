@@ -14,6 +14,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 - [Native quantizer shuffle checks](docs/NATIVE-QUANT-SHUFFLE.md).
 - [Native Q3 correction and precomputed-sum experiments](docs/NATIVE-Q3.md).
 - [Combined smaller-kernel checks and overlap](docs/COMBINED-NATIVE.md).
+- [Production-backend quantizer/Q3 operator and target-logit checks](docs/PRODUCTION-NATIVE.md).
 - [Measurement and reproduction requirements](docs/METHODOLOGY.md).
 - [Transfer-copy correctness investigation](docs/COPY-BUG.md).
 - [SDMA transfer-queue alternative and checks](docs/SDMA.md).

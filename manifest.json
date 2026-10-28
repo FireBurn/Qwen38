@@ -7995,6 +7995,86 @@
       "export_sha256": "b594b97c9ed9131fb6cec4d2378d542619a16294ef72fb44fc125d7b436efa48",
       "bytes": 789,
       "sanitized": false
+    },
+    {
+      "source": "isolated/production-native-shaders/STATUS.md",
+      "path": "archive/isolated/production-native-shaders/STATUS.md",
+      "source_sha256": "1235e916bb2a9005cde9dd9553681072b52e5dab1384346319edf8d698f7ad7b",
+      "export_sha256": "1235e916bb2a9005cde9dd9553681072b52e5dab1384346319edf8d698f7ad7b",
+      "bytes": 4957,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/production-native-shaders/source-state.json",
+      "path": "archive/isolated/production-native-shaders/source-state.json",
+      "source_sha256": "2a319fadebacb66184e362c5710eeebe76057833a168a15df0da00bccc5578b5",
+      "export_sha256": "2a319fadebacb66184e362c5710eeebe76057833a168a15df0da00bccc5578b5",
+      "bytes": 208,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/production-native-shaders/host/build.json",
+      "path": "archive/isolated/production-native-shaders/host/build.json",
+      "source_sha256": "89ec881c62f63f1c601ebc92fb8363053b5295caf317615986e7d8027eda01c8",
+      "export_sha256": "89ec881c62f63f1c601ebc92fb8363053b5295caf317615986e7d8027eda01c8",
+      "bytes": 414,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/production-native-shaders/validation-host/build.json",
+      "path": "archive/isolated/production-native-shaders/validation-host/build.json",
+      "source_sha256": "cd5a25946ec9307036113d71a416bb40864b2d6e4b435ca48aa27327ba87107a",
+      "export_sha256": "cd5a25946ec9307036113d71a416bb40864b2d6e4b435ca48aa27327ba87107a",
+      "bytes": 347,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/production-native-shaders/operators/checks.json",
+      "path": "archive/isolated/production-native-shaders/operators/checks.json",
+      "source_sha256": "755e64cef6d347e463f35f946549512c5f541ea148ff952df49ad31f15da5404",
+      "export_sha256": "755e64cef6d347e463f35f946549512c5f541ea148ff952df49ad31f15da5404",
+      "bytes": 3967,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/production-native-shaders/operators/comparison.json",
+      "path": "archive/isolated/production-native-shaders/operators/comparison.json",
+      "source_sha256": "fc20b6736fea6e733e8af2170664ffad006b4cd48a6fb10250ab8e06f8cff050",
+      "export_sha256": "fc20b6736fea6e733e8af2170664ffad006b4cd48a6fb10250ab8e06f8cff050",
+      "bytes": 323,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/production-native-shaders/model-audit-build.json",
+      "path": "archive/isolated/production-native-shaders/model-audit-build.json",
+      "source_sha256": "50a0e8efb9fb5d4ed38bc56aa4069d0d7a58e876279918faaafd14582b1b857f",
+      "export_sha256": "fe940073730c10f8a9366271adc580670f6644e744c7a2818a1aaa8b6cd56a0d",
+      "bytes": 1078,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/production-native-shaders/model32/checks.json",
+      "path": "archive/isolated/production-native-shaders/model32/checks.json",
+      "source_sha256": "3dec941b644ca0ff34f9e2f1c1ac284cd80df8219b9ba48c1ae1948c5d5552fd",
+      "export_sha256": "3dec941b644ca0ff34f9e2f1c1ac284cd80df8219b9ba48c1ae1948c5d5552fd",
+      "bytes": 4307,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/production-native-shaders/model32/comparison.json",
+      "path": "archive/isolated/production-native-shaders/model32/comparison.json",
+      "source_sha256": "a77c8af3b92de782ae3ee2a3f4ed1ce9ff58062ec1336cff7f3f6a592a1d7ba5",
+      "export_sha256": "a77c8af3b92de782ae3ee2a3f4ed1ce9ff58062ec1336cff7f3f6a592a1d7ba5",
+      "bytes": 517,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/production-native-shaders/stock-model32/comparison.json",
+      "path": "archive/isolated/production-native-shaders/stock-model32/comparison.json",
+      "source_sha256": "bf55bb495f095e98e113a1b55d91a420d4d069d9f9b10801ce281b475a3f6b75",
+      "export_sha256": "bf55bb495f095e98e113a1b55d91a420d4d069d9f9b10801ce281b475a3f6b75",
+      "bytes": 539,
+      "sanitized": false
     }
   ]
 }
