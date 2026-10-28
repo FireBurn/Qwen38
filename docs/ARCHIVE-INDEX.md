@@ -1,6 +1,6 @@
 # Exported experiment archive
 
-The manifest currently lists **958 archived files**, including the root notebooks. The manifest is the authoritative file inventory.
+The manifest currently lists **975 archived files**, including the root notebooks. The manifest is the authoritative file inventory.
 
 Historical notes can describe unfinished or superseded work. JSON artifacts establish only their stated scope. Missing raw logs or executables are not implied to be present.
 
@@ -256,3 +256,7 @@ The [native fusion report](NATIVE-FUSION.md) links the newly exported operator, 
 ## SDMA transfer-path investigation
 
 See the [SDMA report](SDMA.md) for the queue option, transfer reproducers, engine attribution and captured model checks.
+
+## Shuffle reductions and resumed timing
+
+See the [shuffle report](SHUFFLE8.md) for wave32/wave64 resources, signed-zero/rounding checks, native model audits, telemetry failure/recovery and the historical ring-timeout correlation.

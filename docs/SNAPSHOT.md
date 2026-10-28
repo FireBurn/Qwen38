@@ -60,3 +60,7 @@ The guarded barrier candidate passes focused four-quant tests and captured model
 ## Longer prompt and transfer-path follow-ups
 
 Two additional prompts pass six128-requested-token native/coalesced/bounded arms. SDMA opt-in passes144fresh-process transfer cases and the captured16-workgroup model audit; it remains experimental and separate from timing. A read-only load sample attributes most observed CPU activity to plasmashell. Timing remains pending under unchanged gates. See [fusion](NATIVE-FUSION.md) and [SDMA](SDMA.md) reports.
+
+## October28 resume
+
+The prior component timestamp job finished its output checks but failed telemetry before recording any samples; its timing is rejected and its full512follow-up did not start. A robust monitor is now queued with stricter per-arm coverage. Explicit shuffle8variants report24VGPRs and pass captured native-model audits at16/136groups in wave32/wave64, with zero new driver faults. Their timings are queued after the resumed predecessor. The negative default-copy path is quarantined after a retrospective ring-timeout correlation. [Details](SHUFFLE8.md).

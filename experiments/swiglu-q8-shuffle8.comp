@@ -1,0 +1,52 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2023-2026 The ggml authors
+// Copyright (c) 2026 FireBurn and contributors
+// Derived from llama.cpp Vulkan SwiGLU and Q8_1 quantization; experimental shuffle variant.
+#version 460
+#extension GL_EXT_control_flow_attributes : require
+#extension GL_EXT_shader_16bit_storage : require
+#extension GL_EXT_shader_explicit_arithmetic_types_float16 : require
+#extension GL_EXT_shader_explicit_arithmetic_types_int8 : require
+#extension GL_EXT_shader_explicit_arithmetic_types_int32 : require
+#extension GL_KHR_shader_subgroup_basic : require
+#extension GL_KHR_shader_subgroup_shuffle : require
+layout(local_size_x=64) in;
+layout(push_constant) uniform Params { uint ne; uint num_blocks; } p;
+struct block_q8_1_x4 { f16vec2 ds[4]; int32_t qs[32]; };
+layout(std430,binding=0) readonly buffer Gate { float gate[]; };
+layout(std430,binding=1) readonly buffer Up { float up[]; };
+layout(std430,binding=2) writeonly buffer FloatOut { float floating_output[]; };
+layout(std430,binding=3) writeonly buffer QuantOut { block_q8_1_x4 packed_output[]; };
+float op(float a,float b) { return a/(1.0f+exp(-a))*b; }
+void quantize(uint wgid) {
+ uint tid=gl_SubgroupID*gl_SubgroupSize+gl_SubgroupInvocationID;
+ uint ib=wgid*8u+tid/8u;
+ uint iqs=tid%8u;
+ uint outer=ib/4u;
+ uint inner=ib%4u;
+ if(outer>=(p.ne+127u)/128u)return;
+ uint a_idx=ib*8u+iqs;
+ vec4 vals=vec4(0.0f);
+ if(a_idx<p.ne/4u){
+  vec4 g=vec4(gate[4u*a_idx],gate[4u*a_idx+1u],gate[4u*a_idx+2u],gate[4u*a_idx+3u]);vec4 u=vec4(up[4u*a_idx],up[4u*a_idx+1u],up[4u*a_idx+2u],up[4u*a_idx+3u]);
+  [[unroll]]for(uint k=0u;k<4u;++k)vals[k]=op(g[k],u[k]);
+  [[unroll]]for(uint k=0u;k<4u;++k)floating_output[4u*a_idx+k]=vals[k];
+ }
+ vec4 abs_vals=abs(vals);
+ float thread_max=max(max(abs_vals.x,abs_vals.y),max(abs_vals.z,abs_vals.w));
+ float amax=thread_max;
+ amax=max(amax,subgroupShuffleXor(amax,1u));
+ amax=max(amax,subgroupShuffleXor(amax,2u));
+ amax=max(amax,subgroupShuffleXor(amax,4u));
+ float d=amax/127.0;
+ float d_inv=d!=0.0?1.0/d:0.0;
+ vals=round(vals*d_inv);
+ packed_output[outer].qs[inner*8u+iqs]=pack32(i8vec4(round(vals)));
+ float thread_sum=vals.x+vals.y+vals.z+vals.w;
+ float sum=thread_sum;
+ sum+=subgroupShuffleXor(sum,1u);
+ sum+=subgroupShuffleXor(sum,2u);
+ sum+=subgroupShuffleXor(sum,4u);
+ if(iqs==0u)packed_output[outer].ds[inner]=f16vec2(vec2(d,sum*d));
+}
+void main(){uint wgid=gl_WorkGroupID.x;while(wgid<p.num_blocks){quantize(wgid);wgid+=gl_NumWorkGroups.x;}}

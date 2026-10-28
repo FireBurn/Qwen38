@@ -62,3 +62,7 @@ See archived directories `mtp-transfer-path-sweep`, `mtp-transfer-repeat-repro`,
 ## Dedicated transfer-queue follow-up
 
 Per-process SDMA exposure passes the original captured repro and144copy/readback cases across36fresh processes. A PCI-specific DRM counter confirms R9700 DMA use, and the captured16-workgroup model audit remains canonical with default copy selection. This is an alternative path, not a compute-copy fix or a measured speedup. See the [SDMA evidence and limits](SDMA.md).
+
+## October28 kernel-log audit
+
+A compute-ring timeout matches the process name and timestamp of the old negative default-copy reproducer. The old harness omitted child PIDs, preventing definitive PID attribution. That negative path is now quarantined; it should not be repeated merely to reproduce an already-known byte mismatch. See the [driver audit](../archive/isolated/native-swiglu-q8/driver-audit-20261028.json). Positive SDMA/copy2 results remain scoped observations, not a general driver fix.

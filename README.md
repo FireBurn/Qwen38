@@ -10,6 +10,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 - [Experiment catalog](docs/EXPERIMENTS.md): the main lines of investigation.
 - [Smaller fusions and shader roadmap](docs/ROADMAP.md): what the evidence suggests trying next.
 - [Native fusion rounding diagnosis and corrected audit](docs/NATIVE-FUSION.md).
+- [Shuffle8variant, source and model checks](docs/SHUFFLE8.md).
 - [Measurement and reproduction requirements](docs/METHODOLOGY.md).
 - [Transfer-copy correctness investigation](docs/COPY-BUG.md).
 - [SDMA transfer-queue alternative and checks](docs/SDMA.md).
@@ -28,7 +29,7 @@ The archive preserves historical reports, including failed experiments and subse
 
 ## Scope of this repository
 
-This is an **evidence archive and research plan**, not a ready-to-install inference engine or a distribution of model weights. It includes reports and compact JSON results, not raw conversation transcripts, model files, GPU binaries, shader caches, complete third-party source trees, or production launchers. Paths identifying the private workspace have been replaced with placeholders. Some historical references point to artifacts that are not exported; the manifest explicitly records what is present.
+This is an **evidence archive and research plan**, not a ready-to-install inference engine or a distribution of model weights. It includes reports, compact JSON results and a small MIT-licensed experimental shader, not raw conversation transcripts, model files, GPU binaries, shader caches, complete third-party source trees, or production launchers. Paths identifying the private workspace have been replaced with placeholders. Some historical references point to artifacts that are not exported; the manifest explicitly records what is present.
 
 Experiments span different llama.cpp revisions, backend ABIs, prompts, speculative settings, context lengths and driver snapshots. Results from different stacks are not interchangeable. In particular, the private `.24` backend is not the newer production `.27` baseline.
 

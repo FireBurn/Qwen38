@@ -1,0 +1,24 @@
+{
+  "scope": "Retrospective kernel/file-timestamp correlation, not definitive per-PID launch attribution.",
+  "kernel_events": [
+    "[ 5152.294820] amdgpu 0000:07:00.0:  Process operator_bench pid 17697 thread operator_bench pid 17697",
+    "[ 5155.327833] amdgpu 0000:07:00.0: ring comp_1.0.1 timeout, signaled seq=58908, emitted seq=58909",
+    "[ 5155.327842] amdgpu 0000:07:00.0:  Process operator_bench pid 17697 thread operator_bench pid 17697",
+    "[ 5155.327846] amdgpu 0000:07:00.0: Starting comp_1.0.1 ring reset",
+    "[ 5157.328094] amdgpu 0000:07:00.0: MES(0) failed to respond to msg=SUSPEND fence_wait_ret=408804 status=0x81000602_0",
+    "[ 5157.328102] amdgpu 0000:07:00.0: failed to suspend all gangs",
+    "[ 5157.328304] amdgpu 0000:07:00.0: Ring comp_1.0.1 reset succeeded",
+    "[ 5157.334106] amdgpu 0000:07:00.0:  Process operator_bench pid 17697 thread operator_bench pid 17697",
+    "[ 5160.384205] amdgpu 0000:07:00.0: ring comp_1.0.1 timeout, signaled seq=58909, emitted seq=58910",
+    "[ 5160.384208] amdgpu 0000:07:00.0:  Process operator_bench pid 17697 thread operator_bench pid 17697",
+    "[ 5160.384210] amdgpu 0000:07:00.0: Starting comp_1.0.1 ring reset",
+    "[ 5162.384419] amdgpu 0000:07:00.0: MES(0) failed to respond to msg=SUSPEND fence_wait_ret=570462 status=0x81000602_0",
+    "[ 5162.384430] amdgpu 0000:07:00.0: failed to suspend all gangs",
+    "[ 5162.384653] amdgpu 0000:07:00.0: Ring comp_1.0.1 reset succeeded"
+  ],
+  "pid_reported_by_kernel": 17697,
+  "ring_timeout_wall_time_utc": "2026-10-27T22:22:24.384205+00:00",
+  "default_copy_negative_log_mtime_utc": "2026-10-27T22:22:26.939308+00:00",
+  "confidence": "Strong temporal/process-name correlation with negative default-copy repro; old harness did not log child PID.",
+  "decision": "Quarantine default4DW negative repro paths; retain positive copy2/SDMA tests and monitor new target-driver faults. No system/desktop reset performed."
+}

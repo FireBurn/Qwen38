@@ -56,3 +56,7 @@ Canonical 32-requested-token audit SHA-256: `873abacccc270bc1a0669f62ac831dcc14a
 The changes are not independent additive savings. Lower LDS can increase reloads; lower register use can reduce instruction-level parallelism; wider grids add barrier participants; fewer claims can harm balance or locality. A fused operation can duplicate normalization or quantization across output rows. Removing launches can remove useful overlap. An improved attention kernel affects only attention's fraction of total time.
 
 A combination could still win. The way to establish it is a controlled factorial comparison with native anchors, identical model behavior and the combined implementation's actual resource counts—not adding percentages from unrelated microbenchmarks.
+
+## Shuffle8follow-up
+
+The fused kernel now has explicit-shuffle variants reporting24VGPRs at wave32andwave64. Signed-zero and rounding-edge controls, native four-quant operators and captured model audits pass at16/136workgroups. No measured throughput improvement yet. The earlier component timing is rejected after zero telemetry samples; a corrected monitor and serial comparisons are queued. [Evidence and limits](SHUFFLE8.md).

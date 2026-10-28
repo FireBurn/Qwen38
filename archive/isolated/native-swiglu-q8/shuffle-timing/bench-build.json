@@ -1,0 +1,14 @@
+{
+  "command": [
+    "clang++",
+    "-O2",
+    "-std=c++17",
+    "isolated/native-swiglu-q8/shuffle-timing/bench.cpp",
+    "-lvulkan",
+    "-o",
+    "isolated/native-swiglu-q8/shuffle-timing/operator_bench_timed"
+  ],
+  "binary_sha256": "ef792791a95a8f04b191972bafb6a0c33573e9e4af2f27cfb2397396a7456597",
+  "source_sha256": "945f07cf8838682914b72e1d54166fb67bf7b995b22956e78630444357ff9352",
+  "scope": "Prepared4-mode symmetric GPU timestamp component;512 batches per arm for clock coverage; no timing result."
+}

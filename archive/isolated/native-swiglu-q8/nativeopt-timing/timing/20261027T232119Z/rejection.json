@@ -1,0 +1,57 @@
+{
+  "accepted": false,
+  "reason": "Telemetry worker died on idle hwmon EBUSY before collecting any samples; no clock/build/CPU validation for timed arms.",
+  "all_output_checks_passed": true,
+  "telemetry_samples": 0,
+  "raw_rows_unqualified": [
+    {
+      "n": 17408,
+      "mode": 0,
+      "trial": 0,
+      "gpu_us_per_pair": 1.402703552
+    },
+    {
+      "n": 17408,
+      "mode": 1,
+      "trial": 1,
+      "gpu_us_per_pair": 0.80923111
+    },
+    {
+      "n": 17408,
+      "mode": 1,
+      "trial": 2,
+      "gpu_us_per_pair": 0.809208221
+    },
+    {
+      "n": 17408,
+      "mode": 0,
+      "trial": 3,
+      "gpu_us_per_pair": 1.397867584
+    },
+    {
+      "n": 34816,
+      "mode": 0,
+      "trial": 0,
+      "gpu_us_per_pair": 1.546715546
+    },
+    {
+      "n": 34816,
+      "mode": 1,
+      "trial": 1,
+      "gpu_us_per_pair": 0.931923523
+    },
+    {
+      "n": 34816,
+      "mode": 1,
+      "trial": 2,
+      "gpu_us_per_pair": 0.931643219
+    },
+    {
+      "n": 34816,
+      "mode": 0,
+      "trial": 3,
+      "gpu_us_per_pair": 1.548617096
+    }
+  ],
+  "scope": "Historical failed instrumentation; raw timestamps are not a certified speedup."
+}
