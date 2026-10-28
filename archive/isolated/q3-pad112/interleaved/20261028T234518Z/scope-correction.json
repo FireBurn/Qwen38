@@ -1,0 +1,5 @@
+{
+  "scope": "Enqueue/host-recording return latency only. llama_process can return before GPU completion; sampling subsequently completes GPU work, preserving normal generated output. Do not interpret these per-call timestamps as full target GPU/verification time.",
+  "execution": "Exit0,no new driver errors,513tokenstockprefix exact; completion/range unchanged.",
+  "repeat": "Same fixed768C2calls and seeded pattern with explicit llama_synchronize inside timed region, chosen for measurement semantics rather than observed speed."
+}

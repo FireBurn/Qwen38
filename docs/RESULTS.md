@@ -60,3 +60,11 @@ A combination could still win. The way to establish it is a controlled factorial
 ## Shuffle8follow-up
 
 The fused kernel now has explicit-shuffle variants reporting24VGPRs at wave32andwave64. Signed-zero and rounding-edge controls, native four-quant operators and captured model audits pass at16/136workgroups. No measured throughput improvement yet. The earlier component timing is rejected after zero telemetry samples; a corrected monitor and serial comparisons are queued. [Evidence and limits](SHUFFLE8.md).
+
+## Q3 aligned weights and allocation layout (2026-10-28)
+
+Appending two padding bytes to native110-byte Q3 blocks preserves all values and enables aligned word loads. The CPU proof,1,584 capped matrix dispatch checks and six GPU repacker cases pass. Two component timing passes (192 arms total) favour the padded shader for streamed weights, though clock attribution/sensor limitations prevent strict component qualification.
+
+The first model integration adds78 separate Vulkan buffers (2.83GiB). Its18process512-token test is confounded by changing compilation load. A24-arm resident-model repeat matches model behaviour but establishes no gain; its estimate favours the native control.
+
+A one-buffer3GiB arena version passes the same target-logit audit and gives a promising **+1.82%** private-native-control contrast in24resident128-token arms (descriptive95% interval+0.25%to+3.42%). This result is limited to the measured workload and private control. The independent18process512-token stock/control/arena confirmation does not establish a gain as two blocks fail load matching. Two longer coding/math target-logit prompts pass exactly. Finer within-generation verification timing also establishes no gain; the enqueue diagnostic points toward profiling host-side overhead before further shader tweaks. Allocation causality is unproven because the separate-buffer and arena trials have different background loads. [Full design, caveats and evidence](Q3-PAD112.md).

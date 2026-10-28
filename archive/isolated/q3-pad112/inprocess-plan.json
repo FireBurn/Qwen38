@@ -1,0 +1,10 @@
+{
+  "reason": "Whole-process arms span major background-load changes. Supplement with shorter within-process symmetric arms, keeping weights and GPU cache resident across modes.",
+  "arms": 24,
+  "blocks": 6,
+  "requested_tokens_per_arm": 128,
+  "sequence": "ABBA, BAAB, ABBA, BAAB, ABBA, BAAB; A=private native, B=pad. One unmeasured pad warmup first.",
+  "controls": "Synchronize target/draft contexts, clear their model memories and create fresh samplers/speculator per arm. Same model and contexts remain loaded. Native/padded buffers coexist throughout. Same shader/math paths as qualified host, env selection evaluated during every backend graph recording.",
+  "correctness": "All 25 generations must have identical tokens, acceptance counts and rows within their prefix. Target logits already independently audited before this diagnostic.",
+  "scope": "Private host A/B only; no direct unmodified-stock comparison or cold-cache/load-time benefit. All arms fixed; no optional stopping."
+}

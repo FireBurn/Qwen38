@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${CLAUDE_WORKSPACE}/prodtree/common",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/q3-pad112/interleaved-sync-runner.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama-common",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/q3-pad112/interleaved-sync-model-bench"
+  ],
+  "source_sha256": "cff2c8bdb827626100d64b047d5104b94c2abc7d774a0bb0a2d604d3da9a75e1",
+  "binary_sha256": "6b586419ae77d565c59b99072d7a537c0e06548fce7519a07002f0427740bb81"
+}

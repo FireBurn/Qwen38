@@ -1,0 +1,57 @@
+--- a/ggml-vulkan.cpp
++++ b/ggml-vulkan.cpp
+@@ -6790,15 +6790,26 @@
+         vk::PhysicalDeviceMemoryBudgetPropertiesEXT budget;vk::PhysicalDeviceMemoryProperties2 mem;mem.pNext=&budget;ctx->device->physical_device.getMemoryProperties2(&mem);uint64_t available=0;
+         for(uint32_t i=0;i<mem.memoryProperties.memoryHeapCount;++i)if(mem.memoryProperties.memoryHeaps[i].flags&vk::MemoryHeapFlagBits::eDeviceLocal){uint64_t bound=std::min(budget.heapBudget[i],mem.memoryProperties.memoryHeaps[i].size);if(bound>budget.heapUsage[i])available+=bound-budget.heapUsage[i];}
+         if(available<bytes+(4ull<<30)){if(getenv("GGML_VK_Q3_PAD112_AUDIT"))fprintf(stderr,"Q3_PAD112_BUDGET_FALLBACK %s available=%llu need=%llu\n",w->name,(unsigned long long)available,(unsigned long long)bytes);return false;}
+-        vk_buffer padded;try{padded=ggml_vk_create_buffer_device(ctx->device,bytes);}catch(const vk::SystemError&){return false;}if(!padded)return false;
++        vk_buffer padded;uint64_t padded_offset=0;
++        if(getenv("GGML_VK_Q3_PAD112_ARENA")){
++            const uint64_t arena_size=3ull<<30;
++            padded_offset=ggml_vk_align_size(ctx->np_arena_used,ctx->device->properties.limits.minStorageBufferOffsetAlignment);
++            if(padded_offset+bytes>arena_size||arena_size>ctx->device->properties.limits.maxStorageBufferRange)return false;
++            if(!ctx->np_arena){
++                if(available<arena_size+(4ull<<30))return false;
++                try{ctx->np_arena=ggml_vk_create_buffer_device(ctx->device,arena_size);}catch(const vk::SystemError&){return false;}
++                if(!ctx->np_arena)return false;
++            }
++            padded=ctx->np_arena;ctx->np_arena_used=padded_offset+bytes;
++        }else{try{padded=ggml_vk_create_buffer_device(ctx->device,bytes);}catch(const vk::SystemError&){return false;}if(!padded)return false;}
+         if(!ctx->np_repack)create(ctx->np_repack,"q3_pad112_repack","repack.spv",2,4,64,{});
+         ggml_vk_sync_buffers(ctx,subctx);ggml_pipeline_request_descriptor_sets(ctx,ctx->np_repack,1);
+-        const uint32_t blocks=weights.size/110;ggml_vk_dispatch_pipeline(ctx,subctx,ctx->np_repack,{weights,vk_subbuffer{padded,0,bytes}},std::vector<uint32_t>{blocks},{blocks,1,1});ggml_vk_sync_buffers(ctx,subctx);
+-        ctx->np_cache.push_back({weights.buffer,padded,weights.offset,weights.size,w});entry=&ctx->np_cache.back();ctx->np_cache_bytes+=bytes;
++        const uint32_t blocks=weights.size/110;ggml_vk_dispatch_pipeline(ctx,subctx,ctx->np_repack,{weights,vk_subbuffer{padded,padded_offset,bytes}},std::vector<uint32_t>{blocks},{blocks,1,1});ggml_vk_sync_buffers(ctx,subctx);
++        ctx->np_cache.push_back({weights.buffer,padded,weights.offset,weights.size,padded_offset,w});entry=&ctx->np_cache.back();ctx->np_cache_bytes+=bytes;
+         if(getenv("GGML_VK_Q3_PAD112_AUDIT"))fprintf(stderr,"Q3_PAD112_CACHE %s native=%llu padded=%llu total=%llu\n",w->name,(unsigned long long)weights.size,(unsigned long long)bytes,(unsigned long long)ctx->np_cache_bytes);
+     }
+     if(!ctx->np_matrix[cols-1])create(ctx->np_matrix[cols-1],"q3_pad112_matrix","pad16_subgroup_no_shmem.spv",5,sizeof(vk_mat_vec_push_constants),cols,{64,cols,cols});
+-    weights={entry->padded,0,entry->padded->size};pipeline=ctx->np_matrix[cols-1];++ctx->np_calls;return true;
++    weights={entry->padded,entry->padded_offset,entry->bytes/110*112};pipeline=ctx->np_matrix[cols-1];++ctx->np_calls;return true;
+ }
+ static void ggml_vk_mul_mat_vec_q_f16(ggml_backend_vk_context * ctx, vk_context& subctx, const struct ggml_cgraph * cgraph, int node_idx, bool swap_inputs = false) {
+     ggml_tensor * dst = cgraph->nodes[node_idx];
+@@ -13422,7 +13433,7 @@
+ 
+     ggml_vk_cleanup(ctx);
+     if(getenv("GGML_VK_Q3_PAD112_AUDIT"))fprintf(stderr,"Q3_PAD112_FINAL entries=%zu bytes=%llu calls=%llu\n",ctx->np_cache.size(),(unsigned long long)ctx->np_cache_bytes,(unsigned long long)ctx->np_calls);
+-    for(auto&e:ctx->np_cache)ggml_vk_destroy_buffer(e.padded);ctx->np_cache.clear();
++    for(auto&e:ctx->np_cache)ggml_vk_destroy_buffer(e.padded);ctx->np_cache.clear();ggml_vk_destroy_buffer(ctx->np_arena);
+     for(auto&pl:ctx->np_matrix)if(pl){ggml_vk_destroy_pipeline(ctx->device->device,pl);pl.reset();}
+     if(ctx->np_repack){ggml_vk_destroy_pipeline(ctx->device->device,ctx->np_repack);ctx->np_repack.reset();}
+ 
+--- a/ggml-vulkan-types.h
++++ b/ggml-vulkan-types.h
+@@ -1222,9 +1222,11 @@
+     uint32_t print_count {};
+ };
+ 
+-struct np_cache_entry { vk_buffer source, padded; uint64_t offset, bytes; const ggml_tensor* tensor; };
++struct np_cache_entry { vk_buffer source, padded; uint64_t offset, bytes, padded_offset; const ggml_tensor* tensor; };
+ struct ggml_backend_vk_context {
+     vk_pipeline np_repack, np_matrix[2];
++    vk_buffer np_arena;
++    uint64_t np_arena_used=0;
+     std::vector<np_cache_entry> np_cache;
+     uint64_t np_cache_bytes=0;
+     uint64_t np_calls=0;

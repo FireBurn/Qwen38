@@ -1,0 +1,122 @@
+{
+  "snapshots": [
+    {
+      "label": "05-stock",
+      "pid": 2056769,
+      "vram_total_kib": 16356212,
+      "vram_resident_kib": 16356212,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "06-control",
+      "pid": 2059185,
+      "vram_total_kib": 16355580,
+      "vram_resident_kib": 16355580,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "07-pad",
+      "pid": 2060293,
+      "vram_total_kib": 19501316,
+      "vram_resident_kib": 19501316,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "08-stock",
+      "pid": 2063410,
+      "vram_total_kib": 16355580,
+      "vram_resident_kib": 16355580,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "09-stock",
+      "pid": 2067039,
+      "vram_total_kib": 16355580,
+      "vram_resident_kib": 16355580,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "10-pad",
+      "pid": 2069442,
+      "vram_total_kib": 19501316,
+      "vram_resident_kib": 19501316,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "11-control",
+      "pid": 2070492,
+      "vram_total_kib": 16355636,
+      "vram_resident_kib": 16355636,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "12-pad",
+      "pid": 2071738,
+      "vram_total_kib": 19501316,
+      "vram_resident_kib": 19501316,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "13-stock",
+      "pid": 2073420,
+      "vram_total_kib": 16355580,
+      "vram_resident_kib": 16355580,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "14-control",
+      "pid": 2076636,
+      "vram_total_kib": 16356600,
+      "vram_resident_kib": 16356600,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "15-control",
+      "pid": 2080880,
+      "vram_total_kib": 16356460,
+      "vram_resident_kib": 16356460,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "16-stock",
+      "pid": 2085360,
+      "vram_total_kib": 16355580,
+      "vram_resident_kib": 16355580,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    },
+    {
+      "label": "17-pad",
+      "pid": 2089856,
+      "vram_total_kib": 19504048,
+      "vram_resident_kib": 19504048,
+      "vram_nonresident_kib": 0,
+      "gtt_total_kib": 1407584,
+      "distinct_drm_clients": 1
+    }
+  ],
+  "scope": "Supplementary partial per-process DRM fdinfo snapshots after FULL_MODEL_WARM. Read-only, not continuous residency capture. Requested GTT can include deliberate host/staging allocations; it is not by itself a VRAM spill. No claim about the near-full-VRAM upstream issue30688 workload."
+}

@@ -1,0 +1,9 @@
+{
+  "source_sha256": "711bfb3f810cad4671711acdb64e1c557ac43061c4e6146b59720fbb8b40c5d5",
+  "AMD_selection": "DMMV_WG_SIZE_SUBGROUP; large-workgroup branch restricted to NVIDIA/Intel",
+  "subgroup_size": 64,
+  "C1_rows_per_workgroup": 1,
+  "C2_rows_per_workgroup": 2,
+  "reduction": "SHADER_REDUCTION_MODE_SUBGROUP = index2, generated shader arrays map index2 to subgroup_no_shmem",
+  "scope": "Static policy rechecked after model result; wave64 and reduction mapping match the production control."
+}

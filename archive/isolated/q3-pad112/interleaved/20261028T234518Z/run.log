@@ -1,0 +1,2409 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+NATIVE_SHADER_MODULES quant=0 q3=0,0,0
+Q3_PAD112_FINAL entries=0 bytes=0 calls=0
+Q3_PAD112_FINAL entries=0 bytes=0 calls=0
+0.11.566.847 I cmn          init: llama threadpool init, n_threads = 1
+Q3_PAD112_CACHE blk.7.ffn_gate.weight native=38297600 padded=38993920 total=38993920
+Q3_PAD112_CACHE blk.7.ffn_up.weight native=38297600 padded=38993920 total=77987840
+Q3_PAD112_CACHE blk.8.ffn_gate.weight native=38297600 padded=38993920 total=116981760
+Q3_PAD112_CACHE blk.8.ffn_up.weight native=38297600 padded=38993920 total=155975680
+Q3_PAD112_CACHE blk.9.ffn_gate.weight native=38297600 padded=38993920 total=194969600
+Q3_PAD112_CACHE blk.9.ffn_up.weight native=38297600 padded=38993920 total=233963520
+Q3_PAD112_CACHE blk.10.ffn_gate.weight native=38297600 padded=38993920 total=272957440
+Q3_PAD112_CACHE blk.10.ffn_up.weight native=38297600 padded=38993920 total=311951360
+Q3_PAD112_CACHE blk.11.ffn_gate.weight native=38297600 padded=38993920 total=350945280
+Q3_PAD112_CACHE blk.11.ffn_up.weight native=38297600 padded=38993920 total=389939200
+Q3_PAD112_CACHE blk.12.ffn_gate.weight native=38297600 padded=38993920 total=428933120
+Q3_PAD112_CACHE blk.12.ffn_up.weight native=38297600 padded=38993920 total=467927040
+Q3_PAD112_CACHE blk.13.ffn_gate.weight native=38297600 padded=38993920 total=506920960
+Q3_PAD112_CACHE blk.13.ffn_up.weight native=38297600 padded=38993920 total=545914880
+Q3_PAD112_CACHE blk.14.ffn_gate.weight native=38297600 padded=38993920 total=584908800
+Q3_PAD112_CACHE blk.14.ffn_up.weight native=38297600 padded=38993920 total=623902720
+Q3_PAD112_CACHE blk.15.ffn_gate.weight native=38297600 padded=38993920 total=662896640
+Q3_PAD112_CACHE blk.15.ffn_up.weight native=38297600 padded=38993920 total=701890560
+Q3_PAD112_CACHE blk.16.ffn_gate.weight native=38297600 padded=38993920 total=740884480
+Q3_PAD112_CACHE blk.16.ffn_up.weight native=38297600 padded=38993920 total=779878400
+Q3_PAD112_CACHE blk.17.ffn_gate.weight native=38297600 padded=38993920 total=818872320
+Q3_PAD112_CACHE blk.17.ffn_up.weight native=38297600 padded=38993920 total=857866240
+Q3_PAD112_CACHE blk.18.ffn_gate.weight native=38297600 padded=38993920 total=896860160
+Q3_PAD112_CACHE blk.18.ffn_up.weight native=38297600 padded=38993920 total=935854080
+Q3_PAD112_CACHE blk.19.ffn_gate.weight native=38297600 padded=38993920 total=974848000
+Q3_PAD112_CACHE blk.19.ffn_up.weight native=38297600 padded=38993920 total=1013841920
+Q3_PAD112_CACHE blk.20.ffn_gate.weight native=38297600 padded=38993920 total=1052835840
+Q3_PAD112_CACHE blk.20.ffn_up.weight native=38297600 padded=38993920 total=1091829760
+Q3_PAD112_CACHE blk.22.ffn_gate.weight native=38297600 padded=38993920 total=1130823680
+Q3_PAD112_CACHE blk.22.ffn_up.weight native=38297600 padded=38993920 total=1169817600
+Q3_PAD112_CACHE blk.23.ffn_gate.weight native=38297600 padded=38993920 total=1208811520
+Q3_PAD112_CACHE blk.23.ffn_up.weight native=38297600 padded=38993920 total=1247805440
+Q3_PAD112_CACHE blk.24.ffn_gate.weight native=38297600 padded=38993920 total=1286799360
+Q3_PAD112_CACHE blk.24.ffn_up.weight native=38297600 padded=38993920 total=1325793280
+Q3_PAD112_CACHE blk.25.ffn_gate.weight native=38297600 padded=38993920 total=1364787200
+Q3_PAD112_CACHE blk.25.ffn_up.weight native=38297600 padded=38993920 total=1403781120
+Q3_PAD112_CACHE blk.26.ffn_gate.weight native=38297600 padded=38993920 total=1442775040
+Q3_PAD112_CACHE blk.26.ffn_up.weight native=38297600 padded=38993920 total=1481768960
+Q3_PAD112_CACHE blk.27.ffn_gate.weight native=38297600 padded=38993920 total=1520762880
+Q3_PAD112_CACHE blk.27.ffn_up.weight native=38297600 padded=38993920 total=1559756800
+Q3_PAD112_CACHE blk.28.ffn_gate.weight native=38297600 padded=38993920 total=1598750720
+Q3_PAD112_CACHE blk.28.ffn_up.weight native=38297600 padded=38993920 total=1637744640
+Q3_PAD112_CACHE blk.29.ffn_gate.weight native=38297600 padded=38993920 total=1676738560
+Q3_PAD112_CACHE blk.29.ffn_up.weight native=38297600 padded=38993920 total=1715732480
+Q3_PAD112_CACHE blk.30.ffn_gate.weight native=38297600 padded=38993920 total=1754726400
+Q3_PAD112_CACHE blk.30.ffn_up.weight native=38297600 padded=38993920 total=1793720320
+Q3_PAD112_CACHE blk.31.ffn_gate.weight native=38297600 padded=38993920 total=1832714240
+Q3_PAD112_CACHE blk.31.ffn_up.weight native=38297600 padded=38993920 total=1871708160
+Q3_PAD112_CACHE blk.32.ffn_gate.weight native=38297600 padded=38993920 total=1910702080
+Q3_PAD112_CACHE blk.32.ffn_up.weight native=38297600 padded=38993920 total=1949696000
+Q3_PAD112_CACHE blk.33.ffn_gate.weight native=38297600 padded=38993920 total=1988689920
+Q3_PAD112_CACHE blk.33.ffn_up.weight native=38297600 padded=38993920 total=2027683840
+Q3_PAD112_CACHE blk.34.ffn_gate.weight native=38297600 padded=38993920 total=2066677760
+Q3_PAD112_CACHE blk.34.ffn_up.weight native=38297600 padded=38993920 total=2105671680
+Q3_PAD112_CACHE blk.35.ffn_gate.weight native=38297600 padded=38993920 total=2144665600
+Q3_PAD112_CACHE blk.35.ffn_up.weight native=38297600 padded=38993920 total=2183659520
+Q3_PAD112_CACHE blk.36.ffn_gate.weight native=38297600 padded=38993920 total=2222653440
+Q3_PAD112_CACHE blk.36.ffn_up.weight native=38297600 padded=38993920 total=2261647360
+Q3_PAD112_CACHE blk.37.ffn_gate.weight native=38297600 padded=38993920 total=2300641280
+Q3_PAD112_CACHE blk.37.ffn_up.weight native=38297600 padded=38993920 total=2339635200
+Q3_PAD112_CACHE blk.38.ffn_gate.weight native=38297600 padded=38993920 total=2378629120
+Q3_PAD112_CACHE blk.38.ffn_up.weight native=38297600 padded=38993920 total=2417623040
+Q3_PAD112_CACHE blk.39.ffn_gate.weight native=38297600 padded=38993920 total=2456616960
+Q3_PAD112_CACHE blk.39.ffn_up.weight native=38297600 padded=38993920 total=2495610880
+Q3_PAD112_CACHE blk.40.ffn_gate.weight native=38297600 padded=38993920 total=2534604800
+Q3_PAD112_CACHE blk.40.ffn_up.weight native=38297600 padded=38993920 total=2573598720
+Q3_PAD112_CACHE blk.41.ffn_gate.weight native=38297600 padded=38993920 total=2612592640
+Q3_PAD112_CACHE blk.41.ffn_up.weight native=38297600 padded=38993920 total=2651586560
+Q3_PAD112_CACHE blk.43.ffn_gate.weight native=38297600 padded=38993920 total=2690580480
+Q3_PAD112_CACHE blk.43.ffn_up.weight native=38297600 padded=38993920 total=2729574400
+Q3_PAD112_CACHE blk.45.ffn_gate.weight native=38297600 padded=38993920 total=2768568320
+Q3_PAD112_CACHE blk.45.ffn_up.weight native=38297600 padded=38993920 total=2807562240
+Q3_PAD112_CACHE blk.47.ffn_gate.weight native=38297600 padded=38993920 total=2846556160
+Q3_PAD112_CACHE blk.47.ffn_up.weight native=38297600 padded=38993920 total=2885550080
+Q3_PAD112_CACHE blk.51.ffn_gate.weight native=38297600 padded=38993920 total=2924544000
+Q3_PAD112_CACHE blk.51.ffn_up.weight native=38297600 padded=38993920 total=2963537920
+Q3_PAD112_CACHE blk.55.ffn_gate.weight native=38297600 padded=38993920 total=3002531840
+Q3_PAD112_CACHE blk.55.ffn_up.weight native=38297600 padded=38993920 total=3041525760
+BACKEND_PATH_OK ${WORKSPACE}/isolated/q3-pad112/host-arena/bin/libggml-vulkan.so.0.27.0
+DRIVER_PATH_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+0.11.808.085 I common_speculative_init_result: creating MTP draft context against the target model '${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf'
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 4216
+ the eventsACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 5879
+ that ledACCEPTED_TOKEN 310
+ toACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ AugustACCEPTED_TOKEN 350
+usACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+FULL_MODEL_WARM tokens=17 time_us=96547304353
+
+TheACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 66900
+ JuliusACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 303
+ Caesar inACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 19
+ 4ACCEPTED_TOKEN 19
+ACCEPTED_TOKEN 17501
+4 BCACCEPTED_TOKEN 12495
+ markedACCEPTED_TOKEN 279
+ theVERIFY_AB cols=2 index=0 mode=pad start_us=96547688226 wall_us=40210 cpu_ns=17461983 position=65
+ACCEPTED_TOKEN 6941
+ACCEPTED_TOKEN 314
+ beginning ofVERIFY_AB cols=2 index=1 mode=control start_us=96547759911 wall_us=34227 cpu_ns=16338581 position=67
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 4031
+ a periodVERIFY_AB cols=2 index=2 mode=control start_us=96547838894 wall_us=13389 cpu_ns=12528437 position=69
+ACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 4788
+ politicalVERIFY_AB cols=2 index=3 mode=pad start_us=96547890105 wall_us=37263 cpu_ns=18009871 position=71
+ACCEPTED_TOKEN 53442
+ACCEPTED_TOKEN 303
+ instability inVERIFY_AB cols=2 index=4 mode=pad start_us=96547957334 wall_us=46537 cpu_ns=20299173 position=73
+ACCEPTED_TOKEN 21047
+ACCEPTED_TOKEN 13
+ Rome.VERIFY_AB cols=2 index=5 mode=control start_us=96548038983 wall_us=38903 cpu_ns=16732820 position=75
+ACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 579
+ Caesar'sVERIFY_AB cols=2 index=6 mode=control start_us=96548105536 wall_us=35396 cpu_ns=16366064 position=77
+ACCEPTED_TOKEN 46706
+ assassinationVERIFY_AB cols=2 index=7 mode=pad start_us=96548168549 wall_us=40691 cpu_ns=17635871 position=78
+ACCEPTED_TOKEN 557
+ wasVERIFY_AB cols=2 index=8 mode=pad start_us=96548225879 wall_us=18997 cpu_ns=15837286 position=79
+ACCEPTED_TOKEN 11354
+ carriedVERIFY_AB cols=2 index=9 mode=control start_us=96548283257 wall_us=35731 cpu_ns=15274939 position=80
+ACCEPTED_TOKEN 680
+ outACCEPTED_TOKEN 539
+ byVERIFY_AB cols=2 index=10 mode=control start_us=96548342111 wall_us=27158 cpu_ns=14574075 position=82
+ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 1809
+ groupVERIFY_AB cols=2 index=11 mode=pad start_us=96548391101 wall_us=38820 cpu_ns=17644976 position=84
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 37632
+ of senatorsVERIFY_AB cols=2 index=12 mode=control start_us=96548459894 wall_us=39213 cpu_ns=16247520 position=86
+ACCEPTED_TOKEN 852
+ACCEPTED_TOKEN 36229
+ who fearedVERIFY_AB cols=2 index=13 mode=pad start_us=96548522362 wall_us=35432 cpu_ns=17953718 position=88
+ACCEPTED_TOKEN 780
+ hisVERIFY_AB cols=2 index=14 mode=pad start_us=96548577682 wall_us=47362 cpu_ns=21337226 position=89
+ACCEPTED_TOKEN 7578
+ growingACCEPTED_TOKEN 2279
+ powerVERIFY_AB cols=2 index=15 mode=control start_us=96548644120 wall_us=18955 cpu_ns=13816029 position=91
+ACCEPTED_TOKEN 13
+.VERIFY_AB cols=2 index=16 mode=pad start_us=96548693926 wall_us=19234 cpu_ns=16001498 position=92
+ACCEPTED_TOKEN 4486
+ AfterVERIFY_AB cols=2 index=17 mode=control start_us=96548742560 wall_us=33691 cpu_ns=14149913 position=93
+ACCEPTED_TOKEN 780
+ACCEPTED_TOKEN 4397
+ his deathVERIFY_AB cols=2 index=18 mode=control start_us=96548800995 wall_us=40770 cpu_ns=19379959 position=95
+ACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aVERIFY_AB cols=2 index=19 mode=pad start_us=96548886106 wall_us=46329 cpu_ns=15673127 position=97
+ACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ struggleVERIFY_AB cols=2 index=20 mode=control start_us=96548971112 wall_us=35436 cpu_ns=15027660 position=99
+ACCEPTED_TOKEN 58145
+ eruptedACCEPTED_TOKEN 4082
+ amongVERIFY_AB cols=2 index=21 mode=pad start_us=96549030731 wall_us=48879 cpu_ns=20524279 position=101
+ACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 87194
+ heirsVERIFY_AB cols=2 index=22 mode=pad start_us=96549098366 wall_us=22967 cpu_ns=15903195 position=103
+ACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 67695
+ generalsVERIFY_AB cols=2 index=23 mode=control start_us=96549172153 wall_us=35174 cpu_ns=16965305 position=105
+ACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+VERIFY_AB cols=2 index=24 mode=pad start_us=96549254913 wall_us=45024 cpu_ns=21865296 position=107
+ACCEPTED_TOKEN 3833
+OneVERIFY_AB cols=2 index=25 mode=control start_us=96549318647 wall_us=27319 cpu_ns=15687639 position=108
+ACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theVERIFY_AB cols=2 index=26 mode=control start_us=96549377124 wall_us=31853 cpu_ns=15775405 position=110
+ACCEPTED_TOKEN 1328
+ACCEPTED_TOKEN 12041
+ key figuresVERIFY_AB cols=2 index=27 mode=pad start_us=96549435332 wall_us=36123 cpu_ns=15720592 position=112
+ACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 411
+ thisVERIFY_AB cols=2 index=28 mode=pad start_us=96549501735 wall_us=34571 cpu_ns=17403911 position=114
+ACCEPTED_TOKEN 2279
+ powerVERIFY_AB cols=2 index=29 mode=control start_us=96549558286 wall_us=39754 cpu_ns=15818747 position=115
+ACCEPTED_TOKEN 14230
+ struggleACCEPTED_TOKEN 557
+ wasVERIFY_AB cols=2 index=30 mode=control start_us=96549624628 wall_us=29603 cpu_ns=14903818 position=117
+ACCEPTED_TOKEN 4246
+ACCEPTED_TOKEN 93290
+ Mark AntonyVERIFY_AB cols=2 index=31 mode=pad start_us=96549708135 wall_us=31052 cpu_ns=15723693 position=119
+ACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aVERIFY_AB cols=2 index=32 mode=pad start_us=96549768584 wall_us=37944 cpu_ns=16813950 position=121
+ACCEPTED_TOKEN 3160
+ACCEPTED_TOKEN 29842
+ close allyVERIFY_AB cols=2 index=33 mode=control start_us=96549848834 wall_us=38416 cpu_ns=14963643 position=123
+ACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 51852
+ CaesarVERIFY_AB cols=2 index=34 mode=control start_us=96549923641 wall_us=54205 cpu_ns=21241765 position=125
+ACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 93290
+ AntonyVERIFY_AB cols=2 index=35 mode=pad start_us=96550003176 wall_us=30734 cpu_ns=16521354 position=127
+ACCEPTED_TOKEN 14661
+ initiallyVERIFY_AB cols=2 index=36 mode=control start_us=96550072067 wall_us=22488 cpu_ns=13847757 position=128
+ACCEPTED_TOKEN 13668
+ controlledVERIFY_AB cols=2 index=37 mode=pad start_us=96550127598 wall_us=33281 cpu_ns=16938042 position=129
+ACCEPTED_TOKEN 1691
+ muchVERIFY_AB cols=2 index=38 mode=pad start_us=96550182927 wall_us=37673 cpu_ns=17918969 position=130
+ACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theVERIFY_AB cols=2 index=39 mode=control start_us=96550249585 wall_us=26664 cpu_ns=14627124 position=132
+ACCEPTED_TOKEN 22426
+ easternVERIFY_AB cols=2 index=40 mode=control start_us=96550305156 wall_us=20422 cpu_ns=12982476 position=133
+ACCEPTED_TOKEN 919
+ partVERIFY_AB cols=2 index=41 mode=pad start_us=96550371741 wall_us=59302 cpu_ns=17186748 position=134
+ACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theVERIFY_AB cols=2 index=42 mode=pad start_us=96550462699 wall_us=53332 cpu_ns=17495258 position=136
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=43 mode=control start_us=96550562170 wall_us=45942 cpu_ns=13959817 position=138
+ACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 2583
+ includingVERIFY_AB cols=2 index=44 mode=control start_us=96550638288 wall_us=41617 cpu_ns=18043174 position=140
+ACCEPTED_TOKEN 14437
+ACCEPTED_TOKEN 13
+ Egypt.VERIFY_AB cols=2 index=45 mode=pad start_us=96550716015 wall_us=67952 cpu_ns=19415538 position=142
+ACCEPTED_TOKEN 4213
+ HoweverACCEPTED_TOKEN 11
+,VERIFY_AB cols=2 index=46 mode=pad start_us=96550818154 wall_us=49385 cpu_ns=17302486 position=144
+ACCEPTED_TOKEN 551
+ heACCEPTED_TOKEN 4970
+ soonVERIFY_AB cols=2 index=47 mode=control start_us=96550913042 wall_us=44206 cpu_ns=15572773 position=146
+ACCEPTED_TOKEN 1669
+ foundVERIFY_AB cols=2 index=48 mode=pad start_us=96550994504 wall_us=52318 cpu_ns=18529225 position=147
+ACCEPTED_TOKEN 5387
+ himselfACCEPTED_TOKEN 303
+ inVERIFY_AB cols=2 index=49 mode=control start_us=96551078785 wall_us=51881 cpu_ns=15424655 position=149
+ACCEPTED_TOKEN 11712
+ACCEPTED_TOKEN 440
+ conflict withVERIFY_AB cols=2 index=50 mode=control start_us=96551166114 wall_us=24989 cpu_ns=14809161 position=151
+ACCEPTED_TOKEN 4756
+ OctACCEPTED_TOKEN 57177
+avianVERIFY_AB cols=2 index=51 mode=pad start_us=96551227229 wall_us=38979 cpu_ns=17180991 position=153
+ACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 51852
+ CaesarVERIFY_AB cols=2 index=52 mode=pad start_us=96551280027 wall_us=27851 cpu_ns=15655890 position=155
+ACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 17295
+ adoptedVERIFY_AB cols=2 index=53 mode=control start_us=96551335712 wall_us=20163 cpu_ns=13713927 position=157
+ACCEPTED_TOKEN 4292
+ sonVERIFY_AB cols=2 index=54 mode=control start_us=96551385437 wall_us=63824 cpu_ns=17865635 position=158
+ACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 48745
+ heirVERIFY_AB cols=2 index=55 mode=pad start_us=96551475299 wall_us=33947 cpu_ns=16683616 position=160
+ACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+VERIFY_AB cols=2 index=56 mode=pad start_us=96551528217 wall_us=24937 cpu_ns=16139167 position=162
+ACCEPTED_TOKEN 17514
+OctACCEPTED_TOKEN 57177
+avianVERIFY_AB cols=2 index=57 mode=control start_us=96551575516 wall_us=24544 cpu_ns=14256924 position=164
+ACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 852
+ whoVERIFY_AB cols=2 index=58 mode=control start_us=96551623569 wall_us=55001 cpu_ns=14937969 position=166
+ACCEPTED_TOKEN 1000
+ wouldACCEPTED_TOKEN 2843
+ laterVERIFY_AB cols=2 index=59 mode=pad start_us=96551701960 wall_us=46490 cpu_ns=18362857 position=168
+ACCEPTED_TOKEN 3512
+ACCEPTED_TOKEN 3750
+ become knownVERIFY_AB cols=2 index=60 mode=pad start_us=96551786907 wall_us=27083 cpu_ns=17709689 position=170
+ACCEPTED_TOKEN 430
+ACCEPTED_TOKEN 5963
+ as AugustVERIFY_AB cols=2 index=61 mode=control start_us=96551848424 wall_us=14141 cpu_ns=10724172 position=172
+ACCEPTED_TOKEN 350
+usACCEPTED_TOKEN 11
+,VERIFY_AB cols=2 index=62 mode=control start_us=96551904788 wall_us=24015 cpu_ns=14475748 position=174
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 264
+ was aVERIFY_AB cols=2 index=63 mode=pad start_us=96551957227 wall_us=36474 cpu_ns=17710134 position=176
+ACCEPTED_TOKEN 24717
+ skilledVERIFY_AB cols=2 index=64 mode=pad start_us=96552013774 wall_us=15636 cpu_ns=14976183 position=177
+ACCEPTED_TOKEN 34747
+ politicianACCEPTED_TOKEN 321
+ andVERIFY_AB cols=2 index=65 mode=control start_us=96552066585 wall_us=28907 cpu_ns=14672281 position=179
+ACCEPTED_TOKEN 6079
+ACCEPTED_TOKEN 7410
+ military leaderVERIFY_AB cols=2 index=66 mode=control start_us=96552127188 wall_us=33114 cpu_ns=16509557 position=181
+ACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 1216
+ HeVERIFY_AB cols=2 index=67 mode=pad start_us=96552185051 wall_us=41258 cpu_ns=18161881 position=183
+ACCEPTED_TOKEN 5964
+ quicklyACCEPTED_TOKEN 17622
+ gainedVERIFY_AB cols=2 index=68 mode=control start_us=96552243655 wall_us=30112 cpu_ns=15980197 position=185
+ACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 1761
+ supportVERIFY_AB cols=2 index=69 mode=pad start_us=96552311327 wall_us=21296 cpu_ns=17953218 position=187
+ACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theVERIFY_AB cols=2 index=70 mode=pad start_us=96552380415 wall_us=50191 cpu_ns=20369318 position=189
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 9598
+ Roman SenateVERIFY_AB cols=2 index=71 mode=control start_us=96552467107 wall_us=30359 cpu_ns=13818214 position=191
+ACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 279
+ theVERIFY_AB cols=2 index=72 mode=pad start_us=96552520723 wall_us=24670 cpu_ns=17454172 position=193
+ACCEPTED_TOKEN 1208
+ACCEPTED_TOKEN 314
+ people ofVERIFY_AB cols=2 index=73 mode=control start_us=96552578130 wall_us=8133 cpu_ns=7834601 position=195
+ACCEPTED_TOKEN 21047
+ACCEPTED_TOKEN 13
+ Rome.VERIFY_AB cols=2 index=74 mode=control start_us=96552619343 wall_us=10341 cpu_ns=9739132 position=197
+ACCEPTED_TOKEN 733
+ InVERIFY_AB cols=2 index=75 mode=pad start_us=96552659464 wall_us=8154 cpu_ns=7844492 position=198
+ACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 18
+ 3VERIFY_AB cols=2 index=76 mode=pad start_us=96552698453 wall_us=8284 cpu_ns=7959307 position=200
+ACCEPTED_TOKEN 16
+ACCEPTED_TOKEN 17501
+1 BCVERIFY_AB cols=2 index=77 mode=control start_us=96552737697 wall_us=7919 cpu_ns=7556183 position=202
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 4756
+, OctVERIFY_AB cols=2 index=78 mode=control start_us=96552797325 wall_us=45039 cpu_ns=17963505 position=204
+ACCEPTED_TOKEN 57177
+ACCEPTED_TOKEN 22559
+avian defeatedVERIFY_AB cols=2 index=79 mode=pad start_us=96552878574 wall_us=34635 cpu_ns=17184488 position=206
+ACCEPTED_TOKEN 93290
+ACCEPTED_TOKEN 321
+ Antony andVERIFY_AB cols=2 index=80 mode=control start_us=96552941476 wall_us=37150 cpu_ns=18834268 position=208
+ACCEPTED_TOKEN 780
+ hisVERIFY_AB cols=2 index=81 mode=pad start_us=96553016147 wall_us=25257 cpu_ns=18115480 position=209
+ACCEPTED_TOKEN 29842
+ACCEPTED_TOKEN 11
+ ally,VERIFY_AB cols=2 index=82 mode=pad start_us=96553078793 wall_us=31994 cpu_ns=17938348 position=211
+ACCEPTED_TOKEN 34809
+ACCEPTED_TOKEN 445
+ CleopVERIFY_AB cols=2 index=83 mode=control start_us=96553139511 wall_us=12012 cpu_ns=9930220 position=213
+ACCEPTED_TOKEN 38249
+ACCEPTED_TOKEN 11
+atra,VERIFY_AB cols=2 index=84 mode=control start_us=96553184184 wall_us=7196 cpu_ns=6882086 position=215
+ACCEPTED_TOKEN 303
+ACCEPTED_TOKEN 279
+ in theVERIFY_AB cols=2 index=85 mode=pad start_us=96553224651 wall_us=7952 cpu_ns=7630667 position=217
+ACCEPTED_TOKEN 15641
+ACCEPTED_TOKEN 314
+ Battle ofVERIFY_AB cols=2 index=86 mode=pad start_us=96553263953 wall_us=7941 cpu_ns=7594231 position=219
+ACCEPTED_TOKEN 3115
+ACCEPTED_TOKEN 2280
+ ActiumVERIFY_AB cols=2 index=87 mode=control start_us=96553303651 wall_us=7425 cpu_ns=7065230 position=221
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 1061
+. ThisVERIFY_AB cols=2 index=88 mode=pad start_us=96553344021 wall_us=7982 cpu_ns=7674130 position=223
+ACCEPTED_TOKEN 12200
+ACCEPTED_TOKEN 12495
+ victory markedVERIFY_AB cols=2 index=89 mode=control start_us=96553383534 wall_us=7653 cpu_ns=7331645 position=225
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 809
+ the endVERIFY_AB cols=2 index=90 mode=control start_us=96553423236 wall_us=6802 cpu_ns=6478188 position=227
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theVERIFY_AB cols=2 index=91 mode=pad start_us=96553463435 wall_us=8028 cpu_ns=7710228 position=229
+ACCEPTED_TOKEN 2279
+ powerVERIFY_AB cols=2 index=92 mode=control start_us=96553502237 wall_us=6593 cpu_ns=6259268 position=230
+ACCEPTED_TOKEN 14230
+ACCEPTED_TOKEN 321
+ struggle andVERIFY_AB cols=2 index=93 mode=pad start_us=96553542831 wall_us=7600 cpu_ns=7228925 position=232
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 6941
+ the beginningVERIFY_AB cols=2 index=94 mode=pad start_us=96553582632 wall_us=7758 cpu_ns=7438959 position=234
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theVERIFY_AB cols=2 index=95 mode=control start_us=96553621833 wall_us=6680 cpu_ns=6372470 position=236
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=96 mode=control start_us=96553661722 wall_us=9447 cpu_ns=9130141 position=238
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+VERIFY_AB cols=2 index=97 mode=pad start_us=96553701594 wall_us=7843 cpu_ns=7516423 position=240
+ACCEPTED_TOKEN 5836
+ACCEPTED_TOKEN 780
+After hisVERIFY_AB cols=2 index=98 mode=pad start_us=96553740695 wall_us=7863 cpu_ns=7528151 position=242
+ACCEPTED_TOKEN 12200
+ACCEPTED_TOKEN 11
+ victory,VERIFY_AB cols=2 index=99 mode=control start_us=96553779608 wall_us=6717 cpu_ns=6424177 position=244
+ACCEPTED_TOKEN 4756
+ACCEPTED_TOKEN 57177
+ OctavianVERIFY_AB cols=2 index=100 mode=control start_us=96553818863 wall_us=6757 cpu_ns=6457268 position=246
+ACCEPTED_TOKEN 3738
+ACCEPTED_TOKEN 279
+ took theVERIFY_AB cols=2 index=101 mode=pad start_us=96553857765 wall_us=7856 cpu_ns=7573380 position=248
+ACCEPTED_TOKEN 2192
+ACCEPTED_TOKEN 314
+ title ofVERIFY_AB cols=2 index=102 mode=pad start_us=96553896026 wall_us=7843 cpu_ns=7512748 position=250
+ACCEPTED_TOKEN 5963
+ACCEPTED_TOKEN 350
+ AugustusVERIFY_AB cols=2 index=103 mode=control start_us=96553933864 wall_us=6666 cpu_ns=6383351 position=252
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 864
+, whichVERIFY_AB cols=2 index=104 mode=pad start_us=96553971648 wall_us=7704 cpu_ns=7458987 position=254
+ACCEPTED_TOKEN 8526
+ACCEPTED_TOKEN 328
+ meant "VERIFY_AB cols=2 index=105 mode=control start_us=96554009183 wall_us=10136 cpu_ns=9805618 position=256
+ACCEPTED_TOKEN 85
+vVERIFY_AB cols=2 index=106 mode=control start_us=96554049931 wall_us=6721 cpu_ns=6443582 position=257
+ACCEPTED_TOKEN 772
+ACCEPTED_TOKEN 470
+enerableVERIFY_AB cols=2 index=107 mode=pad start_us=96554087458 wall_us=7639 cpu_ns=7415937 position=259
+ACCEPTED_TOKEN 1
+ACCEPTED_TOKEN 466
+" orVERIFY_AB cols=2 index=108 mode=pad start_us=96554124459 wall_us=7645 cpu_ns=7429733 position=261
+ACCEPTED_TOKEN 328
+ACCEPTED_TOKEN 91910
+ "majVERIFY_AB cols=2 index=109 mode=control start_us=96554161445 wall_us=7074 cpu_ns=6847809 position=263
+ACCEPTED_TOKEN 9534
+ACCEPTED_TOKEN 1149
+estic."VERIFY_AB cols=2 index=110 mode=control start_us=96554198454 wall_us=6610 cpu_ns=6389953 position=265
+ACCEPTED_TOKEN 1216
+ACCEPTED_TOKEN 9272
+ He establishedVERIFY_AB cols=2 index=111 mode=pad start_us=96554235267 wall_us=7807 cpu_ns=7534150 position=267
+ACCEPTED_TOKEN 264
+ aVERIFY_AB cols=2 index=112 mode=control start_us=96554271947 wall_us=6426 cpu_ns=6169481 position=268
+ACCEPTED_TOKEN 491
+ACCEPTED_TOKEN 1304
+ new formVERIFY_AB cols=2 index=113 mode=pad start_us=96554308869 wall_us=7719 cpu_ns=7511295 position=270
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 2936
+ of governmentVERIFY_AB cols=2 index=114 mode=pad start_us=96554345340 wall_us=7703 cpu_ns=7515734 position=272
+ACCEPTED_TOKEN 3750
+ knownVERIFY_AB cols=2 index=115 mode=control start_us=96554381512 wall_us=6523 cpu_ns=6317848 position=273
+ACCEPTED_TOKEN 430
+ACCEPTED_TOKEN 279
+ as theVERIFY_AB cols=2 index=116 mode=pad start_us=96554417465 wall_us=7713 cpu_ns=7514350 position=275
+ACCEPTED_TOKEN 43051
+ACCEPTED_TOKEN 344
+ PrincipateVERIFY_AB cols=2 index=117 mode=control start_us=96554453649 wall_us=6661 cpu_ns=6411856 position=277
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 864
+, whichVERIFY_AB cols=2 index=118 mode=control start_us=96554490033 wall_us=6652 cpu_ns=6455926 position=279
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 264
+ was aVERIFY_AB cols=2 index=119 mode=pad start_us=96554526208 wall_us=7619 cpu_ns=7419504 position=281
+ACCEPTED_TOKEN 10286
+ACCEPTED_TOKEN 314
+ combination ofVERIFY_AB cols=2 index=120 mode=control start_us=96554562421 wall_us=6475 cpu_ns=6273574 position=283
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 83079
+ a monarchyVERIFY_AB cols=2 index=121 mode=pad start_us=96554598592 wall_us=7704 cpu_ns=7509951 position=285
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 264
+ and aVERIFY_AB cols=2 index=122 mode=pad start_us=96554634763 wall_us=7698 cpu_ns=7492939 position=287
+ACCEPTED_TOKEN 33300
+ACCEPTED_TOKEN 13
+ republic.VERIFY_AB cols=2 index=123 mode=control start_us=96554670968 wall_us=6646 cpu_ns=6411294 position=289
+ACCEPTED_TOKEN 5963
+ACCEPTED_TOKEN 350
+ AugustusVERIFY_AB cols=2 index=124 mode=pad start_us=96554707305 wall_us=7817 cpu_ns=7617516 position=291
+ACCEPTED_TOKEN 17852
+ maintainedVERIFY_AB cols=2 index=125 mode=control start_us=96554743380 wall_us=6492 cpu_ns=6286859 position=292
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 10771
+ the appearanceVERIFY_AB cols=2 index=126 mode=control start_us=96554779403 wall_us=6515 cpu_ns=6314207 position=294
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 264
+ of aVERIFY_AB cols=2 index=127 mode=pad start_us=96554815505 wall_us=7876 cpu_ns=7660615 position=296
+ACCEPTED_TOKEN 33300
+ACCEPTED_TOKEN 11
+ republic,VERIFY_AB cols=2 index=128 mode=control start_us=96554851836 wall_us=6667 cpu_ns=6448923 position=298
+ACCEPTED_TOKEN 694
+ACCEPTED_TOKEN 303
+ but inVERIFY_AB cols=2 index=129 mode=pad start_us=96554888239 wall_us=7694 cpu_ns=7496365 position=300
+ACCEPTED_TOKEN 8464
+ACCEPTED_TOKEN 11
+ reality,VERIFY_AB cols=2 index=130 mode=pad start_us=96554924454 wall_us=7726 cpu_ns=7519418 position=302
+ACCEPTED_TOKEN 551
+ACCEPTED_TOKEN 5467
+ he heldVERIFY_AB cols=2 index=131 mode=control start_us=96554960923 wall_us=7219 cpu_ns=6979039 position=304
+ACCEPTED_TOKEN 660
+ACCEPTED_TOKEN 279
+ all theVERIFY_AB cols=2 index=132 mode=pad start_us=96554997408 wall_us=7932 cpu_ns=7736528 position=306
+ACCEPTED_TOKEN 2279
+ACCEPTED_TOKEN 13
+ power.VERIFY_AB cols=2 index=133 mode=control start_us=96555034697 wall_us=6822 cpu_ns=6624433 position=308
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 30425
+
+AugustVERIFY_AB cols=2 index=134 mode=control start_us=96555071087 wall_us=6818 cpu_ns=6605649 position=310
+ACCEPTED_TOKEN 350
+ACCEPTED_TOKEN 557
+us wasVERIFY_AB cols=2 index=135 mode=pad start_us=96555107445 wall_us=7947 cpu_ns=7759951 position=312
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 24717
+ a skilledVERIFY_AB cols=2 index=136 mode=pad start_us=96555143828 wall_us=7923 cpu_ns=7726237 position=314
+ACCEPTED_TOKEN 27183
+ACCEPTED_TOKEN 321
+ administrator andVERIFY_AB cols=2 index=137 mode=control start_us=96555180193 wall_us=6810 cpu_ns=6603012 position=316
+ACCEPTED_TOKEN 264
+ aVERIFY_AB cols=2 index=138 mode=control start_us=96555216388 wall_us=6835 cpu_ns=6644811 position=317
+ACCEPTED_TOKEN 83404
+ visionaryVERIFY_AB cols=2 index=139 mode=pad start_us=96555252502 wall_us=8343 cpu_ns=8134374 position=318
+ACCEPTED_TOKEN 7410
+ACCEPTED_TOKEN 13
+ leader.VERIFY_AB cols=2 index=140 mode=pad start_us=96555288851 wall_us=7715 cpu_ns=7516616 position=320
+ACCEPTED_TOKEN 1216
+ACCEPTED_TOKEN 311
+ He reVERIFY_AB cols=2 index=141 mode=control start_us=96555325116 wall_us=6656 cpu_ns=6413876 position=322
+ACCEPTED_TOKEN 9853
+ACCEPTED_TOKEN 279
+formed theVERIFY_AB cols=2 index=142 mode=control start_us=96555362002 wall_us=6610 cpu_ns=6366060 position=324
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 2936
+ Roman governmentVERIFY_AB cols=2 index=143 mode=pad start_us=96555398369 wall_us=7742 cpu_ns=7554716 position=326
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 9272
+, establishedVERIFY_AB cols=2 index=144 mode=pad start_us=96555434691 wall_us=8903 cpu_ns=8684697 position=328
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 6376
+ a professionalVERIFY_AB cols=2 index=145 mode=control start_us=96555471208 wall_us=6652 cpu_ns=6401764 position=330
+ACCEPTED_TOKEN 13003
+ACCEPTED_TOKEN 11
+ army,VERIFY_AB cols=2 index=146 mode=control start_us=96555507575 wall_us=6628 cpu_ns=6434638 position=332
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 16676
+ and expandedVERIFY_AB cols=2 index=147 mode=pad start_us=96555544096 wall_us=7735 cpu_ns=7551541 position=334
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 30315
+ the empireVERIFY_AB cols=2 index=148 mode=control start_us=96555580258 wall_us=6619 cpu_ns=6404550 position=336
+ACCEPTED_TOKEN 579
+ACCEPTED_TOKEN 23061
+'s bordersVERIFY_AB cols=2 index=149 mode=pad start_us=96555616451 wall_us=8529 cpu_ns=8316044 position=338
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 1216
+. HeVERIFY_AB cols=2 index=150 mode=pad start_us=96555652631 wall_us=8386 cpu_ns=8187076 position=340
+ACCEPTED_TOKEN 1048
+ACCEPTED_TOKEN 31071
+ also initiatedVERIFY_AB cols=2 index=151 mode=control start_us=96555689958 wall_us=7288 cpu_ns=7053086 position=342
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 4031
+ a periodVERIFY_AB cols=2 index=152 mode=pad start_us=96555727041 wall_us=12040 cpu_ns=11846063 position=344
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 8649
+ of peaceVERIFY_AB cols=2 index=153 mode=control start_us=96555763967 wall_us=6677 cpu_ns=6441790 position=346
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 41680
+ and prosperityVERIFY_AB cols=2 index=154 mode=control start_us=96555800093 wall_us=6610 cpu_ns=6416905 position=348
+ACCEPTED_TOKEN 3750
+ACCEPTED_TOKEN 430
+ known asVERIFY_AB cols=2 index=155 mode=pad start_us=96555836407 wall_us=7710 cpu_ns=7479615 position=350
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 67941
+ the PaxVERIFY_AB cols=2 index=156 mode=control start_us=96555872608 wall_us=6551 cpu_ns=6348775 position=352
+ACCEPTED_TOKEN 240398
+ACCEPTED_TOKEN 11
+ Romana,VERIFY_AB cols=2 index=157 mode=pad start_us=96555908864 wall_us=7580 cpu_ns=7381602 position=354
+ACCEPTED_TOKEN 864
+ACCEPTED_TOKEN 34242
+ which lastedVERIFY_AB cols=2 index=158 mode=pad start_us=96555945166 wall_us=7859 cpu_ns=7508079 position=356
+ACCEPTED_TOKEN 364
+ACCEPTED_TOKEN 888
+ for overVERIFY_AB cols=2 index=159 mode=control start_us=96555981727 wall_us=6605 cpu_ns=6408237 position=358
+ACCEPTED_TOKEN 1330
+ACCEPTED_TOKEN 22892
+ two centuriesVERIFY_AB cols=2 index=160 mode=control start_us=96556018507 wall_us=6675 cpu_ns=6375167 position=360
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+VERIFY_AB cols=2 index=161 mode=pad start_us=96556055169 wall_us=7600 cpu_ns=7358539 position=362
+ACCEPTED_TOKEN 623
+ACCEPTED_TOKEN 16198
+In conclusionVERIFY_AB cols=2 index=162 mode=pad start_us=96556091718 wall_us=7919 cpu_ns=7637673 position=364
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 279
+, theVERIFY_AB cols=2 index=163 mode=control start_us=96556128295 wall_us=6721 cpu_ns=6524725 position=366
+ACCEPTED_TOKEN 3712
+ historyVERIFY_AB cols=2 index=164 mode=pad start_us=96556164273 wall_us=7867 cpu_ns=7627615 position=367
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theVERIFY_AB cols=2 index=165 mode=control start_us=96556200588 wall_us=7331 cpu_ns=7100326 position=369
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=166 mode=control start_us=96556236847 wall_us=6488 cpu_ns=6285058 position=371
+ACCEPTED_TOKEN 11690
+ACCEPTED_TOKEN 440
+ begins withVERIFY_AB cols=2 index=167 mode=pad start_us=96556273313 wall_us=7492 cpu_ns=7301279 position=373
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 9704
+ the riseVERIFY_AB cols=2 index=168 mode=pad start_us=96556309530 wall_us=7517 cpu_ns=7312974 position=375
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 5963
+ of AugustVERIFY_AB cols=2 index=169 mode=control start_us=96556345755 wall_us=6499 cpu_ns=6298211 position=377
+ACCEPTED_TOKEN 350
+ACCEPTED_TOKEN 13
+us.VERIFY_AB cols=2 index=170 mode=control start_us=96556381727 wall_us=6395 cpu_ns=6187622 position=379
+ACCEPTED_TOKEN 4486
+ACCEPTED_TOKEN 279
+ After theVERIFY_AB cols=2 index=171 mode=pad start_us=96556418721 wall_us=7991 cpu_ns=7807419 position=381
+ACCEPTED_TOKEN 46706
+ assassinationVERIFY_AB cols=2 index=172 mode=pad start_us=96556455144 wall_us=8109 cpu_ns=7847527 position=382
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 66900
+ of JuliusVERIFY_AB cols=2 index=173 mode=control start_us=96556491654 wall_us=6536 cpu_ns=6337131 position=384
+ACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 11
+ Caesar,VERIFY_AB cols=2 index=174 mode=control start_us=96556528604 wall_us=6622 cpu_ns=6364785 position=386
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 2279
+ a powerVERIFY_AB cols=2 index=175 mode=pad start_us=96556564855 wall_us=7750 cpu_ns=7544327 position=388
+ACCEPTED_TOKEN 14230
+ACCEPTED_TOKEN 58145
+ struggle eruptedVERIFY_AB cols=2 index=176 mode=pad start_us=96556601276 wall_us=7575 cpu_ns=7320537 position=390
+ACCEPTED_TOKEN 4082
+ACCEPTED_TOKEN 780
+ among hisVERIFY_AB cols=2 index=177 mode=control start_us=96556637562 wall_us=6688 cpu_ns=6480410 position=392
+ACCEPTED_TOKEN 87194
+ACCEPTED_TOKEN 321
+ heirs andVERIFY_AB cols=2 index=178 mode=control start_us=96556674310 wall_us=6610 cpu_ns=6407314 position=394
+ACCEPTED_TOKEN 67695
+ACCEPTED_TOKEN 13
+ generals.VERIFY_AB cols=2 index=179 mode=pad start_us=96556710485 wall_us=7704 cpu_ns=7506225 position=396
+ACCEPTED_TOKEN 4756
+ACCEPTED_TOKEN 57177
+ OctavianVERIFY_AB cols=2 index=180 mode=pad start_us=96556746604 wall_us=7480 cpu_ns=7271297 position=398
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 852
+, whoVERIFY_AB cols=2 index=181 mode=control start_us=96556782443 wall_us=7996 cpu_ns=7759498 position=400
+ACCEPTED_TOKEN 1000
+ACCEPTED_TOKEN 2843
+ would laterVERIFY_AB cols=2 index=182 mode=control start_us=96556819881 wall_us=7125 cpu_ns=6922851 position=402
+ACCEPTED_TOKEN 3512
+ACCEPTED_TOKEN 3750
+ become knownVERIFY_AB cols=2 index=183 mode=pad start_us=96556856628 wall_us=7620 cpu_ns=7418751 position=404
+ACCEPTED_TOKEN 430
+ACCEPTED_TOKEN 5963
+ as AugustVERIFY_AB cols=2 index=184 mode=control start_us=96556893380 wall_us=6711 cpu_ns=6511731 position=406
+ACCEPTED_TOKEN 350
+ACCEPTED_TOKEN 11
+us,VERIFY_AB cols=2 index=185 mode=pad start_us=96556930007 wall_us=7500 cpu_ns=7283218 position=408
+ACCEPTED_TOKEN 22559
+ACCEPTED_TOKEN 780
+ defeated hisVERIFY_AB cols=2 index=186 mode=pad start_us=96556966153 wall_us=7789 cpu_ns=7601443 position=410
+ACCEPTED_TOKEN 20129
+ rivalVERIFY_AB cols=2 index=187 mode=control start_us=96557002469 wall_us=6675 cpu_ns=6473739 position=411
+ACCEPTED_TOKEN 4246
+ACCEPTED_TOKEN 93290
+ Mark AntonyVERIFY_AB cols=2 index=188 mode=control start_us=96557038966 wall_us=6760 cpu_ns=6519076 position=413
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 9272
+ and establishedVERIFY_AB cols=2 index=189 mode=pad start_us=96557075519 wall_us=7842 cpu_ns=7644366 position=415
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 12386
+ the RomanVERIFY_AB cols=2 index=190 mode=pad start_us=96557111864 wall_us=7823 cpu_ns=7625012 position=417
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 13
+ Empire.VERIFY_AB cols=2 index=191 mode=control start_us=96557148491 wall_us=6744 cpu_ns=6545034 position=419
+ACCEPTED_TOKEN 5963
+ AugustVERIFY_AB cols=2 index=192 mode=pad start_us=96557184594 wall_us=7827 cpu_ns=7628155 position=420
+ACCEPTED_TOKEN 350
+ACCEPTED_TOKEN 557
+us wasVERIFY_AB cols=2 index=193 mode=control start_us=96557220944 wall_us=6765 cpu_ns=6561714 position=422
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 24717
+ a skilledVERIFY_AB cols=2 index=194 mode=control start_us=96557257256 wall_us=6815 cpu_ns=6614463 position=424
+ACCEPTED_TOKEN 27183
+ACCEPTED_TOKEN 321
+ administrator andVERIFY_AB cols=2 index=195 mode=pad start_us=96557293765 wall_us=7808 cpu_ns=7607215 position=426
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 83404
+ a visionaryVERIFY_AB cols=2 index=196 mode=control start_us=96557330267 wall_us=6664 cpu_ns=6461918 position=428
+ACCEPTED_TOKEN 7410
+ACCEPTED_TOKEN 852
+ leader whoVERIFY_AB cols=2 index=197 mode=pad start_us=96557366694 wall_us=7621 cpu_ns=7413983 position=430
+ACCEPTED_TOKEN 31071
+ initiatedVERIFY_AB cols=2 index=198 mode=pad start_us=96557402958 wall_us=7808 cpu_ns=7608347 position=431
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 4031
+ a periodVERIFY_AB cols=2 index=199 mode=control start_us=96557439010 wall_us=6463 cpu_ns=6262355 position=433
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 8649
+ of peaceVERIFY_AB cols=2 index=200 mode=control start_us=96557475170 wall_us=6567 cpu_ns=6366099 position=435
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 41680
+ and prosperityVERIFY_AB cols=2 index=201 mode=pad start_us=96557511431 wall_us=7818 cpu_ns=7634145 position=437
+ACCEPTED_TOKEN 3750
+ACCEPTED_TOKEN 430
+ known asVERIFY_AB cols=2 index=202 mode=pad start_us=96557547647 wall_us=7761 cpu_ns=7560396 position=439
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 67941
+ the PaxVERIFY_AB cols=2 index=203 mode=control start_us=96557583878 wall_us=6436 cpu_ns=6234963 position=441
+ACCEPTED_TOKEN 240398
+ACCEPTED_TOKEN 13
+ Romana.VERIFY_AB cols=2 index=204 mode=pad start_us=96557620170 wall_us=7394 cpu_ns=7184172 position=443
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheVERIFY_AB cols=2 index=205 mode=control start_us=96557656489 wall_us=6541 cpu_ns=6340419 position=445
+ACCEPTED_TOKEN 12386
+ RomanVERIFY_AB cols=2 index=206 mode=control start_us=96557692564 wall_us=6854 cpu_ns=6658466 position=446
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 557
+ Empire wasVERIFY_AB cols=2 index=207 mode=pad start_us=96557728884 wall_us=7970 cpu_ns=7765500 position=448
+ACCEPTED_TOKEN 799
+ oneVERIFY_AB cols=2 index=208 mode=control start_us=96557765200 wall_us=6857 cpu_ns=6577055 position=449
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theVERIFY_AB cols=2 index=209 mode=pad start_us=96557801689 wall_us=7682 cpu_ns=7470409 position=451
+ACCEPTED_TOKEN 1379
+ACCEPTED_TOKEN 7737
+ most powerfulVERIFY_AB cols=2 index=210 mode=pad start_us=96557838019 wall_us=7614 cpu_ns=7419242 position=453
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 30415
+ and influentialVERIFY_AB cols=2 index=211 mode=control start_us=96557874127 wall_us=6495 cpu_ns=6283673 position=455
+ACCEPTED_TOKEN 945
+ emVERIFY_AB cols=2 index=212 mode=control start_us=96557910374 wall_us=6565 cpu_ns=6322836 position=456
+ACCEPTED_TOKEN 18395
+ACCEPTED_TOKEN 303
+pires inVERIFY_AB cols=2 index=213 mode=pad start_us=96557946714 wall_us=7681 cpu_ns=7473056 position=458
+ACCEPTED_TOKEN 3712
+ACCEPTED_TOKEN 13
+ history.VERIFY_AB cols=2 index=214 mode=pad start_us=96557982979 wall_us=7587 cpu_ns=7393183 position=460
+ACCEPTED_TOKEN 1049
+ACCEPTED_TOKEN 557
+ It wasVERIFY_AB cols=2 index=215 mode=control start_us=96558019839 wall_us=6443 cpu_ns=6232697 position=462
+ACCEPTED_TOKEN 17508
+ACCEPTED_TOKEN 303
+ founded inVERIFY_AB cols=2 index=216 mode=control start_us=96558056298 wall_us=6608 cpu_ns=6381897 position=464
+ACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 17
+ 2VERIFY_AB cols=2 index=217 mode=pad start_us=96558092655 wall_us=7963 cpu_ns=7748490 position=466
+ACCEPTED_TOKEN 22
+ACCEPTED_TOKEN 17501
+7 BCVERIFY_AB cols=2 index=218 mode=pad start_us=96558129026 wall_us=7736 cpu_ns=7535241 position=468
+ACCEPTED_TOKEN 539
+ACCEPTED_TOKEN 5963
+ by AugustVERIFY_AB cols=2 index=219 mode=control start_us=96558165279 wall_us=6607 cpu_ns=6410281 position=470
+ACCEPTED_TOKEN 350
+ACCEPTED_TOKEN 11
+us,VERIFY_AB cols=2 index=220 mode=control start_us=96558201601 wall_us=6563 cpu_ns=6360579 position=472
+ACCEPTED_TOKEN 279
+ theVERIFY_AB cols=2 index=221 mode=pad start_us=96558238114 wall_us=8368 cpu_ns=8136447 position=473
+ACCEPTED_TOKEN 1118
+ACCEPTED_TOKEN 12386
+ first RomanVERIFY_AB cols=2 index=222 mode=pad start_us=96558274566 wall_us=7627 cpu_ns=7412922 position=475
+ACCEPTED_TOKEN 54884
+ACCEPTED_TOKEN 13
+ emperor.VERIFY_AB cols=2 index=223 mode=control start_us=96558310975 wall_us=6560 cpu_ns=6365958 position=477
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 30315
+ The empireVERIFY_AB cols=2 index=224 mode=pad start_us=96558347426 wall_us=7741 cpu_ns=7515055 position=479
+ACCEPTED_TOKEN 34242
+ACCEPTED_TOKEN 364
+ lasted forVERIFY_AB cols=2 index=225 mode=control start_us=96558383739 wall_us=6689 cpu_ns=6491051 position=481
+ACCEPTED_TOKEN 888
+ACCEPTED_TOKEN 220
+ over VERIFY_AB cols=2 index=226 mode=control start_us=96558419955 wall_us=6647 cpu_ns=6454134 position=483
+ACCEPTED_TOKEN 20
+5VERIFY_AB cols=2 index=227 mode=pad start_us=96558456198 wall_us=7516 cpu_ns=7285644 position=484
+ACCEPTED_TOKEN 15
+ACCEPTED_TOKEN 15
+00VERIFY_AB cols=2 index=228 mode=control start_us=96558492896 wall_us=6249 cpu_ns=6040407 position=486
+ACCEPTED_TOKEN 1578
+ACCEPTED_TOKEN 321
+ years andVERIFY_AB cols=2 index=229 mode=pad start_us=96558529346 wall_us=7727 cpu_ns=7509881 position=488
+ACCEPTED_TOKEN 995
+ hadVERIFY_AB cols=2 index=230 mode=pad start_us=96558565545 wall_us=7597 cpu_ns=7401089 position=489
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 4927
+ a significantVERIFY_AB cols=2 index=231 mode=control start_us=96558601820 wall_us=6383 cpu_ns=6184317 position=491
+ACCEPTED_TOKEN 5253
+ACCEPTED_TOKEN 383
+ impact onVERIFY_AB cols=2 index=232 mode=control start_us=96558638152 wall_us=6597 cpu_ns=6355910 position=493
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 4257
+ the developmentVERIFY_AB cols=2 index=233 mode=pad start_us=96558674796 wall_us=7432 cpu_ns=7242010 position=495
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 10550
+ of WesternVERIFY_AB cols=2 index=234 mode=pad start_us=96558711641 wall_us=7376 cpu_ns=7145892 position=497
+ACCEPTED_TOKEN 33760
+ACCEPTED_TOKEN 13
+ civilization.VERIFY_AB cols=2 index=235 mode=control start_us=96558748096 wall_us=6431 cpu_ns=6151664 position=499
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheVERIFY_AB cols=2 index=236 mode=control start_us=96558784311 wall_us=6810 cpu_ns=6573135 position=501
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=237 mode=pad start_us=96558820972 wall_us=7586 cpu_ns=7390991 position=503
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 264
+ was aVERIFY_AB cols=2 index=238 mode=pad start_us=96558857226 wall_us=7566 cpu_ns=7369057 position=505
+ACCEPTED_TOKEN 12401
+ACCEPTED_TOKEN 17435
+ vast territoryVERIFY_AB cols=2 index=239 mode=control start_us=96558893718 wall_us=6331 cpu_ns=6132430 position=507
+ACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 38965
+ that stretchedVERIFY_AB cols=2 index=240 mode=pad start_us=96558930458 wall_us=7462 cpu_ns=7264164 position=509
+ACCEPTED_TOKEN 494
+ACCEPTED_TOKEN 12840
+ from BritainVERIFY_AB cols=2 index=241 mode=control start_us=96558966853 wall_us=6610 cpu_ns=6411234 position=511
+ACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 34407
+ to MesVERIFY_AB cols=2 index=242 mode=control start_us=96559003738 wall_us=9702 cpu_ns=9431145 position=513
+ACCEPTED_TOKEN 85346
+ACCEPTED_TOKEN 206103
+opotamiaVERIFY_AB cols=2 index=243 mode=pad start_us=96559043957 wall_us=7417 cpu_ns=7219178 position=515
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 1049
+. ItVERIFY_AB cols=2 index=244 mode=control start_us=96559080432 wall_us=6325 cpu_ns=6135339 position=517
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 17249
+ was dividedVERIFY_AB cols=2 index=245 mode=pad start_us=96559116921 wall_us=7310 cpu_ns=7118039 position=519
+ACCEPTED_TOKEN 1083
+ACCEPTED_TOKEN 38597
+ into provincesVERIFY_AB cols=2 index=246 mode=pad start_us=96559153626 wall_us=7339 cpu_ns=7140050 position=521
+ACCEPTED_TOKEN 11
+,VERIFY_AB cols=2 index=247 mode=control start_us=96559189464 wall_us=6193 cpu_ns=6004721 position=522
+ACCEPTED_TOKEN 1754
+ACCEPTED_TOKEN 314
+ each ofVERIFY_AB cols=2 index=248 mode=pad start_us=96559225984 wall_us=7301 cpu_ns=7112157 position=524
+ACCEPTED_TOKEN 864
+ACCEPTED_TOKEN 557
+ which wasVERIFY_AB cols=2 index=249 mode=control start_us=96559262378 wall_us=6271 cpu_ns=6081505 position=526
+ACCEPTED_TOKEN 25849
+ACCEPTED_TOKEN 539
+ governed byVERIFY_AB cols=2 index=250 mode=control start_us=96559298747 wall_us=6223 cpu_ns=6030739 position=528
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 12386
+ a RomanVERIFY_AB cols=2 index=251 mode=pad start_us=96559335187 wall_us=7433 cpu_ns=7194121 position=530
+ACCEPTED_TOKEN 3813
+ officialVERIFY_AB cols=2 index=252 mode=control start_us=96559371713 wall_us=6183 cpu_ns=5993167 position=531
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=253 mode=pad start_us=96559408118 wall_us=7252 cpu_ns=7052105 position=533
+ACCEPTED_TOKEN 30315
+ACCEPTED_TOKEN 557
+ empire wasVERIFY_AB cols=2 index=254 mode=pad start_us=96559444857 wall_us=7318 cpu_ns=7127996 position=535
+ACCEPTED_TOKEN 1048
+ACCEPTED_TOKEN 17249
+ also dividedVERIFY_AB cols=2 index=255 mode=control start_us=96559481319 wall_us=6396 cpu_ns=6174879 position=537
+ACCEPTED_TOKEN 1083
+ACCEPTED_TOKEN 1330
+ into twoVERIFY_AB cols=2 index=256 mode=pad start_us=96559518131 wall_us=7621 cpu_ns=7402061 position=539
+ACCEPTED_TOKEN 71592
+ halvesVERIFY_AB cols=2 index=257 mode=control start_us=96559554267 wall_us=6526 cpu_ns=6335893 position=540
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 279
+, theVERIFY_AB cols=2 index=258 mode=control start_us=96559590624 wall_us=6685 cpu_ns=6476084 position=542
+ACCEPTED_TOKEN 10550
+ WesternVERIFY_AB cols=2 index=259 mode=pad start_us=96559626772 wall_us=7757 cpu_ns=7558814 position=543
+ACCEPTED_TOKEN 12386
+ RomanVERIFY_AB cols=2 index=260 mode=control start_us=96559662997 wall_us=6755 cpu_ns=6571114 position=544
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 321
+ Empire andVERIFY_AB cols=2 index=261 mode=pad start_us=96559699806 wall_us=8295 cpu_ns=8095959 position=546
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 17489
+ the EasternVERIFY_AB cols=2 index=262 mode=pad start_us=96559736227 wall_us=7666 cpu_ns=7441252 position=548
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=263 mode=control start_us=96559772502 wall_us=6539 cpu_ns=6356349 position=550
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 864
+, whichVERIFY_AB cols=2 index=264 mode=control start_us=96559808830 wall_us=6439 cpu_ns=6228902 position=552
+ACCEPTED_TOKEN 998
+ACCEPTED_TOKEN 18101
+ were separatedVERIFY_AB cols=2 index=265 mode=pad start_us=96559845620 wall_us=7488 cpu_ns=7285183 position=554
+ACCEPTED_TOKEN 539
+ACCEPTED_TOKEN 279
+ by theVERIFY_AB cols=2 index=266 mode=pad start_us=96559882138 wall_us=7355 cpu_ns=7169825 position=556
+ACCEPTED_TOKEN 59271
+ AdriVERIFY_AB cols=2 index=267 mode=control start_us=96559918066 wall_us=6289 cpu_ns=6098949 position=557
+ACCEPTED_TOKEN 749
+ACCEPTED_TOKEN 14593
+atic SeaVERIFY_AB cols=2 index=268 mode=control start_us=96559954413 wall_us=6327 cpu_ns=6088646 position=559
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+VERIFY_AB cols=2 index=269 mode=pad start_us=96559991111 wall_us=7359 cpu_ns=7139147 position=561
+ACCEPTED_TOKEN 760
+ACCEPTED_TOKEN 12386
+The RomanVERIFY_AB cols=2 index=270 mode=pad start_us=96560027499 wall_us=7348 cpu_ns=7157383 position=563
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 557
+ Empire wasVERIFY_AB cols=2 index=271 mode=control start_us=96560063832 wall_us=6284 cpu_ns=6097093 position=565
+ACCEPTED_TOKEN 264
+ aVERIFY_AB cols=2 index=272 mode=pad start_us=96560100075 wall_us=7248 cpu_ns=7061479 position=566
+ACCEPTED_TOKEN 7309
+ACCEPTED_TOKEN 55941
+ highly centralizedVERIFY_AB cols=2 index=273 mode=control start_us=96560136440 wall_us=6369 cpu_ns=6182354 position=568
+ACCEPTED_TOKEN 1528
+ stateVERIFY_AB cols=2 index=274 mode=control start_us=96560172532 wall_us=6787 cpu_ns=6590809 position=569
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 440
+, withVERIFY_AB cols=2 index=275 mode=pad start_us=96560209010 wall_us=7865 cpu_ns=7623256 position=571
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 54884
+ the emperorVERIFY_AB cols=2 index=276 mode=pad start_us=96560245348 wall_us=7504 cpu_ns=7269773 position=573
+ACCEPTED_TOKEN 506
+ACCEPTED_TOKEN 279
+ at theVERIFY_AB cols=2 index=277 mode=control start_us=96560282070 wall_us=6322 cpu_ns=6121670 position=575
+ACCEPTED_TOKEN 1844
+ACCEPTED_TOKEN 314
+ top ofVERIFY_AB cols=2 index=278 mode=control start_us=96560318574 wall_us=6356 cpu_ns=6154592 position=577
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 27980
+ the hierarchyVERIFY_AB cols=2 index=279 mode=pad start_us=96560355197 wall_us=7436 cpu_ns=7242910 position=579
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=280 mode=pad start_us=96560391985 wall_us=7525 cpu_ns=7257560 position=581
+ACCEPTED_TOKEN 54884
+ACCEPTED_TOKEN 557
+ emperor wasVERIFY_AB cols=2 index=281 mode=control start_us=96560428613 wall_us=6378 cpu_ns=6180290 position=583
+ACCEPTED_TOKEN 8220
+ACCEPTED_TOKEN 364
+ responsible forVERIFY_AB cols=2 index=282 mode=control start_us=96560464931 wall_us=6249 cpu_ns=6062360 position=585
+ACCEPTED_TOKEN 3154
+ACCEPTED_TOKEN 660
+ making allVERIFY_AB cols=2 index=283 mode=pad start_us=96560501207 wall_us=7233 cpu_ns=7045251 position=587
+ACCEPTED_TOKEN 3478
+ majorVERIFY_AB cols=2 index=284 mode=control start_us=96560537332 wall_us=6550 cpu_ns=6350340 position=588
+ACCEPTED_TOKEN 10856
+ACCEPTED_TOKEN 11
+ decisions,VERIFY_AB cols=2 index=285 mode=pad start_us=96560573920 wall_us=7496 cpu_ns=7311402 position=590
+ACCEPTED_TOKEN 2583
+ACCEPTED_TOKEN 6079
+ including militaryVERIFY_AB cols=2 index=286 mode=pad start_us=96560609932 wall_us=7512 cpu_ns=7329273 position=592
+ACCEPTED_TOKEN 11
+,VERIFY_AB cols=2 index=287 mode=control start_us=96560646331 wall_us=6381 cpu_ns=6148529 position=593
+ACCEPTED_TOKEN 4788
+ politicalVERIFY_AB cols=2 index=288 mode=pad start_us=96560682329 wall_us=7301 cpu_ns=7097088 position=594
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=289 mode=control start_us=96560718554 wall_us=6236 cpu_ns=6020518 position=596
+ACCEPTED_TOKEN 6739
+ACCEPTED_TOKEN 12482
+ economic mattersVERIFY_AB cols=2 index=290 mode=control start_us=96560755179 wall_us=6753 cpu_ns=6552969 position=598
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=291 mode=pad start_us=96560791706 wall_us=7904 cpu_ns=7701883 position=600
+ACCEPTED_TOKEN 54884
+ACCEPTED_TOKEN 557
+ emperor wasVERIFY_AB cols=2 index=292 mode=control start_us=96560828168 wall_us=6742 cpu_ns=6556576 position=602
+ACCEPTED_TOKEN 1048
+ACCEPTED_TOKEN 279
+ also theVERIFY_AB cols=2 index=293 mode=pad start_us=96560864936 wall_us=7575 cpu_ns=7378056 position=604
+ACCEPTED_TOKEN 1901
+ headVERIFY_AB cols=2 index=294 mode=pad start_us=96560901360 wall_us=7438 cpu_ns=7225520 position=605
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theVERIFY_AB cols=2 index=295 mode=control start_us=96560937665 wall_us=6319 cpu_ns=6131326 position=607
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 13194
+ Roman religionVERIFY_AB cols=2 index=296 mode=control start_us=96560973958 wall_us=6233 cpu_ns=6049265 position=609
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=297 mode=pad start_us=96561010160 wall_us=7284 cpu_ns=7099142 position=611
+ACCEPTED_TOKEN 551
+ACCEPTED_TOKEN 557
+ he wasVERIFY_AB cols=2 index=298 mode=pad start_us=96561046383 wall_us=7499 cpu_ns=7261737 position=613
+ACCEPTED_TOKEN 6306
+ consideredVERIFY_AB cols=2 index=299 mode=control start_us=96561082783 wall_us=6275 cpu_ns=6071605 position=614
+ACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 381
+ to beVERIFY_AB cols=2 index=300 mode=control start_us=96561119302 wall_us=6208 cpu_ns=6009909 position=616
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 9593
+ a godVERIFY_AB cols=2 index=301 mode=pad start_us=96561155733 wall_us=7323 cpu_ns=7119198 position=618
+ACCEPTED_TOKEN 383
+ onVERIFY_AB cols=2 index=302 mode=pad start_us=96561192079 wall_us=7448 cpu_ns=7244155 position=619
+ACCEPTED_TOKEN 9114
+ACCEPTED_TOKEN 13
+ earth.VERIFY_AB cols=2 index=303 mode=control start_us=96561228239 wall_us=6580 cpu_ns=6363933 position=621
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheVERIFY_AB cols=2 index=304 mode=pad start_us=96561265333 wall_us=7576 cpu_ns=7341525 position=623
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=305 mode=control start_us=96561301964 wall_us=6228 cpu_ns=6044594 position=625
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 264
+ was aVERIFY_AB cols=2 index=306 mode=control start_us=96561338447 wall_us=6358 cpu_ns=6150914 position=627
+ACCEPTED_TOKEN 7309
+ACCEPTED_TOKEN 59360
+ highly militarVERIFY_AB cols=2 index=307 mode=pad start_us=96561374713 wall_us=7297 cpu_ns=7109773 position=629
+ACCEPTED_TOKEN 4384
+isticVERIFY_AB cols=2 index=308 mode=pad start_us=96561410301 wall_us=7346 cpu_ns=7143808 position=630
+ACCEPTED_TOKEN 7975
+ACCEPTED_TOKEN 11
+ society,VERIFY_AB cols=2 index=309 mode=control start_us=96561446567 wall_us=6870 cpu_ns=6661231 position=632
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 279
+ and theVERIFY_AB cols=2 index=310 mode=control start_us=96561483053 wall_us=6832 cpu_ns=6636959 position=634
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 13003
+ Roman armyVERIFY_AB cols=2 index=311 mode=pad start_us=96561519714 wall_us=7947 cpu_ns=7745815 position=636
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 799
+ was oneVERIFY_AB cols=2 index=312 mode=control start_us=96561555976 wall_us=6510 cpu_ns=6285407 position=638
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theVERIFY_AB cols=2 index=313 mode=pad start_us=96561592683 wall_us=7477 cpu_ns=7260755 position=640
+ACCEPTED_TOKEN 1379
+ACCEPTED_TOKEN 7737
+ most powerfulVERIFY_AB cols=2 index=314 mode=pad start_us=96561629771 wall_us=7366 cpu_ns=7163896 position=642
+ACCEPTED_TOKEN 303
+ inVERIFY_AB cols=2 index=315 mode=control start_us=96561666366 wall_us=6289 cpu_ns=6070263 position=643
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 1814
+ the worldVERIFY_AB cols=2 index=316 mode=control start_us=96561703495 wall_us=6274 cpu_ns=6033606 position=645
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=317 mode=pad start_us=96561740949 wall_us=7330 cpu_ns=7121492 position=647
+ACCEPTED_TOKEN 13003
+ACCEPTED_TOKEN 557
+ army wasVERIFY_AB cols=2 index=318 mode=pad start_us=96561778161 wall_us=7312 cpu_ns=7112238 position=649
+ACCEPTED_TOKEN 1801
+ madeVERIFY_AB cols=2 index=319 mode=control start_us=96561815050 wall_us=6220 cpu_ns=6011083 position=650
+ACCEPTED_TOKEN 685
+ACCEPTED_TOKEN 314
+ up ofVERIFY_AB cols=2 index=320 mode=control start_us=96561852090 wall_us=6279 cpu_ns=6069191 position=652
+ACCEPTED_TOKEN 2392
+ legVERIFY_AB cols=2 index=321 mode=pad start_us=96561888221 wall_us=7919 cpu_ns=7707033 position=653
+ACCEPTED_TOKEN 880
+ACCEPTED_TOKEN 11
+ions,VERIFY_AB cols=2 index=322 mode=pad start_us=96561924698 wall_us=8393 cpu_ns=8193262 position=655
+ACCEPTED_TOKEN 864
+ACCEPTED_TOKEN 998
+ which wereVERIFY_AB cols=2 index=323 mode=control start_us=96561960977 wall_us=6522 cpu_ns=6319641 position=657
+ACCEPTED_TOKEN 7896
+ unitsVERIFY_AB cols=2 index=324 mode=control start_us=96561997108 wall_us=6341 cpu_ns=6143671 position=658
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 883
+ of aboutVERIFY_AB cols=2 index=325 mode=pad start_us=96562033729 wall_us=7396 cpu_ns=7203297 position=660
+ACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 20
+ 5VERIFY_AB cols=2 index=326 mode=pad start_us=96562070570 wall_us=7435 cpu_ns=7243776 position=662
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 15
+,0VERIFY_AB cols=2 index=327 mode=control start_us=96562106998 wall_us=6309 cpu_ns=6109357 position=664
+ACCEPTED_TOKEN 15
+ACCEPTED_TOKEN 15
+00VERIFY_AB cols=2 index=328 mode=pad start_us=96562143890 wall_us=7466 cpu_ns=7235878 position=666
+ACCEPTED_TOKEN 14426
+ACCEPTED_TOKEN 13
+ soldiers.VERIFY_AB cols=2 index=329 mode=control start_us=96562180251 wall_us=6248 cpu_ns=6049596 position=668
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 2392
+ The legVERIFY_AB cols=2 index=330 mode=control start_us=96562216789 wall_us=6248 cpu_ns=6057951 position=670
+ACCEPTED_TOKEN 880
+ACCEPTED_TOKEN 998
+ions wereVERIFY_AB cols=2 index=331 mode=pad start_us=96562253302 wall_us=7287 cpu_ns=7097249 position=672
+ACCEPTED_TOKEN 7309
+ highlyVERIFY_AB cols=2 index=332 mode=control start_us=96562289832 wall_us=6419 cpu_ns=6220246 position=673
+ACCEPTED_TOKEN 66728
+ disciplinedVERIFY_AB cols=2 index=333 mode=pad start_us=96562326092 wall_us=7819 cpu_ns=7633766 position=674
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 1575
+ and wellVERIFY_AB cols=2 index=334 mode=pad start_us=96562362614 wall_us=8909 cpu_ns=8641588 position=676
+ACCEPTED_TOKEN 66592
+ACCEPTED_TOKEN 11
+-trained,VERIFY_AB cols=2 index=335 mode=control start_us=96562399621 wall_us=6892 cpu_ns=6684876 position=678
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 781
+ and theyVERIFY_AB cols=2 index=336 mode=pad start_us=96562436285 wall_us=7838 cpu_ns=7504002 position=680
+ACCEPTED_TOKEN 998
+ACCEPTED_TOKEN 2858
+ were ableVERIFY_AB cols=2 index=337 mode=control start_us=96562473986 wall_us=7387 cpu_ns=7084906 position=682
+ACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 48827
+ to conquerVERIFY_AB cols=2 index=338 mode=control start_us=96562510854 wall_us=6229 cpu_ns=6038035 position=684
+ACCEPTED_TOKEN 12401
+ vastVERIFY_AB cols=2 index=339 mode=pad start_us=96562547120 wall_us=7289 cpu_ns=7087831 position=685
+ACCEPTED_TOKEN 37167
+ACCEPTED_TOKEN 13
+ territories.VERIFY_AB cols=2 index=340 mode=control start_us=96562583715 wall_us=6326 cpu_ns=6094917 position=687
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheVERIFY_AB cols=2 index=341 mode=pad start_us=96562620299 wall_us=7334 cpu_ns=7126955 position=689
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=342 mode=pad start_us=96562656749 wall_us=7305 cpu_ns=7116075 position=691
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 1048
+ was alsoVERIFY_AB cols=2 index=343 mode=control start_us=96562693031 wall_us=6204 cpu_ns=6013664 position=693
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 7309
+ a highlyVERIFY_AB cols=2 index=344 mode=control start_us=96562729640 wall_us=6274 cpu_ns=6065163 position=695
+ACCEPTED_TOKEN 25924
+ sophisticatedVERIFY_AB cols=2 index=345 mode=pad start_us=96562765994 wall_us=7925 cpu_ns=7724153 position=696
+ACCEPTED_TOKEN 7975
+ACCEPTED_TOKEN 11
+ society,VERIFY_AB cols=2 index=346 mode=pad start_us=96562803127 wall_us=8108 cpu_ns=7886561 position=698
+ACCEPTED_TOKEN 440
+ACCEPTED_TOKEN 264
+ with aVERIFY_AB cols=2 index=347 mode=control start_us=96562841364 wall_us=6913 cpu_ns=6681560 position=700
+ACCEPTED_TOKEN 6150
+ACCEPTED_TOKEN 5598
+ complex legalVERIFY_AB cols=2 index=348 mode=pad start_us=96562878499 wall_us=8059 cpu_ns=7703115 position=702
+ACCEPTED_TOKEN 1785
+ACCEPTED_TOKEN 11
+ system,VERIFY_AB cols=2 index=349 mode=control start_us=96562915044 wall_us=6862 cpu_ns=6658504 position=704
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 1575
+ a wellVERIFY_AB cols=2 index=350 mode=control start_us=96562951757 wall_us=7083 cpu_ns=6876763 position=706
+ACCEPTED_TOKEN 46360
+ACCEPTED_TOKEN 290
+-developedVERIFY_AB cols=2 index=351 mode=pad start_us=96562988137 wall_us=7623 cpu_ns=7421037 position=708
+ACCEPTED_TOKEN 13343
+ACCEPTED_TOKEN 11
+ infrastructure,VERIFY_AB cols=2 index=352 mode=pad start_us=96563024458 wall_us=7614 cpu_ns=7421968 position=710
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 264
+ and aVERIFY_AB cols=2 index=353 mode=control start_us=96563060944 wall_us=7696 cpu_ns=7473273 position=712
+ACCEPTED_TOKEN 50558
+ thrivingVERIFY_AB cols=2 index=354 mode=control start_us=96563097203 wall_us=6769 cpu_ns=6562948 position=713
+ACCEPTED_TOKEN 8322
+ACCEPTED_TOKEN 13
+ economy.VERIFY_AB cols=2 index=355 mode=pad start_us=96563133687 wall_us=7797 cpu_ns=7568792 position=715
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 47091
+ The RomansVERIFY_AB cols=2 index=356 mode=pad start_us=96563170125 wall_us=7681 cpu_ns=7482712 position=717
+ACCEPTED_TOKEN 998
+ wereVERIFY_AB cols=2 index=357 mode=control start_us=96563206307 wall_us=6813 cpu_ns=6612178 position=718
+ACCEPTED_TOKEN 24717
+ skilledVERIFY_AB cols=2 index=358 mode=control start_us=96563242563 wall_us=6711 cpu_ns=6467200 position=719
+ACCEPTED_TOKEN 23438
+ACCEPTED_TOKEN 321
+ engineers andVERIFY_AB cols=2 index=359 mode=pad start_us=96563279020 wall_us=7933 cpu_ns=7743794 position=721
+ACCEPTED_TOKEN 53088
+ACCEPTED_TOKEN 11
+ architects,VERIFY_AB cols=2 index=360 mode=control start_us=96563315710 wall_us=6954 cpu_ns=6755379 position=723
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 781
+ and theyVERIFY_AB cols=2 index=361 mode=pad start_us=96563352148 wall_us=7679 cpu_ns=7481459 position=725
+ACCEPTED_TOKEN 5617
+ACCEPTED_TOKEN 15506
+ built impressiveVERIFY_AB cols=2 index=362 mode=pad start_us=96563388666 wall_us=8166 cpu_ns=7966990 position=727
+ACCEPTED_TOKEN 13976
+ACCEPTED_TOKEN 1680
+ structures suchVERIFY_AB cols=2 index=363 mode=control start_us=96563426314 wall_us=6629 cpu_ns=6376837 position=729
+ACCEPTED_TOKEN 430
+ACCEPTED_TOKEN 14909
+ as aquVERIFY_AB cols=2 index=364 mode=pad start_us=96563462956 wall_us=8077 cpu_ns=7868727 position=731
+ACCEPTED_TOKEN 77724
+ACCEPTED_TOKEN 82
+eductsVERIFY_AB cols=2 index=365 mode=control start_us=96563499642 wall_us=6656 cpu_ns=6431632 position=733
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 18660
+, roadsVERIFY_AB cols=2 index=366 mode=control start_us=96563536034 wall_us=6593 cpu_ns=6393800 position=735
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=367 mode=pad start_us=96563572467 wall_us=8153 cpu_ns=7898212 position=737
+ACCEPTED_TOKEN 62795
+ACCEPTED_TOKEN 79900
+ amphitheVERIFY_AB cols=2 index=368 mode=pad start_us=96563608875 wall_us=7607 cpu_ns=7408920 position=739
+ACCEPTED_TOKEN 11203
+ACCEPTED_TOKEN 13
+aters.VERIFY_AB cols=2 index=369 mode=control start_us=96563645084 wall_us=6664 cpu_ns=6466397 position=741
+ACCEPTED_TOKEN 198
+
+VERIFY_AB cols=2 index=370 mode=control start_us=96563681458 wall_us=6387 cpu_ns=6183345 position=742
+ACCEPTED_TOKEN 760
+ACCEPTED_TOKEN 12386
+The RomanVERIFY_AB cols=2 index=371 mode=pad start_us=96563717824 wall_us=7761 cpu_ns=7563060 position=744
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 557
+ Empire wasVERIFY_AB cols=2 index=372 mode=pad start_us=96563754726 wall_us=8653 cpu_ns=8450014 position=746
+ACCEPTED_TOKEN 264
+ aVERIFY_AB cols=2 index=373 mode=control start_us=96563791278 wall_us=6528 cpu_ns=6322709 position=747
+ACCEPTED_TOKEN 7309
+ACCEPTED_TOKEN 30415
+ highly influentialVERIFY_AB cols=2 index=374 mode=control start_us=96563827451 wall_us=6530 cpu_ns=6285025 position=749
+ACCEPTED_TOKEN 7431
+ cultureVERIFY_AB cols=2 index=375 mode=pad start_us=96563863725 wall_us=7533 cpu_ns=7334624 position=750
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=376 mode=pad start_us=96563899983 wall_us=7593 cpu_ns=7386801 position=752
+ACCEPTED_TOKEN 1141
+ACCEPTED_TOKEN 5253
+ its impactVERIFY_AB cols=2 index=377 mode=control start_us=96563936362 wall_us=6542 cpu_ns=6335121 position=754
+ACCEPTED_TOKEN 628
+ canVERIFY_AB cols=2 index=378 mode=control start_us=96563972518 wall_us=6535 cpu_ns=6316945 position=755
+ACCEPTED_TOKEN 1990
+ stillVERIFY_AB cols=2 index=379 mode=pad start_us=96564008922 wall_us=7600 cpu_ns=7393336 position=756
+ACCEPTED_TOKEN 381
+ACCEPTED_TOKEN 3753
+ be seenVERIFY_AB cols=2 index=380 mode=pad start_us=96564045445 wall_us=7872 cpu_ns=7600374 position=758
+ACCEPTED_TOKEN 3242
+ACCEPTED_TOKEN 13
+ today.VERIFY_AB cols=2 index=381 mode=control start_us=96564082103 wall_us=6581 cpu_ns=6375577 position=760
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 47091
+ The RomansVERIFY_AB cols=2 index=382 mode=control start_us=96564118570 wall_us=6755 cpu_ns=6521019 position=762
+ACCEPTED_TOKEN 7633
+ACCEPTED_TOKEN 264
+ developed aVERIFY_AB cols=2 index=383 mode=pad start_us=96564155096 wall_us=7855 cpu_ns=7648773 position=764
+ACCEPTED_TOKEN 1785
+ACCEPTED_TOKEN 314
+ system ofVERIFY_AB cols=2 index=384 mode=control start_us=96564191494 wall_us=6705 cpu_ns=6498658 position=766
+ACCEPTED_TOKEN 2936
+ACCEPTED_TOKEN 421
+ government thatVERIFY_AB cols=2 index=385 mode=pad start_us=96564227753 wall_us=11170 cpu_ns=10904810 position=768
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 3018
+ was basedVERIFY_AB cols=2 index=386 mode=pad start_us=96564268010 wall_us=7737 cpu_ns=7492390 position=770
+ACCEPTED_TOKEN 383
+ACCEPTED_TOKEN 279
+ on theVERIFY_AB cols=2 index=387 mode=control start_us=96564304689 wall_us=6685 cpu_ns=6470852 position=772
+ACCEPTED_TOKEN 5728
+ ruleVERIFY_AB cols=2 index=388 mode=control start_us=96564340890 wall_us=6676 cpu_ns=6467950 position=773
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 2253
+ of lawVERIFY_AB cols=2 index=389 mode=pad start_us=96564377163 wall_us=7721 cpu_ns=7527402 position=775
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=390 mode=pad start_us=96564413397 wall_us=7621 cpu_ns=7431505 position=777
+ACCEPTED_TOKEN 411
+ thisVERIFY_AB cols=2 index=391 mode=control start_us=96564449257 wall_us=6556 cpu_ns=6358514 position=778
+ACCEPTED_TOKEN 1785
+ACCEPTED_TOKEN 682
+ system hasVERIFY_AB cols=2 index=392 mode=pad start_us=96564485608 wall_us=7631 cpu_ns=7424912 position=780
+ACCEPTED_TOKEN 978
+ACCEPTED_TOKEN 17295
+ been adoptedVERIFY_AB cols=2 index=393 mode=control start_us=96564521765 wall_us=6534 cpu_ns=6329281 position=782
+ACCEPTED_TOKEN 539
+ACCEPTED_TOKEN 1599
+ by manyVERIFY_AB cols=2 index=394 mode=control start_us=96564559018 wall_us=12324 cpu_ns=12113547 position=784
+ACCEPTED_TOKEN 6278
+ACCEPTED_TOKEN 11731
+ modern democrVERIFY_AB cols=2 index=395 mode=pad start_us=96564596732 wall_us=13822 cpu_ns=13573924 position=786
+ACCEPTED_TOKEN 25198
+ACCEPTED_TOKEN 13
+acies.VERIFY_AB cols=2 index=396 mode=pad start_us=96564634547 wall_us=13791 cpu_ns=13547527 position=788
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 47091
+ The RomansVERIFY_AB cols=2 index=397 mode=control start_us=96564671290 wall_us=6645 cpu_ns=6439245 position=790
+ACCEPTED_TOKEN 1048
+ACCEPTED_TOKEN 7633
+ also developedVERIFY_AB cols=2 index=398 mode=control start_us=96564707573 wall_us=6510 cpu_ns=6313869 position=792
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 1785
+ a systemVERIFY_AB cols=2 index=399 mode=pad start_us=96564743986 wall_us=7565 cpu_ns=7358079 position=794
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 6520
+ of educationVERIFY_AB cols=2 index=400 mode=control start_us=96564780263 wall_us=6783 cpu_ns=6578535 position=796
+ACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 44109
+ that emphasizedVERIFY_AB cols=2 index=401 mode=pad start_us=96564817663 wall_us=13888 cpu_ns=13610992 position=798
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 3788
+ the studyVERIFY_AB cols=2 index=402 mode=pad start_us=96564855448 wall_us=13417 cpu_ns=13197015 position=800
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 32517
+ of rhetoricVERIFY_AB cols=2 index=403 mode=control start_us=96564892793 wall_us=7254 cpu_ns=7024390 position=802
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 18550
+, philosophyVERIFY_AB cols=2 index=404 mode=pad start_us=96564929274 wall_us=7624 cpu_ns=7420655 position=804
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=405 mode=control start_us=96564965866 wall_us=6460 cpu_ns=6262614 position=806
+ACCEPTED_TOKEN 16698
+ACCEPTED_TOKEN 11
+ literature,VERIFY_AB cols=2 index=406 mode=control start_us=96565002280 wall_us=6622 cpu_ns=6383150 position=808
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 411
+ and thisVERIFY_AB cols=2 index=407 mode=pad start_us=96565056591 wall_us=15522 cpu_ns=14894798 position=810
+ACCEPTED_TOKEN 1785
+ACCEPTED_TOKEN 682
+ system hasVERIFY_AB cols=2 index=408 mode=pad start_us=96565096308 wall_us=8234 cpu_ns=8040487 position=812
+ACCEPTED_TOKEN 978
+ACCEPTED_TOKEN 17295
+ been adoptedVERIFY_AB cols=2 index=409 mode=control start_us=96565132935 wall_us=6844 cpu_ns=6647307 position=814
+ACCEPTED_TOKEN 539
+ACCEPTED_TOKEN 1599
+ by manyVERIFY_AB cols=2 index=410 mode=control start_us=96565169359 wall_us=6868 cpu_ns=6672871 position=816
+ACCEPTED_TOKEN 6278
+ACCEPTED_TOKEN 15751
+ modern educationalVERIFY_AB cols=2 index=411 mode=pad start_us=96565205758 wall_us=7665 cpu_ns=7466548 position=818
+ACCEPTED_TOKEN 13924
+ACCEPTED_TOKEN 13
+ institutions.VERIFY_AB cols=2 index=412 mode=pad start_us=96565242374 wall_us=8293 cpu_ns=8067559 position=820
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 623
+
+InVERIFY_AB cols=2 index=413 mode=control start_us=96565280089 wall_us=11867 cpu_ns=11648845 position=822
+ACCEPTED_TOKEN 16198
+ACCEPTED_TOKEN 11
+ conclusion,VERIFY_AB cols=2 index=414 mode=control start_us=96565317670 wall_us=11666 cpu_ns=11408311 position=824
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 12386
+ the RomanVERIFY_AB cols=2 index=415 mode=pad start_us=96565354441 wall_us=8822 cpu_ns=8583534 position=826
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 557
+ Empire wasVERIFY_AB cols=2 index=416 mode=control start_us=96565390847 wall_us=6553 cpu_ns=6355669 position=828
+ACCEPTED_TOKEN 264
+ aVERIFY_AB cols=2 index=417 mode=pad start_us=96565426840 wall_us=7556 cpu_ns=7357526 position=829
+ACCEPTED_TOKEN 7309
+ACCEPTED_TOKEN 30415
+ highly influentialVERIFY_AB cols=2 index=418 mode=pad start_us=96565463237 wall_us=7648 cpu_ns=7449732 position=831
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 7737
+ and powerfulVERIFY_AB cols=2 index=419 mode=control start_us=96565499794 wall_us=6620 cpu_ns=6418305 position=833
+ACCEPTED_TOKEN 30315
+ACCEPTED_TOKEN 421
+ empire thatVERIFY_AB cols=2 index=420 mode=pad start_us=96565536034 wall_us=7749 cpu_ns=7550729 position=835
+ACCEPTED_TOKEN 995
+ACCEPTED_TOKEN 264
+ had aVERIFY_AB cols=2 index=421 mode=control start_us=96565572618 wall_us=6944 cpu_ns=6689925 position=837
+ACCEPTED_TOKEN 4927
+ACCEPTED_TOKEN 5253
+ significant impactVERIFY_AB cols=2 index=422 mode=control start_us=96565609408 wall_us=7500 cpu_ns=7226795 position=839
+ACCEPTED_TOKEN 383
+ACCEPTED_TOKEN 279
+ on theVERIFY_AB cols=2 index=423 mode=pad start_us=96565645987 wall_us=7693 cpu_ns=7488003 position=841
+ACCEPTED_TOKEN 4257
+ACCEPTED_TOKEN 314
+ development ofVERIFY_AB cols=2 index=424 mode=pad start_us=96565682195 wall_us=8354 cpu_ns=8146339 position=843
+ACCEPTED_TOKEN 10550
+ACCEPTED_TOKEN 33760
+ Western civilizationVERIFY_AB cols=2 index=425 mode=control start_us=96565718722 wall_us=6567 cpu_ns=6362511 position=845
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 11116
+. ItsVERIFY_AB cols=2 index=426 mode=control start_us=96565755358 wall_us=6661 cpu_ns=6452390 position=847
+ACCEPTED_TOKEN 18989
+ACCEPTED_TOKEN 628
+ legacy canVERIFY_AB cols=2 index=427 mode=pad start_us=96565791741 wall_us=7622 cpu_ns=7422940 position=849
+ACCEPTED_TOKEN 1990
+ACCEPTED_TOKEN 381
+ still beVERIFY_AB cols=2 index=428 mode=control start_us=96565828052 wall_us=6563 cpu_ns=6366661 position=851
+ACCEPTED_TOKEN 3753
+ACCEPTED_TOKEN 3242
+ seen todayVERIFY_AB cols=2 index=429 mode=pad start_us=96565864361 wall_us=7748 cpu_ns=7553665 position=853
+ACCEPTED_TOKEN 303
+ACCEPTED_TOKEN 1599
+ in manyVERIFY_AB cols=2 index=430 mode=pad start_us=96565900747 wall_us=8260 cpu_ns=7660617 position=855
+ACCEPTED_TOKEN 13173
+ aspectsVERIFY_AB cols=2 index=431 mode=control start_us=96565937484 wall_us=6631 cpu_ns=6429576 position=856
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 6278
+ of modernVERIFY_AB cols=2 index=432 mode=control start_us=96565973930 wall_us=6543 cpu_ns=6342593 position=858
+ACCEPTED_TOKEN 7975
+ACCEPTED_TOKEN 11
+ society,VERIFY_AB cols=2 index=433 mode=pad start_us=96566010283 wall_us=7790 cpu_ns=7600394 position=860
+ACCEPTED_TOKEN 2583
+ACCEPTED_TOKEN 2936
+ including governmentVERIFY_AB cols=2 index=434 mode=pad start_us=96566046750 wall_us=7724 cpu_ns=7523038 position=862
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 6520
+, educationVERIFY_AB cols=2 index=435 mode=control start_us=96566083053 wall_us=6656 cpu_ns=6453802 position=864
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=436 mode=control start_us=96566119270 wall_us=6609 cpu_ns=6415734 position=866
+ACCEPTED_TOKEN 7431
+ACCEPTED_TOKEN 13
+ culture.VERIFY_AB cols=2 index=437 mode=pad start_us=96566155523 wall_us=7713 cpu_ns=7472174 position=868
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheVERIFY_AB cols=2 index=438 mode=pad start_us=96566191792 wall_us=7671 cpu_ns=7430777 position=870
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=439 mode=control start_us=96566228075 wall_us=6633 cpu_ns=6431751 position=872
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 799
+ was oneVERIFY_AB cols=2 index=440 mode=pad start_us=96566264412 wall_us=7702 cpu_ns=7500154 position=874
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theVERIFY_AB cols=2 index=441 mode=control start_us=96566300699 wall_us=8931 cpu_ns=8679916 position=876
+ACCEPTED_TOKEN 1379
+ACCEPTED_TOKEN 7737
+ most powerfulVERIFY_AB cols=2 index=442 mode=control start_us=96566337272 wall_us=6505 cpu_ns=6302660 position=878
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 30415
+ and influentialVERIFY_AB cols=2 index=443 mode=pad start_us=96566373809 wall_us=7626 cpu_ns=7383657 position=880
+ACCEPTED_TOKEN 945
+ACCEPTED_TOKEN 18395
+ empiresVERIFY_AB cols=2 index=444 mode=pad start_us=96566410292 wall_us=7585 cpu_ns=7381793 position=882
+ACCEPTED_TOKEN 303
+ACCEPTED_TOKEN 3712
+ in historyVERIFY_AB cols=2 index=445 mode=control start_us=96566446676 wall_us=6617 cpu_ns=6408706 position=884
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 1049
+. ItVERIFY_AB cols=2 index=446 mode=control start_us=96566482996 wall_us=6481 cpu_ns=6287228 position=886
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 17508
+ was foundedVERIFY_AB cols=2 index=447 mode=pad start_us=96566519461 wall_us=7574 cpu_ns=7376043 position=888
+ACCEPTED_TOKEN 303
+ACCEPTED_TOKEN 220
+ in VERIFY_AB cols=2 index=448 mode=control start_us=96566555689 wall_us=6554 cpu_ns=6356028 position=890
+ACCEPTED_TOKEN 17
+ACCEPTED_TOKEN 22
+27VERIFY_AB cols=2 index=449 mode=pad start_us=96566593463 wall_us=8356 cpu_ns=8152380 position=892
+ACCEPTED_TOKEN 17501
+ACCEPTED_TOKEN 539
+ BC byVERIFY_AB cols=2 index=450 mode=pad start_us=96566629892 wall_us=7818 cpu_ns=7589581 position=894
+ACCEPTED_TOKEN 5963
+ACCEPTED_TOKEN 350
+ AugustusVERIFY_AB cols=2 index=451 mode=control start_us=96566666112 wall_us=6660 cpu_ns=6463319 position=896
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 279
+, theVERIFY_AB cols=2 index=452 mode=control start_us=96566702729 wall_us=6745 cpu_ns=6546476 position=898
+ACCEPTED_TOKEN 1118
+ACCEPTED_TOKEN 12386
+ first RomanVERIFY_AB cols=2 index=453 mode=pad start_us=96566739070 wall_us=7672 cpu_ns=7475610 position=900
+ACCEPTED_TOKEN 54884
+ACCEPTED_TOKEN 13
+ emperor.VERIFY_AB cols=2 index=454 mode=pad start_us=96566775368 wall_us=7939 cpu_ns=7721098 position=902
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 30315
+ The empireVERIFY_AB cols=2 index=455 mode=control start_us=96566811895 wall_us=7093 cpu_ns=6882457 position=904
+ACCEPTED_TOKEN 34242
+ACCEPTED_TOKEN 364
+ lasted forVERIFY_AB cols=2 index=456 mode=pad start_us=96566848520 wall_us=7689 cpu_ns=7492180 position=906
+ACCEPTED_TOKEN 888
+ACCEPTED_TOKEN 220
+ over VERIFY_AB cols=2 index=457 mode=control start_us=96566885173 wall_us=6802 cpu_ns=6606428 position=908
+ACCEPTED_TOKEN 20
+ACCEPTED_TOKEN 15
+50VERIFY_AB cols=2 index=458 mode=control start_us=96566922050 wall_us=6590 cpu_ns=6382580 position=910
+ACCEPTED_TOKEN 15
+ACCEPTED_TOKEN 1578
+0 yearsVERIFY_AB cols=2 index=459 mode=pad start_us=96566958298 wall_us=7694 cpu_ns=7486907 position=912
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 995
+ and hadVERIFY_AB cols=2 index=460 mode=control start_us=96566994465 wall_us=7508 cpu_ns=7304826 position=914
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 4927
+ a significantVERIFY_AB cols=2 index=461 mode=pad start_us=96567031276 wall_us=7940 cpu_ns=7714136 position=916
+ACCEPTED_TOKEN 5253
+ACCEPTED_TOKEN 383
+ impact onVERIFY_AB cols=2 index=462 mode=pad start_us=96567067939 wall_us=7966 cpu_ns=7760151 position=918
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 4257
+ the developmentVERIFY_AB cols=2 index=463 mode=control start_us=96567104786 wall_us=6730 cpu_ns=6525216 position=920
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 10550
+ of WesternVERIFY_AB cols=2 index=464 mode=control start_us=96567141428 wall_us=7253 cpu_ns=7056402 position=922
+ACCEPTED_TOKEN 33760
+ACCEPTED_TOKEN 13
+ civilization.VERIFY_AB cols=2 index=465 mode=pad start_us=96567178048 wall_us=7803 cpu_ns=7606022 position=924
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheVERIFY_AB cols=2 index=466 mode=pad start_us=96567214637 wall_us=8044 cpu_ns=7819955 position=926
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=467 mode=control start_us=96567251186 wall_us=6663 cpu_ns=6466445 position=928
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 264
+ was aVERIFY_AB cols=2 index=468 mode=pad start_us=96567287418 wall_us=7620 cpu_ns=7420375 position=930
+ACCEPTED_TOKEN 12401
+ACCEPTED_TOKEN 17435
+ vast territoryVERIFY_AB cols=2 index=469 mode=control start_us=96567323755 wall_us=6546 cpu_ns=6334850 position=932
+ACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 38965
+ that stretchedVERIFY_AB cols=2 index=470 mode=control start_us=96567360729 wall_us=6672 cpu_ns=6432191 position=934
+ACCEPTED_TOKEN 494
+ACCEPTED_TOKEN 12840
+ from BritainVERIFY_AB cols=2 index=471 mode=pad start_us=96567397302 wall_us=7777 cpu_ns=7579564 position=936
+ACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 34407
+ to MesVERIFY_AB cols=2 index=472 mode=control start_us=96567433660 wall_us=6763 cpu_ns=6528691 position=938
+ACCEPTED_TOKEN 85346
+ACCEPTED_TOKEN 206103
+opotamiaVERIFY_AB cols=2 index=473 mode=pad start_us=96567470953 wall_us=7643 cpu_ns=7442677 position=940
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 1049
+. ItVERIFY_AB cols=2 index=474 mode=pad start_us=96567507552 wall_us=7659 cpu_ns=7419355 position=942
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 17249
+ was dividedVERIFY_AB cols=2 index=475 mode=control start_us=96567553778 wall_us=7644 cpu_ns=7445001 position=944
+ACCEPTED_TOKEN 1083
+ACCEPTED_TOKEN 38597
+ into provincesVERIFY_AB cols=2 index=476 mode=control start_us=96567590380 wall_us=6965 cpu_ns=6767150 position=946
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 1754
+, eachVERIFY_AB cols=2 index=477 mode=pad start_us=96567627232 wall_us=8182 cpu_ns=7973632 position=948
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 864
+ of whichVERIFY_AB cols=2 index=478 mode=pad start_us=96567663867 wall_us=8218 cpu_ns=8001103 position=950
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 25849
+ was governedVERIFY_AB cols=2 index=479 mode=control start_us=96567700430 wall_us=7015 cpu_ns=6826202 position=952
+ACCEPTED_TOKEN 539
+ACCEPTED_TOKEN 264
+ by aVERIFY_AB cols=2 index=480 mode=control start_us=96567736845 wall_us=6905 cpu_ns=6602680 position=954
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 3813
+ Roman officialVERIFY_AB cols=2 index=481 mode=pad start_us=96567773809 wall_us=7947 cpu_ns=7722271 position=956
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=482 mode=pad start_us=96567810581 wall_us=7802 cpu_ns=7578764 position=958
+ACCEPTED_TOKEN 30315
+ACCEPTED_TOKEN 557
+ empire wasVERIFY_AB cols=2 index=483 mode=control start_us=96567846700 wall_us=6636 cpu_ns=6431359 position=960
+ACCEPTED_TOKEN 1048
+ACCEPTED_TOKEN 17249
+ also dividedVERIFY_AB cols=2 index=484 mode=control start_us=96567883189 wall_us=7149 cpu_ns=6959859 position=962
+ACCEPTED_TOKEN 1083
+ACCEPTED_TOKEN 1330
+ into twoVERIFY_AB cols=2 index=485 mode=pad start_us=96567920111 wall_us=8199 cpu_ns=7996424 position=964
+ACCEPTED_TOKEN 71592
+ACCEPTED_TOKEN 11
+ halves,VERIFY_AB cols=2 index=486 mode=pad start_us=96567956977 wall_us=7612 cpu_ns=7369348 position=966
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 10550
+ the WesternVERIFY_AB cols=2 index=487 mode=control start_us=96567993715 wall_us=6475 cpu_ns=6249932 position=968
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=488 mode=control start_us=96568030242 wall_us=6582 cpu_ns=6381247 position=970
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 279
+ and theVERIFY_AB cols=2 index=489 mode=pad start_us=96568073209 wall_us=7811 cpu_ns=7589021 position=972
+ACCEPTED_TOKEN 17489
+ACCEPTED_TOKEN 12386
+ Eastern RomanVERIFY_AB cols=2 index=490 mode=pad start_us=96568109498 wall_us=7640 cpu_ns=7442056 position=974
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 11
+ Empire,VERIFY_AB cols=2 index=491 mode=control start_us=96568145704 wall_us=6447 cpu_ns=6244650 position=976
+ACCEPTED_TOKEN 864
+ACCEPTED_TOKEN 998
+ which wereVERIFY_AB cols=2 index=492 mode=pad start_us=96568182205 wall_us=7517 cpu_ns=7317875 position=978
+ACCEPTED_TOKEN 18101
+ACCEPTED_TOKEN 539
+ separated byVERIFY_AB cols=2 index=493 mode=control start_us=96568218710 wall_us=12231 cpu_ns=11606135 position=980
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 59271
+ the AdriVERIFY_AB cols=2 index=494 mode=control start_us=96568255790 wall_us=6587 cpu_ns=6339036 position=982
+ACCEPTED_TOKEN 749
+ACCEPTED_TOKEN 14593
+atic SeaVERIFY_AB cols=2 index=495 mode=pad start_us=96568292618 wall_us=7580 cpu_ns=7380030 position=984
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+VERIFY_AB cols=2 index=496 mode=control start_us=96568328808 wall_us=6489 cpu_ns=6302198 position=986
+ACCEPTED_TOKEN 760
+ACCEPTED_TOKEN 12386
+The RomanVERIFY_AB cols=2 index=497 mode=pad start_us=96568365735 wall_us=7749 cpu_ns=7533436 position=988
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 557
+ Empire wasVERIFY_AB cols=2 index=498 mode=pad start_us=96568403856 wall_us=23892 cpu_ns=17794116 position=990
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 7309
+ a highlyVERIFY_AB cols=2 index=499 mode=control start_us=96568451500 wall_us=8274 cpu_ns=8077488 position=992
+ACCEPTED_TOKEN 55941
+ACCEPTED_TOKEN 1528
+ centralized stateVERIFY_AB cols=2 index=500 mode=control start_us=96568487997 wall_us=6895 cpu_ns=6694773 position=994
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 440
+, withVERIFY_AB cols=2 index=501 mode=pad start_us=96568524697 wall_us=7984 cpu_ns=7794779 position=996
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 54884
+ the emperorVERIFY_AB cols=2 index=502 mode=pad start_us=96568561319 wall_us=7806 cpu_ns=7609088 position=998
+ACCEPTED_TOKEN 506
+ACCEPTED_TOKEN 279
+ at theVERIFY_AB cols=2 index=503 mode=control start_us=96568613277 wall_us=11381 cpu_ns=11173927 position=1000
+ACCEPTED_TOKEN 1844
+ACCEPTED_TOKEN 314
+ top ofVERIFY_AB cols=2 index=504 mode=control start_us=96568650217 wall_us=6658 cpu_ns=6448200 position=1002
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 27980
+ the hierarchyVERIFY_AB cols=2 index=505 mode=pad start_us=96568686728 wall_us=8394 cpu_ns=8158950 position=1004
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=506 mode=pad start_us=96568723278 wall_us=7797 cpu_ns=7602126 position=1006
+ACCEPTED_TOKEN 54884
+ACCEPTED_TOKEN 557
+ emperor wasVERIFY_AB cols=2 index=507 mode=control start_us=96568759787 wall_us=13022 cpu_ns=11899447 position=1008
+ACCEPTED_TOKEN 8220
+ACCEPTED_TOKEN 364
+ responsible forVERIFY_AB cols=2 index=508 mode=control start_us=96568799015 wall_us=6651 cpu_ns=6411703 position=1010
+ACCEPTED_TOKEN 3154
+ACCEPTED_TOKEN 660
+ making allVERIFY_AB cols=2 index=509 mode=pad start_us=96568835467 wall_us=7824 cpu_ns=7619159 position=1012
+ACCEPTED_TOKEN 3478
+ACCEPTED_TOKEN 10856
+ major decisionsVERIFY_AB cols=2 index=510 mode=pad start_us=96568872107 wall_us=7661 cpu_ns=7454137 position=1014
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 2583
+, includingVERIFY_AB cols=2 index=511 mode=control start_us=96568908453 wall_us=7552 cpu_ns=7340638 position=1016
+ACCEPTED_TOKEN 6079
+ACCEPTED_TOKEN 11
+ military,VERIFY_AB cols=2 index=512 mode=control start_us=96568945124 wall_us=7009 cpu_ns=6810131 position=1018
+ACCEPTED_TOKEN 4788
+ACCEPTED_TOKEN 11
+ political,VERIFY_AB cols=2 index=513 mode=pad start_us=96568981543 wall_us=7905 cpu_ns=7699300 position=1020
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 6739
+ and economicVERIFY_AB cols=2 index=514 mode=pad start_us=96569018117 wall_us=7894 cpu_ns=7693106 position=1022
+ACCEPTED_TOKEN 12482
+ACCEPTED_TOKEN 13
+ matters.VERIFY_AB cols=2 index=515 mode=control start_us=96569054692 wall_us=10688 cpu_ns=10271763 position=1024
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 54884
+ The emperorVERIFY_AB cols=2 index=516 mode=pad start_us=96569095313 wall_us=7812 cpu_ns=7607668 position=1026
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 1048
+ was alsoVERIFY_AB cols=2 index=517 mode=control start_us=96569131840 wall_us=7107 cpu_ns=6906270 position=1028
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 1901
+ the headVERIFY_AB cols=2 index=518 mode=control start_us=96569168769 wall_us=6621 cpu_ns=6420418 position=1030
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theVERIFY_AB cols=2 index=519 mode=pad start_us=96569205232 wall_us=8766 cpu_ns=8569232 position=1032
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 13194
+ Roman religionVERIFY_AB cols=2 index=520 mode=control start_us=96569241600 wall_us=7393 cpu_ns=7192458 position=1034
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=521 mode=pad start_us=96569278194 wall_us=8689 cpu_ns=8479820 position=1036
+ACCEPTED_TOKEN 551
+ACCEPTED_TOKEN 557
+ he wasVERIFY_AB cols=2 index=522 mode=pad start_us=96569314689 wall_us=8708 cpu_ns=8502552 position=1038
+ACCEPTED_TOKEN 6306
+ACCEPTED_TOKEN 310
+ considered toVERIFY_AB cols=2 index=523 mode=control start_us=96569351361 wall_us=6797 cpu_ns=6519024 position=1040
+ACCEPTED_TOKEN 381
+ACCEPTED_TOKEN 264
+ be aVERIFY_AB cols=2 index=524 mode=control start_us=96569388087 wall_us=6553 cpu_ns=6356600 position=1042
+ACCEPTED_TOKEN 9593
+ACCEPTED_TOKEN 383
+ god onVERIFY_AB cols=2 index=525 mode=pad start_us=96569424474 wall_us=8039 cpu_ns=7838649 position=1044
+ACCEPTED_TOKEN 9114
+ACCEPTED_TOKEN 13
+ earth.VERIFY_AB cols=2 index=526 mode=pad start_us=96569460918 wall_us=7898 cpu_ns=7698195 position=1046
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheVERIFY_AB cols=2 index=527 mode=control start_us=96569497281 wall_us=6757 cpu_ns=6557365 position=1048
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=528 mode=pad start_us=96569533961 wall_us=7828 cpu_ns=7624991 position=1050
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 264
+ was aVERIFY_AB cols=2 index=529 mode=control start_us=96569570355 wall_us=6721 cpu_ns=6520377 position=1052
+ACCEPTED_TOKEN 7309
+ACCEPTED_TOKEN 59360
+ highly militarVERIFY_AB cols=2 index=530 mode=control start_us=96569606815 wall_us=6887 cpu_ns=6672262 position=1054
+ACCEPTED_TOKEN 4384
+ACCEPTED_TOKEN 7975
+istic societyVERIFY_AB cols=2 index=531 mode=pad start_us=96569643247 wall_us=7851 cpu_ns=7650184 position=1056
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=532 mode=control start_us=96569679575 wall_us=6607 cpu_ns=6406836 position=1058
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 12386
+ the RomanVERIFY_AB cols=2 index=533 mode=pad start_us=96569716074 wall_us=7707 cpu_ns=7510033 position=1060
+ACCEPTED_TOKEN 13003
+ACCEPTED_TOKEN 557
+ army wasVERIFY_AB cols=2 index=534 mode=pad start_us=96569752520 wall_us=7670 cpu_ns=7471071 position=1062
+ACCEPTED_TOKEN 799
+ACCEPTED_TOKEN 314
+ one ofVERIFY_AB cols=2 index=535 mode=control start_us=96569788980 wall_us=6754 cpu_ns=6490772 position=1064
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 1379
+ the mostVERIFY_AB cols=2 index=536 mode=control start_us=96569825577 wall_us=6577 cpu_ns=6375060 position=1066
+ACCEPTED_TOKEN 7737
+ACCEPTED_TOKEN 303
+ powerful inVERIFY_AB cols=2 index=537 mode=pad start_us=96569861988 wall_us=8536 cpu_ns=8325032 position=1068
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 1814
+ the worldVERIFY_AB cols=2 index=538 mode=pad start_us=96569898430 wall_us=9011 cpu_ns=8799752 position=1070
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=539 mode=control start_us=96569935476 wall_us=6592 cpu_ns=6392088 position=1072
+ACCEPTED_TOKEN 13003
+ACCEPTED_TOKEN 557
+ army wasVERIFY_AB cols=2 index=540 mode=pad start_us=96569971749 wall_us=7684 cpu_ns=7496357 position=1074
+ACCEPTED_TOKEN 1801
+ACCEPTED_TOKEN 685
+ made upVERIFY_AB cols=2 index=541 mode=control start_us=96570008124 wall_us=6613 cpu_ns=6415310 position=1076
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 2392
+ of legVERIFY_AB cols=2 index=542 mode=control start_us=96570044495 wall_us=6601 cpu_ns=6416471 position=1078
+ACCEPTED_TOKEN 880
+ACCEPTED_TOKEN 11
+ions,VERIFY_AB cols=2 index=543 mode=pad start_us=96570081047 wall_us=7653 cpu_ns=7453868 position=1080
+ACCEPTED_TOKEN 864
+ACCEPTED_TOKEN 998
+ which wereVERIFY_AB cols=2 index=544 mode=control start_us=96570117432 wall_us=6648 cpu_ns=6451236 position=1082
+ACCEPTED_TOKEN 7896
+ACCEPTED_TOKEN 314
+ units ofVERIFY_AB cols=2 index=545 mode=pad start_us=96570153772 wall_us=7705 cpu_ns=7495375 position=1084
+ACCEPTED_TOKEN 883
+ACCEPTED_TOKEN 220
+ about VERIFY_AB cols=2 index=546 mode=pad start_us=96570190578 wall_us=7918 cpu_ns=7587768 position=1086
+ACCEPTED_TOKEN 20
+ACCEPTED_TOKEN 11
+5,VERIFY_AB cols=2 index=547 mode=control start_us=96570227358 wall_us=6955 cpu_ns=6757413 position=1088
+ACCEPTED_TOKEN 15
+ACCEPTED_TOKEN 15
+00VERIFY_AB cols=2 index=548 mode=control start_us=96570263926 wall_us=6761 cpu_ns=6545564 position=1090
+ACCEPTED_TOKEN 15
+ACCEPTED_TOKEN 14426
+0 soldiersVERIFY_AB cols=2 index=549 mode=pad start_us=96570318301 wall_us=8116 cpu_ns=7919673 position=1092
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=550 mode=pad start_us=96570355334 wall_us=7718 cpu_ns=7526795 position=1094
+ACCEPTED_TOKEN 2392
+ACCEPTED_TOKEN 880
+ legionsVERIFY_AB cols=2 index=551 mode=control start_us=96570391717 wall_us=6512 cpu_ns=6320102 position=1096
+ACCEPTED_TOKEN 998
+ACCEPTED_TOKEN 7309
+ were highlyVERIFY_AB cols=2 index=552 mode=control start_us=96570428034 wall_us=6597 cpu_ns=6389482 position=1098
+ACCEPTED_TOKEN 66728
+ACCEPTED_TOKEN 321
+ disciplined andVERIFY_AB cols=2 index=553 mode=pad start_us=96570464395 wall_us=8295 cpu_ns=8027184 position=1100
+ACCEPTED_TOKEN 1575
+ACCEPTED_TOKEN 66592
+ well-trainedVERIFY_AB cols=2 index=554 mode=pad start_us=96570519252 wall_us=12946 cpu_ns=9955066 position=1102
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=555 mode=control start_us=96570560493 wall_us=6621 cpu_ns=6419788 position=1104
+ACCEPTED_TOKEN 781
+ACCEPTED_TOKEN 998
+ they wereVERIFY_AB cols=2 index=556 mode=control start_us=96570596770 wall_us=6584 cpu_ns=6341641 position=1106
+ACCEPTED_TOKEN 2858
+ACCEPTED_TOKEN 310
+ able toVERIFY_AB cols=2 index=557 mode=pad start_us=96570632950 wall_us=7716 cpu_ns=7475166 position=1108
+ACCEPTED_TOKEN 48827
+ACCEPTED_TOKEN 12401
+ conquer vastVERIFY_AB cols=2 index=558 mode=pad start_us=96570669293 wall_us=7624 cpu_ns=7425936 position=1110
+ACCEPTED_TOKEN 37167
+ACCEPTED_TOKEN 13
+ territories.VERIFY_AB cols=2 index=559 mode=control start_us=96570711501 wall_us=18132 cpu_ns=10675720 position=1112
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheVERIFY_AB cols=2 index=560 mode=control start_us=96570753602 wall_us=6661 cpu_ns=6463028 position=1114
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=561 mode=pad start_us=96570789787 wall_us=7618 cpu_ns=7416699 position=1116
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 1048
+ was alsoVERIFY_AB cols=2 index=562 mode=pad start_us=96570826584 wall_us=7671 cpu_ns=7447998 position=1118
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 7309
+ a highlyVERIFY_AB cols=2 index=563 mode=control start_us=96570863325 wall_us=6579 cpu_ns=6379291 position=1120
+ACCEPTED_TOKEN 25924
+ACCEPTED_TOKEN 7975
+ sophisticated societyVERIFY_AB cols=2 index=564 mode=control start_us=96570902964 wall_us=8135 cpu_ns=7877589 position=1122
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 440
+, withVERIFY_AB cols=2 index=565 mode=pad start_us=96570940521 wall_us=8354 cpu_ns=8148370 position=1124
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 6150
+ a complexVERIFY_AB cols=2 index=566 mode=pad start_us=96570977039 wall_us=7543 cpu_ns=7345765 position=1126
+ACCEPTED_TOKEN 5598
+ACCEPTED_TOKEN 1785
+ legal systemVERIFY_AB cols=2 index=567 mode=control start_us=96571013577 wall_us=6527 cpu_ns=6285325 position=1128
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 264
+, aVERIFY_AB cols=2 index=568 mode=control start_us=96571049755 wall_us=6546 cpu_ns=6338215 position=1130
+ACCEPTED_TOKEN 1575
+ACCEPTED_TOKEN 46360
+ well-developVERIFY_AB cols=2 index=569 mode=pad start_us=96571086084 wall_us=7543 cpu_ns=7300842 position=1132
+ACCEPTED_TOKEN 290
+ACCEPTED_TOKEN 13343
+ed infrastructureVERIFY_AB cols=2 index=570 mode=pad start_us=96571122620 wall_us=7512 cpu_ns=7311291 position=1134
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=571 mode=control start_us=96571158915 wall_us=13980 cpu_ns=13455964 position=1136
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 50558
+ a thrivingVERIFY_AB cols=2 index=572 mode=control start_us=96571196560 wall_us=6715 cpu_ns=6526357 position=1138
+ACCEPTED_TOKEN 8322
+ACCEPTED_TOKEN 13
+ economy.VERIFY_AB cols=2 index=573 mode=pad start_us=96571233224 wall_us=8457 cpu_ns=8247296 position=1140
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 47091
+ The RomansVERIFY_AB cols=2 index=574 mode=pad start_us=96571269678 wall_us=7904 cpu_ns=7684367 position=1142
+ACCEPTED_TOKEN 998
+ACCEPTED_TOKEN 24717
+ were skilledVERIFY_AB cols=2 index=575 mode=control start_us=96571306253 wall_us=6712 cpu_ns=6515449 position=1144
+ACCEPTED_TOKEN 23438
+ACCEPTED_TOKEN 321
+ engineers andVERIFY_AB cols=2 index=576 mode=control start_us=96571352492 wall_us=11901 cpu_ns=11534933 position=1146
+ACCEPTED_TOKEN 53088
+ACCEPTED_TOKEN 11
+ architects,VERIFY_AB cols=2 index=577 mode=pad start_us=96571389631 wall_us=9418 cpu_ns=9216215 position=1148
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 781
+ and theyVERIFY_AB cols=2 index=578 mode=pad start_us=96571425971 wall_us=7735 cpu_ns=7493966 position=1150
+ACCEPTED_TOKEN 5617
+ACCEPTED_TOKEN 15506
+ built impressiveVERIFY_AB cols=2 index=579 mode=control start_us=96571462171 wall_us=6644 cpu_ns=6459434 position=1152
+ACCEPTED_TOKEN 13976
+ACCEPTED_TOKEN 1680
+ structures suchVERIFY_AB cols=2 index=580 mode=pad start_us=96571498570 wall_us=7643 cpu_ns=7445170 position=1154
+ACCEPTED_TOKEN 430
+ACCEPTED_TOKEN 14909
+ as aquVERIFY_AB cols=2 index=581 mode=control start_us=96571537346 wall_us=12548 cpu_ns=11706512 position=1156
+ACCEPTED_TOKEN 77724
+ACCEPTED_TOKEN 82
+eductsVERIFY_AB cols=2 index=582 mode=control start_us=96571575323 wall_us=6671 cpu_ns=6470215 position=1158
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 18660
+, roadsVERIFY_AB cols=2 index=583 mode=pad start_us=96571611553 wall_us=7966 cpu_ns=7752170 position=1160
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=584 mode=pad start_us=96571647811 wall_us=7678 cpu_ns=7448438 position=1162
+ACCEPTED_TOKEN 62795
+ACCEPTED_TOKEN 79900
+ amphitheVERIFY_AB cols=2 index=585 mode=control start_us=96571684243 wall_us=6554 cpu_ns=6345307 position=1164
+ACCEPTED_TOKEN 11203
+ACCEPTED_TOKEN 13
+aters.VERIFY_AB cols=2 index=586 mode=control start_us=96571720696 wall_us=6629 cpu_ns=6417484 position=1166
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheVERIFY_AB cols=2 index=587 mode=pad start_us=96571760340 wall_us=9969 cpu_ns=9676567 position=1168
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=588 mode=pad start_us=96571797383 wall_us=7611 cpu_ns=7411668 position=1170
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 264
+ was aVERIFY_AB cols=2 index=589 mode=control start_us=96571833468 wall_us=6507 cpu_ns=6306707 position=1172
+ACCEPTED_TOKEN 7309
+ACCEPTED_TOKEN 30415
+ highly influentialVERIFY_AB cols=2 index=590 mode=control start_us=96571869737 wall_us=6493 cpu_ns=6294463 position=1174
+ACCEPTED_TOKEN 7431
+ACCEPTED_TOKEN 11
+ culture,VERIFY_AB cols=2 index=591 mode=pad start_us=96571906267 wall_us=7525 cpu_ns=7324503 position=1176
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 1141
+ and itsVERIFY_AB cols=2 index=592 mode=pad start_us=96571951676 wall_us=16613 cpu_ns=10980017 position=1178
+ACCEPTED_TOKEN 5253
+ACCEPTED_TOKEN 628
+ impact canVERIFY_AB cols=2 index=593 mode=control start_us=96571996410 wall_us=6893 cpu_ns=6689143 position=1180
+ACCEPTED_TOKEN 1990
+ACCEPTED_TOKEN 381
+ still beVERIFY_AB cols=2 index=594 mode=control start_us=96572032854 wall_us=6531 cpu_ns=6286278 position=1182
+ACCEPTED_TOKEN 3753
+ACCEPTED_TOKEN 3242
+ seen todayVERIFY_AB cols=2 index=595 mode=pad start_us=96572069564 wall_us=7534 cpu_ns=7336309 position=1184
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=596 mode=control start_us=96572105872 wall_us=10559 cpu_ns=10320755 position=1186
+ACCEPTED_TOKEN 47091
+ACCEPTED_TOKEN 7633
+ Romans developedVERIFY_AB cols=2 index=597 mode=pad start_us=96572144193 wall_us=7901 cpu_ns=7704947 position=1188
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 1785
+ a systemVERIFY_AB cols=2 index=598 mode=pad start_us=96572180706 wall_us=7915 cpu_ns=7713723 position=1190
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 2936
+ of governmentVERIFY_AB cols=2 index=599 mode=control start_us=96572217294 wall_us=6614 cpu_ns=6415409 position=1192
+ACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 557
+ that wasVERIFY_AB cols=2 index=600 mode=control start_us=96572253949 wall_us=6656 cpu_ns=6414128 position=1194
+ACCEPTED_TOKEN 3018
+ACCEPTED_TOKEN 383
+ based onVERIFY_AB cols=2 index=601 mode=pad start_us=96572290647 wall_us=7702 cpu_ns=7511899 position=1196
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 5728
+ the ruleVERIFY_AB cols=2 index=602 mode=pad start_us=96572327822 wall_us=8265 cpu_ns=8065266 position=1198
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 2253
+ of lawVERIFY_AB cols=2 index=603 mode=control start_us=96572364701 wall_us=6491 cpu_ns=6292649 position=1200
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=604 mode=control start_us=96572416531 wall_us=7821 cpu_ns=7338924 position=1202
+ACCEPTED_TOKEN 411
+ACCEPTED_TOKEN 1785
+ this systemVERIFY_AB cols=2 index=605 mode=pad start_us=96572453875 wall_us=7983 cpu_ns=7756976 position=1204
+ACCEPTED_TOKEN 682
+ACCEPTED_TOKEN 978
+ has beenVERIFY_AB cols=2 index=606 mode=pad start_us=96572490349 wall_us=7636 cpu_ns=7436706 position=1206
+ACCEPTED_TOKEN 17295
+ACCEPTED_TOKEN 539
+ adopted byVERIFY_AB cols=2 index=607 mode=control start_us=96572526848 wall_us=6733 cpu_ns=6453670 position=1208
+ACCEPTED_TOKEN 1599
+ACCEPTED_TOKEN 6278
+ many modernVERIFY_AB cols=2 index=608 mode=control start_us=96572576241 wall_us=16623 cpu_ns=13657533 position=1210
+ACCEPTED_TOKEN 11731
+ACCEPTED_TOKEN 25198
+ democraciesVERIFY_AB cols=2 index=609 mode=pad start_us=96572619728 wall_us=10341 cpu_ns=9966973 position=1212
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=610 mode=pad start_us=96572656379 wall_us=7798 cpu_ns=7598199 position=1214
+ACCEPTED_TOKEN 47091
+ACCEPTED_TOKEN 1048
+ Romans alsoVERIFY_AB cols=2 index=611 mode=control start_us=96572693142 wall_us=6655 cpu_ns=6416581 position=1216
+ACCEPTED_TOKEN 7633
+ACCEPTED_TOKEN 264
+ developed aVERIFY_AB cols=2 index=612 mode=pad start_us=96572729575 wall_us=7801 cpu_ns=7492280 position=1218
+ACCEPTED_TOKEN 1785
+ACCEPTED_TOKEN 314
+ system ofVERIFY_AB cols=2 index=613 mode=control start_us=96572766669 wall_us=6542 cpu_ns=6341711 position=1220
+ACCEPTED_TOKEN 6520
+ACCEPTED_TOKEN 421
+ education thatVERIFY_AB cols=2 index=614 mode=control start_us=96572811350 wall_us=6637 cpu_ns=6437574 position=1222
+ACCEPTED_TOKEN 44109
+ACCEPTED_TOKEN 279
+ emphasized theVERIFY_AB cols=2 index=615 mode=pad start_us=96572847770 wall_us=7710 cpu_ns=7511275 position=1224
+ACCEPTED_TOKEN 3788
+ACCEPTED_TOKEN 314
+ study ofVERIFY_AB cols=2 index=616 mode=control start_us=96572884164 wall_us=6525 cpu_ns=6286387 position=1226
+ACCEPTED_TOKEN 32517
+ACCEPTED_TOKEN 11
+ rhetoric,VERIFY_AB cols=2 index=617 mode=pad start_us=96572920836 wall_us=7720 cpu_ns=7517898 position=1228
+ACCEPTED_TOKEN 18550
+ACCEPTED_TOKEN 11
+ philosophy,VERIFY_AB cols=2 index=618 mode=pad start_us=96572957246 wall_us=8101 cpu_ns=7875337 position=1230
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 16698
+ and literatureVERIFY_AB cols=2 index=619 mode=control start_us=96572993967 wall_us=6632 cpu_ns=6430680 position=1232
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=620 mode=pad start_us=96573030714 wall_us=7711 cpu_ns=7501227 position=1234
+ACCEPTED_TOKEN 411
+ACCEPTED_TOKEN 1785
+ this systemVERIFY_AB cols=2 index=621 mode=control start_us=96573067091 wall_us=6590 cpu_ns=6345880 position=1236
+ACCEPTED_TOKEN 682
+ACCEPTED_TOKEN 978
+ has beenVERIFY_AB cols=2 index=622 mode=control start_us=96573103563 wall_us=6660 cpu_ns=6377230 position=1238
+ACCEPTED_TOKEN 17295
+ACCEPTED_TOKEN 539
+ adopted byVERIFY_AB cols=2 index=623 mode=pad start_us=96573140304 wall_us=7559 cpu_ns=7359732 position=1240
+ACCEPTED_TOKEN 1599
+ACCEPTED_TOKEN 6278
+ many modernVERIFY_AB cols=2 index=624 mode=pad start_us=96573176683 wall_us=7581 cpu_ns=7380167 position=1242
+ACCEPTED_TOKEN 15751
+ACCEPTED_TOKEN 13924
+ educational institutionsVERIFY_AB cols=2 index=625 mode=control start_us=96573213306 wall_us=6586 cpu_ns=6364164 position=1244
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+VERIFY_AB cols=2 index=626 mode=control start_us=96573249858 wall_us=6594 cpu_ns=6381005 position=1246
+ACCEPTED_TOKEN 623
+ACCEPTED_TOKEN 16198
+In conclusionVERIFY_AB cols=2 index=627 mode=pad start_us=96573286369 wall_us=7681 cpu_ns=7486768 position=1248
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 279
+, theVERIFY_AB cols=2 index=628 mode=control start_us=96573322682 wall_us=7550 cpu_ns=7256579 position=1250
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=629 mode=pad start_us=96573359664 wall_us=8125 cpu_ns=7930593 position=1252
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 264
+ was aVERIFY_AB cols=2 index=630 mode=pad start_us=96573396264 wall_us=8065 cpu_ns=7833208 position=1254
+ACCEPTED_TOKEN 7309
+ACCEPTED_TOKEN 30415
+ highly influentialVERIFY_AB cols=2 index=631 mode=control start_us=96573432862 wall_us=6814 cpu_ns=6536275 position=1256
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 7737
+ and powerfulVERIFY_AB cols=2 index=632 mode=pad start_us=96573469421 wall_us=7696 cpu_ns=7497651 position=1258
+ACCEPTED_TOKEN 30315
+ACCEPTED_TOKEN 421
+ empire thatVERIFY_AB cols=2 index=633 mode=control start_us=96573505838 wall_us=6909 cpu_ns=6714681 position=1260
+ACCEPTED_TOKEN 995
+ACCEPTED_TOKEN 264
+ had aVERIFY_AB cols=2 index=634 mode=control start_us=96573542231 wall_us=6655 cpu_ns=6426872 position=1262
+ACCEPTED_TOKEN 4927
+ACCEPTED_TOKEN 5253
+ significant impactVERIFY_AB cols=2 index=635 mode=pad start_us=96573578582 wall_us=7614 cpu_ns=7416486 position=1264
+ACCEPTED_TOKEN 383
+ACCEPTED_TOKEN 279
+ on theVERIFY_AB cols=2 index=636 mode=control start_us=96573614923 wall_us=6635 cpu_ns=6424077 position=1266
+ACCEPTED_TOKEN 4257
+ACCEPTED_TOKEN 314
+ development ofVERIFY_AB cols=2 index=637 mode=pad start_us=96573651451 wall_us=7951 cpu_ns=7660746 position=1268
+ACCEPTED_TOKEN 10550
+ACCEPTED_TOKEN 33760
+ Western civilizationVERIFY_AB cols=2 index=638 mode=pad start_us=96573687950 wall_us=7729 cpu_ns=7496237 position=1270
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 11116
+. ItsVERIFY_AB cols=2 index=639 mode=control start_us=96573724330 wall_us=6572 cpu_ns=6364977 position=1272
+ACCEPTED_TOKEN 18989
+ACCEPTED_TOKEN 628
+ legacy canVERIFY_AB cols=2 index=640 mode=control start_us=96573760877 wall_us=6691 cpu_ns=6441371 position=1274
+ACCEPTED_TOKEN 1990
+ACCEPTED_TOKEN 381
+ still beVERIFY_AB cols=2 index=641 mode=pad start_us=96573797394 wall_us=7714 cpu_ns=7514784 position=1276
+ACCEPTED_TOKEN 3753
+ACCEPTED_TOKEN 3242
+ seen todayVERIFY_AB cols=2 index=642 mode=pad start_us=96573833844 wall_us=8031 cpu_ns=7744424 position=1278
+ACCEPTED_TOKEN 303
+ACCEPTED_TOKEN 1599
+ in manyVERIFY_AB cols=2 index=643 mode=control start_us=96573870771 wall_us=9937 cpu_ns=9653123 position=1280
+ACCEPTED_TOKEN 13173
+ACCEPTED_TOKEN 314
+ aspects ofVERIFY_AB cols=2 index=644 mode=pad start_us=96573910560 wall_us=7638 cpu_ns=7437047 position=1282
+ACCEPTED_TOKEN 6278
+ACCEPTED_TOKEN 7975
+ modern societyVERIFY_AB cols=2 index=645 mode=control start_us=96573947138 wall_us=6546 cpu_ns=6346781 position=1284
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 2583
+, includingVERIFY_AB cols=2 index=646 mode=control start_us=96573983669 wall_us=6561 cpu_ns=6359696 position=1286
+ACCEPTED_TOKEN 2936
+ACCEPTED_TOKEN 11
+ government,VERIFY_AB cols=2 index=647 mode=pad start_us=96574020363 wall_us=7932 cpu_ns=7734113 position=1288
+ACCEPTED_TOKEN 6520
+ACCEPTED_TOKEN 11
+ education,VERIFY_AB cols=2 index=648 mode=pad start_us=96574056968 wall_us=7715 cpu_ns=7460871 position=1290
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 7431
+ and cultureVERIFY_AB cols=2 index=649 mode=control start_us=96574093607 wall_us=6614 cpu_ns=6416311 position=1292
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+VERIFY_AB cols=2 index=650 mode=control start_us=96574129945 wall_us=6700 cpu_ns=6457330 position=1294
+ACCEPTED_TOKEN 760
+ACCEPTED_TOKEN 12386
+The RomanVERIFY_AB cols=2 index=651 mode=pad start_us=96574166741 wall_us=8103 cpu_ns=7904944 position=1296
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 557
+ Empire wasVERIFY_AB cols=2 index=652 mode=pad start_us=96574203354 wall_us=7568 cpu_ns=7370861 position=1298
+ACCEPTED_TOKEN 799
+ACCEPTED_TOKEN 314
+ one ofVERIFY_AB cols=2 index=653 mode=control start_us=96574240385 wall_us=6748 cpu_ns=6537961 position=1300
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 1379
+ the mostVERIFY_AB cols=2 index=654 mode=control start_us=96574276927 wall_us=6584 cpu_ns=6384663 position=1302
+ACCEPTED_TOKEN 7737
+ACCEPTED_TOKEN 321
+ powerful andVERIFY_AB cols=2 index=655 mode=pad start_us=96574313655 wall_us=8159 cpu_ns=7943116 position=1304
+ACCEPTED_TOKEN 30415
+ACCEPTED_TOKEN 945
+ influential emVERIFY_AB cols=2 index=656 mode=control start_us=96574351393 wall_us=6706 cpu_ns=6474210 position=1306
+ACCEPTED_TOKEN 18395
+ACCEPTED_TOKEN 303
+pires inVERIFY_AB cols=2 index=657 mode=pad start_us=96574388042 wall_us=7647 cpu_ns=7445223 position=1308
+ACCEPTED_TOKEN 3712
+ACCEPTED_TOKEN 13
+ history.VERIFY_AB cols=2 index=658 mode=pad start_us=96574424708 wall_us=7602 cpu_ns=7392735 position=1310
+ACCEPTED_TOKEN 1049
+ACCEPTED_TOKEN 557
+ It wasVERIFY_AB cols=2 index=659 mode=control start_us=96574461540 wall_us=6797 cpu_ns=6585928 position=1312
+ACCEPTED_TOKEN 17508
+ACCEPTED_TOKEN 303
+ founded inVERIFY_AB cols=2 index=660 mode=pad start_us=96574497980 wall_us=7658 cpu_ns=7428729 position=1314
+ACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 17
+ 2VERIFY_AB cols=2 index=661 mode=control start_us=96574534796 wall_us=7088 cpu_ns=6882065 position=1316
+ACCEPTED_TOKEN 22
+ACCEPTED_TOKEN 17501
+7 BCVERIFY_AB cols=2 index=662 mode=control start_us=96574571730 wall_us=6564 cpu_ns=6326885 position=1318
+ACCEPTED_TOKEN 539
+ACCEPTED_TOKEN 5963
+ by AugustVERIFY_AB cols=2 index=663 mode=pad start_us=96574608383 wall_us=7522 cpu_ns=7320879 position=1320
+ACCEPTED_TOKEN 350
+ACCEPTED_TOKEN 11
+us,VERIFY_AB cols=2 index=664 mode=pad start_us=96574644856 wall_us=7636 cpu_ns=7429815 position=1322
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 1118
+ the firstVERIFY_AB cols=2 index=665 mode=control start_us=96574681284 wall_us=6535 cpu_ns=6335902 position=1324
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 54884
+ Roman emperorVERIFY_AB cols=2 index=666 mode=control start_us=96574717460 wall_us=6577 cpu_ns=6377019 position=1326
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=667 mode=pad start_us=96574753697 wall_us=7555 cpu_ns=7350804 position=1328
+ACCEPTED_TOKEN 30315
+ACCEPTED_TOKEN 34242
+ empire lastedVERIFY_AB cols=2 index=668 mode=control start_us=96574790278 wall_us=6782 cpu_ns=6588236 position=1330
+ACCEPTED_TOKEN 364
+ACCEPTED_TOKEN 888
+ for overVERIFY_AB cols=2 index=669 mode=pad start_us=96574826797 wall_us=7756 cpu_ns=7558844 position=1332
+ACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 20
+ 5VERIFY_AB cols=2 index=670 mode=pad start_us=96574863392 wall_us=8010 cpu_ns=7810093 position=1334
+ACCEPTED_TOKEN 15
+ACCEPTED_TOKEN 15
+00VERIFY_AB cols=2 index=671 mode=control start_us=96574899991 wall_us=6633 cpu_ns=6436520 position=1336
+ACCEPTED_TOKEN 1578
+ACCEPTED_TOKEN 321
+ years andVERIFY_AB cols=2 index=672 mode=control start_us=96574936610 wall_us=6561 cpu_ns=6360017 position=1338
+ACCEPTED_TOKEN 995
+ACCEPTED_TOKEN 264
+ had aVERIFY_AB cols=2 index=673 mode=pad start_us=96574974055 wall_us=7698 cpu_ns=7459396 position=1340
+ACCEPTED_TOKEN 4927
+ACCEPTED_TOKEN 5253
+ significant impactVERIFY_AB cols=2 index=674 mode=pad start_us=96575010843 wall_us=8235 cpu_ns=8037452 position=1342
+ACCEPTED_TOKEN 383
+ACCEPTED_TOKEN 279
+ on theVERIFY_AB cols=2 index=675 mode=control start_us=96575047246 wall_us=7626 cpu_ns=7426115 position=1344
+ACCEPTED_TOKEN 4257
+ACCEPTED_TOKEN 314
+ development ofVERIFY_AB cols=2 index=676 mode=control start_us=96575095371 wall_us=20403 cpu_ns=11362327 position=1346
+ACCEPTED_TOKEN 10550
+ACCEPTED_TOKEN 33760
+ Western civilizationVERIFY_AB cols=2 index=677 mode=pad start_us=96575142276 wall_us=8764 cpu_ns=8442563 position=1348
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+VERIFY_AB cols=2 index=678 mode=pad start_us=96575179087 wall_us=8119 cpu_ns=7900734 position=1350
+ACCEPTED_TOKEN 760
+ACCEPTED_TOKEN 12386
+The RomanVERIFY_AB cols=2 index=679 mode=control start_us=96575215775 wall_us=6880 cpu_ns=6682010 position=1352
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 557
+ Empire wasVERIFY_AB cols=2 index=680 mode=pad start_us=96575252446 wall_us=7956 cpu_ns=7772213 position=1354
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 12401
+ a vastVERIFY_AB cols=2 index=681 mode=control start_us=96575289203 wall_us=7235 cpu_ns=7041444 position=1356
+ACCEPTED_TOKEN 17435
+ACCEPTED_TOKEN 421
+ territory thatVERIFY_AB cols=2 index=682 mode=control start_us=96575325593 wall_us=6572 cpu_ns=6386315 position=1358
+ACCEPTED_TOKEN 38965
+ACCEPTED_TOKEN 494
+ stretched fromVERIFY_AB cols=2 index=683 mode=pad start_us=96575361864 wall_us=7740 cpu_ns=7553125 position=1360
+ACCEPTED_TOKEN 12840
+ACCEPTED_TOKEN 310
+ Britain toVERIFY_AB cols=2 index=684 mode=pad start_us=96575398178 wall_us=7726 cpu_ns=7499933 position=1362
+ACCEPTED_TOKEN 34407
+ACCEPTED_TOKEN 85346
+ MesopotVERIFY_AB cols=2 index=685 mode=control start_us=96575434543 wall_us=6500 cpu_ns=6315452 position=1364
+ACCEPTED_TOKEN 206103
+ACCEPTED_TOKEN 13
+amia.VERIFY_AB cols=2 index=686 mode=control start_us=96575470937 wall_us=6559 cpu_ns=6376618 position=1366
+ACCEPTED_TOKEN 1049
+ACCEPTED_TOKEN 557
+ It wasVERIFY_AB cols=2 index=687 mode=pad start_us=96575507340 wall_us=7723 cpu_ns=7479668 position=1368
+ACCEPTED_TOKEN 17249
+ACCEPTED_TOKEN 1083
+ divided intoVERIFY_AB cols=2 index=688 mode=control start_us=96575543782 wall_us=6634 cpu_ns=6440538 position=1370
+ACCEPTED_TOKEN 38597
+ACCEPTED_TOKEN 11
+ provinces,VERIFY_AB cols=2 index=689 mode=pad start_us=96575580145 wall_us=7674 cpu_ns=7482311 position=1372
+ACCEPTED_TOKEN 1754
+ACCEPTED_TOKEN 314
+ each ofVERIFY_AB cols=2 index=690 mode=pad start_us=96575618942 wall_us=14144 cpu_ns=13640334 position=1374
+ACCEPTED_TOKEN 864
+ACCEPTED_TOKEN 557
+ which wasVERIFY_AB cols=2 index=691 mode=control start_us=96575656482 wall_us=6520 cpu_ns=6321095 position=1376
+ACCEPTED_TOKEN 25849
+ACCEPTED_TOKEN 539
+ governed byVERIFY_AB cols=2 index=692 mode=control start_us=96575693482 wall_us=6558 cpu_ns=6355370 position=1378
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 12386
+ a RomanVERIFY_AB cols=2 index=693 mode=pad start_us=96575729784 wall_us=7526 cpu_ns=7332110 position=1380
+ACCEPTED_TOKEN 3813
+ACCEPTED_TOKEN 13
+ official.VERIFY_AB cols=2 index=694 mode=pad start_us=96575765913 wall_us=7517 cpu_ns=7324855 position=1382
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 30315
+ The empireVERIFY_AB cols=2 index=695 mode=control start_us=96575803258 wall_us=11598 cpu_ns=10806046 position=1384
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 1048
+ was alsoVERIFY_AB cols=2 index=696 mode=pad start_us=96575846330 wall_us=8200 cpu_ns=7984934 position=1386
+ACCEPTED_TOKEN 17249
+ACCEPTED_TOKEN 1083
+ divided intoVERIFY_AB cols=2 index=697 mode=control start_us=96575883312 wall_us=6833 cpu_ns=6629231 position=1388
+ACCEPTED_TOKEN 1330
+ACCEPTED_TOKEN 71592
+ two halvesVERIFY_AB cols=2 index=698 mode=control start_us=96575919818 wall_us=6571 cpu_ns=6331062 position=1390
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 279
+, theVERIFY_AB cols=2 index=699 mode=pad start_us=96575956071 wall_us=7613 cpu_ns=7374799 position=1392
+ACCEPTED_TOKEN 10550
+ACCEPTED_TOKEN 12386
+ Western RomanVERIFY_AB cols=2 index=700 mode=control start_us=96575992377 wall_us=10506 cpu_ns=10298401 position=1394
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 321
+ Empire andVERIFY_AB cols=2 index=701 mode=pad start_us=96576039251 wall_us=8040 cpu_ns=7831817 position=1396
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 17489
+ the EasternVERIFY_AB cols=2 index=702 mode=pad start_us=96576075991 wall_us=7757 cpu_ns=7551990 position=1398
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=703 mode=control start_us=96576112311 wall_us=6573 cpu_ns=6352774 position=1400
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 864
+, whichVERIFY_AB cols=2 index=704 mode=control start_us=96576148885 wall_us=6520 cpu_ns=6310524 position=1402
+ACCEPTED_TOKEN 998
+ACCEPTED_TOKEN 18101
+ were separatedVERIFY_AB cols=2 index=705 mode=pad start_us=96576185678 wall_us=10171 cpu_ns=9958707 position=1404
+ACCEPTED_TOKEN 539
+ACCEPTED_TOKEN 279
+ by theVERIFY_AB cols=2 index=706 mode=pad start_us=96576234338 wall_us=7895 cpu_ns=7692725 position=1406
+ACCEPTED_TOKEN 59271
+ACCEPTED_TOKEN 749
+ AdriaticVERIFY_AB cols=2 index=707 mode=control start_us=96576270993 wall_us=7004 cpu_ns=6755040 position=1408
+ACCEPTED_TOKEN 14593
+ACCEPTED_TOKEN 13
+ Sea.VERIFY_AB cols=2 index=708 mode=pad start_us=96576307407 wall_us=7625 cpu_ns=7388645 position=1410
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheVERIFY_AB cols=2 index=709 mode=control start_us=96576343744 wall_us=6593 cpu_ns=6407404 position=1412
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireVERIFY_AB cols=2 index=710 mode=control start_us=96576379930 wall_us=6751 cpu_ns=6566395 position=1414
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 264
+ was aVERIFY_AB cols=2 index=711 mode=pad start_us=96576431147 wall_us=8114 cpu_ns=7888983 position=1416
+ACCEPTED_TOKEN 7309
+ACCEPTED_TOKEN 55941
+ highly centralizedVERIFY_AB cols=2 index=712 mode=control start_us=96576467969 wall_us=6975 cpu_ns=6775978 position=1418
+ACCEPTED_TOKEN 1528
+ACCEPTED_TOKEN 11
+ state,VERIFY_AB cols=2 index=713 mode=pad start_us=96576504592 wall_us=7820 cpu_ns=7619436 position=1420
+ACCEPTED_TOKEN 440
+ACCEPTED_TOKEN 279
+ with theVERIFY_AB cols=2 index=714 mode=pad start_us=96576540860 wall_us=7703 cpu_ns=7501416 position=1422
+ACCEPTED_TOKEN 54884
+ACCEPTED_TOKEN 506
+ emperor atVERIFY_AB cols=2 index=715 mode=control start_us=96576577317 wall_us=6694 cpu_ns=6491695 position=1424
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 1844
+ the topVERIFY_AB cols=2 index=716 mode=pad start_us=96576613609 wall_us=7744 cpu_ns=7543034 position=1426
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theVERIFY_AB cols=2 index=717 mode=control start_us=96576650014 wall_us=6670 cpu_ns=6468802 position=1428
+ACCEPTED_TOKEN 27980
+ACCEPTED_TOKEN 13
+ hierarchy.VERIFY_AB cols=2 index=718 mode=control start_us=96576686503 wall_us=6653 cpu_ns=6451349 position=1430
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 54884
+ The emperorVERIFY_AB cols=2 index=719 mode=pad start_us=96576723090 wall_us=7961 cpu_ns=7700210 position=1432
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 8220
+ was responsibleVERIFY_AB cols=2 index=720 mode=pad start_us=96576759686 wall_us=7719 cpu_ns=7515083 position=1434
+ACCEPTED_TOKEN 364
+ACCEPTED_TOKEN 3154
+ for makingVERIFY_AB cols=2 index=721 mode=control start_us=96576795983 wall_us=6658 cpu_ns=6402678 position=1436
+ACCEPTED_TOKEN 660
+ACCEPTED_TOKEN 3478
+ all majorVERIFY_AB cols=2 index=722 mode=control start_us=96576832631 wall_us=6571 cpu_ns=6366690 position=1438
+ACCEPTED_TOKEN 10856
+ACCEPTED_TOKEN 11
+ decisions,VERIFY_AB cols=2 index=723 mode=pad start_us=96576869338 wall_us=7661 cpu_ns=7462765 position=1440
+ACCEPTED_TOKEN 2583
+ACCEPTED_TOKEN 6079
+ including militaryVERIFY_AB cols=2 index=724 mode=pad start_us=96576905887 wall_us=7619 cpu_ns=7416748 position=1442
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 4788
+, politicalVERIFY_AB cols=2 index=725 mode=control start_us=96576942412 wall_us=6480 cpu_ns=6277744 position=1444
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 321
+, andVERIFY_AB cols=2 index=726 mode=control start_us=96576978785 wall_us=6553 cpu_ns=6350799 position=1446
+ACCEPTED_TOKEN 6739
+ACCEPTED_TOKEN 12482
+ economic mattersVERIFY_AB cols=2 index=727 mode=pad start_us=96577015392 wall_us=7746 cpu_ns=7504374 position=1448
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 561
+. TheVERIFY_AB cols=2 index=728 mode=control start_us=96577051850 wall_us=6603 cpu_ns=6401292 position=1450
+ACCEPTED_TOKEN 54884
+ACCEPTED_TOKEN 557
+ emperor wasVERIFY_AB cols=2 index=729 mode=pad start_us=96577088812 wall_us=8903 cpu_ns=8653206 position=1452
+ACCEPTED_TOKEN 1048
+ACCEPTED_TOKEN 279
+ also theVERIFY_AB cols=2 index=730 mode=pad start_us=96577125654 wall_us=7678 cpu_ns=7468486 position=1454
+ACCEPTED_TOKEN 1901
+ACCEPTED_TOKEN 314
+ head ofVERIFY_AB cols=2 index=731 mode=control start_us=96577162370 wall_us=6613 cpu_ns=6403277 position=1456
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 12386
+ the RomanVERIFY_AB cols=2 index=732 mode=control start_us=96577198943 wall_us=6500 cpu_ns=6302109 position=1458
+ACCEPTED_TOKEN 13194
+ACCEPTED_TOKEN 11
+ religion,VERIFY_AB cols=2 index=733 mode=pad start_us=96577235237 wall_us=7589 cpu_ns=7382634 position=1460
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 551
+ and heVERIFY_AB cols=2 index=734 mode=pad start_us=96577272142 wall_us=7638 cpu_ns=7389626 position=1462
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 6306
+ was consideredVERIFY_AB cols=2 index=735 mode=control start_us=96577308662 wall_us=6472 cpu_ns=6269999 position=1464
+ACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 381
+ to beVERIFY_AB cols=2 index=736 mode=pad start_us=96577345220 wall_us=7579 cpu_ns=7355352 position=1466
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 9593
+ a godVERIFY_AB cols=2 index=737 mode=control start_us=96577382055 wall_us=6517 cpu_ns=6306506 position=1468
+ACCEPTED_TOKEN 383
+ACCEPTED_TOKEN 9114
+ on earthVERIFY_AB cols=2 index=738 mode=control start_us=96577418793 wall_us=6555 cpu_ns=6346249 position=1470
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+VERIFY_AB cols=2 index=739 mode=pad start_us=96577455285 wall_us=7614 cpu_ns=7412619 position=1472
+ACCEPTED_TOKEN 760
+ACCEPTED_TOKEN 12386
+The RomanVERIFY_AB cols=2 index=740 mode=pad start_us=96577491608 wall_us=7600 cpu_ns=7389978 position=1474
+ACCEPTED_TOKEN 19825
+ACCEPTED_TOKEN 557
+ Empire wasVERIFY_AB cols=2 index=741 mode=control start_us=96577528193 wall_us=6674 cpu_ns=6395524 position=1476
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 7309
+ a highlyVERIFY_AB cols=2 index=742 mode=control start_us=96577564884 wall_us=6534 cpu_ns=6321264 position=1478
+ACCEPTED_TOKEN 59360
+ACCEPTED_TOKEN 4384
+ militaristicVERIFY_AB cols=2 index=743 mode=pad start_us=96577601579 wall_us=7574 cpu_ns=7361976 position=1480
+ACCEPTED_TOKEN 7975
+ACCEPTED_TOKEN 11
+ society,VERIFY_AB cols=2 index=744 mode=pad start_us=96577638557 wall_us=8110 cpu_ns=7901137 position=1482
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 279
+ and theVERIFY_AB cols=2 index=745 mode=control start_us=96577675439 wall_us=6714 cpu_ns=6411623 position=1484
+ACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 13003
+ Roman armyVERIFY_AB cols=2 index=746 mode=control start_us=96577712067 wall_us=6531 cpu_ns=6319308 position=1486
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 799
+ was oneVERIFY_AB cols=2 index=747 mode=pad start_us=96577748768 wall_us=8032 cpu_ns=7828019 position=1488
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theVERIFY_AB cols=2 index=748 mode=control start_us=96577785615 wall_us=7249 cpu_ns=6992000 position=1490
+ACCEPTED_TOKEN 1379
+ACCEPTED_TOKEN 7737
+ most powerfulVERIFY_AB cols=2 index=749 mode=pad start_us=96577821924 wall_us=7643 cpu_ns=7430903 position=1492
+ACCEPTED_TOKEN 303
+ACCEPTED_TOKEN 279
+ in theVERIFY_AB cols=2 index=750 mode=pad start_us=96577860593 wall_us=18740 cpu_ns=14749550 position=1494
+ACCEPTED_TOKEN 1814
+ACCEPTED_TOKEN 13
+ world.VERIFY_AB cols=2 index=751 mode=control start_us=96577904713 wall_us=6615 cpu_ns=6404441 position=1496
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 13003
+ The armyVERIFY_AB cols=2 index=752 mode=pad start_us=96577941243 wall_us=7748 cpu_ns=7511337 position=1498
+ACCEPTED_TOKEN 557
+ACCEPTED_TOKEN 1801
+ was madeVERIFY_AB cols=2 index=753 mode=control start_us=96577977663 wall_us=7333 cpu_ns=7140490 position=1500
+ACCEPTED_TOKEN 685
+ACCEPTED_TOKEN 314
+ up ofVERIFY_AB cols=2 index=754 mode=control start_us=96578013883 wall_us=6465 cpu_ns=6263795 position=1502
+ACCEPTED_TOKEN 2392
+ACCEPTED_TOKEN 880
+ legionsVERIFY_AB cols=2 index=755 mode=pad start_us=96578050107 wall_us=16507 cpu_ns=14601573 position=1504
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 864
+, whichVERIFY_AB cols=2 index=756 mode=pad start_us=96578098208 wall_us=8173 cpu_ns=7968123 position=1506
+ACCEPTED_TOKEN 998
+ACCEPTED_TOKEN 7896
+ were unitsVERIFY_AB cols=2 index=757 mode=control start_us=96578134891 wall_us=6674 cpu_ns=6472357 position=1508
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 883
+ of aboutVERIFY_AB cols=2 index=758 mode=control start_us=96578171382 wall_us=6481 cpu_ns=6282222 position=1510
+ACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 20
+ 5VERIFY_AB cols=2 index=759 mode=pad start_us=96578208017 wall_us=7554 cpu_ns=7354382 position=1512
+ACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 15
+,0VERIFY_AB cols=2 index=760 mode=pad start_us=96578244339 wall_us=15350 cpu_ns=14898115 position=1514
+ACCEPTED_TOKEN 15
+ACCEPTED_TOKEN 15
+00VERIFY_AB cols=2 index=761 mode=control start_us=96578290905 wall_us=6909 cpu_ns=6713498 position=1516
+ACCEPTED_TOKEN 14426
+ACCEPTED_TOKEN 13
+ soldiers.VERIFY_AB cols=2 index=762 mode=control start_us=96578328052 wall_us=7068 cpu_ns=6856616 position=1518
+ACCEPTED_TOKEN 561
+ACCEPTED_TOKEN 2392
+ The legVERIFY_AB cols=2 index=763 mode=pad start_us=96578364764 wall_us=7663 cpu_ns=7474684 position=1520
+ACCEPTED_TOKEN 880
+ACCEPTED_TOKEN 998
+ions wereVERIFY_AB cols=2 index=764 mode=pad start_us=96578401138 wall_us=7702 cpu_ns=7506637 position=1522
+ACCEPTED_TOKEN 7309
+ACCEPTED_TOKEN 66728
+ highly disciplinedVERIFY_AB cols=2 index=765 mode=control start_us=96578438090 wall_us=9987 cpu_ns=9762248 position=1524
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 1575
+ and wellVERIFY_AB cols=2 index=766 mode=control start_us=96578475915 wall_us=14283 cpu_ns=10409309 position=1526
+ACCEPTED_TOKEN 66592
+ACCEPTED_TOKEN 11
+-trained,VERIFY_AB cols=2 index=767 mode=pad start_us=96578519886 wall_us=8070 cpu_ns=7870259 position=1528
+ACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 781
+ andVERIFY_AB_COMPLETE c1=0 c2=768
+ theyFULL_MODEL_TIMING warm_tokens=17 cold_generation_us=640830 steady_tokens=1476 steady_us=31248707 total_generation_us=31889537
+
+
+0.44.075.202 I encoded   37 tokens in    0.302 seconds, speed:  122.322 t/s
+0.44.075.204 I decoded 1493 tokens in   31.890 seconds, speed:   46.818 t/s
+0.44.075.204 I 
+0.44.075.204 I n_draft   = 1
+0.44.075.205 I n_predict = 1493
+0.44.075.205 I n_drafted = 784
+0.44.075.205 I n_accept  = 709
+0.44.075.206 I accept    = 90.434%
+0.44.075.206 I 
+0.44.075.206 I draft:
+
+0.44.075.214 I 
+0.44.075.215 I target:
+
+0.44.075.216 I common_perf_print:    sampling time =     353.96 ms
+0.44.075.216 I common_perf_print:    samplers time =     124.47 ms /  1493 tokens
+0.44.075.217 I common_perf_print:        load time =    8195.02 ms
+0.44.075.218 I common_perf_print: prompt eval time =   26610.70 ms /  1604 tokens (   16.59 ms per token,    60.28 tokens per second)
+0.44.075.220 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.44.075.220 I common_perf_print:       total time =   32267.83 ms /  1605 tokens
+0.44.075.221 I common_perf_print: unaccounted time =    5303.17 ms /  16.4 %      (total - sampling - prompt eval - eval) / (total)
+0.44.075.221 I common_perf_print:    graphs reused =        778
+0.44.075.222 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+
+
+Q3_PAD112_FINAL entries=0 bytes=0 calls=0
+Q3_PAD112_FINAL entries=78 bytes=3041525760 calls=31278

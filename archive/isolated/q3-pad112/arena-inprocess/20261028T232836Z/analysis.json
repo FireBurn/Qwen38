@@ -1,0 +1,156 @@
+{
+  "means_tps": {
+    "control": 34.04584830829596,
+    "pad": 34.656612207359295
+  },
+  "geometric_speed_change_percent": 1.81982867954378,
+  "descriptive_t95_percent": [
+    0.24708739487163156,
+    3.417244148900907
+  ],
+  "all_blocks_comparable": true,
+  "gain_supported": true,
+  "blocks": [
+    {
+      "block": 0,
+      "arms": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "clock_mode_means_mhz": {
+        "control": 1689.5,
+        "pad": 1689.5
+      },
+      "cpu_mode_means": {
+        "control": 0.5955757594357349,
+        "pad": 0.56357728256621
+      },
+      "build_mode_means": {
+        "control": 0,
+        "pad": 0
+      },
+      "comparable": true,
+      "speed_change_percent": 3.136698438819536
+    },
+    {
+      "block": 1,
+      "arms": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "clock_mode_means_mhz": {
+        "control": 1690.25,
+        "pad": 1690.0
+      },
+      "cpu_mode_means": {
+        "control": 0.6159041266830343,
+        "pad": 0.60078604534219
+      },
+      "build_mode_means": {
+        "control": 0,
+        "pad": 0
+      },
+      "comparable": true,
+      "speed_change_percent": 4.023212958952038
+    },
+    {
+      "block": 2,
+      "arms": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "clock_mode_means_mhz": {
+        "control": 1690.0,
+        "pad": 1689.75
+      },
+      "cpu_mode_means": {
+        "control": 0.5833749902327563,
+        "pad": 0.5848703242194123
+      },
+      "build_mode_means": {
+        "control": 0,
+        "pad": 0
+      },
+      "comparable": true,
+      "speed_change_percent": 0.978736192320979
+    },
+    {
+      "block": 3,
+      "arms": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "clock_mode_means_mhz": {
+        "control": 1689.25,
+        "pad": 1690.5
+      },
+      "cpu_mode_means": {
+        "control": 0.6464364795546953,
+        "pad": 0.6684166636754975
+      },
+      "build_mode_means": {
+        "control": 0,
+        "pad": 0
+      },
+      "comparable": true,
+      "speed_change_percent": 1.6661229049949902
+    },
+    {
+      "block": 4,
+      "arms": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "clock_mode_means_mhz": {
+        "control": 1687.5,
+        "pad": 1690.0
+      },
+      "cpu_mode_means": {
+        "control": 0.5916042554068044,
+        "pad": 0.5823815053831775
+      },
+      "build_mode_means": {
+        "control": 0,
+        "pad": 0
+      },
+      "comparable": true,
+      "speed_change_percent": 1.3194548008511071
+    },
+    {
+      "block": 5,
+      "arms": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "clock_mode_means_mhz": {
+        "control": 1689.0,
+        "pad": 1690.0
+      },
+      "cpu_mode_means": {
+        "control": 0.5597364069149209,
+        "pad": 0.576514911744739
+      },
+      "build_mode_means": {
+        "control": 0,
+        "pad": 0
+      },
+      "comparable": true,
+      "speed_change_percent": -0.1491775760022277
+    }
+  ],
+  "all_tokens_and_counters_identical": true,
+  "new_driver_errors": [],
+  "scope": "Six fixed within-process symmetric blocks, df5 descriptive Student-t interval; temporal correlation and limited sample remain. Resident model private native vs padded only; no direct unmodified-stock, long-context or cold-load gain established."
+}

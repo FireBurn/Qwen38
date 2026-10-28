@@ -1,0 +1,272 @@
+{
+  "complete": true,
+  "arms": 96,
+  "new_driver_errors": [],
+  "cases": [
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "native_us": 52.6998999025,
+      "pad16_us": 48.024740397,
+      "geometric_time_change_percent": -9.20959548978082,
+      "descriptive_t95_percent": [
+        -29.29892646411544,
+        16.588011169950867
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "native_us": 52.96425293,
+          "pad16_us": 54.0076416015,
+          "time_change_percent": 1.9699865735461008
+        },
+        {
+          "block": 1,
+          "native_us": 52.205712890499996,
+          "pad16_us": 44.93387207,
+          "time_change_percent": -13.929205096293728
+        },
+        {
+          "block": 2,
+          "native_us": 52.929733887,
+          "pad16_us": 45.1327075195,
+          "time_change_percent": -14.730900374723054
+        }
+      ]
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "native_us": 67.90537923166667,
+      "pad16_us": 65.10846883133334,
+      "geometric_time_change_percent": -4.0924434451928065,
+      "descriptive_t95_percent": [
+        -5.77757597705945,
+        -2.377172953287435
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "native_us": 72.7322167965,
+          "pad16_us": 69.186293945,
+          "time_change_percent": -4.875312492428574
+        },
+        {
+          "block": 1,
+          "native_us": 65.68746582,
+          "pad16_us": 63.211597900499996,
+          "time_change_percent": -3.769163399124731
+        },
+        {
+          "block": 2,
+          "native_us": 65.2964550785,
+          "pad16_us": 62.9275146485,
+          "time_change_percent": -3.6279770887286955
+        }
+      ]
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "native_us": 53.32707885733333,
+      "pad16_us": 45.50421712233334,
+      "geometric_time_change_percent": -14.671270659962355,
+      "descriptive_t95_percent": [
+        -17.607859352315288,
+        -11.630017213419693
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "native_us": 53.257392578,
+          "pad16_us": 45.9109179685,
+          "time_change_percent": -13.794281420631815
+        },
+        {
+          "block": 1,
+          "native_us": 53.652719726499996,
+          "pad16_us": 45.050805664,
+          "time_change_percent": -16.03257785690846
+        },
+        {
+          "block": 2,
+          "native_us": 53.0711242675,
+          "pad16_us": 45.5509277345,
+          "time_change_percent": -14.1700343393804
+        }
+      ]
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "native_us": 67.67133626316667,
+      "pad16_us": 65.70781901016667,
+      "geometric_time_change_percent": -2.8733672210712755,
+      "descriptive_t95_percent": [
+        -4.765795913863741,
+        -0.9433334850942724
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "native_us": 72.284511719,
+          "pad16_us": 69.568310547,
+          "time_change_percent": -3.757653067587985
+        },
+        {
+          "block": 1,
+          "native_us": 65.356201172,
+          "pad16_us": 63.770639648,
+          "time_change_percent": -2.4260307293981542
+        },
+        {
+          "block": 2,
+          "native_us": 65.3732958985,
+          "pad16_us": 63.7845068355,
+          "time_change_percent": -2.430333427683984
+        }
+      ]
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "native_us": 57.73671834333334,
+      "pad16_us": 49.8007381185,
+      "geometric_time_change_percent": -13.742782866167794,
+      "descriptive_t95_percent": [
+        -15.599430518141466,
+        -11.84529259281441
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "native_us": 57.419541016,
+          "pad16_us": 49.759482422,
+          "time_change_percent": -13.340508228488835
+        },
+        {
+          "block": 1,
+          "native_us": 58.340279541,
+          "pad16_us": 49.8168017575,
+          "time_change_percent": -14.609936480523588
+        },
+        {
+          "block": 2,
+          "native_us": 57.450334473,
+          "pad16_us": 49.825930176,
+          "time_change_percent": -13.27129661983647
+        }
+      ]
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "native_us": 69.693395182,
+      "pad16_us": 65.70932047533333,
+      "geometric_time_change_percent": -5.728085624736428,
+      "descriptive_t95_percent": [
+        -10.408846224654011,
+        -0.8027749897932887
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "native_us": 69.60390136699999,
+          "pad16_us": 67.17696167,
+          "time_change_percent": -3.4867868744935526
+        },
+        {
+          "block": 1,
+          "native_us": 69.59672363249999,
+          "pad16_us": 65.0057019045,
+          "time_change_percent": -6.596606116463921
+        },
+        {
+          "block": 2,
+          "native_us": 69.8795605465,
+          "pad16_us": 64.94529785149999,
+          "time_change_percent": -7.061095771655013
+        }
+      ]
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "native_us": 61.563233235666665,
+      "pad16_us": 50.75411376966667,
+      "geometric_time_change_percent": -17.55615082580056,
+      "descriptive_t95_percent": [
+        -23.375666200039536,
+        -11.294651064729356
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "native_us": 59.908963623,
+          "pad16_us": 50.93289917,
+          "time_change_percent": -14.9828404802415
+        },
+        {
+          "block": 1,
+          "native_us": 61.602825928,
+          "pad16_us": 49.384852295,
+          "time_change_percent": -19.83346291171787
+        },
+        {
+          "block": 2,
+          "native_us": 63.177910155999996,
+          "pad16_us": 51.94458984400001,
+          "time_change_percent": -17.78045567550822
+        }
+      ]
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "native_us": 79.9326171875,
+      "pad16_us": 72.91827148433333,
+      "geometric_time_change_percent": -8.778317854703108,
+      "descriptive_t95_percent": [
+        -9.341821269807498,
+        -8.211311875315142
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "native_us": 83.7343115235,
+          "pad16_us": 76.501430664,
+          "time_change_percent": -8.637893747379888
+        },
+        {
+          "block": 1,
+          "native_us": 77.701459961,
+          "pad16_us": 70.9756103515,
+          "time_change_percent": -8.656014459542781
+        },
+        {
+          "block": 2,
+          "native_us": 78.36208007799999,
+          "pad16_us": 71.2777734375,
+          "time_change_percent": -9.040478039184785
+        }
+      ]
+    }
+  ],
+  "interpretation": "GPU operator timing only. Negative time change is faster. Descriptive t intervals use three symmetric blocks (df2), temporal correlation and GPU workload differences limit generalization. No full-model performance established."
+}

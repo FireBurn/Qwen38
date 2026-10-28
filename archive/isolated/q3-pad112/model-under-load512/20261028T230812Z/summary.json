@@ -1,0 +1,25 @@
+{
+  "mean_steady_tokens_per_second": {
+    "stock": 27.330055957447506,
+    "control": 26.668094817570875,
+    "pad": 26.972552864401777
+  },
+  "control_drift_percent": {
+    "stock": 53.86690476482836,
+    "control": 66.23412859988724,
+    "pad": 72.8242182794832
+  },
+  "all_tokens_and_acceptance_identical": true,
+  "all_arms_quiet": false,
+  "relative_to_stock_percent": {
+    "stock": 0.0,
+    "control": -2.422099467733596,
+    "pad": -1.3080949911056017
+  },
+  "relative_to_unmodified_stock_percent": {
+    "stock": 0.0,
+    "control": -2.422099467733596,
+    "pad": -1.3080949911056017
+  },
+  "scope": "Fixed18arm three-mode symmetric test: unmodified stock, same private host cache-disabled control, padded Q3 cache. 512 requested tokens per arm. CPU/build load permitted; all blocks fail at least one comparability check. No speed or regression claim. Earlier legacy scope text from the factorial-runner template is superseded by this description."
+}

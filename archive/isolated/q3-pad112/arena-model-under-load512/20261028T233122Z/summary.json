@@ -1,0 +1,25 @@
+{
+  "mean_steady_tokens_per_second": {
+    "stock": 31.318694715905984,
+    "control": 30.85197318147469,
+    "pad": 31.34526059831127
+  },
+  "control_drift_percent": {
+    "stock": 53.42848406757821,
+    "control": 45.553053877161396,
+    "pad": 66.58545571001706
+  },
+  "all_tokens_and_acceptance_identical": true,
+  "all_arms_quiet": false,
+  "relative_to_stock_percent": {
+    "stock": 0.0,
+    "control": -1.4902330338634973,
+    "pad": 0.0848243601665688
+  },
+  "relative_to_unmodified_stock_percent": {
+    "stock": 0.0,
+    "control": -1.4902330338634973,
+    "pad": 0.0848243601665688
+  },
+  "scope": "Independent fixed18arm512token stock/private-native-control/padded-arena confirmation. Same candidate as positive resident128token screen. Only block0 comparable; blocks1/2fail CPU/build/clock matching. No supported stock gain or regression."
+}

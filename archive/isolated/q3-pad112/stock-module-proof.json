@@ -1,0 +1,11 @@
+{
+  "stock_library_sha256": "219335805371d79c9aa12641073418bc8c4879283ac932553ff98703df2e6bc0",
+  "symbol": "mul_mat_vec_q3_k_q8_1_f32_subgroup_no_shmem_data",
+  "symbol_address": "0xebe120",
+  "file_offset": "0xebe120",
+  "symbol_size": 47508,
+  "embedded_sha256": "eb5ec9cb6030657818f8e9a5409dcf75d159d7d4cc78b21182eadc176b17eab6",
+  "probe_control_sha256": "eb5ec9cb6030657818f8e9a5409dcf75d159d7d4cc78b21182eadc176b17eab6",
+  "byte_identical": true,
+  "scope": "Read-only extraction from .rodata, whose address and file offset are equal in this pinned ELF. Confirms microbenchmark native module is the actual .27 stock Q3 shader, not just an older source control."
+}

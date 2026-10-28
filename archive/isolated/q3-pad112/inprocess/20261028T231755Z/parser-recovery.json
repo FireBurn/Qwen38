@@ -1,0 +1,5 @@
+{
+  "issue": "Escaped regex tokens lost in generated report parser. GPU child completed all25 end markers, but its returncode was not persisted before parser assertion.",
+  "scope": "Recover numerical/telemetry results from unchanged existing logs; no GPU rerun or altered input. Child exit code unknown, so strict qualification unavailable.",
+  "full_rerun_decision": "Repeat identical fixed24arm protocol with corrected report parser and explicit execution record, regardless of recovered timing outcome."
+}

@@ -1,0 +1,8 @@
+#version 450
+#extension GL_EXT_shader_16bit_storage : require
+#extension GL_EXT_shader_explicit_arithmetic_types_int16 : require
+layout(local_size_x=64) in;
+layout(binding=0) readonly buffer Native { uint16_t src[]; };
+layout(binding=1) writeonly buffer Padded { uint16_t dst[]; };
+layout(push_constant) uniform PC { uint blocks; } pc;
+void main(){uint b=gl_GlobalInvocationID.x;if(b>=pc.blocks)return;for(uint j=0;j<55;++j)dst[b*56+j]=src[b*55+j];dst[b*56+55]=uint16_t(0);}

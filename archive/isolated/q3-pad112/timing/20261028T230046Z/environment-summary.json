@@ -1,0 +1,51 @@
+{
+  "all_samples": 719,
+  "gpu_active_samples": 367,
+  "gpu_clock_mhz": {
+    "min": 1139.0,
+    "p10": 2434.0,
+    "median": 2824.0,
+    "p90": 2942.0,
+    "max": 3106.0,
+    "samples": 367
+  },
+  "cpu_busy_fraction": {
+    "min": 0.9878048780487805,
+    "p10": 1.0,
+    "median": 1.0,
+    "p90": 1.0,
+    "max": 1.0,
+    "samples": 367
+  },
+  "temperature_c": {
+    "min": 28.0,
+    "p10": 35.0,
+    "median": 41.0,
+    "p90": 46.0,
+    "max": 47.0,
+    "samples": 367
+  },
+  "power_w": {
+    "min": 100.0,
+    "p10": 225.0,
+    "median": 299.0,
+    "p90": 337.0,
+    "max": 356.0,
+    "samples": 367
+  },
+  "sensor_errors": [
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy",
+    "[Errno 16] Device or resource busy"
+  ],
+  "scope": "Process-wide samples; includes initialization/validation/warmup. No precise attribution to individual timed arms. GPU-active filter >=90%."
+}

@@ -1,0 +1,37 @@
+{
+  "modes": [
+    "stock",
+    "control",
+    "pad"
+  ],
+  "sequence": [
+    "stock",
+    "control",
+    "pad",
+    "pad",
+    "control",
+    "stock",
+    "control",
+    "pad",
+    "stock",
+    "stock",
+    "pad",
+    "control",
+    "pad",
+    "stock",
+    "control",
+    "control",
+    "stock",
+    "pad"
+  ],
+  "tokens": 512,
+  "blocks": 3,
+  "replicates_per_mode": 6,
+  "primary": "pad vs same private host with cache disabled (control)",
+  "secondary": "pad vs unmodified stock",
+  "comparability": "Mode means within each block: CPU <=5pp, clock <=3%, buildcount <=2. All arms timed telemetry/correct tokens/no driver errors. No quiet load gate. Fixed 18 arms, no optional stopping.",
+  "scope": "Immutable model weights only; native prefill and fallback retained. Per process fresh cache; encode, cold and total timing preserve preprocessing costs.",
+  "reason": "First pass block1 has sharply changing CPU/build load. Commit to one complete independent repeat with identical fixed18arm sequence and parameters, without selecting candidates or stopping on outcome.",
+  "first_pass_completed_arms_at_declaration": 10,
+  "execution_status": "Not executed; superseded before starting by inprocess-plan.json, shortening reload gaps and retaining a single resident model. First18arm pass completed in full. No candidate/parameter tuning based on performance."
+}

@@ -1,0 +1,360 @@
+{
+  "primary_C2_calls": 768,
+  "secondary_C1_calls": 0,
+  "mean_target_latency_us": {
+    "control": 39251.442708333336,
+    "pad": 40611.7265625
+  },
+  "geometric_target_speed_change_percent": -2.6558389331715895,
+  "descriptive_t95_percent": [
+    -5.175378413672668,
+    -0.06935397914679785
+  ],
+  "all_blocks_comparable": false,
+  "target_latency_gain_supported": false,
+  "blocks": [
+    {
+      "block": 0,
+      "native_us": 48997.59375,
+      "pad_us": 50341.28125,
+      "main_thread_cpu_us": {
+        "control": 19679.42128125,
+        "pad": 21499.4895625
+      },
+      "speed_change_percent": -2.6691563397584384,
+      "active_samples": {
+        "control": 23,
+        "pad": 29
+      },
+      "gpu_clock_means_mhz": {
+        "control": 1707.7391304347825,
+        "pad": 1707.448275862069
+      },
+      "cpu_busy_means": {
+        "control": 0.9994761655316919,
+        "pad": 0.9991963367909541
+      },
+      "build_means": {
+        "control": 16.652173913043477,
+        "pad": 16.724137931034484
+      },
+      "comparable": true,
+      "sensor_errors": []
+    },
+    {
+      "block": 1,
+      "native_us": 48474.78125,
+      "pad_us": 52596.59375,
+      "main_thread_cpu_us": {
+        "control": 19428.6473125,
+        "pad": 21202.47021875
+      },
+      "speed_change_percent": -7.8366529201332575,
+      "active_samples": {
+        "control": 16,
+        "pad": 17
+      },
+      "gpu_clock_means_mhz": {
+        "control": 1708.5625,
+        "pad": 1708.6470588235295
+      },
+      "cpu_busy_means": {
+        "control": 1.0,
+        "pad": 0.9992912827781715
+      },
+      "build_means": {
+        "control": 16.9375,
+        "pad": 16.941176470588236
+      },
+      "comparable": true,
+      "sensor_errors": []
+    },
+    {
+      "block": 2,
+      "native_us": 49493.375,
+      "pad_us": 54880.40625,
+      "main_thread_cpu_us": {
+        "control": 19203.2509375,
+        "pad": 21261.274375
+      },
+      "speed_change_percent": -9.815946378859032,
+      "active_samples": {
+        "control": 23,
+        "pad": 24
+      },
+      "gpu_clock_means_mhz": {
+        "control": 1703.5652173913043,
+        "pad": 1697.7916666666667
+      },
+      "cpu_busy_means": {
+        "control": 1.0,
+        "pad": 1.0
+      },
+      "build_means": {
+        "control": 16.869565217391305,
+        "pad": 16.875
+      },
+      "comparable": true,
+      "sensor_errors": []
+    },
+    {
+      "block": 3,
+      "native_us": 43178.1875,
+      "pad_us": 43702.84375,
+      "main_thread_cpu_us": {
+        "control": 18921.100687500002,
+        "pad": 21551.75965625
+      },
+      "speed_change_percent": -1.2005082621196705,
+      "active_samples": {
+        "control": 22,
+        "pad": 20
+      },
+      "gpu_clock_means_mhz": {
+        "control": 1878.1818181818182,
+        "pad": 1832.8
+      },
+      "cpu_busy_means": {
+        "control": 0.6530030218235774,
+        "pad": 0.7414050185017446
+      },
+      "build_means": {
+        "control": 8.454545454545455,
+        "pad": 8.9
+      },
+      "comparable": false,
+      "sensor_errors": []
+    },
+    {
+      "block": 4,
+      "native_us": 50530.25,
+      "pad_us": 53939.53125,
+      "main_thread_cpu_us": {
+        "control": 19318.7900625,
+        "pad": 20802.318375
+      },
+      "speed_change_percent": -6.320561508402056,
+      "active_samples": {
+        "control": 13,
+        "pad": 16
+      },
+      "gpu_clock_means_mhz": {
+        "control": 1706.1538461538462,
+        "pad": 1705.8125
+      },
+      "cpu_busy_means": {
+        "control": 0.996526948661095,
+        "pad": 0.9914082448062561
+      },
+      "build_means": {
+        "control": 5,
+        "pad": 5
+      },
+      "comparable": true,
+      "sensor_errors": []
+    },
+    {
+      "block": 5,
+      "native_us": 37525.0625,
+      "pad_us": 40165.25,
+      "main_thread_cpu_us": {
+        "control": 16577.68153125,
+        "pad": 18565.74665625
+      },
+      "speed_change_percent": -6.57331275169456,
+      "active_samples": {
+        "control": 20,
+        "pad": 17
+      },
+      "gpu_clock_means_mhz": {
+        "control": 2188.85,
+        "pad": 2143.823529411765
+      },
+      "cpu_busy_means": {
+        "control": 0.41054964546039574,
+        "pad": 0.4145912565568233
+      },
+      "build_means": {
+        "control": 3.2,
+        "pad": 3.235294117647059
+      },
+      "comparable": true,
+      "sensor_errors": []
+    },
+    {
+      "block": 6,
+      "native_us": 31878.34375,
+      "pad_us": 31925.71875,
+      "main_thread_cpu_us": {
+        "control": 15403.907625,
+        "pad": 16614.3678125
+      },
+      "speed_change_percent": -0.14839133418100836,
+      "active_samples": {
+        "control": 26,
+        "pad": 15
+      },
+      "gpu_clock_means_mhz": {
+        "control": 3203.153846153846,
+        "pad": 3201.866666666667
+      },
+      "cpu_busy_means": {
+        "control": 0.096533039186037,
+        "pad": 0.10478929849217312
+      },
+      "build_means": {
+        "control": 0,
+        "pad": 0
+      },
+      "comparable": true,
+      "sensor_errors": []
+    },
+    {
+      "block": 7,
+      "native_us": 31927.65625,
+      "pad_us": 31862.71875,
+      "main_thread_cpu_us": {
+        "control": 15292.7885,
+        "pad": 16395.7248125
+      },
+      "speed_change_percent": 0.2038040146840947,
+      "active_samples": {
+        "control": 23,
+        "pad": 14
+      },
+      "gpu_clock_means_mhz": {
+        "control": 3205.9565217391305,
+        "pad": 3203.5714285714284
+      },
+      "cpu_busy_means": {
+        "control": 0.06982331888788294,
+        "pad": 0.06838983622520207
+      },
+      "build_means": {
+        "control": 0,
+        "pad": 0
+      },
+      "comparable": true,
+      "sensor_errors": []
+    },
+    {
+      "block": 8,
+      "native_us": 32089.3125,
+      "pad_us": 31904.96875,
+      "main_thread_cpu_us": {
+        "control": 15425.86928125,
+        "pad": 16508.4978125
+      },
+      "speed_change_percent": 0.5777900973496397,
+      "active_samples": {
+        "control": 17,
+        "pad": 21
+      },
+      "gpu_clock_means_mhz": {
+        "control": 3202.3529411764707,
+        "pad": 3204.904761904762
+      },
+      "cpu_busy_means": {
+        "control": 0.07213079644883297,
+        "pad": 0.05818964971395926
+      },
+      "build_means": {
+        "control": 0,
+        "pad": 0
+      },
+      "comparable": true,
+      "sensor_errors": []
+    },
+    {
+      "block": 9,
+      "native_us": 32399.84375,
+      "pad_us": 31959.21875,
+      "main_thread_cpu_us": {
+        "control": 15919.6708125,
+        "pad": 17210.04490625
+      },
+      "speed_change_percent": 1.3787101726321138,
+      "active_samples": {
+        "control": 14,
+        "pad": 24
+      },
+      "gpu_clock_means_mhz": {
+        "control": 3190.214285714286,
+        "pad": 3189.1666666666665
+      },
+      "cpu_busy_means": {
+        "control": 0.18943573364305075,
+        "pad": 0.14008487805994366
+      },
+      "build_means": {
+        "control": 1.1428571428571428,
+        "pad": 1
+      },
+      "comparable": true,
+      "sensor_errors": []
+    },
+    {
+      "block": 10,
+      "native_us": 32189.1875,
+      "pad_us": 32009.21875,
+      "main_thread_cpu_us": {
+        "control": 15528.53,
+        "pad": 16634.23375
+      },
+      "speed_change_percent": 0.5622403702058465,
+      "active_samples": {
+        "control": 19,
+        "pad": 21
+      },
+      "gpu_clock_means_mhz": {
+        "control": 3188.2105263157896,
+        "pad": 3184.3333333333335
+      },
+      "cpu_busy_means": {
+        "control": 0.09996001810046728,
+        "pad": 0.12874355640828036
+      },
+      "build_means": {
+        "control": 1.1578947368421053,
+        "pad": 1
+      },
+      "comparable": true,
+      "sensor_errors": []
+    },
+    {
+      "block": 11,
+      "native_us": 32333.71875,
+      "pad_us": 32052.96875,
+      "main_thread_cpu_us": {
+        "control": 15650.66628125,
+        "pad": 16769.89546875
+      },
+      "speed_change_percent": 0.8758939060832027,
+      "active_samples": {
+        "control": 21,
+        "pad": 19
+      },
+      "gpu_clock_means_mhz": {
+        "control": 3182.714285714286,
+        "pad": 3187.7368421052633
+      },
+      "cpu_busy_means": {
+        "control": 0.17618317962324653,
+        "pad": 0.14115721945012308
+      },
+      "build_means": {
+        "control": 1.2857142857142858,
+        "pad": 1.368421052631579
+      },
+      "comparable": true,
+      "sensor_errors": []
+    }
+  ],
+  "prefix_check": {
+    "matches_stock_prefix_tokens": 513,
+    "total_generated_tokens": 1493,
+    "scope": "Fixed-call interleaved verification benchmark; output prefix matches prior stock, full requested target logits separately audited for this host/shader."
+  },
+  "new_driver_errors": [],
+  "scope": "Within-generation target-verification latency under randomized balanced4call assignment;12blocks64C2calls,df11 descriptive t interval. Includes explicit target synchronization, host submission and GPU wait, excludes draft/sampling/rollback outside target calls. No direct stock or full-token-throughput claim. Small sample temporal correlation/CPU-scheduling limitations remain."
+}

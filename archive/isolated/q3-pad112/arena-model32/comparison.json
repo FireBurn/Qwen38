@@ -1,0 +1,12 @@
+{
+  "all_requested_target_logit_bits_identical": true,
+  "all_tokens_and_counters_identical": true,
+  "padded_cache_dispatch_verified": true,
+  "matches_prior_unmodified_stock_target_logits": true,
+  "arms": 2,
+  "requested_tokens": 32,
+  "target_logit_rows_per_arm": 38,
+  "target_logit_audit_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+  "scope": "Production .27/.7 immutable Q3 padded-cache experiment versus same private host with cache disabled, matching prior unmodified-stock requested target logits. Target-only audit, no hidden/draft-score or speed qualification.",
+  "allocation_mode": "one3GiB arena"
+}

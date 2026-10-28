@@ -1,0 +1,39 @@
+{
+  "modes": [
+    "stock",
+    "control",
+    "pad"
+  ],
+  "sequence": [
+    "stock",
+    "control",
+    "pad",
+    "pad",
+    "control",
+    "stock",
+    "control",
+    "pad",
+    "stock",
+    "stock",
+    "pad",
+    "control",
+    "pad",
+    "stock",
+    "control",
+    "control",
+    "stock",
+    "pad"
+  ],
+  "tokens": 512,
+  "blocks": 3,
+  "replicates_per_mode": 6,
+  "primary": "pad vs same private host with cache disabled (control)",
+  "secondary": "pad vs unmodified stock",
+  "comparability": "Mode means within each block: CPU <=5pp, clock <=3%, buildcount <=2. All arms timed telemetry/correct tokens/no driver errors. No quiet load gate. Fixed 18 arms, no optional stopping.",
+  "scope": "Immutable model weights only; native prefill and fallback retained. Per process fresh cache; encode, cold and total timing preserve preprocessing costs.",
+  "candidate": "Same padded Q3 shader, single3GiB arena host",
+  "selection": "First arena resident128token fixed24arm trial. No candidate tuning for confirmation; use pre-existing fixed18arm stock/control/pad sequence.",
+  "screen_result": "Residentprivate-control effect+1.8198%,descriptive95%[+0.2471,+3.4172]%; all6blocks comparable. Not an unmodified-stock result.",
+  "requested_tokens_per_arm": 512,
+  "fullmodelgates": "All18processes exit0, same tokens/acceptance/warm+steadycounts, no new driver errors, >=8 valid clock samples. All3blocks must pass comparability and interval lowerbound>0 for gain claim."
+}

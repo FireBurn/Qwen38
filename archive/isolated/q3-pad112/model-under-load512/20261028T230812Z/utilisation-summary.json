@@ -1,0 +1,185 @@
+{
+  "arms": [
+    {
+      "index": 0,
+      "mode": "stock",
+      "steady_tokens_per_second": 25.254046286288116,
+      "phase_gpu_busy_mean": 55.60109289617486,
+      "phase_gpu_busy_ge50_fraction": 0.6557377049180327,
+      "vram_bytes_median": 16808058880,
+      "main_thread_cpu_core_fraction": null,
+      "main_thread_observer_samples": 0
+    },
+    {
+      "index": 1,
+      "mode": "control",
+      "steady_tokens_per_second": 22.413665250192313,
+      "phase_gpu_busy_mean": 49.86829268292683,
+      "phase_gpu_busy_ge50_fraction": 0.4585365853658537,
+      "vram_bytes_median": 16808030208,
+      "main_thread_cpu_core_fraction": null,
+      "main_thread_observer_samples": 0
+    },
+    {
+      "index": 2,
+      "mode": "pad",
+      "steady_tokens_per_second": 28.357371255676405,
+      "phase_gpu_busy_mean": 60.06586826347306,
+      "phase_gpu_busy_ge50_fraction": 0.7245508982035929,
+      "vram_bytes_median": 19849887744,
+      "main_thread_cpu_core_fraction": null,
+      "main_thread_observer_samples": 0
+    },
+    {
+      "index": 3,
+      "mode": "pad",
+      "steady_tokens_per_second": 35.26820689183426,
+      "phase_gpu_busy_mean": 73.53623188405797,
+      "phase_gpu_busy_ge50_fraction": 1,
+      "vram_bytes_median": 19849887744.0,
+      "main_thread_cpu_core_fraction": null,
+      "main_thread_observer_samples": 0
+    },
+    {
+      "index": 4,
+      "mode": "control",
+      "steady_tokens_per_second": 34.9291617585678,
+      "phase_gpu_busy_mean": 74.5072463768116,
+      "phase_gpu_busy_ge50_fraction": 1,
+      "vram_bytes_median": 16808030208.0,
+      "main_thread_cpu_core_fraction": null,
+      "main_thread_observer_samples": 0
+    },
+    {
+      "index": 5,
+      "mode": "stock",
+      "steady_tokens_per_second": 34.67210291686755,
+      "phase_gpu_busy_mean": 73.7841726618705,
+      "phase_gpu_busy_ge50_fraction": 1,
+      "vram_bytes_median": 16808030208,
+      "main_thread_cpu_core_fraction": 0.46019334313843274,
+      "main_thread_observer_samples": 14
+    },
+    {
+      "index": 6,
+      "mode": "control",
+      "steady_tokens_per_second": 35.00123139412869,
+      "phase_gpu_busy_mean": 73.76978417266187,
+      "phase_gpu_busy_ge50_fraction": 0.9928057553956835,
+      "vram_bytes_median": 16808030208,
+      "main_thread_cpu_core_fraction": 0.523609065372714,
+      "main_thread_observer_samples": 13
+    },
+    {
+      "index": 7,
+      "mode": "pad",
+      "steady_tokens_per_second": 35.17038313381586,
+      "phase_gpu_busy_mean": 73.47445255474453,
+      "phase_gpu_busy_ge50_fraction": 1,
+      "vram_bytes_median": 19849887744,
+      "main_thread_cpu_core_fraction": 0.5644190063077372,
+      "main_thread_observer_samples": 14
+    },
+    {
+      "index": 8,
+      "mode": "stock",
+      "steady_tokens_per_second": 34.80256037384686,
+      "phase_gpu_busy_mean": 74.0863309352518,
+      "phase_gpu_busy_ge50_fraction": 1,
+      "vram_bytes_median": 16808030208,
+      "main_thread_cpu_core_fraction": 0.4550160141477184,
+      "main_thread_observer_samples": 14
+    },
+    {
+      "index": 9,
+      "mode": "stock",
+      "steady_tokens_per_second": 23.668764422258583,
+      "phase_gpu_busy_mean": 52.51020408163265,
+      "phase_gpu_busy_ge50_fraction": 0.576530612244898,
+      "vram_bytes_median": 16808030208.0,
+      "main_thread_cpu_core_fraction": 0.29580227076912274,
+      "main_thread_observer_samples": 20
+    },
+    {
+      "index": 10,
+      "mode": "pad",
+      "steady_tokens_per_second": 21.665957499690844,
+      "phase_gpu_busy_mean": 47.21327014218009,
+      "phase_gpu_busy_ge50_fraction": 0.4312796208530806,
+      "vram_bytes_median": 19849887744,
+      "main_thread_cpu_core_fraction": 0.3652481555210195,
+      "main_thread_observer_samples": 22
+    },
+    {
+      "index": 11,
+      "mode": "control",
+      "steady_tokens_per_second": 24.466323388364803,
+      "phase_gpu_busy_mean": 53.415789473684214,
+      "phase_gpu_busy_ge50_fraction": 0.5368421052631579,
+      "vram_bytes_median": 16808030208.0,
+      "main_thread_cpu_core_fraction": 0.3690050898494204,
+      "main_thread_observer_samples": 20
+    },
+    {
+      "index": 12,
+      "mode": "pad",
+      "steady_tokens_per_second": 20.96641653506295,
+      "phase_gpu_busy_mean": 46.30316742081448,
+      "phase_gpu_busy_ge50_fraction": 0.37104072398190047,
+      "vram_bytes_median": 19849887744,
+      "main_thread_cpu_core_fraction": 0.3466768163052008,
+      "main_thread_observer_samples": 23
+    },
+    {
+      "index": 13,
+      "mode": "stock",
+      "steady_tokens_per_second": 22.61861342245067,
+      "phase_gpu_busy_mean": 49.46829268292683,
+      "phase_gpu_busy_ge50_fraction": 0.4878048780487805,
+      "vram_bytes_median": 16808030208,
+      "main_thread_cpu_core_fraction": 0.2951968822753495,
+      "main_thread_observer_samples": 21
+    },
+    {
+      "index": 14,
+      "mode": "control",
+      "steady_tokens_per_second": 22.14280475139947,
+      "phase_gpu_busy_mean": 49.47826086956522,
+      "phase_gpu_busy_ge50_fraction": 0.5217391304347826,
+      "vram_bytes_median": 16808030208,
+      "main_thread_cpu_core_fraction": 0.34701461831060004,
+      "main_thread_observer_samples": 22
+    },
+    {
+      "index": 15,
+      "mode": "control",
+      "steady_tokens_per_second": 21.055382362772182,
+      "phase_gpu_busy_mean": 47.76923076923077,
+      "phase_gpu_busy_ge50_fraction": 0.38461538461538464,
+      "vram_bytes_median": 16808030208,
+      "main_thread_cpu_core_fraction": 0.325854403134942,
+      "main_thread_observer_samples": 22
+    },
+    {
+      "index": 16,
+      "mode": "stock",
+      "steady_tokens_per_second": 22.964248322973262,
+      "phase_gpu_busy_mean": 50.288557213930346,
+      "phase_gpu_busy_ge50_fraction": 0.48756218905472637,
+      "vram_bytes_median": 16808030208,
+      "main_thread_cpu_core_fraction": 0.29343654079746967,
+      "main_thread_observer_samples": 20
+    },
+    {
+      "index": 17,
+      "mode": "pad",
+      "steady_tokens_per_second": 20.406981870330334,
+      "phase_gpu_busy_mean": 44.74122807017544,
+      "phase_gpu_busy_ge50_fraction": 0.3026315789473684,
+      "vram_bytes_median": 19850264576.0,
+      "main_thread_cpu_core_fraction": 0.3486426243324608,
+      "main_thread_observer_samples": 23
+    }
+  ],
+  "scope": "Supplementary GPU utilization, extra VRAM and main-thread CPU time. Main CPU observer starts partway through test. Kernel schedstat interface unavailable, so runnable scheduling wait is not measured. CPU ticks assumed sysconf CLK_TCK (100 on this machine). No causal attribution from utilization alone."
+}

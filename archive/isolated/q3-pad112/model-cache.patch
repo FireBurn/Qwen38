@@ -1,0 +1,72 @@
+--- a/ggml-vulkan.cpp
++++ b/ggml-vulkan.cpp
+@@ -6774,6 +6774,32 @@
+     ggml_vk_sync_buffers(ctx,subctx);
+     ctx->nq_skipped.erase(g);++ctx->nq_fused_count;
+ }
++
++// Private prototype: explicitly opt in to immutable WEIGHTS only. Native-format
++// buffers remain intact for prefill, unsupported shapes and allocation fallback.
++static bool np_weight(ggml_backend_vk_context*ctx,vk_context&subctx,const ggml_tensor*w,uint32_t cols,vk_pipeline&pipeline,vk_subbuffer&weights){
++    const char*dir=getenv("GGML_VK_Q3_PAD112_DIR");
++    if(!dir||!getenv("GGML_VK_Q3_PAD112_IMMUTABLE")||getenv("GGML_VK_MEGA")||ctx->device->properties.deviceID!=0x7551||ctx->device->subgroup_size!=64||!ctx->device->integer_dot_product||!ctx->device->subgroup_shuffle||!ctx->device->subgroup_require_full_support||w->type!=GGML_TYPE_Q3_K||cols<1||cols>2||!w->buffer||ggml_backend_buffer_get_usage(w->buffer)!=GGML_BACKEND_BUFFER_USAGE_WEIGHTS||!ggml_backend_buffer_is_vk(w->buffer)||!ggml_is_contiguous(w)||w->view_src||w->ne[2]!=1||w->ne[3]!=1||w->ne[0]%256||ggml_nbytes(w)!=weights.size)return false;
++    auto load=[&](const std::string&name){std::ifstream f(std::string(dir)+"/"+name,std::ios::binary|std::ios::ate);GGML_ASSERT(f);size_t n=f.tellg();GGML_ASSERT(n>=20&&n%4==0);std::vector<uint32_t>code(n/4);f.seekg(0);f.read((char*)code.data(),n);GGML_ASSERT(f&&code[0]==0x07230203u);return code;};
++    auto create=[&](vk_pipeline&pl,const char*name,const char*file,uint32_t bindings,uint32_t push,uint32_t denom,const std::vector<uint32_t>&spec){auto code=load(file);pl=std::make_shared<vk_pipeline_struct>();pl->name=name;pl->parameter_count=bindings;pl->push_constant_size=push;pl->wg_denoms={denom,1,1};pl->align=1;pl->initialized=true;ggml_vk_create_pipeline_func(ctx->device,pl,code.size()*4,code.data(),"main",bindings,{denom,1,1},spec,true,true,64);};
++    np_cache_entry*entry=nullptr;
++    for(auto&e:ctx->np_cache)if(e.source==weights.buffer&&e.offset==weights.offset&&e.bytes==weights.size&&e.tensor==w){entry=&e;break;}
++    if(!entry){
++        uint64_t bytes=weights.size/110*112,cap=8ull<<30;
++        if(bytes>ctx->device->properties.limits.maxStorageBufferRange||ctx->np_cache_bytes+bytes>cap)return false;
++        vk::PhysicalDeviceMemoryBudgetPropertiesEXT budget;vk::PhysicalDeviceMemoryProperties2 mem;mem.pNext=&budget;ctx->device->physical_device.getMemoryProperties2(&mem);uint64_t available=0;
++        for(uint32_t i=0;i<mem.memoryProperties.memoryHeapCount;++i)if(mem.memoryProperties.memoryHeaps[i].flags&vk::MemoryHeapFlagBits::eDeviceLocal){uint64_t bound=std::min(budget.heapBudget[i],mem.memoryProperties.memoryHeaps[i].size);if(bound>budget.heapUsage[i])available+=bound-budget.heapUsage[i];}
++        if(available<bytes+(4ull<<30)){if(getenv("GGML_VK_Q3_PAD112_AUDIT"))fprintf(stderr,"Q3_PAD112_BUDGET_FALLBACK %s available=%llu need=%llu\n",w->name,(unsigned long long)available,(unsigned long long)bytes);return false;}
++        vk_buffer padded;try{padded=ggml_vk_create_buffer_device(ctx->device,bytes);}catch(const vk::SystemError&){return false;}if(!padded)return false;
++        if(!ctx->np_repack)create(ctx->np_repack,"q3_pad112_repack","repack.spv",2,4,64,{});
++        ggml_vk_sync_buffers(ctx,subctx);ggml_pipeline_request_descriptor_sets(ctx,ctx->np_repack,1);
++        const uint32_t blocks=weights.size/110;ggml_vk_dispatch_pipeline(ctx,subctx,ctx->np_repack,{weights,vk_subbuffer{padded,0,bytes}},std::vector<uint32_t>{blocks},{blocks,1,1});ggml_vk_sync_buffers(ctx,subctx);
++        ctx->np_cache.push_back({weights.buffer,padded,weights.offset,weights.size,w});entry=&ctx->np_cache.back();ctx->np_cache_bytes+=bytes;
++        if(getenv("GGML_VK_Q3_PAD112_AUDIT"))fprintf(stderr,"Q3_PAD112_CACHE %s native=%llu padded=%llu total=%llu\n",w->name,(unsigned long long)weights.size,(unsigned long long)bytes,(unsigned long long)ctx->np_cache_bytes);
++    }
++    if(!ctx->np_matrix[cols-1])create(ctx->np_matrix[cols-1],"q3_pad112_matrix","pad16_subgroup_no_shmem.spv",5,sizeof(vk_mat_vec_push_constants),cols,{64,cols,cols});
++    weights={entry->padded,0,entry->padded->size};pipeline=ctx->np_matrix[cols-1];++ctx->np_calls;return true;
++}
+ static void ggml_vk_mul_mat_vec_q_f16(ggml_backend_vk_context * ctx, vk_context& subctx, const struct ggml_cgraph * cgraph, int node_idx, bool swap_inputs = false) {
+     ggml_tensor * dst = cgraph->nodes[node_idx];
+     const ggml_tensor * src0 = dst->src[swap_inputs ? 1 : 0];
+@@ -6945,6 +6971,8 @@
+             ctx->prealloc_y_last_k_padded = false;
+         }
+     }
++
++    if(quantize_y&&!x_non_contig)np_weight(ctx,subctx,src0,uint32_t(ne11),dmmv,d_X);
+ 
+     // For batch_n, the A matrix is the same for each batch, and B/D use the row stride as the batch stride
+     uint32_t stride_batch_x = batch_n ? 0 : (qx_needs_dequant ? ne00*ne01 : ggml_vk_batch_stride(src0));
+@@ -13393,6 +13421,11 @@
+     VK_LOG_DEBUG("ggml_backend_vk_free(" << ctx->name << ")");
+ 
+     ggml_vk_cleanup(ctx);
++    if(getenv("GGML_VK_Q3_PAD112_AUDIT"))fprintf(stderr,"Q3_PAD112_FINAL entries=%zu bytes=%llu calls=%llu\n",ctx->np_cache.size(),(unsigned long long)ctx->np_cache_bytes,(unsigned long long)ctx->np_calls);
++    for(auto&e:ctx->np_cache)ggml_vk_destroy_buffer(e.padded);ctx->np_cache.clear();
++    for(auto&pl:ctx->np_matrix)if(pl){ggml_vk_destroy_pipeline(ctx->device->device,pl);pl.reset();}
++    if(ctx->np_repack){ggml_vk_destroy_pipeline(ctx->device->device,ctx->np_repack);ctx->np_repack.reset();}
++
+     if(ctx->nq_pipeline){ggml_vk_destroy_pipeline(ctx->device->device,ctx->nq_pipeline);ctx->nq_pipeline.reset();}
+ 
+     delete ctx;
+--- a/ggml-vulkan-types.h
++++ b/ggml-vulkan-types.h
+@@ -1222,7 +1222,13 @@
+     uint32_t print_count {};
+ };
+ 
++struct np_cache_entry { vk_buffer source, padded; uint64_t offset, bytes; const ggml_tensor* tensor; };
+ struct ggml_backend_vk_context {
++    vk_pipeline np_repack, np_matrix[2];
++    std::vector<np_cache_entry> np_cache;
++    uint64_t np_cache_bytes=0;
++    uint64_t np_calls=0;
++
+     vk_pipeline nq_pipeline;
+     std::unordered_map<const ggml_tensor*,const ggml_tensor*> nq_plan;
+     std::unordered_map<const ggml_tensor*,bool> nq_skipped;

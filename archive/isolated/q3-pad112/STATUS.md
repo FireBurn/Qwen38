@@ -1,39 +1,15 @@
-# Q3_K 112-byte aligned layout feasibility
+# Q3 padded weights — completed round
 
-This is a new weight-layout experiment, not a model integration or speed result. Original GGUF weights and all production/Claude sources are unchanged.
+No confirmed speedup over unmodified stock; no faster-than-native mega kernel established.
 
-## Variants and proof
+1584 capped Q3 matrix checks and6repacker checks pass. Native control SPIR-V matches embedded .27 stock module byte-for-byte. Two192-total-arm component timing passes favour aligned112-byte blocks, with sensor/clock caveats.
 
-NativeQ3blockstride110 forces2-byte-alignedloads;repackscombinehalfwordsinto32-bitwords. Preserveall110bytes andappend2zero paddingbytes soeachblockstride112 supportswordalignment. Cost+1.818%Q3weightstorage,not+1.818%entiremodelstorage. Actualmodelcacheallocation/preprocessingcost remains unimplemented.
+Separate-buffer cache:32token full-target-logit audit exact.18process512token test inconclusive;24resident128token repeat shows no gain under saturated compilation.
 
-Threevariants: native110;pad16(theexistinghalfwordsourcewithpaddingonly);pad32(paddingplusdirectwordloadsource). Threeoriginalreductionmodescompiled/validatedforeach. Allnativecontrolsbyte-identicaltorecordedfrozenQ3modules;candidateSPIR-VArrayStride112verified. NativeFP32arithmetic unchanged. prepare.py snapshotsliteralincludeclosureintoprivatevariantdirectories;nooriginalfileedits.
+Single3GiB arena:32token target-logit audit exact.24resident128token screen +1.8198% private-native control,descriptive95%[+0.2471,+3.4172]%;6blocks comparable, no compilers but backgroundCPU~56–67%. Independent18process512token confirmation unconfirmed: stock contrast−0.9124%,95%[−6.5113,+5.0217]%;only1/3blocks comparable as compilation changes. All513tokens/279drafted/234accepted match acrossall18arms.
 
-CPUproof4096randomblocksroundtripallbytes,262144packedwordcomparisons acrossallsubblocks/halves;metadataoffsetsunchanged(hmask0,qs32,scales96,d108,pad110). layout-proof.json. No requantization or quality reduction.
+Coding136target rows andmath138target rows match prior native bits/tokens/counters. No new target-driver errors. Partial process snapshots show all requested VRAM resident.
 
-## Capped GPU feasibility
+Within-generation synchronized target verification:768C2calls,12blocks;−2.6558%targetspeed contrast,95%[−5.1754,−0.0694]%;11/12blocks comparable, no qualified gain. EOS-suppressed longer trajectory,513stock-token prefix exact; not full-token-throughput or direct stock evidence. Earlier asynchronous trial is enqueue-only,not GPU-completion time. Enqueue main-threadCPU7.65ms native vs8.85ms padded suggests profiling host overhead; no isolated causal attribution.
 
-Finalprobe720dispatchchecks: native/pad16/pad32 × C1/C2 × K256/512/1024/4096/17408 × rows1/2/3/4/7/47 ×4patterns.240nativecontrols and480padded/nativebytecomparisons. EverydispatchalsoindependentscalarCPUoracle-tolerancechecked,zero-caseexact,allinputbytesunchanged,256byteguardsintact. Fixed64threads/wave64,NUM_ROWS=3,max16physicalworkgroups,NoShmemsubgroupreduction. Normalexit,ACOIR/RAvalidationpassed,no newtargetdrivererrors.
-
-Thisthree-rowgeometryisadiagnosticconfiguration,not thecurrentproductionone-/two-rowconfiguration. Otherreductionmodesbuildvalidatedonly. No shader isinstalledorusedbymodelinference.
-
-|variant|C1instructions|C1VMEM|C2instructions|C2VMEM|
-|---|---:|---:|---:|---:|
-|native110|5717|328|8974|509|
-|pad16|4969|244|7904|383|
-|pad32|4969|244|7904|383|
-
-C1VGPR48,C2VGPR60 unchanged;zeroLDS/scratch/spills. Pad16/pad32haveidenticalreportedcompiledshaderhashes/code/resourcecounts for eachcolumnsetting. Thuspaddingaloneletsthecompilercoalesceexistinghalfwordloads;explicitwordrewriteprovidesnoadditionalobservedcodegensaving. Preferthesimplerpadding-onlyprototypeforperformanceinvestigation. Thesearecompilerstaticcounts,not measuredspeedorbandwidth. Loadinstructioncountdropsabout25%,butactualstoragebytesincrease.
-
-## Incomplete first attempt and correction
-
-Attempt1completed693exactdispatchesbefore180secondharnesstimeout. TheCPUscalaroraclewasdereferencingmappeddevice-localVRAMbyte-by-byte. Preserved diagnostics-attempt1-timeout/input-probe.cpp,input-operator_bench,probe.log,attempt.json. No outputmismatch,guardfailureorGPUfencefailureprinted. Alltargetfaultlinesinthesystemlogwerehistorical(uptime~5152seconds);noneoccurredduringthisattempt(uptime~92kseconds). Do not call theincompletesetqualification.
-
-ThefixedoraclefirstcopiestheimmutableweightsintoordinaryCPUstorage,thenperformsscalarchecksagainstthatcopy. Finalfull720checksnormalexit,no newdrivererrors. Runnernowretainsfailureinfoanddriverchecksevenonfuturetimeout. ThiswasaharnessCPU-readproblem,not evidenceofashader speedup or GPUcorrectnessfailure.
-
-## Next gates
-
-MatchactualproductionNUM_ROWS(C1one,C2two),collectresources,thenGPUtimestampA/Bswithweightworking-setlargerthanthe64MBInfinityCache(notjust8MiBL2)andnative/paddedbytesaccountedfor. Userauthorizesmatchedmeasurementunderbackgroundload; do notwaitforquietCPUforever. Keepmodel/driverguards andrecordload/clocks.
-
-Onlyifcomponentgainsjustifyit,buildprivateper-contextimmutableWEIGHTS-bufferpaddingcache,keepnativeformatforprefill/otherconsumers,tracksourceoffset/lifetime andcleanupsafely. RepackcostandextraVRAMmustbereported;fulltarget-logit/model/throughputqualificationrequired. No model speed claim now.
-
-Memoryboundary:1.818%isformatpaddingoverheadonly. Keepingoriginalweightsfornativeprefillpluspaddeddecodecopies addsapproximatelyonefullQ3weightcopypluspadding. QueryactualVRAMbudgetbeforemodelintegration;keepnativeandpaddedpipelinesdistinctforcache/fallback;neverreinterpretuncached110-byteweightsas112-byteblocks.
+All GPU jobs from this round are terminal. No CPU quiet waiter for this work. Keep original sources/binaries and Claude unchanged. See NEXT.md and public/Qwen38/docs/Q3-PAD112.md. Goal remains active.

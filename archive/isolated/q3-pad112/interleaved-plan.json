@@ -1,0 +1,7 @@
+{
+  "primary": "768 measured C2 target verification calls,12blocks64calls.16unmeasured calls first. C1 recorded separately.",
+  "assignment": "Seeded0x380112 random orientation of each balanced4call ABBA quartet, independently per C1/C2 shape. Same resident model/contexts/cache. Env choice evaluated during backend graph recording.",
+  "estimator": "For each64C2call block, mean native wall latency / mean pad wall latency minus1. Mean log ratio across12blocks, descriptive95%t df11 critical2.200985160082949. All blocks retained. CPU-clock/build telemetry comparability checked mode-wise.",
+  "correctness": "First513 output tokens must match prior stock512 reference. Same qualified host/shaders as full-target-logit audits. IgnoreEOS and fixed call count bound the benchmark below4096context.",
+  "scope": "Target verification latency including its host submission/wait; excludes draft/sampling/rollback work outside target process calls. Not full token-throughput or direct unmodified-stock evidence. No stop or sample extension selected from performance."
+}

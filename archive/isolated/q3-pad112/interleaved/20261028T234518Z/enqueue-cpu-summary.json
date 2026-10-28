@@ -1,0 +1,13 @@
+{
+  "scope": "Asynchronous target enqueue/recording call only, not target GPU-completion latency. Same mixed-mode process, C2 calls only; CPU statistics include kernel/driver CPU work and any waits inside llama_process. Different run from explicit-sync trial. Diagnostic, not throughput proof.",
+  "C2_means": {
+    "control": {
+      "wall_us": 9753.067708333334,
+      "cpu_us": 7648.661135416667
+    },
+    "pad": {
+      "wall_us": 11148.208333333334,
+      "cpu_us": 8849.10996875
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "estimator": "Six fixed 4-arm symmetric blocks. Mean log steady TPS for pad minus mean log TPS for private native control in each block; mean across six blocks; descriptive Student-t df5, critical2.570581835636305.",
+  "comparability": "Each block: mode-mean CPUbusy spread<=0.05, GPU clock median means ratio<=1.03, build-process mean spread<=2. Every arm needs >=8 active clock samples (GPUbusy>=50), >=8 steady samples, no steady sensor errors. Retain all fixed blocks regardless of outcome; no selective removal for significance.",
+  "claim_gate": "All six blocks comparable and lower interval>0; otherwise report uncertainty. Even a passing result is private resident-host A/B, not an unmodified-stock or cold-start comparison.",
+  "timing": "Analysis rule stored while first within-process block is running, before complete per-arm parser results or comparisons. Thresholds inherited from existing model A/B protocol; no candidate tuning."
+}

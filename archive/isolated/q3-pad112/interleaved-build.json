@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${CLAUDE_WORKSPACE}/prodtree/common",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/q3-pad112/interleaved-runner.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama-common",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/q3-pad112/interleaved-model-bench"
+  ],
+  "source_sha256": "ccf9eed700b3a0f1f29870c5d575781f47b966eac03da025dfc411fc49ef5e4c",
+  "binary_sha256": "f82b9c3c05a7f4e299eeb73c48845c3e90c319f0793b08cb530f4d175fc796dd"
+}

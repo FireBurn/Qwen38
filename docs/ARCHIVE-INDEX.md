@@ -1,6 +1,6 @@
 # Exported experiment archive
 
-The manifest currently lists **975 archived files**, including the root notebooks. The manifest is the authoritative file inventory.
+The manifest currently lists **1206 archived files**, including the root notebooks. The manifest is the authoritative file inventory.
 
 Historical notes can describe unfinished or superseded work. JSON artifacts establish only their stated scope. Missing raw logs or executables are not implied to be present.
 
@@ -260,3 +260,7 @@ See the [SDMA report](SDMA.md) for the queue option, transfer reproducers, engin
 ## Shuffle reductions and resumed timing
 
 See the [shuffle report](SHUFFLE8.md) for wave32/wave64 resources, signed-zero/rounding checks, native model audits, telemetry failure/recovery and the historical ring-timeout correlation.
+
+## Q3 weight-layout and model integration
+
+See [Q3 padded-weight experiments](Q3-PAD112.md) for1,584capped matrix checks, streamed operator timing, separate-buffer/arena model trials, target-logit audits, independent stock confirmation, per-verification diagnostics and residency observations. The manifest includes all exported new reports and telemetry.
