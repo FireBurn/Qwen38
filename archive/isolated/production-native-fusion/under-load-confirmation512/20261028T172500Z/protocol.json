@@ -1,0 +1,43 @@
+{
+  "discovery": "<workspace>/isolated/production-native-fusion/under-load512/20261028T171725Z",
+  "selected_best": "mask2",
+  "selection_means": {
+    "stock": 39.00255629055495,
+    "mask0": 39.45913137868549,
+    "mask1": 39.11547132580941,
+    "mask2": 39.2772007124681,
+    "mask3": 39.203163870139136,
+    "mask4": 38.93423513990928,
+    "mask5": 39.121915677582294,
+    "mask6": 38.60040670182437,
+    "mask7": 39.16678470654667
+  },
+  "sequence": [
+    "stock",
+    "mask7",
+    "mask2",
+    "mask2",
+    "mask7",
+    "stock",
+    "mask7",
+    "mask2",
+    "stock",
+    "stock",
+    "mask2",
+    "mask7",
+    "mask2",
+    "stock",
+    "mask7",
+    "mask7",
+    "stock",
+    "mask2"
+  ],
+  "modes": [
+    "stock",
+    "mask7",
+    "mask2"
+  ],
+  "plan_sha256": "c880826586226ea06e0c1bde0afb0fa8dbe49603167121be2c59490270ed2314",
+  "discovery_summary_sha256": "3a9fa3f1be26c537c05acb034b888ad23c6d0227053296f614496806574c7a44",
+  "scope": "Independent fixed confirmation after screening. Sixfreshprocessruns per mode; three symmetric blocks. Background-load conditions only."
+}

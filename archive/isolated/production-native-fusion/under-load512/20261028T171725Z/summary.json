@@ -1,0 +1,49 @@
+{
+  "mean_steady_tokens_per_second": {
+    "stock": 39.00255629055495,
+    "mask0": 39.45913137868549,
+    "mask1": 39.11547132580941,
+    "mask2": 39.2772007124681,
+    "mask3": 39.203163870139136,
+    "mask4": 38.93423513990928,
+    "mask5": 39.121915677582294,
+    "mask6": 38.60040670182437,
+    "mask7": 39.16678470654667
+  },
+  "control_drift_percent": {
+    "stock": 0.9979804732133224,
+    "mask0": 0.2677886770063642,
+    "mask1": 0.8822831344129867,
+    "mask2": 0.06439861117487622,
+    "mask3": 0.5803954742786832,
+    "mask4": 1.0583509778516853,
+    "mask5": 0.5350117967531043,
+    "mask6": 1.045424384974769,
+    "mask7": 0.11074690598806836
+  },
+  "all_tokens_and_acceptance_identical": true,
+  "all_arms_quiet": false,
+  "relative_to_private_control_percent": {
+    "stock": -1.1570834739083158,
+    "mask0": 0.0,
+    "mask1": -0.8709265532938604,
+    "mask2": -0.46106100124561067,
+    "mask3": -0.6486901753864238,
+    "mask4": -1.3302275555405085,
+    "mask5": -0.8545948410951354,
+    "mask6": -2.176238165559252,
+    "mask7": -0.7408847126744833
+  },
+  "relative_to_unmodified_stock_percent": {
+    "stock": 0.0,
+    "mask0": 1.1706286242604724,
+    "mask1": 0.28950675543746307,
+    "mask2": 0.7041703109589736,
+    "mask3": 0.5143446959982034,
+    "mask4": -0.1751709558129977,
+    "mask5": 0.3060296513340388,
+    "mask6": -1.0310852081968913,
+    "mask7": 0.42107090306666706
+  },
+  "scope": "512requested9mode forward/reverse, production .27/.7core/common, same private driver. Unmodified stock plus all eight masks on identical private host:bit0 quantizer,bit1 Q3,bit2 coalesced SwiGLU. No validation counters,audit capture orprivatehead. Overlap/factorial effects require measurement, not addition. All tokens/counters checked. User-authorized CPU/build contention allowed and recorded; clock/CPU comparability must be assessed before interpreting differences. Measurements under current background load only; no quiet-speed or deployment claim, and repeated A/B confirmation required."
+}

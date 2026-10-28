@@ -1,0 +1,42 @@
+{
+  "discovery": "under-load512/20261028T171725Z:stock+all8masks,forward/reverse,512requestedtokens",
+  "confirmation_selection": "Always test all-three mask7. Also test the highest mean-TPS enabled mask from the complete discovery pass, if different from mask7. Exclude mask0 and stock from candidate selection. Discovery is screening only.",
+  "confirmation_order_three_modes": [
+    "stock",
+    "mask7",
+    "best",
+    "best",
+    "mask7",
+    "stock",
+    "mask7",
+    "best",
+    "stock",
+    "stock",
+    "best",
+    "mask7",
+    "best",
+    "stock",
+    "mask7",
+    "mask7",
+    "stock",
+    "best"
+  ],
+  "confirmation_order_if_best_is_mask7": [
+    "stock",
+    "mask7",
+    "mask7",
+    "stock",
+    "stock",
+    "mask7",
+    "mask7",
+    "stock",
+    "stock",
+    "mask7",
+    "mask7",
+    "stock"
+  ],
+  "replicates_per_mode": 6,
+  "block_analysis": "Each symmetric6arm block (or4armABBA block) gives one mean-log-TPS candidate/control contrast. Report mean and descriptive95%Student-t interval with df2 (critical4.3026527299), three blocks. No optional stopping or further repeats selected on outcome.",
+  "comparability": "Within each block compare mode means: CPUbusy spread<=0.05absolute,medianGPUclock ratio<=1.03,meanbuildcount spread<=2; everyarm requires>=8validactiveclocks, no steadysensor/monitor errors, modeltokens/counters match, no drivererrors. Record clocksettling separately. Allloadincludingcompilers allowed by explicituserinstruction.",
+  "scope": "Only current background-load conditions. Six-per-mode repeats do not establish quiet performance or deployment safety. No gain claim when interval spanszero or blocks incomparable."
+}

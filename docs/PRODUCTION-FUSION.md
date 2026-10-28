@@ -43,3 +43,7 @@ The timing executable also passes nine short correctness arms—stock plus all e
 An 18-arm matched 512-token workflow is queued behind the earlier serialized work. It compares all eight settings and the unmodified stock library forward/reverse, retaining clock/load/build/token/counter gates and rejection of steady-phase sensor errors. Actual monitor/validity-expression synthetic tests pass. [Monitor checks](../archive/isolated/production-native-fusion/telemetry-tests.json).
 
 The audit captures requested target logits, not hidden states or internal draft-score bits. Broader KV contexts and quiet matched performance remain pending. Queue readiness and raw operator times are not performance evidence. No faster-than-native mega kernel or production model is established.
+
+## Under-load A/B outcome
+
+A separate user-authorized 36-run screen and independent confirmation completed while background work continued. All three changes measured +0.07% versus stock, with a descriptive interval spanning approximately −1.8% to +2.0%; no gain was confirmed. [Method, data and limits](UNDER-LOAD-AB.md).

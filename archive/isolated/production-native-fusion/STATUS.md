@@ -39,3 +39,17 @@ run_production_native_fusion_full512.py prepares18matched512requested-tokenarms(
 run_production_native_fusion_performance_after_shaders.py livequeuedbehind exactproductionshaderqueuePID1228109/start_ticks7139995,requiresitsworkflow-complete.json. InitialownPID1230556, originalsession60191; verifyactual/procidentitybeforeactions. Parentselectionexcludesexplicitlycancelled-before-launchrecords. Pinscurrenthost,allshaders,stockcore/common/backend,privateMesa,runner andqualification/smoke/monitorresults. Outputperformance/<timestamp>, futurepaired512/<timestamp>. Existingqueues untouched.
 
 Mainremainingdecision isperformance. Avoidblindlyaddingmoreuntimedvariants whilethisqualifiedcandidatequeueawaitsCPUquiet. No faster-than-base result exists yet. BroaderKVcontext/hidden/draftscorechecks remain necessarybeforegeneraladoption; current-systemdeployment isnotqualified.
+
+## User-authorized under-load A/B completed
+
+User explicitly authorized continuing despite workload and matched A/B testing. Separate run_production_native_fusion_under_load.py bypasses CPU/buildquiet wait only; allmodel,driver,sensormonitor andGPUcompetition checks retained. Originalquietqueue scripts/pins untouched,ownchildlessquietwaiter paused/resumed.
+
+Discovery18arms(stock+8masks forward/reverse),512requestedtokens/arm atunder-load512/20261028T171725Z. Meanstock39.0026t/s,privatecontrol39.4591,quantizer39.1155,Q3only39.2772,both39.2032,fusion38.9342,quantizer+fusion39.1219,Q3+fusion38.6004,allthree39.1668. Exploratoryonly:stockreturnCPUload59.3%vs50.9%initial;enabledmasksneverbeatprivatecontrolmean. Apparentstockgainsnotshaderattribution.
+
+Independentconfirmationunder-load-confirmation512/20261028T172500Z:stock,allthree(mask7),bestdiscoveryenabledcandidateQ3only(mask2). Fixedprotocolrecordedbeforediscoverycompletion;18freshprocessruns,sixpermodes in3symmetric6armblocks,LatinrotatedABC/CBA blocks. Nooptionalstopping. Same513generatedtokenIDs,279drafted/234accepted inall36runs. Zero timed sensorerrors/monitorfailures/newtargetdrivererrors.
+
+Confirmationstockmean38.4530t/s,allthree38.4797,Q3only38.4181. Pairedblockgeometric effects:allthree+0.0670%,descriptive95%tinterval[-1.7945%,+1.9638%];Q3only-0.0940%,interval[-1.7947%,+1.6360%]. All3blocksmatchpredefinedmode-meancomparabilitylimits(5ppCPU,3%GPUclock,2backgroundbuildprocesses);CPUloadandclocksstillvarybetweenindividualarms. Neithergainconfirmed. Intervalsuse3blockcontrasts/df2,limitedsampleandpossibletemporalcorrelation;notquiet/general-performanceproof.
+
+SupplementaryindependentCPUobserverbeganduringconfirmation,limitedcoverage;desktopCPUroughly49%oflogicalCPUcapacitythroughobservedarms. Notusedtoprimaryconfidence/gating. Reportscompleteperarmtelemetryandprotocol;under-load-results-summary.json anchorsactualmeasuredconclusion. Backgroundloadcausesnoise,butbalancedblocksdoenabletesting:thedatahereareconsistentwithnoeffect,notwithaconfirmedcombinedwin.
+
+Likelylimitation: register/instructionreductionsdidnotincreaseobservedreportedwavecapacity,anddominantmatrixweighttraffic/formatsareunchanged. Thisisamechanisticinference,notameasuredmemorybandwidthprofile. Furtherprofiling/targetedhostredundancyauditpreferabletoblindlycombiningmoreALUtweaks. No adoption orfastermega claim.

@@ -1,0 +1,77 @@
+{
+  "arms": [
+    {
+      "arm": "09-stock",
+      "samples": 25,
+      "system_cpu_busy": 0.5711797743984989,
+      "desktop_cpu_fraction": 0.49144672564036723,
+      "model_cpu_fraction": 0.02787078454530724,
+      "other_cpu_fraction": 0.5433089898531916
+    },
+    {
+      "arm": "10-mask2",
+      "samples": 26,
+      "system_cpu_busy": 0.5720089465938806,
+      "desktop_cpu_fraction": 0.49321313963481717,
+      "model_cpu_fraction": 0.030979635564842532,
+      "other_cpu_fraction": 0.5410293110290381
+    },
+    {
+      "arm": "11-mask7",
+      "samples": 26,
+      "system_cpu_busy": 0.5757176643943617,
+      "desktop_cpu_fraction": 0.49163440870676106,
+      "model_cpu_fraction": 0.032242479210365126,
+      "other_cpu_fraction": 0.5434751851839965
+    },
+    {
+      "arm": "12-mask2",
+      "samples": 26,
+      "system_cpu_busy": 0.5729098497921539,
+      "desktop_cpu_fraction": 0.4905714833266885,
+      "model_cpu_fraction": 0.030921234833646522,
+      "other_cpu_fraction": 0.5419886149585074
+    },
+    {
+      "arm": "13-stock",
+      "samples": 26,
+      "system_cpu_busy": 0.5692906564169994,
+      "desktop_cpu_fraction": 0.4928124804272735,
+      "model_cpu_fraction": 0.028068547279586128,
+      "other_cpu_fraction": 0.5412221091374133
+    },
+    {
+      "arm": "14-mask7",
+      "samples": 25,
+      "system_cpu_busy": 0.575511664205396,
+      "desktop_cpu_fraction": 0.4906599430459858,
+      "model_cpu_fraction": 0.03230743747806748,
+      "other_cpu_fraction": 0.5432042267273285
+    },
+    {
+      "arm": "15-mask7",
+      "samples": 26,
+      "system_cpu_busy": 0.5484033214200625,
+      "desktop_cpu_fraction": 0.49647332376179665,
+      "model_cpu_fraction": 0.03215749295234055,
+      "other_cpu_fraction": 0.516245828467722
+    },
+    {
+      "arm": "16-stock",
+      "samples": 26,
+      "system_cpu_busy": 0.5700886542953375,
+      "desktop_cpu_fraction": 0.494677315633605,
+      "model_cpu_fraction": 0.0275750373717693,
+      "other_cpu_fraction": 0.5425136169235681
+    },
+    {
+      "arm": "17-mask2",
+      "samples": 26,
+      "system_cpu_busy": 0.5703710987973342,
+      "desktop_cpu_fraction": 0.4904935836988558,
+      "model_cpu_fraction": 0.031169472329702345,
+      "other_cpu_fraction": 0.5392016264676318
+    }
+  ],
+  "scope": "Supplementary observer began duringconfirmation,soincompletecoverage;notusedforpredefinedprimarygain/comparabilitytest. CPUfractionsnormalizedtoalllogicalCPUs;otherincludesdesktopandexcludesmeasuredmodelprocess."
+}

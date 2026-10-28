@@ -1,0 +1,128 @@
+{
+  "blocks": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cpu_mode_means": {
+        "stock": 0.5703069849723194,
+        "mask7": 0.5253336510204476,
+        "mask2": 0.5609218192743242
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1720.0,
+        "mask7": 1715.75,
+        "mask2": 1722.0
+      },
+      "build_mode_phase_means": {
+        "stock": 0.24603174603174602,
+        "mask7": 0.09523809523809523,
+        "mask2": 0.42857142857142855
+      },
+      "comparable": true,
+      "candidate_effect_percent": {
+        "mask7": 0.69739106837052,
+        "mask2": 0.6381811788901057
+      }
+    },
+    {
+      "indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "cpu_mode_means": {
+        "stock": 0.5716480832103332,
+        "mask7": 0.5737720792044783,
+        "mask2": 0.5701846892313859
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1726.0,
+        "mask7": 1728.0,
+        "mask2": 1725.5
+      },
+      "build_mode_phase_means": {
+        "stock": 0.30952380952380953,
+        "mask7": 0,
+        "mask2": 0
+      },
+      "comparable": true,
+      "candidate_effect_percent": {
+        "mask7": -0.7690178143415213,
+        "mask2": -0.7352872396188666
+      }
+    },
+    {
+      "indices": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "cpu_mode_means": {
+        "stock": 0.5694261942594823,
+        "mask7": 0.5616132521821507,
+        "mask2": 0.5716418794115199
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1676.0,
+        "mask7": 1675.5,
+        "mask2": 1676.0
+      },
+      "build_mode_phase_means": {
+        "stock": 0,
+        "mask7": 0.3855191929133858,
+        "mask2": 0
+      },
+      "comparable": true,
+      "candidate_effect_percent": {
+        "mask7": 0.2784591409908508,
+        "mask2": -0.1802667922511515
+      }
+    }
+  ],
+  "candidate_comparisons": {
+    "mask7": {
+      "geometric_speed_change_percent": 0.06704002907219893,
+      "descriptive_95pct_t_interval_percent": [
+        -1.7944733779990507,
+        1.963838946887094
+      ],
+      "block_effects_percent": [
+        0.69739106837052,
+        -0.7690178143415213,
+        0.2784591409908508
+      ],
+      "all_blocks_comparable": true,
+      "gain_supported_under_measured_load": false,
+      "scope": "Three symmetric block contrasts, df2 Student-t interval; descriptive, limited sample and possible temporal correlation. No quiet-performance/general-deployment claim."
+    },
+    "mask2": {
+      "geometric_speed_change_percent": -0.09404902740523477,
+      "descriptive_95pct_t_interval_percent": [
+        -1.794668115441537,
+        1.6360196355889027
+      ],
+      "block_effects_percent": [
+        0.6381811788901057,
+        -0.7352872396188666,
+        -0.1802667922511515
+      ],
+      "all_blocks_comparable": true,
+      "gain_supported_under_measured_load": false,
+      "scope": "Three symmetric block contrasts, df2 Student-t interval; descriptive, limited sample and possible temporal correlation. No quiet-performance/general-deployment claim."
+    }
+  },
+  "all_tokens_and_counters_identical": true,
+  "scope": "Independent confirmation of discovery candidates againstunmodifiedstock underobservedbackgroundload. CPU/clocks/build comparability and model correctness retained. Nooptionalstopping."
+}

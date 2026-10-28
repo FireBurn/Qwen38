@@ -1,0 +1,52 @@
+{
+  "screening_runs": 18,
+  "independent_confirmation_runs": 18,
+  "requested_tokens_per_run": 512,
+  "predicted_tokens_per_run": 513,
+  "drafted_per_run": 279,
+  "accepted_per_run": 234,
+  "all_tokens_and_counters_identical": true,
+  "timed_sensor_errors": 0,
+  "new_target_driver_errors": 0,
+  "stock_confirmation_mean_tps": 38.453039484740955,
+  "candidate_comparisons": {
+    "mask7": {
+      "geometric_speed_change_percent": 0.06704002907219893,
+      "descriptive_95pct_t_interval_percent": [
+        -1.7944733779990507,
+        1.963838946887094
+      ],
+      "block_effects_percent": [
+        0.69739106837052,
+        -0.7690178143415213,
+        0.2784591409908508
+      ],
+      "all_blocks_comparable": true,
+      "gain_supported_under_measured_load": false,
+      "scope": "Three symmetric block contrasts, df2 Student-t interval; descriptive, limited sample and possible temporal correlation. No quiet-performance/general-deployment claim."
+    },
+    "mask2": {
+      "geometric_speed_change_percent": -0.09404902740523477,
+      "descriptive_95pct_t_interval_percent": [
+        -1.794668115441537,
+        1.6360196355889027
+      ],
+      "block_effects_percent": [
+        0.6381811788901057,
+        -0.7352872396188666,
+        -0.1802667922511515
+      ],
+      "all_blocks_comparable": true,
+      "gain_supported_under_measured_load": false,
+      "scope": "Three symmetric block contrasts, df2 Student-t interval; descriptive, limited sample and possible temporal correlation. No quiet-performance/general-deployment claim."
+    }
+  },
+  "initial_screen_private_control_mean_tps": 39.45913137868549,
+  "screen_scope": "Two samples/mode exploratory only; stock return CPUload0.593 vs0.509 initially; privatecontrol beats all enabled screenmeans. Do not attribute apparent gains overstock toshaderchanges.",
+  "confirmation_scope": "Six runs/mode,three fixedsymmetric blocks. Descriptive95%tinterval overblocklogcontrasts,notgeneralquietperformance proof. CPU/buildload explicitlyauthorizedandrecorded;mode means matched withinpredefined5ppCPU/3%clock/2build limits.",
+  "conclusion": "Neitherallthree norQ3only establishesaspeedgain undermeasuredload. Pointestimatesnearzeroandintervalsspanroughly\u00b12%.",
+  "source_results": [
+    "<workspace>/isolated/production-native-fusion/under-load512/20261028T171725Z",
+    "<workspace>/isolated/production-native-fusion/under-load-confirmation512/20261028T172500Z"
+  ]
+}

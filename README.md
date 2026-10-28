@@ -7,6 +7,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 ## Start here
 
 - [Results and conclusions](docs/RESULTS.md): measured gains, losses and inconclusive results.
+- [36-run under-load A/B test](docs/UNDER-LOAD-AB.md): independent confirmation finds no measurable gain.
 - [Experiment catalog](docs/EXPERIMENTS.md): the main lines of investigation.
 - [Smaller fusions and shader roadmap](docs/ROADMAP.md): what the evidence suggests trying next.
 - [Native fusion rounding diagnosis and corrected audit](docs/NATIVE-FUSION.md).
