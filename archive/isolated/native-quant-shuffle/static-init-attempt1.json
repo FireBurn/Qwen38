@@ -1,0 +1,8 @@
+{
+  "pid": 1219615,
+  "start_ticks": "6723379",
+  "action": "SIGTERM own isolated client process group",
+  "reason": "Host initialization called synchronous pipeline compiler while already holding device compile_mutex; factory tried to reacquire it. No test graph dispatch began in this enabled arm.",
+  "classification": "Host integration deadlock, not shader correctness qualification.",
+  "working_ctx_prototype_unchanged": true
+}
