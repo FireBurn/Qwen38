@@ -23,4 +23,23 @@ Native, fusion-only and all three changes together match the unmodified producti
 
 These captures use a 16-workgroup fusion cap and the stock activation policy. Each arm completes 61 graph planner equality checks, with no deferred SwiGLU left unconsumed at graph end and no new target-driver errors. [Results](../archive/isolated/production-native-fusion/model32/checks.json), [comparison](../archive/isolated/production-native-fusion/model32/comparison.json).
 
-The audit captures requested target logits, not hidden states or internal draft-score bits. Larger fusion grids, longer prompts/contexts, all eight production combinations and matched full-model timing remain pending. Existing non-fusion production timing is queued separately; queue readiness and raw operator times are not performance evidence. No faster-than-native mega kernel or production model is established.
+## Larger-grid and longer-prompt checks
+
+All eight combinations also pass the same 32-requested-token target-logit audit at a 136-workgroup fusion cap. Each enabled fusion arm records 1,159 fused calls/coalesces; disabled arms record zero. Tokens and counters remain identical to the unmodified production reference. [Eight-arm results](../archive/isolated/production-native-fusion/model136-factorial/checks.json), [comparison](../archive/isolated/production-native-fusion/model136-factorial/comparison.json).
+
+Six further arms compare native, fusion-only and all three changes on coding and maths prompts, each requesting 128 tokens at the larger cap:
+
+| Prompt | Captured target-logit rows | Predicted / drafted / accepted | Enabled fused calls |
+|---|---:|---:|---:|
+| Coding | 136 | 130 / 68 / 62 | 4001 |
+| Maths | 138 | 129 / 69 / 60 | 4059 |
+
+Complete requested target-logit bytes, token IDs and counters match each prompt's same-stack native control. No new target-driver errors were recorded. These are longer generated sequences, not stress tests of a populated long KV context. [Results](../archive/isolated/production-native-fusion/prompts128/checks.json), [comparison](../archive/isolated/production-native-fusion/prompts128/comparison.json).
+
+## Timing readiness and limits
+
+The timing executable also passes nine short correctness arms—stock plus all eight combinations—with audit getters, dispatch counters and planner diagnostics absent. Its raw times under uncontrolled desktop load are explicitly unqualified. [Correctness smoke](../archive/isolated/production-native-fusion/timing-smoke32/comparison.json).
+
+An 18-arm matched 512-token workflow is queued behind the earlier serialized work. It compares all eight settings and the unmodified stock library forward/reverse, retaining clock/load/build/token/counter gates and rejection of steady-phase sensor errors. Actual monitor/validity-expression synthetic tests pass. [Monitor checks](../archive/isolated/production-native-fusion/telemetry-tests.json).
+
+The audit captures requested target logits, not hidden states or internal draft-score bits. Broader KV contexts and quiet matched performance remain pending. Queue readiness and raw operator times are not performance evidence. No faster-than-native mega kernel or production model is established.
