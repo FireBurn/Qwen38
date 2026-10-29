@@ -1,0 +1,55 @@
+{
+  "detailed_copy_fill_sites": [
+    {
+      "file": "ggml-vulkan.cpp",
+      "kind": "copy",
+      "call": "cpy_ctx->s->buffer->buf.copyBuffer(ctx->sync_staging->buffer, buf->buffer, slices);"
+    },
+    {
+      "file": "ggml-vulkan.cpp",
+      "kind": "copy",
+      "call": "compute_ctx->s->buffer->buf.copyBuffer(buf->buffer, ctx->sync_staging->buffer, slices);"
+    },
+    {
+      "file": "ggml-vulkan.cpp",
+      "kind": "fill",
+      "call": "subctx->s->buffer->buf.fillBuffer(d_Y->buffer, 0, y_sz, 0);"
+    },
+    {
+      "file": "ggml-vulkan-buffers.cpp",
+      "kind": "copy",
+      "call": "subctx->s->buffer->buf.copyBuffer(buf->buffer, dst->buffer, slices);"
+    },
+    {
+      "file": "ggml-vulkan-buffers.cpp",
+      "kind": "copy",
+      "call": "subctx->s->buffer->buf.copyBuffer(buf->buffer, dst->buffer, slices);"
+    },
+    {
+      "file": "ggml-vulkan-buffers.cpp",
+      "kind": "copy",
+      "call": "subctx->s->buffer->buf.copyBuffer(staging_buffer->buffer, dst->buffer, slices);"
+    },
+    {
+      "file": "ggml-vulkan-buffers.cpp",
+      "kind": "copy",
+      "call": "subctx->s->buffer->buf.copyBuffer(src->buffer, buf->buffer, slices);"
+    },
+    {
+      "file": "ggml-vulkan-buffers.cpp",
+      "kind": "copy",
+      "call": "subctx->s->buffer->buf.copyBuffer(src->buffer, staging_buffer->buffer, staging_slices);"
+    },
+    {
+      "file": "ggml-vulkan-buffers.cpp",
+      "kind": "fill",
+      "call": "ctx->s->buffer->buf.fillBuffer(dst->buffer, offset, size, c);"
+    },
+    {
+      "file": "ggml-vulkan-buffers.cpp",
+      "kind": "fill",
+      "call": "subctx->s->buffer->buf.fillBuffer(dst->buffer, offset, size, c);"
+    }
+  ],
+  "limits": "Observer graph CPU scope only;debug labels excluded;timestamps/resets/UMAbarrier marked unhandled. Outside-scope uploads and lifetime ownership not a replay proof."
+}

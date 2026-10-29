@@ -1,0 +1,252 @@
+--- a/ggml-vulkan.cpp
++++ b/ggml-vulkan.cpp
+@@ -1,3 +1,4 @@
++#include "nco.h"
+ #include <fstream>
+ #include <map>
+ #include "ggml-vulkan-common.h"
+@@ -904,6 +905,7 @@
+ void ggml_vk_submit(vk_context& ctx, vk::Fence fence) {
+     if (ctx->seqs.empty()) {
+         if (fence) {
++            nco_emit(30,{nco_bits(VkFence(fence)),0},true);
+             ctx->p->q->handle->submit({}, fence);
+         }
+         return;
+@@ -973,6 +975,18 @@
+         }
+     }
+ 
++    if(nco_active()){
++        nco_emit(30,{nco_bits(VkFence(fence)),submit_infos.size()},true);
++        for(const auto&si:submit_infos){
++            std::vector<uint64_t> v={si.waitSemaphoreCount,si.commandBufferCount,si.signalSemaphoreCount};
++            for(uint32_t i=0;i<si.waitSemaphoreCount;++i){v.push_back(nco_bits(VkSemaphore(si.pWaitSemaphores[i])));v.push_back(uint32_t(VkPipelineStageFlags(si.pWaitDstStageMask[i])));}
++            for(uint32_t i=0;i<si.commandBufferCount;++i)v.push_back(nco_bits(VkCommandBuffer(si.pCommandBuffers[i])));
++            for(uint32_t i=0;i<si.signalSemaphoreCount;++i)v.push_back(nco_bits(VkSemaphore(si.pSignalSemaphores[i])));
++            auto*ti=static_cast<const vk::TimelineSemaphoreSubmitInfo*>(si.pNext);
++            if(ti&&ti->sType==vk::StructureType::eTimelineSemaphoreSubmitInfo){v.push_back(ti->waitSemaphoreValueCount);for(uint32_t i=0;i<ti->waitSemaphoreValueCount;++i)v.push_back(ti->pWaitSemaphoreValues[i]);v.push_back(ti->signalSemaphoreValueCount);for(uint32_t i=0;i<ti->signalSemaphoreValueCount;++i)v.push_back(ti->pSignalSemaphoreValues[i]);}else nco_unhandled("submit_pnext");
++            nco_vector(31,v,true);
++        }
++    }
+     ctx->p->q->handle->submit(submit_infos, fence);
+ 
+     ctx->seqs.clear();
+@@ -1152,6 +1166,7 @@
+         ctx->prealloc_x_need_sync = ctx->prealloc_y_need_sync = ctx->prealloc_split_k_need_sync = false;
+     }
+ 
++    nco_emit(2,{uint32_t(VkPipelineStageFlags(subctx->p->q->stage_flags)),uint64_t(transfer_queue)});
+     subctx->s->buffer->buf.pipelineBarrier(
+         subctx->p->q->stage_flags,
+         subctx->p->q->stage_flags,
+@@ -1168,6 +1183,7 @@
+ static void ggml_vk_reset_event(vk_context& ctx, vk::Event& event) {
+     VK_LOG_DEBUG("ggml_vk_set_event()");
+ 
++    nco_emit(8,{nco_bits(VkEvent(event)),uint32_t(VkPipelineStageFlags(ctx->p->q->stage_flags))});
+     ctx->s->buffer->buf.resetEvent(
+         event,
+         ctx->p->q->stage_flags
+@@ -1177,6 +1193,7 @@
+ void ggml_vk_set_event(vk_context& ctx, vk::Event& event) {
+     VK_LOG_DEBUG("ggml_vk_set_event()");
+ 
++    nco_emit(9,{nco_bits(VkEvent(event)),uint32_t(VkPipelineStageFlags(ctx->p->q->stage_flags))});
+     ctx->s->buffer->buf.setEvent(
+         event,
+         ctx->p->q->stage_flags
+@@ -1189,6 +1206,7 @@
+         return;
+     }
+ 
++    if(nco_active()){std::vector<uint64_t> values={uint32_t(VkPipelineStageFlags(ctx->p->q->stage_flags)),events.size()};for(auto e:events)values.push_back(nco_bits(VkEvent(e)));nco_vector(11,values);}
+     ctx->s->buffer->buf.waitEvents(
+         events,
+         ctx->p->q->stage_flags,
+@@ -5859,6 +5877,7 @@
+         vk_instance.pfn_vkCmdEndDebugUtilsLabelEXT(ctx->s->buffer->buf);
+     }
+ 
++    nco_emit(13,{});nco_emit(113,{nco_bits(VkCommandBuffer(ctx->s->buffer->buf))},true);
+     ctx->s->buffer->buf.end();
+     ctx->s = nullptr;
+ }
+@@ -5871,6 +5890,7 @@
+ 
+     subctx->seqs.push_back({ ggml_vk_begin_submission(device, *subctx->p) });
+     subctx->s = subctx->seqs[subctx->seqs.size() - 1].data();
++    nco_emit(12,{uint32_t(VkPipelineStageFlags(subctx->p->q->stage_flags)),uint64_t(subctx->p->q->transfer_only)});nco_emit(112,{nco_bits(VkCommandBuffer(subctx->s->buffer->buf))},true);
+ 
+     if (vk_instance.debug_utils_support) {
+         // outermost region, one per command buffer, so the gaps between submits stand out
+@@ -7769,6 +7789,7 @@
+             if (y_needs_k_padding) {
+                 GGML_ASSERT(y_sz % 4 == 0);
+                 // Zero B padding because clamping only A can produce 0 * Inf or NaN.
++                nco_fill(nco_bits(VkBuffer(d_Y->buffer)),0,y_sz,0);
+                 subctx->s->buffer->buf.fillBuffer(d_Y->buffer, 0, y_sz, 0);
+                 ggml_vk_sync_buffers(ctx, subctx);
+                 const ggml_tensor y_staged_dst = make_y_staged_dst();
+@@ -12557,6 +12578,7 @@
+ 
+             if (vk_perf_logger_enabled && vk_perf_logger_concurrent) {
+                 ctx->query_node_idx[ctx->query_idx] = node_idx;
++                nco_unhandled("ggml-vulkan.cpp:12580:writeTimestamp");
+                 compute_ctx->s->buffer->buf.writeTimestamp(vk::PipelineStageFlagBits::eAllCommands, ctx->query_pool, ctx->query_idx++);
+                 ggml_vk_sync_buffers(ctx, compute_ctx);
+             }
+@@ -13499,6 +13521,8 @@
+             }
+         }
+ 
++        if(nco_active()){std::vector<nco_region> regions;for(const auto&r:slices)regions.push_back({r.srcOffset,r.dstOffset,r.size});nco_copy(nco_bits(VkBuffer(ctx->sync_staging->buffer)),nco_bits(VkBuffer(buf->buffer)),regions);}
++
+         cpy_ctx->s->buffer->buf.copyBuffer(ctx->sync_staging->buffer, buf->buffer, slices);
+ 
+         if (size == stride_data) {
+@@ -13554,6 +13578,8 @@
+                 slices[i].size = size;
+             }
+         }
++
++        if(nco_active()){std::vector<nco_region> regions;for(const auto&r:slices)regions.push_back({r.srcOffset,r.dstOffset,r.size});nco_copy(nco_bits(VkBuffer(buf->buffer)),nco_bits(VkBuffer(ctx->sync_staging->buffer)),regions);}
+ 
+         compute_ctx->s->buffer->buf.copyBuffer(buf->buffer, ctx->sync_staging->buffer, slices);
+ 
+@@ -13703,6 +13729,7 @@
+         ctx->submit_pending = false;
+         if (cmd_buf) {
+             cmd_buf->in_use = false;
++            nco_unhandled("ggml-vulkan.cpp:13730:reset");
+             cmd_buf->buf.reset();
+         }
+     }
+@@ -14644,6 +14671,8 @@
+ static ggml_status ggml_backend_vk_graph_compute(ggml_backend_t backend, ggml_cgraph * cgraph) {
+     VK_LOG_DEBUG("ggml_backend_vk_graph_compute(" << cgraph->n_nodes << " nodes)");
+     ggml_backend_vk_context * ctx = (ggml_backend_vk_context *)backend->context;
++    nco_scope nco_graph(ctx,cgraph->n_nodes,&ctx->device->buffer_destroy_count,
++        uint64_t(!ctx->compute_ctx.expired())|uint64_t(!ctx->transfer_ctx.expired())<<1|uint64_t(ctx->submit_pending)<<2);
+     np_prepare_options(ctx);
+     nq_prepare(ctx,cgraph);
+ 
+@@ -14706,6 +14735,7 @@
+         GGML_ASSERT(ctx->compute_ctx.expired());
+         compute_ctx = ggml_vk_get_compute_ctx(ctx);
+         ctx->query_idx = 0;
++        nco_unhandled("ggml-vulkan.cpp:14735:writeTimestamp");
+         compute_ctx->s->buffer->buf.writeTimestamp(vk::PipelineStageFlagBits::eAllCommands, ctx->query_pool, ctx->query_idx++);
+         ggml_vk_sync_buffers(ctx, compute_ctx);
+     }
+@@ -15075,6 +15105,7 @@
+                 // track a single node/fusion for the current query
+                 ctx->query_nodes[ctx->query_idx] = cgraph->nodes[i];
+                 ctx->query_fusion_names[ctx->query_idx] = fusion_string;
++                nco_unhandled("ggml-vulkan.cpp:15104:writeTimestamp");
+                 compute_ctx->s->buffer->buf.writeTimestamp(vk::PipelineStageFlagBits::eAllCommands, ctx->query_pool, ctx->query_idx++);
+                 ggml_vk_sync_buffers(ctx, compute_ctx);
+             } else {
+@@ -16553,6 +16584,7 @@
+             // Only flag for reuse if it hasn't been reused already
+             if (vkev->cmd_buffer_use_counter == vkev->cmd_buffer->use_counter) {
+                 vkev->cmd_buffer->in_use = false;
++                nco_unhandled("ggml-vulkan.cpp:16582:reset");
+                 vkev->cmd_buffer->buf.reset();
+             }
+             vkev->cmd_buffer = nullptr;
+--- a/ggml-vulkan-common.h
++++ b/ggml-vulkan-common.h
+@@ -1,3 +1,4 @@
++#include "nco.h"
+ #pragma once
+ #include "ggml-vulkan-push-constants.h"
+ 
+@@ -305,11 +306,16 @@
+         }
+     }
+     if (!same) {
++        nco_descriptor_write();
+         vk::WriteDescriptorSet write_descriptor_set{ descriptor_set, 0, 0, pipeline->parameter_count, vk::DescriptorType::eStorageBuffer, nullptr, descriptor_buffer_infos.begin() };
+         ctx->device->device.updateDescriptorSets({ write_descriptor_set }, {});
+         bindings.assign(descriptor_buffer_infos.begin(), descriptor_buffer_infos.end());
+     }
+ 
++    if(nco_active()){
++        nco_binding bindings[MAX_PARAMETER_COUNT];uint32_t i=0;for(const auto&info:descriptor_buffer_infos)bindings[i++]={nco_bits(VkBuffer(info.buffer)),info.offset,info.range};
++        const uint32_t workgroups[]={wg0,wg1,wg2};nco_dispatch(pipeline->name.c_str(),nco_bits(VkPipeline(pipeline->pipeline)),nco_bits(VkPipelineLayout(pipeline->layout)),nco_bits(VkDescriptorSet(descriptor_set)),workgroups,bindings,i,push_constant_data(push_constants),push_constant_size(push_constants));
++    }
+     subctx->s->buffer->buf.pushConstants(pipeline->layout, vk::ShaderStageFlagBits::eCompute, 0, push_constant_size(push_constants), push_constant_data(push_constants));
+     subctx->s->buffer->buf.bindPipeline(vk::PipelineBindPoint::eCompute, pipeline->pipeline);
+     subctx->s->buffer->buf.bindDescriptorSets(vk::PipelineBindPoint::eCompute,
+--- a/ggml-vulkan-buffers.cpp
++++ b/ggml-vulkan-buffers.cpp
+@@ -1,3 +1,4 @@
++#include "nco.h"
+ #include "ggml-vulkan-common.h"
+ 
+ #include <cstdint>
+@@ -458,6 +459,7 @@
+         }
+ 
+         ggml_vk_sync_buffers(ctx, subctx);
++        if(nco_active()){std::vector<nco_region> regions;for(const auto&r:slices)regions.push_back({r.srcOffset,r.dstOffset,r.size});nco_copy(nco_bits(VkBuffer(buf->buffer)),nco_bits(VkBuffer(dst->buffer)),regions);}
+         subctx->s->buffer->buf.copyBuffer(buf->buffer, dst->buffer, slices);
+         return;
+     }
+@@ -522,6 +524,7 @@
+         }
+ 
+         ggml_vk_sync_buffers(nullptr, subctx);
++        if(nco_active()){std::vector<nco_region> regions;for(const auto&r:slices)regions.push_back({r.srcOffset,r.dstOffset,r.size});nco_copy(nco_bits(VkBuffer(buf->buffer)),nco_bits(VkBuffer(dst->buffer)),regions);}
+         subctx->s->buffer->buf.copyBuffer(buf->buffer, dst->buffer, slices);
+         return true;
+     }
+@@ -553,6 +556,7 @@
+     }
+ 
+     ggml_vk_sync_buffers(nullptr, subctx);
++    if(nco_active()){std::vector<nco_region> regions;for(const auto&r:slices)regions.push_back({r.srcOffset,r.dstOffset,r.size});nco_copy(nco_bits(VkBuffer(staging_buffer->buffer)),nco_bits(VkBuffer(dst->buffer)),regions);}
+     subctx->s->buffer->buf.copyBuffer(staging_buffer->buffer, dst->buffer, slices);
+ 
+     if (width == spitch) {
+@@ -644,6 +648,7 @@
+     if (buf != nullptr) {
+         // Memory is pinned, use as staging buffer
+         ggml_vk_sync_buffers(nullptr, subctx);
++        if(nco_active()){std::vector<nco_region> regions;for(const auto&r:slices)regions.push_back({r.srcOffset,r.dstOffset,r.size});nco_copy(nco_bits(VkBuffer(src->buffer)),nco_bits(VkBuffer(buf->buffer)),regions);}
+         subctx->s->buffer->buf.copyBuffer(src->buffer, buf->buffer, slices);
+ 
+         return true;
+@@ -676,6 +681,7 @@
+     }
+ 
+     ggml_vk_sync_buffers(nullptr, subctx);
++    if(nco_active()){std::vector<nco_region> regions;for(const auto&r:staging_slices)regions.push_back({r.srcOffset,r.dstOffset,r.size});nco_copy(nco_bits(VkBuffer(src->buffer)),nco_bits(VkBuffer(staging_buffer->buffer)),regions);}
+     subctx->s->buffer->buf.copyBuffer(src->buffer, staging_buffer->buffer, staging_slices);
+ 
+     if (width == dpitch) {
+@@ -707,6 +713,7 @@
+         std::lock_guard<std::recursive_mutex> guard(src->device->mutex);
+         vk_context subctx = ggml_vk_create_temporary_context(src->device->compute_queue->cmd_pool);
+         ggml_vk_ctx_begin(src->device, subctx);
++        nco_unhandled("ggml-vulkan-buffers.cpp:715:pipelineBarrier");
+         subctx->s->buffer->buf.pipelineBarrier(
+             vk::PipelineStageFlagBits::eComputeShader | vk::PipelineStageFlagBits::eTransfer,
+             vk::PipelineStageFlagBits::eHost,
+@@ -798,6 +805,7 @@
+     }
+ 
+     // Fall back to GPU fillBuffer for non-UMA or non-host-visible buffers
++    nco_fill(nco_bits(VkBuffer(dst->buffer)),offset,size,c);
+     ctx->s->buffer->buf.fillBuffer(dst->buffer, offset, size, c);
+ }
+ 
+@@ -813,6 +821,7 @@
+     std::lock_guard<std::recursive_mutex> guard(dst->device->mutex);
+     vk_context subctx = ggml_vk_create_temporary_context(dst->device->transfer_queue->cmd_pool);
+     ggml_vk_ctx_begin(dst->device, subctx);
++    nco_fill(nco_bits(VkBuffer(dst->buffer)),offset,size,c);
+     subctx->s->buffer->buf.fillBuffer(dst->buffer, offset, size, c);
+     ggml_vk_ctx_end(subctx);
+ 

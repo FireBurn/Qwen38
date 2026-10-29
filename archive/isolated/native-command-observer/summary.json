@@ -1,0 +1,162 @@
+{
+  "cases": [
+    {
+      "case": "model32",
+      "graphs": 61,
+      "unique_programs": 9,
+      "exact_repeat_graphs": 52,
+      "unhandled": {},
+      "destroy_changed_graphs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "aligned_dispatches": 36360,
+      "exact_aligned_dispatches": 36360
+    },
+    {
+      "case": "prompts128/coding",
+      "graphs": 208,
+      "unique_programs": 9,
+      "exact_repeat_graphs": 199,
+      "unhandled": {},
+      "destroy_changed_graphs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "aligned_dispatches": 135340,
+      "exact_aligned_dispatches": 135340
+    },
+    {
+      "case": "prompts128/math",
+      "graphs": 211,
+      "unique_programs": 9,
+      "exact_repeat_graphs": 202,
+      "unhandled": {},
+      "destroy_changed_graphs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "aligned_dispatches": 137360,
+      "exact_aligned_dispatches": 137360
+    },
+    {
+      "case": "populated-kv64",
+      "graphs": 122,
+      "unique_programs": 19,
+      "exact_repeat_graphs": 103,
+      "unhandled": {},
+      "destroy_changed_graphs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "aligned_dispatches": 70700,
+      "exact_aligned_dispatches": 70700
+    },
+    {
+      "case": "boundary128",
+      "graphs": 223,
+      "unique_programs": 12,
+      "exact_repeat_graphs": 211,
+      "unhandled": {},
+      "destroy_changed_graphs": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "aligned_dispatches": 145440,
+      "exact_aligned_dispatches": 145408
+    }
+  ],
+  "total_graphs": 825,
+  "total_exact_repeat_graphs": 767,
+  "total_unique_programs_across_processes": 58,
+  "total_aligned_dispatches": 525200,
+  "total_exact_aligned_dispatches": 525168,
+  "attention_boundary_values": {
+    "flash_attention_KV": [
+      256,
+      512
+    ],
+    "flash_attention_k_num": [
+      1,
+      4,
+      8
+    ],
+    "reduction_split_k": [
+      4,
+      8
+    ]
+  },
+  "attention_header_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+  "target_bit_comparisons": {
+    "model32": {
+      "all_requested_target_logit_bits_identical": true,
+      "all_tokens_and_counters_identical": true,
+      "padded_cache_dispatch_verified": true,
+      "matches_prior_unmodified_stock_target_logits": true,
+      "arms": 2,
+      "requested_tokens": 32,
+      "target_logit_rows_per_arm": 38,
+      "target_logit_audit_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+      "scope": "Productionaa8 .27/.7 Freshstock400 vscommand-observer400 withfrozenQ3shaders. Exacttargetbits only;capturedtraceisnotreplayidentityor speed proof;targetlogit rows only,not hidden/draftscore,longcontext or speed qualification."
+    },
+    "prompts128": {
+      "all_requested_target_logit_bits_identical": true,
+      "all_tokens_and_counters_identical": true,
+      "cases": [
+        "coding",
+        "math"
+      ],
+      "arms": 2,
+      "requested_tokens_per_arm": 128,
+      "allocation": "one3GiB arena",
+      "scope": "Padded Q3 arena two-prompt target-logit audit, compared byte-for-byte to prior native reference by hash. No hidden/draftscore,longKVcontext or performancequalification."
+    },
+    "populated-kv64": {
+      "all_requested_target_logit_bits_identical": true,
+      "all_tokens_and_counters_identical": true,
+      "padded_cache_dispatch_verified": true,
+      "matches_fresh_unmodified_stock_target_logits": true,
+      "arms": 2,
+      "requested_tokens": 64,
+      "target_logit_rows_per_arm": 72,
+      "target_logit_audit_sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5",
+      "minimum_target_audit_position": 2580,
+      "maximum_target_audit_position": 2644,
+      "scope": "Freshstock400 versusobserver400 comparisons after >=2048 populated KV positions,4kctx,64requestedtokens. Allrequested targetlogits/tokens/counters;not every internal drafttensor,allcontexts or performance qualification."
+    },
+    "boundary128": {
+      "all_requested_target_logit_bits_identical": true,
+      "all_tokens_and_counters_identical": true,
+      "padded_cache_dispatch_verified": true,
+      "matches_fresh_unmodified_stock_target_logits": true,
+      "arms": 2,
+      "requested_tokens": 128,
+      "target_logit_rows_per_arm": 146,
+      "target_logit_audit_sha256": "16a693b0d912e151df9dc942bfb174f1dd5f8c48748f356b07be7cc8f2fa2f49",
+      "minimum_target_audit_position": 174,
+      "maximum_target_audit_position": 302,
+      "scope": "Freshstock400 versusobserver400 comparisons across audit positions straddling256,4kctx,128requestedtokens. Allrequested targetlogits/tokens/counters;not every internal drafttensor,allcontexts or performance qualification."
+    }
+  },
+  "scope": "Observed canonical TLV records of native GPU command arguments,not opaque Vulkan command-buffer storage. Exact C++vector equality and independent parser/hash checks. Five observer processes;all target-logit/token checks pass. No replay,skippedcommands or throughput claim;outside-graph transfers,debug labels,ownership/completion and buffer/pool invalidation remain outside a replay proof."
+}

@@ -1,0 +1,40 @@
+{
+  "device": "AMD Radeon AI Pro R9700 (RADV GFX1201)",
+  "vendor_id": 4098,
+  "device_id": 30033,
+  "api_version": 4211051,
+  "driver": "radv",
+  "driver_info": "Mesa 27.0.0-devel-lto",
+  "radv_path": "${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so",
+  "extensions": {
+    "VK_EXT_device_generated_commands": true,
+    "VK_NV_device_generated_commands_compute": false,
+    "VK_AMDX_shader_enqueue": false,
+    "VK_EXT_descriptor_buffer": true,
+    "VK_KHR_buffer_device_address": true
+  },
+  "features": {
+    "deviceGeneratedCommands": true,
+    "dynamicGeneratedPipelineLayout": true,
+    "shaderEnqueue": false,
+    "shaderMeshEnqueue": false,
+    "bufferDeviceAddress": true,
+    "descriptorBuffer": true
+  },
+  "dgc_properties": {
+    "compute_stage": true,
+    "compute_pipeline_binding": true,
+    "max_sequences": 1048576,
+    "max_pipeline_count": 4096,
+    "max_tokens": 128
+  },
+  "compute_device_created": false,
+  "gpu_commands_submitted": 0,
+  "assets": {
+    "${WORKSPACE}/isolated/run_native_command_capabilities.py": "6fdb952987a2c66f8ed256db34887389744611d0a12359d34220649eb198c5cd",
+    "${WORKSPACE}/isolated/native-command-observer/capabilities.cpp": "4ef22bf1dc7a23a1fa0a3cdbbc0a474f8dce840b38d68b00db891f4bb4c05c31",
+    "${WORKSPACE}/isolated/native-command-observer/capabilities": "7b41e1dc1dcc0578a1ad7a89f64381ab037885d1dc4bea7629fd220d81a2382b",
+    "${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so": "972e6f16c97b73d04c697199200c28ab5dace217e73646ce68a9173e14fb4422"
+  },
+  "scope": "Read-only physical-device feature query,instance only,no VkDevice or GPU commands; pinned private driver. Extension availability isnot a performance or compatibility proof."
+}

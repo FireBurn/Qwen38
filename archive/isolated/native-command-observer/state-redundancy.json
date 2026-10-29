@@ -1,0 +1,56 @@
+{
+  "cases": [
+    {
+      "case": "model32",
+      "counts": {
+        "dispatches": 44807,
+        "same_pipeline": 4776,
+        "same_pc_exact_layout": 4022,
+        "same_ds_exact_layout": 0
+      }
+    },
+    {
+      "case": "prompts128/coding",
+      "counts": {
+        "dispatches": 147560,
+        "same_pipeline": 16165,
+        "same_pc_exact_layout": 13598,
+        "same_ds_exact_layout": 0
+      }
+    },
+    {
+      "case": "prompts128/math",
+      "counts": {
+        "dispatches": 149657,
+        "same_pipeline": 16397,
+        "same_pc_exact_layout": 13793,
+        "same_ds_exact_layout": 0
+      }
+    },
+    {
+      "case": "populated-kv64",
+      "counts": {
+        "dispatches": 92504,
+        "same_pipeline": 9770,
+        "same_pc_exact_layout": 8219,
+        "same_ds_exact_layout": 0
+      }
+    },
+    {
+      "case": "boundary128",
+      "counts": {
+        "dispatches": 157818,
+        "same_pipeline": 17261,
+        "same_pc_exact_layout": 14509,
+        "same_ds_exact_layout": 0
+      }
+    }
+  ],
+  "total": {
+    "dispatches": 592346,
+    "same_pipeline": 64369,
+    "same_pc_exact_layout": 54141,
+    "same_ds_exact_layout": 0
+  },
+  "scope": "Repeated consecutive state arguments within observed command-buffer boundaries. Native helper still makes each original API call. Driver may already deduplicate;these counts do not measure CPUcost,GPUcommands eliminated or token gain. No state-call skipping implemented."
+}

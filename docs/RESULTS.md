@@ -94,3 +94,7 @@ A separate predeclared36-arm adaptive follow-up matches externalCPU/build/runque
 An independent 36-arm stock100/stock400/frozen400 trial passes all six external-load-matched blocks, with no exclusions. Stock400 gains **+5.67% [+3.50%, +7.87%]** without a padded cache. Frozen400 adds **+2.89% [+0.96%, +4.86%]** for about 3 GiB extra sampled VRAM; stock400 fails the predeclared within-1% noninferiority check.
 
 The combination's +8.72% contrast is a descriptive repeat consistent with the preceding +8.43% trial. Outputs and counters match, no new GPU errors occur, and stock400 passes short and populated-KV target-logit checks. Sampled power rises from about 136 W to 153 W with cap400 under unchanged system settings and natural DVFS. Keep the fastest padded option and lower-memory stock option. [Evidence and guarded reproduction](CONTRIBUTION.md).
+
+## Native command observer (2026-10-29)
+
+Five observer processes preserve 530 requested target-logit rows and generated-token/counter references, including fresh stock controls and KV256→512. Of 825 observed graph executions, 767 exactly repeat earlier captured command-argument sequences. No new GPU errors, unsupported graph-scope command markers or incomplete trace storage occur. No GPU commands are reused or skipped, and observer timings establish no speed gain. A pinned-driver feature query exposes compute DGC but not AMDX shader enqueue; API ordering and binding rules prevent treating DGC as a drop-in dependent-model scheduler. [Scope, evidence and next profiling step](NATIVE-COMMAND-OBSERVER.md).

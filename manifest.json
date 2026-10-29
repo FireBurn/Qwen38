@@ -13627,7 +13627,487 @@
       "export_sha256": "04bd36e7c7bec293d70f0aaf34e2b575273e51a247ff8cfad9ea79ad318fefea",
       "bytes": 5076,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/analyse.py",
+      "path": "archive/isolated/native-command-observer/analyse.py",
+      "source_sha256": "aea7473cd3c6c1c39619f462e4f26aa804f88a28e7124fdb8dde5a1743e76395",
+      "export_sha256": "aea7473cd3c6c1c39619f462e4f26aa804f88a28e7124fdb8dde5a1743e76395",
+      "bytes": 5283,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/build.json",
+      "path": "archive/isolated/native-command-observer/build.json",
+      "source_sha256": "26871dea7d34a9acf83a64b41f71f6fe2b0c1aac8ca58fae542c76cc03bf99d0",
+      "export_sha256": "26871dea7d34a9acf83a64b41f71f6fe2b0c1aac8ca58fae542c76cc03bf99d0",
+      "bytes": 954,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/build.py",
+      "path": "archive/isolated/native-command-observer/build.py",
+      "source_sha256": "b15e4709a1209d616380bd5366032b5a5cb0528737dee77ce9ef5787ef8a50eb",
+      "export_sha256": "b15e4709a1209d616380bd5366032b5a5cb0528737dee77ce9ef5787ef8a50eb",
+      "bytes": 7383,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/nco.cpp",
+      "path": "archive/isolated/native-command-observer/nco.cpp",
+      "source_sha256": "dc9acdc58bca354f7c41884762a2cabf368944213fb81eb1772c6fc9527efe05",
+      "export_sha256": "dc9acdc58bca354f7c41884762a2cabf368944213fb81eb1772c6fc9527efe05",
+      "bytes": 5522,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/observer.patch",
+      "path": "archive/isolated/native-command-observer/observer.patch",
+      "source_sha256": "cfa6377fa2c0e66d098a599bb359e9d59db8c3fd9f1c707879fb6f958ce83c13",
+      "export_sha256": "cfa6377fa2c0e66d098a599bb359e9d59db8c3fd9f1c707879fb6f958ce83c13",
+      "bytes": 12540,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/nco.h",
+      "path": "archive/isolated/native-command-observer/nco.h",
+      "source_sha256": "44eceec1b0233582eedf42284f4b463775cc616975630bb06f56289d16cc987d",
+      "export_sha256": "44eceec1b0233582eedf42284f4b463775cc616975630bb06f56289d16cc987d",
+      "bytes": 1002,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prepare_broader.py",
+      "path": "archive/isolated/native-command-observer/prepare_broader.py",
+      "source_sha256": "61978cff3fee377c078c0635253af5913e63c574e15e9dee916f4fa3760bf9dd",
+      "export_sha256": "61978cff3fee377c078c0635253af5913e63c574e15e9dee916f4fa3760bf9dd",
+      "bytes": 4140,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/publish.py",
+      "path": "archive/isolated/native-command-observer/publish.py",
+      "source_sha256": "3dfd758c0a81944d3aa6ca1753f3d4de109021ebe4df10ec930477349a01708f",
+      "export_sha256": "bdb8c643292773c730f7cda3a7e7be514ebcce482826c3b0e87952ac2148a33c",
+      "bytes": 1481,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-command-observer/capabilities.cpp",
+      "path": "archive/isolated/native-command-observer/capabilities.cpp",
+      "source_sha256": "4ef22bf1dc7a23a1fa0a3cdbbc0a474f8dce840b38d68b00db891f4bb4c05c31",
+      "export_sha256": "4ef22bf1dc7a23a1fa0a3cdbbc0a474f8dce840b38d68b00db891f4bb4c05c31",
+      "bytes": 4712,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/coverage.json",
+      "path": "archive/isolated/native-command-observer/coverage.json",
+      "source_sha256": "67af93814cee73a6135ad48326fcd94da0ff7a41fc702d9ea7b366a94727df37",
+      "export_sha256": "67af93814cee73a6135ad48326fcd94da0ff7a41fc702d9ea7b366a94727df37",
+      "bytes": 1848,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/STATUS.md",
+      "path": "archive/isolated/native-command-observer/STATUS.md",
+      "source_sha256": "325c0fc4922fd7af8f98485586e80b3e43226a30d5a693d057d7185a68d4d085",
+      "export_sha256": "325c0fc4922fd7af8f98485586e80b3e43226a30d5a693d057d7185a68d4d085",
+      "bytes": 1093,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prepare_model32.py",
+      "path": "archive/isolated/native-command-observer/prepare_model32.py",
+      "source_sha256": "9a6dc1cf751583c633583761a60291fc3754749b173caed905dd602e42c6005d",
+      "export_sha256": "9a6dc1cf751583c633583761a60291fc3754749b173caed905dd602e42c6005d",
+      "bytes": 3620,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/summarise.py",
+      "path": "archive/isolated/native-command-observer/summarise.py",
+      "source_sha256": "a4d1a56ccaae9b493abf85a93673f4feb932a6a08d30802c66da826dd07a682a",
+      "export_sha256": "a4d1a56ccaae9b493abf85a93673f4feb932a6a08d30802c66da826dd07a682a",
+      "bytes": 3358,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/PLAN.md",
+      "path": "archive/isolated/native-command-observer/PLAN.md",
+      "source_sha256": "41c8bf20b26c7549761b3ca87144c769b998c8d1ab77880720277e310d9b824c",
+      "export_sha256": "41c8bf20b26c7549761b3ca87144c769b998c8d1ab77880720277e310d9b824c",
+      "bytes": 1571,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/summary.json",
+      "path": "archive/isolated/native-command-observer/summary.json",
+      "source_sha256": "0def90fdaaf284417f37db691c6214742f20c8d57584bd664406c3ad3473463b",
+      "export_sha256": "0def90fdaaf284417f37db691c6214742f20c8d57584bd664406c3ad3473463b",
+      "bytes": 5282,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/capabilities.json",
+      "path": "archive/isolated/native-command-observer/capabilities.json",
+      "source_sha256": "e1840cf66a6eaf21b193a7117326742c3aa054d2d730f4855cc1a30c8555576e",
+      "export_sha256": "142b618c139998d3876d471ba8d534e9733174b9bad5e162007e8a02385795d5",
+      "bytes": 1729,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-command-observer/model32/trace-analysis.json",
+      "path": "archive/isolated/native-command-observer/model32/trace-analysis.json",
+      "source_sha256": "d7b44bc02726dc3aaa678704993e1cf5dd09b638b7b010620facb97763bcb759",
+      "export_sha256": "d7b44bc02726dc3aaa678704993e1cf5dd09b638b7b010620facb97763bcb759",
+      "bytes": 15502,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/model32/comparison.json",
+      "path": "archive/isolated/native-command-observer/model32/comparison.json",
+      "source_sha256": "c1e41229dec868576824d963aaf4e6a95b7415b5f8db829d2daff82d7549883e",
+      "export_sha256": "c1e41229dec868576824d963aaf4e6a95b7415b5f8db829d2daff82d7549883e",
+      "bytes": 612,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/model32/raw-trace-manifest.json",
+      "path": "archive/isolated/native-command-observer/model32/raw-trace-manifest.json",
+      "source_sha256": "14b785889ac50165a474090e61de24184f8fd5d4803ee0f11464986f653b5c04",
+      "export_sha256": "14b785889ac50165a474090e61de24184f8fd5d4803ee0f11464986f653b5c04",
+      "bytes": 11460,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/model32/assets.json",
+      "path": "archive/isolated/native-command-observer/model32/assets.json",
+      "source_sha256": "5f580dbb590ffdcaa9f0e8674193c711bbc1b4a9e1e828ac55e0fd54ea9f5007",
+      "export_sha256": "355c160425641550613a6b70ed9bf176fcede85d505cf48679d6b22d8c6905f5",
+      "bytes": 1713,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-command-observer/model32/checks.json",
+      "path": "archive/isolated/native-command-observer/model32/checks.json",
+      "source_sha256": "1cd211395b02bb85153e34d48ff4532268097603d1c798f9401f8f3fd60b7dcf",
+      "export_sha256": "1cd211395b02bb85153e34d48ff4532268097603d1c798f9401f8f3fd60b7dcf",
+      "bytes": 2115,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/model32/audit-archive.json",
+      "path": "archive/isolated/native-command-observer/model32/audit-archive.json",
+      "source_sha256": "452d74f508d315a3eaf71bb3b1e29efed044df1e0422f739de7e7f6f998ed275",
+      "export_sha256": "452d74f508d315a3eaf71bb3b1e29efed044df1e0422f739de7e7f6f998ed275",
+      "bytes": 217,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/model32/observer-checks.json",
+      "path": "archive/isolated/native-command-observer/model32/observer-checks.json",
+      "source_sha256": "fff3b3809d61cb84e3a420348e450f0fcc53e2320ecdc169778094a256438f10",
+      "export_sha256": "fff3b3809d61cb84e3a420348e450f0fcc53e2320ecdc169778094a256438f10",
+      "bytes": 193,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/model32/observer/graphs.jsonl",
+      "path": "archive/isolated/native-command-observer/model32/observer/graphs.jsonl",
+      "source_sha256": "61f0ce5886036f33cda1c0392b6903b255fd0b4a3baad018b2ddc4c2d74f1169",
+      "export_sha256": "61f0ce5886036f33cda1c0392b6903b255fd0b4a3baad018b2ddc4c2d74f1169",
+      "bytes": 23369,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/comparison.json",
+      "path": "archive/isolated/native-command-observer/prompts128/comparison.json",
+      "source_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "export_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/assets.json",
+      "path": "archive/isolated/native-command-observer/prompts128/assets.json",
+      "source_sha256": "dd163fe523234ded0aaccb3dc3b887fd9d1c3c095a179f35125233dca4c4cbfa",
+      "export_sha256": "ed3bcf42ac6310bb27f61fc90c130b8edd87193a57289373ca686c9e7029f4e6",
+      "bytes": 1765,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/checks.json",
+      "path": "archive/isolated/native-command-observer/prompts128/checks.json",
+      "source_sha256": "3800ed5a307337d0e9a56b2467409372ecc23d28277dce7d55991eb3dd1adbcc",
+      "export_sha256": "3800ed5a307337d0e9a56b2467409372ecc23d28277dce7d55991eb3dd1adbcc",
+      "bytes": 4209,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/observer-checks.json",
+      "path": "archive/isolated/native-command-observer/prompts128/observer-checks.json",
+      "source_sha256": "3f41118899c8a7a55e3896bc89c44ed786a7f22bf05c428bf477e246bb50787d",
+      "export_sha256": "3f41118899c8a7a55e3896bc89c44ed786a7f22bf05c428bf477e246bb50787d",
+      "bytes": 127,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/coding/trace-analysis.json",
+      "path": "archive/isolated/native-command-observer/prompts128/coding/trace-analysis.json",
+      "source_sha256": "247051eecfb1b5ff44ba81a113101567f29cfbecce7c935482137811ed55e218",
+      "export_sha256": "247051eecfb1b5ff44ba81a113101567f29cfbecce7c935482137811ed55e218",
+      "bytes": 24767,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/coding/raw-trace-manifest.json",
+      "path": "archive/isolated/native-command-observer/prompts128/coding/raw-trace-manifest.json",
+      "source_sha256": "fab4404133f415ef72ed950ca41d12d56b3cf1ef6ec851857302ffe52c858b1a",
+      "export_sha256": "fab4404133f415ef72ed950ca41d12d56b3cf1ef6ec851857302ffe52c858b1a",
+      "bytes": 35274,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/native-command-observer/prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/math/trace-analysis.json",
+      "path": "archive/isolated/native-command-observer/prompts128/math/trace-analysis.json",
+      "source_sha256": "009aca2c930cfb4d76000259ae475078c80920d340bfde3a235c555ada0c445f",
+      "export_sha256": "009aca2c930cfb4d76000259ae475078c80920d340bfde3a235c555ada0c445f",
+      "bytes": 24956,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/math/raw-trace-manifest.json",
+      "path": "archive/isolated/native-command-observer/prompts128/math/raw-trace-manifest.json",
+      "source_sha256": "ec8667c635af5ffbff450f15306171e73f7c7dec700bb42eeed8e04f48fcd21d",
+      "export_sha256": "ec8667c635af5ffbff450f15306171e73f7c7dec700bb42eeed8e04f48fcd21d",
+      "bytes": 35760,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/math/audit-archive.json",
+      "path": "archive/isolated/native-command-observer/prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/math/observer/graphs.jsonl",
+      "path": "archive/isolated/native-command-observer/prompts128/math/observer/graphs.jsonl",
+      "source_sha256": "fe04aaad973a91801fc07d28e073c491b8ba0cd67f216abf6acfe5b73762b39a",
+      "export_sha256": "fe04aaad973a91801fc07d28e073c491b8ba0cd67f216abf6acfe5b73762b39a",
+      "bytes": 80930,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/prompts128/coding/observer/graphs.jsonl",
+      "path": "archive/isolated/native-command-observer/prompts128/coding/observer/graphs.jsonl",
+      "source_sha256": "031536e9c0aa97dc88ff5eae18ab9ee04e0c942be5083b9ecaca354a86d026f0",
+      "export_sha256": "031536e9c0aa97dc88ff5eae18ab9ee04e0c942be5083b9ecaca354a86d026f0",
+      "bytes": 79778,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/populated-kv64/trace-analysis.json",
+      "path": "archive/isolated/native-command-observer/populated-kv64/trace-analysis.json",
+      "source_sha256": "d306ec883e50073da45300c7b2a2e86aff3b7c573f63b3a59eaf0feb1ddadda3",
+      "export_sha256": "d306ec883e50073da45300c7b2a2e86aff3b7c573f63b3a59eaf0feb1ddadda3",
+      "bytes": 29508,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/populated-kv64/comparison.json",
+      "path": "archive/isolated/native-command-observer/populated-kv64/comparison.json",
+      "source_sha256": "0ab412e41b35370c9abd1f1a1ac5ccc4644fd3ac9e63321989d454acbd98a26d",
+      "export_sha256": "0ab412e41b35370c9abd1f1a1ac5ccc4644fd3ac9e63321989d454acbd98a26d",
+      "bytes": 688,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/populated-kv64/raw-trace-manifest.json",
+      "path": "archive/isolated/native-command-observer/populated-kv64/raw-trace-manifest.json",
+      "source_sha256": "d11e14089b28701daf60eb70dcb3fa668068f7ccd060bd3fd68477dad518e862",
+      "export_sha256": "d11e14089b28701daf60eb70dcb3fa668068f7ccd060bd3fd68477dad518e862",
+      "bytes": 22955,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/populated-kv64/assets.json",
+      "path": "archive/isolated/native-command-observer/populated-kv64/assets.json",
+      "source_sha256": "6780256bab368f84071e98cba2a2bdd1578eee147bcc092b14aba56c56aa7adf",
+      "export_sha256": "4e2a81c652daf3944cbe62a52a9a0f48f34a9fc40b65c2fd037dd1dd30f51bb6",
+      "bytes": 1907,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-command-observer/populated-kv64/checks.json",
+      "path": "archive/isolated/native-command-observer/populated-kv64/checks.json",
+      "source_sha256": "4d39f305073676e557c04ff4a4805d53bcf0b5917d99bd36b1ada747a003f13f",
+      "export_sha256": "4d39f305073676e557c04ff4a4805d53bcf0b5917d99bd36b1ada747a003f13f",
+      "bytes": 2972,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/populated-kv64/audit-archive.json",
+      "path": "archive/isolated/native-command-observer/populated-kv64/audit-archive.json",
+      "source_sha256": "a3205324f1dce42e0759999a64833c2d93c6e8414aaca1459a0a042786c58e34",
+      "export_sha256": "a3205324f1dce42e0759999a64833c2d93c6e8414aaca1459a0a042786c58e34",
+      "bytes": 217,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/populated-kv64/observer-checks.json",
+      "path": "archive/isolated/native-command-observer/populated-kv64/observer-checks.json",
+      "source_sha256": "54157fec53765ac0830f43c794b2fcb7f0b6352d67ab7b458cdc3a062b7b02d9",
+      "export_sha256": "54157fec53765ac0830f43c794b2fcb7f0b6352d67ab7b458cdc3a062b7b02d9",
+      "bytes": 101,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/populated-kv64/observer/graphs.jsonl",
+      "path": "archive/isolated/native-command-observer/populated-kv64/observer/graphs.jsonl",
+      "source_sha256": "1e879b43975f5b4ffabae4d3fcfa31c762cd6052df21dc5095bdc70ff4e7b54b",
+      "export_sha256": "1e879b43975f5b4ffabae4d3fcfa31c762cd6052df21dc5095bdc70ff4e7b54b",
+      "bytes": 47002,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/boundary128/trace-analysis.json",
+      "path": "archive/isolated/native-command-observer/boundary128/trace-analysis.json",
+      "source_sha256": "5ccaa3771d653fac615bc7c42e0cf32498c2d63be04c60c4e62b152a686f025a",
+      "export_sha256": "5ccaa3771d653fac615bc7c42e0cf32498c2d63be04c60c4e62b152a686f025a",
+      "bytes": 29170,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/boundary128/comparison.json",
+      "path": "archive/isolated/native-command-observer/boundary128/comparison.json",
+      "source_sha256": "7aee92bbc9a7654ae9f06131f18ffd973a2e28602804fe9fc539742cfb85f245",
+      "export_sha256": "7aee92bbc9a7654ae9f06131f18ffd973a2e28602804fe9fc539742cfb85f245",
+      "bytes": 690,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/boundary128/raw-trace-manifest.json",
+      "path": "archive/isolated/native-command-observer/boundary128/raw-trace-manifest.json",
+      "source_sha256": "6e0e4e4b8f9e532014f9a01f56b479247a8c0e6a3da38d08bb6e7a688ddf2767",
+      "export_sha256": "6e0e4e4b8f9e532014f9a01f56b479247a8c0e6a3da38d08bb6e7a688ddf2767",
+      "bytes": 38188,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/boundary128/assets.json",
+      "path": "archive/isolated/native-command-observer/boundary128/assets.json",
+      "source_sha256": "35455fdfb741e64fc9fcd80aa7de17e1f6a66b0aaa3f11e10928f6fd7915d11d",
+      "export_sha256": "b983b7cbaeca863d81336189cf82f45dbb6986596becfea17b75daa39ab88ab7",
+      "bytes": 1914,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-command-observer/boundary128/checks.json",
+      "path": "archive/isolated/native-command-observer/boundary128/checks.json",
+      "source_sha256": "1a19d8e038d091891fd4801a3470fa1f7eea2cc93d1814a92474dbacdd057146",
+      "export_sha256": "1a19d8e038d091891fd4801a3470fa1f7eea2cc93d1814a92474dbacdd057146",
+      "bytes": 4410,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/boundary128/audit-archive.json",
+      "path": "archive/isolated/native-command-observer/boundary128/audit-archive.json",
+      "source_sha256": "f28afbee20d70c3b82e3f0f7b9ebcebf36b6067ce54bbc2b31e5f4bb9010e214",
+      "export_sha256": "f28afbee20d70c3b82e3f0f7b9ebcebf36b6067ce54bbc2b31e5f4bb9010e214",
+      "bytes": 217,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/boundary128/observer-checks.json",
+      "path": "archive/isolated/native-command-observer/boundary128/observer-checks.json",
+      "source_sha256": "5e19c6db03f71065af3ebc5dd99786af284a81db4256d32ef8593a3b9cb88f46",
+      "export_sha256": "5e19c6db03f71065af3ebc5dd99786af284a81db4256d32ef8593a3b9cb88f46",
+      "bytes": 101,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/boundary128/observer/graphs.jsonl",
+      "path": "archive/isolated/native-command-observer/boundary128/observer/graphs.jsonl",
+      "source_sha256": "08b43818def62be08f7114ed82b5adcb849078a44fe55c231496d09970a4eb66",
+      "export_sha256": "08b43818def62be08f7114ed82b5adcb849078a44fe55c231496d09970a4eb66",
+      "bytes": 85741,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native_observer_common.py",
+      "path": "archive/isolated/native_observer_common.py",
+      "source_sha256": "f237e494db6e2c4a8ce604337f89629eb5cd2f286bbbf08cf47c3f57999738a1",
+      "export_sha256": "f237e494db6e2c4a8ce604337f89629eb5cd2f286bbbf08cf47c3f57999738a1",
+      "bytes": 802,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_command_observer_model32.py",
+      "path": "archive/isolated/run_native_command_observer_model32.py",
+      "source_sha256": "f548d510baf31a69edf7fde4f095e5709983777aba5ae2c79960654890c377e7",
+      "export_sha256": "ba1af284e71b599278eeb6710e853e602e1f2d0693f715245aa273423eebd5b4",
+      "bytes": 9675,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_command_observer_prompts128.py",
+      "path": "archive/isolated/run_native_command_observer_prompts128.py",
+      "source_sha256": "85b8f75c479298874ee97292c5f6edbcc3cccbfea4868c7a52baf444098f8f8b",
+      "export_sha256": "c48d122e79f02862ddc2a028e03c17269231204e770036067391e4b806960db9",
+      "bytes": 8538,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_command_observer_kv64.py",
+      "path": "archive/isolated/run_native_command_observer_kv64.py",
+      "source_sha256": "490b3e7c87c37027ec44f7c8f7ca502c057e2a1b0fd59fd9074f3859bdd5fd32",
+      "export_sha256": "84ae8059b99c5130331ac5c6bae315b6b79ae6e55b8e2e5ff11b74955070a3a4",
+      "bytes": 20930,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_command_observer_boundary128.py",
+      "path": "archive/isolated/run_native_command_observer_boundary128.py",
+      "source_sha256": "649f6bb3e1ae50954eb1e30f687bfc9ec0ee2d26f8234d04563c340387151b72",
+      "export_sha256": "8a7dcdbd4f96824cfee3a6635283a597382e8f0cce26e942aa15ac00f8a166c7",
+      "bytes": 10121,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_command_capabilities.py",
+      "path": "archive/isolated/run_native_command_capabilities.py",
+      "source_sha256": "6fdb952987a2c66f8ed256db34887389744611d0a12359d34220649eb198c5cd",
+      "export_sha256": "6fdb952987a2c66f8ed256db34887389744611d0a12359d34220649eb198c5cd",
+      "bytes": 1454,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/state-redundancy.json",
+      "path": "archive/isolated/native-command-observer/state-redundancy.json",
+      "source_sha256": "241796bdd69da3a08e69b435479f578c3539321f347de6ab2c5a5ab71fbc3d40",
+      "export_sha256": "241796bdd69da3a08e69b435479f578c3539321f347de6ab2c5a5ab71fbc3d40",
+      "bytes": 1460,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-command-observer/state_redundancy.py",
+      "path": "archive/isolated/native-command-observer/state_redundancy.py",
+      "source_sha256": "159289b3903e90ec45e89725c0c9ac34e09c0a3cff6d6e24dc2726514f671dc1",
+      "export_sha256": "159289b3903e90ec45e89725c0c9ac34e09c0a3cff6d6e24dc2726514f671dc1",
+      "bytes": 1509,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-29T08:43:48.021506+00:00"
+  "updated_utc": "2026-10-29T12:10:46.015854+00:00"
 }

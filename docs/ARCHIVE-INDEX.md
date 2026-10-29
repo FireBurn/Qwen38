@@ -288,3 +288,7 @@ See [experiment and interpretation](FUSION-COMBINATION.md). The manifest include
 ## Submission-only contribution check
 
 [Interpretation](CONTRIBUTION.md). `contribution512/20261029T082723Z` contains36fresh processes,all6external-load-matched blocks,paired primary/secondary contrasts and preset1%noninferiority check. Stock400logit checks match short andpopulatedKVreferences. `stock400-qualified-20261029.json` and `qualified-stock400-single` preserve a guarded lower-memory option; frozenQ3/cap400 remains available.
+
+## Native command observation
+
+[Interpretation](NATIVE-COMMAND-OBSERVER.md). `archive/isolated/native-command-observer/` contains the observer source/patch, all-three-TU build hashes, five-case numerical checks, graph records, parsed trace analyses, raw-metadata SHA manifests, KV-field proof and read-only device capability query. Raw command metadata stays local; it contains no model tensor values. This is observer evidence, not a working replay engine or a speedup claim.
