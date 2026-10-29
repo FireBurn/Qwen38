@@ -1,0 +1,13 @@
+# Native submission budget status
+
+Candidate SHA288b2bc9fdb831ca8d3df0f9408f4027f62c9c4baa1f1388a62c003f5c63a6a0 built directly from qualified frozen host-fast-guard-v2 library4e1381cd...; matching frozen link buffer/debug objects and headers retained. Only initial native FLOP budget divisor40(default)/20(optin), with optional audit output. No cache/shader/barrier/nodecap/AMDcap/fence changes.
+
+All five target-bit cases pass530rows/tokens/counters, noGPUerrors. Actualorderedgraphnode/FLOPsequencesidentical, lowerauditedbatches in everycase:578->407short;1776->1294coding;1800->1323math;1643->1292populatedKV;2218->1638boundary. Seequalification-summary.json. AllqualificationGPUjobs terminal0.
+
+Fixed24fresh512 discovery model-timing512/20261029T203000Z completed, session18180terminal0. All24expected513tokens/279drafts/234accepts exact/noGPUerrors. Fourpredeclaredexternalloadmatchedblocks,primary+0.75341164%[+0.25378412,+1.25552912];matchedblockgains1.0156,1.0308,.4263,.5424%. All6raw-.30884871%[-4.95706,+4.56669],first2loadconfounded. MatchedCPUseen65.9/65.3%,buildmean.611/.561,clock1747.875/1748.875MHz,power125.50/125.99W,VRAM~18.65GiBboth. Fullgenerationsecondary+0.79199%[-.17274,+1.76604],notpositivequalified. Noequalclockoradoptionclaim.
+
+Independentconfirmation completed, session18454terminal0: model-confirmation512/20261029T204004Z. All24expected513tokens/279drafts/234accepts exact/noGPUerrors. ZEROexternalloadmatchedblocks;all6raw+2.52967%[-7.90125,+14.14199]. Noqualifiedprimary,noconfirmedgain,noadoption. No retry/extension/pooling. Keepfrozenqualified40. Discovery+0.7534% remainsunconfirmed,notfalsebythisinconclusivetest.
+
+Transferobserver build40618/profile57133 completedterminal0 AFTERtiming. Fourmeasured/six nativegenerationsexact129tokens/74drafts/55accepts,noGPUerrors.1850sync_tensor_setcalls69,614,464requestedbytes,eachenclosingonequeuesubmit;643.613mswall/91.145msCPUmean. Fullcounts4579=1767ingraph+1850syncset+962otheroutside. Next ../native-transfer-observer/NEXT.md: capturetensorname/type/flags,thenownership-preservinginputsnapshotcandidateifconfirmed. No actualtransferoptimizationimplementedyet. AllGPUjobs terminal.
+
+Previous turn progress: host wait timeline four measured/six total generations exact, 222graphs/518fencewaits/4579submits each.1767insidegraph,2812outside(518empty);~8graphsubmitcalls/graph,not40actual. GraphCPU681->462ms exclusive, fencewall2153->2426ms;CPU/GPUoverlap plausible notproved. Timeline in ../native-fusion-plan/wait-timeline/20261029T202202Z. All native-fusion-plan GPU jobs terminal. Current public88e1cd9; timeline/native-submit-budget publication pending.

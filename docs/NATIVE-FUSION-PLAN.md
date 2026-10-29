@@ -40,4 +40,24 @@ Further planner tuning is lower priority until a timeline or critical-path measu
 
 [Resident analysis](../archive/isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/analysis.json), [behavior checks](../archive/isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/behavior-check.json), [predeclared CPU diagnostic](../archive/isolated/native-fusion-plan/CPU-DIAGNOSTIC-PLAN.md).
 
+## Follow-up host wait timeline
+
+A separate four-arm mechanism profile (two warmups, six exact generations overall) records graph, synchronization, fence-wait and queue-submit intervals on the observed backend CPU thread. Interval nesting is checked and exclusive costs remove child scopes. No native commands or shaders change; there are no GPU timestamps. These are descriptive means under background load, not a throughput confirmation.
+
+| Per generation, milliseconds | Cache inactive | Cache active |
+|---|---:|---:|
+| Decode wall | 5,247 | 5,154 |
+| Decode thread CPU | 1,740 | 1,487 |
+| Graph CPU, excluding nested submission calls | 681 | 462 |
+| Fence-wait wall | 2,153 | 2,426 |
+| Fence-wait CPU | 653 | 616 |
+| Queue-submit wall | 502 | 449 |
+| Queue-submit CPU | 137 | 134 |
+
+There are 222 graph computations, 518 fence waits and **4,579 low-level queue-submit calls** per measured generation in both modes. Of these, 1,767 occur inside graph recording; 2,812 occur outside, including 518 empty fence submissions. Each graph averages about eight submission calls on this trace. The initial FLOP divisor is a heuristic, not the actual submission count. Outside-graph calls need transfer/API attribution before assuming they are removable. Reduced graph CPU coincides with increased fence-wait wall time, consistent with some recording work having overlapped outstanding GPU work. This does not prove GPU utilization or identify exact pipeline bubbles: wait wall time includes blocking and CPU scheduling delays.
+
+The native submission policy uses an initial budget of previous graph FLOPs divided by40, then doubles that budget after each of the first three submissions. This operates independently of nodecap400. A bounded native divisor20 experiment is the next candidate; final/almost-ready fences, AMD caps, node cap, ramp, shader arithmetic and barriers remain intact. Historical single-submit/dispatch-coalescing failures were on the persistent mega path and remain relevant overlap cautions; the new candidate does not collapse a native graph into one submission.
+
+[Timeline analysis](../archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/analysis.json), [trace event artifact](../archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/trace-events.json), [predeclared scope](../archive/isolated/native-fusion-plan/WAIT-TIMELINE-PLAN.md).
+
 Evidence: [validator summary](../archive/isolated/native-fusion-plan/validator-summary.json), [actual reuse](../archive/isolated/native-fusion-plan/reuse-summary.json), [CPU checks](../archive/isolated/native-fusion-plan/cpu-validator/checks.json), [GPU mutations](../archive/isolated/native-fusion-plan/mutation/checks.json), [full-model A/B](../archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/confirmation-analysis.json), [predeclared timing plan](../archive/isolated/native-fusion-plan/MODEL-TIMING-PLAN.md), [cache implementation patch](../archive/isolated/native-fusion-plan/reuse.patch).

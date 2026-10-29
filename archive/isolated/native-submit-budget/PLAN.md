@@ -1,0 +1,7 @@
+# Native submission budget experiment
+
+Prior host-wait timeline (native-fusion-plan/wait-timeline/20261029T202202Z) observed 4579 low-level queue submit calls for 222 graph computations per128-request-token generation. These include readback/synchronization submissions, not just graph batches. Native initial FLOP budget is last_total_flops/40, independently of nodecap400; first three submissions double the current FLOP budget. Preserve that ramp and all normal boundaries/barriers.
+
+Historical single-submit and dispatch coalescing experiments concerned the persistent mega path and failed to improve it. This candidate concerns native command recording on the current .27/.7 frozen padded-Q3 path, without command replay, plan reuse or shader changes. Single-submit is not proposed. Test a bounded initial divisor20 against40, preserve nodecap400, AMD FLOP caps, final and almost-ready fences, dependencies and every command. Default/unrecognized settings remain40.
+
+First qualify short32 with fresh stock400/frozen400/private40/private20 controls and exact full target rows/tokens/counters. Then coding/math128, populatedKV64 and boundary128 on private20 against their native references before throughput testing. Audit actual batch counts outside timing. No adoption before full correctness and separate predeclared matched full-model A/B. Original qualified snapshot stays immutable. No clock/desktop/affinity/system changes; serial GPU guard. No persistent shader or GPU workgroup changes.

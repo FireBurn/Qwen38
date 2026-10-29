@@ -1,0 +1,298 @@
+{
+  "arms": [
+    {
+      "arm": 0,
+      "api": {
+        "async_tensor_copy": {
+          "calls": 296,
+          "bytes_requested": 10608640,
+          "wall_ns": 6510844,
+          "cpu_ns": 6587801,
+          "size_histogram": {
+            "20480": 74,
+            "40960": 222
+          }
+        },
+        "sync_tensor_set": {
+          "calls": 1850,
+          "bytes_requested": 69614464,
+          "wall_ns": 637340163,
+          "cpu_ns": 88764554,
+          "size_histogram": {
+            "20480": 74,
+            "16": 444,
+            "262144": 222,
+            "16384": 222,
+            "8": 222,
+            "512": 74,
+            "4": 148,
+            "40960": 148,
+            "32": 148,
+            "1024": 148
+          }
+        },
+        "async_tensor_get": {
+          "calls": 370,
+          "bytes_requested": 151557920,
+          "wall_ns": 2609531,
+          "cpu_ns": 2534877,
+          "size_histogram": {
+            "20480": 74,
+            "40": 148,
+            "1986560": 74,
+            "40960": 74
+          }
+        }
+      },
+      "queue_calls_by_nearest_api": {
+        "other_outside_graph": 962,
+        "sync_tensor_set": 1850,
+        "graph_compute": 1767
+      },
+      "queue_api_size_histogram": {
+        "sync_tensor_set:20480": 74,
+        "sync_tensor_set:16": 444,
+        "sync_tensor_set:262144": 222,
+        "sync_tensor_set:16384": 222,
+        "sync_tensor_set:8": 222,
+        "sync_tensor_set:512": 74,
+        "sync_tensor_set:4": 148,
+        "sync_tensor_set:40960": 148,
+        "sync_tensor_set:32": 148,
+        "sync_tensor_set:1024": 148
+      },
+      "total_queue_calls": 4579,
+      "graph_executions": 222,
+      "fence_waits": 518,
+      "decode_cpu_ns": 1933879920,
+      "decode_wall_us": 4149017
+    },
+    {
+      "arm": 1,
+      "api": {
+        "async_tensor_copy": {
+          "calls": 296,
+          "bytes_requested": 10608640,
+          "wall_ns": 7225922,
+          "cpu_ns": 7173381,
+          "size_histogram": {
+            "20480": 74,
+            "40960": 222
+          }
+        },
+        "sync_tensor_set": {
+          "calls": 1850,
+          "bytes_requested": 69614464,
+          "wall_ns": 683005103,
+          "cpu_ns": 93557245,
+          "size_histogram": {
+            "20480": 74,
+            "16": 444,
+            "262144": 222,
+            "16384": 222,
+            "8": 222,
+            "512": 74,
+            "4": 148,
+            "40960": 148,
+            "32": 148,
+            "1024": 148
+          }
+        },
+        "async_tensor_get": {
+          "calls": 370,
+          "bytes_requested": 151557920,
+          "wall_ns": 2474942,
+          "cpu_ns": 2551005,
+          "size_histogram": {
+            "20480": 74,
+            "40": 148,
+            "1986560": 74,
+            "40960": 74
+          }
+        }
+      },
+      "queue_calls_by_nearest_api": {
+        "other_outside_graph": 962,
+        "sync_tensor_set": 1850,
+        "graph_compute": 1767
+      },
+      "queue_api_size_histogram": {
+        "sync_tensor_set:20480": 74,
+        "sync_tensor_set:16": 444,
+        "sync_tensor_set:262144": 222,
+        "sync_tensor_set:16384": 222,
+        "sync_tensor_set:8": 222,
+        "sync_tensor_set:512": 74,
+        "sync_tensor_set:4": 148,
+        "sync_tensor_set:40960": 148,
+        "sync_tensor_set:32": 148,
+        "sync_tensor_set:1024": 148
+      },
+      "total_queue_calls": 4579,
+      "graph_executions": 222,
+      "fence_waits": 518,
+      "decode_cpu_ns": 1928307852,
+      "decode_wall_us": 4283478
+    },
+    {
+      "arm": 2,
+      "api": {
+        "async_tensor_copy": {
+          "calls": 296,
+          "bytes_requested": 10608640,
+          "wall_ns": 6601018,
+          "cpu_ns": 6684172,
+          "size_histogram": {
+            "20480": 74,
+            "40960": 222
+          }
+        },
+        "sync_tensor_set": {
+          "calls": 1850,
+          "bytes_requested": 69614464,
+          "wall_ns": 658389330,
+          "cpu_ns": 92693035,
+          "size_histogram": {
+            "20480": 74,
+            "16": 444,
+            "262144": 222,
+            "16384": 222,
+            "8": 222,
+            "512": 74,
+            "4": 148,
+            "40960": 148,
+            "32": 148,
+            "1024": 148
+          }
+        },
+        "async_tensor_get": {
+          "calls": 370,
+          "bytes_requested": 151557920,
+          "wall_ns": 3425806,
+          "cpu_ns": 2845543,
+          "size_histogram": {
+            "20480": 74,
+            "40": 148,
+            "1986560": 74,
+            "40960": 74
+          }
+        }
+      },
+      "queue_calls_by_nearest_api": {
+        "other_outside_graph": 962,
+        "sync_tensor_set": 1850,
+        "graph_compute": 1767
+      },
+      "queue_api_size_histogram": {
+        "sync_tensor_set:20480": 74,
+        "sync_tensor_set:16": 444,
+        "sync_tensor_set:262144": 222,
+        "sync_tensor_set:16384": 222,
+        "sync_tensor_set:8": 222,
+        "sync_tensor_set:512": 74,
+        "sync_tensor_set:4": 148,
+        "sync_tensor_set:40960": 148,
+        "sync_tensor_set:32": 148,
+        "sync_tensor_set:1024": 148
+      },
+      "total_queue_calls": 4579,
+      "graph_executions": 222,
+      "fence_waits": 518,
+      "decode_cpu_ns": 1928658149,
+      "decode_wall_us": 4267386
+    },
+    {
+      "arm": 3,
+      "api": {
+        "async_tensor_copy": {
+          "calls": 296,
+          "bytes_requested": 10608640,
+          "wall_ns": 6954137,
+          "cpu_ns": 7050875,
+          "size_histogram": {
+            "20480": 74,
+            "40960": 222
+          }
+        },
+        "sync_tensor_set": {
+          "calls": 1850,
+          "bytes_requested": 69614464,
+          "wall_ns": 595716580,
+          "cpu_ns": 89566374,
+          "size_histogram": {
+            "20480": 74,
+            "16": 444,
+            "262144": 222,
+            "16384": 222,
+            "8": 222,
+            "512": 74,
+            "4": 148,
+            "40960": 148,
+            "32": 148,
+            "1024": 148
+          }
+        },
+        "async_tensor_get": {
+          "calls": 370,
+          "bytes_requested": 151557920,
+          "wall_ns": 2664655,
+          "cpu_ns": 2729110,
+          "size_histogram": {
+            "20480": 74,
+            "40": 148,
+            "1986560": 74,
+            "40960": 74
+          }
+        }
+      },
+      "queue_calls_by_nearest_api": {
+        "other_outside_graph": 962,
+        "sync_tensor_set": 1850,
+        "graph_compute": 1767
+      },
+      "queue_api_size_histogram": {
+        "sync_tensor_set:20480": 74,
+        "sync_tensor_set:16": 444,
+        "sync_tensor_set:262144": 222,
+        "sync_tensor_set:16384": 222,
+        "sync_tensor_set:8": 222,
+        "sync_tensor_set:512": 74,
+        "sync_tensor_set:4": 148,
+        "sync_tensor_set:40960": 148,
+        "sync_tensor_set:32": 148,
+        "sync_tensor_set:1024": 148
+      },
+      "total_queue_calls": 4579,
+      "graph_executions": 222,
+      "fence_waits": 518,
+      "decode_cpu_ns": 1895999073,
+      "decode_wall_us": 4156622
+    }
+  ],
+  "mean_api": {
+    "async_tensor_copy": {
+      "calls": 296,
+      "bytes_requested": 10608640,
+      "wall_ns": 6822980.25,
+      "cpu_ns": 6874057.25
+    },
+    "async_tensor_get": {
+      "calls": 370,
+      "bytes_requested": 151557920,
+      "wall_ns": 2793733.5,
+      "cpu_ns": 2665133.75
+    },
+    "sync_tensor_set": {
+      "calls": 1850,
+      "bytes_requested": 69614464,
+      "wall_ns": 643612794,
+      "cpu_ns": 91145302
+    }
+  },
+  "mean_queue_calls_by_nearest_api": {
+    "graph_compute": 1767,
+    "other_outside_graph": 962,
+    "sync_tensor_set": 1850
+  },
+  "scope": "Fourmeasured/six totalnativeprofilegenerations,exacttokens/counters,noGPUerrors;CPUtimeline/APIbyteattributiononly,nooptimizationorspeedclaim. QueuecallattributiondescribesCPUcallnesting,notthepayloadsofdeferredasynccopiesoractualGPUexecutiontime. BytecountsareAPIrequests,includingunsupportedcopyprobesthatmayreturnfalse;notactualtransferredbytes. APIintervalsincludechildsynchronization/waits;donotsumoverlappingcategories. NoGPUcommands/ownershipchanged,planningreuseforcedoff."
+}

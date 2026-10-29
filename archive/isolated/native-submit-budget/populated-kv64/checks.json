@@ -1,0 +1,1735 @@
+[
+  {
+    "mode": "stock400",
+    "submit_divisor": 40,
+    "budget_records": [],
+    "prefix_min_audit_position": 2580,
+    "max_audit_position": 2644,
+    "cap": 400,
+    "mask": 0,
+    "pid": 3492147,
+    "fused_calls": 0,
+    "coalesced_barriers": 0,
+    "planner_comparisons": 0,
+    "n_drafted": 36,
+    "n_accept": 29,
+    "n_predict": 65,
+    "tokens": [
+      264,
+      9705,
+      421,
+      15339,
+      264,
+      220,
+      16,
+      15,
+      17,
+      19,
+      27522,
+      2153,
+      1287,
+      321,
+      55288,
+      279,
+      2542,
+      13,
+      271,
+      248068,
+      198,
+      760,
+      1156,
+      6587,
+      264,
+      11346,
+      15673,
+      314,
+      1204,
+      6297,
+      65789,
+      321,
+      7359,
+      36602,
+      7556,
+      21966,
+      4906,
+      11,
+      5732,
+      440,
+      264,
+      3050,
+      3010,
+      314,
+      264,
+      9705,
+      421,
+      15339,
+      264,
+      220,
+      16,
+      15,
+      17,
+      19,
+      27522,
+      2153,
+      1287,
+      321,
+      55288,
+      279,
+      2542,
+      13,
+      2302,
+      2908,
+      78685
+    ],
+    "target_logit_audit_sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5",
+    "audit_bytes": 71517616,
+    "target_logit_rows": 72,
+    "audit_batches": 37,
+    "new_driver_errors": [],
+    "scope": "Productionaa8 .27/.7MTP stockactivationpolicy;every requested targetlogit row from runnerprocesscalls,tokens/counters. No targethidden/draftscorecapture or performance qualification."
+  },
+  {
+    "mode": "control40",
+    "submit_divisor": 40,
+    "budget_records": [
+      {
+        "divisor": 40,
+        "nodes": 4183,
+        "batches": 5,
+        "flops": 99749899776
+      },
+      {
+        "divisor": 40,
+        "nodes": 61,
+        "batches": 3,
+        "flops": 4262841856
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 674,
+        "flops": 25073513398272
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 19,
+        "flops": 25176592613376
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 19,
+        "flops": 25279671828480
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 19,
+        "flops": 25382751043584
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 19,
+        "flops": 25485830258688
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 5,
+        "flops": 997553510400
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 18,
+        "flops": 443616329728
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 10,
+        "flops": 450058780672
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 10,
+        "flops": 456501231616
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 462943682560
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 469386133504
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 3,
+        "flops": 18461224960
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 4,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 5,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 8,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1846122496
+      }
+    ],
+    "prefix_min_audit_position": 2580,
+    "max_audit_position": 2644,
+    "cap": 400,
+    "mask": 8,
+    "pid": 3493146,
+    "fused_calls": 0,
+    "coalesced_barriers": 0,
+    "planner_comparisons": 122,
+    "n_drafted": 36,
+    "n_accept": 29,
+    "n_predict": 65,
+    "tokens": [
+      264,
+      9705,
+      421,
+      15339,
+      264,
+      220,
+      16,
+      15,
+      17,
+      19,
+      27522,
+      2153,
+      1287,
+      321,
+      55288,
+      279,
+      2542,
+      13,
+      271,
+      248068,
+      198,
+      760,
+      1156,
+      6587,
+      264,
+      11346,
+      15673,
+      314,
+      1204,
+      6297,
+      65789,
+      321,
+      7359,
+      36602,
+      7556,
+      21966,
+      4906,
+      11,
+      5732,
+      440,
+      264,
+      3050,
+      3010,
+      314,
+      264,
+      9705,
+      421,
+      15339,
+      264,
+      220,
+      16,
+      15,
+      17,
+      19,
+      27522,
+      2153,
+      1287,
+      321,
+      55288,
+      279,
+      2542,
+      13,
+      2302,
+      2908,
+      78685
+    ],
+    "target_logit_audit_sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5",
+    "audit_bytes": 71517616,
+    "target_logit_rows": 72,
+    "audit_batches": 37,
+    "new_driver_errors": [],
+    "scope": "Productionaa8 .27/.7MTP stockactivationpolicy;every requested targetlogit row from runnerprocesscalls,tokens/counters. No targethidden/draftscorecapture or performance qualification."
+  },
+  {
+    "mode": "budget20",
+    "submit_divisor": 20,
+    "budget_records": [
+      {
+        "divisor": 20,
+        "nodes": 4183,
+        "batches": 5,
+        "flops": 99749899776
+      },
+      {
+        "divisor": 20,
+        "nodes": 61,
+        "batches": 3,
+        "flops": 4262841856
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 515,
+        "flops": 25073513398272
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 19,
+        "flops": 25176592613376
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 19,
+        "flops": 25279671828480
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 19,
+        "flops": 25382751043584
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 19,
+        "flops": 25485830258688
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 5,
+        "flops": 997553510400
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 17,
+        "flops": 443616329728
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 450058780672
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 456501231616
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 6,
+        "flops": 462943682560
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 6,
+        "flops": 469386133504
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 2,
+        "flops": 18461224960
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 3,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 5,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3465609728
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 104840448000
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1846122496
+      }
+    ],
+    "prefix_min_audit_position": 2580,
+    "max_audit_position": 2644,
+    "cap": 400,
+    "mask": 8,
+    "pid": 3494486,
+    "fused_calls": 0,
+    "coalesced_barriers": 0,
+    "planner_comparisons": 122,
+    "n_drafted": 36,
+    "n_accept": 29,
+    "n_predict": 65,
+    "tokens": [
+      264,
+      9705,
+      421,
+      15339,
+      264,
+      220,
+      16,
+      15,
+      17,
+      19,
+      27522,
+      2153,
+      1287,
+      321,
+      55288,
+      279,
+      2542,
+      13,
+      271,
+      248068,
+      198,
+      760,
+      1156,
+      6587,
+      264,
+      11346,
+      15673,
+      314,
+      1204,
+      6297,
+      65789,
+      321,
+      7359,
+      36602,
+      7556,
+      21966,
+      4906,
+      11,
+      5732,
+      440,
+      264,
+      3050,
+      3010,
+      314,
+      264,
+      9705,
+      421,
+      15339,
+      264,
+      220,
+      16,
+      15,
+      17,
+      19,
+      27522,
+      2153,
+      1287,
+      321,
+      55288,
+      279,
+      2542,
+      13,
+      2302,
+      2908,
+      78685
+    ],
+    "target_logit_audit_sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5",
+    "audit_bytes": 71517616,
+    "target_logit_rows": 72,
+    "audit_batches": 37,
+    "new_driver_errors": [],
+    "scope": "Productionaa8 .27/.7MTP stockactivationpolicy;every requested targetlogit row from runnerprocesscalls,tokens/counters. No targethidden/draftscorecapture or performance qualification."
+  }
+]

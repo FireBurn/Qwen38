@@ -57,3 +57,11 @@ Tile-dependency scheduling from Cohere/Mirage, recurrent-operation fusion from F
 ## Native fusion-plan cache follow-up
 
 [CPU planning reuse](NATIVE-FUSION-PLAN.md) passes five exact target-logit cases (530 rows), 1,379 CPU invalidation checks and real GPU metadata mutations. The fixed 24-run under-load model test establishes no incremental gain: descriptive −6.77% [−17.69%, +5.61%], only one of six external-load-matched blocks. Keep the preserved qualified configuration. The separate fixed resident diagnostic finds graph CPU time −23.05% [−30.89%,−14.32%] descriptively, but full generation time +0.40% [−5.91%,+7.14%], only two matched blocks. CPU savings have not established faster generation.
+
+## Native submission-budget follow-up
+
+[Native divisor20](NATIVE-SUBMIT-BUDGET.md) retains native commands and shaders while reducing graph batches in five exact-output cases (530 rows). Fixed24 discovery has four external-load-matched blocks and +0.75% steady speed [+0.25%,+1.26%]. The independent24 confirmation has zero matched blocks and inconclusive raw +2.53% [−7.90%,+14.14%]. No confirmed gain or adoption; preserve the qualified configuration. A CPU timeline separates graph and transfer/synchronization submissions.
+
+## Transfer-attribution follow-up
+
+The [native transfer observer](NATIVE-TRANSFER-OBSERVER.md) attributes1,850 of4,579queuecalls per short decode to synchronous tensor sets, with643.6msinclusive wall/91.1msCPU on average. All six native generations match129tokens/74drafts/55accepts; no GPU errors. This is a measured optimization target, not a speedup. Identify tensor names/flags before designing retained staging that preserves immediate source capture and completion-aware recycling.

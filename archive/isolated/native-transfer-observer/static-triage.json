@@ -1,0 +1,27 @@
+{
+  "observed_outside_nonempty_submit_calls": 2294,
+  "observed_graph_executions": 222,
+  "hypotheses_not_proved": [
+    "2294 equals 10*222+74; target graph count74 and draft graphcount148. This arithmetic suggests per-graph input operations but does not establish API attribution.",
+    "Core scheduler explicitly makes user-input copies synchronous to protect against caller overwrites; removing its wait/copy is not semantics preserving.",
+    "Vulkan synchronous buffer writes allocate a temporary command context and block on a fence for discrete VRAM; an input-copy snapshot path might consolidate these while preserving source ownership."
+  ],
+  "source_evidence": [
+    {
+      "path": "${CLAUDE_WORKSPACE}/prodtree/ggml/src/ggml-backend.cpp",
+      "function": "ggml_backend_sched_copy_input",
+      "observation": "GGML_TENSOR_FLAG_INPUT branch synchronizes prior event, calls synchronous ggml_backend_tensor_copy, and returns; comment explicitly requires immediate capture before user overwrite."
+    },
+    {
+      "path": "q3-pad112/host-fast-guard/ggml-vulkan-buffers.cpp",
+      "function": "ggml_vk_buffer_write_2d",
+      "observation": "Non-host-visible destination uses temporary command context, submit and blocking device fence."
+    },
+    {
+      "path": "native-fusion-plan/reuse-host/ggml-vulkan.cpp",
+      "function": "ggml_backend_vk_set_tensor_2d_async",
+      "observation": "Unpinned fallback uses shared staging and synchronizes before returning; blindly dropping sync would reuse in-flight storage."
+    }
+  ],
+  "possible_future_design": "Only after measured attribution: private generic scheduler/backend opt-in snapshot-copy capability, immediate source bytes captured into context-owned pinned staging, normal ordered native command recording, conservative full-completion recycling and stock fallback for unsupported layout/device/size. Requires private core/base qualification and resource-lifetime tests; no implementation or speed claim."
+}

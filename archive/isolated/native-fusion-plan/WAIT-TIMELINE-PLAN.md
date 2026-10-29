@@ -1,0 +1,7 @@
+# Host wait timeline diagnostic
+
+Four measured resident 128-request-token generations (inactive, active, active, inactive), after excluded inactive and active warmups. This is a mechanism profile, not a repeated or extended throughput trial and not conditional confirmation. No adoption or speed estimate from four arms.
+
+Instrument only graph_compute, native synchronize, native fence-wait helper and queue-submit entry/exit using monotonic wall and thread CPU clocks. Buffer event records in CPU memory; dump JSON after each measured generation. Scope labels can nest: never sum nested durations as disjoint costs. Capture thread identities and backend context tags; independently measure full decode thread CPU. No GPU timestamps, inserted synchronization, skipped native commands or new shaders. Existing synchronized runner boundaries retained equally for all modes. Same private reuse host with instrumentation, native shaders and driver/cap400.
+
+Require exact six generation token/counter references, >10000 actual cache records, no cached-decision mismatch, stable mapped libc and no new GPU errors. Record CPU/build/runqueue/clocks/power telemetry; this is descriptive mechanism evidence under changing external load. Wall minus CPU includes both scheduler delays and blocking; fence wall is not isolated GPU execution time. It cannot prove GPU utilization or exposed pipeline bubbles. Use results to decide whether a stronger GPU timeline is worthwhile.

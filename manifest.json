@@ -16959,9 +16959,9 @@
     {
       "source": "isolated/native-fusion-plan/STATUS.md",
       "path": "archive/isolated/native-fusion-plan/STATUS.md",
-      "source_sha256": "ad4303524545634e3c85a0cb32a0e9acd5302d2742e30941de13646271c9934a",
-      "export_sha256": "ad4303524545634e3c85a0cb32a0e9acd5302d2742e30941de13646271c9934a",
-      "bytes": 1482,
+      "source_sha256": "1ff15100944ff8968e9d5225ab22706827a1a8cc36d9d6034c08d3c4cbff5032",
+      "export_sha256": "1ff15100944ff8968e9d5225ab22706827a1a8cc36d9d6034c08d3c4cbff5032",
+      "bytes": 1975,
       "sanitized": false
     },
     {
@@ -18155,7 +18155,1215 @@
       "export_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
       "bytes": 74,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/WAIT-TIMELINE-PLAN.md",
+      "path": "archive/isolated/native-fusion-plan/WAIT-TIMELINE-PLAN.md",
+      "source_sha256": "c8350f764dfbc8d59a7c4596eec75aa9799e59a0274775ea2de8b33851eab52f",
+      "export_sha256": "c8350f764dfbc8d59a7c4596eec75aa9799e59a0274775ea2de8b33851eab52f",
+      "bytes": 1464,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/analyse_wait_timeline.py",
+      "path": "archive/isolated/native-fusion-plan/analyse_wait_timeline.py",
+      "source_sha256": "1a3aed71c9119db90c697ad0780a1b99dd4e75b36706e174699356b88f06fe59",
+      "export_sha256": "1a3aed71c9119db90c697ad0780a1b99dd4e75b36706e174699356b88f06fe59",
+      "bytes": 4292,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/prepare_wait_timeline.py",
+      "path": "archive/isolated/native-fusion-plan/prepare_wait_timeline.py",
+      "source_sha256": "53c32015099f485d5b4588c1839a893c60f18d5c515738c5cc0a0f2520b1c2bc",
+      "export_sha256": "53c32015099f485d5b4588c1839a893c60f18d5c515738c5cc0a0f2520b1c2bc",
+      "bytes": 4979,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/timeline-build.json",
+      "path": "archive/isolated/native-fusion-plan/timeline-build.json",
+      "source_sha256": "08915c43d4ad36480b2957e21ef241e699059f7a4265cb7cff64e999cbe0eccf",
+      "export_sha256": "a813c410c5c957ba7cc51ca8b4d416410d90894cee7860dde814cadc4a2776b6",
+      "bytes": 18113,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/timeline-host/ggml-vulkan-common.h",
+      "path": "archive/isolated/native-fusion-plan/timeline-host/ggml-vulkan-common.h",
+      "source_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "export_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "bytes": 29009,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/timeline-host/ggml-vulkan-push-constants.h",
+      "path": "archive/isolated/native-fusion-plan/timeline-host/ggml-vulkan-push-constants.h",
+      "source_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "export_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "bytes": 35188,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/timeline-host/ggml-vulkan-types.h",
+      "path": "archive/isolated/native-fusion-plan/timeline-host/ggml-vulkan-types.h",
+      "source_sha256": "7e1af86bbc5fed675d743ad39bda45754b808351da6331bc08890afbab88b20c",
+      "export_sha256": "7e1af86bbc5fed675d743ad39bda45754b808351da6331bc08890afbab88b20c",
+      "bytes": 54848,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/timeline-host/ggml-vulkan.cpp",
+      "path": "archive/isolated/native-fusion-plan/timeline-host/ggml-vulkan.cpp",
+      "source_sha256": "c48987f39c3206b722a6bd7c579993f8cae0d83c137a1bb1bd8054f1e5ae6839",
+      "export_sha256": "c48987f39c3206b722a6bd7c579993f8cae0d83c137a1bb1bd8054f1e5ae6839",
+      "bytes": 931778,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/timeline-runner.cpp",
+      "path": "archive/isolated/native-fusion-plan/timeline-runner.cpp",
+      "source_sha256": "ee47a1c89470982352109390f4711205e76f9b9c41bba89e005e28e372ad3768",
+      "export_sha256": "ee47a1c89470982352109390f4711205e76f9b9c41bba89e005e28e372ad3768",
+      "bytes": 16663,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/analysis.json",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/analysis.json",
+      "source_sha256": "40717067dfbbecf80164308a38c17f994258b808e16292c065f63767246e0a31",
+      "export_sha256": "40717067dfbbecf80164308a38c17f994258b808e16292c065f63767246e0a31",
+      "bytes": 8651,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/arm-0.json",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/arm-0.json",
+      "source_sha256": "dd8acb57ff2a4732a31c15719e9e397ba773f0b91e7f585a82ad081849e2d26c",
+      "export_sha256": "dd8acb57ff2a4732a31c15719e9e397ba773f0b91e7f585a82ad081849e2d26c",
+      "bytes": 971931,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/arm-1.json",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/arm-1.json",
+      "source_sha256": "5cb511e9f8502ba5ab1fac2a5f3d6a5e8604d1182c38ec4dd996c6fbd0a7a896",
+      "export_sha256": "5cb511e9f8502ba5ab1fac2a5f3d6a5e8604d1182c38ec4dd996c6fbd0a7a896",
+      "bytes": 971890,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/arm-2.json",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/arm-2.json",
+      "source_sha256": "aa6e1d8af29b63bbacbfbcecd0e8b726132e922946bc730d03ede5e6c101ea99",
+      "export_sha256": "aa6e1d8af29b63bbacbfbcecd0e8b726132e922946bc730d03ede5e6c101ea99",
+      "bytes": 971981,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/arm-3.json",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/arm-3.json",
+      "source_sha256": "3b800b33ffcbdf437d9bb34fcb6eeceeb2236cb65e527bbfacf25ccbd68976af",
+      "export_sha256": "3b800b33ffcbdf437d9bb34fcb6eeceeb2236cb65e527bbfacf25ccbd68976af",
+      "bytes": 971834,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/assets.json",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/assets.json",
+      "source_sha256": "370aa800b62383332350fb405682d0c0bd121ee32b089d18ab17bc303eba2d25",
+      "export_sha256": "abb082ea9546107a18e870ce267b4129ec3d9be08187cca10f398bb54c0d8527",
+      "bytes": 1511,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/behavior-check.json",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/behavior-check.json",
+      "source_sha256": "c44cba965a7a7ad28447ee5e182d4a59fedb3251bf679fcdf49b6df75daf97c6",
+      "export_sha256": "c44cba965a7a7ad28447ee5e182d4a59fedb3251bf679fcdf49b6df75daf97c6",
+      "bytes": 237,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/execution.json",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/execution.json",
+      "source_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "export_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "bytes": 74,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/runtime-baseline.json",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/telemetry.jsonl",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/telemetry.jsonl",
+      "source_sha256": "0ac6dda4935c73ae4a359f54bf8e2e227ee8e727bf811a06701c5f5755355673",
+      "export_sha256": "0ac6dda4935c73ae4a359f54bf8e2e227ee8e727bf811a06701c5f5755355673",
+      "bytes": 108538,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/wait-timeline/20261029T202202Z/trace-events.json",
+      "path": "archive/isolated/native-fusion-plan/wait-timeline/20261029T202202Z/trace-events.json",
+      "source_sha256": "09c4659d7d036f703c55f5502db8ce6853661a758bb0332b27a226454e61cac6",
+      "export_sha256": "09c4659d7d036f703c55f5502db8ce6853661a758bb0332b27a226454e61cac6",
+      "bytes": 6637928,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_fusion_wait_timeline.py",
+      "path": "archive/isolated/run_native_fusion_wait_timeline.py",
+      "source_sha256": "967ac20f690711918d1a402681bf4886a4d57c33d10582a8b08cb7b2112c8091",
+      "export_sha256": "30543a8b4f2f77cf6b3dd10390b5474bf60f740e9dbcec3e2f34ff82f5f9d643",
+      "bytes": 7605,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-submit-budget/MODEL-CONFIRMATION-PLAN.md",
+      "path": "archive/isolated/native-submit-budget/MODEL-CONFIRMATION-PLAN.md",
+      "source_sha256": "21ed14962a4ff4825380544c1416e45b6a677ef43f6c5da3008c8613f13116c8",
+      "export_sha256": "21ed14962a4ff4825380544c1416e45b6a677ef43f6c5da3008c8613f13116c8",
+      "bytes": 982,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/MODEL-TIMING-PLAN.md",
+      "path": "archive/isolated/native-submit-budget/MODEL-TIMING-PLAN.md",
+      "source_sha256": "5f28eb8299c887f36dc43fc44f3b09312e0586929b0f9a49b9184e04f4e0515a",
+      "export_sha256": "5f28eb8299c887f36dc43fc44f3b09312e0586929b0f9a49b9184e04f4e0515a",
+      "bytes": 1834,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/PLAN.md",
+      "path": "archive/isolated/native-submit-budget/PLAN.md",
+      "source_sha256": "ff9d86e07c3e339e1b594306113659441576f5d6c9510dcf76740899c9f1bce8",
+      "export_sha256": "ff9d86e07c3e339e1b594306113659441576f5d6c9510dcf76740899c9f1bce8",
+      "bytes": 1499,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/STATUS.md",
+      "path": "archive/isolated/native-submit-budget/STATUS.md",
+      "source_sha256": "c51db9ca73ece220ce5df5846e6e6129e020a06db48aeec7f6e96c3a6a4229e8",
+      "export_sha256": "c51db9ca73ece220ce5df5846e6e6129e020a06db48aeec7f6e96c3a6a4229e8",
+      "bytes": 2644,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/analyse_outcomes.py",
+      "path": "archive/isolated/native-submit-budget/analyse_outcomes.py",
+      "source_sha256": "49043681a6ca332ff6131a2768c1b22e77f9dc49f48f329871d52787418320e8",
+      "export_sha256": "49043681a6ca332ff6131a2768c1b22e77f9dc49f48f329871d52787418320e8",
+      "bytes": 1927,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/boundary128/assets.json",
+      "path": "archive/isolated/native-submit-budget/boundary128/assets.json",
+      "source_sha256": "99e8a43817e2088a9305c86dd72cbd1b19c93ac8e44e074b47e506a9757c86ef",
+      "export_sha256": "c9fb0e918845a593b17a96a9c7b181a46c71c434d31418e6ec176cad2a317a9d",
+      "bytes": 2159,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-submit-budget/boundary128/audit-archive.json",
+      "path": "archive/isolated/native-submit-budget/boundary128/audit-archive.json",
+      "source_sha256": "b4bcefbdb982d3a30f4787f62518687ae31d5a030865584c1654d4d107d1c713",
+      "export_sha256": "b4bcefbdb982d3a30f4787f62518687ae31d5a030865584c1654d4d107d1c713",
+      "bytes": 235,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/boundary128/checks.json",
+      "path": "archive/isolated/native-submit-budget/boundary128/checks.json",
+      "source_sha256": "e9bbe6979ae33d2f5f058393fa7d21b82d696767662046689d1b2eef04c17772",
+      "export_sha256": "e9bbe6979ae33d2f5f058393fa7d21b82d696767662046689d1b2eef04c17772",
+      "bytes": 56891,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/boundary128/comparison.json",
+      "path": "archive/isolated/native-submit-budget/boundary128/comparison.json",
+      "source_sha256": "e98d823203eea9b4f9ecaca1ce2341df2ad8c86e6ca86e56f4d44f79293c721a",
+      "export_sha256": "e98d823203eea9b4f9ecaca1ce2341df2ad8c86e6ca86e56f4d44f79293c721a",
+      "bytes": 715,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/build.json",
+      "path": "archive/isolated/native-submit-budget/build.json",
+      "source_sha256": "8c34232a322d464fe1c9f9a5cea4474855b1998228c72eaec734905e815ede54",
+      "export_sha256": "cc74df5b14c5e7cad9f157f2cf6a67e44fc983b3d6ce2ef71238b93e3f5abb79",
+      "bytes": 17524,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-submit-budget/build.py",
+      "path": "archive/isolated/native-submit-budget/build.py",
+      "source_sha256": "a1d13b48145a8e402f578adf4e37356215f28e54b6d41ddc8cdd3cf581c408a6",
+      "export_sha256": "a1d13b48145a8e402f578adf4e37356215f28e54b6d41ddc8cdd3cf581c408a6",
+      "bytes": 2146,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/host/build-argv.json",
+      "path": "archive/isolated/native-submit-budget/host/build-argv.json",
+      "source_sha256": "5c488a41b790dab75d10527127cd106e4a4149dcd3af469642bf348288f9b851",
+      "export_sha256": "954834ac4ce645bd489718d94dcb3ac6487c2189f21d093bf3cc8006b67570e2",
+      "bytes": 16465,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-submit-budget/host/ggml-vulkan-common.h",
+      "path": "archive/isolated/native-submit-budget/host/ggml-vulkan-common.h",
+      "source_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "export_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "bytes": 29009,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/host/ggml-vulkan-push-constants.h",
+      "path": "archive/isolated/native-submit-budget/host/ggml-vulkan-push-constants.h",
+      "source_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "export_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "bytes": 35188,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/host/ggml-vulkan-types.h",
+      "path": "archive/isolated/native-submit-budget/host/ggml-vulkan-types.h",
+      "source_sha256": "356904d9d75d2f81a61b100386a80ac34054eb4016bf7a45946a67ce6beba0ea",
+      "export_sha256": "356904d9d75d2f81a61b100386a80ac34054eb4016bf7a45946a67ce6beba0ea",
+      "bytes": 54218,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/host/ggml-vulkan.cpp",
+      "path": "archive/isolated/native-submit-budget/host/ggml-vulkan.cpp",
+      "source_sha256": "8cf764408cc7ce6ef003572f1c9d999ccf2f5a24a04145bd0f53f4b74b5f610a",
+      "export_sha256": "8cf764408cc7ce6ef003572f1c9d999ccf2f5a24a04145bd0f53f4b74b5f610a",
+      "bytes": 919147,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/host.patch",
+      "path": "archive/isolated/native-submit-budget/host.patch",
+      "source_sha256": "0059abd8251d1192f5fa3724d231870feddef963fad4272d74c9b1ca4a101223",
+      "export_sha256": "0059abd8251d1192f5fa3724d231870feddef963fad4272d74c9b1ca4a101223",
+      "bytes": 1066,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/00-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/00-frozen-telemetry.json",
+      "source_sha256": "dadc0187f993425eb46c6a47c7bb6cdb8a6b8dc2db4f9a2a2fddbd05274924b5",
+      "export_sha256": "dadc0187f993425eb46c6a47c7bb6cdb8a6b8dc2db4f9a2a2fddbd05274924b5",
+      "bytes": 90457,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/01-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/01-budget20-telemetry.json",
+      "source_sha256": "f787957857cb266c7e1978067e95d4d706a13c607903d68c7a7bb160261542e6",
+      "export_sha256": "f787957857cb266c7e1978067e95d4d706a13c607903d68c7a7bb160261542e6",
+      "bytes": 81107,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/02-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/02-budget20-telemetry.json",
+      "source_sha256": "a9a2ac2937d461040e6aab4635fe8c205af9715b4249d6e175dd4e15da6a3e91",
+      "export_sha256": "a9a2ac2937d461040e6aab4635fe8c205af9715b4249d6e175dd4e15da6a3e91",
+      "bytes": 100322,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/03-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/03-frozen-telemetry.json",
+      "source_sha256": "ecc53d62af29cb5329824bdc2ade9c43feb26903ec7124e5edd98f4b0425e9de",
+      "export_sha256": "ecc53d62af29cb5329824bdc2ade9c43feb26903ec7124e5edd98f4b0425e9de",
+      "bytes": 103090,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/04-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/04-budget20-telemetry.json",
+      "source_sha256": "8907ead55bec5864de4ae40fb027a2ade279f6e3c5805778d5355ff760745602",
+      "export_sha256": "8907ead55bec5864de4ae40fb027a2ade279f6e3c5805778d5355ff760745602",
+      "bytes": 85136,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/05-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/05-frozen-telemetry.json",
+      "source_sha256": "e1561493f56c56304a95c6dfc711b45755c4865060ddabacdd3df14f61860446",
+      "export_sha256": "e1561493f56c56304a95c6dfc711b45755c4865060ddabacdd3df14f61860446",
+      "bytes": 86946,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/06-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/06-frozen-telemetry.json",
+      "source_sha256": "062eda528409d37183eea17c2e7debd661f84dd357515944568a9f906ec3b8d6",
+      "export_sha256": "062eda528409d37183eea17c2e7debd661f84dd357515944568a9f906ec3b8d6",
+      "bytes": 107397,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/07-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/07-budget20-telemetry.json",
+      "source_sha256": "baaa6087ffd8c836016ddd835097f573cbbb44a0ba50ea01d38387bd2a38b16e",
+      "export_sha256": "baaa6087ffd8c836016ddd835097f573cbbb44a0ba50ea01d38387bd2a38b16e",
+      "bytes": 106161,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/08-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/08-frozen-telemetry.json",
+      "source_sha256": "c557eb8b1e7fc9038de5f1553f8b46c5e5e2f30bdce0f4e066851e3000d3ad1e",
+      "export_sha256": "c557eb8b1e7fc9038de5f1553f8b46c5e5e2f30bdce0f4e066851e3000d3ad1e",
+      "bytes": 104875,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/09-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/09-budget20-telemetry.json",
+      "source_sha256": "879c8a7e03366cba0cdc445a98e2d4f5d23a59f4fdc9d5778237953c555a491c",
+      "export_sha256": "879c8a7e03366cba0cdc445a98e2d4f5d23a59f4fdc9d5778237953c555a491c",
+      "bytes": 107665,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/10-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/10-budget20-telemetry.json",
+      "source_sha256": "42f000975a55e60de68725d51bfa28b822c3e6da52b20f192028a81af317ae19",
+      "export_sha256": "42f000975a55e60de68725d51bfa28b822c3e6da52b20f192028a81af317ae19",
+      "bytes": 121185,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/11-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/11-frozen-telemetry.json",
+      "source_sha256": "b5d9aa4e51c68ac41dfda2732093aff3d4c4b98e89771f9c5a549c5ca6ebcc44",
+      "export_sha256": "b5d9aa4e51c68ac41dfda2732093aff3d4c4b98e89771f9c5a549c5ca6ebcc44",
+      "bytes": 115466,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/12-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/12-budget20-telemetry.json",
+      "source_sha256": "36f742952369a8b70483e8c8f97ab5f2f796b3e9241916af782bf0565c4107ec",
+      "export_sha256": "36f742952369a8b70483e8c8f97ab5f2f796b3e9241916af782bf0565c4107ec",
+      "bytes": 94025,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/13-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/13-frozen-telemetry.json",
+      "source_sha256": "b13d5b58e6b0245c84a0a7a3ff4a4ccc2caa2a9e28242f16cf69e5a8911d9f6d",
+      "export_sha256": "b13d5b58e6b0245c84a0a7a3ff4a4ccc2caa2a9e28242f16cf69e5a8911d9f6d",
+      "bytes": 103324,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/14-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/14-frozen-telemetry.json",
+      "source_sha256": "cf760ecfb6bdeaf1a8574fed4d5378be7a589a33c636c95a86af169b08d4ed4c",
+      "export_sha256": "cf760ecfb6bdeaf1a8574fed4d5378be7a589a33c636c95a86af169b08d4ed4c",
+      "bytes": 126227,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/15-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/15-budget20-telemetry.json",
+      "source_sha256": "e62f2e436c607cc0a8235d6e9d9d4bd13695265e01073af72624557a76cf5514",
+      "export_sha256": "e62f2e436c607cc0a8235d6e9d9d4bd13695265e01073af72624557a76cf5514",
+      "bytes": 116968,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/16-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/16-frozen-telemetry.json",
+      "source_sha256": "677e8674fbb98ab3cce5110822e4e05ea05590a2163c41f6f615ce783d57f6de",
+      "export_sha256": "677e8674fbb98ab3cce5110822e4e05ea05590a2163c41f6f615ce783d57f6de",
+      "bytes": 118673,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/17-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/17-budget20-telemetry.json",
+      "source_sha256": "496645e8b5516814c030fcb3c6883d5e2f20ce5be9fbcc2fac7b5313284ab5c5",
+      "export_sha256": "496645e8b5516814c030fcb3c6883d5e2f20ce5be9fbcc2fac7b5313284ab5c5",
+      "bytes": 104826,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/18-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/18-budget20-telemetry.json",
+      "source_sha256": "f58a71867a433e9cecec468ab41a42f0e8d72d71ab58c67d588e47570e9b55eb",
+      "export_sha256": "f58a71867a433e9cecec468ab41a42f0e8d72d71ab58c67d588e47570e9b55eb",
+      "bytes": 94389,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/19-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/19-frozen-telemetry.json",
+      "source_sha256": "7228bab24e7fdf00853fc970f05f4cd8dbafeb72e3ac22c8fe849a05aa92a976",
+      "export_sha256": "7228bab24e7fdf00853fc970f05f4cd8dbafeb72e3ac22c8fe849a05aa92a976",
+      "bytes": 92010,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/20-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/20-budget20-telemetry.json",
+      "source_sha256": "a0ac8db187276b2a29d848dc21c7ace80cda20d8f5ed1bcb4b886d1d6cc5f4e7",
+      "export_sha256": "a0ac8db187276b2a29d848dc21c7ace80cda20d8f5ed1bcb4b886d1d6cc5f4e7",
+      "bytes": 89722,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/21-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/21-frozen-telemetry.json",
+      "source_sha256": "a49180d160672331a60ff087a86db2324841b7ce8744106ea99a9334f3c407c7",
+      "export_sha256": "a49180d160672331a60ff087a86db2324841b7ce8744106ea99a9334f3c407c7",
+      "bytes": 89619,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/22-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/22-frozen-telemetry.json",
+      "source_sha256": "f45123ab5c13c566e19ef5d378b8be11ba9cfdc34dc4627d8cb5d9f9a47ab0b5",
+      "export_sha256": "f45123ab5c13c566e19ef5d378b8be11ba9cfdc34dc4627d8cb5d9f9a47ab0b5",
+      "bytes": 87303,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/23-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/23-budget20-telemetry.json",
+      "source_sha256": "881ed083e53afd969dbdf3f59e4ae0dec9fa4f88fcc01ed842a79f121f83be66",
+      "export_sha256": "881ed083e53afd969dbdf3f59e4ae0dec9fa4f88fcc01ed842a79f121f83be66",
+      "bytes": 111138,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/assets.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/assets.json",
+      "source_sha256": "4d2cc83161997fbb2a0f3971731707414c6d2e263e79b4f305e66afb5a7d23c9",
+      "export_sha256": "b0f0ffe3ddb80281f5566afa623add73e9511bfcf39110009b150cbf641ab58f",
+      "bytes": 2237,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/confirmation-analysis.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/confirmation-analysis.json",
+      "source_sha256": "91c5c4790c9fea46cf1e62041749d2e8f065482eaeae7c12e6ab1d42f503d761",
+      "export_sha256": "91c5c4790c9fea46cf1e62041749d2e8f065482eaeae7c12e6ab1d42f503d761",
+      "bytes": 4846,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/outcomes-summary.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/outcomes-summary.json",
+      "source_sha256": "4fe78b841f011bd49bbd497b501076a9b58d30995b44279097f2f97098602481",
+      "export_sha256": "4fe78b841f011bd49bbd497b501076a9b58d30995b44279097f2f97098602481",
+      "bytes": 1967,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/protocol.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/protocol.json",
+      "source_sha256": "a0fca4b87a72d362e864690403754fe63175c1630cf67e3f1ac1406e5755ab3b",
+      "export_sha256": "a0fca4b87a72d362e864690403754fe63175c1630cf67e3f1ac1406e5755ab3b",
+      "bytes": 1514,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/results.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/results.json",
+      "source_sha256": "8c3db859b4b3c7a9c3c37fbb3a4cc9d9c3080048458304ca7e838d8e9c152f7a",
+      "export_sha256": "8c3db859b4b3c7a9c3c37fbb3a4cc9d9c3080048458304ca7e838d8e9c152f7a",
+      "bytes": 189897,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-confirmation512/20261029T204004Z/runtime-baseline.json",
+      "path": "archive/isolated/native-submit-budget/model-confirmation512/20261029T204004Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/00-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/00-frozen-telemetry.json",
+      "source_sha256": "0b2db4c96e9d8eed05b5ee64a503bdce8d38898efa4e2c28d52f12a246234c96",
+      "export_sha256": "0b2db4c96e9d8eed05b5ee64a503bdce8d38898efa4e2c28d52f12a246234c96",
+      "bytes": 83592,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/01-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/01-budget20-telemetry.json",
+      "source_sha256": "cf5fd314353d8d123b7e26f2d202b97506638352e6f38c505d9c7208cc75b0a6",
+      "export_sha256": "cf5fd314353d8d123b7e26f2d202b97506638352e6f38c505d9c7208cc75b0a6",
+      "bytes": 88670,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/02-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/02-budget20-telemetry.json",
+      "source_sha256": "b2678dc91789fec7174ddc7a4a3e4b63ff31a346e79925e9adf9434043d920da",
+      "export_sha256": "b2678dc91789fec7174ddc7a4a3e4b63ff31a346e79925e9adf9434043d920da",
+      "bytes": 90382,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/03-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/03-frozen-telemetry.json",
+      "source_sha256": "25d88b243a3a7277d002a52208ffb85dd041875b190a68534094f1c1fb7d0188",
+      "export_sha256": "25d88b243a3a7277d002a52208ffb85dd041875b190a68534094f1c1fb7d0188",
+      "bytes": 84649,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/04-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/04-budget20-telemetry.json",
+      "source_sha256": "33888597af637eb3bf453705331dd93cc1748b256653937364e325e28de2ace0",
+      "export_sha256": "33888597af637eb3bf453705331dd93cc1748b256653937364e325e28de2ace0",
+      "bytes": 87867,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/05-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/05-frozen-telemetry.json",
+      "source_sha256": "716bb0c794f7c5e84e0e6917a99c18cb40ad070e15f06724df1fd014d45d45b8",
+      "export_sha256": "716bb0c794f7c5e84e0e6917a99c18cb40ad070e15f06724df1fd014d45d45b8",
+      "bytes": 99586,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/06-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/06-frozen-telemetry.json",
+      "source_sha256": "a8ab15fc4400b3b241279692c99b28b77edb20a895dd6a2c12867c9dd7f63928",
+      "export_sha256": "a8ab15fc4400b3b241279692c99b28b77edb20a895dd6a2c12867c9dd7f63928",
+      "bytes": 87465,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/07-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/07-budget20-telemetry.json",
+      "source_sha256": "6cc1cc2084f970d298d220b4fe0449b23ce7ca5a568c7b483bb04d4b5575e61c",
+      "export_sha256": "6cc1cc2084f970d298d220b4fe0449b23ce7ca5a568c7b483bb04d4b5575e61c",
+      "bytes": 88134,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/08-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/08-frozen-telemetry.json",
+      "source_sha256": "1e6a9b5114566b71ead79909fc6a7108e8fad85c149f75c1810fc9a852717101",
+      "export_sha256": "1e6a9b5114566b71ead79909fc6a7108e8fad85c149f75c1810fc9a852717101",
+      "bytes": 84640,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/09-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/09-budget20-telemetry.json",
+      "source_sha256": "69b5c611bd96f3175e12f9012550d24e7acecc7edd43adddbe2a352247ea935d",
+      "export_sha256": "69b5c611bd96f3175e12f9012550d24e7acecc7edd43adddbe2a352247ea935d",
+      "bytes": 82591,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/10-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/10-budget20-telemetry.json",
+      "source_sha256": "c6e0fca04e9907006c66d354ef54c15cb898f284dfaf15962ff106a10721c970",
+      "export_sha256": "c6e0fca04e9907006c66d354ef54c15cb898f284dfaf15962ff106a10721c970",
+      "bytes": 80007,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/11-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/11-frozen-telemetry.json",
+      "source_sha256": "73ace0af26677b5ec790c81756efe30f21cc00fb250de3f19db65e35226fb57d",
+      "export_sha256": "73ace0af26677b5ec790c81756efe30f21cc00fb250de3f19db65e35226fb57d",
+      "bytes": 80688,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/12-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/12-budget20-telemetry.json",
+      "source_sha256": "fb9082984d144a267908e986076bba89e27c0c0527b4991cd85faf6bb421885b",
+      "export_sha256": "fb9082984d144a267908e986076bba89e27c0c0527b4991cd85faf6bb421885b",
+      "bytes": 80952,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/13-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/13-frozen-telemetry.json",
+      "source_sha256": "814c9490d93e382f9113aee5ec0511b7f6a50ff7166aaf23cd60df8c232dcd2d",
+      "export_sha256": "814c9490d93e382f9113aee5ec0511b7f6a50ff7166aaf23cd60df8c232dcd2d",
+      "bytes": 81585,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/14-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/14-frozen-telemetry.json",
+      "source_sha256": "c3dcfdc5f58ccb6b0e0a3e7bedc15364ba9ff30c3d1da5bcf8ef6e76af798a6e",
+      "export_sha256": "c3dcfdc5f58ccb6b0e0a3e7bedc15364ba9ff30c3d1da5bcf8ef6e76af798a6e",
+      "bytes": 81545,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/15-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/15-budget20-telemetry.json",
+      "source_sha256": "fcdbeb3e0f740a872b128bfcf852efd554c1ae64c26cdca979bc0f290669e933",
+      "export_sha256": "fcdbeb3e0f740a872b128bfcf852efd554c1ae64c26cdca979bc0f290669e933",
+      "bytes": 81454,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/16-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/16-frozen-telemetry.json",
+      "source_sha256": "224874cf97139b2ea09470ce4f964f27058b16fdb6c202fe1ccaea2bfa788efa",
+      "export_sha256": "224874cf97139b2ea09470ce4f964f27058b16fdb6c202fe1ccaea2bfa788efa",
+      "bytes": 82371,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/17-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/17-budget20-telemetry.json",
+      "source_sha256": "afe2bffb45cc1dd5e0789a52266a95695cdef2a46539ea2d4e630049fd3c992d",
+      "export_sha256": "afe2bffb45cc1dd5e0789a52266a95695cdef2a46539ea2d4e630049fd3c992d",
+      "bytes": 82055,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/18-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/18-budget20-telemetry.json",
+      "source_sha256": "10a924dd14b5773dffc0862d777234576fc7ad7d8cc2c1e65fc3f8a554c46f32",
+      "export_sha256": "10a924dd14b5773dffc0862d777234576fc7ad7d8cc2c1e65fc3f8a554c46f32",
+      "bytes": 79884,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/19-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/19-frozen-telemetry.json",
+      "source_sha256": "2c11f677e3b4be02472289f026b4c9cf90ca81e929a2e8d15cf4573dd17e6592",
+      "export_sha256": "2c11f677e3b4be02472289f026b4c9cf90ca81e929a2e8d15cf4573dd17e6592",
+      "bytes": 84513,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/20-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/20-budget20-telemetry.json",
+      "source_sha256": "e94ae34b2b65a71b7e8f0b0c9c0dc58284b83f53af33fb5b32fdef080edb26c8",
+      "export_sha256": "e94ae34b2b65a71b7e8f0b0c9c0dc58284b83f53af33fb5b32fdef080edb26c8",
+      "bytes": 86808,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/21-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/21-frozen-telemetry.json",
+      "source_sha256": "f3239476493326d6fb4b1a2043ea4a40f9630be68202213228df92f24a4cee6e",
+      "export_sha256": "f3239476493326d6fb4b1a2043ea4a40f9630be68202213228df92f24a4cee6e",
+      "bytes": 94064,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/22-frozen-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/22-frozen-telemetry.json",
+      "source_sha256": "aa29f93c888d3dd01735b11257b1ed7d64ba74d26a2d924ed13513fecedbd216",
+      "export_sha256": "aa29f93c888d3dd01735b11257b1ed7d64ba74d26a2d924ed13513fecedbd216",
+      "bytes": 83799,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/23-budget20-telemetry.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/23-budget20-telemetry.json",
+      "source_sha256": "c355b5ba14651f18600baddb5393ce009fac44f50ac2b5d2b2f3524a2488f266",
+      "export_sha256": "c355b5ba14651f18600baddb5393ce009fac44f50ac2b5d2b2f3524a2488f266",
+      "bytes": 87889,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/assets.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/assets.json",
+      "source_sha256": "776487da7e92c7a480f93d9189341da99fe109a15b706e8cb363e5033ee1353e",
+      "export_sha256": "7bf798b17fe3165b83decb463be2a0f57d008098cadebae1430b4dc70cc28d95",
+      "bytes": 2230,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/confirmation-analysis.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/confirmation-analysis.json",
+      "source_sha256": "34a50c4662d6b1579c7a23d381864c14c2c66bef6cb2eebd19c28c9cc25d4032",
+      "export_sha256": "34a50c4662d6b1579c7a23d381864c14c2c66bef6cb2eebd19c28c9cc25d4032",
+      "bytes": 4900,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/outcomes-summary.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/outcomes-summary.json",
+      "source_sha256": "d0cc966fb3c2d330db9e4754a2d98f15c1b36bcc99a8baad7762180eed6ca4fd",
+      "export_sha256": "d0cc966fb3c2d330db9e4754a2d98f15c1b36bcc99a8baad7762180eed6ca4fd",
+      "bytes": 3539,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/protocol.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/protocol.json",
+      "source_sha256": "ec9ac69c21eed46dda6a329e199d0e59450a6caf9a3977ccc1d63bee5ea330b3",
+      "export_sha256": "ec9ac69c21eed46dda6a329e199d0e59450a6caf9a3977ccc1d63bee5ea330b3",
+      "bytes": 2370,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/results.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/results.json",
+      "source_sha256": "618eae278140d13ad74341b14dc80f4d587ac5289f1b50438ae460a6f9a1aa01",
+      "export_sha256": "618eae278140d13ad74341b14dc80f4d587ac5289f1b50438ae460a6f9a1aa01",
+      "bytes": 189801,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model-timing512/20261029T203000Z/runtime-baseline.json",
+      "path": "archive/isolated/native-submit-budget/model-timing512/20261029T203000Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model32/assets.json",
+      "path": "archive/isolated/native-submit-budget/model32/assets.json",
+      "source_sha256": "47c30960e0ca8ab89fffac4de6bc5bc229e64b3904b0d5813a29284beb618f6e",
+      "export_sha256": "42d0e71285dbf7aea8b13b4bad4a6a170beda34ba72dbbf8a07c817324650a84",
+      "bytes": 1958,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-submit-budget/model32/audit-archive.json",
+      "path": "archive/isolated/native-submit-budget/model32/audit-archive.json",
+      "source_sha256": "0493f0485096b1b91c62556485f32c803324ead4685ee4b1e642de71c6e394a8",
+      "export_sha256": "0493f0485096b1b91c62556485f32c803324ead4685ee4b1e642de71c6e394a8",
+      "bytes": 256,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model32/checks.json",
+      "path": "archive/isolated/native-submit-budget/model32/checks.json",
+      "source_sha256": "c07bd011b02bcd1f523d611555475bf4a986f40ce0ee560175cba3b33eb3ee4e",
+      "export_sha256": "c07bd011b02bcd1f523d611555475bf4a986f40ce0ee560175cba3b33eb3ee4e",
+      "bytes": 18157,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/model32/comparison.json",
+      "path": "archive/isolated/native-submit-budget/model32/comparison.json",
+      "source_sha256": "d74192c90e4d2dda3e5ece9ecc97963ead25c2898fa82bae02d267ced8958f2a",
+      "export_sha256": "d74192c90e4d2dda3e5ece9ecc97963ead25c2898fa82bae02d267ced8958f2a",
+      "bytes": 629,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/populated-kv64/assets.json",
+      "path": "archive/isolated/native-submit-budget/populated-kv64/assets.json",
+      "source_sha256": "4be5dfc1c64900f8922b94dbcbb758d6fe0d3962a5faf2d149235c663c40d8b5",
+      "export_sha256": "3cd2b60c715baebcbe64123f7111c02dddb4c6804d9a68c2b7ae2ea6d16b5d2e",
+      "bytes": 2152,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-submit-budget/populated-kv64/audit-archive.json",
+      "path": "archive/isolated/native-submit-budget/populated-kv64/audit-archive.json",
+      "source_sha256": "2f32399ecfe9bf55ebcababe53df7cc511d014b4be683d062cd7f99f661e49d9",
+      "export_sha256": "2f32399ecfe9bf55ebcababe53df7cc511d014b4be683d062cd7f99f661e49d9",
+      "bytes": 235,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/populated-kv64/checks.json",
+      "path": "archive/isolated/native-submit-budget/populated-kv64/checks.json",
+      "source_sha256": "125fafca758f69cd7753b61c3c4233c51a79565b0bb179308489fa4a50396b5d",
+      "export_sha256": "125fafca758f69cd7753b61c3c4233c51a79565b0bb179308489fa4a50396b5d",
+      "bytes": 32102,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/populated-kv64/comparison.json",
+      "path": "archive/isolated/native-submit-budget/populated-kv64/comparison.json",
+      "source_sha256": "74c3cebc57193fc08509d568fcd1ff35c8b706409b34deb9b9395c53eb8ae98b",
+      "export_sha256": "74c3cebc57193fc08509d568fcd1ff35c8b706409b34deb9b9395c53eb8ae98b",
+      "bytes": 713,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/prepare_checks.py",
+      "path": "archive/isolated/native-submit-budget/prepare_checks.py",
+      "source_sha256": "4b6fae90d74957ecdb88e53efb08c7e48675b812a1377a8d477ddacb00a491ac",
+      "export_sha256": "4b6fae90d74957ecdb88e53efb08c7e48675b812a1377a8d477ddacb00a491ac",
+      "bytes": 2580,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/prepare_timing.py",
+      "path": "archive/isolated/native-submit-budget/prepare_timing.py",
+      "source_sha256": "47cd75a3f601d75fb33e2710aae443743f54b7f45b05dda738281174df1e6078",
+      "export_sha256": "47cd75a3f601d75fb33e2710aae443743f54b7f45b05dda738281174df1e6078",
+      "bytes": 1700,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/prompts128/assets.json",
+      "path": "archive/isolated/native-submit-budget/prompts128/assets.json",
+      "source_sha256": "7ca91e095d350bb43df3e531e1b5e4a539fce7fdd957b858eccd24253b11576c",
+      "export_sha256": "158569369f432b83206e48d485b4d3854a219f4e39734c6c95d19eaafc918c33",
+      "bytes": 2010,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-submit-budget/prompts128/checks.json",
+      "path": "archive/isolated/native-submit-budget/prompts128/checks.json",
+      "source_sha256": "b91ccb8847f3b94a23d52726ce074b5733cd798c593a6cac148fd9b26ad3ef16",
+      "export_sha256": "b91ccb8847f3b94a23d52726ce074b5733cd798c593a6cac148fd9b26ad3ef16",
+      "bytes": 102711,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/native-submit-budget/prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/prompts128/comparison.json",
+      "path": "archive/isolated/native-submit-budget/prompts128/comparison.json",
+      "source_sha256": "3dcf873df84a391b2213506ad82c3d0d9d95dc103f446c0ac50bf26701ce0dba",
+      "export_sha256": "3dcf873df84a391b2213506ad82c3d0d9d95dc103f446c0ac50bf26701ce0dba",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/prompts128/math/audit-archive.json",
+      "path": "archive/isolated/native-submit-budget/prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/publish.py",
+      "path": "archive/isolated/native-submit-budget/publish.py",
+      "source_sha256": "bb8e7f827539320518a0b2fa6e9a62cb5fc2379966b5ffe7cdb58b4a92b62cc5",
+      "export_sha256": "69920dc318af60b0935e1cbd8bf808659f5915b7b6e6289f3e4f56e2a803c38b",
+      "bytes": 1190,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-submit-budget/qualification-summary.json",
+      "path": "archive/isolated/native-submit-budget/qualification-summary.json",
+      "source_sha256": "3cecb018a44b778f70661c54705933b6c943338095ea4611ee4edf1a238d8f0a",
+      "export_sha256": "3cecb018a44b778f70661c54705933b6c943338095ea4611ee4edf1a238d8f0a",
+      "bytes": 1692,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-submit-budget/summarise_checks.py",
+      "path": "archive/isolated/native-submit-budget/summarise_checks.py",
+      "source_sha256": "6709e27ceb728cb3e0dc9c26f73c03f6d38c0d33a4b73a0e8c22e784415ba73a",
+      "export_sha256": "6709e27ceb728cb3e0dc9c26f73c03f6d38c0d33a4b73a0e8c22e784415ba73a",
+      "bytes": 1747,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_submit_budget_boundary128.py",
+      "path": "archive/isolated/run_native_submit_budget_boundary128.py",
+      "source_sha256": "4d1de8ce65cc9b40eeae338f13ddca776010cd7537749d7e357f223d2e80578b",
+      "export_sha256": "2f483ac5ab61168fec39c13be9d873e048d9d192443023b4184a448a2238b828",
+      "bytes": 10268,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_submit_budget_confirm.py",
+      "path": "archive/isolated/run_native_submit_budget_confirm.py",
+      "source_sha256": "24a20ba3f34d066608e992683934e87ca584d1d735ba800b774eef5703bcb45a",
+      "export_sha256": "89339aca90cb5f5757cbbed053ca3e2bcff62f912e439441de74ed7806595190",
+      "bytes": 16573,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_submit_budget_kv64.py",
+      "path": "archive/isolated/run_native_submit_budget_kv64.py",
+      "source_sha256": "7105df29dc1663d1db2acdd0252b052648da9f7995e8dc333826d536efdc6a1c",
+      "export_sha256": "c03c982ebaed3ceff38c19b83238eba08fa8d4157b5356ccc03cf76de0445cf7",
+      "bytes": 21077,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_submit_budget_model32.py",
+      "path": "archive/isolated/run_native_submit_budget_model32.py",
+      "source_sha256": "c5938c1887e7f162cf580d701009a703458c54fa4bf14d9fb0c42d171cb2668e",
+      "export_sha256": "3b657b539571107d1668c0c41e83987d125e9a072d9ffe7f4d584dad8fc03c27",
+      "bytes": 9645,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_submit_budget_prompts128.py",
+      "path": "archive/isolated/run_native_submit_budget_prompts128.py",
+      "source_sha256": "421638b274e832b29618994bc45b0401bb573cc2625884ed30831229e590750a",
+      "export_sha256": "f9d5c1925c8aec529463bfd4b3661c0ccd1fe35f83927a639b810a746e7e60d6",
+      "bytes": 8557,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_submit_budget_timing.py",
+      "path": "archive/isolated/run_native_submit_budget_timing.py",
+      "source_sha256": "4e4a008afdd1ccf25692ad6dd52b53ff000022d560cf519ff1931de38d7b53a1",
+      "export_sha256": "11563c39a2dcf06526d0378f39c7b39f094c12c6c8276280d1c3c2d83bb92d70",
+      "bytes": 16328,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-transfer-observer/NEXT.md",
+      "path": "archive/isolated/native-transfer-observer/NEXT.md",
+      "source_sha256": "d37ecae0fb549421e6bd6ccf3b81bd029be18486c5930cb0967a9b15c55a075c",
+      "export_sha256": "d37ecae0fb549421e6bd6ccf3b81bd029be18486c5930cb0967a9b15c55a075c",
+      "bytes": 2064,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/PLAN.md",
+      "path": "archive/isolated/native-transfer-observer/PLAN.md",
+      "source_sha256": "b992d2e31fb02fba90bbc6917ba7e310f4bfd82a03b0b94ec32cc177e0b6c522",
+      "export_sha256": "b992d2e31fb02fba90bbc6917ba7e310f4bfd82a03b0b94ec32cc177e0b6c522",
+      "bytes": 1865,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/STATUS.md",
+      "path": "archive/isolated/native-transfer-observer/STATUS.md",
+      "source_sha256": "cf24af1ab978a62777f21204ac1563adb1136f22941df47a4c92df5c7783426f",
+      "export_sha256": "cf24af1ab978a62777f21204ac1563adb1136f22941df47a4c92df5c7783426f",
+      "bytes": 2037,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/analyse.py",
+      "path": "archive/isolated/native-transfer-observer/analyse.py",
+      "source_sha256": "da35ce1ce6ab8b28770ddb245d3bfa97eca4b967c715607ad11cb5cb268f40f4",
+      "export_sha256": "da35ce1ce6ab8b28770ddb245d3bfa97eca4b967c715607ad11cb5cb268f40f4",
+      "bytes": 3230,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/build.json",
+      "path": "archive/isolated/native-transfer-observer/build.json",
+      "source_sha256": "0f1203ffa669d692caff491aba609c76ab93971a6d1369e317abbc2a2e488548",
+      "export_sha256": "9d90b47cb14840249fe1ed275c081db21f62682d07e0d2c1e220793ca8e0318e",
+      "bytes": 18312,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-transfer-observer/commands.json",
+      "path": "archive/isolated/native-transfer-observer/commands.json",
+      "source_sha256": "b96030e1e843b3fefb9e1b6ee49087acc333a495319216b1451700218d1c56ba",
+      "export_sha256": "c024016105d485894028f64849262decad4236d4195cd1f5f879c0c2e598dd65",
+      "bytes": 16501,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-transfer-observer/host/ggml-vulkan-common.h",
+      "path": "archive/isolated/native-transfer-observer/host/ggml-vulkan-common.h",
+      "source_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "export_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "bytes": 29009,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/host/ggml-vulkan-push-constants.h",
+      "path": "archive/isolated/native-transfer-observer/host/ggml-vulkan-push-constants.h",
+      "source_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "export_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "bytes": 35188,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/host/ggml-vulkan-types.h",
+      "path": "archive/isolated/native-transfer-observer/host/ggml-vulkan-types.h",
+      "source_sha256": "7e1af86bbc5fed675d743ad39bda45754b808351da6331bc08890afbab88b20c",
+      "export_sha256": "7e1af86bbc5fed675d743ad39bda45754b808351da6331bc08890afbab88b20c",
+      "bytes": 54848,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/host/ggml-vulkan.cpp",
+      "path": "archive/isolated/native-transfer-observer/host/ggml-vulkan.cpp",
+      "source_sha256": "c95113e6d2a8500cb906e2f969be43750628054789605c424ff83767dd766141",
+      "export_sha256": "c95113e6d2a8500cb906e2f969be43750628054789605c424ff83767dd766141",
+      "bytes": 932040,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/prepare.py",
+      "path": "archive/isolated/native-transfer-observer/prepare.py",
+      "source_sha256": "aab0c1b1e7fc0578751dcde68f97af4c8c7c7fc142e9c16cc7cb5c7454037169",
+      "export_sha256": "aab0c1b1e7fc0578751dcde68f97af4c8c7c7fc142e9c16cc7cb5c7454037169",
+      "bytes": 2897,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/publish.py",
+      "path": "archive/isolated/native-transfer-observer/publish.py",
+      "source_sha256": "abf4dac4d803832a3167784d2ede5b545cb168076a044a3a645fbf06cd948c86",
+      "export_sha256": "582ce0fb9f6f588033ad3299e1b51e8585692c7c6824db64160774aac6ce8cb7",
+      "bytes": 1192,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-transfer-observer/reference-source/ggml-backend.cpp",
+      "path": "archive/isolated/native-transfer-observer/reference-source/ggml-backend.cpp",
+      "source_sha256": "43dea13b13c2a15afd83f53515f3488c17072fc107a6ba4a5e0370f90b4fe7ff",
+      "export_sha256": "43dea13b13c2a15afd83f53515f3488c17072fc107a6ba4a5e0370f90b4fe7ff",
+      "bytes": 102667,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/reference-source/llama-context.cpp",
+      "path": "archive/isolated/native-transfer-observer/reference-source/llama-context.cpp",
+      "source_sha256": "2a25e556cb0d16725e01ce853fb1b76da91dcb41b803ce1a6bacec89bfb94aa5",
+      "export_sha256": "2a25e556cb0d16725e01ce853fb1b76da91dcb41b803ce1a6bacec89bfb94aa5",
+      "bytes": 169201,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/reference-source/llama-graph.cpp",
+      "path": "archive/isolated/native-transfer-observer/reference-source/llama-graph.cpp",
+      "source_sha256": "b5c12a35c8ad82f91fd8af5b18eefb27502463b2755cc894a0988889bf8503ed",
+      "export_sha256": "b5c12a35c8ad82f91fd8af5b18eefb27502463b2755cc894a0988889bf8503ed",
+      "bytes": 153900,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/reference-source.json",
+      "path": "archive/isolated/native-transfer-observer/reference-source.json",
+      "source_sha256": "29f239e2b2d2ef09c01539b1152778d91bd47a5b36bf721208ffc0a749d20e5b",
+      "export_sha256": "29f239e2b2d2ef09c01539b1152778d91bd47a5b36bf721208ffc0a749d20e5b",
+      "bytes": 977,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/runner.cpp",
+      "path": "archive/isolated/native-transfer-observer/runner.cpp",
+      "source_sha256": "2954f6e87e57aaeefdf764b9457fcae8e900ea8337eb0fd27c6a17c7642a40b1",
+      "export_sha256": "2954f6e87e57aaeefdf764b9457fcae8e900ea8337eb0fd27c6a17c7642a40b1",
+      "bytes": 16618,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/runs/20261029T205352Z/analysis.json",
+      "path": "archive/isolated/native-transfer-observer/runs/20261029T205352Z/analysis.json",
+      "source_sha256": "d030f0f7b15ab46db8b52a803a296b1b7b4f60d4c9584052dccc027734b39f01",
+      "export_sha256": "d030f0f7b15ab46db8b52a803a296b1b7b4f60d4c9584052dccc027734b39f01",
+      "bytes": 8179,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/runs/20261029T205352Z/arm-0.json",
+      "path": "archive/isolated/native-transfer-observer/runs/20261029T205352Z/arm-0.json",
+      "source_sha256": "baa302d3358d7a98a9981ae44f2bef9831713fbb4eff0e100b4cda1c5972a37c",
+      "export_sha256": "baa302d3358d7a98a9981ae44f2bef9831713fbb4eff0e100b4cda1c5972a37c",
+      "bytes": 1231454,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/runs/20261029T205352Z/arm-1.json",
+      "path": "archive/isolated/native-transfer-observer/runs/20261029T205352Z/arm-1.json",
+      "source_sha256": "7dd842604feedc925cc014f9f09da7b2499dc3a2a30b00109e7ab975c94d649f",
+      "export_sha256": "7dd842604feedc925cc014f9f09da7b2499dc3a2a30b00109e7ab975c94d649f",
+      "bytes": 1231696,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/runs/20261029T205352Z/arm-2.json",
+      "path": "archive/isolated/native-transfer-observer/runs/20261029T205352Z/arm-2.json",
+      "source_sha256": "6edaa3859ed915bd6b2ee389b8962c92e2aa39360be5394a657d88d1301c0aec",
+      "export_sha256": "6edaa3859ed915bd6b2ee389b8962c92e2aa39360be5394a657d88d1301c0aec",
+      "bytes": 1231701,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/runs/20261029T205352Z/arm-3.json",
+      "path": "archive/isolated/native-transfer-observer/runs/20261029T205352Z/arm-3.json",
+      "source_sha256": "d4a05083c0c05d881257e9800e7af4f397b9b90ebacdff692531b0b70112cb54",
+      "export_sha256": "d4a05083c0c05d881257e9800e7af4f397b9b90ebacdff692531b0b70112cb54",
+      "bytes": 1231716,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/runs/20261029T205352Z/assets.json",
+      "path": "archive/isolated/native-transfer-observer/runs/20261029T205352Z/assets.json",
+      "source_sha256": "376e57dbd899665c1b8caeb12e9c4b5e4c8f847610a7ddf5c992537a61d32670",
+      "export_sha256": "965a66311d559f44c9f7663218bc252783bdaafd8754512c2e7fd223cea15c9f",
+      "bytes": 1488,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-transfer-observer/runs/20261029T205352Z/behavior-check.json",
+      "path": "archive/isolated/native-transfer-observer/runs/20261029T205352Z/behavior-check.json",
+      "source_sha256": "c44cba965a7a7ad28447ee5e182d4a59fedb3251bf679fcdf49b6df75daf97c6",
+      "export_sha256": "c44cba965a7a7ad28447ee5e182d4a59fedb3251bf679fcdf49b6df75daf97c6",
+      "bytes": 237,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/runs/20261029T205352Z/execution.json",
+      "path": "archive/isolated/native-transfer-observer/runs/20261029T205352Z/execution.json",
+      "source_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "export_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "bytes": 74,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/runs/20261029T205352Z/runtime-baseline.json",
+      "path": "archive/isolated/native-transfer-observer/runs/20261029T205352Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/runs/20261029T205352Z/telemetry.jsonl",
+      "path": "archive/isolated/native-transfer-observer/runs/20261029T205352Z/telemetry.jsonl",
+      "source_sha256": "302c18e32ed406e9e3b3644277fa8e6c7a6dc2202c43c6f3cc784988b826ba05",
+      "export_sha256": "302c18e32ed406e9e3b3644277fa8e6c7a6dc2202c43c6f3cc784988b826ba05",
+      "bytes": 94593,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-transfer-observer/static-triage.json",
+      "path": "archive/isolated/native-transfer-observer/static-triage.json",
+      "source_sha256": "52608f0097a3b2f2d82d99318850982aae8523c40bb4b7f75ac7e4ab679022f5",
+      "export_sha256": "52608f0097a3b2f2d82d99318850982aae8523c40bb4b7f75ac7e4ab679022f5",
+      "bytes": 1983,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_transfer_observer.py",
+      "path": "archive/isolated/run_native_transfer_observer.py",
+      "source_sha256": "cdfebca142332f0585e387d766ccedfd3cc3273ee787f4e85de4b22602810410",
+      "export_sha256": "d59379a6228ef73bdeb33c187e7a8033a6cda5fb5e108da3c8df7eb429419eec",
+      "bytes": 7523,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-29T20:19:16.468673+00:00"
+  "updated_utc": "2026-10-29T20:58:30.574895+00:00"
 }

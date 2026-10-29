@@ -1,0 +1,344 @@
+{
+  "arms": [
+    {
+      "arm": 0,
+      "mode": "inactive",
+      "thread_ids": [
+        3483861
+      ],
+      "submit_locations": {
+        "inside_graph": 1767,
+        "outside_graph": 2812,
+        "outside_graph_empty": 518
+      },
+      "event_count": 9057,
+      "counts": {
+        "graph_compute": 222,
+        "synchronize": 3738,
+        "fence_wait": 518,
+        "queue_submit": 4579
+      },
+      "decode_wall_ns": 5340569000,
+      "decode_cpu_ns": 1746058747,
+      "inclusive": {
+        "graph_compute": {
+          "wall_ns": 1431161243,
+          "cpu_ns": 722773102
+        },
+        "synchronize": {
+          "wall_ns": 2264408982,
+          "cpu_ns": 706177969
+        },
+        "fence_wait": {
+          "wall_ns": 2171448882,
+          "cpu_ns": 675630262
+        },
+        "queue_submit": {
+          "wall_ns": 457544716,
+          "cpu_ns": 136296170
+        }
+      },
+      "exclusive": {
+        "graph_compute": {
+          "wall_ns": 1211345767,
+          "cpu_ns": 664833085
+        },
+        "synchronize": {
+          "wall_ns": 17493884,
+          "cpu_ns": 8737774
+        },
+        "fence_wait": {
+          "wall_ns": 2171448882,
+          "cpu_ns": 675630262
+        },
+        "queue_submit": {
+          "wall_ns": 457544716,
+          "cpu_ns": 136296170
+        }
+      },
+      "outside_instrumented_wall_ns": 1482735751,
+      "outside_instrumented_cpu_ns": 260561456,
+      "graph_contexts": {
+        "140480528555280": 148,
+        "140480528536080": 74
+      }
+    },
+    {
+      "arm": 1,
+      "mode": "active",
+      "thread_ids": [
+        3483861
+      ],
+      "submit_locations": {
+        "inside_graph": 1767,
+        "outside_graph": 2812,
+        "outside_graph_empty": 518
+      },
+      "event_count": 9057,
+      "counts": {
+        "graph_compute": 222,
+        "synchronize": 3738,
+        "fence_wait": 518,
+        "queue_submit": 4579
+      },
+      "decode_wall_ns": 5119315000,
+      "decode_cpu_ns": 1496274492,
+      "inclusive": {
+        "graph_compute": {
+          "wall_ns": 1014408436,
+          "cpu_ns": 514335308
+        },
+        "synchronize": {
+          "wall_ns": 2466708565,
+          "cpu_ns": 659801437
+        },
+        "fence_wait": {
+          "wall_ns": 2381520959,
+          "cpu_ns": 630648870
+        },
+        "queue_submit": {
+          "wall_ns": 447592631,
+          "cpu_ns": 133124198
+        }
+      },
+      "exclusive": {
+        "graph_compute": {
+          "wall_ns": 778793711,
+          "cpu_ns": 460012004
+        },
+        "synchronize": {
+          "wall_ns": 19263086,
+          "cpu_ns": 8016964
+        },
+        "fence_wait": {
+          "wall_ns": 2381520959,
+          "cpu_ns": 630648870
+        },
+        "queue_submit": {
+          "wall_ns": 447592631,
+          "cpu_ns": 133124198
+        }
+      },
+      "outside_instrumented_wall_ns": 1492144613,
+      "outside_instrumented_cpu_ns": 264472456,
+      "graph_contexts": {
+        "140480528555280": 148,
+        "140480528536080": 74
+      }
+    },
+    {
+      "arm": 2,
+      "mode": "active",
+      "thread_ids": [
+        3483861
+      ],
+      "submit_locations": {
+        "inside_graph": 1767,
+        "outside_graph": 2812,
+        "outside_graph_empty": 518
+      },
+      "event_count": 9057,
+      "counts": {
+        "graph_compute": 222,
+        "synchronize": 3738,
+        "fence_wait": 518,
+        "queue_submit": 4579
+      },
+      "decode_wall_ns": 5189105000,
+      "decode_cpu_ns": 1477884330,
+      "inclusive": {
+        "graph_compute": {
+          "wall_ns": 1041970080,
+          "cpu_ns": 519427835
+        },
+        "synchronize": {
+          "wall_ns": 2553207973,
+          "cpu_ns": 631005352
+        },
+        "fence_wait": {
+          "wall_ns": 2470421644,
+          "cpu_ns": 601200445
+        },
+        "queue_submit": {
+          "wall_ns": 450723240,
+          "cpu_ns": 135435050
+        }
+      },
+      "exclusive": {
+        "graph_compute": {
+          "wall_ns": 816149665,
+          "cpu_ns": 464731674
+        },
+        "synchronize": {
+          "wall_ns": 11153988,
+          "cpu_ns": 8352166
+        },
+        "fence_wait": {
+          "wall_ns": 2470421644,
+          "cpu_ns": 601200445
+        },
+        "queue_submit": {
+          "wall_ns": 450723240,
+          "cpu_ns": 135435050
+        }
+      },
+      "outside_instrumented_wall_ns": 1440656463,
+      "outside_instrumented_cpu_ns": 268164995,
+      "graph_contexts": {
+        "140480528555280": 148,
+        "140480528536080": 74
+      }
+    },
+    {
+      "arm": 3,
+      "mode": "inactive",
+      "thread_ids": [
+        3483861
+      ],
+      "submit_locations": {
+        "inside_graph": 1767,
+        "outside_graph": 2812,
+        "outside_graph_empty": 518
+      },
+      "event_count": 9057,
+      "counts": {
+        "graph_compute": 222,
+        "synchronize": 3738,
+        "fence_wait": 518,
+        "queue_submit": 4579
+      },
+      "decode_wall_ns": 5153806000,
+      "decode_cpu_ns": 1734898394,
+      "inclusive": {
+        "graph_compute": {
+          "wall_ns": 1479765197,
+          "cpu_ns": 759216495
+        },
+        "synchronize": {
+          "wall_ns": 2249662313,
+          "cpu_ns": 660020754
+        },
+        "fence_wait": {
+          "wall_ns": 2134579726,
+          "cpu_ns": 630095462
+        },
+        "queue_submit": {
+          "wall_ns": 547096436,
+          "cpu_ns": 138154531
+        }
+      },
+      "exclusive": {
+        "graph_compute": {
+          "wall_ns": 1212103218,
+          "cpu_ns": 697123995
+        },
+        "synchronize": {
+          "wall_ns": 9960635,
+          "cpu_ns": 8074598
+        },
+        "fence_wait": {
+          "wall_ns": 2134579726,
+          "cpu_ns": 630095462
+        },
+        "queue_submit": {
+          "wall_ns": 547096436,
+          "cpu_ns": 138154531
+        }
+      },
+      "outside_instrumented_wall_ns": 1250065985,
+      "outside_instrumented_cpu_ns": 261449808,
+      "graph_contexts": {
+        "140480528555280": 148,
+        "140480528536080": 74
+      }
+    }
+  ],
+  "mode_means_ms": {
+    "inactive": {
+      "decode_wall_ns": 5247.1875,
+      "decode_cpu_ns": 1740.4785705,
+      "outside_instrumented_wall_ns": 1366.400868,
+      "outside_instrumented_cpu_ns": 261.005632,
+      "inclusive_ms": {
+        "graph_compute": {
+          "wall_ns": 1455.46322,
+          "cpu_ns": 740.9947985
+        },
+        "synchronize": {
+          "wall_ns": 2257.0356475,
+          "cpu_ns": 683.0993615
+        },
+        "fence_wait": {
+          "wall_ns": 2153.014304,
+          "cpu_ns": 652.862862
+        },
+        "queue_submit": {
+          "wall_ns": 502.320576,
+          "cpu_ns": 137.2253505
+        }
+      },
+      "exclusive_ms": {
+        "graph_compute": {
+          "wall_ns": 1211.7244925,
+          "cpu_ns": 680.97854
+        },
+        "synchronize": {
+          "wall_ns": 13.7272595,
+          "cpu_ns": 8.406186
+        },
+        "fence_wait": {
+          "wall_ns": 2153.014304,
+          "cpu_ns": 652.862862
+        },
+        "queue_submit": {
+          "wall_ns": 502.320576,
+          "cpu_ns": 137.2253505
+        }
+      }
+    },
+    "active": {
+      "decode_wall_ns": 5154.21,
+      "decode_cpu_ns": 1487.079411,
+      "outside_instrumented_wall_ns": 1466.400538,
+      "outside_instrumented_cpu_ns": 266.3187255,
+      "inclusive_ms": {
+        "graph_compute": {
+          "wall_ns": 1028.189258,
+          "cpu_ns": 516.8815715
+        },
+        "synchronize": {
+          "wall_ns": 2509.958269,
+          "cpu_ns": 645.4033945
+        },
+        "fence_wait": {
+          "wall_ns": 2425.9713015,
+          "cpu_ns": 615.9246575
+        },
+        "queue_submit": {
+          "wall_ns": 449.1579355,
+          "cpu_ns": 134.279624
+        }
+      },
+      "exclusive_ms": {
+        "graph_compute": {
+          "wall_ns": 797.471688,
+          "cpu_ns": 462.371839
+        },
+        "synchronize": {
+          "wall_ns": 15.208537,
+          "cpu_ns": 8.184565
+        },
+        "fence_wait": {
+          "wall_ns": 2425.9713015,
+          "cpu_ns": 615.9246575
+        },
+        "queue_submit": {
+          "wall_ns": 449.1579355,
+          "cpu_ns": 134.279624
+        }
+      }
+    }
+  },
+  "scope": "Fixedfourarmhostmechanismprofileonly,noTPSgainestimateoradoption. Two warmups,sixgenerationsexact. No GPUtimestamps;nativecommandsunchanged. AllintervalsononeobservedCPUthread;exclusivecostsremoveobservednestedscopes. FencewallminusCPUincludesblockingandscheduling;notpureGPUtime. NoGPUbubble/utilizationproof. No pooling/extensionofpriorfailedperformanceexperiments.",
+  "new_gpu_errors": []
+}

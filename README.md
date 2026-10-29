@@ -7,6 +7,8 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 
 ## Start here
 
+- [Native transfer observer](docs/NATIVE-TRANSFER-OBSERVER.md): identifies1,850 synchronous tensor-set submissions per short decode; ownership-preserving batching is the next target.
+- [Native submission budget](docs/NATIVE-SUBMIT-BUDGET.md): fewer batches and a small discovery gain; independent under-load confirmation remains unqualified.
 - [Native fusion-plan cache](docs/NATIVE-FUSION-PLAN.md): exact cached CPU decisions and mutation tests; fixed under-load A/B establishes no incremental gain.
 - [Results and conclusions](docs/RESULTS.md): measured gains, losses and inconclusive results.
 - [36-run under-load A/B test](docs/UNDER-LOAD-AB.md): independent confirmation finds no measurable gain.

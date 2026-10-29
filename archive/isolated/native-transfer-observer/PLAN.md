@@ -1,0 +1,9 @@
+# Attribute native transfer submissions
+
+Motivation: completed host timeline records1767queuecalls insidegraph and2812outside, including518empty fence submissions per128requested-token generation. Wall/CPU waits do not identify which transfers or APIcalls caused remaining2294nonemptyoutside calls. Do not change upload lifetimes or elide submissions from this observation alone.
+
+Next descriptive profile: retain native shaders/commands and existing hosttimeline scopes; add outer synchronous tensor set/get, asynchronous2D set/get, async tensor copy and synchronous buffer tensor copy scopes. Tag copied byte counts. This attributes nested submit calls to public backend APIs without guessing from wall time. No GPUtimestamps, ownership changes, batching, shader or system changes. Use frozen-qualified native path/cap400, two excluded warmups and four measured128requested-token generations; same native tokens/counters required. No A/B speed claim.
+
+Candidate transfer optimizations depend on observed attribution. Native unpinned async setter/getter fallback uses a shared staging buffer and synchronizes before reusing it. Native synchronous buffer read/write also use temporary command contexts and blocking waits on discrete VRAM. An asynchronous staging arena would require immediate source-byte capture, exclusive in-flight ranges, native transfer ordering and completion-aware recycling; ordinary callers must retain documented async destination/source lifetimes. It must not merely remove existing waits around one shared staging allocation.
+
+Preparation may proceed during native-submit-budget confirmation, but do not compile/run this profile until that fixed GPU timing experiment is terminal, avoiding an additional self-created compiler load. Only private megakernel-review files, serial GPU guard, copy2driver, no installed/Claude/system changes.

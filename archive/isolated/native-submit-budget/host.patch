@@ -1,0 +1,22 @@
+--- a/ggml-vulkan.cpp
++++ b/ggml-vulkan.cpp
+@@ -14740,7 +14740,10 @@
+             flops_cap = 2'000'000'000ULL * ctx->device->shader_core_count;
+         }
+     }
+-    uint64_t flops_per_submit = std::min(flops_cap, ctx->last_total_flops / 40u);
++    const char*nsb_env=getenv("GGML_VK_NATIVE_SUBMIT_DIVISOR");
++    const uint32_t nsb_divisor=nsb_env&&strcmp(nsb_env,"20")==0?20u:40u;
++    uint64_t flops_per_submit = std::min(flops_cap, ctx->last_total_flops / nsb_divisor);
++
+ 
+     auto const submit_after = [&](int start, int end) {
+         if (ctx->device->serialize_submissions) {
+@@ -15104,6 +15107,7 @@
+ 
+     GGML_ASSERT(ctx->nq_skipped.empty());
+     if(ctx->nq_fused_count&&getenv("GGML_VK_NATIVE_GLUQ_AUDIT"))fprintf(stderr,"NATIVE_GLUQ_FUSED %u\n",ctx->nq_fused_count);
++    if(getenv("GGML_VK_NATIVE_SUBMIT_AUDIT"))fprintf(stderr,"NATIVE_SUBMIT_BUDGET divisor=%u nodes=%d batches=%u flops=%llu\n",nsb_divisor,cgraph->n_nodes,submit_count,(unsigned long long)total_flops);
+     ctx->last_total_flops = total_flops;
+ 
+     if (vk_perf_logger_enabled) {

@@ -1,0 +1,9 @@
+# Fixed native submission-budget A/B
+
+Before first model timing, require all five target-bit cases (530 rows) and native token/counter references exact for divisor20, short private40 control exact, and actual batch-count reductions in qualification logs. Candidate library and private frozen padded-Q3 shaders must remain unchanged after qualification.
+
+Fixed24 fresh512-request-token processes, six alternating ABBA/BAAB blocks: A preserved frozen padded-Q3/cap400/divisor40; B new private native host with identical shader/activation policy/cap400 and initial divisor20. No fusion-plan reuse, shader instrumentation or per-graph audit. Same existing synchronized native-fusion-plan runner in both arms, mapping/hash checks and private copy2 driver, standard MTPmax1/q8KV/ctx4096/greedy/reference tokens/counters.
+
+Primary incremental steady token rate after16token warm boundary, explicit completion at boundaries/end. Preserve full-generation/encoding/process wall metrics and all telemetry. Natural clocks/power outcomes, not matching gates. External load matching: CPU busy difference<=5pp, mean buildcount difference<=2, runnable difference<=max(4,15%blockmean), complete valid active telemetry; at least4matchedblocks required. Use existing fixed-block geometric effects/t95 descriptive intervals. Report all6blocks and matched subset; do not drop timing outliers, extend, retry, or pool with prior experiments.
+
+A positive qualified primary lower interval bound permits a separate predeclared independent confirmation. Otherwise no adoption and no conditional confirmation. No result from the preceding four-arm timeline is used as a speed estimate. Prior failed single-submit mega result remains a warning that reducing submissions may harm overlap. No changes outside megakernel-review or to system/desktop/clocks/affinity.

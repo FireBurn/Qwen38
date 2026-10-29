@@ -1,0 +1,960 @@
+[
+  {
+    "mode": "stock400",
+    "submit_divisor": 40,
+    "budget_records": [],
+    "cap": 400,
+    "mask": 0,
+    "pid": 3491416,
+    "fused_calls": 0,
+    "coalesced_barriers": 0,
+    "planner_comparisons": 0,
+    "n_drafted": 19,
+    "n_accept": 15,
+    "n_predict": 34,
+    "tokens": [
+      279,
+      4216,
+      421,
+      5879,
+      310,
+      279,
+      20616,
+      314,
+      279,
+      12386,
+      19825,
+      1172,
+      5963,
+      350,
+      13,
+      198,
+      760,
+      46706,
+      314,
+      66900,
+      51852,
+      303,
+      220,
+      19,
+      19,
+      17501,
+      12495,
+      279,
+      6941,
+      314,
+      264,
+      4031,
+      314,
+      4788
+    ],
+    "target_logit_audit_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+    "audit_bytes": 37745416,
+    "target_logit_rows": 38,
+    "audit_batches": 20,
+    "new_driver_errors": [],
+    "scope": "Productionaa8 .27/.7MTP stockactivationpolicy;every requested targetlogit row from runnerprocesscalls,tokens/counters. No targethidden/draftscorecapture or performance qualification."
+  },
+  {
+    "mode": "frozen400",
+    "submit_divisor": 40,
+    "budget_records": [],
+    "cap": 400,
+    "mask": 8,
+    "pid": 3491656,
+    "fused_calls": 0,
+    "coalesced_barriers": 0,
+    "planner_comparisons": 61,
+    "n_drafted": 19,
+    "n_accept": 15,
+    "n_predict": 34,
+    "tokens": [
+      279,
+      4216,
+      421,
+      5879,
+      310,
+      279,
+      20616,
+      314,
+      279,
+      12386,
+      19825,
+      1172,
+      5963,
+      350,
+      13,
+      198,
+      760,
+      46706,
+      314,
+      66900,
+      51852,
+      303,
+      220,
+      19,
+      19,
+      17501,
+      12495,
+      279,
+      6941,
+      314,
+      264,
+      4031,
+      314,
+      4788
+    ],
+    "target_logit_audit_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+    "audit_bytes": 37745416,
+    "target_logit_rows": 38,
+    "audit_batches": 20,
+    "new_driver_errors": [],
+    "scope": "Productionaa8 .27/.7MTP stockactivationpolicy;every requested targetlogit row from runnerprocesscalls,tokens/counters. No targethidden/draftscorecapture or performance qualification."
+  },
+  {
+    "mode": "control40",
+    "submit_divisor": 40,
+    "budget_records": [
+      {
+        "divisor": 40,
+        "nodes": 4183,
+        "batches": 5,
+        "flops": 99749899776
+      },
+      {
+        "divisor": 40,
+        "nodes": 61,
+        "batches": 3,
+        "flops": 4262841856
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 110,
+        "flops": 1759357532160
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 13,
+        "flops": 30965280768
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 3,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 5,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 9,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 40,
+        "nodes": 4182,
+        "batches": 8,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 40,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 1720293376
+      }
+    ],
+    "cap": 400,
+    "mask": 8,
+    "pid": 3491770,
+    "fused_calls": 0,
+    "coalesced_barriers": 0,
+    "planner_comparisons": 61,
+    "n_drafted": 19,
+    "n_accept": 15,
+    "n_predict": 34,
+    "tokens": [
+      279,
+      4216,
+      421,
+      5879,
+      310,
+      279,
+      20616,
+      314,
+      279,
+      12386,
+      19825,
+      1172,
+      5963,
+      350,
+      13,
+      198,
+      760,
+      46706,
+      314,
+      66900,
+      51852,
+      303,
+      220,
+      19,
+      19,
+      17501,
+      12495,
+      279,
+      6941,
+      314,
+      264,
+      4031,
+      314,
+      4788
+    ],
+    "target_logit_audit_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+    "audit_bytes": 37745416,
+    "target_logit_rows": 38,
+    "audit_batches": 20,
+    "new_driver_errors": [],
+    "scope": "Productionaa8 .27/.7MTP stockactivationpolicy;every requested targetlogit row from runnerprocesscalls,tokens/counters. No targethidden/draftscorecapture or performance qualification."
+  },
+  {
+    "mode": "budget20",
+    "submit_divisor": 20,
+    "budget_records": [
+      {
+        "divisor": 20,
+        "nodes": 4183,
+        "batches": 5,
+        "flops": 99749899776
+      },
+      {
+        "divisor": 20,
+        "nodes": 61,
+        "batches": 3,
+        "flops": 4262841856
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 51,
+        "flops": 1759357532160
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 12,
+        "flops": 30965280768
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 2,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 5,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 7,
+        "flops": 3402695168
+      },
+      {
+        "divisor": 20,
+        "nodes": 4182,
+        "batches": 6,
+        "flops": 102827182080
+      },
+      {
+        "divisor": 20,
+        "nodes": 67,
+        "batches": 5,
+        "flops": 1720293376
+      }
+    ],
+    "cap": 400,
+    "mask": 8,
+    "pid": 3491820,
+    "fused_calls": 0,
+    "coalesced_barriers": 0,
+    "planner_comparisons": 61,
+    "n_drafted": 19,
+    "n_accept": 15,
+    "n_predict": 34,
+    "tokens": [
+      279,
+      4216,
+      421,
+      5879,
+      310,
+      279,
+      20616,
+      314,
+      279,
+      12386,
+      19825,
+      1172,
+      5963,
+      350,
+      13,
+      198,
+      760,
+      46706,
+      314,
+      66900,
+      51852,
+      303,
+      220,
+      19,
+      19,
+      17501,
+      12495,
+      279,
+      6941,
+      314,
+      264,
+      4031,
+      314,
+      4788
+    ],
+    "target_logit_audit_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+    "audit_bytes": 37745416,
+    "target_logit_rows": 38,
+    "audit_batches": 20,
+    "new_driver_errors": [],
+    "scope": "Productionaa8 .27/.7MTP stockactivationpolicy;every requested targetlogit row from runnerprocesscalls,tokens/counters. No targethidden/draftscorecapture or performance qualification."
+  }
+]
