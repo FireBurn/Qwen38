@@ -98,3 +98,5 @@ The combination's +8.72% contrast is a descriptive repeat consistent with the pr
 ## Native command observer (2026-10-29)
 
 Five observer processes preserve 530 requested target-logit rows and generated-token/counter references, including fresh stock controls and KV256→512. Of 825 observed graph executions, 767 exactly repeat earlier captured command-argument sequences. No new GPU errors, unsupported graph-scope command markers or incomplete trace storage occur. No GPU commands are reused or skipped, and observer timings establish no speed gain. A pinned-driver feature query exposes compute DGC but not AMDX shader enqueue; API ordering and binding rules prevent treating DGC as a drop-in dependent-model scheduler. [Scope, evidence and next profiling step](NATIVE-COMMAND-OBSERVER.md).
+
+GDN reader indexing reduced measured host CPU work but did not qualify a throughput gain in a fixed 24-arm under-load A/B. Only three blocks matched external load; all favoured legacy. [Evidence and diagnostic](GDN-READER-INDEX.md).

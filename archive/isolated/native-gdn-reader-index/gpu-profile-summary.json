@@ -1,0 +1,2917 @@
+[
+  {
+    "directory": "20261029T125707Z",
+    "broad_categories": {
+      "other": {
+        "total_us": 126551.75000000001,
+        "share_percent": 12.176095561641223
+      },
+      "attention-containing": {
+        "total_us": 9244.82,
+        "share_percent": 0.8894844343928234
+      },
+      "matrix-containing": {
+        "total_us": 892615.83,
+        "share_percent": 85.88246030508226
+      },
+      "GDN-containing": {
+        "total_us": 10933.5,
+        "share_percent": 1.0519596988836921
+      }
+    },
+    "grouped": false,
+    "total_recorded_us": 1039345.9,
+    "families": [
+      {
+        "name": "MUL_MAT_VEC q3_K m=17408 n=2 k=5120",
+        "total_us": 144331.0,
+        "share_percent": 13.886714711627764
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q5_K m=5120 n=2 k=17408",
+        "total_us": 83752.1,
+        "share_percent": 8.05815465284464
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_K m=5120 n=2 k=17408",
+        "total_us": 82375.7,
+        "share_percent": 7.925725208518165
+      },
+      {
+        "name": "MUL_MAT_VEC q8_0 m=248320 n=1 k=5120",
+        "total_us": 45761.299999999996,
+        "share_percent": 4.402894166417552
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=17408 n=2 k=5120",
+        "total_us": 44453.4,
+        "share_percent": 4.277055405712381
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=17408 n=2 k=5120",
+        "total_us": 42052.6,
+        "share_percent": 4.046063971580587
+      },
+      {
+        "name": "MUL_MAT_VEC q8_0 m=248320 n=2 k=5120",
+        "total_us": 41921.8,
+        "share_percent": 4.033479133366476
+      },
+      {
+        "name": "MUL_MAT q3_K m=17408 n=36 k=5120",
+        "total_us": 39340.6,
+        "share_percent": 3.7851306287925897
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=10240 n=2 k=5120",
+        "total_us": 35106.2,
+        "share_percent": 3.3777205452005914
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,2,1,1)",
+        "total_us": 29953.78,
+        "share_percent": 2.8819837553599816
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=5120 n=2 k=6144",
+        "total_us": 28699.6,
+        "share_percent": 2.7613136300436647
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=17408 n=2 k=5120",
+        "total_us": 26417.3,
+        "share_percent": 2.5417235975049306
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=6144 n=2 k=5120",
+        "total_us": 21063.9,
+        "share_percent": 2.0266496457050533
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=12288 n=2 k=5120",
+        "total_us": 21008.7,
+        "share_percent": 2.021338613064236
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=2 k=17408",
+        "total_us": 20080.1,
+        "share_percent": 1.9319939588927995
+      },
+      {
+        "name": "GET_ROWS",
+        "total_us": 16479.309999999998,
+        "share_percent": 1.585546255582477
+      },
+      {
+        "name": "MUL_MAT q4_K m=5120 n=36 k=17408",
+        "total_us": 13554.5,
+        "share_percent": 1.3041375349630955
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=10240 n=2 k=5120",
+        "total_us": 13312.2,
+        "share_percent": 1.2808247956719703
+      },
+      {
+        "name": "MUL_MAT_VEC bf16 m=48 n=2 k=5120",
+        "total_us": 11824.2,
+        "share_percent": 1.1376578288325379
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=1 k=17408",
+        "total_us": 11613.1,
+        "share_percent": 1.1173469775557876
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q5_K m=5120 n=2 k=6144",
+        "total_us": 11411.8,
+        "share_percent": 1.0979790270015015
+      },
+      {
+        "name": "GATED_DELTA_NET",
+        "total_us": 10933.5,
+        "share_percent": 1.0519596988836921
+      },
+      {
+        "name": "FLASH_ATTN_EXT",
+        "total_us": 9244.82,
+        "share_percent": 0.8894844343928234
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=10240 n=2 k=5120",
+        "total_us": 9075.52,
+        "share_percent": 0.8731953433404606
+      },
+      {
+        "name": "MUL_MAT q5_K m=5120 n=36 k=6144",
+        "total_us": 9051.5,
+        "share_percent": 0.8708842744268294
+      },
+      {
+        "name": "MUL_MAT q6_K m=17408 n=36 k=5120",
+        "total_us": 8068.44,
+        "share_percent": 0.7762997862405576
+      },
+      {
+        "name": "MUL_MAT q4_K m=10240 n=36 k=5120",
+        "total_us": 7371.86,
+        "share_percent": 0.709278787745254
+      },
+      {
+        "name": "ADD",
+        "total_us": 7019.84,
+        "share_percent": 0.6754094089369093
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=6144 n=2 k=5120",
+        "total_us": 6907.96,
+        "share_percent": 0.66464494640331
+      },
+      {
+        "name": "SCALE",
+        "total_us": 6855.0,
+        "share_percent": 0.659549433927627
+      },
+      {
+        "name": "SILU",
+        "total_us": 6700.64,
+        "share_percent": 0.6446977854052246
+      },
+      {
+        "name": "MUL_MAT q5_K m=17408 n=36 k=5120",
+        "total_us": 6347.07,
+        "share_percent": 0.6106792743397554
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=5120 n=2 k=6144",
+        "total_us": 6240.52,
+        "share_percent": 0.6004276343419452
+      },
+      {
+        "name": "GLU",
+        "total_us": 6154.52,
+        "share_percent": 0.5921531994305265
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(128,48,2,1)",
+        "total_us": 6053.6,
+        "share_percent": 0.5824432462763359
+      },
+      {
+        "name": "SSM_CONV_SILU SSM_CONV",
+        "total_us": 5970.24,
+        "share_percent": 0.5744228172738257
+      },
+      {
+        "name": "CPY",
+        "total_us": 5911.2,
+        "share_percent": 0.5687423214927774
+      },
+      {
+        "name": "MUL_MAT q6_K m=5120 n=36 k=6144",
+        "total_us": 5852.56,
+        "share_percent": 0.5631003114555029
+      },
+      {
+        "name": "MUL_MAT q6_K m=10240 n=36 k=5120",
+        "total_us": 5675.5,
+        "share_percent": 0.5460645969739237
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=6144 n=2 k=5120",
+        "total_us": 5666.88,
+        "share_percent": 0.5452352291955931
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=1024 n=2 k=5120",
+        "total_us": 5611.28,
+        "share_percent": 0.5398857108110015
+      },
+      {
+        "name": "CONCAT",
+        "total_us": 5377.4800000000005,
+        "share_percent": 0.5173907935750744
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=5120 n=2 k=10240",
+        "total_us": 5196.17,
+        "share_percent": 0.49994616806589603
+      },
+      {
+        "name": "RMS_NORM(128,16,2,1)",
+        "total_us": 4836.72,
+        "share_percent": 0.4653619165669485
+      },
+      {
+        "name": "MUL",
+        "total_us": 4743.24,
+        "share_percent": 0.4563677982469551
+      },
+      {
+        "name": "MUL_MAT q6_K m=5120 n=36 k=17408",
+        "total_us": 4723.22,
+        "share_percent": 0.4544415867710644
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=5120 n=2 k=6144",
+        "total_us": 4604.8,
+        "share_percent": 0.44304788232675957
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=17408 n=2 k=5120",
+        "total_us": 4567.12,
+        "share_percent": 0.4394225252632449
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=2 k=17408",
+        "total_us": 4459.37,
+        "share_percent": 0.4290554280341126
+      },
+      {
+        "name": "MUL_MAT q5_K m=5120 n=36 k=17408",
+        "total_us": 4403.36,
+        "share_percent": 0.42366646176215245
+      },
+      {
+        "name": "MUL_MAT q4_K m=17408 n=36 k=5120",
+        "total_us": 3995.24,
+        "share_percent": 0.38439945738949854
+      },
+      {
+        "name": "MUL_MAT q4_K m=6144 n=36 k=5120",
+        "total_us": 3663.12,
+        "share_percent": 0.3524447443339123
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=12288 n=2 k=5120",
+        "total_us": 3569.2,
+        "share_percent": 0.3434082916957675
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=17408 n=1 k=5120",
+        "total_us": 3455.24,
+        "share_percent": 0.3324437032945432
+      },
+      {
+        "name": "SOFTPLUS_MUL SOFTPLUS",
+        "total_us": 3341.8,
+        "share_percent": 0.3215291463602252
+      },
+      {
+        "name": "MUL_MAT q5_K m=12288 n=36 k=5120",
+        "total_us": 3290.52,
+        "share_percent": 0.31659527400839316
+      },
+      {
+        "name": "MUL_MAT q4_0 m=17408 n=36 k=5120",
+        "total_us": 3275.66,
+        "share_percent": 0.31516552862718755
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=6144",
+        "total_us": 2937.36,
+        "share_percent": 0.28261621083029237
+      },
+      {
+        "name": "SIGMOID",
+        "total_us": 2642.2,
+        "share_percent": 0.25421758049942755
+      },
+      {
+        "name": "ROPE",
+        "total_us": 2509.52,
+        "share_percent": 0.24145185928957819
+      },
+      {
+        "name": "MUL_MAT q5_K m=10240 n=36 k=5120",
+        "total_us": 2478.2,
+        "share_percent": 0.23843842555207073
+      },
+      {
+        "name": "MUL_MAT bf16 m=48 n=36 k=5120",
+        "total_us": 2055.72,
+        "share_percent": 0.19778978297792868
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,2,1)",
+        "total_us": 2016.04,
+        "share_percent": 0.19397199719554384
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=2 k=6144",
+        "total_us": 2005.48,
+        "share_percent": 0.19295597355990918
+      },
+      {
+        "name": "MUL_MAT q6_K m=12288 n=36 k=5120",
+        "total_us": 1983.36,
+        "share_percent": 0.1908277119292047
+      },
+      {
+        "name": "SET_ROWS",
+        "total_us": 1763.48,
+        "share_percent": 0.1696720985766144
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=5120 n=1 k=10240",
+        "total_us": 1741.0,
+        "share_percent": 0.1675091997765133
+      },
+      {
+        "name": "TOP_K K=10 (248320,1,1,1)",
+        "total_us": 1532.42,
+        "share_percent": 0.14744080868553963
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=17408",
+        "total_us": 1440.78,
+        "share_percent": 0.13862372478690685
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,36,1,1)",
+        "total_us": 1388.72,
+        "share_percent": 0.13361480523471542
+      },
+      {
+        "name": "MUL_MAT q6_K m=6144 n=36 k=5120",
+        "total_us": 1351.52,
+        "share_percent": 0.1300356310637296
+      },
+      {
+        "name": "CONT",
+        "total_us": 1336.52,
+        "share_percent": 0.12859241567220306
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=12288 n=2 k=5120",
+        "total_us": 1330.04,
+        "share_percent": 0.1279689466230636
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=12288 n=1 k=5120",
+        "total_us": 1197.56,
+        "share_percent": 0.11522246828510123
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=10240",
+        "total_us": 1171.79,
+        "share_percent": 0.11274302424245865
+      },
+      {
+        "name": "MUL_MAT q5_K m=6144 n=36 k=5120",
+        "total_us": 1171.04,
+        "share_percent": 0.11267086347288231
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,2,1)",
+        "total_us": 967.64,
+        "share_percent": 0.09310086276378249
+      },
+      {
+        "name": "MUL_MAT q5_K m=1024 n=36 k=5120",
+        "total_us": 945.8,
+        "share_percent": 0.09099954115371985
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,1,1,1)",
+        "total_us": 942.96,
+        "share_percent": 0.09072629237292416
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(128,48,36,1)",
+        "total_us": 919.0,
+        "share_percent": 0.0884209963208591
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=1024 n=2 k=5120",
+        "total_us": 895.4,
+        "share_percent": 0.08615033743819069
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=2 k=6144",
+        "total_us": 863.68,
+        "share_percent": 0.08309841795690924
+      },
+      {
+        "name": "MUL_MAT q4_K m=5120 n=36 k=6144",
+        "total_us": 843.8,
+        "share_percent": 0.08118567649133941
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=1 k=6144",
+        "total_us": 787.36,
+        "share_percent": 0.07575533804482222
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=32 k=64",
+        "total_us": 581.88,
+        "share_percent": 0.05598521146809739
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=48 k=256",
+        "total_us": 567.5600000000001,
+        "share_percent": 0.05460742184098673
+      },
+      {
+        "name": "MUL_MAT_VEC f32 m=256 n=8 k=256",
+        "total_us": 543.48,
+        "share_percent": 0.05229058006578945
+      },
+      {
+        "name": "RMS_NORM(128,16,36,1)",
+        "total_us": 515.72,
+        "share_percent": 0.04961966944787101
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=192 k=64",
+        "total_us": 490.0,
+        "share_percent": 0.04714503612320018
+      },
+      {
+        "name": "MUL_MAT q4_0 m=12288 n=36 k=5120",
+        "total_us": 463.01,
+        "share_percent": 0.04454821056204676
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=1024 n=2 k=5120",
+        "total_us": 387.36,
+        "share_percent": 0.03726959427078127
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=1024 n=1 k=5120",
+        "total_us": 298.88,
+        "share_percent": 0.028756547747963407
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=17408 n=1 k=5120",
+        "total_us": 240.8,
+        "share_percent": 0.023168417751972658
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,36,1)",
+        "total_us": 219.76,
+        "share_percent": 0.021144067629458103
+      },
+      {
+        "name": "PAD",
+        "total_us": 206.76,
+        "share_percent": 0.019893280956801773
+      },
+      {
+        "name": "MUL_MAT q6_K m=1024 n=36 k=5120",
+        "total_us": 165.28,
+        "share_percent": 0.015902309327433726
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=1 k=17408",
+        "total_us": 125.88,
+        "share_percent": 0.01211146356569069
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,1,1)",
+        "total_us": 90.68,
+        "share_percent": 0.008724718113575086
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=3456 k=64",
+        "total_us": 69.04,
+        "share_percent": 0.006642639375399471
+      },
+      {
+        "name": "MUL_MAT q4_0 m=1024 n=36 k=5120",
+        "total_us": 65.88,
+        "share_percent": 0.006338601999584546
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,36,1)",
+        "total_us": 54.28,
+        "share_percent": 0.0052225154301373585
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=864 k=256",
+        "total_us": 53.32000000000001,
+        "share_percent": 0.005130149645079661
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=576 k=64",
+        "total_us": 52.52,
+        "share_percent": 0.005053178157531578
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,1,1)",
+        "total_us": 48.68,
+        "share_percent": 0.004683715017300785
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=144 k=256",
+        "total_us": 34.44,
+        "share_percent": 0.003313622538944927
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=24 k=256",
+        "total_us": 32.76,
+        "share_percent": 0.0031519824150939547
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=16 k=64",
+        "total_us": 32.52,
+        "share_percent": 0.0031288909688295305
+      },
+      {
+        "name": "MUL_MAT_VEC f32 m=256 n=4 k=256",
+        "total_us": 31.04,
+        "share_percent": 0.0029864937168655784
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=96 k=64",
+        "total_us": 28.08,
+        "share_percent": 0.0027016992129376754
+      }
+    ],
+    "rows": [
+      {
+        "name": "ADD",
+        "count": 2,
+        "mean_us": 6.14,
+        "total_us": 12.28
+      },
+      {
+        "name": "CONCAT",
+        "count": 40,
+        "mean_us": 2.689,
+        "total_us": 107.56
+      },
+      {
+        "name": "CONT",
+        "count": 40,
+        "mean_us": 3.241,
+        "total_us": 129.64
+      },
+      {
+        "name": "FLASH_ATTN_EXT dst(256,24,1,1),  q(256,1,24,1),  k(256,256,4,1),  v(256,256,4,1),  m(256,1,1,1)",
+        "count": 19,
+        "mean_us": 13.517,
+        "total_us": 256.84
+      },
+      {
+        "name": "FLASH_ATTN_EXT dst(256,24,2,1),  q(256,2,24,1),  k(256,256,4,1),  v(256,256,4,1),  m(256,2,1,1)",
+        "count": 20,
+        "mean_us": 137.124,
+        "total_us": 2742.48
+      },
+      {
+        "name": "FLASH_ATTN_EXT dst(256,24,36,1),  q(256,36,24,1),  k(256,256,4,1),  v(256,256,4,1),  m(256,36,1,1)",
+        "count": 1,
+        "mean_us": 40.6,
+        "total_us": 40.6
+      },
+      {
+        "name": "GET_ROWS",
+        "count": 39,
+        "mean_us": 153.664,
+        "total_us": 5992.91
+      },
+      {
+        "name": "GLU",
+        "count": 40,
+        "mean_us": 4.397,
+        "total_us": 175.88
+      },
+      {
+        "name": "MUL",
+        "count": 40,
+        "mean_us": 2.605,
+        "total_us": 104.2
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=144 k=256",
+        "count": 1,
+        "mean_us": 2.44,
+        "total_us": 2.44
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=24 k=256",
+        "count": 19,
+        "mean_us": 1.724,
+        "total_us": 32.76
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=48 k=256",
+        "count": 20,
+        "mean_us": 1.78,
+        "total_us": 35.6
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=864 k=256",
+        "count": 1,
+        "mean_us": 10.8,
+        "total_us": 10.8
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=16 k=64",
+        "count": 19,
+        "mean_us": 1.711,
+        "total_us": 32.52
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=192 k=64",
+        "count": 20,
+        "mean_us": 1.522,
+        "total_us": 30.44
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=32 k=64",
+        "count": 20,
+        "mean_us": 1.716,
+        "total_us": 34.32
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=3456 k=64",
+        "count": 1,
+        "mean_us": 3.56,
+        "total_us": 3.56
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=576 k=64",
+        "count": 1,
+        "mean_us": 2.28,
+        "total_us": 2.28
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=96 k=64",
+        "count": 19,
+        "mean_us": 1.477,
+        "total_us": 28.08
+      },
+      {
+        "name": "MUL_MAT q4_0 m=1024 n=36 k=5120",
+        "count": 2,
+        "mean_us": 32.94,
+        "total_us": 65.88
+      },
+      {
+        "name": "MUL_MAT q4_0 m=12288 n=36 k=5120",
+        "count": 1,
+        "mean_us": 463.01,
+        "total_us": 463.01
+      },
+      {
+        "name": "MUL_MAT q4_0 m=17408 n=36 k=5120",
+        "count": 2,
+        "mean_us": 1637.83,
+        "total_us": 3275.66
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=10240",
+        "count": 1,
+        "mean_us": 1171.79,
+        "total_us": 1171.79
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=17408",
+        "count": 1,
+        "mean_us": 1440.78,
+        "total_us": 1440.78
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=6144",
+        "count": 1,
+        "mean_us": 2937.36,
+        "total_us": 2937.36
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=1 k=17408",
+        "count": 19,
+        "mean_us": 611.215,
+        "total_us": 11613.1
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=1 k=6144",
+        "count": 19,
+        "mean_us": 41.44,
+        "total_us": 787.36
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=2 k=17408",
+        "count": 20,
+        "mean_us": 222.968,
+        "total_us": 4459.37
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=2 k=6144",
+        "count": 20,
+        "mean_us": 43.184,
+        "total_us": 863.68
+      },
+      {
+        "name": "MUL_MAT_VEC f32 m=256 n=4 k=256",
+        "count": 19,
+        "mean_us": 1.633,
+        "total_us": 31.04
+      },
+      {
+        "name": "MUL_MAT_VEC f32 m=256 n=8 k=256",
+        "count": 20,
+        "mean_us": 1.63,
+        "total_us": 32.6
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=1024 n=1 k=5120",
+        "count": 38,
+        "mean_us": 7.865,
+        "total_us": 298.88
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=1024 n=2 k=5120",
+        "count": 40,
+        "mean_us": 9.684,
+        "total_us": 387.36
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=12288 n=1 k=5120",
+        "count": 19,
+        "mean_us": 63.029,
+        "total_us": 1197.56
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=12288 n=2 k=5120",
+        "count": 20,
+        "mean_us": 66.502,
+        "total_us": 1330.04
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=17408 n=1 k=5120",
+        "count": 38,
+        "mean_us": 90.927,
+        "total_us": 3455.24
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=17408 n=2 k=5120",
+        "count": 40,
+        "mean_us": 114.178,
+        "total_us": 4567.12
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=5120 n=1 k=10240",
+        "count": 19,
+        "mean_us": 91.631,
+        "total_us": 1741.0
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=5120 n=2 k=10240",
+        "count": 20,
+        "mean_us": 259.808,
+        "total_us": 5196.17
+      },
+      {
+        "name": "MUL_MAT_VEC q8_0 m=248320 n=1 k=5120",
+        "count": 20,
+        "mean_us": 2178.68,
+        "total_us": 43573.7
+      },
+      {
+        "name": "PAD",
+        "count": 19,
+        "mean_us": 10.882,
+        "total_us": 206.76
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,1,1)",
+        "count": 19,
+        "mean_us": 4.772,
+        "total_us": 90.68
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,2,1)",
+        "count": 20,
+        "mean_us": 5.976,
+        "total_us": 119.52
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,36,1)",
+        "count": 1,
+        "mean_us": 13.16,
+        "total_us": 13.16
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,1,1)",
+        "count": 19,
+        "mean_us": 2.562,
+        "total_us": 48.68
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,2,1)",
+        "count": 20,
+        "mean_us": 2.696,
+        "total_us": 53.92
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,36,1)",
+        "count": 1,
+        "mean_us": 4.72,
+        "total_us": 4.72
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,1,1,1)",
+        "count": 95,
+        "mean_us": 9.778,
+        "total_us": 928.96
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,2,1,1)",
+        "count": 100,
+        "mean_us": 40.52,
+        "total_us": 4052.08
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,36,1,1)",
+        "count": 5,
+        "mean_us": 12.384,
+        "total_us": 61.92
+      },
+      {
+        "name": "ROPE",
+        "count": 80,
+        "mean_us": 3.186,
+        "total_us": 254.88
+      },
+      {
+        "name": "SET_ROWS",
+        "count": 80,
+        "mean_us": 2.295,
+        "total_us": 183.64
+      },
+      {
+        "name": "SIGMOID",
+        "count": 40,
+        "mean_us": 2.039,
+        "total_us": 81.56
+      },
+      {
+        "name": "TOP_K K=10 (248320,1,1,1)",
+        "count": 19,
+        "mean_us": 80.653,
+        "total_us": 1532.42
+      },
+      {
+        "name": "ADD",
+        "count": 2097,
+        "mean_us": 3.341,
+        "total_us": 7007.56
+      },
+      {
+        "name": "CONCAT",
+        "count": 1008,
+        "mean_us": 5.228,
+        "total_us": 5269.92
+      },
+      {
+        "name": "CONT",
+        "count": 336,
+        "mean_us": 3.591,
+        "total_us": 1206.88
+      },
+      {
+        "name": "CPY",
+        "count": 2016,
+        "mean_us": 2.932,
+        "total_us": 5911.2
+      },
+      {
+        "name": "FLASH_ATTN_EXT dst(256,24,2,1),  q(256,2,24,1),  k(256,256,4,1),  v(256,256,4,1),  m(256,2,1,1)",
+        "count": 320,
+        "mean_us": 17.406,
+        "total_us": 5570.18
+      },
+      {
+        "name": "FLASH_ATTN_EXT dst(256,24,36,1),  q(256,36,24,1),  k(256,256,4,1),  v(256,256,4,1),  m(256,36,1,1)",
+        "count": 16,
+        "mean_us": 39.67,
+        "total_us": 634.72
+      },
+      {
+        "name": "GATED_DELTA_NET",
+        "count": 1008,
+        "mean_us": 10.846,
+        "total_us": 10933.5
+      },
+      {
+        "name": "GET_ROWS",
+        "count": 2037,
+        "mean_us": 5.147,
+        "total_us": 10486.4
+      },
+      {
+        "name": "GLU",
+        "count": 1344,
+        "mean_us": 4.448,
+        "total_us": 5978.64
+      },
+      {
+        "name": "MUL",
+        "count": 1344,
+        "mean_us": 3.451,
+        "total_us": 4639.04
+      },
+      {
+        "name": "MUL_MAT bf16 m=48 n=36 k=5120",
+        "count": 96,
+        "mean_us": 21.413,
+        "total_us": 2055.72
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=144 k=256",
+        "count": 16,
+        "mean_us": 2.0,
+        "total_us": 32.0
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=48 k=256",
+        "count": 320,
+        "mean_us": 1.662,
+        "total_us": 531.96
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=864 k=256",
+        "count": 16,
+        "mean_us": 2.657,
+        "total_us": 42.52
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=192 k=64",
+        "count": 320,
+        "mean_us": 1.436,
+        "total_us": 459.56
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=32 k=64",
+        "count": 320,
+        "mean_us": 1.711,
+        "total_us": 547.56
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=3456 k=64",
+        "count": 16,
+        "mean_us": 4.092,
+        "total_us": 65.48
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=576 k=64",
+        "count": 16,
+        "mean_us": 3.14,
+        "total_us": 50.24
+      },
+      {
+        "name": "MUL_MAT q3_K m=17408 n=36 k=5120",
+        "count": 78,
+        "mean_us": 504.367,
+        "total_us": 39340.6
+      },
+      {
+        "name": "MUL_MAT q4_K m=10240 n=36 k=5120",
+        "count": 33,
+        "mean_us": 223.389,
+        "total_us": 7371.86
+      },
+      {
+        "name": "MUL_MAT q4_K m=17408 n=36 k=5120",
+        "count": 14,
+        "mean_us": 285.374,
+        "total_us": 3995.24
+      },
+      {
+        "name": "MUL_MAT q4_K m=5120 n=36 k=17408",
+        "count": 46,
+        "mean_us": 294.664,
+        "total_us": 13554.5
+      },
+      {
+        "name": "MUL_MAT q4_K m=5120 n=36 k=6144",
+        "count": 7,
+        "mean_us": 120.542,
+        "total_us": 843.8
+      },
+      {
+        "name": "MUL_MAT q4_K m=6144 n=36 k=5120",
+        "count": 33,
+        "mean_us": 111.003,
+        "total_us": 3663.12
+      },
+      {
+        "name": "MUL_MAT q5_K m=1024 n=36 k=5120",
+        "count": 28,
+        "mean_us": 33.778,
+        "total_us": 945.8
+      },
+      {
+        "name": "MUL_MAT q5_K m=10240 n=36 k=5120",
+        "count": 9,
+        "mean_us": 275.355,
+        "total_us": 2478.2
+      },
+      {
+        "name": "MUL_MAT q5_K m=12288 n=36 k=5120",
+        "count": 14,
+        "mean_us": 235.037,
+        "total_us": 3290.52
+      },
+      {
+        "name": "MUL_MAT q5_K m=17408 n=36 k=5120",
+        "count": 20,
+        "mean_us": 317.353,
+        "total_us": 6347.07
+      },
+      {
+        "name": "MUL_MAT q5_K m=5120 n=36 k=17408",
+        "count": 10,
+        "mean_us": 440.336,
+        "total_us": 4403.36
+      },
+      {
+        "name": "MUL_MAT q5_K m=5120 n=36 k=6144",
+        "count": 49,
+        "mean_us": 184.724,
+        "total_us": 9051.5
+      },
+      {
+        "name": "MUL_MAT q5_K m=6144 n=36 k=5120",
+        "count": 9,
+        "mean_us": 130.115,
+        "total_us": 1171.04
+      },
+      {
+        "name": "MUL_MAT q6_K m=1024 n=36 k=5120",
+        "count": 4,
+        "mean_us": 41.32,
+        "total_us": 165.28
+      },
+      {
+        "name": "MUL_MAT q6_K m=10240 n=36 k=5120",
+        "count": 6,
+        "mean_us": 945.916,
+        "total_us": 5675.5
+      },
+      {
+        "name": "MUL_MAT q6_K m=12288 n=36 k=5120",
+        "count": 2,
+        "mean_us": 991.68,
+        "total_us": 1983.36
+      },
+      {
+        "name": "MUL_MAT q6_K m=17408 n=36 k=5120",
+        "count": 16,
+        "mean_us": 504.277,
+        "total_us": 8068.44
+      },
+      {
+        "name": "MUL_MAT q6_K m=5120 n=36 k=17408",
+        "count": 8,
+        "mean_us": 590.402,
+        "total_us": 4723.22
+      },
+      {
+        "name": "MUL_MAT q6_K m=5120 n=36 k=6144",
+        "count": 8,
+        "mean_us": 731.57,
+        "total_us": 5852.56
+      },
+      {
+        "name": "MUL_MAT q6_K m=6144 n=36 k=5120",
+        "count": 6,
+        "mean_us": 225.253,
+        "total_us": 1351.52
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_K m=5120 n=2 k=17408",
+        "count": 920,
+        "mean_us": 89.538,
+        "total_us": 82375.7
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q5_K m=5120 n=2 k=17408",
+        "count": 200,
+        "mean_us": 418.76,
+        "total_us": 83752.1
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q5_K m=5120 n=2 k=6144",
+        "count": 280,
+        "mean_us": 40.756,
+        "total_us": 11411.8
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=1 k=17408",
+        "count": 1,
+        "mean_us": 125.88,
+        "total_us": 125.88
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=2 k=17408",
+        "count": 159,
+        "mean_us": 126.29,
+        "total_us": 20080.1
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=2 k=6144",
+        "count": 39,
+        "mean_us": 51.422,
+        "total_us": 2005.48
+      },
+      {
+        "name": "MUL_MAT_VEC bf16 m=48 n=2 k=5120",
+        "count": 1920,
+        "mean_us": 6.158,
+        "total_us": 11824.2
+      },
+      {
+        "name": "MUL_MAT_VEC f32 m=256 n=8 k=256",
+        "count": 320,
+        "mean_us": 1.596,
+        "total_us": 510.88
+      },
+      {
+        "name": "MUL_MAT_VEC q3_K m=17408 n=2 k=5120",
+        "count": 1560,
+        "mean_us": 92.519,
+        "total_us": 144331.0
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=10240 n=2 k=5120",
+        "count": 660,
+        "mean_us": 53.191,
+        "total_us": 35106.2
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=17408 n=2 k=5120",
+        "count": 280,
+        "mean_us": 94.347,
+        "total_us": 26417.3
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=5120 n=2 k=6144",
+        "count": 140,
+        "mean_us": 32.891,
+        "total_us": 4604.8
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=6144 n=2 k=5120",
+        "count": 660,
+        "mean_us": 31.915,
+        "total_us": 21063.9
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=1024 n=2 k=5120",
+        "count": 560,
+        "mean_us": 10.02,
+        "total_us": 5611.28
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=10240 n=2 k=5120",
+        "count": 180,
+        "mean_us": 73.956,
+        "total_us": 13312.2
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=12288 n=2 k=5120",
+        "count": 280,
+        "mean_us": 75.031,
+        "total_us": 21008.7
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=17408 n=2 k=5120",
+        "count": 400,
+        "mean_us": 111.133,
+        "total_us": 44453.4
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=5120 n=2 k=6144",
+        "count": 700,
+        "mean_us": 40.999,
+        "total_us": 28699.6
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=6144 n=2 k=5120",
+        "count": 180,
+        "mean_us": 38.377,
+        "total_us": 6907.96
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=1024 n=2 k=5120",
+        "count": 80,
+        "mean_us": 11.192,
+        "total_us": 895.4
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=10240 n=2 k=5120",
+        "count": 120,
+        "mean_us": 75.629,
+        "total_us": 9075.52
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=12288 n=2 k=5120",
+        "count": 40,
+        "mean_us": 89.23,
+        "total_us": 3569.2
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=17408 n=1 k=5120",
+        "count": 2,
+        "mean_us": 120.4,
+        "total_us": 240.8
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=17408 n=2 k=5120",
+        "count": 318,
+        "mean_us": 132.24,
+        "total_us": 42052.6
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=5120 n=2 k=6144",
+        "count": 121,
+        "mean_us": 51.574,
+        "total_us": 6240.52
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=6144 n=2 k=5120",
+        "count": 120,
+        "mean_us": 47.224,
+        "total_us": 5666.88
+      },
+      {
+        "name": "MUL_MAT_VEC q8_0 m=248320 n=1 k=5120",
+        "count": 1,
+        "mean_us": 2187.6,
+        "total_us": 2187.6
+      },
+      {
+        "name": "MUL_MAT_VEC q8_0 m=248320 n=2 k=5120",
+        "count": 19,
+        "mean_us": 2206.41,
+        "total_us": 41921.8
+      },
+      {
+        "name": "RMS_NORM(128,16,2,1)",
+        "count": 1920,
+        "mean_us": 2.519,
+        "total_us": 4836.72
+      },
+      {
+        "name": "RMS_NORM(128,16,36,1)",
+        "count": 96,
+        "mean_us": 5.372,
+        "total_us": 515.72
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(128,48,2,1)",
+        "count": 960,
+        "mean_us": 6.305,
+        "total_us": 6053.6
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(128,48,36,1)",
+        "count": 48,
+        "mean_us": 19.145,
+        "total_us": 919.0
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,2,1)",
+        "count": 320,
+        "mean_us": 5.926,
+        "total_us": 1896.52
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,36,1)",
+        "count": 16,
+        "mean_us": 12.912,
+        "total_us": 206.6
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,2,1)",
+        "count": 320,
+        "mean_us": 2.855,
+        "total_us": 913.72
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,36,1)",
+        "count": 16,
+        "mean_us": 3.097,
+        "total_us": 49.56
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,1,1,1)",
+        "count": 2,
+        "mean_us": 7.0,
+        "total_us": 14.0
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,2,1,1)",
+        "count": 2578,
+        "mean_us": 10.047,
+        "total_us": 25901.7
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,36,1,1)",
+        "count": 129,
+        "mean_us": 10.285,
+        "total_us": 1326.8
+      },
+      {
+        "name": "ROPE",
+        "count": 672,
+        "mean_us": 3.355,
+        "total_us": 2254.64
+      },
+      {
+        "name": "SCALE",
+        "count": 2208,
+        "mean_us": 3.104,
+        "total_us": 6855.0
+      },
+      {
+        "name": "SET_ROWS",
+        "count": 672,
+        "mean_us": 2.35,
+        "total_us": 1579.84
+      },
+      {
+        "name": "SIGMOID",
+        "count": 1344,
+        "mean_us": 1.905,
+        "total_us": 2560.64
+      },
+      {
+        "name": "SILU",
+        "count": 1008,
+        "mean_us": 6.647,
+        "total_us": 6700.64
+      },
+      {
+        "name": "SOFTPLUS_MUL SOFTPLUS",
+        "count": 1008,
+        "mean_us": 3.315,
+        "total_us": 3341.8
+      },
+      {
+        "name": "SSM_CONV_SILU SSM_CONV",
+        "count": 1008,
+        "mean_us": 5.922,
+        "total_us": 5970.24
+      }
+    ],
+    "scope": "Intrusive GPU timestamp diagnostic,32requested tokens. Logger changes waits/submission/overlap; no throughput inference. Concurrent flag groups dependency segments; otherwise ops serialized. Includes prompt and warm generation."
+  },
+  {
+    "directory": "20261029T125747Z",
+    "broad_categories": {
+      "other": {
+        "total_us": 104432.67000000001,
+        "share_percent": 11.02695458147004
+      },
+      "attention-containing": {
+        "total_us": 7949.13,
+        "share_percent": 0.8393417066919856
+      },
+      "matrix-containing": {
+        "total_us": 819392.8800000001,
+        "share_percent": 86.51897985697322
+      },
+      "GDN-containing": {
+        "total_us": 15292.52,
+        "share_percent": 1.6147238548647869
+      }
+    },
+    "grouped": true,
+    "total_recorded_us": 947067.2,
+    "families": [
+      {
+        "name": "MUL_MAT_VEC q3_K m=17408 n=2 k=5120, MUL_MAT_VEC q3_K m=17408 n=2 k=5120",
+        "total_us": 141534.0,
+        "share_percent": 14.944451671433665
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_K m=5120 n=2 k=17408",
+        "total_us": 82835.7,
+        "share_percent": 8.746549347290246
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q5_K m=5120 n=2 k=17408",
+        "total_us": 80845.2,
+        "share_percent": 8.536374187597248
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=17408 n=2 k=5120, MUL_MAT_VEC q5_K m=17408 n=2 k=5120",
+        "total_us": 43601.8,
+        "share_percent": 4.603876050189469
+      },
+      {
+        "name": "MUL_MAT_VEC q8_0 m=248320 n=1 k=5120",
+        "total_us": 41205.0,
+        "share_percent": 4.350800027706588
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=17408 n=2 k=5120, MUL_MAT_VEC q6_K m=17408 n=2 k=5120",
+        "total_us": 40966.8,
+        "share_percent": 4.3256486973680435
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=10240 n=2 k=5120",
+        "total_us": 35671.4,
+        "share_percent": 3.7665120278687723
+      },
+      {
+        "name": "MUL_MAT q3_K m=17408 n=36 k=5120, MUL_MAT q3_K m=17408 n=36 k=5120",
+        "total_us": 34801.4,
+        "share_percent": 3.674649486330009
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=17408 n=2 k=5120, MUL_MAT_VEC q4_K m=17408 n=2 k=5120",
+        "total_us": 25881.7,
+        "share_percent": 2.732826139475636
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=12288 n=2 k=5120, MUL_MAT_VEC q5_K m=1024 n=2 k=5120, MUL_MAT_VEC q5_K m=1024 n=2 k=5120",
+        "total_us": 24745.0,
+        "share_percent": 2.6128029774444728
+      },
+      {
+        "name": "SIGMOID, MUL_MAT_VEC q4_K m=6144 n=2 k=5120",
+        "total_us": 22385.7,
+        "share_percent": 2.3636865472692965
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=2 k=17408",
+        "total_us": 20230.8,
+        "share_percent": 2.1361525348993187
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=5120 n=2 k=6144, SCALE",
+        "total_us": 19423.4,
+        "share_percent": 2.0508998727862187
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,2,1,1)",
+        "total_us": 18964.27,
+        "share_percent": 2.0024207363532387
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=10240 n=2 k=5120",
+        "total_us": 14737.9,
+        "share_percent": 1.5561620125794664
+      },
+      {
+        "name": "GLU",
+        "total_us": 13011.62,
+        "share_percent": 1.3738856123409195
+      },
+      {
+        "name": "CPY, GET_ROWS, SSM_CONV_SILU SSM_CONV, CPY, CPY",
+        "total_us": 12742.1,
+        "share_percent": 1.3454272305069799
+      },
+      {
+        "name": "MUL_MAT q4_K m=5120 n=36 k=17408",
+        "total_us": 12453.3,
+        "share_percent": 1.3149330902812388
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q5_K m=5120 n=2 k=6144",
+        "total_us": 11643.2,
+        "share_percent": 1.2293953375219837
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=5120 n=2 k=6144",
+        "total_us": 9908.32,
+        "share_percent": 1.0462108707808697
+      },
+      {
+        "name": "RMS_NORM(128,16,2,1), RMS_NORM(128,16,2,1), MUL_MAT_VEC bf16 m=48 n=2 k=5120",
+        "total_us": 8474.12,
+        "share_percent": 0.8947749431085779
+      },
+      {
+        "name": "MUL_MAT q6_K m=17408 n=36 k=5120, MUL_MAT q6_K m=17408 n=36 k=5120",
+        "total_us": 8120.0,
+        "share_percent": 0.8573837210284551
+      },
+      {
+        "name": "GATED_DELTA_NET, SILU, CPY",
+        "total_us": 8007.0,
+        "share_percent": 0.8454521495412364
+      },
+      {
+        "name": "FLASH_ATTN_EXT",
+        "total_us": 7949.13,
+        "share_percent": 0.8393417066919856
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=10240 n=2 k=5120",
+        "total_us": 7638.08,
+        "share_percent": 0.8064982083636727
+      },
+      {
+        "name": "GATED_DELTA_NET",
+        "total_us": 7285.52,
+        "share_percent": 0.7692717053235505
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=2 k=17408",
+        "total_us": 7214.86,
+        "share_percent": 0.7618107775245516
+      },
+      {
+        "name": "SIGMOID, MUL_MAT_VEC q5_K m=6144 n=2 k=5120",
+        "total_us": 7212.28,
+        "share_percent": 0.7615383575737815
+      },
+      {
+        "name": "MUL_MAT q6_K m=5120 n=36 k=17408",
+        "total_us": 7016.79,
+        "share_percent": 0.7408967389008932
+      },
+      {
+        "name": "CONCAT, SCALE",
+        "total_us": 6831.16,
+        "share_percent": 0.721296229032111
+      },
+      {
+        "name": "MUL_MAT_VEC bf16 m=48 n=2 k=5120, SOFTPLUS_MUL SOFTPLUS",
+        "total_us": 6471.96,
+        "share_percent": 0.6833686141807044
+      },
+      {
+        "name": "MUL",
+        "total_us": 6373.9400000000005,
+        "share_percent": 0.6730187678340038
+      },
+      {
+        "name": "MUL_MAT q5_K m=17408 n=36 k=5120, MUL_MAT q5_K m=17408 n=36 k=5120",
+        "total_us": 5945.0,
+        "share_percent": 0.6277273671815474
+      },
+      {
+        "name": "SIGMOID, MUL_MAT_VEC q6_K m=6144 n=2 k=5120",
+        "total_us": 5857.76,
+        "share_percent": 0.6185157716369019
+      },
+      {
+        "name": "MUL_MAT q4_K m=10240 n=36 k=5120",
+        "total_us": 5719.28,
+        "share_percent": 0.6038937891630077
+      },
+      {
+        "name": "CONCAT",
+        "total_us": 5334.52,
+        "share_percent": 0.5632673161946692
+      },
+      {
+        "name": "GET_ROWS, RMS_NORM_MUL RMS_NORM(5120,2,1,1), CPY",
+        "total_us": 5308.84,
+        "share_percent": 0.5605557873823526
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,2,1,1), CPY",
+        "total_us": 4685.16,
+        "share_percent": 0.4947019599031621
+      },
+      {
+        "name": "SCALE, SCALE, ADD",
+        "total_us": 4244.16,
+        "share_percent": 0.44813715436454776
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=5120 n=2 k=6144, SCALE",
+        "total_us": 4187.52,
+        "share_percent": 0.44215658614298975
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=12288 n=2 k=5120, MUL_MAT_VEC q6_K m=1024 n=2 k=5120, MUL_MAT_VEC q6_K m=1024 n=2 k=5120",
+        "total_us": 4165.8,
+        "share_percent": 0.43986319027836673
+      },
+      {
+        "name": "MUL_MAT q5_K m=12288 n=36 k=5120, MUL_MAT q5_K m=1024 n=36 k=5120, MUL_MAT q5_K m=1024 n=36 k=5120",
+        "total_us": 4107.84,
+        "share_percent": 0.43374324440757744
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=17408 n=2 k=5120, MUL_MAT_VEC q4_0 m=17408 n=2 k=5120",
+        "total_us": 3986.13,
+        "share_percent": 0.4208919916136891
+      },
+      {
+        "name": "MUL_MAT q4_K m=17408 n=36 k=5120, MUL_MAT q4_K m=17408 n=36 k=5120",
+        "total_us": 3788.08,
+        "share_percent": 0.39998006477259485
+      },
+      {
+        "name": "SIGMOID, MUL_MAT q4_K m=6144 n=36 k=5120",
+        "total_us": 3763.88,
+        "share_percent": 0.3974248078700223
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(128,48,2,1)",
+        "total_us": 3753.56,
+        "share_percent": 0.3963351280669418
+      },
+      {
+        "name": "SILU, CPY, RMS_NORM_MUL RMS_NORM(128,48,2,1)",
+        "total_us": 3497.0,
+        "share_percent": 0.36924518133454526
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=17408 n=1 k=5120, MUL_MAT_VEC q4_0 m=17408 n=1 k=5120",
+        "total_us": 3467.64,
+        "share_percent": 0.3661450845304325
+      },
+      {
+        "name": "MUL_MAT q5_K m=5120 n=36 k=6144",
+        "total_us": 3465.44,
+        "share_percent": 0.36591278844838043
+      },
+      {
+        "name": "MUL_MAT q6_K m=10240 n=36 k=5120, GET_ROWS, CPY",
+        "total_us": 3430.9,
+        "share_percent": 0.36226573996016337
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=5120 n=2 k=6144, SCALE",
+        "total_us": 3365.48,
+        "share_percent": 0.3553580991929612
+      },
+      {
+        "name": "MUL_MAT q4_0 m=17408 n=36 k=5120, MUL_MAT q4_0 m=17408 n=36 k=5120",
+        "total_us": 3170.76,
+        "share_percent": 0.33479778414879113
+      },
+      {
+        "name": "ADD",
+        "total_us": 3158.96,
+        "share_percent": 0.33355183243596653
+      },
+      {
+        "name": "MUL_MAT q5_K m=5120 n=36 k=6144, SCALE",
+        "total_us": 3112.12,
+        "share_percent": 0.3286060376708221
+      },
+      {
+        "name": "MUL_MAT q5_K m=5120 n=36 k=17408",
+        "total_us": 2872.4,
+        "share_percent": 0.3032942118574057
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=1 k=17408",
+        "total_us": 2813.97,
+        "share_percent": 0.29712463909635983
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=5120 n=2 k=10240",
+        "total_us": 2687.32,
+        "share_percent": 0.2837517760091364
+      },
+      {
+        "name": "ADD, GET_ROWS",
+        "total_us": 2567.0,
+        "share_percent": 0.2710472921034537
+      },
+      {
+        "name": "MUL_MAT q6_K m=12288 n=36 k=5120, MUL_MAT q6_K m=1024 n=36 k=5120, MUL_MAT q6_K m=1024 n=36 k=5120",
+        "total_us": 2486.69,
+        "share_percent": 0.26256742921727205
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,2,1)",
+        "total_us": 2423.6,
+        "share_percent": 0.25590581111878863
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=5120 n=2 k=6144",
+        "total_us": 2137.16,
+        "share_percent": 0.22566086123561244
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=2 k=6144",
+        "total_us": 2041.56,
+        "share_percent": 0.21556654057916905
+      },
+      {
+        "name": "MUL_MAT q5_K m=10240 n=36 k=5120",
+        "total_us": 1716.32,
+        "share_percent": 0.18122473252162044
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=5120 n=1 k=10240",
+        "total_us": 1643.14,
+        "share_percent": 0.17349772011954379
+      },
+      {
+        "name": "TOP_K K=10 (248320,1,1,1)",
+        "total_us": 1604.98,
+        "share_percent": 0.16946843898722289
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=12288 n=2 k=5120, MUL_MAT_VEC q4_0 m=1024 n=2 k=5120, MUL_MAT_VEC q4_0 m=1024 n=2 k=5120",
+        "total_us": 1551.0,
+        "share_percent": 0.16376873784669135
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=10240 n=2 k=5120, GET_ROWS, CPY",
+        "total_us": 1547.6,
+        "share_percent": 0.16340973481079274
+      },
+      {
+        "name": "MUL_MAT q6_K m=10240 n=36 k=5120",
+        "total_us": 1490.12,
+        "share_percent": 0.15734047172154206
+      },
+      {
+        "name": "RMS_NORM(128,16,36,1), RMS_NORM(128,16,36,1), MUL_MAT bf16 m=48 n=36 k=5120",
+        "total_us": 1489.16,
+        "share_percent": 0.1572391061584648
+      },
+      {
+        "name": "CONT",
+        "total_us": 1455.96,
+        "share_percent": 0.15373354710204304
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=12288 n=1 k=5120, MUL_MAT_VEC q4_0 m=1024 n=1 k=5120, MUL_MAT_VEC q4_0 m=1024 n=1 k=5120",
+        "total_us": 1389.64,
+        "share_percent": 0.14673087611945596
+      },
+      {
+        "name": "SIGMOID, MUL_MAT q6_K m=6144 n=36 k=5120",
+        "total_us": 1385.2,
+        "share_percent": 0.14626206039022363
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=5120 n=2 k=6144",
+        "total_us": 1344.24,
+        "share_percent": 0.14193712969892738
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=10240",
+        "total_us": 1247.15,
+        "share_percent": 0.13168548124145787
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,36,1,1)",
+        "total_us": 1218.44,
+        "share_percent": 0.12865401737067866
+      },
+      {
+        "name": "SIGMOID, MUL_MAT q5_K m=6144 n=36 k=5120",
+        "total_us": 1202.52,
+        "share_percent": 0.1269730384496475
+      },
+      {
+        "name": "SET_ROWS, SET_ROWS",
+        "total_us": 1189.56,
+        "share_percent": 0.12560460334810455
+      },
+      {
+        "name": "MUL, SCALE",
+        "total_us": 1141.04,
+        "share_percent": 0.12048141884757492
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=256 n=48 k=256",
+        "total_us": 1116.16,
+        "share_percent": 0.11785436133782272
+      },
+      {
+        "name": "MUL_MAT bf16 m=48 n=36 k=5120, SOFTPLUS_MUL SOFTPLUS",
+        "total_us": 1001.52,
+        "share_percent": 0.10574962368034709
+      },
+      {
+        "name": "MUL_MAT q6_K m=5120 n=36 k=6144, SCALE",
+        "total_us": 986.48,
+        "share_percent": 0.10416156319213674
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=192 k=64, SIGMOID",
+        "total_us": 967.92,
+        "share_percent": 0.10220182897264313
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=32 k=64",
+        "total_us": 840.6800000000001,
+        "share_percent": 0.08876666829977851
+      },
+      {
+        "name": "MUL_MAT q6_K m=5120 n=36 k=6144",
+        "total_us": 818.36,
+        "share_percent": 0.08640991895823233
+      },
+      {
+        "name": "MUL_MAT_VEC f32 m=256 n=8 k=256",
+        "total_us": 789.0,
+        "share_percent": 0.08330982215411958
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=32 k=64, RMS_NORM_MUL RMS_NORM(256,4,2,1)",
+        "total_us": 764.2,
+        "share_percent": 0.08069121177462381
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=2 k=6144",
+        "total_us": 715.48,
+        "share_percent": 0.07554690944845308
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=1 k=6144",
+        "total_us": 648.28,
+        "share_percent": 0.06845132003304517
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,2,1)",
+        "total_us": 641.88,
+        "share_percent": 0.06777554961253014
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,1,1,1)",
+        "total_us": 628.08,
+        "share_percent": 0.06631841964329459
+      },
+      {
+        "name": "MUL_MAT q4_K m=5120 n=36 k=6144, SCALE",
+        "total_us": 600.6,
+        "share_percent": 0.06341683040020814
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=17408",
+        "total_us": 592.97,
+        "share_percent": 0.06261118535200037
+      },
+      {
+        "name": "SILU, CPY, RMS_NORM_MUL RMS_NORM(128,48,36,1)",
+        "total_us": 558.28,
+        "share_percent": 0.05894829849455245
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(128,48,36,1)",
+        "total_us": 512.76,
+        "share_percent": 0.05414188137863924
+      },
+      {
+        "name": "MUL_MAT q4_0 m=12288 n=36 k=5120, MUL_MAT q4_0 m=1024 n=36 k=5120, MUL_MAT q4_0 m=1024 n=36 k=5120",
+        "total_us": 502.34,
+        "share_percent": 0.05304164266273819
+      },
+      {
+        "name": "GET_ROWS",
+        "total_us": 447.08000000000004,
+        "share_percent": 0.047206787438103665
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,36,1,1), CPY",
+        "total_us": 339.0,
+        "share_percent": 0.03579471446165594
+      },
+      {
+        "name": "GET_ROWS, RMS_NORM_MUL RMS_NORM(5120,36,1,1), CPY",
+        "total_us": 335.28,
+        "share_percent": 0.03540192290473158
+      },
+      {
+        "name": "PAD",
+        "total_us": 268.48,
+        "share_percent": 0.028348569140605864
+      },
+      {
+        "name": "MUL_MAT q4_K m=5120 n=36 k=6144",
+        "total_us": 244.32,
+        "share_percent": 0.025797535803161593
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,36,1)",
+        "total_us": 243.24,
+        "share_percent": 0.02568349954469968
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,2,1,1), RMS_NORM_MUL RMS_NORM(5120,2,1,1)",
+        "total_us": 238.28,
+        "share_percent": 0.025159777468800524
+      },
+      {
+        "name": "DUP, RMS_NORM_MUL RMS_NORM(5120,2,1,1), SET_ROWS, SCALE",
+        "total_us": 237.04,
+        "share_percent": 0.025028846949825736
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=17408 n=1 k=5120, MUL_MAT_VEC q6_K m=17408 n=1 k=5120",
+        "total_us": 236.56,
+        "share_percent": 0.02497816416828711
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,1,1,1), RMS_NORM_MUL RMS_NORM(5120,1,1,1)",
+        "total_us": 209.64,
+        "share_percent": 0.02213570483699573
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=3456 k=64, SIGMOID",
+        "total_us": 167.48000000000002,
+        "share_percent": 0.017684067191852913
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=1 k=17408",
+        "total_us": 127.76,
+        "share_percent": 0.013490067019531456
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=6144",
+        "total_us": 114.6,
+        "share_percent": 0.012100514092347407
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,1,1)",
+        "total_us": 111.44,
+        "share_percent": 0.011766852447218108
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=256 n=864 k=256",
+        "total_us": 100.08000000000001,
+        "share_percent": 0.010567359950803917
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=576 k=64, RMS_NORM_MUL RMS_NORM(256,4,36,1)",
+        "total_us": 79.6,
+        "share_percent": 0.00840489460515579
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=16 k=64",
+        "total_us": 74.56,
+        "share_percent": 0.007872725399000198
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=576 k=64",
+        "total_us": 73.88,
+        "share_percent": 0.007800924791820475
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=96 k=64, SIGMOID",
+        "total_us": 69.84,
+        "share_percent": 0.0073743447138703575
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=256 n=24 k=256",
+        "total_us": 64.24,
+        "share_percent": 0.006783045595919698
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,1,1)",
+        "total_us": 62.76,
+        "share_percent": 0.006626773686175596
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=144 k=256",
+        "total_us": 53.68,
+        "share_percent": 0.005668024402069885
+      },
+      {
+        "name": "MUL_MAT_VEC f32 m=256 n=4 k=256",
+        "total_us": 44.76,
+        "share_percent": 0.004726169378477051
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,36,1)",
+        "total_us": 41.559999999999995,
+        "share_percent": 0.00438828416821953
+      },
+      {
+        "name": "DUP, RMS_NORM_MUL RMS_NORM(5120,36,1,1), SET_ROWS, SCALE",
+        "total_us": 32.28,
+        "share_percent": 0.0034084170584727253
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,36,1,1), RMS_NORM_MUL RMS_NORM(5120,36,1,1)",
+        "total_us": 15.16,
+        "share_percent": 0.0016007311835949973
+      },
+      {
+        "name": "CONT, GET_ROWS",
+        "total_us": 4.56,
+        "share_percent": 0.00048148642461696484
+      }
+    ],
+    "rows": [
+      {
+        "name": "ADD",
+        "count": 2,
+        "mean_us": 7.32,
+        "total_us": 14.64
+      },
+      {
+        "name": "CONCAT",
+        "count": 40,
+        "mean_us": 133.363,
+        "total_us": 5334.52
+      },
+      {
+        "name": "FLASH_ATTN_EXT dst(256,24,1,1),  q(256,1,24,1),  k(256,256,4,1),  v(256,256,4,1),  m(256,1,1,1), CONT",
+        "count": 19,
+        "mean_us": 14.345,
+        "total_us": 272.56
+      },
+      {
+        "name": "FLASH_ATTN_EXT dst(256,24,2,1),  q(256,2,24,1),  k(256,256,4,1),  v(256,256,4,1),  m(256,2,1,1), CONT",
+        "count": 20,
+        "mean_us": 24.744,
+        "total_us": 494.88
+      },
+      {
+        "name": "FLASH_ATTN_EXT dst(256,24,36,1),  q(256,36,24,1),  k(256,256,4,1),  v(256,256,4,1),  m(256,36,1,1), CONT",
+        "count": 1,
+        "mean_us": 47.8,
+        "total_us": 47.8
+      },
+      {
+        "name": "GET_ROWS",
+        "count": 20,
+        "mean_us": 10.318,
+        "total_us": 206.36
+      },
+      {
+        "name": "GLU",
+        "count": 40,
+        "mean_us": 68.548,
+        "total_us": 2741.92
+      },
+      {
+        "name": "MUL",
+        "count": 40,
+        "mean_us": 12.473,
+        "total_us": 498.92
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=144 k=256",
+        "count": 1,
+        "mean_us": 2.32,
+        "total_us": 2.32
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=192 k=64, SIGMOID",
+        "count": 20,
+        "mean_us": 4.364,
+        "total_us": 87.28
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=3456 k=64, SIGMOID",
+        "count": 1,
+        "mean_us": 9.08,
+        "total_us": 9.08
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=96 k=64, SIGMOID",
+        "count": 19,
+        "mean_us": 3.675,
+        "total_us": 69.84
+      },
+      {
+        "name": "MUL_MAT q4_0 m=12288 n=36 k=5120, MUL_MAT q4_0 m=1024 n=36 k=5120, MUL_MAT q4_0 m=1024 n=36 k=5120",
+        "count": 1,
+        "mean_us": 502.34,
+        "total_us": 502.34
+      },
+      {
+        "name": "MUL_MAT q4_0 m=17408 n=36 k=5120, MUL_MAT q4_0 m=17408 n=36 k=5120",
+        "count": 1,
+        "mean_us": 3170.76,
+        "total_us": 3170.76
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=10240",
+        "count": 1,
+        "mean_us": 1247.15,
+        "total_us": 1247.15
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=17408",
+        "count": 1,
+        "mean_us": 592.97,
+        "total_us": 592.97
+      },
+      {
+        "name": "MUL_MAT q4_0 m=5120 n=36 k=6144",
+        "count": 1,
+        "mean_us": 114.6,
+        "total_us": 114.6
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=1 k=17408",
+        "count": 19,
+        "mean_us": 148.103,
+        "total_us": 2813.97
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=1 k=6144",
+        "count": 19,
+        "mean_us": 34.12,
+        "total_us": 648.28
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=2 k=17408",
+        "count": 20,
+        "mean_us": 360.743,
+        "total_us": 7214.86
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_0 m=5120 n=2 k=6144",
+        "count": 20,
+        "mean_us": 35.774,
+        "total_us": 715.48
+      },
+      {
+        "name": "MUL_MAT_VEC f32 m=256 n=4 k=256",
+        "count": 19,
+        "mean_us": 2.355,
+        "total_us": 44.76
+      },
+      {
+        "name": "MUL_MAT_VEC f32 m=256 n=8 k=256",
+        "count": 20,
+        "mean_us": 2.336,
+        "total_us": 46.72
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=12288 n=1 k=5120, MUL_MAT_VEC q4_0 m=1024 n=1 k=5120, MUL_MAT_VEC q4_0 m=1024 n=1 k=5120",
+        "count": 19,
+        "mean_us": 73.138,
+        "total_us": 1389.64
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=12288 n=2 k=5120, MUL_MAT_VEC q4_0 m=1024 n=2 k=5120, MUL_MAT_VEC q4_0 m=1024 n=2 k=5120",
+        "count": 20,
+        "mean_us": 77.55,
+        "total_us": 1551.0
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=17408 n=1 k=5120, MUL_MAT_VEC q4_0 m=17408 n=1 k=5120",
+        "count": 19,
+        "mean_us": 182.507,
+        "total_us": 3467.64
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=17408 n=2 k=5120, MUL_MAT_VEC q4_0 m=17408 n=2 k=5120",
+        "count": 20,
+        "mean_us": 199.306,
+        "total_us": 3986.13
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=5120 n=1 k=10240",
+        "count": 19,
+        "mean_us": 86.481,
+        "total_us": 1643.14
+      },
+      {
+        "name": "MUL_MAT_VEC q4_0 m=5120 n=2 k=10240",
+        "count": 20,
+        "mean_us": 134.366,
+        "total_us": 2687.32
+      },
+      {
+        "name": "MUL_MAT_VEC q8_0 m=248320 n=1 k=5120",
+        "count": 19,
+        "mean_us": 2168.68,
+        "total_us": 41205.0
+      },
+      {
+        "name": "PAD",
+        "count": 19,
+        "mean_us": 14.13,
+        "total_us": 268.48
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,1,1)",
+        "count": 19,
+        "mean_us": 5.865,
+        "total_us": 111.44
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,2,1)",
+        "count": 20,
+        "mean_us": 6.718,
+        "total_us": 134.36
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,36,1)",
+        "count": 1,
+        "mean_us": 14.0,
+        "total_us": 14.0
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,1,1)",
+        "count": 19,
+        "mean_us": 3.303,
+        "total_us": 62.76
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,2,1)",
+        "count": 20,
+        "mean_us": 3.444,
+        "total_us": 68.88
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,36,1)",
+        "count": 1,
+        "mean_us": 5.44,
+        "total_us": 5.44
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,1,1,1)",
+        "count": 57,
+        "mean_us": 10.748,
+        "total_us": 612.64
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,1,1,1), RMS_NORM_MUL RMS_NORM(5120,1,1,1)",
+        "count": 19,
+        "mean_us": 11.033,
+        "total_us": 209.64
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,2,1,1)",
+        "count": 41,
+        "mean_us": 14.835,
+        "total_us": 608.27
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,2,1,1), RMS_NORM_MUL RMS_NORM(5120,2,1,1)",
+        "count": 20,
+        "mean_us": 11.914,
+        "total_us": 238.28
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,36,1,1)",
+        "count": 2,
+        "mean_us": 18.84,
+        "total_us": 37.68
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,36,1,1), RMS_NORM_MUL RMS_NORM(5120,36,1,1)",
+        "count": 1,
+        "mean_us": 15.16,
+        "total_us": 15.16
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=256 n=24 k=256",
+        "count": 19,
+        "mean_us": 3.381,
+        "total_us": 64.24
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=256 n=48 k=256",
+        "count": 20,
+        "mean_us": 3.384,
+        "total_us": 67.68
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=256 n=864 k=256",
+        "count": 1,
+        "mean_us": 15.04,
+        "total_us": 15.04
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=16 k=64",
+        "count": 19,
+        "mean_us": 3.924,
+        "total_us": 74.56
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=32 k=64",
+        "count": 20,
+        "mean_us": 4.478,
+        "total_us": 89.56
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=576 k=64",
+        "count": 1,
+        "mean_us": 7.28,
+        "total_us": 7.28
+      },
+      {
+        "name": "SET_ROWS, SET_ROWS",
+        "count": 40,
+        "mean_us": 3.182,
+        "total_us": 127.28
+      },
+      {
+        "name": "TOP_K K=10 (248320,1,1,1)",
+        "count": 19,
+        "mean_us": 84.472,
+        "total_us": 1604.98
+      },
+      {
+        "name": "ADD",
+        "count": 585,
+        "mean_us": 5.374,
+        "total_us": 3144.32
+      },
+      {
+        "name": "ADD, GET_ROWS",
+        "count": 504,
+        "mean_us": 5.093,
+        "total_us": 2567.0
+      },
+      {
+        "name": "CONCAT, SCALE",
+        "count": 1008,
+        "mean_us": 6.776,
+        "total_us": 6831.16
+      },
+      {
+        "name": "CONT",
+        "count": 335,
+        "mean_us": 4.346,
+        "total_us": 1455.96
+      },
+      {
+        "name": "CONT, GET_ROWS",
+        "count": 1,
+        "mean_us": 4.56,
+        "total_us": 4.56
+      },
+      {
+        "name": "CPY, GET_ROWS, SSM_CONV_SILU SSM_CONV, CPY, CPY",
+        "count": 1008,
+        "mean_us": 12.64,
+        "total_us": 12742.1
+      },
+      {
+        "name": "DUP, RMS_NORM_MUL RMS_NORM(5120,2,1,1), SET_ROWS, SCALE",
+        "count": 20,
+        "mean_us": 11.852,
+        "total_us": 237.04
+      },
+      {
+        "name": "DUP, RMS_NORM_MUL RMS_NORM(5120,36,1,1), SET_ROWS, SCALE",
+        "count": 1,
+        "mean_us": 32.28,
+        "total_us": 32.28
+      },
+      {
+        "name": "FLASH_ATTN_EXT dst(256,24,2,1),  q(256,2,24,1),  k(256,256,4,1),  v(256,256,4,1),  m(256,2,1,1)",
+        "count": 320,
+        "mean_us": 20.241,
+        "total_us": 6477.21
+      },
+      {
+        "name": "FLASH_ATTN_EXT dst(256,24,36,1),  q(256,36,24,1),  k(256,256,4,1),  v(256,256,4,1),  m(256,36,1,1)",
+        "count": 16,
+        "mean_us": 41.042,
+        "total_us": 656.68
+      },
+      {
+        "name": "GATED_DELTA_NET",
+        "count": 483,
+        "mean_us": 15.083,
+        "total_us": 7285.52
+      },
+      {
+        "name": "GATED_DELTA_NET, SILU, CPY",
+        "count": 525,
+        "mean_us": 15.251,
+        "total_us": 8007.0
+      },
+      {
+        "name": "GET_ROWS",
+        "count": 20,
+        "mean_us": 12.036,
+        "total_us": 240.72
+      },
+      {
+        "name": "GET_ROWS, RMS_NORM_MUL RMS_NORM(5120,2,1,1), CPY",
+        "count": 460,
+        "mean_us": 11.54,
+        "total_us": 5308.84
+      },
+      {
+        "name": "GET_ROWS, RMS_NORM_MUL RMS_NORM(5120,36,1,1), CPY",
+        "count": 23,
+        "mean_us": 14.577,
+        "total_us": 335.28
+      },
+      {
+        "name": "GLU",
+        "count": 1344,
+        "mean_us": 7.641,
+        "total_us": 10269.7
+      },
+      {
+        "name": "MUL",
+        "count": 1029,
+        "mean_us": 5.709,
+        "total_us": 5875.02
+      },
+      {
+        "name": "MUL, SCALE",
+        "count": 315,
+        "mean_us": 3.622,
+        "total_us": 1141.04
+      },
+      {
+        "name": "MUL_MAT bf16 m=48 n=36 k=5120, SOFTPLUS_MUL SOFTPLUS",
+        "count": 48,
+        "mean_us": 20.865,
+        "total_us": 1001.52
+      },
+      {
+        "name": "MUL_MAT f32 m=256 n=144 k=256",
+        "count": 16,
+        "mean_us": 3.21,
+        "total_us": 51.36
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=192 k=64, SIGMOID",
+        "count": 320,
+        "mean_us": 2.752,
+        "total_us": 880.64
+      },
+      {
+        "name": "MUL_MAT f32 m=64 n=3456 k=64, SIGMOID",
+        "count": 16,
+        "mean_us": 9.9,
+        "total_us": 158.4
+      },
+      {
+        "name": "MUL_MAT q3_K m=17408 n=36 k=5120, MUL_MAT q3_K m=17408 n=36 k=5120",
+        "count": 39,
+        "mean_us": 892.343,
+        "total_us": 34801.4
+      },
+      {
+        "name": "MUL_MAT q4_K m=10240 n=36 k=5120",
+        "count": 33,
+        "mean_us": 173.311,
+        "total_us": 5719.28
+      },
+      {
+        "name": "MUL_MAT q4_K m=17408 n=36 k=5120, MUL_MAT q4_K m=17408 n=36 k=5120",
+        "count": 7,
+        "mean_us": 541.154,
+        "total_us": 3788.08
+      },
+      {
+        "name": "MUL_MAT q4_K m=5120 n=36 k=17408",
+        "count": 46,
+        "mean_us": 270.724,
+        "total_us": 12453.3
+      },
+      {
+        "name": "MUL_MAT q4_K m=5120 n=36 k=6144",
+        "count": 2,
+        "mean_us": 122.16,
+        "total_us": 244.32
+      },
+      {
+        "name": "MUL_MAT q4_K m=5120 n=36 k=6144, SCALE",
+        "count": 5,
+        "mean_us": 120.12,
+        "total_us": 600.6
+      },
+      {
+        "name": "MUL_MAT q5_K m=10240 n=36 k=5120",
+        "count": 9,
+        "mean_us": 190.702,
+        "total_us": 1716.32
+      },
+      {
+        "name": "MUL_MAT q5_K m=12288 n=36 k=5120, MUL_MAT q5_K m=1024 n=36 k=5120, MUL_MAT q5_K m=1024 n=36 k=5120",
+        "count": 14,
+        "mean_us": 293.417,
+        "total_us": 4107.84
+      },
+      {
+        "name": "MUL_MAT q5_K m=17408 n=36 k=5120, MUL_MAT q5_K m=17408 n=36 k=5120",
+        "count": 10,
+        "mean_us": 594.5,
+        "total_us": 5945.0
+      },
+      {
+        "name": "MUL_MAT q5_K m=5120 n=36 k=17408",
+        "count": 10,
+        "mean_us": 287.24,
+        "total_us": 2872.4
+      },
+      {
+        "name": "MUL_MAT q5_K m=5120 n=36 k=6144",
+        "count": 26,
+        "mean_us": 133.286,
+        "total_us": 3465.44
+      },
+      {
+        "name": "MUL_MAT q5_K m=5120 n=36 k=6144, SCALE",
+        "count": 23,
+        "mean_us": 135.309,
+        "total_us": 3112.12
+      },
+      {
+        "name": "MUL_MAT q6_K m=10240 n=36 k=5120",
+        "count": 5,
+        "mean_us": 298.024,
+        "total_us": 1490.12
+      },
+      {
+        "name": "MUL_MAT q6_K m=10240 n=36 k=5120, GET_ROWS, CPY",
+        "count": 1,
+        "mean_us": 3430.9,
+        "total_us": 3430.9
+      },
+      {
+        "name": "MUL_MAT q6_K m=12288 n=36 k=5120, MUL_MAT q6_K m=1024 n=36 k=5120, MUL_MAT q6_K m=1024 n=36 k=5120",
+        "count": 2,
+        "mean_us": 1243.35,
+        "total_us": 2486.69
+      },
+      {
+        "name": "MUL_MAT q6_K m=17408 n=36 k=5120, MUL_MAT q6_K m=17408 n=36 k=5120",
+        "count": 8,
+        "mean_us": 1015.0,
+        "total_us": 8120.0
+      },
+      {
+        "name": "MUL_MAT q6_K m=5120 n=36 k=17408",
+        "count": 8,
+        "mean_us": 877.098,
+        "total_us": 7016.79
+      },
+      {
+        "name": "MUL_MAT q6_K m=5120 n=36 k=6144",
+        "count": 4,
+        "mean_us": 204.59,
+        "total_us": 818.36
+      },
+      {
+        "name": "MUL_MAT q6_K m=5120 n=36 k=6144, SCALE",
+        "count": 4,
+        "mean_us": 246.62,
+        "total_us": 986.48
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q4_K m=5120 n=2 k=17408",
+        "count": 920,
+        "mean_us": 90.038,
+        "total_us": 82835.7
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q5_K m=5120 n=2 k=17408",
+        "count": 200,
+        "mean_us": 404.226,
+        "total_us": 80845.2
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q5_K m=5120 n=2 k=6144",
+        "count": 280,
+        "mean_us": 41.583,
+        "total_us": 11643.2
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=1 k=17408",
+        "count": 1,
+        "mean_us": 127.76,
+        "total_us": 127.76
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=2 k=17408",
+        "count": 159,
+        "mean_us": 127.237,
+        "total_us": 20230.8
+      },
+      {
+        "name": "MUL_MAT_ADD MUL_MAT_VEC q6_K m=5120 n=2 k=6144",
+        "count": 39,
+        "mean_us": 52.347,
+        "total_us": 2041.56
+      },
+      {
+        "name": "MUL_MAT_VEC bf16 m=48 n=2 k=5120, SOFTPLUS_MUL SOFTPLUS",
+        "count": 960,
+        "mean_us": 6.741,
+        "total_us": 6471.96
+      },
+      {
+        "name": "MUL_MAT_VEC f32 m=256 n=8 k=256",
+        "count": 320,
+        "mean_us": 2.319,
+        "total_us": 742.28
+      },
+      {
+        "name": "MUL_MAT_VEC q3_K m=17408 n=2 k=5120, MUL_MAT_VEC q3_K m=17408 n=2 k=5120",
+        "count": 780,
+        "mean_us": 181.453,
+        "total_us": 141534.0
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=10240 n=2 k=5120",
+        "count": 660,
+        "mean_us": 54.047,
+        "total_us": 35671.4
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=17408 n=2 k=5120, MUL_MAT_VEC q4_K m=17408 n=2 k=5120",
+        "count": 140,
+        "mean_us": 184.869,
+        "total_us": 25881.7
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=5120 n=2 k=6144",
+        "count": 40,
+        "mean_us": 33.606,
+        "total_us": 1344.24
+      },
+      {
+        "name": "MUL_MAT_VEC q4_K m=5120 n=2 k=6144, SCALE",
+        "count": 100,
+        "mean_us": 33.654,
+        "total_us": 3365.48
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=10240 n=2 k=5120",
+        "count": 180,
+        "mean_us": 81.877,
+        "total_us": 14737.9
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=12288 n=2 k=5120, MUL_MAT_VEC q5_K m=1024 n=2 k=5120, MUL_MAT_VEC q5_K m=1024 n=2 k=5120",
+        "count": 280,
+        "mean_us": 88.375,
+        "total_us": 24745.0
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=17408 n=2 k=5120, MUL_MAT_VEC q5_K m=17408 n=2 k=5120",
+        "count": 200,
+        "mean_us": 218.008,
+        "total_us": 43601.8
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=5120 n=2 k=6144",
+        "count": 240,
+        "mean_us": 41.284,
+        "total_us": 9908.32
+      },
+      {
+        "name": "MUL_MAT_VEC q5_K m=5120 n=2 k=6144, SCALE",
+        "count": 460,
+        "mean_us": 42.224,
+        "total_us": 19423.4
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=10240 n=2 k=5120",
+        "count": 100,
+        "mean_us": 76.38,
+        "total_us": 7638.08
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=10240 n=2 k=5120, GET_ROWS, CPY",
+        "count": 20,
+        "mean_us": 77.38,
+        "total_us": 1547.6
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=12288 n=2 k=5120, MUL_MAT_VEC q6_K m=1024 n=2 k=5120, MUL_MAT_VEC q6_K m=1024 n=2 k=5120",
+        "count": 40,
+        "mean_us": 104.145,
+        "total_us": 4165.8
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=17408 n=1 k=5120, MUL_MAT_VEC q6_K m=17408 n=1 k=5120",
+        "count": 1,
+        "mean_us": 236.56,
+        "total_us": 236.56
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=17408 n=2 k=5120, MUL_MAT_VEC q6_K m=17408 n=2 k=5120",
+        "count": 159,
+        "mean_us": 257.652,
+        "total_us": 40966.8
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=5120 n=2 k=6144",
+        "count": 41,
+        "mean_us": 52.125,
+        "total_us": 2137.16
+      },
+      {
+        "name": "MUL_MAT_VEC q6_K m=5120 n=2 k=6144, SCALE",
+        "count": 80,
+        "mean_us": 52.344,
+        "total_us": 4187.52
+      },
+      {
+        "name": "RMS_NORM(128,16,2,1), RMS_NORM(128,16,2,1), MUL_MAT_VEC bf16 m=48 n=2 k=5120",
+        "count": 960,
+        "mean_us": 8.827,
+        "total_us": 8474.12
+      },
+      {
+        "name": "RMS_NORM(128,16,36,1), RMS_NORM(128,16,36,1), MUL_MAT bf16 m=48 n=36 k=5120",
+        "count": 48,
+        "mean_us": 31.024,
+        "total_us": 1489.16
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(128,48,2,1)",
+        "count": 500,
+        "mean_us": 7.507,
+        "total_us": 3753.56
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(128,48,36,1)",
+        "count": 25,
+        "mean_us": 20.51,
+        "total_us": 512.76
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,2,1)",
+        "count": 320,
+        "mean_us": 7.153,
+        "total_us": 2289.24
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,24,36,1)",
+        "count": 16,
+        "mean_us": 14.327,
+        "total_us": 229.24
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,2,1)",
+        "count": 160,
+        "mean_us": 3.581,
+        "total_us": 573.0
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(256,4,36,1)",
+        "count": 8,
+        "mean_us": 4.515,
+        "total_us": 36.12
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,1,1,1)",
+        "count": 2,
+        "mean_us": 7.72,
+        "total_us": 15.44
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,2,1,1)",
+        "count": 1618,
+        "mean_us": 11.344,
+        "total_us": 18356.0
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,2,1,1), CPY",
+        "count": 480,
+        "mean_us": 9.76,
+        "total_us": 4685.16
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,36,1,1)",
+        "count": 80,
+        "mean_us": 14.759,
+        "total_us": 1180.76
+      },
+      {
+        "name": "RMS_NORM_MUL RMS_NORM(5120,36,1,1), CPY",
+        "count": 24,
+        "mean_us": 14.125,
+        "total_us": 339.0
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=256 n=48 k=256",
+        "count": 320,
+        "mean_us": 3.276,
+        "total_us": 1048.48
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=256 n=864 k=256",
+        "count": 16,
+        "mean_us": 5.315,
+        "total_us": 85.04
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=32 k=64",
+        "count": 160,
+        "mean_us": 4.694,
+        "total_us": 751.12
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=32 k=64, RMS_NORM_MUL RMS_NORM(256,4,2,1)",
+        "count": 160,
+        "mean_us": 4.776,
+        "total_us": 764.2
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=576 k=64",
+        "count": 8,
+        "mean_us": 8.325,
+        "total_us": 66.6
+      },
+      {
+        "name": "ROPE, MUL_MAT f32 m=64 n=576 k=64, RMS_NORM_MUL RMS_NORM(256,4,36,1)",
+        "count": 8,
+        "mean_us": 9.95,
+        "total_us": 79.6
+      },
+      {
+        "name": "SCALE, SCALE, ADD",
+        "count": 1008,
+        "mean_us": 4.21,
+        "total_us": 4244.16
+      },
+      {
+        "name": "SET_ROWS, SET_ROWS",
+        "count": 336,
+        "mean_us": 3.161,
+        "total_us": 1062.28
+      },
+      {
+        "name": "SIGMOID, MUL_MAT q4_K m=6144 n=36 k=5120",
+        "count": 33,
+        "mean_us": 114.056,
+        "total_us": 3763.88
+      },
+      {
+        "name": "SIGMOID, MUL_MAT q5_K m=6144 n=36 k=5120",
+        "count": 9,
+        "mean_us": 133.613,
+        "total_us": 1202.52
+      },
+      {
+        "name": "SIGMOID, MUL_MAT q6_K m=6144 n=36 k=5120",
+        "count": 6,
+        "mean_us": 230.866,
+        "total_us": 1385.2
+      },
+      {
+        "name": "SIGMOID, MUL_MAT_VEC q4_K m=6144 n=2 k=5120",
+        "count": 660,
+        "mean_us": 33.917,
+        "total_us": 22385.7
+      },
+      {
+        "name": "SIGMOID, MUL_MAT_VEC q5_K m=6144 n=2 k=5120",
+        "count": 180,
+        "mean_us": 40.068,
+        "total_us": 7212.28
+      },
+      {
+        "name": "SIGMOID, MUL_MAT_VEC q6_K m=6144 n=2 k=5120",
+        "count": 120,
+        "mean_us": 48.814,
+        "total_us": 5857.76
+      },
+      {
+        "name": "SILU, CPY, RMS_NORM_MUL RMS_NORM(128,48,2,1)",
+        "count": 460,
+        "mean_us": 7.602,
+        "total_us": 3497.0
+      },
+      {
+        "name": "SILU, CPY, RMS_NORM_MUL RMS_NORM(128,48,36,1)",
+        "count": 23,
+        "mean_us": 24.273,
+        "total_us": 558.28
+      }
+    ],
+    "scope": "Intrusive GPU timestamp diagnostic,32requested tokens. Logger changes waits/submission/overlap; no throughput inference. Concurrent flag groups dependency segments; otherwise ops serialized. Includes prompt and warm generation."
+  }
+]

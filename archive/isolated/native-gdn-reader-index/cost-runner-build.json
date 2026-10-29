@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${CLAUDE_WORKSPACE}/prodtree/common",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/native-gdn-reader-index/cost-runner.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama-common",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/native-gdn-reader-index/cost-model-bench",
+    "-ldl"
+  ],
+  "source_sha256": "fbe1b7a065ab5666df10e02c638e33259cf3fd21f0bbc696d60f2f09a1dcfeb8",
+  "binary_sha256": "451210f5221e8d16c4d562f49ed550cf5b78a5ff25272230cc0fe7b926cc8832"
+}

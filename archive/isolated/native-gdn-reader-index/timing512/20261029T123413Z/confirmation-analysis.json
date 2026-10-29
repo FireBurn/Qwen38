@@ -1,0 +1,188 @@
+{
+  "selected_mode": "indexed",
+  "blocks": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cpu_mode_means": {
+        "legacy": 0.6354889368044743,
+        "indexed": 0.5732514246366909
+      },
+      "gpu_clock_mode_means": {
+        "legacy": 1702.5,
+        "indexed": 1700.5
+      },
+      "build_mode_means": {
+        "legacy": 1.4204545454545454,
+        "indexed": 0.28991596638655465
+      },
+      "runnable_mode_means": {
+        "legacy": 13.333333333333334,
+        "indexed": 9.289915966386555
+      },
+      "comparable": false,
+      "log_effect": 0.05536460577776481,
+      "speed_change_percent": 5.692590572345096
+    },
+    {
+      "indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "cpu_mode_means": {
+        "legacy": 0.576487856864041,
+        "indexed": 0.5824129022768358
+      },
+      "gpu_clock_mode_means": {
+        "legacy": 1721.0,
+        "indexed": 1716.0
+      },
+      "build_mode_means": {
+        "legacy": 0,
+        "indexed": 0.980952380952381
+      },
+      "runnable_mode_means": {
+        "legacy": 8.902542372881356,
+        "indexed": 10.128641456582633
+      },
+      "comparable": true,
+      "log_effect": -0.012353325307792762,
+      "speed_change_percent": -1.2277336212570644
+    },
+    {
+      "indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "cpu_mode_means": {
+        "legacy": 0.6040096501415829,
+        "indexed": 0.5697061492321766
+      },
+      "gpu_clock_mode_means": {
+        "legacy": 1721.0,
+        "indexed": 1721.0
+      },
+      "build_mode_means": {
+        "legacy": 2.4313832695462,
+        "indexed": 0.05497792337273892
+      },
+      "runnable_mode_means": {
+        "legacy": 11.704688354291964,
+        "indexed": 11.68188292266059
+      },
+      "comparable": false,
+      "log_effect": 0.027544506401275815,
+      "speed_change_percent": 2.792736343691786
+    },
+    {
+      "indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "cpu_mode_means": {
+        "legacy": 0.574878175116301,
+        "indexed": 0.5745495565015623
+      },
+      "gpu_clock_mode_means": {
+        "legacy": 1723.5,
+        "indexed": 1722.5
+      },
+      "build_mode_means": {
+        "legacy": 0,
+        "indexed": 0.0423728813559322
+      },
+      "runnable_mode_means": {
+        "legacy": 8.936974789915967,
+        "indexed": 10.115012106537531
+      },
+      "comparable": true,
+      "log_effect": -0.0031459339139989773,
+      "speed_change_percent": -0.31409906489903855
+    },
+    {
+      "indices": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "cpu_mode_means": {
+        "legacy": 0.6594785948302875,
+        "indexed": 0.6022635268124887
+      },
+      "gpu_clock_mode_means": {
+        "legacy": 1673.5,
+        "indexed": 1726.75
+      },
+      "build_mode_means": {
+        "legacy": 3.087301587301587,
+        "indexed": 1.6504065040650406
+      },
+      "runnable_mode_means": {
+        "legacy": 14.13095238095238,
+        "indexed": 10.54071930549814
+      },
+      "comparable": false,
+      "log_effect": 0.0463014137122415,
+      "speed_change_percent": 4.739006111038932
+    },
+    {
+      "indices": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "cpu_mode_means": {
+        "legacy": 0.5731321954596228,
+        "indexed": 0.580325597159392
+      },
+      "gpu_clock_mode_means": {
+        "legacy": 1626.25,
+        "indexed": 1624.0
+      },
+      "build_mode_means": {
+        "legacy": 0.3641184573002755,
+        "indexed": 0.8278688524590164
+      },
+      "runnable_mode_means": {
+        "legacy": 10.66470385674931,
+        "indexed": 9.528688524590162
+      },
+      "comparable": true,
+      "log_effect": -0.011515268993672834,
+      "speed_change_percent": -1.1449222042897909
+    }
+  ],
+  "all6block_descriptive": {
+    "blocks": 6,
+    "geometric_speed_change_percent": 1.7178549221128065,
+    "descriptive_t95_percent": [
+      -1.4422919708064252,
+      4.979328525895373
+    ],
+    "lower_bound_positive": false
+  },
+  "matched_primary": {
+    "blocks": 3,
+    "qualified": false,
+    "reason": "Fewer than4matched blocks"
+  },
+  "mean_steady_tps": {
+    "legacy": 39.96418979166293,
+    "indexed": 40.622772882050675
+  },
+  "all_tokens_and_counters_identical": true,
+  "scope": "Fixed24fresh512token confirmation, sixABBA/BAABblocks. Same uninstrumented newlibrary,cap400,frozenQ3shaders;only readerindex mode0/1 differs. Incremental versusnewlegacy,not directstock or preservedfrozen contrast. Naturalclocks/power are outcomes. Matching only by preset telemetry;all results retained,no extension. Descriptive intervals,small sample/timecorrelation limitations.",
+  "incremental_gain_supported": false
+}

@@ -292,3 +292,7 @@ See [experiment and interpretation](FUSION-COMBINATION.md). The manifest include
 ## Native command observation
 
 [Interpretation](NATIVE-COMMAND-OBSERVER.md). `archive/isolated/native-command-observer/` contains the observer source/patch, all-three-TU build hashes, five-case numerical checks, graph records, parsed trace analyses, raw-metadata SHA manifests, KV-field proof and read-only device capability query. Raw command metadata stays local; it contains no model tensor values. This is observer evidence, not a working replay engine or a speedup claim.
+
+## GDN reader-index follow-up
+
+[Results and limitations](GDN-READER-INDEX.md). `archive/isolated/native-host-planning-profile` contains the source-cost diagnostic; `archive/isolated/native-gdn-reader-index` contains candidate builders/patch, five-case numerical evidence, fixed24 timing, minimal CPU-cost diagnostic and parsed GPU profiles. No reader-index throughput gain is qualified.

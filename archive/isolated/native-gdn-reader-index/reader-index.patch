@@ -1,0 +1,125 @@
+--- a/ggml-vulkan.cpp
++++ b/ggml-vulkan.cpp
+@@ -14299,6 +14299,18 @@
+ 
+ // Find the cpy that scatters gated_delta_net state snapshots into the recurrent cache, so the shader writes the cache and the cpy is skipped.
+ // Graph optimization can put other nodes in between, so this is not a contiguous fusion. Returns the cpy node index, or 0.
++// Per-graph metadata only: no cross-graph cache or Vulkan resource ownership.
++struct gdn_reader_ref {int node_idx;const ggml_tensor*tensor;};
++using gdn_reader_index=std::unordered_map<const ggml_tensor*,std::vector<gdn_reader_ref>>;
++static gdn_reader_index ggml_vk_gdn_readers(const ggml_cgraph*graph){
++    gdn_reader_index result;
++    for(int i=0;i<graph->n_nodes;++i)for(int k=0;k<GGML_MAX_SRC;++k){
++        const ggml_tensor*t=graph->nodes[i]->src[k];if(!t)continue;
++        if(t->op==GGML_OP_GATED_DELTA_NET)result[t].push_back({i,t});
++        if(t->view_src&&t->view_src->op==GGML_OP_GATED_DELTA_NET)result[t->view_src].push_back({i,t});
++    }
++    return result;
++}
+ static int ggml_vk_find_gdn_state_cpy(const struct ggml_cgraph * cgraph, int node_idx) {
+     const ggml_tensor * gdn = cgraph->nodes[node_idx];
+     if (gdn->op != GGML_OP_GATED_DELTA_NET || gdn->type != GGML_TYPE_F32 || (gdn->flags & GGML_TENSOR_FLAG_OUTPUT)) {
+@@ -14352,6 +14364,70 @@
+                 return 0;
+             }
+         }
++    }
++    // the cache is now written before the nodes scheduled between gdn and cpy: they must not touch it
++    for (int k = node_idx + 1; k < j; ++k) {
++        const ggml_tensor * n = cgraph->nodes[k];
++        if (ggml_vk_tensors_overlap(n, dst, false)) {
++            return 0;
++        }
++        for (int s = 0; s < GGML_MAX_SRC; ++s) {
++            if (n->src[s] && ggml_vk_tensors_overlap(n->src[s], dst, false)) {
++                return 0;
++            }
++        }
++    }
++    return j;
++}
++
++static int ggml_vk_find_gdn_state_cpy_indexed(const struct ggml_cgraph * cgraph, int node_idx, const gdn_reader_index& readers) {
++    const ggml_tensor * gdn = cgraph->nodes[node_idx];
++    if (gdn->op != GGML_OP_GATED_DELTA_NET || gdn->type != GGML_TYPE_F32 || (gdn->flags & GGML_TENSOR_FLAG_OUTPUT)) {
++        return 0;
++    }
++
++    const ggml_tensor * src_v     = gdn->src[2];
++    const int64_t       S_v       = src_v->ne[0];
++    const int64_t       H         = src_v->ne[1];
++    const int64_t       n_tokens  = src_v->ne[2];
++    const int64_t       n_seqs    = src_v->ne[3];
++    const int64_t       D         = S_v * S_v * H;
++    const int64_t       K         = ggml_get_op_params_i32(gdn, 0);
++    const int64_t       n_written = std::min<int64_t>(n_tokens, K);
++    const size_t        tail_off  = ggml_row_size(GGML_TYPE_F32, S_v * H * n_tokens * n_seqs);
++
++    // the state copy is the first cpy reading this gdn, within a few nodes
++    int j = node_idx + 1;
++    for (; j < cgraph->n_nodes && j <= node_idx + 8; ++j) {
++        const ggml_tensor * n = cgraph->nodes[j];
++        if (n->op == GGML_OP_CPY && n->src[0]->op == GGML_OP_VIEW && n->src[0]->view_src == gdn) {
++            break;
++        }
++    }
++    if (j >= cgraph->n_nodes || j > node_idx + 8) {
++        return 0;
++    }
++    const ggml_tensor * cpy = cgraph->nodes[j];
++    if (cpy->flags & GGML_TENSOR_FLAG_OUTPUT) {
++        return 0;
++    }
++    const ggml_tensor * src = cpy->src[0];
++    const ggml_tensor * dst = cpy->src[1];
++    if (src->op != GGML_OP_VIEW || src->view_src != gdn || src->view_offs != tail_off || !ggml_is_contiguous(src)) {
++        return 0;
++    }
++    const int64_t expected_ne[GGML_MAX_DIMS] = { D, n_seqs, n_written, 1 };
++    if (dst->type != GGML_TYPE_F32 || dst->buffer == nullptr ||
++        !std::equal(expected_ne, expected_ne + GGML_MAX_DIMS, dst->ne) ||
++        dst->nb[0] != sizeof(float) || dst->nb[1] != (size_t) ggml_row_size(GGML_TYPE_F32, D)) {
++        return 0;
++    }
++    // the gdn tail is not written any more, so nothing else may read it
++    auto found=readers.find(gdn);
++    if(found!=readers.end())for(const auto&ref:found->second){
++        if(ref.node_idx<=node_idx||ref.node_idx==j)continue;
++        const ggml_tensor*t=ref.tensor;
++        if(t&&t!=src&&(t==gdn||t->view_src==gdn)&&t->view_offs>=tail_off)return 0;
+     }
+     // the cache is now written before the nodes scheduled between gdn and cpy: they must not touch it
+     for (int k = node_idx + 1; k < j; ++k) {
+@@ -14664,6 +14740,11 @@
+     ctx->do_add_rms_partials_offset_calculation = false;
+     ctx->gdn_elided_cpys.clear();
+ 
++    // 0=legacy, 1=indexed release, 2=indexed with complete legacy decision oracle.
++    const char*reader_option=getenv("GGML_VK_GDN_READER_INDEX");
++    const int reader_mode=reader_option&&reader_option[0]=='1'?1:reader_option&&reader_option[0]=='2'?2:0;
++    const gdn_reader_index gdn_readers=reader_mode?ggml_vk_gdn_readers(cgraph):gdn_reader_index{};
++    uint64_t reader_checks=0,reader_mismatches=0,reader_calls=0,reader_fused=0;
+     int last_node = cgraph->n_nodes - 1;
+ 
+     // If the last op in the cgraph isn't backend GPU, the command buffer doesn't get closed properly
+@@ -14810,7 +14891,11 @@
+         static const bool gdn_state_fusion_disabled = getenv("GGML_VK_DISABLE_GDN_STATE_FUSION") != nullptr;
+         ctx->gdn_state_dst = nullptr;
+         if (!ctx->device->disable_fusion && !gdn_state_fusion_disabled && cgraph->nodes[i]->op == GGML_OP_GATED_DELTA_NET) {
+-            if (const int j_cpy = ggml_vk_find_gdn_state_cpy(cgraph, i); j_cpy > 0) {
++            ++reader_calls;
++            int j_cpy=reader_mode?ggml_vk_find_gdn_state_cpy_indexed(cgraph,i,gdn_readers):ggml_vk_find_gdn_state_cpy(cgraph,i);
++            if(reader_mode==2){++reader_checks;const int reference=ggml_vk_find_gdn_state_cpy(cgraph,i);if(j_cpy!=reference){++reader_mismatches;fprintf(stderr,"GDN_READER_MISMATCH node=%d indexed=%d legacy=%d\n",i,j_cpy,reference);j_cpy=reference;}}
++            if (j_cpy > 0) {
++                ++reader_fused;
+                 ctx->gdn_state_dst = cgraph->nodes[j_cpy]->src[1];
+                 ctx->gdn_elided_cpys.insert(cgraph->nodes[j_cpy]);
+             }
+@@ -15104,6 +15189,7 @@
+ 
+     GGML_ASSERT(ctx->nq_skipped.empty());
+     if(ctx->nq_fused_count&&getenv("GGML_VK_NATIVE_GLUQ_AUDIT"))fprintf(stderr,"NATIVE_GLUQ_FUSED %u\n",ctx->nq_fused_count);
++    if(reader_mode==2)fprintf(stderr,"GDN_READER_VERIFY nodes=%d roots=%zu calls=%llu fused=%llu checks=%llu mismatches=%llu\n",cgraph->n_nodes,gdn_readers.size(),(unsigned long long)reader_calls,(unsigned long long)reader_fused,(unsigned long long)reader_checks,(unsigned long long)reader_mismatches);
+     ctx->last_total_flops = total_flops;
+ 
+     if (vk_perf_logger_enabled) {

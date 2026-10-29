@@ -1,0 +1,299 @@
+{
+  "arms": [
+    {
+      "arm": 0,
+      "mode": "legacy",
+      "events": {
+        "graph": {
+          "count": 224,
+          "wall_ns": 560999117,
+          "cpu_ns": 491127137
+        },
+        "index_build": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "legacy_query": {
+          "count": 3600,
+          "wall_ns": 76048899,
+          "cpu_ns": 76634266
+        },
+        "index_query": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "empty_scope": {
+          "count": 3600,
+          "wall_ns": 79064,
+          "cpu_ns": 1517587
+        }
+      }
+    },
+    {
+      "arm": 1,
+      "mode": "indexed",
+      "events": {
+        "graph": {
+          "count": 224,
+          "wall_ns": 516403372,
+          "cpu_ns": 438491223
+        },
+        "index_build": {
+          "count": 224,
+          "wall_ns": 27089488,
+          "cpu_ns": 27125470
+        },
+        "legacy_query": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "index_query": {
+          "count": 3600,
+          "wall_ns": 2393731,
+          "cpu_ns": 2900074
+        },
+        "empty_scope": {
+          "count": 3600,
+          "wall_ns": 78761,
+          "cpu_ns": 1469785
+        }
+      }
+    },
+    {
+      "arm": 2,
+      "mode": "indexed",
+      "events": {
+        "graph": {
+          "count": 224,
+          "wall_ns": 511683309,
+          "cpu_ns": 434547073
+        },
+        "index_build": {
+          "count": 224,
+          "wall_ns": 27362906,
+          "cpu_ns": 27437023
+        },
+        "legacy_query": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "index_query": {
+          "count": 3600,
+          "wall_ns": 2263863,
+          "cpu_ns": 2765967
+        },
+        "empty_scope": {
+          "count": 3600,
+          "wall_ns": 86050,
+          "cpu_ns": 1460320
+        }
+      }
+    },
+    {
+      "arm": 3,
+      "mode": "legacy",
+      "events": {
+        "graph": {
+          "count": 224,
+          "wall_ns": 533583963,
+          "cpu_ns": 462974702
+        },
+        "index_build": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "legacy_query": {
+          "count": 3600,
+          "wall_ns": 67439554,
+          "cpu_ns": 68001404
+        },
+        "index_query": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "empty_scope": {
+          "count": 3600,
+          "wall_ns": 72788,
+          "cpu_ns": 1403464
+        }
+      }
+    },
+    {
+      "arm": 4,
+      "mode": "indexed",
+      "events": {
+        "graph": {
+          "count": 224,
+          "wall_ns": 512584122,
+          "cpu_ns": 440365461
+        },
+        "index_build": {
+          "count": 224,
+          "wall_ns": 28538429,
+          "cpu_ns": 28606355
+        },
+        "legacy_query": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "index_query": {
+          "count": 3600,
+          "wall_ns": 2340468,
+          "cpu_ns": 2838222
+        },
+        "empty_scope": {
+          "count": 3600,
+          "wall_ns": 77703,
+          "cpu_ns": 1462140
+        }
+      }
+    },
+    {
+      "arm": 5,
+      "mode": "legacy",
+      "events": {
+        "graph": {
+          "count": 224,
+          "wall_ns": 544881367,
+          "cpu_ns": 471016666
+        },
+        "index_build": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "legacy_query": {
+          "count": 3600,
+          "wall_ns": 70724185,
+          "cpu_ns": 71088671
+        },
+        "index_query": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "empty_scope": {
+          "count": 3600,
+          "wall_ns": 82049,
+          "cpu_ns": 1458621
+        }
+      }
+    },
+    {
+      "arm": 6,
+      "mode": "legacy",
+      "events": {
+        "graph": {
+          "count": 224,
+          "wall_ns": 544418137,
+          "cpu_ns": 474301669
+        },
+        "index_build": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "legacy_query": {
+          "count": 3600,
+          "wall_ns": 69256335,
+          "cpu_ns": 69758920
+        },
+        "index_query": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "empty_scope": {
+          "count": 3600,
+          "wall_ns": 75112,
+          "cpu_ns": 1464457
+        }
+      }
+    },
+    {
+      "arm": 7,
+      "mode": "indexed",
+      "events": {
+        "graph": {
+          "count": 224,
+          "wall_ns": 516471318,
+          "cpu_ns": 435119647
+        },
+        "index_build": {
+          "count": 224,
+          "wall_ns": 25801335,
+          "cpu_ns": 25765995
+        },
+        "legacy_query": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "index_query": {
+          "count": 3600,
+          "wall_ns": 2323332,
+          "cpu_ns": 2818644
+        },
+        "empty_scope": {
+          "count": 3600,
+          "wall_ns": 77631,
+          "cpu_ns": 1435918
+        }
+      }
+    }
+  ],
+  "per_generation": {
+    "legacy": {
+      "graph": {
+        "mean_cpu_ms": 474.85504349999997,
+        "mean_wall_ms": 545.970646
+      },
+      "index_build": {
+        "mean_cpu_ms": 0.0,
+        "mean_wall_ms": 0.0
+      },
+      "legacy_query": {
+        "mean_cpu_ms": 71.37081524999999,
+        "mean_wall_ms": 70.86724325
+      },
+      "index_query": {
+        "mean_cpu_ms": 0.0,
+        "mean_wall_ms": 0.0
+      },
+      "empty_scope": {
+        "mean_cpu_ms": 1.46103225,
+        "mean_wall_ms": 0.07725325
+      }
+    },
+    "indexed": {
+      "graph": {
+        "mean_cpu_ms": 437.130851,
+        "mean_wall_ms": 514.28553025
+      },
+      "index_build": {
+        "mean_cpu_ms": 27.23371075,
+        "mean_wall_ms": 27.1980395
+      },
+      "legacy_query": {
+        "mean_cpu_ms": 0.0,
+        "mean_wall_ms": 0.0
+      },
+      "index_query": {
+        "mean_cpu_ms": 2.83072675,
+        "mean_wall_ms": 2.3303485
+      },
+      "empty_scope": {
+        "mean_cpu_ms": 1.45704075,
+        "mean_wall_ms": 0.08003625
+      }
+    }
+  },
+  "scope": "Intrusive nested CPU scopes, four resident128token generations per mode after warmup. Do not add scopes or infer GPU time or throughput. Includes timer overhead. Index build is nested inside graph. Fixed discovery timing failed qualification; this diagnostic does not override it."
+}

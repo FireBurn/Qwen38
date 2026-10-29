@@ -1,0 +1,12 @@
+{
+  "library_sha256": "6a1780c2eec2decd9408ec380231cdb93e5548581dba2d063f2e8fcb20d92add",
+  "sources": {
+    "ggml-vulkan-common.h": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+    "ggml-vulkan-types.h": "356904d9d75d2f81a61b100386a80ac34054eb4016bf7a45946a67ce6beba0ea",
+    "np-profile.cpp": "f81f0399eb13fa1a487e4494fd10a12557c0615d22d183287bea4fc9454ce16a",
+    "ggml-vulkan.cpp": "989a8913560be38a7cd30e3a5a218fea1a85af1128d72bb629ebc0700232561e",
+    "ggml-vulkan-push-constants.h": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+    "np-profile.h": "5ce1000cd0c22776b75947087617bdcc1a6597feb810567cca6a4684876b8ba6"
+  },
+  "scope": "CPU-cost diagnostic only;graph includes index construction/destruction,queries/timers. No throughput inference."
+}

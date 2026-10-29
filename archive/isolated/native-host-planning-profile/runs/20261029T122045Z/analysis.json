@@ -1,0 +1,1451 @@
+{
+  "arms": [
+    {
+      "arm": 0,
+      "mode": "control",
+      "events": {
+        "gate": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "mmvq": {
+          "count": 5772,
+          "wall_ns": 28761708,
+          "cpu_ns": 27827577,
+          "cpu_ns_per_call": 4821.132536382536,
+          "wall_ns_per_call": 4982.970893970894
+        },
+        "request": {
+          "count": 5772,
+          "wall_ns": 3666071,
+          "cpu_ns": 2717144,
+          "cpu_ns_per_call": 470.74566874566875,
+          "wall_ns_per_call": 635.1474358974359
+        },
+        "dispatch": {
+          "count": 5772,
+          "wall_ns": 10654173,
+          "cpu_ns": 11407415,
+          "cpu_ns_per_call": 1976.3366250866252,
+          "wall_ns_per_call": 1845.8373180873182
+        },
+        "descriptor_write": {
+          "count": 78,
+          "wall_ns": 19519,
+          "cpu_ns": 40962,
+          "cpu_ns_per_call": 525.1538461538462,
+          "wall_ns_per_call": 250.24358974358975
+        },
+        "commands": {
+          "count": 5772,
+          "wall_ns": 2616625,
+          "cpu_ns": 3722042,
+          "cpu_ns_per_call": 644.8444213444213,
+          "wall_ns_per_call": 453.3307345807346
+        },
+        "submit_nonempty": {
+          "count": 4209,
+          "wall_ns": 147334947,
+          "cpu_ns": 81732341,
+          "cpu_ns_per_call": 19418.470182941317,
+          "wall_ns_per_call": 35004.739130434784
+        },
+        "graph": {
+          "count": 224,
+          "wall_ns": 1092860130,
+          "cpu_ns": 1022932793,
+          "cpu_ns_per_call": 4566664.254464285,
+          "wall_ns_per_call": 4878839.866071428
+        },
+        "all_request": {
+          "count": 167825,
+          "wall_ns": 10668877,
+          "cpu_ns": 32057614,
+          "cpu_ns_per_call": 191.01810814836884,
+          "wall_ns_per_call": 63.5714404886042
+        },
+        "all_dispatch": {
+          "count": 157910,
+          "wall_ns": 278294978,
+          "cpu_ns": 298742629,
+          "cpu_ns_per_call": 1891.853771135457,
+          "wall_ns_per_call": 1762.3644987651194
+        },
+        "all_descriptor_write": {
+          "count": 9939,
+          "wall_ns": 3004678,
+          "cpu_ns": 5603318,
+          "cpu_ns_per_call": 563.7708018915384,
+          "wall_ns_per_call": 302.31190260589597
+        },
+        "all_commands": {
+          "count": 157910,
+          "wall_ns": 85412770,
+          "cpu_ns": 116291986,
+          "cpu_ns_per_call": 736.4447216769046,
+          "wall_ns_per_call": 540.8952567918435
+        },
+        "wait_fence": {
+          "count": 522,
+          "wall_ns": 2051669895,
+          "cpu_ns": 900481634,
+          "cpu_ns_per_call": 1725060.601532567,
+          "wall_ns_per_call": 3930402.0977011495
+        },
+        "synchronize": {
+          "count": 3796,
+          "wall_ns": 2069539244,
+          "cpu_ns": 917968714,
+          "cpu_ns_per_call": 241825.26712328766,
+          "wall_ns_per_call": 545189.4741833509
+        },
+        "build_node": {
+          "count": 293499,
+          "wall_ns": 541568603,
+          "cpu_ns": 571003316,
+          "cpu_ns_per_call": 1945.5034463490506,
+          "wall_ns_per_call": 1845.214474325296
+        },
+        "fusion_select": {
+          "count": 293499,
+          "wall_ns": 203374062,
+          "cpu_ns": 242493163,
+          "cpu_ns_per_call": 826.2146140191278,
+          "wall_ns_per_call": 692.9293183281715
+        },
+        "fusion_alias": {
+          "count": 30134,
+          "wall_ns": 4783467,
+          "cpu_ns": 8960005,
+          "cpu_ns_per_call": 297.3387203822924,
+          "wall_ns_per_call": 158.73986194995686
+        },
+        "dependency_check": {
+          "count": 138292,
+          "wall_ns": 21032839,
+          "cpu_ns": 39521422,
+          "cpu_ns_per_call": 285.7824169149336,
+          "wall_ns_per_call": 152.0900630549851
+        },
+        "gdn_state_scan": {
+          "count": 3600,
+          "wall_ns": 103508353,
+          "cpu_ns": 104061101,
+          "cpu_ns_per_call": 28905.86138888889,
+          "wall_ns_per_call": 28752.320277777777
+        },
+        "empty_scope": {
+          "count": 293499,
+          "wall_ns": 5523973,
+          "cpu_ns": 45107345,
+          "cpu_ns_per_call": 153.68824084579504,
+          "wall_ns_per_call": 18.821096494366248
+        }
+      }
+    },
+    {
+      "arm": 1,
+      "mode": "pad",
+      "events": {
+        "gate": {
+          "count": 5772,
+          "wall_ns": 1101746,
+          "cpu_ns": 1896665,
+          "cpu_ns_per_call": 328.59753984753985,
+          "wall_ns_per_call": 190.87768537768537
+        },
+        "mmvq": {
+          "count": 5772,
+          "wall_ns": 28048578,
+          "cpu_ns": 28554641,
+          "cpu_ns_per_call": 4947.096500346501,
+          "wall_ns_per_call": 4859.420997920998
+        },
+        "request": {
+          "count": 5772,
+          "wall_ns": 148229,
+          "cpu_ns": 920771,
+          "cpu_ns_per_call": 159.52373527373527,
+          "wall_ns_per_call": 25.68069993069993
+        },
+        "dispatch": {
+          "count": 5772,
+          "wall_ns": 10653360,
+          "cpu_ns": 11327736,
+          "cpu_ns_per_call": 1962.5322245322245,
+          "wall_ns_per_call": 1845.6964656964658
+        },
+        "descriptor_write": {
+          "count": 78,
+          "wall_ns": 21107,
+          "cpu_ns": 44366,
+          "cpu_ns_per_call": 568.7948717948718,
+          "wall_ns_per_call": 270.6025641025641
+        },
+        "commands": {
+          "count": 5772,
+          "wall_ns": 2408659,
+          "cpu_ns": 3521076,
+          "cpu_ns_per_call": 610.027027027027,
+          "wall_ns_per_call": 417.30058905058905
+        },
+        "submit_nonempty": {
+          "count": 4209,
+          "wall_ns": 152980556,
+          "cpu_ns": 82080266,
+          "cpu_ns_per_call": 19501.132335471608,
+          "wall_ns_per_call": 36346.057495842244
+        },
+        "graph": {
+          "count": 224,
+          "wall_ns": 1094502085,
+          "cpu_ns": 1025165693,
+          "cpu_ns_per_call": 4576632.558035715,
+          "wall_ns_per_call": 4886170.022321428
+        },
+        "all_request": {
+          "count": 167825,
+          "wall_ns": 6944627,
+          "cpu_ns": 30225035,
+          "cpu_ns_per_call": 180.09852524951586,
+          "wall_ns_per_call": 41.380169819752716
+        },
+        "all_dispatch": {
+          "count": 157910,
+          "wall_ns": 280645886,
+          "cpu_ns": 299183700,
+          "cpu_ns_per_call": 1894.6469507947565,
+          "wall_ns_per_call": 1777.252143626116
+        },
+        "all_descriptor_write": {
+          "count": 9939,
+          "wall_ns": 2953024,
+          "cpu_ns": 5484942,
+          "cpu_ns_per_call": 551.8605493510413,
+          "wall_ns_per_call": 297.1148002817185
+        },
+        "all_commands": {
+          "count": 157910,
+          "wall_ns": 84631667,
+          "cpu_ns": 116335483,
+          "cpu_ns_per_call": 736.7201760496486,
+          "wall_ns_per_call": 535.9487492875688
+        },
+        "wait_fence": {
+          "count": 522,
+          "wall_ns": 1962004797,
+          "cpu_ns": 924820040,
+          "cpu_ns_per_call": 1771685.9003831418,
+          "wall_ns_per_call": 3758629.879310345
+        },
+        "synchronize": {
+          "count": 3796,
+          "wall_ns": 1986033166,
+          "cpu_ns": 942216285,
+          "cpu_ns_per_call": 248212.93071654372,
+          "wall_ns_per_call": 523191.0342465753
+        },
+        "build_node": {
+          "count": 293499,
+          "wall_ns": 539246801,
+          "cpu_ns": 572647266,
+          "cpu_ns_per_call": 1951.1046579375059,
+          "wall_ns_per_call": 1837.303708019448
+        },
+        "fusion_select": {
+          "count": 293499,
+          "wall_ns": 201438531,
+          "cpu_ns": 240639608,
+          "cpu_ns_per_call": 819.8992432682905,
+          "wall_ns_per_call": 686.3346416853209
+        },
+        "fusion_alias": {
+          "count": 30134,
+          "wall_ns": 4736951,
+          "cpu_ns": 8953378,
+          "cpu_ns_per_call": 297.1188026813566,
+          "wall_ns_per_call": 157.19622353487756
+        },
+        "dependency_check": {
+          "count": 138292,
+          "wall_ns": 20953971,
+          "cpu_ns": 39515781,
+          "cpu_ns_per_call": 285.7416264136754,
+          "wall_ns_per_call": 151.51976253145517
+        },
+        "gdn_state_scan": {
+          "count": 3600,
+          "wall_ns": 101612460,
+          "cpu_ns": 102133549,
+          "cpu_ns_per_call": 28370.430277777778,
+          "wall_ns_per_call": 28225.683333333334
+        },
+        "empty_scope": {
+          "count": 293499,
+          "wall_ns": 5539881,
+          "cpu_ns": 45435907,
+          "cpu_ns_per_call": 154.80770632949347,
+          "wall_ns_per_call": 18.87529770118467
+        }
+      }
+    },
+    {
+      "arm": 2,
+      "mode": "pad",
+      "events": {
+        "gate": {
+          "count": 5772,
+          "wall_ns": 1110161,
+          "cpu_ns": 1888847,
+          "cpu_ns_per_call": 327.24306999307,
+          "wall_ns_per_call": 192.3355855855856
+        },
+        "mmvq": {
+          "count": 5772,
+          "wall_ns": 28343337,
+          "cpu_ns": 28370476,
+          "cpu_ns_per_call": 4915.189882189882,
+          "wall_ns_per_call": 4910.488045738046
+        },
+        "request": {
+          "count": 5772,
+          "wall_ns": 144804,
+          "cpu_ns": 913181,
+          "cpu_ns_per_call": 158.20876645876646,
+          "wall_ns_per_call": 25.08731808731809
+        },
+        "dispatch": {
+          "count": 5772,
+          "wall_ns": 10510979,
+          "cpu_ns": 11264730,
+          "cpu_ns_per_call": 1951.616424116424,
+          "wall_ns_per_call": 1821.0289327789328
+        },
+        "descriptor_write": {
+          "count": 78,
+          "wall_ns": 21353,
+          "cpu_ns": 41387,
+          "cpu_ns_per_call": 530.6025641025641,
+          "wall_ns_per_call": 273.7564102564103
+        },
+        "commands": {
+          "count": 5772,
+          "wall_ns": 2579207,
+          "cpu_ns": 3657946,
+          "cpu_ns_per_call": 633.7397782397783,
+          "wall_ns_per_call": 446.8480595980596
+        },
+        "submit_nonempty": {
+          "count": 4209,
+          "wall_ns": 147267221,
+          "cpu_ns": 82695623,
+          "cpu_ns_per_call": 19647.332620574958,
+          "wall_ns_per_call": 34988.64837253504
+        },
+        "graph": {
+          "count": 224,
+          "wall_ns": 1096672769,
+          "cpu_ns": 1023868261,
+          "cpu_ns_per_call": 4570840.450892857,
+          "wall_ns_per_call": 4895860.575892857
+        },
+        "all_request": {
+          "count": 167825,
+          "wall_ns": 7104870,
+          "cpu_ns": 30082023,
+          "cpu_ns_per_call": 179.2463756889617,
+          "wall_ns_per_call": 42.33499180694176
+        },
+        "all_dispatch": {
+          "count": 157910,
+          "wall_ns": 282268631,
+          "cpu_ns": 299338901,
+          "cpu_ns_per_call": 1895.6297954531062,
+          "wall_ns_per_call": 1787.5285352415933
+        },
+        "all_descriptor_write": {
+          "count": 9939,
+          "wall_ns": 2946780,
+          "cpu_ns": 5453221,
+          "cpu_ns_per_call": 548.668980782775,
+          "wall_ns_per_call": 296.48656806519773
+        },
+        "all_commands": {
+          "count": 157910,
+          "wall_ns": 85577577,
+          "cpu_ns": 117078820,
+          "cpu_ns_per_call": 741.4275220062061,
+          "wall_ns_per_call": 541.9389335697549
+        },
+        "wait_fence": {
+          "count": 522,
+          "wall_ns": 2002488877,
+          "cpu_ns": 946947320,
+          "cpu_ns_per_call": 1814075.3256704982,
+          "wall_ns_per_call": 3836185.5881226053
+        },
+        "synchronize": {
+          "count": 3796,
+          "wall_ns": 2020145629,
+          "cpu_ns": 965106143,
+          "cpu_ns_per_call": 254242.92492096944,
+          "wall_ns_per_call": 532177.4575869336
+        },
+        "build_node": {
+          "count": 293499,
+          "wall_ns": 542290207,
+          "cpu_ns": 572674163,
+          "cpu_ns_per_call": 1951.1963004984684,
+          "wall_ns_per_call": 1847.6730993972722
+        },
+        "fusion_select": {
+          "count": 293499,
+          "wall_ns": 200020634,
+          "cpu_ns": 239221224,
+          "cpu_ns_per_call": 815.0665726288676,
+          "wall_ns_per_call": 681.5036303360489
+        },
+        "fusion_alias": {
+          "count": 30134,
+          "wall_ns": 4893622,
+          "cpu_ns": 8948304,
+          "cpu_ns_per_call": 296.95042145085284,
+          "wall_ns_per_call": 162.3953673591292
+        },
+        "dependency_check": {
+          "count": 138292,
+          "wall_ns": 21202191,
+          "cpu_ns": 39665111,
+          "cpu_ns_per_call": 286.8214430335811,
+          "wall_ns_per_call": 153.31466028403668
+        },
+        "gdn_state_scan": {
+          "count": 3600,
+          "wall_ns": 99999705,
+          "cpu_ns": 100478968,
+          "cpu_ns_per_call": 27910.824444444443,
+          "wall_ns_per_call": 27777.695833333335
+        },
+        "empty_scope": {
+          "count": 293499,
+          "wall_ns": 5554210,
+          "cpu_ns": 45429061,
+          "cpu_ns_per_call": 154.78438086671505,
+          "wall_ns_per_call": 18.924118991887536
+        }
+      }
+    },
+    {
+      "arm": 3,
+      "mode": "control",
+      "events": {
+        "gate": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "mmvq": {
+          "count": 5772,
+          "wall_ns": 25200684,
+          "cpu_ns": 25991222,
+          "cpu_ns_per_call": 4502.983714483715,
+          "wall_ns_per_call": 4366.022869022869
+        },
+        "request": {
+          "count": 5772,
+          "wall_ns": 140949,
+          "cpu_ns": 915327,
+          "cpu_ns_per_call": 158.58056133056132,
+          "wall_ns_per_call": 24.41943866943867
+        },
+        "dispatch": {
+          "count": 5772,
+          "wall_ns": 10540617,
+          "cpu_ns": 11306936,
+          "cpu_ns_per_call": 1958.9286209286208,
+          "wall_ns_per_call": 1826.1637214137213
+        },
+        "descriptor_write": {
+          "count": 78,
+          "wall_ns": 16204,
+          "cpu_ns": 40316,
+          "cpu_ns_per_call": 516.8717948717949,
+          "wall_ns_per_call": 207.74358974358975
+        },
+        "commands": {
+          "count": 5772,
+          "wall_ns": 2580497,
+          "cpu_ns": 3656378,
+          "cpu_ns_per_call": 633.468121968122,
+          "wall_ns_per_call": 447.0715523215523
+        },
+        "submit_nonempty": {
+          "count": 4209,
+          "wall_ns": 153661496,
+          "cpu_ns": 81083033,
+          "cpu_ns_per_call": 19264.203611309098,
+          "wall_ns_per_call": 36507.83939177952
+        },
+        "graph": {
+          "count": 224,
+          "wall_ns": 1089175496,
+          "cpu_ns": 1019571642,
+          "cpu_ns_per_call": 4551659.116071428,
+          "wall_ns_per_call": 4862390.607142857
+        },
+        "all_request": {
+          "count": 167825,
+          "wall_ns": 7025113,
+          "cpu_ns": 30369034,
+          "cpu_ns_per_call": 180.95655593624312,
+          "wall_ns_per_call": 41.85975271860569
+        },
+        "all_dispatch": {
+          "count": 157910,
+          "wall_ns": 278620506,
+          "cpu_ns": 299647708,
+          "cpu_ns_per_call": 1897.585384079539,
+          "wall_ns_per_call": 1764.4259768222405
+        },
+        "all_descriptor_write": {
+          "count": 9939,
+          "wall_ns": 2992527,
+          "cpu_ns": 5654654,
+          "cpu_ns_per_call": 568.9359090451755,
+          "wall_ns_per_call": 301.0893450045276
+        },
+        "all_commands": {
+          "count": 157910,
+          "wall_ns": 85645446,
+          "cpu_ns": 116935564,
+          "cpu_ns_per_call": 740.5203217022355,
+          "wall_ns_per_call": 542.3687290228611
+        },
+        "wait_fence": {
+          "count": 522,
+          "wall_ns": 2090880950,
+          "cpu_ns": 921512534,
+          "cpu_ns_per_call": 1765349.681992337,
+          "wall_ns_per_call": 4005519.061302682
+        },
+        "synchronize": {
+          "count": 3796,
+          "wall_ns": 2108164147,
+          "cpu_ns": 939327547,
+          "cpu_ns_per_call": 247451.93545837724,
+          "wall_ns_per_call": 555364.6330347734
+        },
+        "build_node": {
+          "count": 293499,
+          "wall_ns": 535451853,
+          "cpu_ns": 570372537,
+          "cpu_ns_per_call": 1943.3542771866344,
+          "wall_ns_per_call": 1824.37368781495
+        },
+        "fusion_select": {
+          "count": 293499,
+          "wall_ns": 198879269,
+          "cpu_ns": 238485514,
+          "cpu_ns_per_call": 812.5598860643478,
+          "wall_ns_per_call": 677.6148095904927
+        },
+        "fusion_alias": {
+          "count": 30134,
+          "wall_ns": 4775899,
+          "cpu_ns": 9003144,
+          "cpu_ns_per_call": 298.77029269263954,
+          "wall_ns_per_call": 158.48871706378176
+        },
+        "dependency_check": {
+          "count": 138292,
+          "wall_ns": 21142758,
+          "cpu_ns": 39754431,
+          "cpu_ns_per_call": 287.46732276632054,
+          "wall_ns_per_call": 152.88489572788015
+        },
+        "gdn_state_scan": {
+          "count": 3600,
+          "wall_ns": 99024415,
+          "cpu_ns": 99690843,
+          "cpu_ns_per_call": 27691.900833333333,
+          "wall_ns_per_call": 27506.781944444443
+        },
+        "empty_scope": {
+          "count": 293499,
+          "wall_ns": 5568474,
+          "cpu_ns": 45530049,
+          "cpu_ns_per_call": 155.1284638107796,
+          "wall_ns_per_call": 18.972718816759173
+        }
+      }
+    },
+    {
+      "arm": 4,
+      "mode": "pad",
+      "events": {
+        "gate": {
+          "count": 5772,
+          "wall_ns": 1100114,
+          "cpu_ns": 1885785,
+          "cpu_ns_per_call": 326.71257796257794,
+          "wall_ns_per_call": 190.5949410949411
+        },
+        "mmvq": {
+          "count": 5772,
+          "wall_ns": 28175989,
+          "cpu_ns": 28804818,
+          "cpu_ns_per_call": 4990.439708939709,
+          "wall_ns_per_call": 4881.494975744976
+        },
+        "request": {
+          "count": 5772,
+          "wall_ns": 147513,
+          "cpu_ns": 947194,
+          "cpu_ns_per_call": 164.1015246015246,
+          "wall_ns_per_call": 25.556652806652806
+        },
+        "dispatch": {
+          "count": 5772,
+          "wall_ns": 10604348,
+          "cpu_ns": 11371300,
+          "cpu_ns_per_call": 1970.079695079695,
+          "wall_ns_per_call": 1837.2051282051282
+        },
+        "descriptor_write": {
+          "count": 78,
+          "wall_ns": 18247,
+          "cpu_ns": 36741,
+          "cpu_ns_per_call": 471.03846153846155,
+          "wall_ns_per_call": 233.93589743589743
+        },
+        "commands": {
+          "count": 5772,
+          "wall_ns": 2530243,
+          "cpu_ns": 3626542,
+          "cpu_ns_per_call": 628.2990297990298,
+          "wall_ns_per_call": 438.3650381150381
+        },
+        "submit_nonempty": {
+          "count": 4209,
+          "wall_ns": 152451833,
+          "cpu_ns": 82703764,
+          "cpu_ns_per_call": 19649.26680921834,
+          "wall_ns_per_call": 36220.44024708957
+        },
+        "graph": {
+          "count": 224,
+          "wall_ns": 1100314810,
+          "cpu_ns": 1030655795,
+          "cpu_ns_per_call": 4601141.941964285,
+          "wall_ns_per_call": 4912119.6875
+        },
+        "all_request": {
+          "count": 167825,
+          "wall_ns": 7206123,
+          "cpu_ns": 30219484,
+          "cpu_ns_per_call": 180.06544912855654,
+          "wall_ns_per_call": 42.93831669894235
+        },
+        "all_dispatch": {
+          "count": 157910,
+          "wall_ns": 282635294,
+          "cpu_ns": 302965970,
+          "cpu_ns_per_call": 1918.5990120954975,
+          "wall_ns_per_call": 1789.850509784054
+        },
+        "all_descriptor_write": {
+          "count": 9939,
+          "wall_ns": 2970360,
+          "cpu_ns": 5453356,
+          "cpu_ns_per_call": 548.682563638193,
+          "wall_ns_per_call": 298.8590401448838
+        },
+        "all_commands": {
+          "count": 157910,
+          "wall_ns": 86054851,
+          "cpu_ns": 117191750,
+          "cpu_ns_per_call": 742.1426762079666,
+          "wall_ns_per_call": 544.9613767335824
+        },
+        "wait_fence": {
+          "count": 522,
+          "wall_ns": 1991765962,
+          "cpu_ns": 962239895,
+          "cpu_ns_per_call": 1843371.4463601531,
+          "wall_ns_per_call": 3815643.6053639846
+        },
+        "synchronize": {
+          "count": 3796,
+          "wall_ns": 2009700264,
+          "cpu_ns": 979897704,
+          "cpu_ns_per_call": 258139.5426765016,
+          "wall_ns_per_call": 529425.7808219178
+        },
+        "build_node": {
+          "count": 293499,
+          "wall_ns": 542018564,
+          "cpu_ns": 577381189,
+          "cpu_ns_per_call": 1967.2339224324444,
+          "wall_ns_per_call": 1846.7475664312315
+        },
+        "fusion_select": {
+          "count": 293499,
+          "wall_ns": 201421374,
+          "cpu_ns": 240729637,
+          "cpu_ns_per_call": 820.2059870732098,
+          "wall_ns_per_call": 686.2761849273762
+        },
+        "fusion_alias": {
+          "count": 30134,
+          "wall_ns": 4904835,
+          "cpu_ns": 9106581,
+          "cpu_ns_per_call": 302.2028605561824,
+          "wall_ns_per_call": 162.767471958585
+        },
+        "dependency_check": {
+          "count": 138292,
+          "wall_ns": 21553936,
+          "cpu_ns": 40053452,
+          "cpu_ns_per_call": 289.6295664246666,
+          "wall_ns_per_call": 155.85815520782114
+        },
+        "gdn_state_scan": {
+          "count": 3600,
+          "wall_ns": 100615304,
+          "cpu_ns": 101224000,
+          "cpu_ns_per_call": 28117.777777777777,
+          "wall_ns_per_call": 27948.695555555554
+        },
+        "empty_scope": {
+          "count": 293499,
+          "wall_ns": 5528693,
+          "cpu_ns": 45243279,
+          "cpu_ns_per_call": 154.1513906350618,
+          "wall_ns_per_call": 18.837178320880138
+        }
+      }
+    },
+    {
+      "arm": 5,
+      "mode": "control",
+      "events": {
+        "gate": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "mmvq": {
+          "count": 5772,
+          "wall_ns": 25102297,
+          "cpu_ns": 25831569,
+          "cpu_ns_per_call": 4475.323804573804,
+          "wall_ns_per_call": 4348.977304227305
+        },
+        "request": {
+          "count": 5772,
+          "wall_ns": 130082,
+          "cpu_ns": 896742,
+          "cpu_ns_per_call": 155.36070686070687,
+          "wall_ns_per_call": 22.536729036729035
+        },
+        "dispatch": {
+          "count": 5772,
+          "wall_ns": 10585058,
+          "cpu_ns": 11334469,
+          "cpu_ns_per_call": 1963.698717948718,
+          "wall_ns_per_call": 1833.8631323631323
+        },
+        "descriptor_write": {
+          "count": 78,
+          "wall_ns": 19810,
+          "cpu_ns": 42248,
+          "cpu_ns_per_call": 541.6410256410256,
+          "wall_ns_per_call": 253.97435897435898
+        },
+        "commands": {
+          "count": 5772,
+          "wall_ns": 2638173,
+          "cpu_ns": 3741048,
+          "cpu_ns_per_call": 648.1372141372142,
+          "wall_ns_per_call": 457.0639293139293
+        },
+        "submit_nonempty": {
+          "count": 4209,
+          "wall_ns": 151069431,
+          "cpu_ns": 82571419,
+          "cpu_ns_per_call": 19617.823473509146,
+          "wall_ns_per_call": 35892.000712758374
+        },
+        "graph": {
+          "count": 224,
+          "wall_ns": 1088323734,
+          "cpu_ns": 1020421117,
+          "cpu_ns_per_call": 4555451.415178572,
+          "wall_ns_per_call": 4858588.098214285
+        },
+        "all_request": {
+          "count": 167825,
+          "wall_ns": 7069791,
+          "cpu_ns": 30292893,
+          "cpu_ns_per_call": 180.50286310144494,
+          "wall_ns_per_call": 42.12597050499032
+        },
+        "all_dispatch": {
+          "count": 157910,
+          "wall_ns": 277419666,
+          "cpu_ns": 297840041,
+          "cpu_ns_per_call": 1886.1379329998101,
+          "wall_ns_per_call": 1756.8213919321133
+        },
+        "all_descriptor_write": {
+          "count": 9939,
+          "wall_ns": 3109681,
+          "cpu_ns": 5676517,
+          "cpu_ns_per_call": 571.1356273266928,
+          "wall_ns_per_call": 312.87664755005534
+        },
+        "all_commands": {
+          "count": 157910,
+          "wall_ns": 85088560,
+          "cpu_ns": 116227441,
+          "cpu_ns_per_call": 736.0359761889684,
+          "wall_ns_per_call": 538.8421252612247
+        },
+        "wait_fence": {
+          "count": 522,
+          "wall_ns": 2100537176,
+          "cpu_ns": 927526457,
+          "cpu_ns_per_call": 1776870.6072796935,
+          "wall_ns_per_call": 4024017.578544061
+        },
+        "synchronize": {
+          "count": 3796,
+          "wall_ns": 2121322978,
+          "cpu_ns": 945203086,
+          "cpu_ns_per_call": 248999.75922023182,
+          "wall_ns_per_call": 558831.1322444679
+        },
+        "build_node": {
+          "count": 293499,
+          "wall_ns": 532861612,
+          "cpu_ns": 568896840,
+          "cpu_ns_per_call": 1938.3263316059,
+          "wall_ns_per_call": 1815.5483051049578
+        },
+        "fusion_select": {
+          "count": 293499,
+          "wall_ns": 203260953,
+          "cpu_ns": 240817696,
+          "cpu_ns_per_call": 820.5060187598594,
+          "wall_ns_per_call": 692.5439371173326
+        },
+        "fusion_alias": {
+          "count": 30134,
+          "wall_ns": 4744195,
+          "cpu_ns": 8932009,
+          "cpu_ns_per_call": 296.40967014004116,
+          "wall_ns_per_call": 157.4366164465388
+        },
+        "dependency_check": {
+          "count": 138292,
+          "wall_ns": 21214946,
+          "cpu_ns": 39578449,
+          "cpu_ns_per_call": 286.19478350157635,
+          "wall_ns_per_call": 153.4068926619038
+        },
+        "gdn_state_scan": {
+          "count": 3600,
+          "wall_ns": 103455504,
+          "cpu_ns": 102451552,
+          "cpu_ns_per_call": 28458.764444444445,
+          "wall_ns_per_call": 28737.64
+        },
+        "empty_scope": {
+          "count": 293499,
+          "wall_ns": 5607995,
+          "cpu_ns": 45186715,
+          "cpu_ns_per_call": 153.95866766155933,
+          "wall_ns_per_call": 19.107373449313286
+        }
+      }
+    },
+    {
+      "arm": 6,
+      "mode": "control",
+      "events": {
+        "gate": {
+          "count": 0,
+          "wall_ns": 0,
+          "cpu_ns": 0
+        },
+        "mmvq": {
+          "count": 5772,
+          "wall_ns": 25219499,
+          "cpu_ns": 26025818,
+          "cpu_ns_per_call": 4508.977477477478,
+          "wall_ns_per_call": 4369.2825710325715
+        },
+        "request": {
+          "count": 5772,
+          "wall_ns": 133113,
+          "cpu_ns": 905427,
+          "cpu_ns_per_call": 156.8653846153846,
+          "wall_ns_per_call": 23.06185031185031
+        },
+        "dispatch": {
+          "count": 5772,
+          "wall_ns": 10595298,
+          "cpu_ns": 11372169,
+          "cpu_ns_per_call": 1970.2302494802495,
+          "wall_ns_per_call": 1835.6372141372142
+        },
+        "descriptor_write": {
+          "count": 78,
+          "wall_ns": 17711,
+          "cpu_ns": 39699,
+          "cpu_ns_per_call": 508.96153846153845,
+          "wall_ns_per_call": 227.06410256410257
+        },
+        "commands": {
+          "count": 5772,
+          "wall_ns": 2608070,
+          "cpu_ns": 3704014,
+          "cpu_ns_per_call": 641.7210672210672,
+          "wall_ns_per_call": 451.84857934857934
+        },
+        "submit_nonempty": {
+          "count": 4209,
+          "wall_ns": 149909352,
+          "cpu_ns": 82554238,
+          "cpu_ns_per_call": 19613.74150629603,
+          "wall_ns_per_call": 35616.382038488955
+        },
+        "graph": {
+          "count": 224,
+          "wall_ns": 1085593975,
+          "cpu_ns": 1021088908,
+          "cpu_ns_per_call": 4558432.625,
+          "wall_ns_per_call": 4846401.674107143
+        },
+        "all_request": {
+          "count": 167825,
+          "wall_ns": 7031962,
+          "cpu_ns": 30446640,
+          "cpu_ns_per_call": 181.41897810218978,
+          "wall_ns_per_call": 41.90056308654849
+        },
+        "all_dispatch": {
+          "count": 157910,
+          "wall_ns": 276992996,
+          "cpu_ns": 298251292,
+          "cpu_ns_per_call": 1888.7422709138116,
+          "wall_ns_per_call": 1754.119409790387
+        },
+        "all_descriptor_write": {
+          "count": 9939,
+          "wall_ns": 2974550,
+          "cpu_ns": 5470632,
+          "cpu_ns_per_call": 550.420766676728,
+          "wall_ns_per_call": 299.28061173156254
+        },
+        "all_commands": {
+          "count": 157910,
+          "wall_ns": 84666244,
+          "cpu_ns": 115875254,
+          "cpu_ns_per_call": 733.8056741181686,
+          "wall_ns_per_call": 536.1677157874739
+        },
+        "wait_fence": {
+          "count": 522,
+          "wall_ns": 2056081730,
+          "cpu_ns": 896721699,
+          "cpu_ns_per_call": 1717857.6609195403,
+          "wall_ns_per_call": 3938853.888888889
+        },
+        "synchronize": {
+          "count": 3796,
+          "wall_ns": 2076926173,
+          "cpu_ns": 915258960,
+          "cpu_ns_per_call": 241111.4225500527,
+          "wall_ns_per_call": 547135.451264489
+        },
+        "build_node": {
+          "count": 293499,
+          "wall_ns": 533556894,
+          "cpu_ns": 570077080,
+          "cpu_ns_per_call": 1942.3476059543643,
+          "wall_ns_per_call": 1817.9172467367862
+        },
+        "fusion_select": {
+          "count": 293499,
+          "wall_ns": 200219376,
+          "cpu_ns": 239480590,
+          "cpu_ns_per_call": 815.950275810139,
+          "wall_ns_per_call": 682.1807774472826
+        },
+        "fusion_alias": {
+          "count": 30134,
+          "wall_ns": 4754023,
+          "cpu_ns": 9022956,
+          "cpu_ns_per_call": 299.42775602309683,
+          "wall_ns_per_call": 157.76275967345856
+        },
+        "dependency_check": {
+          "count": 138292,
+          "wall_ns": 21044385,
+          "cpu_ns": 39745161,
+          "cpu_ns_per_call": 287.40029068926617,
+          "wall_ns_per_call": 152.1735530616377
+        },
+        "gdn_state_scan": {
+          "count": 3600,
+          "wall_ns": 100143927,
+          "cpu_ns": 100282932,
+          "cpu_ns_per_call": 27856.37,
+          "wall_ns_per_call": 27817.7575
+        },
+        "empty_scope": {
+          "count": 293499,
+          "wall_ns": 5592432,
+          "cpu_ns": 45691722,
+          "cpu_ns_per_call": 155.67931066204656,
+          "wall_ns_per_call": 19.054347714983695
+        }
+      }
+    },
+    {
+      "arm": 7,
+      "mode": "pad",
+      "events": {
+        "gate": {
+          "count": 5772,
+          "wall_ns": 1086013,
+          "cpu_ns": 1873196,
+          "cpu_ns_per_call": 324.5315315315315,
+          "wall_ns_per_call": 188.1519404019404
+        },
+        "mmvq": {
+          "count": 5772,
+          "wall_ns": 27723219,
+          "cpu_ns": 28371683,
+          "cpu_ns_per_call": 4915.398995148995,
+          "wall_ns_per_call": 4803.052494802495
+        },
+        "request": {
+          "count": 5772,
+          "wall_ns": 151550,
+          "cpu_ns": 935437,
+          "cpu_ns_per_call": 162.0646223146223,
+          "wall_ns_per_call": 26.256063756063757
+        },
+        "dispatch": {
+          "count": 5772,
+          "wall_ns": 10483662,
+          "cpu_ns": 11258971,
+          "cpu_ns_per_call": 1950.6186763686765,
+          "wall_ns_per_call": 1816.2962577962578
+        },
+        "descriptor_write": {
+          "count": 78,
+          "wall_ns": 18113,
+          "cpu_ns": 41098,
+          "cpu_ns_per_call": 526.8974358974359,
+          "wall_ns_per_call": 232.21794871794873
+        },
+        "commands": {
+          "count": 5772,
+          "wall_ns": 2429414,
+          "cpu_ns": 3492886,
+          "cpu_ns_per_call": 605.1431046431046,
+          "wall_ns_per_call": 420.89639639639637
+        },
+        "submit_nonempty": {
+          "count": 4209,
+          "wall_ns": 143733944,
+          "cpu_ns": 80438779,
+          "cpu_ns_per_call": 19111.13779995248,
+          "wall_ns_per_call": 34149.19078165835
+        },
+        "graph": {
+          "count": 224,
+          "wall_ns": 1089569688,
+          "cpu_ns": 1025275335,
+          "cpu_ns_per_call": 4577122.03125,
+          "wall_ns_per_call": 4864150.392857143
+        },
+        "all_request": {
+          "count": 167825,
+          "wall_ns": 6945254,
+          "cpu_ns": 30368377,
+          "cpu_ns_per_call": 180.95264114404887,
+          "wall_ns_per_call": 41.38390585431253
+        },
+        "all_dispatch": {
+          "count": 157910,
+          "wall_ns": 279388314,
+          "cpu_ns": 299007849,
+          "cpu_ns_per_call": 1893.5333354442405,
+          "wall_ns_per_call": 1769.288290798556
+        },
+        "all_descriptor_write": {
+          "count": 9939,
+          "wall_ns": 2873855,
+          "cpu_ns": 5249833,
+          "cpu_ns_per_call": 528.2053526511721,
+          "wall_ns_per_call": 289.1493107958547
+        },
+        "all_commands": {
+          "count": 157910,
+          "wall_ns": 84801080,
+          "cpu_ns": 116453270,
+          "cpu_ns_per_call": 737.4660882781332,
+          "wall_ns_per_call": 537.0215945791907
+        },
+        "wait_fence": {
+          "count": 522,
+          "wall_ns": 1970736369,
+          "cpu_ns": 932248577,
+          "cpu_ns_per_call": 1785916.8141762451,
+          "wall_ns_per_call": 3775357.028735632
+        },
+        "synchronize": {
+          "count": 3796,
+          "wall_ns": 1988395788,
+          "cpu_ns": 949615377,
+          "cpu_ns_per_call": 250162.11195995784,
+          "wall_ns_per_call": 523813.4320337197
+        },
+        "build_node": {
+          "count": 293499,
+          "wall_ns": 536981104,
+          "cpu_ns": 572917950,
+          "cpu_ns_per_call": 1952.0269234307443,
+          "wall_ns_per_call": 1829.5841007976178
+        },
+        "fusion_select": {
+          "count": 293499,
+          "wall_ns": 201979764,
+          "cpu_ns": 239928624,
+          "cpu_ns_per_call": 817.4768023059704,
+          "wall_ns_per_call": 688.1787127043023
+        },
+        "fusion_alias": {
+          "count": 30134,
+          "wall_ns": 4819847,
+          "cpu_ns": 9051001,
+          "cpu_ns_per_call": 300.3584323355678,
+          "wall_ns_per_call": 159.94713612530697
+        },
+        "dependency_check": {
+          "count": 138292,
+          "wall_ns": 21031494,
+          "cpu_ns": 39786868,
+          "cpu_ns_per_call": 287.70187718740056,
+          "wall_ns_per_call": 152.0803372573974
+        },
+        "gdn_state_scan": {
+          "count": 3600,
+          "wall_ns": 100386193,
+          "cpu_ns": 100740490,
+          "cpu_ns_per_call": 27983.469444444443,
+          "wall_ns_per_call": 27885.05361111111
+        },
+        "empty_scope": {
+          "count": 293499,
+          "wall_ns": 5573497,
+          "cpu_ns": 45872580,
+          "cpu_ns_per_call": 156.29552400519253,
+          "wall_ns_per_call": 18.989833014763253
+        }
+      }
+    }
+  ],
+  "normalized": {
+    "control": {
+      "gate": {
+        "total_count": 0,
+        "cpu_us_per_Q3_mmvq": 0.0,
+        "wall_us_per_Q3_mmvq": 0.0,
+        "cpu_ns_per_event": null,
+        "wall_ns_per_event": null
+      },
+      "mmvq": {
+        "total_count": 23088,
+        "cpu_us_per_Q3_mmvq": 4.577104383229384,
+        "wall_us_per_Q3_mmvq": 4.51681340956341,
+        "cpu_ns_per_event": 4577.1043832293835,
+        "wall_ns_per_event": 4516.81340956341
+      },
+      "request": {
+        "total_count": 23088,
+        "cpu_us_per_Q3_mmvq": 0.2353880803880804,
+        "wall_us_per_Q3_mmvq": 0.17629136347886348,
+        "cpu_ns_per_event": 235.3880803880804,
+        "wall_ns_per_event": 176.29136347886347
+      },
+      "dispatch": {
+        "total_count": 23088,
+        "cpu_us_per_Q3_mmvq": 1.9672985533610534,
+        "wall_us_per_Q3_mmvq": 1.8353753465003464,
+        "cpu_ns_per_event": 1967.2985533610533,
+        "wall_ns_per_event": 1835.3753465003465
+      },
+      "descriptor_write": {
+        "total_count": 312,
+        "cpu_us_per_Q3_mmvq": 0.0070696898821898824,
+        "wall_us_per_Q3_mmvq": 0.0031723839223839227,
+        "cpu_ns_per_event": 523.1570512820513,
+        "wall_ns_per_event": 234.75641025641025
+      },
+      "commands": {
+        "total_count": 23088,
+        "cpu_us_per_Q3_mmvq": 0.6420427061677061,
+        "wall_us_per_Q3_mmvq": 0.45232869889119887,
+        "cpu_ns_per_event": 642.0427061677061,
+        "wall_ns_per_event": 452.3286988911989
+      },
+      "submit_nonempty": {
+        "total_count": 16836,
+        "cpu_us_per_Q3_mmvq": 14.203960109147609,
+        "wall_us_per_Q3_mmvq": 26.07307804920305,
+        "cpu_ns_per_event": 19478.5596935139,
+        "wall_ns_per_event": 35755.24031836541
+      },
+      "graph": {
+        "total_count": 896,
+        "cpu_us_per_Q3_mmvq": 176.8890531878032,
+        "wall_us_per_Q3_mmvq": 188.667417489605,
+        "cpu_ns_per_event": 4558051.852678572,
+        "wall_ns_per_event": 4861555.061383928
+      },
+      "all_request": {
+        "total_count": 671300,
+        "cpu_us_per_Q3_mmvq": 5.334640549203049,
+        "wall_us_per_Q3_mmvq": 1.377154495841996,
+        "cpu_ns_per_event": 183.47412632206166,
+        "wall_ns_per_event": 47.364431699687174
+      },
+      "all_dispatch": {
+        "total_count": 631640,
+        "cpu_us_per_Q3_mmvq": 51.73603906791407,
+        "wall_us_per_Q3_mmvq": 48.13444845807346,
+        "cpu_ns_per_event": 1891.0798397821543,
+        "wall_ns_per_event": 1759.432819327465
+      },
+      "all_descriptor_write": {
+        "total_count": 39756,
+        "cpu_us_per_Q3_mmvq": 0.9704227737352737,
+        "wall_us_per_Q3_mmvq": 0.5232777200277201,
+        "cpu_ns_per_event": 563.5657762350337,
+        "wall_ns_per_event": 303.88962672301034
+      },
+      "all_commands": {
+        "total_count": 631640,
+        "cpu_us_per_Q3_mmvq": 20.154636391198892,
+        "wall_us_per_Q3_mmvq": 14.76147869022869,
+        "cpu_ns_per_event": 736.7016734215692,
+        "wall_ns_per_event": 539.5684567158509
+      },
+      "wait_fence": {
+        "total_count": 2088,
+        "cpu_us_per_Q3_mmvq": 157.92802858627857,
+        "wall_us_per_Q3_mmvq": 359.4581492983368,
+        "cpu_ns_per_event": 1746284.6379310344,
+        "wall_ns_per_event": 3974698.1566091953
+      },
+      "synchronize": {
+        "total_count": 15184,
+        "cpu_us_per_Q3_mmvq": 161.0255676975052,
+        "wall_us_per_Q3_mmvq": 362.78380725918225,
+        "cpu_ns_per_event": 244847.09608798736,
+        "wall_ns_per_event": 551630.1726817703
+      },
+      "build_node": {
+        "total_count": 1173996,
+        "cpu_us_per_Q3_mmvq": 98.76774831081082,
+        "wall_us_per_Q3_mmvq": 92.83779287941788,
+        "cpu_ns_per_event": 1942.3829152739872,
+        "wall_ns_per_event": 1825.7634284954975
+      },
+      "fusion_select": {
+        "total_count": 1173996,
+        "cpu_us_per_Q3_mmvq": 41.6353500952876,
+        "wall_us_per_Q3_mmvq": 34.898374047124044,
+        "cpu_ns_per_event": 818.8076986633686,
+        "wall_ns_per_event": 686.3172106208199
+      },
+      "fusion_alias": {
+        "total_count": 120536,
+        "cpu_us_per_Q3_mmvq": 1.5557048683298682,
+        "wall_us_per_Q3_mmvq": 0.8254324324324324,
+        "cpu_ns_per_event": 297.98660980951746,
+        "wall_ns_per_event": 158.106988783434
+      },
+      "dependency_check": {
+        "total_count": 553168,
+        "cpu_us_per_Q3_mmvq": 6.869346110533611,
+        "wall_us_per_Q3_mmvq": 3.6570914760914763,
+        "cpu_ns_per_event": 286.71120346802417,
+        "wall_ns_per_event": 152.63885112660168
+      },
+      "gdn_state_scan": {
+        "total_count": 14400,
+        "cpu_us_per_Q3_mmvq": 17.60596101871102,
+        "wall_us_per_Q3_mmvq": 17.59061845980596,
+        "cpu_ns_per_event": 28228.224166666667,
+        "wall_ns_per_event": 28203.624930555554
+      },
+      "empty_scope": {
+        "total_count": 1173996,
+        "cpu_us_per_Q3_mmvq": 7.861912292099793,
+        "wall_us_per_Q3_mmvq": 0.9655610706860707,
+        "cpu_ns_per_event": 154.61367074504514,
+        "wall_ns_per_event": 18.9888841188556
+      }
+    },
+    "pad": {
+      "gate": {
+        "total_count": 23088,
+        "cpu_us_per_Q3_mmvq": 0.3267711798336798,
+        "wall_us_per_Q3_mmvq": 0.19049003811503812,
+        "cpu_ns_per_event": 326.7711798336798,
+        "wall_ns_per_event": 190.49003811503812
+      },
+      "mmvq": {
+        "total_count": 23088,
+        "cpu_us_per_Q3_mmvq": 4.942031271656272,
+        "wall_us_per_Q3_mmvq": 4.863614128551629,
+        "cpu_ns_per_event": 4942.031271656272,
+        "wall_ns_per_event": 4863.614128551629
+      },
+      "request": {
+        "total_count": 23088,
+        "cpu_us_per_Q3_mmvq": 0.16097466216216216,
+        "wall_us_per_Q3_mmvq": 0.025645183645183648,
+        "cpu_ns_per_event": 160.97466216216216,
+        "wall_ns_per_event": 25.645183645183646
+      },
+      "dispatch": {
+        "total_count": 23088,
+        "cpu_us_per_Q3_mmvq": 1.9587117550242552,
+        "wall_us_per_Q3_mmvq": 1.8300566961191962,
+        "cpu_ns_per_event": 1958.7117550242551,
+        "wall_ns_per_event": 1830.0566961191962
+      },
+      "descriptor_write": {
+        "total_count": 312,
+        "cpu_us_per_Q3_mmvq": 0.007085585585585585,
+        "wall_us_per_Q3_mmvq": 0.0034138946638946643,
+        "cpu_ns_per_event": 524.3333333333334,
+        "wall_ns_per_event": 252.62820512820514
+      },
+      "commands": {
+        "total_count": 23088,
+        "cpu_us_per_Q3_mmvq": 0.619302234927235,
+        "wall_us_per_Q3_mmvq": 0.4308525207900208,
+        "cpu_ns_per_event": 619.302234927235,
+        "wall_ns_per_event": 430.8525207900208
+      },
+      "submit_nonempty": {
+        "total_count": 16836,
+        "cpu_us_per_Q3_mmvq": 14.20298128898129,
+        "wall_us_per_Q3_mmvq": 25.833054140679142,
+        "cpu_ns_per_event": 19477.217391304348,
+        "wall_ns_per_event": 35426.0842242813
+      },
+      "graph": {
+        "total_count": 896,
+        "cpu_us_per_Q3_mmvq": 177.796477997228,
+        "wall_us_per_Q3_mmvq": 189.75482293832295,
+        "cpu_ns_per_event": 4581434.245535715,
+        "wall_ns_per_event": 4889575.169642857
+      },
+      "all_request": {
+        "total_count": 671300,
+        "cpu_us_per_Q3_mmvq": 5.236266415453915,
+        "wall_us_per_Q3_mmvq": 1.2214515765765765,
+        "cpu_ns_per_event": 180.09074780277075,
+        "wall_ns_per_event": 42.00934604498734
+      },
+      "all_dispatch": {
+        "total_count": 631640,
+        "cpu_us_per_Q3_mmvq": 51.996553187803194,
+        "wall_us_per_Q3_mmvq": 48.723931262993766,
+        "cpu_ns_per_event": 1900.6022734469002,
+        "wall_ns_per_event": 1780.97986986258
+      },
+      "all_descriptor_write": {
+        "total_count": 39756,
+        "cpu_us_per_Q3_mmvq": 0.9373419958419958,
+        "wall_us_per_Q3_mmvq": 0.5086633316008317,
+        "cpu_ns_per_event": 544.3543616057954,
+        "wall_ns_per_event": 295.4024298219137
+      },
+      "all_commands": {
+        "total_count": 631640,
+        "cpu_us_per_Q3_mmvq": 20.229527156964657,
+        "wall_us_per_Q3_mmvq": 14.772400164587665,
+        "cpu_ns_per_event": 739.4391156354885,
+        "wall_ns_per_event": 539.9676635425242
+      },
+      "wait_fence": {
+        "total_count": 2088,
+        "cpu_us_per_Q3_mmvq": 163.12611884961885,
+        "wall_us_per_Q3_mmvq": 343.3383578049203,
+        "cpu_ns_per_event": 1803762.3716475095,
+        "wall_ns_per_event": 3796454.025383142
+      },
+      "synchronize": {
+        "total_count": 15184,
+        "cpu_us_per_Q3_mmvq": 166.18310416666665,
+        "wall_us_per_Q3_mmvq": 346.68550099618847,
+        "cpu_ns_per_event": 252689.37756849316,
+        "wall_ns_per_event": 527151.9261722866
+      },
+      "build_node": {
+        "total_count": 1173996,
+        "cpu_us_per_Q3_mmvq": 99.42916528066529,
+        "wall_us_per_Q3_mmvq": 93.57833835758836,
+        "cpu_ns_per_event": 1955.3904510747907,
+        "wall_ns_per_event": 1840.3271186613924
+      },
+      "fusion_select": {
+        "total_count": 1173996,
+        "cpu_us_per_Q3_mmvq": 41.60252481808732,
+        "wall_us_per_Q3_mmvq": 34.860546734234234,
+        "cpu_ns_per_event": 818.1621513190846,
+        "wall_ns_per_event": 685.573292413262
+      },
+      "fusion_alias": {
+        "total_count": 120536,
+        "cpu_us_per_Q3_mmvq": 1.5618184338184338,
+        "wall_us_per_Q3_mmvq": 0.8383253205128206,
+        "cpu_ns_per_event": 299.1576292559899,
+        "wall_ns_per_event": 160.57654974447468
+      },
+      "dependency_check": {
+        "total_count": 553168,
+        "cpu_us_per_Q3_mmvq": 6.887613132363133,
+        "wall_us_per_Q3_mmvq": 3.670373873873874,
+        "cpu_ns_per_event": 287.47362826483095,
+        "wall_ns_per_event": 153.1932288201776
+      },
+      "gdn_state_scan": {
+        "total_count": 14400,
+        "cpu_us_per_Q3_mmvq": 17.52325913894664,
+        "wall_us_per_Q3_mmvq": 17.438221673596672,
+        "cpu_ns_per_event": 28095.625486111112,
+        "wall_ns_per_event": 27959.28208333333
+      },
+      "empty_scope": {
+        "total_count": 1173996,
+        "cpu_us_per_Q3_mmvq": 7.882052451489952,
+        "wall_us_per_Q3_mmvq": 0.9613773821898821,
+        "cpu_ns_per_event": 155.0097504591157,
+        "wall_ns_per_event": 18.9066070071789
+      }
+    }
+  },
+  "scope": "Intrusive nested CPU/wall scopes; metrics overlap and must not be added. Native/padded resident128token arms, ABBA BAAB, one unmeasured warmup; no throughput inference. Profile event costs include timer overhead. Graph/submit events include work outside Q3. Submit counts now exclude empty sequences. All-event scopes are nested alongside Q3 scopes, adding overhead. No GPU execution-time decomposition. Normalized by Q3 MMVQ calls, not an asserted GPU-time fraction."
+}

@@ -1,0 +1,14 @@
+{
+  "library_sha256": "c136394222ad2f2a59b4873e352c4261ab1120dd0d0c979245e7d2076b3a2655",
+  "sources": {
+    "ggml-vulkan-common.h": "7ebdf1a4f4331d918956d87ff1bc7367d1d082cd37ee0d7f92c0caa3628ee590",
+    "ggml-vulkan-types.h": "356904d9d75d2f81a61b100386a80ac34054eb4016bf7a45946a67ce6beba0ea",
+    "np-profile.cpp": "a5b339e2cbe1ba850885b3b1e7afd4aeaeb70a9767fc10818d14a8ae79f20b50",
+    "ggml-vulkan.cpp": "d60c87d137cef180d15acd255ee34e960036573feb7733f164b7118ddcee4b06",
+    "ggml-vulkan-debug.cpp": "6f06703caee11a3d254959185c738cb762ef53a8d4622f2bdb90b5830d0c9198",
+    "ggml-vulkan-push-constants.h": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+    "np-profile.h": "cf68922b341b2ff6aa0fa6b7637c4d262fb6e89389b860d2babdefed4f3afd41",
+    "ggml-vulkan-buffers.cpp": "09f175eb0e0ce9ed29e7ac47bf959d85b3e30f05a0a0e4a67385349108fb81ef"
+  },
+  "scope": "Opt-in scoped host CPU/wall counters for triage only. Timers are intrusive; not a throughput candidate. Same shader/cache semantics as qualified guard-v2; all host TUs rebuilt. Nested events overlap and include clock overhead; submit_nonempty excludes early returns. No throughput inference."
+}
