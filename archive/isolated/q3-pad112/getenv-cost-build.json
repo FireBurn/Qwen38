@@ -1,0 +1,16 @@
+{
+  "command": [
+    "clang++",
+    "-O3",
+    "-std=c++17",
+    "-include",
+    "initializer_list",
+    "getenv-cost.cpp",
+    "-o",
+    "getenv-cost"
+  ],
+  "working_directory": "${WORKSPACE}/isolated/q3-pad112",
+  "source_sha256": "ff199d349cdd7f2ed8de92b7d9bf059b2d4b5f339de6b95234180b31a0835c0e",
+  "binary_sha256": "caa8a4df0ded2bff136404166af346d7e9a21fc4d26a43549d79ab844852cced",
+  "scope": "Actual CPU-only lookup benchmark build. Function-pointer loop overhead included."
+}

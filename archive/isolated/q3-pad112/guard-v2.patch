@@ -1,0 +1,11 @@
+--- a/ggml-vulkan.cpp
++++ b/ggml-vulkan.cpp
+@@ -12545,7 +12545,7 @@
+         }
+ 
+         const ggml_tensor*nq_g=node->op==GGML_OP_MUL_MAT?node->src[1]:nullptr;
+-        bool nq_coalesce=need_sync&&getenv("GGML_VK_NATIVE_GLUQ_COALESCE")&&!vk_perf_logger_enabled&&nq_g&&ctx->nq_skipped.count(nq_g)&&ctx->nq_plan.count(nq_g)&&ctx->nq_plan.at(nq_g)==node&&ctx->unsynced_nodes_written.size()==1&&ctx->unsynced_nodes_written[0]==nq_g&&ctx->unsynced_nodes_read.size()==2&&ctx->unsynced_nodes_read[0]==nq_g->src[0]&&ctx->unsynced_nodes_read[1]==nq_g->src[1];
++        bool nq_coalesce=need_sync&&!vk_perf_logger_enabled&&nq_g&&ctx->nq_skipped.count(nq_g)&&ctx->nq_plan.count(nq_g)&&ctx->nq_plan.at(nq_g)==node&&ctx->unsynced_nodes_written.size()==1&&ctx->unsynced_nodes_written[0]==nq_g&&ctx->unsynced_nodes_read.size()==2&&ctx->unsynced_nodes_read[0]==nq_g->src[0]&&ctx->unsynced_nodes_read[1]==nq_g->src[1]&&getenv("GGML_VK_NATIVE_GLUQ_COALESCE");
+         if (need_sync) {
+             if (vk_enable_sync_logger) {
+                 std::cerr <<  "sync" << std::endl;

@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${CLAUDE_WORKSPACE}/prodtree/common",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/q3-pad112/profile-runner.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama-common",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/q3-pad112/profile-model-bench",
+    "-ldl"
+  ],
+  "source_sha256": "38ccf6bf253985ab5d0345163d3dce8337f9b724ade28391e9b1fbebf529a033",
+  "binary_sha256": "47635a60af07c74554c568e3c37cd2f840ce739b9708780125a6a03415d08ab1"
+}

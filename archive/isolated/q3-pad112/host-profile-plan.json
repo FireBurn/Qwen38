@@ -1,0 +1,17 @@
+{
+  "arms": 8,
+  "sequence": "ABBA BAAB, after one pad warmup",
+  "tokens": 128,
+  "events": [
+    "gate",
+    "mmvq",
+    "request",
+    "dispatch",
+    "descriptor_write",
+    "commands",
+    "submit",
+    "graph"
+  ],
+  "measurement": "Nested host wall/thread-CPU scopes, intrusive diagnostic not throughput; warmup counters disabled. Counts/cost normalized by Q3 MMVQ calls, not by different output lengths. All9generations must match prior native tokens/counters.",
+  "purpose": "Separate cache-selector cost from descriptor writes, Vulkan command recording, submission and other graph work before optimizing."
+}

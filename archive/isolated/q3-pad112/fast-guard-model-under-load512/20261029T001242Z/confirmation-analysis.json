@@ -1,0 +1,142 @@
+{
+  "blocks": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "cpu_mode_means": {
+        "stock": 0.998924794318728,
+        "control": 0.9995014334391457,
+        "pad": 0.9995138405400421
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1711.0,
+        "control": 1710.75,
+        "pad": 1720.0
+      },
+      "build_mode_phase_means": {
+        "stock": 41.794129213483146,
+        "control": 52.621594323008395,
+        "pad": 53.50893410452386
+      },
+      "comparable": false,
+      "candidate_effect_percent": {
+        "control": -4.128129948480376,
+        "pad": -4.050868086748398
+      }
+    },
+    {
+      "indices": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "cpu_mode_means": {
+        "stock": 0.9995650826238645,
+        "control": 0.9981305099671431,
+        "pad": 0.9990526731566434
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1697.5,
+        "control": 1704.5,
+        "pad": 1711.5
+      },
+      "build_mode_phase_means": {
+        "stock": 33.17195506503745,
+        "control": 32.32274350649351,
+        "pad": 33.79881165346282
+      },
+      "comparable": true,
+      "candidate_effect_percent": {
+        "control": -0.05401898984818953,
+        "pad": -1.140634574192065
+      }
+    },
+    {
+      "indices": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "cpu_mode_means": {
+        "stock": 0.6999729447116065,
+        "control": 0.5843049558311164,
+        "pad": 0.7444419312297744
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1722.5,
+        "control": 1722.0,
+        "pad": 1724.0
+      },
+      "build_mode_phase_means": {
+        "stock": 4.26158940397351,
+        "control": 3,
+        "pad": 8.587061600719425
+      },
+      "comparable": false,
+      "candidate_effect_percent": {
+        "control": 10.17848401868244,
+        "pad": 3.2749652340039432
+      }
+    }
+  ],
+  "candidate_comparisons": {
+    "control": {
+      "geometric_speed_change_percent": 1.8242239391071204,
+      "descriptive_95pct_t_interval_percent": [
+        -14.722772092885181,
+        21.581960803118477
+      ],
+      "block_effects_percent": [
+        -4.128129948480376,
+        -0.05401898984818953,
+        10.17848401868244
+      ],
+      "all_blocks_comparable": false,
+      "gain_supported_under_measured_load": false,
+      "scope": "Three symmetric block contrasts, df2 Student-t interval; descriptive, limited sample and possible temporal correlation. No quiet-performance/general-deployment claim."
+    },
+    "pad": {
+      "geometric_speed_change_percent": -0.6842846121502455,
+      "descriptive_95pct_t_interval_percent": [
+        -9.406650023615184,
+        8.877873768566317
+      ],
+      "block_effects_percent": [
+        -4.050868086748398,
+        -1.140634574192065,
+        3.2749652340039432
+      ],
+      "all_blocks_comparable": false,
+      "gain_supported_under_measured_load": false,
+      "scope": "Three symmetric block contrasts, df2 Student-t interval; descriptive, limited sample and possible temporal correlation. No quiet-performance/general-deployment claim."
+    }
+  },
+  "all_tokens_and_counters_identical": true,
+  "scope": "Fixed padded-Q3 comparison against stock under CPU/build load. CPU/clocks/build comparability and model correctness retained. Nooptionalstopping.",
+  "primary_pad_vs_private_control": {
+    "geometric_speed_change_percent": -2.4635675620346515,
+    "descriptive_95pct_t_interval_percent": [
+      -10.57049391252896,
+      6.3782645005414835
+    ],
+    "block_effects_percent": [
+      0.08058866661353199,
+      -1.087202880357445,
+      -6.265759459449362
+    ],
+    "all_blocks_comparable": false,
+    "gain_supported_under_measured_load": false
+  }
+}

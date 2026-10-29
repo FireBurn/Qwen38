@@ -11,3 +11,7 @@
 - Resident-model checks completed: separate-buffer repeat finds no gain; arena screen+1.82% is not independently confirmed versus stock. Coding/math target-logit audits pass exactly. Synchronized per-verification diagnostic also establishes no qualified gain. All GPU jobs are terminal; see STATUS.md and round-handoff.json.
 
 No Claude checkout, production library, original GGUF, desktop setting, clocks or affinity changed. CPU/build load is explicitly authorized and recorded; no CPU quiet gate is used.
+
+## New qualified host follow-up, 2026-10-29
+
+host-fast-guard-v2 / frozen qualified-20261029 has a scoped+3.43%stock steady-decode gain in24matched runs,95%descriptive[+2.26,+4.62]%. All6blocks pass with no exclusions, same mappedlibc inode and all tokens/counters identical.32token and two128token target-bit audits pass. The relocated frozen snapshot also passes its32token smoke. Earlier no-gain statements apply to the earlier hosts. See host-cost-qualification.json. No mega or general-deployment gain claim.

@@ -1,0 +1,1625 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+NATIVE_SHADER_MODULES quant=0 q3=0,0,0
+Q3_PAD112_FINAL entries=0 bytes=0 calls=0
+Q3_PAD112_FINAL entries=0 bytes=0 calls=0
+0.12.678.735 I cmn          init: llama threadpool init, n_threads = 1
+Q3_PAD112_CACHE blk.7.ffn_gate.weight native=38297600 padded=38993920 total=38993920
+Q3_PAD112_CACHE blk.7.ffn_up.weight native=38297600 padded=38993920 total=77987840
+Q3_PAD112_CACHE blk.8.ffn_gate.weight native=38297600 padded=38993920 total=116981760
+Q3_PAD112_CACHE blk.8.ffn_up.weight native=38297600 padded=38993920 total=155975680
+Q3_PAD112_CACHE blk.9.ffn_gate.weight native=38297600 padded=38993920 total=194969600
+Q3_PAD112_CACHE blk.9.ffn_up.weight native=38297600 padded=38993920 total=233963520
+Q3_PAD112_CACHE blk.10.ffn_gate.weight native=38297600 padded=38993920 total=272957440
+Q3_PAD112_CACHE blk.10.ffn_up.weight native=38297600 padded=38993920 total=311951360
+Q3_PAD112_CACHE blk.11.ffn_gate.weight native=38297600 padded=38993920 total=350945280
+Q3_PAD112_CACHE blk.11.ffn_up.weight native=38297600 padded=38993920 total=389939200
+Q3_PAD112_CACHE blk.12.ffn_gate.weight native=38297600 padded=38993920 total=428933120
+Q3_PAD112_CACHE blk.12.ffn_up.weight native=38297600 padded=38993920 total=467927040
+Q3_PAD112_CACHE blk.13.ffn_gate.weight native=38297600 padded=38993920 total=506920960
+Q3_PAD112_CACHE blk.13.ffn_up.weight native=38297600 padded=38993920 total=545914880
+Q3_PAD112_CACHE blk.14.ffn_gate.weight native=38297600 padded=38993920 total=584908800
+Q3_PAD112_CACHE blk.14.ffn_up.weight native=38297600 padded=38993920 total=623902720
+Q3_PAD112_CACHE blk.15.ffn_gate.weight native=38297600 padded=38993920 total=662896640
+Q3_PAD112_CACHE blk.15.ffn_up.weight native=38297600 padded=38993920 total=701890560
+Q3_PAD112_CACHE blk.16.ffn_gate.weight native=38297600 padded=38993920 total=740884480
+Q3_PAD112_CACHE blk.16.ffn_up.weight native=38297600 padded=38993920 total=779878400
+Q3_PAD112_CACHE blk.17.ffn_gate.weight native=38297600 padded=38993920 total=818872320
+Q3_PAD112_CACHE blk.17.ffn_up.weight native=38297600 padded=38993920 total=857866240
+Q3_PAD112_CACHE blk.18.ffn_gate.weight native=38297600 padded=38993920 total=896860160
+Q3_PAD112_CACHE blk.18.ffn_up.weight native=38297600 padded=38993920 total=935854080
+Q3_PAD112_CACHE blk.19.ffn_gate.weight native=38297600 padded=38993920 total=974848000
+Q3_PAD112_CACHE blk.19.ffn_up.weight native=38297600 padded=38993920 total=1013841920
+Q3_PAD112_CACHE blk.20.ffn_gate.weight native=38297600 padded=38993920 total=1052835840
+Q3_PAD112_CACHE blk.20.ffn_up.weight native=38297600 padded=38993920 total=1091829760
+Q3_PAD112_CACHE blk.22.ffn_gate.weight native=38297600 padded=38993920 total=1130823680
+Q3_PAD112_CACHE blk.22.ffn_up.weight native=38297600 padded=38993920 total=1169817600
+Q3_PAD112_CACHE blk.23.ffn_gate.weight native=38297600 padded=38993920 total=1208811520
+Q3_PAD112_CACHE blk.23.ffn_up.weight native=38297600 padded=38993920 total=1247805440
+Q3_PAD112_CACHE blk.24.ffn_gate.weight native=38297600 padded=38993920 total=1286799360
+Q3_PAD112_CACHE blk.24.ffn_up.weight native=38297600 padded=38993920 total=1325793280
+Q3_PAD112_CACHE blk.25.ffn_gate.weight native=38297600 padded=38993920 total=1364787200
+Q3_PAD112_CACHE blk.25.ffn_up.weight native=38297600 padded=38993920 total=1403781120
+Q3_PAD112_CACHE blk.26.ffn_gate.weight native=38297600 padded=38993920 total=1442775040
+Q3_PAD112_CACHE blk.26.ffn_up.weight native=38297600 padded=38993920 total=1481768960
+Q3_PAD112_CACHE blk.27.ffn_gate.weight native=38297600 padded=38993920 total=1520762880
+Q3_PAD112_CACHE blk.27.ffn_up.weight native=38297600 padded=38993920 total=1559756800
+Q3_PAD112_CACHE blk.28.ffn_gate.weight native=38297600 padded=38993920 total=1598750720
+Q3_PAD112_CACHE blk.28.ffn_up.weight native=38297600 padded=38993920 total=1637744640
+Q3_PAD112_CACHE blk.29.ffn_gate.weight native=38297600 padded=38993920 total=1676738560
+Q3_PAD112_CACHE blk.29.ffn_up.weight native=38297600 padded=38993920 total=1715732480
+Q3_PAD112_CACHE blk.30.ffn_gate.weight native=38297600 padded=38993920 total=1754726400
+Q3_PAD112_CACHE blk.30.ffn_up.weight native=38297600 padded=38993920 total=1793720320
+Q3_PAD112_CACHE blk.31.ffn_gate.weight native=38297600 padded=38993920 total=1832714240
+Q3_PAD112_CACHE blk.31.ffn_up.weight native=38297600 padded=38993920 total=1871708160
+Q3_PAD112_CACHE blk.32.ffn_gate.weight native=38297600 padded=38993920 total=1910702080
+Q3_PAD112_CACHE blk.32.ffn_up.weight native=38297600 padded=38993920 total=1949696000
+Q3_PAD112_CACHE blk.33.ffn_gate.weight native=38297600 padded=38993920 total=1988689920
+Q3_PAD112_CACHE blk.33.ffn_up.weight native=38297600 padded=38993920 total=2027683840
+Q3_PAD112_CACHE blk.34.ffn_gate.weight native=38297600 padded=38993920 total=2066677760
+Q3_PAD112_CACHE blk.34.ffn_up.weight native=38297600 padded=38993920 total=2105671680
+Q3_PAD112_CACHE blk.35.ffn_gate.weight native=38297600 padded=38993920 total=2144665600
+Q3_PAD112_CACHE blk.35.ffn_up.weight native=38297600 padded=38993920 total=2183659520
+Q3_PAD112_CACHE blk.36.ffn_gate.weight native=38297600 padded=38993920 total=2222653440
+Q3_PAD112_CACHE blk.36.ffn_up.weight native=38297600 padded=38993920 total=2261647360
+Q3_PAD112_CACHE blk.37.ffn_gate.weight native=38297600 padded=38993920 total=2300641280
+Q3_PAD112_CACHE blk.37.ffn_up.weight native=38297600 padded=38993920 total=2339635200
+Q3_PAD112_CACHE blk.38.ffn_gate.weight native=38297600 padded=38993920 total=2378629120
+Q3_PAD112_CACHE blk.38.ffn_up.weight native=38297600 padded=38993920 total=2417623040
+Q3_PAD112_CACHE blk.39.ffn_gate.weight native=38297600 padded=38993920 total=2456616960
+Q3_PAD112_CACHE blk.39.ffn_up.weight native=38297600 padded=38993920 total=2495610880
+Q3_PAD112_CACHE blk.40.ffn_gate.weight native=38297600 padded=38993920 total=2534604800
+Q3_PAD112_CACHE blk.40.ffn_up.weight native=38297600 padded=38993920 total=2573598720
+Q3_PAD112_CACHE blk.41.ffn_gate.weight native=38297600 padded=38993920 total=2612592640
+Q3_PAD112_CACHE blk.41.ffn_up.weight native=38297600 padded=38993920 total=2651586560
+Q3_PAD112_CACHE blk.43.ffn_gate.weight native=38297600 padded=38993920 total=2690580480
+Q3_PAD112_CACHE blk.43.ffn_up.weight native=38297600 padded=38993920 total=2729574400
+Q3_PAD112_CACHE blk.45.ffn_gate.weight native=38297600 padded=38993920 total=2768568320
+Q3_PAD112_CACHE blk.45.ffn_up.weight native=38297600 padded=38993920 total=2807562240
+Q3_PAD112_CACHE blk.47.ffn_gate.weight native=38297600 padded=38993920 total=2846556160
+Q3_PAD112_CACHE blk.47.ffn_up.weight native=38297600 padded=38993920 total=2885550080
+Q3_PAD112_CACHE blk.51.ffn_gate.weight native=38297600 padded=38993920 total=2924544000
+Q3_PAD112_CACHE blk.51.ffn_up.weight native=38297600 padded=38993920 total=2963537920
+Q3_PAD112_CACHE blk.55.ffn_gate.weight native=38297600 padded=38993920 total=3002531840
+Q3_PAD112_CACHE blk.55.ffn_up.weight native=38297600 padded=38993920 total=3041525760
+BACKEND_PATH_OK ${WORKSPACE}/isolated/q3-pad112/host-profile/bin/libggml-vulkan.so.0.27.0
+DRIVER_PATH_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+0.12.934.375 I common_speculative_init_result: creating MTP draft context against the target model '${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf'
+INPROCESS_ARM_BEGIN arm=-1 mode=pad time_us=97650068634
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 4216
+ the eventsACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 5879
+ that ledACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 279
+ to theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ACCEPTED_TOKEN 350
+ AugustusACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 760
+TheFULL_MODEL_WARM tokens=17 time_us=97651237524
+ACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 66900
+ JuliusACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 220
+ ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 17501
+ BCACCEPTED_TOKEN 12495
+ACCEPTED_TOKEN 279
+ marked theACCEPTED_TOKEN 6941
+ beginningACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 4031
+ periodACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 4788
+ politicalACCEPTED_TOKEN 53442
+ instabilityACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 21047
+ RomeACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 579
+ Caesar'sACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 11354
+ carriedACCEPTED_TOKEN 680
+ outACCEPTED_TOKEN 539
+ byACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 1809
+ groupACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 37632
+ senatorsACCEPTED_TOKEN 852
+ACCEPTED_TOKEN 36229
+ who fearedACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 7578
+ growingACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4486
+ AfterACCEPTED_TOKEN 780
+ACCEPTED_TOKEN 4397
+ his deathACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 264
+, aACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ struggleACCEPTED_TOKEN 58145
+ACCEPTED_TOKEN 4082
+ erupted amongACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 87194
+ heirsACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 67695
+ and generalsACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+ACCEPTED_TOKEN 3833
+OneACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 1328
+ keyACCEPTED_TOKEN 12041
+ figuresACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 411
+ thisACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ struggleACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 4246
+ACCEPTED_TOKEN 93290
+ Mark AntonyACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 3160
+ closeACCEPTED_TOKEN 29842
+ allyACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 93290
+. AntonyACCEPTED_TOKEN 14661
+ initiallyACCEPTED_TOKEN 13668
+ controlledACCEPTED_TOKEN 1691
+ muchACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 22426
+ easternACCEPTED_TOKEN 919
+ partACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 2583
+ includingACCEPTED_TOKEN 14437
+ACCEPTED_TOKEN 13
+ Egypt.ACCEPTED_TOKEN 4213
+ACCEPTED_TOKEN 11
+ However,ACCEPTED_TOKEN 551
+ACCEPTED_TOKEN 4970
+ he soonACCEPTED_TOKEN 1669
+ foundACCEPTED_TOKEN 5387
+ACCEPTED_TOKEN 303
+ himself inACCEPTED_TOKEN 11712
+ACCEPTED_TOKEN 440
+ conflict withACCEPTED_TOKEN 4756
+ACCEPTED_TOKEN 57177
+ OctavianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+ACCEPTED_TOKEN 17295
+'s adoptedACCEPTED_TOKEN 4292
+ sonACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 48745
+ heirACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 17514
+OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 852
+ whoFULL_MODEL_TIMING warm_tokens=17 cold_generation_us=870327 steady_tokens=112 steady_us=5433534 total_generation_us=6303861
+
+
+0.19.577.442 I encoded   37 tokens in    0.298 seconds, speed:  124.050 t/s
+0.19.577.455 I decoded  129 tokens in    6.304 seconds, speed:   20.464 t/s
+0.19.577.466 I 
+0.19.577.475 I n_draft   = 1
+0.19.577.486 I n_predict = 129
+0.19.577.496 I n_drafted = 74
+0.19.577.506 I n_accept  = 55
+0.19.577.519 I accept    = 74.324%
+0.19.577.530 I 
+0.19.577.541 I draft:
+
+0.19.577.576 I 
+0.19.577.594 I target:
+
+0.19.577.607 I common_perf_print:    sampling time =      52.68 ms
+0.19.577.619 I common_perf_print:    samplers time =      25.64 ms /   129 tokens
+0.19.577.630 I common_perf_print:        load time =    9179.47 ms
+0.19.577.643 I common_perf_print: prompt eval time =    4297.48 ms /   184 tokens (   23.36 ms per token,    42.82 tokens per second)
+0.19.577.654 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.19.577.664 I common_perf_print:       total time =    6602.63 ms /   185 tokens
+0.19.577.694 I common_perf_print: unaccounted time =    2252.48 ms /  34.1 %      (total - sampling - prompt eval - eval) / (total)
+0.19.577.709 I common_perf_print:    graphs reused =         73
+0.19.577.722 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+INPROCESS_ARM_END arm=-1 mode=pad time_us=97656671980
+INPROCESS_ARM_BEGIN arm=0 mode=control time_us=97656677034
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 4216
+ eventsACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 5879
+ that ledACCEPTED_TOKEN 310
+ toACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ACCEPTED_TOKEN 350
+ AugustusACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 760
+TheFULL_MODEL_WARM tokens=17 time_us=97657741100
+ACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 66900
+ of JuliusACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 303
+ Caesar inACCEPTED_TOKEN 220
+ ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 17501
+ BCACCEPTED_TOKEN 12495
+ markedACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 6941
+ beginningACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 4031
+ periodACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 4788
+ politicalACCEPTED_TOKEN 53442
+ instabilityACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 21047
+ACCEPTED_TOKEN 13
+ Rome.ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 11354
+ carriedACCEPTED_TOKEN 680
+ACCEPTED_TOKEN 539
+ out byACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 1809
+ a groupACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 37632
+ of senatorsACCEPTED_TOKEN 852
+ACCEPTED_TOKEN 36229
+ who fearedACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 7578
+ growingACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4486
+ AfterACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 4397
+ deathACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ struggleACCEPTED_TOKEN 58145
+ eruptedACCEPTED_TOKEN 4082
+ amongACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 87194
+ heirsACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 67695
+ generalsACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 3833
+OneACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 1328
+ACCEPTED_TOKEN 12041
+ key figuresACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 411
+ thisACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ struggleACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 4246
+ACCEPTED_TOKEN 93290
+ Mark AntonyACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 264
+, aACCEPTED_TOKEN 3160
+ACCEPTED_TOKEN 29842
+ close allyACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 93290
+ AntonyACCEPTED_TOKEN 14661
+ initiallyACCEPTED_TOKEN 13668
+ controlledACCEPTED_TOKEN 1691
+ muchACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 22426
+ easternACCEPTED_TOKEN 919
+ partACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 2583
+ includingACCEPTED_TOKEN 14437
+ EgyptACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4213
+ACCEPTED_TOKEN 11
+ However,ACCEPTED_TOKEN 551
+ACCEPTED_TOKEN 4970
+ he soonACCEPTED_TOKEN 1669
+ foundACCEPTED_TOKEN 5387
+ himselfACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 11712
+ conflictACCEPTED_TOKEN 440
+ withACCEPTED_TOKEN 4756
+ OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 17295
+ adoptedACCEPTED_TOKEN 4292
+ sonACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 48745
+ heirACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 17514
+ACCEPTED_TOKEN 57177
+OctavianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 852
+ whoFULL_MODEL_TIMING warm_tokens=17 cold_generation_us=881022 steady_tokens=112 steady_us=5583956 total_generation_us=6464978
+
+
+0.26.231.434 I encoded   37 tokens in    0.182 seconds, speed:  202.806 t/s
+0.26.231.446 I decoded  129 tokens in    6.465 seconds, speed:   19.954 t/s
+0.26.231.466 I 
+0.26.231.476 I n_draft   = 1
+0.26.231.485 I n_predict = 129
+0.26.231.494 I n_drafted = 74
+0.26.231.504 I n_accept  = 55
+0.26.231.513 I accept    = 74.324%
+0.26.231.523 I 
+0.26.231.532 I draft:
+
+0.26.231.554 I 
+0.26.231.564 I target:
+
+0.26.231.575 I common_perf_print:    sampling time =      54.13 ms
+0.26.231.585 I common_perf_print:    samplers time =      19.13 ms /   129 tokens
+0.26.231.595 I common_perf_print:        load time =    9179.47 ms
+0.26.231.606 I common_perf_print: prompt eval time =    4621.16 ms /   184 tokens (   25.12 ms per token,    39.82 tokens per second)
+0.26.231.617 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.26.231.627 I common_perf_print:       total time =    6648.20 ms /   185 tokens
+0.26.231.638 I common_perf_print: unaccounted time =    1972.91 ms /  29.7 %      (total - sampling - prompt eval - eval) / (total)
+0.26.231.647 I common_perf_print:    graphs reused =         73
+0.26.233.878 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+INPROCESS_ARM_END arm=0 mode=control time_us=97663327913
+NP_PROFILE arm=0 event=gate count=5772 wall_ns=19965466 cpu_ns=15769571
+NP_PROFILE arm=0 event=mmvq count=5772 wall_ns=86155224 cpu_ns=44287033
+NP_PROFILE arm=0 event=request count=5772 wall_ns=4567933 cpu_ns=2305299
+NP_PROFILE arm=0 event=dispatch count=5772 wall_ns=18474566 cpu_ns=12381905
+NP_PROFILE arm=0 event=descriptor_write count=78 wall_ns=26777 cpu_ns=49523
+NP_PROFILE arm=0 event=commands count=5772 wall_ns=4967433 cpu_ns=6234406
+NP_PROFILE arm=0 event=submit count=5026 wall_ns=706995171 cpu_ns=197302051
+NP_PROFILE arm=0 event=graph count=224 wall_ns=2952770192 cpu_ns=1227842362
+INPROCESS_ARM_BEGIN arm=1 mode=pad time_us=97663331023
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 4216
+ eventsACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 5879
+ that ledACCEPTED_TOKEN 310
+ toACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ACCEPTED_TOKEN 350
+ AugustusACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 760
+TheFULL_MODEL_WARM tokens=17 time_us=97664415218
+ACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 66900
+ of JuliusACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 220
+ ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 17501
+ BCACCEPTED_TOKEN 12495
+ markedACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 6941
+ beginningACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 4031
+ periodACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 4788
+ politicalACCEPTED_TOKEN 53442
+ instabilityACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 21047
+ RomeACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 11354
+ carriedACCEPTED_TOKEN 680
+ outACCEPTED_TOKEN 539
+ byACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 1809
+ groupACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 37632
+ senatorsACCEPTED_TOKEN 852
+ whoACCEPTED_TOKEN 36229
+ fearedACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 7578
+ growingACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4486
+ AfterACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 4397
+ deathACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ struggleACCEPTED_TOKEN 58145
+ eruptedACCEPTED_TOKEN 4082
+ amongACCEPTED_TOKEN 780
+ACCEPTED_TOKEN 87194
+ his heirsACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 67695
+ and generalsACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+ACCEPTED_TOKEN 3833
+OneACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 1328
+ACCEPTED_TOKEN 12041
+ key figuresACCEPTED_TOKEN 303
+ACCEPTED_TOKEN 411
+ in thisACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ACCEPTED_TOKEN 557
+ struggle wasACCEPTED_TOKEN 4246
+ACCEPTED_TOKEN 93290
+ Mark AntonyACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 3160
+ closeACCEPTED_TOKEN 29842
+ allyACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 93290
+ AntonyACCEPTED_TOKEN 14661
+ initiallyACCEPTED_TOKEN 13668
+ controlledACCEPTED_TOKEN 1691
+ muchACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 22426
+ easternACCEPTED_TOKEN 919
+ partACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 2583
+ includingACCEPTED_TOKEN 14437
+ EgyptACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4213
+ HoweverACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 551
+ heACCEPTED_TOKEN 4970
+ soonACCEPTED_TOKEN 1669
+ foundACCEPTED_TOKEN 5387
+ himselfACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 11712
+ conflictACCEPTED_TOKEN 440
+ withACCEPTED_TOKEN 4756
+ OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+ACCEPTED_TOKEN 17295
+'s adoptedACCEPTED_TOKEN 4292
+ sonACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 48745
+ and heirACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 17514
+OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 852
+ whoFULL_MODEL_TIMING warm_tokens=17 cold_generation_us=928308 steady_tokens=112 steady_us=5706577 total_generation_us=6634885
+
+
+0.33.028.625 I encoded   37 tokens in    0.155 seconds, speed:  238.249 t/s
+0.33.028.639 I decoded  129 tokens in    6.635 seconds, speed:   19.443 t/s
+0.33.028.649 I 
+0.33.028.659 I n_draft   = 1
+0.33.028.669 I n_predict = 129
+0.33.028.678 I n_drafted = 74
+0.33.028.688 I n_accept  = 55
+0.33.028.699 I accept    = 74.324%
+0.33.028.708 I 
+0.33.028.718 I draft:
+
+0.33.028.745 I 
+0.33.028.755 I target:
+
+0.33.028.766 I common_perf_print:    sampling time =      51.72 ms
+0.33.028.777 I common_perf_print:    samplers time =      17.69 ms /   129 tokens
+0.33.028.789 I common_perf_print:        load time =    9179.47 ms
+0.33.028.800 I common_perf_print: prompt eval time =    4947.82 ms /   184 tokens (   26.89 ms per token,    37.19 tokens per second)
+0.33.028.812 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.33.028.823 I common_perf_print:       total time =    6791.40 ms /   185 tokens
+0.33.028.833 I common_perf_print: unaccounted time =    1791.87 ms /  26.4 %      (total - sampling - prompt eval - eval) / (total)
+0.33.028.843 I common_perf_print:    graphs reused =         73
+0.33.028.852 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+INPROCESS_ARM_END arm=1 mode=pad time_us=97670122923
+NP_PROFILE arm=1 event=gate count=5772 wall_ns=75492176 cpu_ns=45579815
+NP_PROFILE arm=1 event=mmvq count=5772 wall_ns=152742949 cpu_ns=73642567
+NP_PROFILE arm=1 event=request count=5772 wall_ns=201981 cpu_ns=1153310
+NP_PROFILE arm=1 event=dispatch count=5772 wall_ns=15977469 cpu_ns=12346658
+NP_PROFILE arm=1 event=descriptor_write count=78 wall_ns=18822 cpu_ns=39943
+NP_PROFILE arm=1 event=commands count=5772 wall_ns=4590556 cpu_ns=6024087
+NP_PROFILE arm=1 event=submit count=5026 wall_ns=763958189 cpu_ns=187321117
+NP_PROFILE arm=1 event=graph count=224 wall_ns=3386184887 cpu_ns=1370128654
+INPROCESS_ARM_BEGIN arm=2 mode=pad time_us=97670127801
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 4216
+ eventsACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 5879
+ that ledACCEPTED_TOKEN 310
+ toACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ACCEPTED_TOKEN 350
+ AugustusACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 760
+TheFULL_MODEL_WARM tokens=17 time_us=97671097876
+ACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 66900
+ JuliusACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 19
+ 4ACCEPTED_TOKEN 19
+ACCEPTED_TOKEN 17501
+4 BCACCEPTED_TOKEN 12495
+ markedACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 6941
+ beginningACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 4031
+ periodACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 4788
+ politicalACCEPTED_TOKEN 53442
+ACCEPTED_TOKEN 303
+ instability inACCEPTED_TOKEN 21047
+ACCEPTED_TOKEN 13
+ Rome.ACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 579
+ Caesar'sACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 11354
+ carriedACCEPTED_TOKEN 680
+ACCEPTED_TOKEN 539
+ out byACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 1809
+ a groupACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 37632
+ of senatorsACCEPTED_TOKEN 852
+ACCEPTED_TOKEN 36229
+ who fearedACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 7578
+ growingACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4486
+ AfterACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 4397
+ deathACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ struggleACCEPTED_TOKEN 58145
+ eruptedACCEPTED_TOKEN 4082
+ amongACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 87194
+ heirsACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 67695
+ and generalsACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+ACCEPTED_TOKEN 3833
+OneACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 1328
+ACCEPTED_TOKEN 12041
+ key figuresACCEPTED_TOKEN 303
+ACCEPTED_TOKEN 411
+ in thisACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ACCEPTED_TOKEN 557
+ struggle wasACCEPTED_TOKEN 4246
+ACCEPTED_TOKEN 93290
+ Mark AntonyACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 264
+, aACCEPTED_TOKEN 3160
+ACCEPTED_TOKEN 29842
+ close allyACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 51852
+ of CaesarACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 93290
+. AntonyACCEPTED_TOKEN 14661
+ initiallyACCEPTED_TOKEN 13668
+ controlledACCEPTED_TOKEN 1691
+ muchACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 22426
+ easternACCEPTED_TOKEN 919
+ partACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 2583
+ includingACCEPTED_TOKEN 14437
+ EgyptACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4213
+ACCEPTED_TOKEN 11
+ However,ACCEPTED_TOKEN 551
+ heACCEPTED_TOKEN 4970
+ soonACCEPTED_TOKEN 1669
+ foundACCEPTED_TOKEN 5387
+ himselfACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 11712
+ conflictACCEPTED_TOKEN 440
+ withACCEPTED_TOKEN 4756
+ OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 51852
+, CaesarACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 17295
+ adoptedACCEPTED_TOKEN 4292
+ sonACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 48745
+ heirACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 17514
+OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 852
+ whoFULL_MODEL_TIMING warm_tokens=17 cold_generation_us=802608 steady_tokens=112 steady_us=5685226 total_generation_us=6487834
+
+
+0.39.689.479 I encoded   37 tokens in    0.165 seconds, speed:  223.909 t/s
+0.39.689.491 I decoded  129 tokens in    6.488 seconds, speed:   19.883 t/s
+0.39.689.500 I 
+0.39.689.510 I n_draft   = 1
+0.39.689.520 I n_predict = 129
+0.39.689.529 I n_drafted = 74
+0.39.689.539 I n_accept  = 55
+0.39.689.549 I accept    = 74.324%
+0.39.689.559 I 
+0.39.689.569 I draft:
+
+0.39.689.591 I 
+0.39.689.602 I target:
+
+0.39.689.613 I common_perf_print:    sampling time =      55.98 ms
+0.39.689.623 I common_perf_print:    samplers time =      19.25 ms /   129 tokens
+0.39.689.634 I common_perf_print:        load time =    9179.47 ms
+0.39.689.645 I common_perf_print: prompt eval time =    4683.91 ms /   184 tokens (   25.46 ms per token,    39.28 tokens per second)
+0.39.689.657 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.39.689.667 I common_perf_print:       total time =    6655.47 ms /   185 tokens
+0.39.689.678 I common_perf_print: unaccounted time =    1915.58 ms /  28.8 %      (total - sampling - prompt eval - eval) / (total)
+0.39.689.688 I common_perf_print:    graphs reused =         73
+0.39.689.698 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+INPROCESS_ARM_END arm=2 mode=pad time_us=97676783699
+NP_PROFILE arm=2 event=gate count=5772 wall_ns=68062873 cpu_ns=46629960
+NP_PROFILE arm=2 event=mmvq count=5772 wall_ns=140948195 cpu_ns=74780691
+NP_PROFILE arm=2 event=request count=5772 wall_ns=197587 cpu_ns=1148346
+NP_PROFILE arm=2 event=dispatch count=5772 wall_ns=28890954 cpu_ns=12858801
+NP_PROFILE arm=2 event=descriptor_write count=78 wall_ns=20134 cpu_ns=43136
+NP_PROFILE arm=2 event=commands count=5772 wall_ns=7919456 cpu_ns=6517452
+NP_PROFILE arm=2 event=submit count=5026 wall_ns=755144383 cpu_ns=188375294
+NP_PROFILE arm=2 event=graph count=224 wall_ns=3272272076 cpu_ns=1390524081
+INPROCESS_ARM_BEGIN arm=3 mode=control time_us=97676787774
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 4216
+ the eventsACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 5879
+ that ledACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 279
+ to theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ AugustACCEPTED_TOKEN 350
+usACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 760
+TheFULL_MODEL_WARM tokens=17 time_us=97677778168
+ACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 66900
+ JuliusACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 220
+ ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 19
+ACCEPTED_TOKEN 17501
+4 BCACCEPTED_TOKEN 12495
+ markedACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 6941
+ACCEPTED_TOKEN 314
+ beginning ofACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 4031
+ periodACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 4788
+ of politicalACCEPTED_TOKEN 53442
+ACCEPTED_TOKEN 303
+ instability inACCEPTED_TOKEN 21047
+ RomeACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 11354
+ carriedACCEPTED_TOKEN 680
+ACCEPTED_TOKEN 539
+ out byACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 1809
+ a groupACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 37632
+ senatorsACCEPTED_TOKEN 852
+ whoACCEPTED_TOKEN 36229
+ fearedACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 7578
+ACCEPTED_TOKEN 2279
+ growing powerACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4486
+ AfterACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 4397
+ deathACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 2279
+ACCEPTED_TOKEN 14230
+ power struggleACCEPTED_TOKEN 58145
+ eruptedACCEPTED_TOKEN 4082
+ amongACCEPTED_TOKEN 780
+ACCEPTED_TOKEN 87194
+ his heirsACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 67695
+ and generalsACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+ACCEPTED_TOKEN 3833
+OneACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 1328
+ keyACCEPTED_TOKEN 12041
+ figuresACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 411
+ thisACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ACCEPTED_TOKEN 557
+ struggle wasACCEPTED_TOKEN 4246
+ACCEPTED_TOKEN 93290
+ Mark AntonyACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 3160
+ closeACCEPTED_TOKEN 29842
+ allyACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 93290
+ AntonyACCEPTED_TOKEN 14661
+ initiallyACCEPTED_TOKEN 13668
+ controlledACCEPTED_TOKEN 1691
+ muchACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 22426
+ easternACCEPTED_TOKEN 919
+ partACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 2583
+, includingACCEPTED_TOKEN 14437
+ACCEPTED_TOKEN 13
+ Egypt.ACCEPTED_TOKEN 4213
+ACCEPTED_TOKEN 11
+ However,ACCEPTED_TOKEN 551
+ACCEPTED_TOKEN 4970
+ he soonACCEPTED_TOKEN 1669
+ foundACCEPTED_TOKEN 5387
+ himselfACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 11712
+ACCEPTED_TOKEN 440
+ conflict withACCEPTED_TOKEN 4756
+ OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 51852
+, CaesarACCEPTED_TOKEN 579
+ACCEPTED_TOKEN 17295
+'s adoptedACCEPTED_TOKEN 4292
+ sonACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 48745
+ heirACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+ACCEPTED_TOKEN 17514
+OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 852
+FULL_MODEL_TIMING warm_tokens=17 cold_generation_us=814802 steady_tokens=112 steady_us=5653963 total_generation_us=6468765
+INPROCESS_ARM_END arm=3 mode=control time_us=97683432556
+NP_PROFILE arm=3 event=gate count=5772 wall_ns=30778899 cpu_ns=15973001
+NP_PROFILE arm=3 event=mmvq count=5772 wall_ns=122033558 cpu_ns=43590235
+NP_PROFILE arm=3 event=request count=5772 wall_ns=162614 cpu_ns=1094550
+NP_PROFILE arm=3 event=dispatch count=5772 wall_ns=34623899 cpu_ns=12723759
+NP_PROFILE arm=3 event=descriptor_write count=78 wall_ns=24277 cpu_ns=59043
+NP_PROFILE arm=3 event=commands count=5772 wall_ns=5285491 cpu_ns=6658706
+NP_PROFILE arm=3 event=submit count=5026 wall_ns=635163283 cpu_ns=188416572
+NP_PROFILE arm=3 event=graph count=224 wall_ns=2971148573 cpu_ns=1195193706
+, who
+
+0.46.338.512 I encoded   37 tokens in    0.173 seconds, speed:  214.161 t/s
+0.46.338.513 I decoded  129 tokens in    6.469 seconds, speed:   19.942 t/s
+0.46.338.514 I 
+0.46.338.514 I n_draft   = 1
+0.46.338.514 I n_predict = 129
+0.46.338.515 I n_drafted = 74
+0.46.338.515 I n_accept  = 55
+0.46.338.516 I accept    = 74.324%
+0.46.338.516 I 
+0.46.338.516 I draft:
+
+0.46.338.531 I 
+0.46.338.531 I target:
+
+0.46.338.534 I common_perf_print:    sampling time =      54.17 ms
+0.46.338.535 I common_perf_print:    samplers time =      23.12 ms /   129 tokens
+0.46.338.536 I common_perf_print:        load time =    9179.47 ms
+0.46.338.538 I common_perf_print: prompt eval time =    4518.44 ms /   184 tokens (   24.56 ms per token,    40.72 tokens per second)
+0.46.338.540 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.46.338.541 I common_perf_print:       total time =    6644.40 ms /   185 tokens
+0.46.338.543 I common_perf_print: unaccounted time =    2071.80 ms /  31.2 %      (total - sampling - prompt eval - eval) / (total)
+0.46.338.543 I common_perf_print:    graphs reused =         73
+0.46.338.544 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+INPROCESS_ARM_BEGIN arm=4 mode=pad time_us=97683437108
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 4216
+ eventsACCEPTED_TOKEN 421
+ thatACCEPTED_TOKEN 5879
+ ledACCEPTED_TOKEN 310
+ toACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ AugustACCEPTED_TOKEN 350
+usACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 760
+TheFULL_MODEL_WARM tokens=17 time_us=97684696995
+ACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 66900
+ of JuliusACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 303
+ Caesar inACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 19
+ 4ACCEPTED_TOKEN 19
+ACCEPTED_TOKEN 17501
+4 BCACCEPTED_TOKEN 12495
+ACCEPTED_TOKEN 279
+ marked theACCEPTED_TOKEN 6941
+ACCEPTED_TOKEN 314
+ beginning ofACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 4031
+ periodACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 4788
+ of politicalACCEPTED_TOKEN 53442
+ACCEPTED_TOKEN 303
+ instability inACCEPTED_TOKEN 21047
+ACCEPTED_TOKEN 13
+ Rome.ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 11354
+ carriedACCEPTED_TOKEN 680
+ outACCEPTED_TOKEN 539
+ byACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 1809
+ groupACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 37632
+ senatorsACCEPTED_TOKEN 852
+ACCEPTED_TOKEN 36229
+ who fearedACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 7578
+ACCEPTED_TOKEN 2279
+ growing powerACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4486
+ AfterACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 4397
+ deathACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 264
+, aACCEPTED_TOKEN 2279
+ACCEPTED_TOKEN 14230
+ power struggleACCEPTED_TOKEN 58145
+ eruptedACCEPTED_TOKEN 4082
+ amongACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 87194
+ heirsACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 67695
+ generalsACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 3833
+OneACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 1328
+ACCEPTED_TOKEN 12041
+ key figuresACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 411
+ thisACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ struggleACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 4246
+ACCEPTED_TOKEN 93290
+ Mark AntonyACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 3160
+ACCEPTED_TOKEN 29842
+ close allyACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 51852
+ of CaesarACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 93290
+. AntonyACCEPTED_TOKEN 14661
+ initiallyACCEPTED_TOKEN 13668
+ controlledACCEPTED_TOKEN 1691
+ muchACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 22426
+ easternACCEPTED_TOKEN 919
+ partACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 2583
+ includingACCEPTED_TOKEN 14437
+ACCEPTED_TOKEN 13
+ Egypt.ACCEPTED_TOKEN 4213
+ACCEPTED_TOKEN 11
+ However,ACCEPTED_TOKEN 551
+ACCEPTED_TOKEN 4970
+ he soonACCEPTED_TOKEN 1669
+ foundACCEPTED_TOKEN 5387
+ himselfACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 11712
+ACCEPTED_TOKEN 440
+ conflict withACCEPTED_TOKEN 4756
+ACCEPTED_TOKEN 57177
+ OctavianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 17295
+ adoptedACCEPTED_TOKEN 4292
+ sonACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 48745
+ heirACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 17514
+OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 852
+FULL_MODEL_TIMING warm_tokens=17 cold_generation_us=1063830 steady_tokens=112 steady_us=5804390 total_generation_us=6868220
+INPROCESS_ARM_END arm=4 mode=pad time_us=97690501764
+NP_PROFILE arm=4 event=gate count=5772 wall_ns=82981116 cpu_ns=46731192
+NP_PROFILE arm=4 event=mmvq count=5772 wall_ns=152699645 cpu_ns=74693212
+NP_PROFILE arm=4 event=request count=5772 wall_ns=180183 cpu_ns=1156996
+NP_PROFILE arm=4 event=dispatch count=5772 wall_ns=20863528 cpu_ns=12603683
+NP_PROFILE arm=4 event=descriptor_write count=78 wall_ns=21362 cpu_ns=41879
+NP_PROFILE arm=4 event=commands count=5772 wall_ns=4928290 cpu_ns=6277157
+NP_PROFILE arm=4 event=submit count=5026 wall_ns=746782441 cpu_ns=190142696
+NP_PROFILE arm=4 event=graph count=224 wall_ns=3277438031 cpu_ns=1341618312
+, who
+
+0.53.407.754 I encoded   37 tokens in    0.195 seconds, speed:  189.285 t/s
+0.53.407.756 I decoded  129 tokens in    6.868 seconds, speed:   18.782 t/s
+0.53.407.756 I 
+0.53.407.756 I n_draft   = 1
+0.53.407.757 I n_predict = 129
+0.53.407.757 I n_drafted = 74
+0.53.407.757 I n_accept  = 55
+0.53.407.758 I accept    = 74.324%
+0.53.407.758 I 
+0.53.407.759 I draft:
+
+0.53.407.771 I 
+0.53.407.771 I target:
+
+0.53.407.773 I common_perf_print:    sampling time =      59.20 ms
+0.53.407.774 I common_perf_print:    samplers time =      22.73 ms /   129 tokens
+0.53.407.775 I common_perf_print:        load time =    9179.47 ms
+0.53.407.777 I common_perf_print: prompt eval time =    4920.86 ms /   184 tokens (   26.74 ms per token,    37.39 tokens per second)
+0.53.407.778 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.53.407.780 I common_perf_print:       total time =    7064.30 ms /   185 tokens
+0.53.407.781 I common_perf_print: unaccounted time =    2084.24 ms /  29.5 %      (total - sampling - prompt eval - eval) / (total)
+0.53.407.781 I common_perf_print:    graphs reused =         73
+0.53.407.782 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+INPROCESS_ARM_BEGIN arm=5 mode=control time_us=97690507036
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 4216
+ eventsACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 5879
+ that ledACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 279
+ to theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ AugustACCEPTED_TOKEN 350
+usACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 760
+TheFULL_MODEL_WARM tokens=17 time_us=97691532869
+ACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 66900
+ of JuliusACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 303
+ Caesar inACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 19
+ 4ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 17501
+ BCACCEPTED_TOKEN 12495
+ markedACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 6941
+ beginningACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 4031
+ a periodACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 4788
+ politicalACCEPTED_TOKEN 53442
+ instabilityACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 21047
+ RomeACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 11354
+ carriedACCEPTED_TOKEN 680
+ACCEPTED_TOKEN 539
+ out byACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 1809
+ a groupACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 37632
+ of senatorsACCEPTED_TOKEN 852
+ whoACCEPTED_TOKEN 36229
+ fearedACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 7578
+ACCEPTED_TOKEN 2279
+ growing powerACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4486
+ AfterACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 4397
+ deathACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 2279
+ACCEPTED_TOKEN 14230
+ power struggleACCEPTED_TOKEN 58145
+ eruptedACCEPTED_TOKEN 4082
+ amongACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 87194
+ heirsACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 67695
+ and generalsACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 3833
+OneACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 1328
+ACCEPTED_TOKEN 12041
+ key figuresACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 411
+ thisACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ACCEPTED_TOKEN 557
+ struggle wasACCEPTED_TOKEN 4246
+ACCEPTED_TOKEN 93290
+ Mark AntonyACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 3160
+ closeACCEPTED_TOKEN 29842
+ allyACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 93290
+ AntonyACCEPTED_TOKEN 14661
+ initiallyACCEPTED_TOKEN 13668
+ controlledACCEPTED_TOKEN 1691
+ muchACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 22426
+ easternACCEPTED_TOKEN 919
+ partACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 2583
+ includingACCEPTED_TOKEN 14437
+ACCEPTED_TOKEN 13
+ Egypt.ACCEPTED_TOKEN 4213
+ HoweverACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 551
+ACCEPTED_TOKEN 4970
+ he soonACCEPTED_TOKEN 1669
+ foundACCEPTED_TOKEN 5387
+ himselfACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 11712
+ conflictACCEPTED_TOKEN 440
+ withACCEPTED_TOKEN 4756
+ OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 51852
+, CaesarACCEPTED_TOKEN 579
+ACCEPTED_TOKEN 17295
+'s adoptedACCEPTED_TOKEN 4292
+ sonACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 48745
+ and heirACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 17514
+OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 852
+ whoFULL_MODEL_TIMING warm_tokens=17 cold_generation_us=860829 steady_tokens=112 steady_us=5852820 total_generation_us=6713649
+
+
+1.00.292.065 I encoded   37 tokens in    0.165 seconds, speed:  224.618 t/s
+1.00.292.076 I decoded  129 tokens in    6.714 seconds, speed:   19.215 t/s
+1.00.292.085 I 
+1.00.292.093 I n_draft   = 1
+1.00.292.102 I n_predict = 129
+1.00.292.110 I n_drafted = 74
+1.00.292.119 I n_accept  = 55
+1.00.292.128 I accept    = 74.324%
+1.00.292.137 I 
+1.00.292.146 I draft:
+
+1.00.292.167 I 
+1.00.292.175 I target:
+
+1.00.292.185 I common_perf_print:    sampling time =      54.55 ms
+1.00.292.195 I common_perf_print:    samplers time =      22.60 ms /   129 tokens
+1.00.292.204 I common_perf_print:        load time =    9179.47 ms
+1.00.292.214 I common_perf_print: prompt eval time =    4735.82 ms /   184 tokens (   25.74 ms per token,    38.85 tokens per second)
+1.00.292.225 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+1.00.292.235 I common_perf_print:       total time =    6878.81 ms /   185 tokens
+1.00.292.244 I common_perf_print: unaccounted time =    2088.43 ms /  30.4 %      (total - sampling - prompt eval - eval) / (total)
+1.00.292.253 I common_perf_print:    graphs reused =         73
+1.00.292.262 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+INPROCESS_ARM_END arm=5 mode=control time_us=97697386300
+NP_PROFILE arm=5 event=gate count=5772 wall_ns=35087475 cpu_ns=16527232
+NP_PROFILE arm=5 event=mmvq count=5772 wall_ns=121833073 cpu_ns=44923973
+NP_PROFILE arm=5 event=request count=5772 wall_ns=167080 cpu_ns=1120382
+NP_PROFILE arm=5 event=dispatch count=5772 wall_ns=12642820 cpu_ns=12976785
+NP_PROFILE arm=5 event=descriptor_write count=78 wall_ns=19871 cpu_ns=40846
+NP_PROFILE arm=5 event=commands count=5772 wall_ns=5379178 cpu_ns=6779971
+NP_PROFILE arm=5 event=submit count=5026 wall_ns=599140127 cpu_ns=192124827
+NP_PROFILE arm=5 event=graph count=224 wall_ns=3024970234 cpu_ns=1199805392
+INPROCESS_ARM_BEGIN arm=6 mode=control time_us=97697393048
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 4216
+ the eventsACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 5879
+ that ledACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 279
+ to theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ AugustACCEPTED_TOKEN 350
+usACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 760
+TheFULL_MODEL_WARM tokens=17 time_us=97698326601
+ACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 66900
+ JuliusACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 220
+ ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 17501
+ BCACCEPTED_TOKEN 12495
+ACCEPTED_TOKEN 279
+ marked theACCEPTED_TOKEN 6941
+ beginningACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 4031
+ a periodACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 4788
+ of politicalACCEPTED_TOKEN 53442
+ instabilityACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 21047
+ RomeACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 11354
+ carriedACCEPTED_TOKEN 680
+ outACCEPTED_TOKEN 539
+ byACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 1809
+ a groupACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 37632
+ senatorsACCEPTED_TOKEN 852
+ACCEPTED_TOKEN 36229
+ who fearedACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 7578
+ growingACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4486
+ AfterACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 4397
+ deathACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ struggleACCEPTED_TOKEN 58145
+ eruptedACCEPTED_TOKEN 4082
+ amongACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 87194
+ heirsACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 67695
+ generalsACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 3833
+OneACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 1328
+ keyACCEPTED_TOKEN 12041
+ figuresACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 411
+ thisACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ struggleACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 4246
+ MarkACCEPTED_TOKEN 93290
+ AntonyACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 264
+, aACCEPTED_TOKEN 3160
+ closeACCEPTED_TOKEN 29842
+ allyACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 93290
+ AntonyACCEPTED_TOKEN 14661
+ initiallyACCEPTED_TOKEN 13668
+ controlledACCEPTED_TOKEN 1691
+ muchACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 22426
+ easternACCEPTED_TOKEN 919
+ partACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 2583
+ includingACCEPTED_TOKEN 14437
+ EgyptACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4213
+ HoweverACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 551
+ heACCEPTED_TOKEN 4970
+ soonACCEPTED_TOKEN 1669
+ foundACCEPTED_TOKEN 5387
+ himselfACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 11712
+ conflictACCEPTED_TOKEN 440
+ withACCEPTED_TOKEN 4756
+ OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+ACCEPTED_TOKEN 17295
+'s adoptedACCEPTED_TOKEN 4292
+ sonACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 48745
+ and heirACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 17514
+OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 852
+ whoFULL_MODEL_TIMING warm_tokens=17 cold_generation_us=758542 steady_tokens=112 steady_us=5424484 total_generation_us=6183026
+
+
+1.06.657.463 I encoded   37 tokens in    0.174 seconds, speed:  212.115 t/s
+1.06.657.476 I decoded  129 tokens in    6.183 seconds, speed:   20.864 t/s
+1.06.657.486 I 
+1.06.657.496 I n_draft   = 1
+1.06.657.506 I n_predict = 129
+1.06.657.515 I n_drafted = 74
+1.06.657.524 I n_accept  = 55
+1.06.657.535 I accept    = 74.324%
+1.06.657.545 I 
+1.06.657.555 I draft:
+
+1.06.657.579 I 
+1.06.659.730 I target:
+
+1.06.659.748 I common_perf_print:    sampling time =      59.47 ms
+1.06.659.759 I common_perf_print:    samplers time =      21.45 ms /   129 tokens
+1.06.659.770 I common_perf_print:        load time =    9179.47 ms
+1.06.659.781 I common_perf_print: prompt eval time =    4587.20 ms /   184 tokens (   24.93 ms per token,    40.11 tokens per second)
+1.06.659.792 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+1.06.659.802 I common_perf_print:       total time =    6360.36 ms /   185 tokens
+1.06.659.813 I common_perf_print: unaccounted time =    1713.69 ms /  26.9 %      (total - sampling - prompt eval - eval) / (total)
+1.06.659.823 I common_perf_print:    graphs reused =         73
+1.06.659.833 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+INPROCESS_ARM_END arm=6 mode=control time_us=97703753866
+NP_PROFILE arm=6 event=gate count=5772 wall_ns=16621873 cpu_ns=15538482
+NP_PROFILE arm=6 event=mmvq count=5772 wall_ns=97365620 cpu_ns=41363387
+NP_PROFILE arm=6 event=request count=5772 wall_ns=141802 cpu_ns=1069735
+NP_PROFILE arm=6 event=dispatch count=5772 wall_ns=22024008 cpu_ns=12024901
+NP_PROFILE arm=6 event=descriptor_write count=78 wall_ns=18369 cpu_ns=40415
+NP_PROFILE arm=6 event=commands count=5772 wall_ns=4484792 cpu_ns=5809181
+NP_PROFILE arm=6 event=submit count=5026 wall_ns=621959083 cpu_ns=171028159
+NP_PROFILE arm=6 event=graph count=224 wall_ns=2921999498 cpu_ns=1140411542
+INPROCESS_ARM_BEGIN arm=7 mode=pad time_us=97703757347
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 4216
+ the eventsACCEPTED_TOKEN 421
+ thatACCEPTED_TOKEN 5879
+ ledACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 279
+ to theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ AugustACCEPTED_TOKEN 350
+usACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 760
+TheFULL_MODEL_WARM tokens=17 time_us=97704836317
+ACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 66900
+ of JuliusACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 220
+ ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 17501
+ BCACCEPTED_TOKEN 12495
+ACCEPTED_TOKEN 279
+ marked theACCEPTED_TOKEN 6941
+ beginningACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 4031
+ periodACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 4788
+ of politicalACCEPTED_TOKEN 53442
+ instabilityACCEPTED_TOKEN 303
+ inACCEPTED_TOKEN 21047
+ RomeACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 579
+ Caesar'sACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 557
+ wasACCEPTED_TOKEN 11354
+ carriedACCEPTED_TOKEN 680
+ACCEPTED_TOKEN 539
+ out byACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 1809
+ groupACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 37632
+ senatorsACCEPTED_TOKEN 852
+ whoACCEPTED_TOKEN 36229
+ fearedACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 7578
+ACCEPTED_TOKEN 2279
+ growing powerACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4486
+ AfterACCEPTED_TOKEN 780
+ hisACCEPTED_TOKEN 4397
+ deathACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 2279
+ACCEPTED_TOKEN 14230
+ power struggleACCEPTED_TOKEN 58145
+ACCEPTED_TOKEN 4082
+ erupted amongACCEPTED_TOKEN 780
+ACCEPTED_TOKEN 87194
+ his heirsACCEPTED_TOKEN 321
+ACCEPTED_TOKEN 67695
+ and generalsACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+ACCEPTED_TOKEN 3833
+OneACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 1328
+ACCEPTED_TOKEN 12041
+ key figuresACCEPTED_TOKEN 303
+ACCEPTED_TOKEN 411
+ in thisACCEPTED_TOKEN 2279
+ powerACCEPTED_TOKEN 14230
+ACCEPTED_TOKEN 557
+ struggle wasACCEPTED_TOKEN 4246
+ACCEPTED_TOKEN 93290
+ Mark AntonyACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 264
+, aACCEPTED_TOKEN 3160
+ closeACCEPTED_TOKEN 29842
+ allyACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 51852
+ of CaesarACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 93290
+ AntonyACCEPTED_TOKEN 14661
+ initiallyACCEPTED_TOKEN 13668
+ controlledACCEPTED_TOKEN 1691
+ muchACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 22426
+ easternACCEPTED_TOKEN 919
+ partACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireACCEPTED_TOKEN 11
+ACCEPTED_TOKEN 2583
+, includingACCEPTED_TOKEN 14437
+ACCEPTED_TOKEN 13
+ Egypt.ACCEPTED_TOKEN 4213
+ACCEPTED_TOKEN 11
+ However,ACCEPTED_TOKEN 551
+ACCEPTED_TOKEN 4970
+ he soonACCEPTED_TOKEN 1669
+ foundACCEPTED_TOKEN 5387
+ACCEPTED_TOKEN 303
+ himself inACCEPTED_TOKEN 11712
+ conflictACCEPTED_TOKEN 440
+ withACCEPTED_TOKEN 4756
+ OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 51852
+ CaesarACCEPTED_TOKEN 579
+'sACCEPTED_TOKEN 17295
+ adoptedACCEPTED_TOKEN 4292
+ sonACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 48745
+ heirACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 17514
+OctACCEPTED_TOKEN 57177
+avianACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 852
+ whoFULL_MODEL_TIMING warm_tokens=17 cold_generation_us=915439 steady_tokens=112 steady_us=5696809 total_generation_us=6612248
+
+
+1.13.439.503 I encoded   37 tokens in    0.163 seconds, speed:  227.142 t/s
+1.13.439.514 I decoded  129 tokens in    6.612 seconds, speed:   19.509 t/s
+1.13.439.522 I 
+1.13.439.531 I n_draft   = 1
+1.13.439.539 I n_predict = 129
+1.13.439.547 I n_drafted = 74
+1.13.439.555 I n_accept  = 55
+1.13.439.564 I accept    = 74.324%
+1.13.439.572 I 
+1.13.439.580 I draft:
+
+1.13.439.603 I 
+1.13.439.612 I target:
+
+1.13.439.624 I common_perf_print:    sampling time =      59.60 ms
+1.13.439.634 I common_perf_print:    samplers time =      22.28 ms /   129 tokens
+1.13.439.646 I common_perf_print:        load time =    9179.47 ms
+1.13.439.656 I common_perf_print: prompt eval time =    4801.38 ms /   184 tokens (   26.09 ms per token,    38.32 tokens per second)
+1.13.439.665 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+1.13.439.675 I common_perf_print:       total time =    6775.94 ms /   185 tokens
+1.13.439.684 I common_perf_print: unaccounted time =    1914.96 ms /  28.3 %      (total - sampling - prompt eval - eval) / (total)
+1.13.439.693 I common_perf_print:    graphs reused =         73
+1.13.439.702 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+INPROCESS_ARM_END arm=7 mode=pad time_us=97710533698
+NP_PROFILE arm=7 event=gate count=5772 wall_ns=91288920 cpu_ns=47190216
+NP_PROFILE arm=7 event=mmvq count=5772 wall_ns=168105278 cpu_ns=75578679
+NP_PROFILE arm=7 event=request count=5772 wall_ns=194345 cpu_ns=1153665
+NP_PROFILE arm=7 event=dispatch count=5772 wall_ns=27304210 cpu_ns=12909208
+NP_PROFILE arm=7 event=descriptor_write count=78 wall_ns=15658 cpu_ns=34719
+NP_PROFILE arm=7 event=commands count=5772 wall_ns=5063539 cpu_ns=6393939
+NP_PROFILE arm=7 event=submit count=5026 wall_ns=725061283 cpu_ns=190422148
+NP_PROFILE arm=7 event=graph count=224 wall_ns=3260015457 cpu_ns=1367180878
+
+
+Q3_PAD112_FINAL entries=0 bytes=0 calls=0
+Q3_PAD112_FINAL entries=78 bytes=3041525760 calls=28938

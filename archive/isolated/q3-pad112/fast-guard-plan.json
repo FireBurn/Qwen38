@@ -1,0 +1,11 @@
+{
+  "change": "Latch mode/immutable/mega/device eligibility and owned shader directory at graph entry; bypass per-matrix helper for native/other types. No shader/cache layout change.",
+  "qualification": [
+    "model32 same private native versus pad,full targetlogits",
+    "coding/math128target logits versus prior native hashes",
+    "resident24x128native/pad",
+    "independent18x512stock/private-native/pad regardless of screen outcome if correctness passes"
+  ],
+  "timing": "Existing fixed orders, comparability gates and descriptive intervals; no quiet gate or sample extension on performance. Profiling build is not used for timing.",
+  "hypothesis": "Most scoped Q3 MMVQ CPU difference lies in gate (~5.3us percall). Moving environment lookups should reduce that overhead. Genuine unmodified-stock throughput benefit remains to be established."
+}

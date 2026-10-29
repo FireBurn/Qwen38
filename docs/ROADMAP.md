@@ -6,6 +6,10 @@
 
 A useful smaller fusion should remove a material read/write, dependency, or dispatch while retaining specialized resource allocation and native scheduling. A smaller persistent interpreter that still carries a common register budget and frequent grid barriers may reproduce the same problems.
 
+## Current milestone
+
+The [Q3 host-overhead follow-up](Q3-HOST-COST.md) measures+3.43% steady native-path decoding versus stock in24matched runs. The useful combination is aligned weight loads plus avoiding repeated configuration checks; neither static instruction counts nor the first cache prototype alone established that result. Broader contexts/prompts and additional fusion combinations remain separate work.
+
 ## Ranked experiments
 
 | Priority | Candidate | Why it could help | Existing evidence / trap | Acceptance test |

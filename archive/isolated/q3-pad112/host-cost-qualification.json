@@ -1,0 +1,43 @@
+{
+  "updated_utc": "2026-10-29T06:39:27.637710+00:00",
+  "candidate_library_sha256": "4e1381cd1f5d3e047431d3cc5fbded37e72c840a1388559d0dcade1c531d03a3",
+  "confirmed_scope": "Steady native-path decoding versus unmodified .27stock backend, this Qwen3.8-27B Q3LynnStyleMTP model, R9700/private7kdriver, draftmax1, greedy,4096context,q8KV,512requestedtokens. No mega-kernel or all-workload win claim.",
+  "primary": {
+    "blocks": 6,
+    "geometric_speed_change_percent": 3.4302315720906558,
+    "descriptive_t95_percent": [
+      2.258012947448701,
+      4.615887740298645
+    ],
+    "lower_bound_positive": true
+  },
+  "all6blocks_matched_no_exclusions": true,
+  "stock_mean_steady_tps": 38.22815301707485,
+  "candidate_mean_steady_tps": 39.54234706003982,
+  "correctness": "All24runs identical513tokens/279drafted/234accepted;32requestedtokenfulltargetlogit audit and coding/math128targetbits match prior native. No new driver errors.",
+  "runtime_libc_inodes": [
+    5512103
+  ],
+  "reserved_extra_vram_bytes": 3221225472,
+  "logical_padded_Q3_bytes": 3041525760,
+  "contract": "Opt-in immutable Q3weight cache, native prefill/fallback preserved, device/shape/budget guards. General mutable-weight support absent.",
+  "secondary": {
+    "total_generation_tokens_per_second": {
+      "geometric_change_percent": 3.4154060486992903,
+      "descriptive_t95_percent": [
+        2.31047919176107,
+        4.53226583146122
+      ],
+      "scope": "Supplementary; matching gates defined for steady phase, not cold/model-loading intervals. Positive means faster."
+    },
+    "process_wall_seconds": {
+      "geometric_change_percent": 2.1020157260418038,
+      "descriptive_t95_percent": [
+        1.3947805847293653,
+        2.8141838781287882
+      ],
+      "scope": "Supplementary; matching gates defined for steady phase, not cold/model-loading intervals. Positive means faster."
+    }
+  },
+  "raw_confirmation": "guard-v2-matched-stock512/20261029T003112Z/confirmation-analysis.json"
+}

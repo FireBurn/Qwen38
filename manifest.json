@@ -8567,17 +8567,17 @@
     {
       "source": "isolated/q3-pad112/STATUS.md",
       "path": "archive/isolated/q3-pad112/STATUS.md",
-      "source_sha256": "f8342f370ff3d6bb650e58734d162211f51bcc2979a29442f94c625e327d47ba",
-      "export_sha256": "f8342f370ff3d6bb650e58734d162211f51bcc2979a29442f94c625e327d47ba",
-      "bytes": 1787,
+      "source_sha256": "8f040880b65ce07826c7921df18a2c6c0cbb656a4db5b5f774b5ee38ddd1370a",
+      "export_sha256": "8f040880b65ce07826c7921df18a2c6c0cbb656a4db5b5f774b5ee38ddd1370a",
+      "bytes": 1539,
       "sanitized": false
     },
     {
       "source": "isolated/q3-pad112/NEXT.md",
       "path": "archive/isolated/q3-pad112/NEXT.md",
-      "source_sha256": "ee4878845b1031ebf3584ca2d18c5d2711dc04420cc32622dae985f24068c289",
-      "export_sha256": "ee4878845b1031ebf3584ca2d18c5d2711dc04420cc32622dae985f24068c289",
-      "bytes": 2501,
+      "source_sha256": "2a26919969d4954c70429c6625983cda9a6e7c031147c5c15566edf5fd0ddbcd",
+      "export_sha256": "2a26919969d4954c70429c6625983cda9a6e7c031147c5c15566edf5fd0ddbcd",
+      "bytes": 2645,
       "sanitized": false
     },
     {
@@ -9055,9 +9055,9 @@
     {
       "source": "isolated/q3-pad112/QUALIFICATION.md",
       "path": "archive/isolated/q3-pad112/QUALIFICATION.md",
-      "source_sha256": "0aaf17fc40732cbbc58a3b0c8e5e93cda8fcea43e975d67b398dc5d41ca26e77",
-      "export_sha256": "0aaf17fc40732cbbc58a3b0c8e5e93cda8fcea43e975d67b398dc5d41ca26e77",
-      "bytes": 2001,
+      "source_sha256": "724933fc89fe9ad18091f8b2bb0f85a0ed3c932cc3bc8dfb6a72321f29530d93",
+      "export_sha256": "724933fc89fe9ad18091f8b2bb0f85a0ed3c932cc3bc8dfb6a72321f29530d93",
+      "bytes": 2515,
       "sanitized": false
     },
     {
@@ -9647,11 +9647,1083 @@
     {
       "source": "isolated/q3-pad112/round-handoff.json",
       "path": "archive/isolated/q3-pad112/round-handoff.json",
-      "source_sha256": "e75e1adb788e152635b715691a03925db9622f198acfe87a58bf140dcff12c84",
-      "export_sha256": "e75e1adb788e152635b715691a03925db9622f198acfe87a58bf140dcff12c84",
-      "bytes": 656,
+      "source_sha256": "5b4fbc98e35d405f4c655a2d2a47876ba7da8f9692dd50312d8636c58d879b48",
+      "export_sha256": "4fafe5084b84366dc12ad2c5cabc81699f3709939c63d939a187d762ed7d722f",
+      "bytes": 962,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-plan.json",
+      "path": "archive/isolated/q3-pad112/host-profile-plan.json",
+      "source_sha256": "2543e2f27dea68ed93b05b83b2fe96589b7038430382f23652575fc21bafbf6e",
+      "export_sha256": "2543e2f27dea68ed93b05b83b2fe96589b7038430382f23652575fc21bafbf6e",
+      "bytes": 618,
       "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/profile-runner-build.json",
+      "path": "archive/isolated/q3-pad112/profile-runner-build.json",
+      "source_sha256": "4b7baf302514b7131285c499ad0eb31203b74ce2c1ceb793268ad3d6bcf88be7",
+      "export_sha256": "8c14354917dbbb75221d1bdea1058f436629ad71f3d20642171acd0505d9d62d",
+      "bytes": 811,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard.patch",
+      "path": "archive/isolated/q3-pad112/fast-guard.patch",
+      "source_sha256": "0619efc4be470c06374a001836c570bb157ced9388769f3a288bdb384bebe550",
+      "export_sha256": "0619efc4be470c06374a001836c570bb157ced9388769f3a288bdb384bebe550",
+      "bytes": 3880,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-plan.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-plan.json",
+      "source_sha256": "ca22857a6eb335dc09e174739f11480457f722481325c66aa16ff7e8e4442bb2",
+      "export_sha256": "ca22857a6eb335dc09e174739f11480457f722481325c66aa16ff7e8e4442bb2",
+      "bytes": 856,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2.patch",
+      "path": "archive/isolated/q3-pad112/guard-v2.patch",
+      "source_sha256": "cc7ae956092dd4e0a31d9ea66dfafdc60ad5cf95bc14ac52a646cee34e576461",
+      "export_sha256": "cc7ae956092dd4e0a31d9ea66dfafdc60ad5cf95bc14ac52a646cee34e576461",
+      "bytes": 1063,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-plan.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-plan.json",
+      "source_sha256": "578e10bba440b0e25050bab08d24502c4eb3a274f1ab3e7e4e5eec9bc42bf2f8",
+      "export_sha256": "578e10bba440b0e25050bab08d24502c4eb3a274f1ab3e7e4e5eec9bc42bf2f8",
+      "bytes": 1003,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/analyse_profile.py",
+      "path": "archive/isolated/q3-pad112/analyse_profile.py",
+      "source_sha256": "6efea835164ff331e870794a39234741748fdc841d94b3147fc892962973c9b3",
+      "export_sha256": "6efea835164ff331e870794a39234741748fdc841d94b3147fc892962973c9b3",
+      "bytes": 2007,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-cost-qualification.json",
+      "path": "archive/isolated/q3-pad112/host-cost-qualification.json",
+      "source_sha256": "c5e1407377b2d344e0733d8e5b1038be786dac33d23e654aac5a867b378b152a",
+      "export_sha256": "c5e1407377b2d344e0733d8e5b1038be786dac33d23e654aac5a867b378b152a",
+      "bytes": 1985,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/matched-stock-plan.json",
+      "path": "archive/isolated/q3-pad112/matched-stock-plan.json",
+      "source_sha256": "c1722f05e7b6f627e4a3981aa70c0d2abb7ac9891f3563483d88d492d664046a",
+      "export_sha256": "c1722f05e7b6f627e4a3981aa70c0d2abb7ac9891f3563483d88d492d664046a",
+      "bytes": 1394,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/matched-stock-trigger.json",
+      "path": "archive/isolated/q3-pad112/matched-stock-trigger.json",
+      "source_sha256": "497c76a0faf2c2bb6ade231c7db4806e0e131b10ba297bfc9b219b2e45fc5f61",
+      "export_sha256": "8311111eff9a8938ad44a23ed5a3201c5c821fe31ba95e9ed208feab5425ab44",
+      "bytes": 247,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile/build.json",
+      "path": "archive/isolated/q3-pad112/host-profile/build.json",
+      "source_sha256": "8d405a0a5870995da226811d97fc44c390fac583a495d43aa69aa8464d4659d6",
+      "export_sha256": "8d405a0a5870995da226811d97fc44c390fac583a495d43aa69aa8464d4659d6",
+      "bytes": 1055,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile/np-profile.h",
+      "path": "archive/isolated/q3-pad112/host-profile/np-profile.h",
+      "source_sha256": "61fd6f5b695c18905f90372239a5edfec056c85bdd2d9cfc43b6ac4f4c7388fe",
+      "export_sha256": "61fd6f5b695c18905f90372239a5edfec056c85bdd2d9cfc43b6ac4f4c7388fe",
+      "bytes": 866,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile/np-profile.cpp",
+      "path": "archive/isolated/q3-pad112/host-profile/np-profile.cpp",
+      "source_sha256": "f7de9f8434d55aa1abb340b0703670ef7f724b601ba3e3d80d8b6fd6ef69f6fb",
+      "export_sha256": "f7de9f8434d55aa1abb340b0703670ef7f724b601ba3e3d80d8b6fd6ef69f6fb",
+      "bytes": 1166,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-fast-guard/build.json",
+      "path": "archive/isolated/q3-pad112/host-fast-guard/build.json",
+      "source_sha256": "10bfa6ea1ddeb53557325e553de052953a3d3f14fddc6af4e66ced2d407dd848",
+      "export_sha256": "10bfa6ea1ddeb53557325e553de052953a3d3f14fddc6af4e66ced2d407dd848",
+      "bytes": 499,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-fast-guard-v2/build.json",
+      "path": "archive/isolated/q3-pad112/host-fast-guard-v2/build.json",
+      "source_sha256": "a355010c5776c93984f99b57df6d50b205de3e73c63ff95ab02fab7dd5226867",
+      "export_sha256": "a355010c5776c93984f99b57df6d50b205de3e73c63ff95ab02fab7dd5226867",
+      "bytes": 702,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-runs/20261029T000341Z/analysis.json",
+      "path": "archive/isolated/q3-pad112/host-profile-runs/20261029T000341Z/analysis.json",
+      "source_sha256": "ce7cf16b303495e0764f6d81a0d731bbd66e737cff06912ea6b5561d3142a8ef",
+      "export_sha256": "ce7cf16b303495e0764f6d81a0d731bbd66e737cff06912ea6b5561d3142a8ef",
+      "bytes": 18783,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-runs/20261029T000341Z/behavior-check.json",
+      "path": "archive/isolated/q3-pad112/host-profile-runs/20261029T000341Z/behavior-check.json",
+      "source_sha256": "9ce57e4d10fcaf50e8899edcac48f45f519589c9bf94d7d0c7c2e5f24dbd65d8",
+      "export_sha256": "9ce57e4d10fcaf50e8899edcac48f45f519589c9bf94d7d0c7c2e5f24dbd65d8",
+      "bytes": 172,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-runs/20261029T000341Z/execution.json",
+      "path": "archive/isolated/q3-pad112/host-profile-runs/20261029T000341Z/execution.json",
+      "source_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "export_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "bytes": 74,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-runs/20261029T000341Z/assets.json",
+      "path": "archive/isolated/q3-pad112/host-profile-runs/20261029T000341Z/assets.json",
+      "source_sha256": "b4fc2ebaa79e374383722210bf17775dd47b27381ded240eeafa5e60b2dda6be",
+      "export_sha256": "74536228c0d25574f6b4b79bf12f0435dc058f653f97758bb7db5e19c8373092",
+      "bytes": 1327,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-runs/20261029T000341Z/telemetry.jsonl",
+      "path": "archive/isolated/q3-pad112/host-profile-runs/20261029T000341Z/telemetry.jsonl",
+      "source_sha256": "e4e98d3f7f551da236c7023d618b972e2cc7b82a1637605cff781d6cac251dcf",
+      "export_sha256": "e4e98d3f7f551da236c7023d618b972e2cc7b82a1637605cff781d6cac251dcf",
+      "bytes": 158190,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-runs/20261029T000341Z/run.log",
+      "path": "archive/isolated/q3-pad112/host-profile-runs/20261029T000341Z/run.log",
+      "source_sha256": "17986add39f1583d0b532b4291a1b44097945b4acc2e7e9f5e4693d9d65ab13a",
+      "export_sha256": "250bc28e137ae739b4157e01f56e9e2a4366c11600affb406dfdaed93c1db878",
+      "bytes": 56845,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/analysis.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/analysis.json",
+      "source_sha256": "9c2fa2c16daa98a22bcef22d7e0d9a107a291a49658934dea8b2c405fcd9b82e",
+      "export_sha256": "9c2fa2c16daa98a22bcef22d7e0d9a107a291a49658934dea8b2c405fcd9b82e",
+      "bytes": 3495,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/checks.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/checks.json",
+      "source_sha256": "2a74f8a493b408c1246fdab67a0c7ac2baffafcb2a85623a39e39db3ae21efa7",
+      "export_sha256": "2a74f8a493b408c1246fdab67a0c7ac2baffafcb2a85623a39e39db3ae21efa7",
+      "bytes": 56974,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/execution.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/execution.json",
+      "source_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "export_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "bytes": 74,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/assets.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/assets.json",
+      "source_sha256": "477f23af605e3bad3b600bbed9737aae84112886a2eae452cadcdf164d015a57",
+      "export_sha256": "3d3fc1b1574454fc11957be32f8f24de3c00c14fe63c83580c9338c028949eb5",
+      "bytes": 1342,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/telemetry.jsonl",
+      "path": "archive/isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/telemetry.jsonl",
+      "source_sha256": "60e83bac606ca154621745bd4224966e986f4ab535c97d51945093312580efb3",
+      "export_sha256": "60e83bac606ca154621745bd4224966e986f4ab535c97d51945093312580efb3",
+      "bytes": 324694,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/run.log",
+      "path": "archive/isolated/q3-pad112/fast-guard-inprocess/20261029T001014Z/run.log",
+      "source_sha256": "21a1346ef2bd66e46bab60e26a779ff70f3283bcadddc0751373acafc6b46d9b",
+      "export_sha256": "47ab01a57a2dd02175c0671b9cefadc063fd28bdb999e92547cdc79da9b99b1b",
+      "bytes": 130772,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/results.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/results.json",
+      "source_sha256": "61f7cbab2511fbbc8ce383e3e2ed17810b9a567e1711b4dac85f7711afa6bd39",
+      "export_sha256": "61f7cbab2511fbbc8ce383e3e2ed17810b9a567e1711b4dac85f7711afa6bd39",
+      "bytes": 134969,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/summary.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/summary.json",
+      "source_sha256": "a8245a5ed29b26b68ae988a719a57f567b547d4ebdf2a2e910c299f447805762",
+      "export_sha256": "a8245a5ed29b26b68ae988a719a57f567b547d4ebdf2a2e910c299f447805762",
+      "bytes": 1208,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/confirmation-analysis.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/confirmation-analysis.json",
+      "source_sha256": "c65ec87a824bb0a07d0b2ca7903e9d79a280ae58baa0052daeaecf71c3f7af50",
+      "export_sha256": "c65ec87a824bb0a07d0b2ca7903e9d79a280ae58baa0052daeaecf71c3f7af50",
+      "bytes": 3824,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/protocol.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/protocol.json",
+      "source_sha256": "651d45a1187811bb68bd41a53e5fe6f579f2be425539086baefa47398980c781",
+      "export_sha256": "651d45a1187811bb68bd41a53e5fe6f579f2be425539086baefa47398980c781",
+      "bytes": 976,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/assets.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/assets.json",
+      "source_sha256": "7b2f98e64f28e99dd1dcdd3cc3241e736bdb2f88c750057e12519ba69fb2b23c",
+      "export_sha256": "f824992ae0ea54dc3fd44d504786e66aa772273bb8518753fd0cd42bacff9b3b",
+      "bytes": 1885,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/06-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/06-control-telemetry.json",
+      "source_sha256": "1fe375b74d3f91481758ea1080faaa1ae3b50564bd12284c0be730063c775b40",
+      "export_sha256": "1fe375b74d3f91481758ea1080faaa1ae3b50564bd12284c0be730063c775b40",
+      "bytes": 72766,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/09-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/09-stock-telemetry.json",
+      "source_sha256": "aa26af08b9f3e3e1f1af4dab39fddd848cfc2d8eb17e33e9377bb5236fabe939",
+      "export_sha256": "aa26af08b9f3e3e1f1af4dab39fddd848cfc2d8eb17e33e9377bb5236fabe939",
+      "bytes": 76943,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/15-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/15-control-telemetry.json",
+      "source_sha256": "77df2bd21717bee60633a02e6f719be5a56f9fcee7ecfa8a26323bcfb9f0cdab",
+      "export_sha256": "77df2bd21717bee60633a02e6f719be5a56f9fcee7ecfa8a26323bcfb9f0cdab",
+      "bytes": 57428,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/00-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/00-stock-telemetry.json",
+      "source_sha256": "2ac2c6478332d053787ce0042cdd730d36f640350a146bb2097ebf28794a8e10",
+      "export_sha256": "2ac2c6478332d053787ce0042cdd730d36f640350a146bb2097ebf28794a8e10",
+      "bytes": 82606,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/14-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/14-control-telemetry.json",
+      "source_sha256": "b240435cb2f95ef89edee85d4a8bc5bbb8b3189c0afe5f07cff4fc409d401058",
+      "export_sha256": "b240435cb2f95ef89edee85d4a8bc5bbb8b3189c0afe5f07cff4fc409d401058",
+      "bytes": 56672,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/05-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/05-stock-telemetry.json",
+      "source_sha256": "2cf1770dd1c28a62276f05f818c991459fa0ba17798a17f6e00c77892fcff0aa",
+      "export_sha256": "2cf1770dd1c28a62276f05f818c991459fa0ba17798a17f6e00c77892fcff0aa",
+      "bytes": 76315,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/12-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/12-pad-telemetry.json",
+      "source_sha256": "b2da6bddc9b2179d458ef31bfdbbcd94393786fbb2c65a5d8fc9e7be9675924a",
+      "export_sha256": "b2da6bddc9b2179d458ef31bfdbbcd94393786fbb2c65a5d8fc9e7be9675924a",
+      "bytes": 66158,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/11-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/11-control-telemetry.json",
+      "source_sha256": "a0c8ab5d90ebca70c28a68e4ca7abd2dfdc9a309257df5f8b936857c688ad2dc",
+      "export_sha256": "a0c8ab5d90ebca70c28a68e4ca7abd2dfdc9a309257df5f8b936857c688ad2dc",
+      "bytes": 74726,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/10-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/10-pad-telemetry.json",
+      "source_sha256": "93000e97011a9785a85366ab2ea72f332fbb9f1abcafcd8c3b5d255b1323e3a2",
+      "export_sha256": "93000e97011a9785a85366ab2ea72f332fbb9f1abcafcd8c3b5d255b1323e3a2",
+      "bytes": 75753,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/17-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/17-pad-telemetry.json",
+      "source_sha256": "ba453833603806dfc59f577ce028b59a16416c416182520cffcd7c244ab6de3f",
+      "export_sha256": "ba453833603806dfc59f577ce028b59a16416c416182520cffcd7c244ab6de3f",
+      "bytes": 57531,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/01-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/01-control-telemetry.json",
+      "source_sha256": "7614cab5337eb09f94aa71e1b97787763ee55df9c26916e6b17c1ea97ce74a5b",
+      "export_sha256": "7614cab5337eb09f94aa71e1b97787763ee55df9c26916e6b17c1ea97ce74a5b",
+      "bytes": 84427,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/04-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/04-control-telemetry.json",
+      "source_sha256": "f0367c4ad1f1a008f5d9710bdbaab617e6812d56d6857cd309c481c63edb19b3",
+      "export_sha256": "f0367c4ad1f1a008f5d9710bdbaab617e6812d56d6857cd309c481c63edb19b3",
+      "bytes": 80298,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/02-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/02-pad-telemetry.json",
+      "source_sha256": "d579228efc4c0b911b91ba9bda6075058b62d3fb3955da28c7ff8daa4ac5b01c",
+      "export_sha256": "d579228efc4c0b911b91ba9bda6075058b62d3fb3955da28c7ff8daa4ac5b01c",
+      "bytes": 79169,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/13-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/13-stock-telemetry.json",
+      "source_sha256": "88ab0a44e9668c21cd8fd549140a748808716ac124361b4042e27d7b658da975",
+      "export_sha256": "88ab0a44e9668c21cd8fd549140a748808716ac124361b4042e27d7b658da975",
+      "bytes": 57324,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/08-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/08-stock-telemetry.json",
+      "source_sha256": "8b38273f68f8ad3fb5f6a57d43f443e04782ee78c7d422c89e0ab7f79b49c485",
+      "export_sha256": "8b38273f68f8ad3fb5f6a57d43f443e04782ee78c7d422c89e0ab7f79b49c485",
+      "bytes": 75756,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/03-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/03-pad-telemetry.json",
+      "source_sha256": "cfdb611d44906385fd348d5f068f527cb5c8895c02f9286974b79f7b23e11a6e",
+      "export_sha256": "cfdb611d44906385fd348d5f068f527cb5c8895c02f9286974b79f7b23e11a6e",
+      "bytes": 85061,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/16-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/16-stock-telemetry.json",
+      "source_sha256": "c125791e34b2ff55a8c40b66eb6167af015eea2be29eb576c08d15dd63c51765",
+      "export_sha256": "c125791e34b2ff55a8c40b66eb6167af015eea2be29eb576c08d15dd63c51765",
+      "bytes": 66804,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/07-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model-under-load512/20261029T001242Z/07-pad-telemetry.json",
+      "source_sha256": "303d8a48432d3bafc2e003014f52f0d10ec4598617797ab823c6b219270c4044",
+      "export_sha256": "303d8a48432d3bafc2e003014f52f0d10ec4598617797ab823c6b219270c4044",
+      "bytes": 70684,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/analysis.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/analysis.json",
+      "source_sha256": "a6e51b7db4f255113915ea16ba4702a8f57abd4cb63d214bf9d5dac185af5757",
+      "export_sha256": "a6e51b7db4f255113915ea16ba4702a8f57abd4cb63d214bf9d5dac185af5757",
+      "bytes": 3453,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/checks.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/checks.json",
+      "source_sha256": "46ab16188566ec822027b5320f5e16de235c947f4fbaf42c96f04fe9588ed4b0",
+      "export_sha256": "46ab16188566ec822027b5320f5e16de235c947f4fbaf42c96f04fe9588ed4b0",
+      "bytes": 56898,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/execution.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/execution.json",
+      "source_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "export_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "bytes": 74,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/assets.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/assets.json",
+      "source_sha256": "8005949b62ad951161ec7b8ec17c364ecad621c82dfc2b53a3b24323313ce2f5",
+      "export_sha256": "e8770cbc42efaf6a443202446ca9dc2422623feabf9776c5786eb44ac783ef5f",
+      "bytes": 1343,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/telemetry.jsonl",
+      "path": "archive/isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/telemetry.jsonl",
+      "source_sha256": "6eed428f7fbc9304e4851fa203e8abb09bbdaf4c18b496744518200341340354",
+      "export_sha256": "6eed428f7fbc9304e4851fa203e8abb09bbdaf4c18b496744518200341340354",
+      "bytes": 233665,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/run.log",
+      "path": "archive/isolated/q3-pad112/guard-v2-inprocess/20261029T002303Z/run.log",
+      "source_sha256": "65e25fc4a62f7c3444e5ea85263713388336c778e3ae322643b22cfc1cc81c66",
+      "export_sha256": "69452dc46858d3178b040b2d5a478520a32f18f740ea8f3d3a1141b83c9da713",
+      "bytes": 130775,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/results.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/results.json",
+      "source_sha256": "5b4ac1874a8b7c7c2a8be5eb53c43cc9b9ebda280dd38eb9e06778ae0849d623",
+      "export_sha256": "5b4ac1874a8b7c7c2a8be5eb53c43cc9b9ebda280dd38eb9e06778ae0849d623",
+      "bytes": 134773,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/summary.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/summary.json",
+      "source_sha256": "5a23309b053d0139e25051ab295aeebe17fb9a6ca37d0c5dce9865c83e28e416",
+      "export_sha256": "5a23309b053d0139e25051ab295aeebe17fb9a6ca37d0c5dce9865c83e28e416",
+      "bytes": 1208,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/confirmation-analysis.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/confirmation-analysis.json",
+      "source_sha256": "4b0135bf9b622517dc7066ea93d361706f3fc59dc7225b78a43e9ed24215663b",
+      "export_sha256": "4b0135bf9b622517dc7066ea93d361706f3fc59dc7225b78a43e9ed24215663b",
+      "bytes": 3771,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/protocol.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/protocol.json",
+      "source_sha256": "651d45a1187811bb68bd41a53e5fe6f579f2be425539086baefa47398980c781",
+      "export_sha256": "651d45a1187811bb68bd41a53e5fe6f579f2be425539086baefa47398980c781",
+      "bytes": 976,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/assets.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/assets.json",
+      "source_sha256": "58d46576864486889f0b9ecb73ddacc865eb5531d823d13ccf6f8165e99b6fe4",
+      "export_sha256": "abb41039d80a0ca6124d737467534cbed6a30843f5abb7a95635ac2c441a8b2a",
+      "bytes": 1886,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/06-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/06-control-telemetry.json",
+      "source_sha256": "32d630d3be39725379bea0e1d168cf126af49eb64fb17f06d4966096a6eb03d5",
+      "export_sha256": "32d630d3be39725379bea0e1d168cf126af49eb64fb17f06d4966096a6eb03d5",
+      "bytes": 56110,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/09-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/09-stock-telemetry.json",
+      "source_sha256": "43235c5bb87162b1f4e8356ff0aaccfa29eefde150674f50f038f344a9a69090",
+      "export_sha256": "43235c5bb87162b1f4e8356ff0aaccfa29eefde150674f50f038f344a9a69090",
+      "bytes": 55253,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/15-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/15-control-telemetry.json",
+      "source_sha256": "a80ad404001c153cc5d6b1a331b9ed7077fb5e4d6313028ca4f720f373dd81ab",
+      "export_sha256": "a80ad404001c153cc5d6b1a331b9ed7077fb5e4d6313028ca4f720f373dd81ab",
+      "bytes": 56570,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/00-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/00-stock-telemetry.json",
+      "source_sha256": "4c1505e4d836c6a8df7824e7843f1dab566c5aadc4f09d8c44a2a7ed3c4cdfe8",
+      "export_sha256": "4c1505e4d836c6a8df7824e7843f1dab566c5aadc4f09d8c44a2a7ed3c4cdfe8",
+      "bytes": 56067,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/14-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/14-control-telemetry.json",
+      "source_sha256": "d515cec754f78a3bf354601a7f7a3b58fbdc8ff3f23eb43ca6ef1b35a13d6b3f",
+      "export_sha256": "d515cec754f78a3bf354601a7f7a3b58fbdc8ff3f23eb43ca6ef1b35a13d6b3f",
+      "bytes": 58196,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/05-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/05-stock-telemetry.json",
+      "source_sha256": "b65d9195e0e81159f2edbcb87f233521c78505e749a54d8ede80a261e2894646",
+      "export_sha256": "b65d9195e0e81159f2edbcb87f233521c78505e749a54d8ede80a261e2894646",
+      "bytes": 55962,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/12-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/12-pad-telemetry.json",
+      "source_sha256": "b053ba205cc20fab9f9b1727dcc400e9e56640f45701ae8fd3870597a4cc561d",
+      "export_sha256": "b053ba205cc20fab9f9b1727dcc400e9e56640f45701ae8fd3870597a4cc561d",
+      "bytes": 56628,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/11-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/11-control-telemetry.json",
+      "source_sha256": "db6a5e721c9e34eadf17c30fcb146679a4f4c3f1d2d2bd7357b2371bc43428b3",
+      "export_sha256": "db6a5e721c9e34eadf17c30fcb146679a4f4c3f1d2d2bd7357b2371bc43428b3",
+      "bytes": 56592,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/10-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/10-pad-telemetry.json",
+      "source_sha256": "3df5dc715771eb2286697de98c2e5dd0a2e0224bcaf0699aec7dfc809ac63b70",
+      "export_sha256": "3df5dc715771eb2286697de98c2e5dd0a2e0224bcaf0699aec7dfc809ac63b70",
+      "bytes": 56572,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/17-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/17-pad-telemetry.json",
+      "source_sha256": "81168c680d4cb4ad962f34e7eac3ac74771e8fb1f6044face2ddab471b9ccde8",
+      "export_sha256": "81168c680d4cb4ad962f34e7eac3ac74771e8fb1f6044face2ddab471b9ccde8",
+      "bytes": 54616,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/01-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/01-control-telemetry.json",
+      "source_sha256": "cea6d30f6cabf1ce3c4a2bac1e5e47100ce19a647d8437be793ad4a9b5114742",
+      "export_sha256": "cea6d30f6cabf1ce3c4a2bac1e5e47100ce19a647d8437be793ad4a9b5114742",
+      "bytes": 56079,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/04-control-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/04-control-telemetry.json",
+      "source_sha256": "91202a1ea5815b4029bf57a7402931e78d118a639c30dae5df8e8dabc950cc87",
+      "export_sha256": "91202a1ea5815b4029bf57a7402931e78d118a639c30dae5df8e8dabc950cc87",
+      "bytes": 58888,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/02-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/02-pad-telemetry.json",
+      "source_sha256": "aa3c1ac65e59a4b15f29d2856d43b0eb9b4959573b38f0d31336270aa797b95d",
+      "export_sha256": "aa3c1ac65e59a4b15f29d2856d43b0eb9b4959573b38f0d31336270aa797b95d",
+      "bytes": 55241,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/13-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/13-stock-telemetry.json",
+      "source_sha256": "e1bf680476a5bfb9b3e93574a77afae7051d7ca98c426ceea93856f519f5e976",
+      "export_sha256": "e1bf680476a5bfb9b3e93574a77afae7051d7ca98c426ceea93856f519f5e976",
+      "bytes": 58272,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/08-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/08-stock-telemetry.json",
+      "source_sha256": "0a2b7a8dab6d8fd6d08b8b34384a6f4a6ff5b06ffff2327f00f563d6c8825f76",
+      "export_sha256": "0a2b7a8dab6d8fd6d08b8b34384a6f4a6ff5b06ffff2327f00f563d6c8825f76",
+      "bytes": 56482,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/03-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/03-pad-telemetry.json",
+      "source_sha256": "0229cf363352bc04e2127ee347bf91298f17d3e97c3fed3bc81bc58055db1591",
+      "export_sha256": "0229cf363352bc04e2127ee347bf91298f17d3e97c3fed3bc81bc58055db1591",
+      "bytes": 56691,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/16-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/16-stock-telemetry.json",
+      "source_sha256": "c53fc02ced8d081af7221a76f8fe1daca2246133029f562898204cf1a05327db",
+      "export_sha256": "c53fc02ced8d081af7221a76f8fe1daca2246133029f562898204cf1a05327db",
+      "bytes": 55948,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/07-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model-under-load512/20261029T002441Z/07-pad-telemetry.json",
+      "source_sha256": "c62dcfb2e4016f3c1f08dbcddfb48fa32bab0f240ddff7c5ab5b7f658c52bfe7",
+      "export_sha256": "c62dcfb2e4016f3c1f08dbcddfb48fa32bab0f240ddff7c5ab5b7f658c52bfe7",
+      "bytes": 55356,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/results.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/results.json",
+      "source_sha256": "666f1c20663b18f60d61d113a9ad8edda05b99723e8c52a78ec4be0995bba15c",
+      "export_sha256": "666f1c20663b18f60d61d113a9ad8edda05b99723e8c52a78ec4be0995bba15c",
+      "bytes": 189100,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/summary.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/summary.json",
+      "source_sha256": "bc9902e67bff9fe350ba5193a749bcf394d6c50e607b9f8884a1c7579a8094fa",
+      "export_sha256": "bc9902e67bff9fe350ba5193a749bcf394d6c50e607b9f8884a1c7579a8094fa",
+      "bytes": 762,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/confirmation-analysis.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/confirmation-analysis.json",
+      "source_sha256": "ce5efd5bbf1c5bbeef7990d3e21137bbc55b4a72a20400eccd46cdc1653eebcf",
+      "export_sha256": "ce5efd5bbf1c5bbeef7990d3e21137bbc55b4a72a20400eccd46cdc1653eebcf",
+      "bytes": 4358,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/protocol.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/protocol.json",
+      "source_sha256": "c1722f05e7b6f627e4a3981aa70c0d2abb7ac9891f3563483d88d492d664046a",
+      "export_sha256": "c1722f05e7b6f627e4a3981aa70c0d2abb7ac9891f3563483d88d492d664046a",
+      "bytes": 1394,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/assets.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/assets.json",
+      "source_sha256": "ac9114cd5440c69574365cd99e375a51dfa740c8c1316aabad7495c2104c7b67",
+      "export_sha256": "9aeb19b0cf463d4acdb437d2adc0d9179969c46bcf1dfde6bc22e6177b52455d",
+      "bytes": 1892,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/runtime-baseline.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/runtime-baseline.json",
+      "source_sha256": "40c9ee0fc99b0d560e390b4e4a2d87199760e10ff82262ebaf108b8b241fcc4c",
+      "export_sha256": "40c9ee0fc99b0d560e390b4e4a2d87199760e10ff82262ebaf108b8b241fcc4c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/21-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/21-stock-telemetry.json",
+      "source_sha256": "eef13b9113ddf4fa9db4f21a0168df1432c5d51c5fce85025b3e5f638fdd0775",
+      "export_sha256": "eef13b9113ddf4fa9db4f21a0168df1432c5d51c5fce85025b3e5f638fdd0775",
+      "bytes": 62790,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/06-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/06-stock-telemetry.json",
+      "source_sha256": "1d23e7c31f59a4f866cdf765e3c84e75ccd37dc0252903537d95ddbea9ea7658",
+      "export_sha256": "1d23e7c31f59a4f866cdf765e3c84e75ccd37dc0252903537d95ddbea9ea7658",
+      "bytes": 62823,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/18-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/18-pad-telemetry.json",
+      "source_sha256": "9131f87ace8c41ca37c1be3debfd465958144ebfbcb9b0dcd649be0e12fe9e8d",
+      "export_sha256": "9131f87ace8c41ca37c1be3debfd465958144ebfbcb9b0dcd649be0e12fe9e8d",
+      "bytes": 62195,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/00-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/00-stock-telemetry.json",
+      "source_sha256": "9dda7a654d3a4626dc7e8a7b437c90581870e869eed2af71516bc1c84f531f51",
+      "export_sha256": "9dda7a654d3a4626dc7e8a7b437c90581870e869eed2af71516bc1c84f531f51",
+      "bytes": 62239,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/03-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/03-stock-telemetry.json",
+      "source_sha256": "877ffd2fb875b521a24f88c0d3c15c0cad37ebea933ada47eada783ba4788bd3",
+      "export_sha256": "877ffd2fb875b521a24f88c0d3c15c0cad37ebea933ada47eada783ba4788bd3",
+      "bytes": 62192,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/23-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/23-pad-telemetry.json",
+      "source_sha256": "d91ad9443dfa6e668ff9d1af44f9bb45e7f3327a460e4b1e537b928adce285e2",
+      "export_sha256": "d91ad9443dfa6e668ff9d1af44f9bb45e7f3327a460e4b1e537b928adce285e2",
+      "bytes": 61349,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/05-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/05-stock-telemetry.json",
+      "source_sha256": "4a634aa035f2a4b5fcb8356d0274d9bbae97cbd524dc42a3c0ad543cd3e91a52",
+      "export_sha256": "4a634aa035f2a4b5fcb8356d0274d9bbae97cbd524dc42a3c0ad543cd3e91a52",
+      "bytes": 62241,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/12-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/12-pad-telemetry.json",
+      "source_sha256": "ac89c62cd62073a1b2a4099190bf62603e8f891c94606995a497ebb433987764",
+      "export_sha256": "ac89c62cd62073a1b2a4099190bf62603e8f891c94606995a497ebb433987764",
+      "bytes": 61376,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/01-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/01-pad-telemetry.json",
+      "source_sha256": "678632825fbca123e5d0d84d23f5f80baad08fe3ac47d5a9b8c9892381c8368d",
+      "export_sha256": "678632825fbca123e5d0d84d23f5f80baad08fe3ac47d5a9b8c9892381c8368d",
+      "bytes": 60776,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/20-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/20-pad-telemetry.json",
+      "source_sha256": "59207ce9519c70b75b0eb28ab0ac58bb91a55d498f170c41f94316c7a83d368c",
+      "export_sha256": "59207ce9519c70b75b0eb28ab0ac58bb91a55d498f170c41f94316c7a83d368c",
+      "bytes": 62054,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/11-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/11-stock-telemetry.json",
+      "source_sha256": "ac0fd6677915667a17c9f1cb019940f3542e452930c7906119ae0e58639e171e",
+      "export_sha256": "ac0fd6677915667a17c9f1cb019940f3542e452930c7906119ae0e58639e171e",
+      "bytes": 63142,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/10-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/10-pad-telemetry.json",
+      "source_sha256": "572e6906c8d5b6fc2076ddc2606f75becd1132b13e515452d4238093aa95de18",
+      "export_sha256": "572e6906c8d5b6fc2076ddc2606f75becd1132b13e515452d4238093aa95de18",
+      "bytes": 61416,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/04-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/04-pad-telemetry.json",
+      "source_sha256": "3e63b3d193894adff692a8e3dda6af8ceea6b8e7d5c30a02305961098a7bfc31",
+      "export_sha256": "3e63b3d193894adff692a8e3dda6af8ceea6b8e7d5c30a02305961098a7bfc31",
+      "bytes": 60828,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/17-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/17-pad-telemetry.json",
+      "source_sha256": "b327e0091391512c1a50a2a279ba2b61f4e4d9ee62bdd658313083e9e1eb0fc9",
+      "export_sha256": "b327e0091391512c1a50a2a279ba2b61f4e4d9ee62bdd658313083e9e1eb0fc9",
+      "bytes": 62060,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/09-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/09-pad-telemetry.json",
+      "source_sha256": "306e3df0f7d06f0d16d26e3be66f49ae4aeb23d827b7009a0ae9015107b76367",
+      "export_sha256": "306e3df0f7d06f0d16d26e3be66f49ae4aeb23d827b7009a0ae9015107b76367",
+      "bytes": 61673,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/14-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/14-stock-telemetry.json",
+      "source_sha256": "310ce4868e39fbd9107e40d5ca62150dfaedd36a8682c553bc14681c6542b446",
+      "export_sha256": "310ce4868e39fbd9107e40d5ca62150dfaedd36a8682c553bc14681c6542b446",
+      "bytes": 63844,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/15-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/15-pad-telemetry.json",
+      "source_sha256": "866dac51f498b390047f970c4d29e4ca69b6d8d01cc443d1ae76faad190ef8c5",
+      "export_sha256": "866dac51f498b390047f970c4d29e4ca69b6d8d01cc443d1ae76faad190ef8c5",
+      "bytes": 63642,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/02-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/02-pad-telemetry.json",
+      "source_sha256": "c1bb8afb94bb76e9821e4b589e1a617fd9af8134e866c5a9e2ec77ed306742be",
+      "export_sha256": "c1bb8afb94bb76e9821e4b589e1a617fd9af8134e866c5a9e2ec77ed306742be",
+      "bytes": 60780,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/13-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/13-stock-telemetry.json",
+      "source_sha256": "4b8c3bafe37ec2cbfce8f64a3006588a591351cbe148a81e6bc14b5a475aca4a",
+      "export_sha256": "4b8c3bafe37ec2cbfce8f64a3006588a591351cbe148a81e6bc14b5a475aca4a",
+      "bytes": 63205,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/22-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/22-stock-telemetry.json",
+      "source_sha256": "16337cb9e7efcf77f12de2b7692c68377024e5278d112f87eac837969a9ab0d8",
+      "export_sha256": "16337cb9e7efcf77f12de2b7692c68377024e5278d112f87eac837969a9ab0d8",
+      "bytes": 63703,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/19-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/19-stock-telemetry.json",
+      "source_sha256": "07059a3e029e1adac0638d4094c5cef487d2f5e4eca45a19891d891e7d7083a4",
+      "export_sha256": "07059a3e029e1adac0638d4094c5cef487d2f5e4eca45a19891d891e7d7083a4",
+      "bytes": 63686,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/08-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/08-stock-telemetry.json",
+      "source_sha256": "8545d7844cb25104502d62f5d140db42705a29704c54831347049498b875b066",
+      "export_sha256": "8545d7844cb25104502d62f5d140db42705a29704c54831347049498b875b066",
+      "bytes": 62304,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/16-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/16-stock-telemetry.json",
+      "source_sha256": "f10638307c41d70045d159d6444d668cc75707cda05e1f7cd89866199eca7a5f",
+      "export_sha256": "f10638307c41d70045d159d6444d668cc75707cda05e1f7cd89866199eca7a5f",
+      "bytes": 62825,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/07-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-matched-stock512/20261029T003112Z/07-pad-telemetry.json",
+      "source_sha256": "b0dbff225028bfa81281e06c14ddabb8f4e3b5ee8135cda1f8dd860d3405c14e",
+      "export_sha256": "b0dbff225028bfa81281e06c14ddabb8f4e3b5ee8135cda1f8dd860d3405c14e",
+      "bytes": 60810,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model32/checks.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model32/checks.json",
+      "source_sha256": "341b4570d4b02174e8c068f39cf8e0cdd2c27f65f63186f6537d0fecd542b0f7",
+      "export_sha256": "341b4570d4b02174e8c068f39cf8e0cdd2c27f65f63186f6537d0fecd542b0f7",
+      "bytes": 2033,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model32/comparison.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model32/comparison.json",
+      "source_sha256": "58ff487e11756284760691026de6d75f5ea85dc0ee7a56382fe1464d807de654",
+      "export_sha256": "58ff487e11756284760691026de6d75f5ea85dc0ee7a56382fe1464d807de654",
+      "bytes": 581,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-model32/assets.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-model32/assets.json",
+      "source_sha256": "b998bc28a26ed90399563df022e3472d2fcd85f997fcc89b086603503c75ea65",
+      "export_sha256": "9d745e35439b614635c584400def0ff8c140e8558ad2a90e6594cc0050117729",
+      "bytes": 1756,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-prompts128/checks.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-prompts128/checks.json",
+      "source_sha256": "0b792814fcaf3a26dd3ee04ee71b23c71957f409e4e58e98d049de1e2dfcc59a",
+      "export_sha256": "0b792814fcaf3a26dd3ee04ee71b23c71957f409e4e58e98d049de1e2dfcc59a",
+      "bytes": 4209,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-prompts128/comparison.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-prompts128/comparison.json",
+      "source_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "export_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fast-guard-prompts128/assets.json",
+      "path": "archive/isolated/q3-pad112/fast-guard-prompts128/assets.json",
+      "source_sha256": "04135fb7dafc73c39a37a6b8e7d19ed5f36596fc325b315fdd3147eebfcaaf3e",
+      "export_sha256": "9e1c5b020a93ca6bba4d14b6572c331fbee01f1f29907a6a31ccf4b37e0cf231",
+      "bytes": 1759,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model32/checks.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model32/checks.json",
+      "source_sha256": "576b6147ddce692247acbfac84b4a8ea8299bfc2924886c37e42f9198a403a1b",
+      "export_sha256": "576b6147ddce692247acbfac84b4a8ea8299bfc2924886c37e42f9198a403a1b",
+      "bytes": 2033,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model32/comparison.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model32/comparison.json",
+      "source_sha256": "58ff487e11756284760691026de6d75f5ea85dc0ee7a56382fe1464d807de654",
+      "export_sha256": "58ff487e11756284760691026de6d75f5ea85dc0ee7a56382fe1464d807de654",
+      "bytes": 581,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-model32/assets.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-model32/assets.json",
+      "source_sha256": "bd781f6184e91fe2b2d132a636d7166571158144e3fc44ec90857f1b12de583a",
+      "export_sha256": "6786cd33bb09e0dba79b995cab5489ea22fb4da2be17774f2725878f291fb3fe",
+      "bytes": 1757,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-prompts128/checks.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-prompts128/checks.json",
+      "source_sha256": "efc3a8bf7e3b7af04ad336c911ab08607999b5ecb9f82af31cd479d0967db9a0",
+      "export_sha256": "efc3a8bf7e3b7af04ad336c911ab08607999b5ecb9f82af31cd479d0967db9a0",
+      "bytes": 4209,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-prompts128/comparison.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-prompts128/comparison.json",
+      "source_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "export_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-prompts128/assets.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-prompts128/assets.json",
+      "source_sha256": "0b39c73a5479bd765463290d47ce7f6c88f6bdd963b2e9c2b092af4af6bb5433",
+      "export_sha256": "f5e36e68b9c15278b25d852a418d261983ea6c269aa652ef2571e6f45b067848",
+      "bytes": 1760,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-runtime/initial-libc.json",
+      "path": "archive/isolated/q3-pad112/guard-v2-runtime/initial-libc.json",
+      "source_sha256": "5833182f83b83c64d6b531ad96ec5515425e09b2c33374cef1c5831df3233626",
+      "export_sha256": "5833182f83b83c64d6b531ad96ec5515425e09b2c33374cef1c5831df3233626",
+      "bytes": 412,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/guard-v2-runtime/mapped-libc.jsonl",
+      "path": "archive/isolated/q3-pad112/guard-v2-runtime/mapped-libc.jsonl",
+      "source_sha256": "f74e70b30bf5d1c889708e5a161f93bf65ed745ab7cd30b00cf6bd07e88eef51",
+      "export_sha256": "f74e70b30bf5d1c889708e5a161f93bf65ed745ab7cd30b00cf6bd07e88eef51",
+      "bytes": 13478,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/getenv-cost.json",
+      "path": "archive/isolated/q3-pad112/getenv-cost.json",
+      "source_sha256": "9e373d5f5df86a67620c681fad4fea4ac06c13ce39bf9e0fdf91b183f7959c59",
+      "export_sha256": "9e373d5f5df86a67620c681fad4fea4ac06c13ce39bf9e0fdf91b183f7959c59",
+      "bytes": 936,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/getenv-cost.cpp",
+      "path": "archive/isolated/q3-pad112/getenv-cost.cpp",
+      "source_sha256": "ff199d349cdd7f2ed8de92b7d9bf059b2d4b5f339de6b95234180b31a0835c0e",
+      "export_sha256": "ff199d349cdd7f2ed8de92b7d9bf059b2d4b5f339de6b95234180b31a0835c0e",
+      "bytes": 567,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/qualified-20261029/manifest.json",
+      "path": "archive/isolated/q3-pad112/qualified-20261029/manifest.json",
+      "source_sha256": "84d9e74c78880519f5cf36ddb8178c3ada465b8365b13d04d6c598b9813eddb3",
+      "export_sha256": "cb953a2d2603b66d4d2cc0160852085147155ff5cad52f3d4a38d5762952968d",
+      "bytes": 7200,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/qualified-20261029/README.md",
+      "path": "archive/isolated/q3-pad112/qualified-20261029/README.md",
+      "source_sha256": "b082f59123bfa18b4eddd118aeae1b30f5791d709d28ae9c881673176289db96",
+      "export_sha256": "f2e12a1c2a90eff3315f176c3414617af0bfbbcb886452a8a0fc597d70a8d499",
+      "bytes": 1129,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_pad112_qualified_once.py",
+      "path": "archive/isolated/run_q3_pad112_qualified_once.py",
+      "source_sha256": "9ab62c77a42532c88692fc40932a970eb48afddc2c817ffd5b178375db12019d",
+      "export_sha256": "9ab62c77a42532c88692fc40932a970eb48afddc2c817ffd5b178375db12019d",
+      "bytes": 4878,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/qualified-single/20261029T064507Z/checks.json",
+      "path": "archive/isolated/q3-pad112/qualified-single/20261029T064507Z/checks.json",
+      "source_sha256": "07b9f5191a8890fd30f2cf4e9ce4a0686e0625b05d73e80bee2adcad5d870e02",
+      "export_sha256": "219ba109f4b7649b4b64a8d63acc1fd7bdbfb57ee361204f9cf277780ca844d6",
+      "bytes": 1448,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/qualified-single/20261029T064507Z/execution.json",
+      "path": "archive/isolated/q3-pad112/qualified-single/20261029T064507Z/execution.json",
+      "source_sha256": "1ce2e51c562ae502bb78dc838ff5bc074348cae1684eb061c331b60e4fb9481e",
+      "export_sha256": "c1034ec1443076d39e421d58fed07d110ed93d9d6c1ee0bf783687540d351aa9",
+      "bytes": 1282,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_pad112_guard_v2_matched_stock.py",
+      "path": "archive/isolated/run_q3_pad112_guard_v2_matched_stock.py",
+      "source_sha256": "02627471299277fb606e8e3ce3544ee177e2ae59ebb91db2ddbaeaf3f751ecc1",
+      "export_sha256": "dd825d37b8e764c49a2a958807bfb518ee6a4c2606aeb49fe2017f6f7c5e2c3a",
+      "bytes": 16941,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/mtp-production-throughput/runner.cpp",
+      "path": "archive/isolated/mtp-production-throughput/runner.cpp",
+      "source_sha256": "8373d195dc9828c63ac3b98ff6f16b5b745f303ccd89f1e2d8ba2aa6f5ca1499",
+      "export_sha256": "8373d195dc9828c63ac3b98ff6f16b5b745f303ccd89f1e2d8ba2aa6f5ca1499",
+      "bytes": 14883,
+      "sanitized": false
+    },
+    {
+      "source": "production/llama.cpp/LICENSE",
+      "path": "archive/third-party/llama.cpp-LICENSE",
+      "source_sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+      "export_sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+      "bytes": 1078,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/getenv-cost-build.json",
+      "path": "archive/isolated/q3-pad112/getenv-cost-build.json",
+      "source_sha256": "7a6401e7feb024d6c81427f99b7037b040916ead8315fc47327e9da9ab9452aa",
+      "export_sha256": "cd26c586a0d47f9495d0a31feefea22e9968b1f844755e5ed445a62d2b4c9faf",
+      "bytes": 485,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-28T23:57:53.367469+00:00"
+  "updated_utc": "2026-10-29T06:51:48.760099+00:00"
 }

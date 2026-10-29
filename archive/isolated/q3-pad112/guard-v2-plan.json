@@ -1,0 +1,7 @@
+{
+  "reason": "Source audit finds legacy SwiGLU coalescing getenv evaluated for every need_sync, before checking any fusion plan. New order checks pure eligibility first and env only for eligible pairs.",
+  "semantics": "Same logical conjunction/short-circuit null/map safety, fixed environment during graph recording. No shader/cache/sync-decision changes. Default-off fusion path no longer queries configuration at every barrier.",
+  "build": "Context/header layout unchanged from host-fast-guard; reuse its buffers/debug objects, compile mainTU and link new private library. Record matchingheader hashes.",
+  "timing": "Wait for current fixed18arm fast-guard controller to terminate before compiling, to avoid self-induced CPU load in its measurements. No CPU quiet gate. Then model bits and same fixed resident/stock confirmation; no sample extension on outcome.",
+  "choice": "Selected from source/counter audit before examining resident fast-guard aggregate timing, independent of that result."
+}

@@ -1,0 +1,15 @@
+{
+  "source_own_child_pid": 2197254,
+  "values_exported": false,
+  "reports": {
+    "pad_initial_environment": {
+      "environment_entries": 81,
+      "output": "ENV_COST name=GGML_VK_Q3_PAD112_DIR calls=100000 cpu_ns_per_call=2465.440\nENV_COST name=GGML_VK_Q3_PAD112_IMMUTABLE calls=100000 cpu_ns_per_call=2450.689\nENV_COST name=GGML_VK_MEGA calls=100000 cpu_ns_per_call=2555.468\n"
+    },
+    "native_dir_disabled": {
+      "environment_entries": 80,
+      "output": "ENV_COST name=GGML_VK_Q3_PAD112_DIR calls=100000 cpu_ns_per_call=2491.474\nENV_COST name=GGML_VK_Q3_PAD112_IMMUTABLE calls=100000 cpu_ns_per_call=2438.862\nENV_COST name=GGML_VK_MEGA calls=100000 cpu_ns_per_call=2350.457\n"
+    }
+  },
+  "scope": "CPU-only repeatedgetenv threadCPU timing after serial model timing controller exits. Environment kept only in process memory, no values published. Function-pointer loop overhead included. No throughput inference."
+}

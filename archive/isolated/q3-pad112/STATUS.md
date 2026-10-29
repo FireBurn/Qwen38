@@ -1,15 +1,11 @@
-# Q3 padded weights — completed round
+# Current Qwen milestone — 2026-10-29
 
-No confirmed speedup over unmodified stock; no faster-than-native mega kernel established.
+A scoped native-path gain over unmodified stock is established: +3.4302%steady decoding, descriptive95%[+2.2580,+4.6159]%,24fresh512token arms in6matched blocks. No exclusions.38.228→39.542mean tokens/s. Same513tokens/279drafts/234accepts in every run; all audits pass; no new GPU faults.
 
-1584 capped Q3 matrix checks and6repacker checks pass. Native control SPIR-V matches embedded .27 stock module byte-for-byte. Two192-total-arm component timing passes favour aligned112-byte blocks, with sensor/clock caveats.
+Qualified uninstrumented candidate: host-fast-guard-v2. Frozen byte-identical library/shaders under qualified-20261029; guarded reproduction wrapper run_q3_pad112_qualified_once.py passes its32token relocation smoke (34matching tokens). It is a private immutable-weight prototype using one3GiB arena, not a deployed production engine or faster mega kernel.
 
-Separate-buffer cache:32token full-target-logit audit exact.18process512token test inconclusive;24resident128token repeat shows no gain under saturated compilation.
+Key evidence: host-profile-runs/20261029T000341Z/analysis.json locates most Q3 MMVQ CPU difference in the selector (2.76vs8.06us). CPU-only getenv2.35–2.56us in copied benchmark environment. Graph-level options and reordered legacy coalescer guard avoid repeated reads. All system libraries/desktop/clocks/affinity unchanged by this work.
 
-Single3GiB arena:32token target-logit audit exact.24resident128token screen +1.8198% private-native control,descriptive95%[+0.2471,+3.4172]%;6blocks comparable, no compilers but backgroundCPU~56–67%. Independent18process512token confirmation unconfirmed: stock contrast−0.9124%,95%[−6.5113,+5.0217]%;only1/3blocks comparable as compilation changes. All513tokens/279drafted/234accepted match acrossall18arms.
+Final stock confirmation: guard-v2-matched-stock512/20261029T003112Z. Runtime mapped-libc inode stable; full provenance/telemetry retained. Earlier candidate failures and unqualified screens retained separately. See host-cost-qualification.json.
 
-Coding136target rows andmath138target rows match prior native bits/tokens/counters. No new target-driver errors. Partial process snapshots show all requested VRAM resident.
-
-Within-generation synchronized target verification:768C2calls,12blocks;−2.6558%targetspeed contrast,95%[−5.1754,−0.0694]%;11/12blocks comparable, no qualified gain. EOS-suppressed longer trajectory,513stock-token prefix exact; not full-token-throughput or direct stock evidence. Earlier asynchronous trial is enqueue-only,not GPU-completion time. Enqueue main-threadCPU7.65ms native vs8.85ms padded suggests profiling host overhead; no isolated causal attribution.
-
-All GPU jobs from this round are terminal. No CPU quiet waiter for this work. Keep original sources/binaries and Claude unchanged. See NEXT.md and public/Qwen38/docs/Q3-PAD112.md. Goal remains active.
+All GPU jobs from this round are terminal. Goal active: native improvement is a milestone; no faster-than-native mega kernel/FA combination or all-context win established. Preserve qualified snapshot while pursuing additional improvements in new directories.

@@ -1,14 +1,21 @@
 {
-  "updated_utc": "2026-10-28T23:57:06.682135+00:00",
-  "goal": "active; faster stock/mega not achieved",
-  "jobs": "all terminal",
-  "best_screen": "arena resident128token+1.8198% private control,not independently confirmed",
-  "next": "NEXT.md; profile host overhead and consider backend-internal packing",
-  "preserved": "Claude checkout,production libraries,original GGUF,desktop,clocks,affinity",
-  "reports": [
-    "arena-model-under-load512/20261028T233122Z/confirmation-analysis.json",
-    "arena-prompts128/comparison.json",
-    "interleaved-sync/20261028T234721Z/analysis.json",
-    "interleaved/20261028T234518Z/enqueue-cpu-summary.json"
-  ]
+  "updated_utc": "2026-10-29T06:48:40.885351+00:00",
+  "goal": "active; scoped native milestone achieved; mega/general validation open",
+  "GPU_jobs": "all terminal",
+  "qualified_snapshot": "${WORKSPACE}/isolated/q3-pad112/qualified-20261029",
+  "qualified_backend_sha256": "4e1381cd1f5d3e047431d3cc5fbded37e72c840a1388559d0dcade1c531d03a3",
+  "result": {
+    "blocks": 6,
+    "geometric_speed_change_percent": 3.4302315720906558,
+    "descriptive_t95_percent": [
+      2.258012947448701,
+      4.615887740298645
+    ],
+    "lower_bound_positive": true
+  },
+  "stock_tps": 38.22815301707485,
+  "pad_tps": 39.54234706003982,
+  "repro": "isolated/run_private_guarded_batch.py run_q3_pad112_qualified_once.py",
+  "next": "NEXT.md; graph-level GLU configuration and actual fusion combinations, plus broader-context validation",
+  "constraints": "Preserve qualified snapshot,Claude,production,model,desktop,clocks,affinity. Underload authorized; no quiet gate."
 }

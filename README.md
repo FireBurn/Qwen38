@@ -2,13 +2,14 @@
 
 Research notes and evidence from attempts to accelerate Qwen3.8 inference on an **AMD Radeon AI Pro R9700**, principally llama.cpp's Vulkan backend and a persistent mega kernel containing matrix operations, recurrent operations and Flash Attention.
 
-**No faster-than-native mega kernel has been established.** Several changes improve individual components or the previous mega kernel. That is a different result from beating the current native backend.
+**A native-path Q3 optimization measures +3.4% versus stock in a matched24-run test. [Evidence and limits](docs/Q3-HOST-COST.md). No faster-than-native mega kernel has been established.** The result uses the native backend with padded Q3 weights and lower host overhead. The persistent mega-kernel work remains a separate, unproven performance result.
 
 ## Start here
 
 - [Results and conclusions](docs/RESULTS.md): measured gains, losses and inconclusive results.
 - [36-run under-load A/B test](docs/UNDER-LOAD-AB.md): independent confirmation finds no measurable gain.
-- [Q3 weight-alignment prototype](docs/Q3-PAD112.md): operator gains, exact model checks, and unconfirmed full-model speedup.
+- [Q3 host-overhead profiling](docs/Q3-HOST-COST.md): confirmed scoped+3.4% native-path gain after reducing configuration-lookup overhead.
+- [Q3 weight-alignment prototype](docs/Q3-PAD112.md): operator gains and exact model checks; the newer host follow-up establishes a scoped gain.
 - [Experiment catalog](docs/EXPERIMENTS.md): the main lines of investigation.
 - [Smaller fusions and shader roadmap](docs/ROADMAP.md): what the evidence suggests trying next.
 - [Native fusion rounding diagnosis and corrected audit](docs/NATIVE-FUSION.md).

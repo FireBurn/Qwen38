@@ -1,0 +1,187 @@
+{
+  "blocks": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cpu_mode_means": {
+        "stock": 0.5106679408471301,
+        "pad": 0.5104299817285817
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1622.0,
+        "pad": 1626.5
+      },
+      "build_mode_means": {
+        "stock": 0,
+        "pad": 0
+      },
+      "runnable_mode_means": {
+        "stock": 9.976063492063492,
+        "pad": 8.322314049586776
+      },
+      "comparable": true,
+      "log_effect": 0.0351325465660044,
+      "speed_change_percent": 3.5756985733303224
+    },
+    {
+      "indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "cpu_mode_means": {
+        "stock": 0.5548313342446826,
+        "pad": 0.5316571596320222
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1625.5,
+        "pad": 1624.5
+      },
+      "build_mode_means": {
+        "stock": 0.9615384615384616,
+        "pad": 0
+      },
+      "runnable_mode_means": {
+        "stock": 9.346769230769231,
+        "pad": 8.32207695434223
+      },
+      "comparable": true,
+      "log_effect": 0.05121880025437919,
+      "speed_change_percent": 5.255316699099758
+    },
+    {
+      "indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "cpu_mode_means": {
+        "stock": 0.5423069942318703,
+        "pad": 0.5709383680367047
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1627.0,
+        "pad": 1629.0
+      },
+      "build_mode_means": {
+        "stock": 0,
+        "pad": 0.2032520325203252
+      },
+      "runnable_mode_means": {
+        "stock": 9.46103612048494,
+        "pad": 10.1869918699187
+      },
+      "comparable": true,
+      "log_effect": 0.03086320485458094,
+      "speed_change_percent": 3.134441132762948
+    },
+    {
+      "indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "cpu_mode_means": {
+        "stock": 0.569685247976323,
+        "pad": 0.6004637746140357
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1623.5,
+        "pad": 1628.0
+      },
+      "build_mode_means": {
+        "stock": 0,
+        "pad": 0.8984375
+      },
+      "runnable_mode_means": {
+        "stock": 8.943798449612403,
+        "pad": 11.922414888211382
+      },
+      "comparable": true,
+      "log_effect": 0.02070576207348296,
+      "speed_change_percent": 2.092161358084433
+    },
+    {
+      "indices": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "cpu_mode_means": {
+        "stock": 0.5519528684844754,
+        "pad": 0.5982189526243731
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1627.5,
+        "pad": 1626.0
+      },
+      "build_mode_means": {
+        "stock": 0.20078740157480315,
+        "pad": 0.1746031746031746
+      },
+      "runnable_mode_means": {
+        "stock": 10.048709027650613,
+        "pad": 11.209446380178088
+      },
+      "comparable": true,
+      "log_effect": 0.025164211366793143,
+      "speed_change_percent": 2.5483502746522877
+    },
+    {
+      "indices": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "cpu_mode_means": {
+        "stock": 0.5665192977312228,
+        "pad": 0.5725221406259994
+      },
+      "gpu_clock_mode_means": {
+        "stock": 1625.5,
+        "pad": 1630.5
+      },
+      "build_mode_means": {
+        "stock": 0,
+        "pad": 0.7601626016260162
+      },
+      "runnable_mode_means": {
+        "stock": 10.859713336614174,
+        "pad": 9.621951219512194
+      },
+      "comparable": true,
+      "log_effect": 0.039278124833965755,
+      "speed_change_percent": 4.00597098619172
+    }
+  ],
+  "all6block_descriptive": {
+    "blocks": 6,
+    "geometric_speed_change_percent": 3.4302315720906558,
+    "descriptive_t95_percent": [
+      2.258012947448701,
+      4.615887740298645
+    ],
+    "lower_bound_positive": true
+  },
+  "matched_block_primary": {
+    "blocks": 6,
+    "geometric_speed_change_percent": 3.4302315720906558,
+    "descriptive_t95_percent": [
+      2.258012947448701,
+      4.615887740298645
+    ],
+    "lower_bound_positive": true
+  },
+  "all_tokens_and_counters_identical": true,
+  "scope": "Independent fixed24arms; matched blocks selected only by preregistered telemetry criteria, never speed. Atleast4required. Stable mapped libc inode. Background-load conditions only, limitedsample/temporalcorrelation caveats.",
+  "gain_supported": true
+}

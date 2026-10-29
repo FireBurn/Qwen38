@@ -1,6 +1,6 @@
 # Exported experiment archive
 
-The manifest currently lists **1206 archived files**, including the root notebooks. The manifest is the authoritative file inventory.
+The manifest currently lists **1340 archived files**, including the root notebooks. The manifest is the authoritative file inventory.
 
 Historical notes can describe unfinished or superseded work. JSON artifacts establish only their stated scope. Missing raw logs or executables are not implied to be present.
 
@@ -264,3 +264,7 @@ See the [shuffle report](SHUFFLE8.md) for wave32/wave64 resources, signed-zero/r
 ## Q3 weight-layout and model integration
 
 See [Q3 padded-weight experiments](Q3-PAD112.md) for1,584capped matrix checks, streamed operator timing, separate-buffer/arena model trials, target-logit audits, independent stock confirmation, per-verification diagnostics and residency observations. The manifest includes all exported new reports and telemetry.
+
+## Host configuration overhead and matched stock result
+
+See [Q3 host cost and final+3.43% result](Q3-HOST-COST.md) for intrusive profiling, both guard changes, failed/inconclusive comparisons, runtime provenance and all24final matched arms.

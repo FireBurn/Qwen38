@@ -4,6 +4,10 @@
 
 There is **no demonstrated mega-kernel throughput win over the current native baseline**. The combined implementation can produce exact model outputs, and several local improvements are real, but correctness and lower resource counts do not establish a speedup.
 
+### Matched native-path result, 2026-10-29
+
+The Q3 padded-weight arena with graph-level configuration checks measures **+3.43% steady decoding versus unmodified stock**, descriptive95% interval[+2.26%,+4.62%]. All six predeclared blocks/24fresh512-token runs pass CPU/clock/build/runqueue/runtime matching, with no exclusions. Mean38.228→39.542tokens/s; all tokens and acceptance counters match. This is the specified R9700/.27/.7/MTPmax1/q8KV/4096context workload, not a mega-kernel or general performance claim. [Full protocol, numerical audits and limitations](Q3-HOST-COST.md).
+
 ### Completed quiet mixed-matrix comparison
 
 Eight alternating Q3/Q4/Q5/Q6 matrices, K=5120 and R=17408, dependent chain, forward/reverse controls. Same private driver and client. Times are microseconds per graph; lower is better.
@@ -43,7 +47,7 @@ A partial 512-requested-token comparison recorded approximately 49.37 tokens/s f
 
 The archived reports contain configurations, qualifications, failed attempts and narrower caveats for these experiments. Positive numbers in this table must not be read as gains over today's production installation.
 
-## Most recently qualified candidates
+## Earlier candidates on the frozen private stack
 
 - **Combined SwiGLU/Q8 fusion with exact C1/C2 host guards:** six focused native/off/on operator modes match; full-model off/on checks at 16, 192, 256 and 320 workgroups match the canonical audit. Each enabled model arm reports 990 eligible and fused pairs. 60 VGPRs, 7168 bytes LDS, zero scratch. Throughput benefit still requires the queued timing comparison.
 - **First fixed work tile, dynamically claimed tail:** all 120 quantized operator arms and canonical 16/192/256/320 model checks pass with the two-dword copy override. This retains dynamic load balancing after the initial prefix. No speedup claimed at publication unless the appended snapshot says otherwise.
@@ -51,7 +55,7 @@ The archived reports contain configurations, qualifications, failed attempts and
 
 Canonical 32-requested-token audit SHA-256: `873abacccc270bc1a0669f62ac831dcc14ace252db9f60bbc0006a7c7b84dec2` on the frozen private stack. This covers its target logits/hidden state, draft IDs and score bits, accepted tokens and counters. It does not establish arbitrary prompts, all Qwen variants or indefinite long-context correctness.
 
-## Why improvements have not accumulated into a win
+## Why earlier component gains did not add up
 
 The changes are not independent additive savings. Lower LDS can increase reloads; lower register use can reduce instruction-level parallelism; wider grids add barrier participants; fewer claims can harm balance or locality. A fused operation can duplicate normalization or quantization across output rows. Removing launches can remove useful overlap. An improved attention kernel affects only attention's fraction of total time.
 
