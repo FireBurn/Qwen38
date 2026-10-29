@@ -276,3 +276,7 @@ See [experiment and interpretation](FUSION-COMBINATION.md). The manifest include
 ## Native Q6 alignment and scale exchange
 
 [Interpretation](Q6-NATIVE.md). Evidence under `archive/isolated/q6-pad212/` and `archive/isolated/q6-native-scale/` includes original/copied shader source closures, embedded-stock proof,2,160 capped comparisons total,288 fixed timing arms total, telemetry, analysis and runner sources. Neither experiment establishes a model speedup.
+
+## Submission sizing after host profiling
+
+[Interpretation and failed original clock qualification](SUBMISSION-CAP.md). Evidence under `archive/isolated/q3-pad112/host-profile-v2*`, `submission-cap-*` and `submission-count-profile.json` includes matching target-logit audits, a fixed6-arm screen and24-arm confirmation. Raw positive timing is not a qualified clock-matched gain.

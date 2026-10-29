@@ -1,0 +1,54 @@
+{
+  "profiles": {
+    "100": {
+      "control": {
+        "generations": 4,
+        "graphs": 896,
+        "nonempty_submits": 20104,
+        "submits_per_graph": 22.4375,
+        "dispatches": 631640,
+        "build_nodes": 1173996,
+        "submit_cpu_ms_per_generation": 80.1586455,
+        "graph_cpu_ms_per_generation": 737.262907,
+        "wait_cpu_ms_per_generation": 971.26854625
+      },
+      "pad": {
+        "generations": 4,
+        "graphs": 896,
+        "nonempty_submits": 20104,
+        "submits_per_graph": 22.4375,
+        "dispatches": 631640,
+        "build_nodes": 1173996,
+        "submit_cpu_ms_per_generation": 77.82772775,
+        "graph_cpu_ms_per_generation": 738.34992025,
+        "wait_cpu_ms_per_generation": 981.85914925
+      }
+    },
+    "400": {
+      "control": {
+        "generations": 4,
+        "graphs": 896,
+        "nonempty_submits": 16836,
+        "submits_per_graph": 18.790178571428573,
+        "dispatches": 631640,
+        "build_nodes": 1173996,
+        "submit_cpu_ms_per_generation": 71.12881275,
+        "graph_cpu_ms_per_generation": 725.702884,
+        "wait_cpu_ms_per_generation": 943.96475275
+      },
+      "pad": {
+        "generations": 4,
+        "graphs": 896,
+        "nonempty_submits": 16836,
+        "submits_per_graph": 18.790178571428573,
+        "dispatches": 631640,
+        "build_nodes": 1173996,
+        "submit_cpu_ms_per_generation": 69.24340575,
+        "graph_cpu_ms_per_generation": 726.549047,
+        "wait_cpu_ms_per_generation": 944.96496575
+      }
+    }
+  },
+  "counts_match_except_submissions": true,
+  "scope": "Intrusive CPU/wall profiles on separate runs with same9generations and alternating Q3control/pad. Counts compare work; CPU costs include timers and different background load. No throughput inference and no sum of nested scopes."
+}

@@ -1,0 +1,12 @@
+{
+  "all_requested_target_logit_bits_identical": true,
+  "all_tokens_and_counters_identical": true,
+  "cases": [
+    "coding",
+    "math"
+  ],
+  "arms": 2,
+  "requested_tokens_per_arm": 128,
+  "allocation": "one3GiB arena",
+  "scope": "Padded Q3 arena two-prompt target-logit audit, compared byte-for-byte to prior native reference by hash. No hidden/draftscore,longKVcontext or performancequalification."
+}

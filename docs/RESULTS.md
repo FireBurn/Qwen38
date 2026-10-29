@@ -80,3 +80,7 @@ A graph-option caching build passes exact operator and target-logit checks. Its 
 ## Native Q6 follow-up (2026-10-29)
 
 Two new native float-path experiments test 212-byte aligned weights and removal of scale shared-memory exchange. Both pass 1,080 capped native-byte comparisons; each completes 144 fixed full-size timing arms. Smaller code/LDS does not yield a convincing streamed gain, and clock/CPU/sensor matching fails across complete per-shape blocks. No new model backend or throughput claim. [Evidence and interpretation](Q6-NATIVE.md).
+
+## Submission-size follow-up (2026-10-29)
+
+Post-guard profiling motivates testing the existing node cap100/200/400 with frozen Q3 shaders. Target-logit audits pass. A fixed24-arm confirmation is faster in all six blocks at cap400 (raw+5.64%,descriptive95%+4.00%to+7.31%), but zero blocks pass predeclared clock matching/settling. No qualified adoption or new stock gain. A separate whole-configuration hypothesis must treat natural clocks as outcomes and match external load before any such claim. [Protocol and evidence](SUBMISSION-CAP.md).

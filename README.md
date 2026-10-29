@@ -8,6 +8,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 
 - [Results and conclusions](docs/RESULTS.md): measured gains, losses and inconclusive results.
 - [36-run under-load A/B test](docs/UNDER-LOAD-AB.md): independent confirmation finds no measurable gain.
+- [Submission-size profiling and follow-up](docs/SUBMISSION-CAP.md): fewer submissions and a promising raw result; original clock-matching confirmation fails.
 - [Native Q6 alignment and scale exchange](docs/Q6-NATIVE.md): exact operators and smaller shaders, but no qualified streamed gain.
 - [Combined smaller-fusion follow-up](docs/FUSION-COMBINATION.md): graph-cached options, correctness checks and independent matched-load confirmation.
 - [Q3 host-overhead profiling](docs/Q3-HOST-COST.md): confirmed scoped+3.4% native-path gain after reducing configuration-lookup overhead.

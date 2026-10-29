@@ -1,0 +1,188 @@
+{
+  "selected_mode": "cap400",
+  "blocks": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cpu_mode_means": {
+        "cap100": 0.5124777352751598,
+        "cap400": 0.5133184625846823
+      },
+      "gpu_clock_mode_means": {
+        "cap100": 1720.0,
+        "cap400": 1965.5
+      },
+      "build_mode_means": {
+        "cap100": 0,
+        "cap400": 0
+      },
+      "runnable_mode_means": {
+        "cap100": 8.616970517020368,
+        "cap400": 7.195097117794486
+      },
+      "comparable": false,
+      "log_effect": 0.04669043777982873,
+      "speed_change_percent": 4.779760031845339
+    },
+    {
+      "indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "cpu_mode_means": {
+        "cap100": 0.512796001757647,
+        "cap400": 0.514180188852968
+      },
+      "gpu_clock_mode_means": {
+        "cap100": 1729.0,
+        "cap400": 2281.0
+      },
+      "build_mode_means": {
+        "cap100": 0,
+        "cap400": 0
+      },
+      "runnable_mode_means": {
+        "cap100": 7.902542372881356,
+        "cap400": 9.589285714285715
+      },
+      "comparable": false,
+      "log_effect": 0.054364524553249804,
+      "speed_change_percent": 5.586942234208486
+    },
+    {
+      "indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "cpu_mode_means": {
+        "cap100": 0.5105407550033898,
+        "cap400": 0.5124175333667855
+      },
+      "gpu_clock_mode_means": {
+        "cap100": 1622.0,
+        "cap400": 1626.75
+      },
+      "build_mode_means": {
+        "cap100": 0,
+        "cap400": 0
+      },
+      "runnable_mode_means": {
+        "cap100": 8.348360655737704,
+        "cap400": 8.955434782608696
+      },
+      "comparable": false,
+      "log_effect": 0.03050600849285967,
+      "speed_change_percent": 3.0976084642613806
+    },
+    {
+      "indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "cpu_mode_means": {
+        "cap100": 0.5121478785364624,
+        "cap400": 0.5126387213912873
+      },
+      "gpu_clock_mode_means": {
+        "cap100": 1629.5,
+        "cap400": 2319.5
+      },
+      "build_mode_means": {
+        "cap100": 0,
+        "cap400": 0
+      },
+      "runnable_mode_means": {
+        "cap100": 6.984588809104457,
+        "cap400": 7.601769911504425
+      },
+      "comparable": false,
+      "log_effect": 0.068229765453383,
+      "speed_change_percent": 7.061126970477666
+    },
+    {
+      "indices": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "cpu_mode_means": {
+        "cap100": 0.5108207581045305,
+        "cap400": 0.5147451658483226
+      },
+      "gpu_clock_mode_means": {
+        "cap100": 1631.0,
+        "cap400": 2308.25
+      },
+      "build_mode_means": {
+        "cap100": 0,
+        "cap400": 0
+      },
+      "runnable_mode_means": {
+        "cap100": 9.024793388429753,
+        "cap400": 9.362950379266751
+      },
+      "comparable": false,
+      "log_effect": 0.07115005538341457,
+      "speed_change_percent": 7.374233459814556
+    },
+    {
+      "indices": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "cpu_mode_means": {
+        "cap100": 0.5136488400460066,
+        "cap400": 0.514876952922731
+      },
+      "gpu_clock_mode_means": {
+        "cap100": 1630.5,
+        "cap400": 1953.5
+      },
+      "build_mode_means": {
+        "cap100": 0,
+        "cap400": 0
+      },
+      "runnable_mode_means": {
+        "cap100": 8.565633608815427,
+        "cap400": 6.464101577529819
+      },
+      "comparable": false,
+      "log_effect": 0.05844568362102409,
+      "speed_change_percent": 6.018739859012266
+    }
+  ],
+  "all6block_descriptive": {
+    "blocks": 6,
+    "geometric_speed_change_percent": 5.643258456871431,
+    "descriptive_t95_percent": [
+      3.9990724935527,
+      7.3134383778010985
+    ],
+    "lower_bound_positive": true
+  },
+  "matched_primary": {
+    "blocks": 0,
+    "qualified": false,
+    "reason": "Fewer than4matched blocks"
+  },
+  "mean_steady_tps": {
+    "cap100": 40.59399336280669,
+    "cap400": 42.89000431771303
+  },
+  "all_tokens_and_counters_identical": true,
+  "scope": "Fixed24fresh512token confirmation, sixABBA/BAABblocks. Same frozen Q3 library/shaders; only submission cap differs. Incremental versuscap100,not a direct stock contrast. Matching only by preset telemetry;all results retained,no extension. Descriptive intervals,small sample/timecorrelation limitations.",
+  "incremental_gain_supported": false
+}

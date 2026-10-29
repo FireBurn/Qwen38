@@ -1,0 +1,9 @@
+{
+ "scope":"Intrusive CPU/wall diagnostic of the qualified guard-v2 source, not a performance candidate",
+ "reason":"Q6 experiments reduce code/LDS without convincing streaming gains. Need updated host/scheduling profile after the successful Q3 guard fix.",
+ "method":"Separate host-profile-v2 library; all3hostTUs rebuilt. Existing in-process runner:one unmeasured warmup then8 alternating control/pad generations128tokens. Same .27/.7 core,privatecopy2driver,unchanged model/shaders.",
+ "events":["Q3gate","Q3MMVQ","Q3request","Q3dispatch","Q3descriptorwrites","Q3commands","nonempty-submit","graph","all-request","all-dispatch","all-descriptorwrites","all-commands","fence-wait","synchronize","build-node"],
+ "limits":"Events nest and overlap; don't add them. Counts include all graph work in each generation. Submit event excludes seqs.empty early returns. Timer and atomic overhead included; no throughput inference or GPU-time decomposition. CPU/build load authorized, telemetry recorded.",
+ "qualification":"All9generations must match prior native tokens/draft/accept counters. Correct backend/core/driver hashes/paths, zero new GPU errors. Perf record cpu-clock/task-clock sampling denied; no system settings changed.",
+ "next_decision":"Use measured counts and normalized CPU costs to identify a source-backed hypothesis. Keep frozen winner unchanged. Any actual fix needs uninstrumented target-logit audits and fixed matched-load confirmation."
+}

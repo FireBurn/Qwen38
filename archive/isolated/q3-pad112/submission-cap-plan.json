@@ -1,0 +1,11 @@
+{
+ "reason":"Post-guard intrusive profile measures about22 nonempty submissions per graph,15–16us CPU each. Existing node cap100 may cause avoidable CPU submission overhead.",
+ "implementation":"Use existing GGML_VK_MAX_NODES_PER_SUBMIT=100,200,400 with identical frozen qualified library/shaders. No source,arithmetic,workgroup,driver or system-setting change.",
+ "qualification":"All3 caps first pass32requested-token full-vocabulary target-logit audit matching prior native hash75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576; preserve all token/counters and driver-error checks.",
+ "screen_order":[100,200,400,400,200,100],"tokens":512,
+ "selection":"Highest mean steadyTPS of cap200/cap400,tie prefer200; screen establishes no gain. Always independentconfirmation,regardless of sign.",
+ "confirmation":"24fresh512token arms,six4arm ABBA/BAAB alternating blocks,selectedcap vs100,frozen qualified build in both. All24fixed,no speed-based extension. Additional prompts128 coding/math for selectedcap before confirmation.",
+ "matching":"CPUmode means<=5pp,clock<=3%,buildcount<=2,runnable spread<=max(4,15%mean),allarmsclocksettled,same mappedlibc inode. All6andmatchedblock results retained;>=4matchedrequired,df3/4/5 descriptive95%t. Select blocks by telemetry only.",
+ "decision":"No adoption unless exact audits and positive primary matched interval. This comparison is incremental vs frozen; do not add historical stock percentages. Frozen artifact unchanged. Larger native submissions preserve existing barriers but may alter CPU/GPU overlap,so must be measured.",
+ "load":"Under-load testing authorized. Same privatecopy2driver,.27/.7cores,greedyMTPmax1,4kctx/q8KV,1CPUthread. No quiet gate. SerialGPUguard,no competing inference."
+}

@@ -11995,7 +11995,679 @@
       "export_sha256": "986a0094dc80fa9ebfbce7958d1881cbe4f68b3f7b71be82cb0087057780981f",
       "bytes": 409,
       "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/execution.json",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/execution.json",
+      "source_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "export_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "bytes": 74,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/analysis.json",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/analysis.json",
+      "source_sha256": "afffe85ce40cf0bbd9bf2165364a7e991c49112ce92f137d2107a56785e79cdf",
+      "export_sha256": "afffe85ce40cf0bbd9bf2165364a7e991c49112ce92f137d2107a56785e79cdf",
+      "bytes": 34557,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/assets.json",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/assets.json",
+      "source_sha256": "10aee8cdcb53138449f44e472ede69bd3013d885d68461be3898e54dc981d497",
+      "export_sha256": "a17cfb4dbe587ee89a78195dfb1f9f0c214b2bad64749a8dbc9f4d14dedaef0d",
+      "bytes": 1333,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/run.log",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/run.log",
+      "source_sha256": "cb205690e0b9f1081a11beea7cdcfd00e1d4d3bc750e556a5adc3753283f50ae",
+      "export_sha256": "cb7461faeacc2ffb4029bf1da323e35f61519f892465cddc1b0d78af2ce090ff",
+      "bytes": 61438,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/behavior-check.json",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/behavior-check.json",
+      "source_sha256": "9ce57e4d10fcaf50e8899edcac48f45f519589c9bf94d7d0c7c2e5f24dbd65d8",
+      "export_sha256": "9ce57e4d10fcaf50e8899edcac48f45f519589c9bf94d7d0c7c2e5f24dbd65d8",
+      "bytes": 172,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/telemetry.jsonl",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-runs/20261029T074507Z/telemetry.jsonl",
+      "source_sha256": "996aed85f993596b327ad8b32f0247c3ae218809193eefdd938445084fb742a0",
+      "export_sha256": "996aed85f993596b327ad8b32f0247c3ae218809193eefdd938445084fb742a0",
+      "bytes": 94538,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/execution.json",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/execution.json",
+      "source_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "export_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "bytes": 74,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/analysis.json",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/analysis.json",
+      "source_sha256": "2dbccd633ffb03b4a24ddf3692b280ca50274fa74504ca97827e08d2e64f8a49",
+      "export_sha256": "2dbccd633ffb03b4a24ddf3692b280ca50274fa74504ca97827e08d2e64f8a49",
+      "bytes": 34528,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/assets.json",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/assets.json",
+      "source_sha256": "6b42764ffd25c2769d73fa7d90fd31f6beb0ffe31c0160b279e9f74071997622",
+      "export_sha256": "bea182347c7e5ac8d549fc266d4323125c550a4464a29155ba190826465374b8",
+      "bytes": 1330,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/run.log",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/run.log",
+      "source_sha256": "62e0927f64bda951eae19fafadbc29cbe966b98e5881e56c3f08456df14164f8",
+      "export_sha256": "a6d1744629d2e8b6b221624fda7fdb46e04e0395b7dcce5f26ce8e9b594bcfcd",
+      "bytes": 61438,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/behavior-check.json",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/behavior-check.json",
+      "source_sha256": "9ce57e4d10fcaf50e8899edcac48f45f519589c9bf94d7d0c7c2e5f24dbd65d8",
+      "export_sha256": "9ce57e4d10fcaf50e8899edcac48f45f519589c9bf94d7d0c7c2e5f24dbd65d8",
+      "bytes": 172,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/telemetry.jsonl",
+      "path": "archive/isolated/q3-pad112/host-profile-v2-cap400-runs/20261029T075055Z/telemetry.jsonl",
+      "source_sha256": "a170118ec8a0562b3daca296a182f1cd00420308b615bef6f2e8bc05ae137e0d",
+      "export_sha256": "a170118ec8a0562b3daca296a182f1cd00420308b615bef6f2e8bc05ae137e0d",
+      "bytes": 92764,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-model32/comparison.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-model32/comparison.json",
+      "source_sha256": "523a9c16e6695a6aa17c3c0edebd0b4f5f5089085ac558f107bdfd6eb01b176f",
+      "export_sha256": "523a9c16e6695a6aa17c3c0edebd0b4f5f5089085ac558f107bdfd6eb01b176f",
+      "bytes": 560,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-model32/assets.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-model32/assets.json",
+      "source_sha256": "77e9af93682e5951c1c9bd25e0874593150e3f196856415aa02b52b7ac00df97",
+      "export_sha256": "4eaac44a0687914b70dafd7e54604deb5c27af4557a3847fb9b60fc08761db8c",
+      "bytes": 1756,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-model32/checks.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-model32/checks.json",
+      "source_sha256": "38c2bf0d8bb9e22f5c7285a3a51aea8b25c7dfcad7876197cf747de54ae7f6c4",
+      "export_sha256": "38c2bf0d8bb9e22f5c7285a3a51aea8b25c7dfcad7876197cf747de54ae7f6c4",
+      "bytes": 3096,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-model32/audit-archive.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-model32/audit-archive.json",
+      "source_sha256": "09ddd4f115b97c2974a278c33f12a23e08f2e54ea96114f75f0ab2c593354af1",
+      "export_sha256": "09ddd4f115b97c2974a278c33f12a23e08f2e54ea96114f75f0ab2c593354af1",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-prompts128/comparison.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-prompts128/comparison.json",
+      "source_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "export_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-prompts128/assets.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-prompts128/assets.json",
+      "source_sha256": "667303020b880f5006efc72e58fc0e3feb09b288d3efb5a6f47af815e709d32f",
+      "export_sha256": "160481ba198588bc0291e5c960bc2c6d7d56e099e4a77db7c973ef4eb76d9867",
+      "bytes": 1759,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-prompts128/checks.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-prompts128/checks.json",
+      "source_sha256": "5bc969515e2b3be4192d93366fd13391b628982040e8a6599ed18b2d01c5a59f",
+      "export_sha256": "5bc969515e2b3be4192d93366fd13391b628982040e8a6599ed18b2d01c5a59f",
+      "bytes": 4209,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-prompts128/math/audit-archive.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/03-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/03-cap400-telemetry.json",
+      "source_sha256": "ff78eeb6b5370d6b8dafb4978c5bba0d08bf0191b5f0254812c87e6f1ee4f249",
+      "export_sha256": "ff78eeb6b5370d6b8dafb4978c5bba0d08bf0191b5f0254812c87e6f1ee4f249",
+      "bytes": 57996,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/runtime-baseline.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/runtime-baseline.json",
+      "source_sha256": "40c9ee0fc99b0d560e390b4e4a2d87199760e10ff82262ebaf108b8b241fcc4c",
+      "export_sha256": "40c9ee0fc99b0d560e390b4e4a2d87199760e10ff82262ebaf108b8b241fcc4c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/04-cap200-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/04-cap200-telemetry.json",
+      "source_sha256": "fe7cd159ac139dd7575c0c1d55aa8c5f5a37ee87309456879f886a4046e2b26a",
+      "export_sha256": "fe7cd159ac139dd7575c0c1d55aa8c5f5a37ee87309456879f886a4046e2b26a",
+      "bytes": 58661,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/results.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/results.json",
+      "source_sha256": "9250f0ec766806fcbcd2c974b95fb0d51d90550c0adbb521a20d2f318a4987df",
+      "export_sha256": "9250f0ec766806fcbcd2c974b95fb0d51d90550c0adbb521a20d2f318a4987df",
+      "bytes": 47278,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/02-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/02-cap400-telemetry.json",
+      "source_sha256": "d7d6bec92ef8a598d6fead43db7e82bbc9a67cdc31cb71b6a6767a3516d96870",
+      "export_sha256": "d7d6bec92ef8a598d6fead43db7e82bbc9a67cdc31cb71b6a6767a3516d96870",
+      "bytes": 58081,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/screen.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/screen.json",
+      "source_sha256": "9c9d32f40f6f831d989e7fcc22357743151d45426c950eeff5ddf6b9b95fe535",
+      "export_sha256": "9c9d32f40f6f831d989e7fcc22357743151d45426c950eeff5ddf6b9b95fe535",
+      "bytes": 404,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/protocol.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/protocol.json",
+      "source_sha256": "66c31568a336d21ca0b2b7f562b29c0533a2f99d6282fe43a309a20c6121655c",
+      "export_sha256": "66c31568a336d21ca0b2b7f562b29c0533a2f99d6282fe43a309a20c6121655c",
+      "bytes": 1762,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/assets.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/assets.json",
+      "source_sha256": "690796bedf7faafdeb0c4ea244f772ecdb42c771c87f23b0a3cae043bde9d5b7",
+      "export_sha256": "71335a729061d8643153d2fafc52af869b53be247d09a0be70ca00a178079e46",
+      "bytes": 1418,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/00-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/00-cap100-telemetry.json",
+      "source_sha256": "93c03cbe1562e40a714cd770582f7b839948ff12902cacde613a3be610da123f",
+      "export_sha256": "93c03cbe1562e40a714cd770582f7b839948ff12902cacde613a3be610da123f",
+      "bytes": 60103,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/05-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/05-cap100-telemetry.json",
+      "source_sha256": "ce22d2bcab61064830c637788b588483b9d3c62d999f386b4f93ff0b9b533d1b",
+      "export_sha256": "ce22d2bcab61064830c637788b588483b9d3c62d999f386b4f93ff0b9b533d1b",
+      "bytes": 59400,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/01-cap200-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-screen512/20261029T074830Z/01-cap200-telemetry.json",
+      "source_sha256": "7ed1552af064c9c447ea2d8be587d1c5b31b1effcc980c94616bd858987e18e1",
+      "export_sha256": "7ed1552af064c9c447ea2d8be587d1c5b31b1effcc980c94616bd858987e18e1",
+      "bytes": 58050,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/17-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/17-cap400-telemetry.json",
+      "source_sha256": "4ea72895439b8a5e87a6d4b38d27eb697059025f7d98cbd7fa4d44499e09deaa",
+      "export_sha256": "4ea72895439b8a5e87a6d4b38d27eb697059025f7d98cbd7fa4d44499e09deaa",
+      "bytes": 58047,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/exclusion-details.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/exclusion-details.json",
+      "source_sha256": "5a55cb5a597bbe037d511deb694a740405ba8e774bcd28d7fda7f89bbd4931bc",
+      "export_sha256": "5a55cb5a597bbe037d511deb694a740405ba8e774bcd28d7fda7f89bbd4931bc",
+      "bytes": 1998,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/runtime-baseline.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/runtime-baseline.json",
+      "source_sha256": "40c9ee0fc99b0d560e390b4e4a2d87199760e10ff82262ebaf108b8b241fcc4c",
+      "export_sha256": "40c9ee0fc99b0d560e390b4e4a2d87199760e10ff82262ebaf108b8b241fcc4c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/08-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/08-cap100-telemetry.json",
+      "source_sha256": "51f3d2152e4b48ac8f4cc102bb72347afcbc645fb08116e79e86fa476ac5bd67",
+      "export_sha256": "51f3d2152e4b48ac8f4cc102bb72347afcbc645fb08116e79e86fa476ac5bd67",
+      "bytes": 60994,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/19-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/19-cap100-telemetry.json",
+      "source_sha256": "b5bbf15c11a71fb0f584dec39ec7e088dd06f1acafcb07981ebd74bc4b27f918",
+      "export_sha256": "b5bbf15c11a71fb0f584dec39ec7e088dd06f1acafcb07981ebd74bc4b27f918",
+      "bytes": 61055,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/04-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/04-cap400-telemetry.json",
+      "source_sha256": "c98eb4ae210641751859686b904f511de7680d28d20b89395d8805c6e733d248",
+      "export_sha256": "c98eb4ae210641751859686b904f511de7680d28d20b89395d8805c6e733d248",
+      "bytes": 58039,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/results.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/results.json",
+      "source_sha256": "090695ec80514582697e3ec1e003dd08a5d591d25162d716cc8a45906fb0e2a5",
+      "export_sha256": "090695ec80514582697e3ec1e003dd08a5d591d25162d716cc8a45906fb0e2a5",
+      "bytes": 189103,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/11-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/11-cap100-telemetry.json",
+      "source_sha256": "566ff2d5c4fcb0b3344bbb0338f24dc768f00df27debfb23be478c98e4e5be5a",
+      "export_sha256": "566ff2d5c4fcb0b3344bbb0338f24dc768f00df27debfb23be478c98e4e5be5a",
+      "bytes": 61064,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/02-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/02-cap400-telemetry.json",
+      "source_sha256": "6446fa302532058a9078d6f6801caf597e344ba978d842e5dfea482679a80585",
+      "export_sha256": "6446fa302532058a9078d6f6801caf597e344ba978d842e5dfea482679a80585",
+      "bytes": 58043,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/protocol.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/protocol.json",
+      "source_sha256": "95b4b1e7342e7b07bfb2425ec0c3b40f0bef69512ec6bd22b11d163ac5bb85f7",
+      "export_sha256": "95b4b1e7342e7b07bfb2425ec0c3b40f0bef69512ec6bd22b11d163ac5bb85f7",
+      "bytes": 2399,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/10-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/10-cap400-telemetry.json",
+      "source_sha256": "25c0588c1b9168a67b421081af4eb51b8a22d18c3f02960da6c1045abb7099ab",
+      "export_sha256": "25c0588c1b9168a67b421081af4eb51b8a22d18c3f02960da6c1045abb7099ab",
+      "bytes": 60116,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/confirmation-analysis.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/confirmation-analysis.json",
+      "source_sha256": "437b8f6666f518c407195030f499e4a8dc00981658394ab4d6af4e5027ab161e",
+      "export_sha256": "437b8f6666f518c407195030f499e4a8dc00981658394ab4d6af4e5027ab161e",
+      "bytes": 4455,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/01-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/01-cap400-telemetry.json",
+      "source_sha256": "75be23951009748e9d5955b56e2da932563a5ea004a7b492b6690ef7453e051a",
+      "export_sha256": "75be23951009748e9d5955b56e2da932563a5ea004a7b492b6690ef7453e051a",
+      "bytes": 58673,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/16-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/16-cap100-telemetry.json",
+      "source_sha256": "cb18b04cbe14f13a2660cf1d9d4046bab27734062d12159120857682e33bc8ce",
+      "export_sha256": "cb18b04cbe14f13a2660cf1d9d4046bab27734062d12159120857682e33bc8ce",
+      "bytes": 60986,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/20-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/20-cap400-telemetry.json",
+      "source_sha256": "00885c37e35f15acc0e4e234d9865505aaaec5df83ec12b5f5bb85ee4beb9ee3",
+      "export_sha256": "00885c37e35f15acc0e4e234d9865505aaaec5df83ec12b5f5bb85ee4beb9ee3",
+      "bytes": 58617,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/09-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/09-cap400-telemetry.json",
+      "source_sha256": "4d942654b5f7a1d9b360024bccd11705b9a5d684bbb68e27f73c98b5370ee264",
+      "export_sha256": "4d942654b5f7a1d9b360024bccd11705b9a5d684bbb68e27f73c98b5370ee264",
+      "bytes": 59546,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/07-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/07-cap400-telemetry.json",
+      "source_sha256": "e7cae726c3c9ca3a3488c51e7ea847287e98075e0fc7ca0e6f9a61b580d59f0b",
+      "export_sha256": "e7cae726c3c9ca3a3488c51e7ea847287e98075e0fc7ca0e6f9a61b580d59f0b",
+      "bytes": 58001,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/06-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/06-cap100-telemetry.json",
+      "source_sha256": "f9fa986cb8f0a1a77ffd383aabb2233238a8b0745549ec3a8dbcd4aa1ebf7ec5",
+      "export_sha256": "f9fa986cb8f0a1a77ffd383aabb2233238a8b0745549ec3a8dbcd4aa1ebf7ec5",
+      "bytes": 60148,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/assets.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/assets.json",
+      "source_sha256": "0f1db7bcd7898f117ab0fe35390928af099da0c57c3f91e7df897389a00fa793",
+      "export_sha256": "e12f9d02cc45d444d86d5082b2f51cdf3053d2e491d7d9de86ecbfb65c848814",
+      "bytes": 1419,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/23-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/23-cap400-telemetry.json",
+      "source_sha256": "60115c42596560500565f2c708e8060ed54e8a34e75c359814c5f0133de89635",
+      "export_sha256": "60115c42596560500565f2c708e8060ed54e8a34e75c359814c5f0133de89635",
+      "bytes": 58639,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/13-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/13-cap100-telemetry.json",
+      "source_sha256": "d83be5617af7ceae33eace9ccd8697283af4dbfa87e447839cfe2116ce08bae0",
+      "export_sha256": "d83be5617af7ceae33eace9ccd8697283af4dbfa87e447839cfe2116ce08bae0",
+      "bytes": 60923,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/15-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/15-cap400-telemetry.json",
+      "source_sha256": "cf26f3552f1222e722419924fa9e102f715bce902f16fdbdbdc469ce66197535",
+      "export_sha256": "cf26f3552f1222e722419924fa9e102f715bce902f16fdbdbdc469ce66197535",
+      "bytes": 58643,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/00-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/00-cap100-telemetry.json",
+      "source_sha256": "6e16e476a20a0807d306c72b5fd9ffdbff6bda02b16f99c92e69d66cd4f73d35",
+      "export_sha256": "6e16e476a20a0807d306c72b5fd9ffdbff6bda02b16f99c92e69d66cd4f73d35",
+      "bytes": 60120,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/21-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/21-cap100-telemetry.json",
+      "source_sha256": "37bb6c0e4cd9312307e9fe11277d0a70592465bf2570cfd71cb07cfc19aa6e5f",
+      "export_sha256": "37bb6c0e4cd9312307e9fe11277d0a70592465bf2570cfd71cb07cfc19aa6e5f",
+      "bytes": 60214,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/03-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/03-cap100-telemetry.json",
+      "source_sha256": "985741b732b3dfcb2d04d5625509e0f714b0cbe7f74e0152eb072ae896a57081",
+      "export_sha256": "985741b732b3dfcb2d04d5625509e0f714b0cbe7f74e0152eb072ae896a57081",
+      "bytes": 60067,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/14-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/14-cap100-telemetry.json",
+      "source_sha256": "3a8ad2099432fc92d797d88d536b57f2982b3aee4bb7420e938e1112e0ec32ba",
+      "export_sha256": "3a8ad2099432fc92d797d88d536b57f2982b3aee4bb7420e938e1112e0ec32ba",
+      "bytes": 60186,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/22-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/22-cap100-telemetry.json",
+      "source_sha256": "d94d4a648eafc13f6ccdc77c44a3a025aba8e10fb3895f640be06eab0f50a598",
+      "export_sha256": "d94d4a648eafc13f6ccdc77c44a3a025aba8e10fb3895f640be06eab0f50a598",
+      "bytes": 61015,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/18-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/18-cap400-telemetry.json",
+      "source_sha256": "c074d62fd9c8c5c8094480253b99395041d733874c21bb1e97d0276d55919840",
+      "export_sha256": "c074d62fd9c8c5c8094480253b99395041d733874c21bb1e97d0276d55919840",
+      "bytes": 58614,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/05-cap100-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/05-cap100-telemetry.json",
+      "source_sha256": "084d68896a96d83f0612de169405b8660ca555bd70e09fed1dda5cd4d210705b",
+      "export_sha256": "084d68896a96d83f0612de169405b8660ca555bd70e09fed1dda5cd4d210705b",
+      "bytes": 59483,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/12-cap400-telemetry.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/12-cap400-telemetry.json",
+      "source_sha256": "bc7610451e13e8e27362f7a8442acaa2e28ee85d654f93521d7cb64b55ba3616",
+      "export_sha256": "bc7610451e13e8e27362f7a8442acaa2e28ee85d654f93521d7cb64b55ba3616",
+      "bytes": 58018,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/compare_submission_profiles.py",
+      "path": "archive/isolated/q3-pad112/compare_submission_profiles.py",
+      "source_sha256": "437e6b81ad8388a6fec3e5d3dae3b74c105a6bae53f677de205572f0eac49eaa",
+      "export_sha256": "437e6b81ad8388a6fec3e5d3dae3b74c105a6bae53f677de205572f0eac49eaa",
+      "bytes": 1681,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-count-profile.json",
+      "path": "archive/isolated/q3-pad112/submission-count-profile.json",
+      "source_sha256": "7d4683c230d650b8702684b998cab7fb371c4702519c2eab998febc0a840eb70",
+      "export_sha256": "7d4683c230d650b8702684b998cab7fb371c4702519c2eab998febc0a840eb70",
+      "bytes": 1829,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/profile-v2-plan.json",
+      "path": "archive/isolated/q3-pad112/profile-v2-plan.json",
+      "source_sha256": "4ec876e2b87d9d85aa7f2311a6970bd9d86ac690ea6750bbe9b36ebee1074ddd",
+      "export_sha256": "4ec876e2b87d9d85aa7f2311a6970bd9d86ac690ea6750bbe9b36ebee1074ddd",
+      "bytes": 1457,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/prepare_profile_v2.py",
+      "path": "archive/isolated/q3-pad112/prepare_profile_v2.py",
+      "source_sha256": "cb33f8f8b82d629e962adf10f67f3221d94c36466db29bba02aa314c54bed30d",
+      "export_sha256": "17794e3e3a6ee3542c9d9bb3ab302a9d31bbfee0d56eb8cae4d1d7bfeda8ec9e",
+      "bytes": 2797,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/build_profile_v2.py",
+      "path": "archive/isolated/q3-pad112/build_profile_v2.py",
+      "source_sha256": "2bc36c2c36f62ce0c16598084c9cfcfa9a54661b83eee9ef00641d4fe4134b37",
+      "export_sha256": "2bc36c2c36f62ce0c16598084c9cfcfa9a54661b83eee9ef00641d4fe4134b37",
+      "bytes": 6422,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/analyse_profile_v2.py",
+      "path": "archive/isolated/q3-pad112/analyse_profile_v2.py",
+      "source_sha256": "b2542691266ebafa9d97c4f9bc03a9899d87dbcf062cb3d87b21823ec8e07e05",
+      "export_sha256": "b2542691266ebafa9d97c4f9bc03a9899d87dbcf062cb3d87b21823ec8e07e05",
+      "bytes": 2202,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-cap-plan.json",
+      "path": "archive/isolated/q3-pad112/submission-cap-plan.json",
+      "source_sha256": "66c31568a336d21ca0b2b7f562b29c0533a2f99d6282fe43a309a20c6121655c",
+      "export_sha256": "66c31568a336d21ca0b2b7f562b29c0533a2f99d6282fe43a309a20c6121655c",
+      "bytes": 1762,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/prepare_submission_cap.py",
+      "path": "archive/isolated/q3-pad112/prepare_submission_cap.py",
+      "source_sha256": "ec004bcdb10c379c16350fdfee3ca853e160d3c6ac817d9f66f23572264e641e",
+      "export_sha256": "ec004bcdb10c379c16350fdfee3ca853e160d3c6ac817d9f66f23572264e641e",
+      "bytes": 3788,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/prepare_submission_cap_confirm.py",
+      "path": "archive/isolated/q3-pad112/prepare_submission_cap_confirm.py",
+      "source_sha256": "7b9e7c5ac8e1ba03f8cbf42012371227698e8fcf0cfd20858b2a6188c6a6e455",
+      "export_sha256": "7b9e7c5ac8e1ba03f8cbf42012371227698e8fcf0cfd20858b2a6188c6a6e455",
+      "bytes": 4664,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/publish_submission_round.py",
+      "path": "archive/isolated/q3-pad112/publish_submission_round.py",
+      "source_sha256": "6986b0c7179a9897554ca039e7a0a309c97e595548758e4ff8b0225bb3d26e45",
+      "export_sha256": "8f7b245f9ba9379941d8bdcfae39db85ee46ff25d574afbb1c0d2b96cc1c1522",
+      "bytes": 2014,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2/build.json",
+      "path": "archive/isolated/q3-pad112/host-profile-v2/build.json",
+      "source_sha256": "65d2c6a42b3452a61d03061684126c539fd9088e466e17ab04a5e3c0bda705db",
+      "export_sha256": "65d2c6a42b3452a61d03061684126c539fd9088e466e17ab04a5e3c0bda705db",
+      "bytes": 1176,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2/np-profile.h",
+      "path": "archive/isolated/q3-pad112/host-profile-v2/np-profile.h",
+      "source_sha256": "a16b110e4299fb03f4e5e2d580dc7dbdf61f190aea91a32b5d29d8bba327ed93",
+      "export_sha256": "a16b110e4299fb03f4e5e2d580dc7dbdf61f190aea91a32b5d29d8bba327ed93",
+      "bytes": 955,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-profile-v2/np-profile.cpp",
+      "path": "archive/isolated/q3-pad112/host-profile-v2/np-profile.cpp",
+      "source_sha256": "c8b1d7480b13f272d80b9adc031ea872bb372ad67316e45cd92654fe27e3c89c",
+      "export_sha256": "c8b1d7480b13f272d80b9adc031ea872bb372ad67316e45cd92654fe27e3c89c",
+      "bytes": 1282,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q3_pad112_host_profile_v2.py",
+      "path": "archive/isolated/run_q3_pad112_host_profile_v2.py",
+      "source_sha256": "ab8fc37870f475889e125ddaa17b2b20b2512b5a88c9ff1bd8af325f2d08d57a",
+      "export_sha256": "b25293ecf3f362dfae4f2f916135f908f9c456b3b0ab2999cdd273a77858d36f",
+      "bytes": 6439,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_host_profile_cap400.py",
+      "path": "archive/isolated/run_q3_host_profile_cap400.py",
+      "source_sha256": "162499439d03bcd8f0eaa2f344d5030114c4b53d9c31418cb9004d3532c10a7d",
+      "export_sha256": "c59934985a730d9f98e60747957ac1f30ee8f93dc8d33a95ede6c4643f9ea8a1",
+      "bytes": 6488,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_submission_cap_model32.py",
+      "path": "archive/isolated/run_q3_submission_cap_model32.py",
+      "source_sha256": "722c42b4eea3394ac8e4f2340d98986dd236a7f29f16e4859e1a026cb2287cf1",
+      "export_sha256": "c08018f8fb2c722427c9a680cc5f6eab15d1e4d6e876a0378016d6f7a2f42103",
+      "bytes": 8480,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_submission_cap_screen.py",
+      "path": "archive/isolated/run_q3_submission_cap_screen.py",
+      "source_sha256": "a47ef3b4e127f776f071352f03c0bb5c27041b2dce1065660c50a69002718af5",
+      "export_sha256": "6ea6468f7cc38495660f26ed296149f8a32b5434b21db9dc73dbecda6f68f7b2",
+      "bytes": 12325,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_submission_cap_prompts128.py",
+      "path": "archive/isolated/run_q3_submission_cap_prompts128.py",
+      "source_sha256": "8b8875d6e635432e49a8d0713687f6c7b7d0963a4f5758a94b23d785714fa903",
+      "export_sha256": "fae1c3cf57cd96a615aa768e788c23bf0b86475522c8aabc8080090ae2814b35",
+      "bytes": 8074,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_submission_cap_confirm.py",
+      "path": "archive/isolated/run_q3_submission_cap_confirm.py",
+      "source_sha256": "69d7c733839ec136122b0cd97e4d971f5514499906a4a285a886402663a2d71c",
+      "export_sha256": "ffedec6a90b4c34de1d85bb7d1ec1164531114fc132d45904e75a4571364e1ce",
+      "bytes": 16926,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/prepare_submission_system.py",
+      "path": "archive/isolated/q3-pad112/prepare_submission_system.py",
+      "source_sha256": "4b7a3d24a8808172af229f0ad7bdd568719b35bd4699f6ea89d9aba0ccb2819b",
+      "export_sha256": "4b7a3d24a8808172af229f0ad7bdd568719b35bd4699f6ea89d9aba0ccb2819b",
+      "bytes": 3893,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/submission-system-effect-plan.json",
+      "path": "archive/isolated/q3-pad112/submission-system-effect-plan.json",
+      "source_sha256": "27d4a5df0fe67e9e522502fdb5ff4b5fe2725c5f8f0c9e62883c554d40dd24b3",
+      "export_sha256": "27d4a5df0fe67e9e522502fdb5ff4b5fe2725c5f8f0c9e62883c554d40dd24b3",
+      "bytes": 2290,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q3_submission_system_effect.py",
+      "path": "archive/isolated/run_q3_submission_system_effect.py",
+      "source_sha256": "d163f2cfc63f4dc27d6223dba506724b35275fc399c35c64596ffc65d29b35d7",
+      "export_sha256": "a9e58c96b49c78eb14aab81b3d586fc14dc3ac88c4e6b385cda159a1fb616a1d",
+      "bytes": 15645,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-29T07:40:40.923366+00:00"
+  "updated_utc": "2026-10-29T08:05:12.262018+00:00"
 }
