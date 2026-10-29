@@ -1,0 +1,21 @@
+from pathlib import Path
+import json,re,statistics,math
+p=sorted((Path(__file__).resolve().parent/'resident').iterdir())[-1];assert json.loads((p/'behavior-check.json').read_text())['all_tokens_and_counters_identical'];ex=json.loads((p/'execution.json').read_text());assert ex['child_returncode']==0 and not ex['new_driver_errors'];samples=[json.loads(l)for l in(p/'telemetry.jsonl').read_text().splitlines()];rows=[]
+for part in(p/'run.log').read_text().split('INPROCESS_ARM_BEGIN ')[1:]:
+ arm,mode=re.match(r'arm=(-?\d+) mode=(\w+)',part).groups();arm=int(arm)
+ if arm<0:continue
+ warm,cold,n,us,total=map(int,re.search(r'FULL_MODEL_TIMING warm_tokens=(\d+) cold_generation_us=(\d+) steady_tokens=(\d+) steady_us=(\d+) total_generation_us=(\d+)',part).groups());pred=int(re.findall(r'n_predict\s*=\s*(\d+)',part)[-1]);phase=[s for s in samples if s.get('arm')==arm and s.get('decode_seen')];valid=[s for s in phase if'sensor_error'not in s];active=[s for s in valid if s.get('gpu_busy',0)>=50 and s.get('clock_mhz',0)>0]
+ assert phase and valid
+ r=dict(arm=arm,mode=mode,n_predict=pred,generation_us=total,steady_us=us,full_tps=pred*1e6/total,steady_tps=n*1e6/us,phase_samples=len(phase),active_samples=len(active),sensor_errors=[s['sensor_error']for s in phase if'sensor_error'in s],cpu=statistics.mean(s['cpu_busy']for s in valid if'cpu_busy'in s),builds=statistics.mean(s['builds']for s in valid),runnable=statistics.mean(int(s['loadavg'].split()[3].split('/')[0])for s in valid),clock_mhz=statistics.mean(s['clock_mhz']for s in active)if active else None,power_w=statistics.mean(s['power_w']for s in valid));r['telemetry_valid']=not r['sensor_errors']and len(active)>=8;rows.append(r)
+assert len(rows)==24;blocks=[]
+for i in range(6):
+ aa=rows[i*4:i*4+4];by={m:[r for r in aa if r['mode']==m]for m in ['inactive','active']};assert all(len(v)==2 for v in by.values())
+ means={k:{m:statistics.mean(r[k]for r in rr)for m,rr in by.items()}for k in ['cpu','builds','runnable','clock_mhz','power_w']};spread=lambda k:max(means[k].values())-min(means[k].values());matched=all(r['telemetry_valid']for r in aa)and spread('cpu')<=.05 and spread('builds')<=2 and spread('runnable')<=max(4,.15*statistics.mean(means['runnable'].values()));eff={k:statistics.mean(math.log(r[k])for r in by['active'])-statistics.mean(math.log(r[k])for r in by['inactive'])for k in ['generation_us','steady_us']};blocks.append(dict(block=i,matched=matched,means=means,effects=eff,full_time_change_percent=100*math.expm1(eff['generation_us'])))
+def estimate(bb,key):
+ n=len(bb)
+ if n<4:return dict(blocks=n,qualified=False,reason='Fewer than4matched blocks')
+ v=[b['effects'][key]for b in bb];mu=statistics.mean(v);half={4:3.182446305284263,5:2.776445105197799,6:2.570581835636305}[n]*statistics.stdev(v)/math.sqrt(n);return dict(blocks=n,time_change_percent=100*math.expm1(mu),descriptive_t95_percent=[100*math.expm1(mu-half),100*math.expm1(mu+half)],upper_bound_negative=mu+half<0)
+r=dict(arms=rows,blocks=blocks,all6_full_generation=estimate(blocks,'generation_us'),matched_full_generation=estimate([b for b in blocks if b['matched']],'generation_us'),all6_steady_secondary=estimate(blocks,'steady_us'),matched_steady_secondary=estimate([b for b in blocks if b['matched']],'steady_us'),all_25_generations_native_tokens_and_counters_exact=True,new_driver_errors=[],scope='Separatefixed24resident128requested-token diagnostic,oneactivewarmup. Sameunchangedprivatehostinactive/active,weights/contextsresident;explicitencoding/warmboundary/endGPUcompletion synchronization. Primaryfullgenerationtime,negativefaster. MatchedbyCPU/build/runqueue/validtelemetryonly,clocks/poweroutcomes. Notdirectpreservedfrozencomparison,notindependentprimaryconfirmation,nopoolingorextensionoffailedfreshdataset. Warmupactiveonlycanleavefirstinactivedescriptorallocationcold;allarmsretained. Fewblocks/timecorrelation/stateordereffectslimitinference.')
+(p/'analysis.json').write_text(json.dumps(r,indent=2)+'\n')
+for k in ['all6_full_generation','matched_full_generation','all6_steady_secondary','matched_steady_secondary']:print(k,r[k])
+for b in blocks:print('block',b['block'],'matched',b['matched'],'timechange',b['full_time_change_percent'],'means',b['means'])

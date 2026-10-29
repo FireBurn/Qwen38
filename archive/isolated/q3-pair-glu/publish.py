@@ -7,7 +7,7 @@ files += [f for f in(p/'shader').iterdir()if f.suffix in ['.glsl','.comp']]
 for name in ['host','audit-host']:
  files += [f for f in(p/name).iterdir()if f.is_file()and f.suffix in ['.json','.h']]
 files += [p/'host/ggml-vulkan.cpp']
-for folder in ['model32','operators','stress','timing','host-model32','host-prompts128','host-populated-kv64','host-boundary128','model-timing512','model-confirmation512','eligibility','eligibility-attempt1-policy-expectation']:
+for folder in ['model32','operators','stress','timing','host-model32','host-prompts128','host-populated-kv64','host-boundary128','model-timing512','model-confirmation512','resident','eligibility','eligibility-attempt1-policy-expectation']:
  d=p/folder
  if d.exists():files += [f for f in d.rglob('*')if f.is_file()and f.suffix in ['.json','.jsonl','.cpp','.py','.md']and not any('cache'in x for x in f.relative_to(d).parts)]
 files += list(b.glob('run_q3_pair_glu_*.py'))+[b/'run_q3_pair_graph_audit.py']

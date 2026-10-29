@@ -15719,9 +15719,9 @@
     {
       "source": "isolated/q3-pair-glu/NEXT.md",
       "path": "archive/isolated/q3-pair-glu/NEXT.md",
-      "source_sha256": "c3121de1f15e2930094df5fae9b31f9d806815b691f6af324b417ce90e64093e",
-      "export_sha256": "c3121de1f15e2930094df5fae9b31f9d806815b691f6af324b417ce90e64093e",
-      "bytes": 2456,
+      "source_sha256": "cf191a007e3f4f7f75b6e4706e4cd9df5f8c961b0df641c6058e629ab2156a4e",
+      "export_sha256": "cf191a007e3f4f7f75b6e4706e4cd9df5f8c961b0df641c6058e629ab2156a4e",
+      "bytes": 2800,
       "sanitized": false
     },
     {
@@ -15735,9 +15735,9 @@
     {
       "source": "isolated/q3-pair-glu/STATUS.md",
       "path": "archive/isolated/q3-pair-glu/STATUS.md",
-      "source_sha256": "b03d22282ac215c8950d2721790c991ee1507763c8fbc04e77b356e1bedd5594",
-      "export_sha256": "b03d22282ac215c8950d2721790c991ee1507763c8fbc04e77b356e1bedd5594",
-      "bytes": 3097,
+      "source_sha256": "cd6c035ed07f8cf250d11701981213bda5f7d81c6dc47d3bfda398067f8843d5",
+      "export_sha256": "cd6c035ed07f8cf250d11701981213bda5f7d81c6dc47d3bfda398067f8843d5",
+      "bytes": 3728,
       "sanitized": false
     },
     {
@@ -16567,9 +16567,9 @@
     {
       "source": "isolated/q3-pair-glu/publish.py",
       "path": "archive/isolated/q3-pair-glu/publish.py",
-      "source_sha256": "9aafe2e506b5874764b44f7e790d76027c0315efe8d342633b742bb737821cdc",
-      "export_sha256": "1828cdf92d82470d6aac48f490b3bc44b4da2c0461ba0d697f012d81fe2e3021",
-      "bytes": 1903,
+      "source_sha256": "7d738288bf4b007621870ec1d3c8ab898cb88b9d2a41bbf625b673298d152372",
+      "export_sha256": "e744fadfc260082c9393ab726a3e1c1301307598d4cd51137b6ce3738b2fb1a2",
+      "bytes": 1914,
       "sanitized": true
     },
     {
@@ -16795,7 +16795,119 @@
       "export_sha256": "8ecd8d6485c4174353a5cb07cd0506b370e05f934941fefc5928fdbf3bed4020",
       "bytes": 9596,
       "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pair-glu/RESIDENT-PLAN.md",
+      "path": "archive/isolated/q3-pair-glu/RESIDENT-PLAN.md",
+      "source_sha256": "77c589c4e995238cff0f292fff0b68e30759d15d4a11a35d15d8d08292b08068",
+      "export_sha256": "77c589c4e995238cff0f292fff0b68e30759d15d4a11a35d15d8d08292b08068",
+      "bytes": 1715,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pair-glu/analyse_resident.py",
+      "path": "archive/isolated/q3-pair-glu/analyse_resident.py",
+      "source_sha256": "3e17adb02c766cf1018a28415e0d1f1e74d85049edb1d44c89b43b9e1fd70d96",
+      "export_sha256": "3e17adb02c766cf1018a28415e0d1f1e74d85049edb1d44c89b43b9e1fd70d96",
+      "bytes": 4220,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pair-glu/coverage-budget.json",
+      "path": "archive/isolated/q3-pair-glu/coverage-budget.json",
+      "source_sha256": "17ecc6437eddfe45a760959478943365f5525e59624e84c325bfdf8452b4f105",
+      "export_sha256": "17ecc6437eddfe45a760959478943365f5525e59624e84c325bfdf8452b4f105",
+      "bytes": 1987,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pair-glu/coverage_budget.py",
+      "path": "archive/isolated/q3-pair-glu/coverage_budget.py",
+      "source_sha256": "6d2074ff2217f9665c9d78e85a9581115c05a51140a52dae20144a5b2b30f51d",
+      "export_sha256": "6d2074ff2217f9665c9d78e85a9581115c05a51140a52dae20144a5b2b30f51d",
+      "bytes": 1926,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pair-glu/prepare_resident.py",
+      "path": "archive/isolated/q3-pair-glu/prepare_resident.py",
+      "source_sha256": "81640ed818af0506d8b538cb598ba742ad25c48927262b334792c7ff0eaaafc8",
+      "export_sha256": "81640ed818af0506d8b538cb598ba742ad25c48927262b334792c7ff0eaaafc8",
+      "bytes": 2162,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pair-glu/resident/20261029T191335Z/analysis.json",
+      "path": "archive/isolated/q3-pair-glu/resident/20261029T191335Z/analysis.json",
+      "source_sha256": "13bf52b6ff3e9b636a96f698b5388808dfcdb6f7d106880e37f6b139ee91cd80",
+      "export_sha256": "13bf52b6ff3e9b636a96f698b5388808dfcdb6f7d106880e37f6b139ee91cd80",
+      "bytes": 18086,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pair-glu/resident/20261029T191335Z/assets.json",
+      "path": "archive/isolated/q3-pair-glu/resident/20261029T191335Z/assets.json",
+      "source_sha256": "f4e625ea35168f2f567a47f07df79c5c14f2a9a83108372dcc2a10111cd0193d",
+      "export_sha256": "f37000741985c72d2b9e50f1eea7cbe776dd5fdc4a1ef46eb7908531b6156f57",
+      "bytes": 1585,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pair-glu/resident/20261029T191335Z/behavior-check.json",
+      "path": "archive/isolated/q3-pair-glu/resident/20261029T191335Z/behavior-check.json",
+      "source_sha256": "22318a09d4a0dbe4b5a3184dded4e33c59d1e8dc30a63032573debf0308ea030",
+      "export_sha256": "22318a09d4a0dbe4b5a3184dded4e33c59d1e8dc30a63032573debf0308ea030",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pair-glu/resident/20261029T191335Z/execution.json",
+      "path": "archive/isolated/q3-pair-glu/resident/20261029T191335Z/execution.json",
+      "source_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "export_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "bytes": 74,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pair-glu/resident/20261029T191335Z/runtime-baseline.json",
+      "path": "archive/isolated/q3-pair-glu/resident/20261029T191335Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pair-glu/resident/20261029T191335Z/telemetry.jsonl",
+      "path": "archive/isolated/q3-pair-glu/resident/20261029T191335Z/telemetry.jsonl",
+      "source_sha256": "28ccfd8dbf96b1512759a33ff5c67026a9e49d793ebe3afe403d7dacd13bcb4f",
+      "export_sha256": "28ccfd8dbf96b1512759a33ff5c67026a9e49d793ebe3afe403d7dacd13bcb4f",
+      "bytes": 350954,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pair-glu/resident-build.json",
+      "path": "archive/isolated/q3-pair-glu/resident-build.json",
+      "source_sha256": "4304687037fb0f7618c74c26e8ec2efd75a8a6854d77921fe03d42c50dc1f036",
+      "export_sha256": "c7db637d0aab4c04cb9c384a03f5b683f952bfcd088be056b90b06012152cc63",
+      "bytes": 821,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pair-glu/resident-runner.cpp",
+      "path": "archive/isolated/q3-pair-glu/resident-runner.cpp",
+      "source_sha256": "f69d2e39fed5c82b987f5cf0dde4b2d4f598a823281d8351c472b64d519bca99",
+      "export_sha256": "f69d2e39fed5c82b987f5cf0dde4b2d4f598a823281d8351c472b64d519bca99",
+      "bytes": 16214,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q3_pair_glu_resident.py",
+      "path": "archive/isolated/run_q3_pair_glu_resident.py",
+      "source_sha256": "e28dd84d823e0407a0ab8dd8e58a6a63621ed33b08e31c642aca9ebb6a2f0ec7",
+      "export_sha256": "d9457d5b66350e08cb22ca0cc8b9a11cb38d0ec3f16314867fe9bd89fab36bcd",
+      "bytes": 7525,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-29T14:11:34.006639+00:00"
+  "updated_utc": "2026-10-29T19:22:24.751528+00:00"
 }

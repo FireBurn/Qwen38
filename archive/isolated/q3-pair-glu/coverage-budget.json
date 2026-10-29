@@ -1,0 +1,49 @@
+{
+  "unique_C2_FFN_pairs": 65,
+  "quant_pair_counts": {
+    "q6_K/q6_K": 8,
+    "q5_K/q5_K": 10,
+    "q3_K/q3_K": 39,
+    "q4_K/q4_K": 7,
+    "q4_0/q4_0": 1
+  },
+  "prior_intrusive_profile_pair_groups": [
+    {
+      "name": "MUL_MAT_VEC q3_K m=17408 n=2 k=5120, MUL_MAT_VEC q3_K m=17408 n=2 k=5120",
+      "total_us": 141534.0,
+      "share_percent": 14.944451671433665
+    },
+    {
+      "name": "MUL_MAT_VEC q5_K m=17408 n=2 k=5120, MUL_MAT_VEC q5_K m=17408 n=2 k=5120",
+      "total_us": 43601.8,
+      "share_percent": 4.603876050189469
+    },
+    {
+      "name": "MUL_MAT_VEC q6_K m=17408 n=2 k=5120, MUL_MAT_VEC q6_K m=17408 n=2 k=5120",
+      "total_us": 40966.8,
+      "share_percent": 4.3256486973680435
+    },
+    {
+      "name": "MUL_MAT_VEC q4_K m=17408 n=2 k=5120, MUL_MAT_VEC q4_K m=17408 n=2 k=5120",
+      "total_us": 25881.7,
+      "share_percent": 2.732826139475636
+    },
+    {
+      "name": "MUL_MAT_VEC q4_0 m=17408 n=2 k=5120, MUL_MAT_VEC q4_0 m=17408 n=2 k=5120",
+      "total_us": 3986.13,
+      "share_percent": 0.4208919916136891
+    }
+  ],
+  "operator_primary_time_saving_percent": 3.8702693288364634,
+  "rough_Q3_total_GPU_time_saving_percent": 0.5783905294022853,
+  "resident_matched_full_generation": {
+    "blocks": 6,
+    "time_change_percent": -0.5994221648949896,
+    "descriptive_t95_percent": [
+      -1.6925653458024599,
+      0.505876373520973
+    ],
+    "upper_bound_negative": false
+  },
+  "scope": "Rough budget only: multiply prior intrusive short-context groupedGPU-time share by separately measured operator time reduction,assumingunchangedothercosts/nooverlapchanges. These are differentdiagnostics,not anendtoendprediction/proof orstackingqualifiedspeedups. Includesprompt/warmprofile;CPU/queue/DVFS effects omitted. Aim is toidentifylimitedcoverage:optimizing~15%ofrecordedGPUtimeby~4% suggestsroughly0.6%totalGPU-time scale,consistentwithsmallresidentestimatebutnot proof ofmechanism. Do notclaimmeasuredGPUbottleneckoractualbasegain."
+}

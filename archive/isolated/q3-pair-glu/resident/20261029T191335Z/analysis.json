@@ -1,0 +1,663 @@
+{
+  "arms": [
+    {
+      "arm": 0,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 5007031,
+      "steady_us": 4311744,
+      "full_tps": 25.763770985240555,
+      "steady_tps": 25.9755681227828,
+      "phase_samples": 46,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 1.0,
+      "builds": 17,
+      "runnable": 30.347826086956523,
+      "clock_mhz": 1666.2222222222222,
+      "power_w": 100.17391304347827,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 1,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4880149,
+      "steady_us": 4195759,
+      "full_tps": 26.433619137448467,
+      "steady_tps": 26.69362086811945,
+      "phase_samples": 45,
+      "active_samples": 40,
+      "sensor_errors": [],
+      "cpu": 0.9998636673483299,
+      "builds": 17,
+      "runnable": 29.044444444444444,
+      "clock_mhz": 1663.325,
+      "power_w": 100.0,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 2,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 5002130,
+      "steady_us": 4333269,
+      "full_tps": 25.789013880087083,
+      "steady_tps": 25.846537567826967,
+      "phase_samples": 46,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.9997332521634396,
+      "builds": 17,
+      "runnable": 28.91304347826087,
+      "clock_mhz": 1647.138888888889,
+      "power_w": 99.6086956521739,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 3,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4993593,
+      "steady_us": 4282901,
+      "full_tps": 25.83310253759167,
+      "steady_tps": 26.15049939281809,
+      "phase_samples": 46,
+      "active_samples": 34,
+      "sensor_errors": [],
+      "cpu": 0.9998666311016271,
+      "builds": 16.782608695652176,
+      "runnable": 28.82608695652174,
+      "clock_mhz": 1671.735294117647,
+      "power_w": 99.6086956521739,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 4,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4944757,
+      "steady_us": 4233358,
+      "full_tps": 26.08823851202395,
+      "steady_tps": 26.456538757175746,
+      "phase_samples": 45,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.9996596137599095,
+      "builds": 17,
+      "runnable": 27.755555555555556,
+      "clock_mhz": 1659.9722222222222,
+      "power_w": 99.15555555555555,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 5,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4932950,
+      "steady_us": 4232682,
+      "full_tps": 26.1506806272109,
+      "steady_tps": 26.460764120715897,
+      "phase_samples": 46,
+      "active_samples": 38,
+      "sensor_errors": [],
+      "cpu": 0.9997598248690193,
+      "builds": 17,
+      "runnable": 27.02173913043478,
+      "clock_mhz": 1655.7631578947369,
+      "power_w": 101.6304347826087,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 6,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4964272,
+      "steady_us": 4273959,
+      "full_tps": 25.985683298578323,
+      "steady_tps": 26.205211608253613,
+      "phase_samples": 46,
+      "active_samples": 42,
+      "sensor_errors": [],
+      "cpu": 0.9998674443266172,
+      "builds": 17,
+      "runnable": 29.304347826086957,
+      "clock_mhz": 1666.9285714285713,
+      "power_w": 101.26086956521739,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 7,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4849727,
+      "steady_us": 4191556,
+      "full_tps": 26.599435390899323,
+      "steady_tps": 26.720387369272892,
+      "phase_samples": 45,
+      "active_samples": 42,
+      "sensor_errors": [],
+      "cpu": 0.9998628257887517,
+      "builds": 16.77777777777778,
+      "runnable": 27.755555555555556,
+      "clock_mhz": 1679.2857142857142,
+      "power_w": 102.97777777777777,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 8,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4896747,
+      "steady_us": 4241910,
+      "full_tps": 26.344019815604113,
+      "steady_tps": 26.403200445082522,
+      "phase_samples": 46,
+      "active_samples": 39,
+      "sensor_errors": [],
+      "cpu": 1.0,
+      "builds": 17,
+      "runnable": 27.91304347826087,
+      "clock_mhz": 1674.3333333333333,
+      "power_w": 101.41304347826087,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 9,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4945099,
+      "steady_us": 4260615,
+      "full_tps": 26.08643426552229,
+      "steady_tps": 26.287284816863295,
+      "phase_samples": 46,
+      "active_samples": 38,
+      "sensor_errors": [],
+      "cpu": 0.9998706004140787,
+      "builds": 17,
+      "runnable": 28.347826086956523,
+      "clock_mhz": 1662.157894736842,
+      "power_w": 101.47826086956522,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 10,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4951255,
+      "steady_us": 4242572,
+      "full_tps": 26.05400045039086,
+      "steady_tps": 26.399080557737147,
+      "phase_samples": 45,
+      "active_samples": 38,
+      "sensor_errors": [],
+      "cpu": 0.9996373639009031,
+      "builds": 17,
+      "runnable": 28.177777777777777,
+      "clock_mhz": 1664.6842105263158,
+      "power_w": 103.64444444444445,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 11,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4856563,
+      "steady_us": 4192363,
+      "full_tps": 26.561994562821486,
+      "steady_tps": 26.71524388513113,
+      "phase_samples": 45,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.9998661311914324,
+      "builds": 17,
+      "runnable": 27.711111111111112,
+      "clock_mhz": 1670.918918918919,
+      "power_w": 101.68888888888888,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 12,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4906843,
+      "steady_us": 4250441,
+      "full_tps": 26.289816079299868,
+      "steady_tps": 26.350206954995965,
+      "phase_samples": 44,
+      "active_samples": 39,
+      "sensor_errors": [],
+      "cpu": 0.9997352909491051,
+      "builds": 17,
+      "runnable": 27.34090909090909,
+      "clock_mhz": 1654.128205128205,
+      "power_w": 100.36363636363636,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 13,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4932165,
+      "steady_us": 4230109,
+      "full_tps": 26.154842751611106,
+      "steady_tps": 26.47685910694027,
+      "phase_samples": 46,
+      "active_samples": 43,
+      "sensor_errors": [],
+      "cpu": 1.0,
+      "builds": 17,
+      "runnable": 28.391304347826086,
+      "clock_mhz": 1674.2325581395348,
+      "power_w": 102.58695652173913,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 14,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 5031642,
+      "steady_us": 4343684,
+      "full_tps": 25.637754037350035,
+      "steady_tps": 25.784564438849603,
+      "phase_samples": 46,
+      "active_samples": 40,
+      "sensor_errors": [],
+      "cpu": 0.9998771800540408,
+      "builds": 17,
+      "runnable": 28.391304347826086,
+      "clock_mhz": 1675.6,
+      "power_w": 102.5,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 15,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4928685,
+      "steady_us": 4233827,
+      "full_tps": 26.17330991938012,
+      "steady_tps": 26.453608047754432,
+      "phase_samples": 46,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.9998674443266172,
+      "builds": 17,
+      "runnable": 28.347826086956523,
+      "clock_mhz": 1648.7297297297298,
+      "power_w": 100.34782608695652,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 16,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4779526,
+      "steady_us": 4119992,
+      "full_tps": 26.99012412527937,
+      "steady_tps": 27.18451880489088,
+      "phase_samples": 44,
+      "active_samples": 40,
+      "sensor_errors": [],
+      "cpu": 0.9998597081930415,
+      "builds": 17,
+      "runnable": 28.136363636363637,
+      "clock_mhz": 1669.55,
+      "power_w": 102.18181818181819,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 17,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4909082,
+      "steady_us": 4260377,
+      "full_tps": 26.277825467164735,
+      "steady_tps": 26.288753319248507,
+      "phase_samples": 44,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.9995825568266837,
+      "builds": 17,
+      "runnable": 28.65909090909091,
+      "clock_mhz": 1659.4054054054054,
+      "power_w": 103.31818181818181,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 18,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4828751,
+      "steady_us": 4117462,
+      "full_tps": 26.714982818538374,
+      "steady_tps": 27.201222500656957,
+      "phase_samples": 45,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.998288824761696,
+      "builds": 17,
+      "runnable": 28.022222222222222,
+      "clock_mhz": 1664.9444444444443,
+      "power_w": 103.73333333333333,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 19,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 5070415,
+      "steady_us": 4363841,
+      "full_tps": 25.441704475866374,
+      "steady_tps": 25.665463063388422,
+      "phase_samples": 47,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.9996214184290682,
+      "builds": 17,
+      "runnable": 26.914893617021278,
+      "clock_mhz": 1665.0833333333333,
+      "power_w": 103.85106382978724,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 20,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4820635,
+      "steady_us": 4183184,
+      "full_tps": 26.759960046757325,
+      "steady_tps": 26.77386411881476,
+      "phase_samples": 45,
+      "active_samples": 40,
+      "sensor_errors": [],
+      "cpu": 0.9998758535071384,
+      "builds": 17,
+      "runnable": 29.244444444444444,
+      "clock_mhz": 1663.95,
+      "power_w": 103.31111111111112,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 21,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4786742,
+      "steady_us": 4060985,
+      "full_tps": 26.949436589646986,
+      "steady_tps": 27.57951580712561,
+      "phase_samples": 45,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.9998653198653199,
+      "builds": 16.77777777777778,
+      "runnable": 29.155555555555555,
+      "clock_mhz": 1676.027027027027,
+      "power_w": 104.28888888888889,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 22,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4853963,
+      "steady_us": 4144096,
+      "full_tps": 26.576222356865927,
+      "steady_tps": 27.026400932796925,
+      "phase_samples": 46,
+      "active_samples": 40,
+      "sensor_errors": [],
+      "cpu": 0.9998682476943347,
+      "builds": 17,
+      "runnable": 29.608695652173914,
+      "clock_mhz": 1671.675,
+      "power_w": 104.3913043478261,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 23,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4779234,
+      "steady_us": 4106237,
+      "full_tps": 26.991773158627513,
+      "steady_tps": 27.27558102467052,
+      "phase_samples": 43,
+      "active_samples": 39,
+      "sensor_errors": [],
+      "cpu": 1.0,
+      "builds": 17,
+      "runnable": 28.46511627906977,
+      "clock_mhz": 1666.5641025641025,
+      "power_w": 104.65116279069767,
+      "telemetry_valid": true
+    }
+  ],
+  "blocks": [
+    {
+      "block": 0,
+      "matched": true,
+      "means": {
+        "cpu": {
+          "inactive": 0.9999333155508136,
+          "active": 0.9997984597558847
+        },
+        "builds": {
+          "inactive": 16.891304347826086,
+          "active": 17
+        },
+        "runnable": {
+          "inactive": 29.586956521739133,
+          "active": 28.978743961352656
+        },
+        "clock_mhz": {
+          "inactive": 1668.9787581699347,
+          "active": 1655.2319444444445
+        },
+        "power_w": {
+          "inactive": 99.8913043478261,
+          "active": 99.80434782608695
+        }
+      },
+      "effects": {
+        "generation_us": -0.01197962074609471,
+        "steady_us": -0.007788285303965026
+      },
+      "full_time_change_percent": -1.1908150768575014
+    },
+    {
+      "block": 1,
+      "matched": true,
+      "means": {
+        "cpu": {
+          "inactive": 0.9998136345978182,
+          "active": 0.9997612197743306
+        },
+        "builds": {
+          "inactive": 17,
+          "active": 16.88888888888889
+        },
+        "runnable": {
+          "inactive": 28.163043478260867,
+          "active": 27.755555555555556
+        },
+        "clock_mhz": {
+          "inactive": 1661.345864661654,
+          "active": 1669.6289682539682
+        },
+        "power_w": {
+          "inactive": 101.44565217391305,
+          "active": 101.06666666666666
+        }
+      },
+      "effects": {
+        "generation_us": -0.0104768043577117,
+        "steady_us": -0.009654420862609925
+      },
+      "full_time_change_percent": -1.0422113803649256
+    },
+    {
+      "block": 2,
+      "matched": true,
+      "means": {
+        "cpu": {
+          "inactive": 0.9999330655957162,
+          "active": 0.9997539821574909
+        },
+        "builds": {
+          "inactive": 17,
+          "active": 17
+        },
+        "runnable": {
+          "inactive": 27.81207729468599,
+          "active": 28.26280193236715
+        },
+        "clock_mhz": {
+          "inactive": 1672.626126126126,
+          "active": 1663.421052631579
+        },
+        "power_w": {
+          "inactive": 101.55096618357487,
+          "active": 102.56135265700483
+        }
+      },
+      "effects": {
+        "generation_us": 0.014567985856828614,
+        "steady_us": 0.008152514437583136
+      },
+      "full_time_change_percent": 1.4674616129679647
+    },
+    {
+      "block": 3,
+      "matched": true,
+      "means": {
+        "cpu": {
+          "inactive": 0.9999385900270203,
+          "active": 0.9998013676378612
+        },
+        "builds": {
+          "inactive": 17,
+          "active": 17
+        },
+        "runnable": {
+          "inactive": 28.391304347826086,
+          "active": 27.844367588932805
+        },
+        "clock_mhz": {
+          "inactive": 1674.9162790697674,
+          "active": 1651.4289674289676
+        },
+        "power_w": {
+          "inactive": 102.54347826086956,
+          "active": 100.35573122529644
+        }
+      },
+      "effects": {
+        "generation_us": -0.012910716120913435,
+        "steady_us": -0.01041077129442236
+      },
+      "full_time_change_percent": -1.28277303447105
+    },
+    {
+      "block": 4,
+      "matched": true,
+      "means": {
+        "cpu": {
+          "inactive": 0.9997405633110548,
+          "active": 0.9989356907941899
+        },
+        "builds": {
+          "inactive": 17,
+          "active": 17
+        },
+        "runnable": {
+          "inactive": 27.52562862669246,
+          "active": 28.340656565656566
+        },
+        "clock_mhz": {
+          "inactive": 1667.3166666666666,
+          "active": 1662.1749249249249
+        },
+        "power_w": {
+          "inactive": 103.0164410058027,
+          "active": 103.52575757575758
+        }
+      },
+      "effects": {
+        "generation_us": -0.01104462283118579,
+        "steady_us": -0.012304623155518613
+      },
+      "full_time_change_percent": -1.098385490979135
+    },
+    {
+      "block": 5,
+      "matched": true,
+      "means": {
+        "cpu": {
+          "inactive": 0.9998667837798273,
+          "active": 0.9999379267535692
+        },
+        "builds": {
+          "inactive": 16.88888888888889,
+          "active": 17
+        },
+        "runnable": {
+          "inactive": 29.382125603864736,
+          "active": 28.854780361757108
+        },
+        "clock_mhz": {
+          "inactive": 1673.8510135135134,
+          "active": 1665.2570512820512
+        },
+        "power_w": {
+          "inactive": 104.34009661835749,
+          "active": 103.98113695090439
+        }
+      },
+      "effects": {
+        "generation_us": -0.004229776473085423,
+        "steady_us": 0.010234745331828776
+      },
+      "full_time_change_percent": -0.42208435677483885
+    }
+  ],
+  "all6_full_generation": {
+    "blocks": 6,
+    "time_change_percent": -0.5994221648949896,
+    "descriptive_t95_percent": [
+      -1.6925653458024599,
+      0.505876373520973
+    ],
+    "upper_bound_negative": false
+  },
+  "matched_full_generation": {
+    "blocks": 6,
+    "time_change_percent": -0.5994221648949896,
+    "descriptive_t95_percent": [
+      -1.6925653458024599,
+      0.505876373520973
+    ],
+    "upper_bound_negative": false
+  },
+  "all6_steady_secondary": {
+    "blocks": 6,
+    "time_change_percent": -0.36218985193937775,
+    "descriptive_t95_percent": [
+      -1.408414718857279,
+      0.6951372451438677
+    ],
+    "upper_bound_negative": false
+  },
+  "matched_steady_secondary": {
+    "blocks": 6,
+    "time_change_percent": -0.36218985193937775,
+    "descriptive_t95_percent": [
+      -1.408414718857279,
+      0.6951372451438677
+    ],
+    "upper_bound_negative": false
+  },
+  "all_25_generations_native_tokens_and_counters_exact": true,
+  "new_driver_errors": [],
+  "scope": "Separatefixed24resident128requested-token diagnostic,oneactivewarmup. Sameunchangedprivatehostinactive/active,weights/contextsresident;explicitencoding/warmboundary/endGPUcompletion synchronization. Primaryfullgenerationtime,negativefaster. MatchedbyCPU/build/runqueue/validtelemetryonly,clocks/poweroutcomes. Notdirectpreservedfrozencomparison,notindependentprimaryconfirmation,nopoolingorextensionoffailedfreshdataset. Warmupactiveonlycanleavefirstinactivedescriptorallocationcold;allarmsretained. Fewblocks/timecorrelation/stateordereffectslimitinference."
+}
