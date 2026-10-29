@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/native-fusion-plan/mutation.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/native-fusion-plan/mutation-bin/operator_bench"
+  ],
+  "source_sha256": "2173feea3d6958ea833ae5586815e2a18855b0f9c416700c03369d6d3adbbe4e",
+  "binary_sha256": "4af2c776ca5dec4cb046365c727f9bc15a0c20e5dd0640c575c3247cba933791"
+}

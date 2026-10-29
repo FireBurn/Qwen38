@@ -16907,7 +16907,1255 @@
       "export_sha256": "d9457d5b66350e08cb22ca0cc8b9a11cb38d0ec3f16314867fe9bd89fab36bcd",
       "bytes": 7525,
       "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/CPU-DIAGNOSTIC-PLAN.md",
+      "path": "archive/isolated/native-fusion-plan/CPU-DIAGNOSTIC-PLAN.md",
+      "source_sha256": "c058893ee9dbf5303870de4a58a6f5a88ef199db40217988b3e8308956863dc7",
+      "export_sha256": "c058893ee9dbf5303870de4a58a6f5a88ef199db40217988b3e8308956863dc7",
+      "bytes": 1409,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/MODEL-CONFIRMATION-PLAN.md",
+      "path": "archive/isolated/native-fusion-plan/MODEL-CONFIRMATION-PLAN.md",
+      "source_sha256": "485bab9b494abe970bf72dfc06798f214f68aa24bf7701fc57e8ec1c74ed67a4",
+      "export_sha256": "485bab9b494abe970bf72dfc06798f214f68aa24bf7701fc57e8ec1c74ed67a4",
+      "bytes": 847,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/MODEL-TIMING-PLAN.md",
+      "path": "archive/isolated/native-fusion-plan/MODEL-TIMING-PLAN.md",
+      "source_sha256": "33f56ecc3aa610ee151de52c2662de0f5dc601b53aae8c14e5355334def2ad1f",
+      "export_sha256": "33f56ecc3aa610ee151de52c2662de0f5dc601b53aae8c14e5355334def2ad1f",
+      "bytes": 1823,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/MUTATION-PLAN.md",
+      "path": "archive/isolated/native-fusion-plan/MUTATION-PLAN.md",
+      "source_sha256": "f2cec8a0903d41efcb34cf3cac5ee45dc50c005f637d712f9e024566e84a5b79",
+      "export_sha256": "f2cec8a0903d41efcb34cf3cac5ee45dc50c005f637d712f9e024566e84a5b79",
+      "bytes": 718,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/PLAN.md",
+      "path": "archive/isolated/native-fusion-plan/PLAN.md",
+      "source_sha256": "d92b9076e537d35250e0104e1f469424ca949bf6d27046d3c4bafd3a1f30d852",
+      "export_sha256": "d92b9076e537d35250e0104e1f469424ca949bf6d27046d3c4bafd3a1f30d852",
+      "bytes": 1918,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/REUSE-PLAN.md",
+      "path": "archive/isolated/native-fusion-plan/REUSE-PLAN.md",
+      "source_sha256": "a08e6d99fef104e5562ddac236fb505a5e45f705caf5e282131fab80a0476829",
+      "export_sha256": "a08e6d99fef104e5562ddac236fb505a5e45f705caf5e282131fab80a0476829",
+      "bytes": 2197,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/STATUS.md",
+      "path": "archive/isolated/native-fusion-plan/STATUS.md",
+      "source_sha256": "ad4303524545634e3c85a0cb32a0e9acd5302d2742e30941de13646271c9934a",
+      "export_sha256": "ad4303524545634e3c85a0cb32a0e9acd5302d2742e30941de13646271c9934a",
+      "bytes": 1482,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/VALIDATOR-PLAN.md",
+      "path": "archive/isolated/native-fusion-plan/VALIDATOR-PLAN.md",
+      "source_sha256": "ca609a65dc5d4d31d961b75bba230d08486de8c6ef6566dc9856257e33f76fea",
+      "export_sha256": "ca609a65dc5d4d31d961b75bba230d08486de8c6ef6566dc9856257e33f76fea",
+      "bytes": 1682,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/analyse_cpu_diagnostic.py",
+      "path": "archive/isolated/native-fusion-plan/analyse_cpu_diagnostic.py",
+      "source_sha256": "61c9827ed03459028c21f8305854f54a6df15439aacdd43616508f186108ad30",
+      "export_sha256": "61c9827ed03459028c21f8305854f54a6df15439aacdd43616508f186108ad30",
+      "bytes": 4768,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/build_mutation.py",
+      "path": "archive/isolated/native-fusion-plan/build_mutation.py",
+      "source_sha256": "ba6e4641217c26c51127a0df998eacbaf612ba1d4a8c802ced92e481f156f576",
+      "export_sha256": "ba6e4641217c26c51127a0df998eacbaf612ba1d4a8c802ced92e481f156f576",
+      "bytes": 636,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/build_reuse.py",
+      "path": "archive/isolated/native-fusion-plan/build_reuse.py",
+      "source_sha256": "d5ba46dfb9f612586f53fd9d9d1e417560feebf95a4c94a8a882466328935e4d",
+      "export_sha256": "d5ba46dfb9f612586f53fd9d9d1e417560feebf95a4c94a8a882466328935e4d",
+      "bytes": 9282,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/build_shadow.py",
+      "path": "archive/isolated/native-fusion-plan/build_shadow.py",
+      "source_sha256": "c35f3708b7235a5c8991b5eb237fa228801f528fb552b67a5a4e2d5dcd5af44c",
+      "export_sha256": "c35f3708b7235a5c8991b5eb237fa228801f528fb552b67a5a4e2d5dcd5af44c",
+      "bytes": 6424,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/build_sync_runner.py",
+      "path": "archive/isolated/native-fusion-plan/build_sync_runner.py",
+      "source_sha256": "84af44901e656a78ae831c5a9509a72d283de5358049b59a6e9786e904be280c",
+      "export_sha256": "84af44901e656a78ae831c5a9509a72d283de5358049b59a6e9786e904be280c",
+      "bytes": 1428,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/build_validator.py",
+      "path": "archive/isolated/native-fusion-plan/build_validator.py",
+      "source_sha256": "468dd8e5acb5234a5080bc61bef0f9c700a126b86f9eaf28833cd0b244857274",
+      "export_sha256": "468dd8e5acb5234a5080bc61bef0f9c700a126b86f9eaf28833cd0b244857274",
+      "bytes": 6685,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-build.json",
+      "path": "archive/isolated/native-fusion-plan/cpu-build.json",
+      "source_sha256": "e600d751b759f3a81fbd2c4703f9bd223a7037b688c2729027ac546449d42146",
+      "export_sha256": "bbae24617104274b2d1379814b21a8a7c943e4ba8db897f0ede0e3b5f190bb12",
+      "bytes": 18004,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/assets.json",
+      "path": "archive/isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/assets.json",
+      "source_sha256": "5cd5d92cc0bddc7fc697d8c69304358c8d80499da857606a9c37de6b80029b39",
+      "export_sha256": "a50745ddb90450384221958c328c857d6513d206d51af429bc293c1f27d21004",
+      "bytes": 1493,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/runtime-baseline.json",
+      "path": "archive/isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/telemetry.jsonl",
+      "path": "archive/isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/telemetry.jsonl",
+      "source_sha256": "76400231019b9ac6c74a97eef5679364af8fc572f6ab399247594ba3d6556550",
+      "export_sha256": "76400231019b9ac6c74a97eef5679364af8fc572f6ab399247594ba3d6556550",
+      "bytes": 324565,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-host/ggml-vulkan-common.h",
+      "path": "archive/isolated/native-fusion-plan/cpu-host/ggml-vulkan-common.h",
+      "source_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "export_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "bytes": 29009,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-host/ggml-vulkan-push-constants.h",
+      "path": "archive/isolated/native-fusion-plan/cpu-host/ggml-vulkan-push-constants.h",
+      "source_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "export_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "bytes": 35188,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-host/ggml-vulkan-types.h",
+      "path": "archive/isolated/native-fusion-plan/cpu-host/ggml-vulkan-types.h",
+      "source_sha256": "7e1af86bbc5fed675d743ad39bda45754b808351da6331bc08890afbab88b20c",
+      "export_sha256": "7e1af86bbc5fed675d743ad39bda45754b808351da6331bc08890afbab88b20c",
+      "bytes": 54848,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-host/ggml-vulkan.cpp",
+      "path": "archive/isolated/native-fusion-plan/cpu-host/ggml-vulkan.cpp",
+      "source_sha256": "10aa690b80f0cee65bfaa4b5255b4231640daffd82b10fd67c80f055f9db52b5",
+      "export_sha256": "10aa690b80f0cee65bfaa4b5255b4231640daffd82b10fd67c80f055f9db52b5",
+      "bytes": 930520,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-runner.cpp",
+      "path": "archive/isolated/native-fusion-plan/cpu-runner.cpp",
+      "source_sha256": "320060c0eb7b146b9627040ff50e3e791cb51dc3123d6f64ccfc0aea3034a497",
+      "export_sha256": "320060c0eb7b146b9627040ff50e3e791cb51dc3123d6f64ccfc0aea3034a497",
+      "bytes": 16306,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-validator/checks.json",
+      "path": "archive/isolated/native-fusion-plan/cpu-validator/checks.json",
+      "source_sha256": "4ade736f87f32b53ae75e3b44ef12198f9c52cad30bc5f862e5545df52a00bbb",
+      "export_sha256": "0a24ce61baba59aa8c93d5b310f62eea540a0ee26825a562f27ff316ee768111",
+      "bytes": 1089,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-validator/test.cpp",
+      "path": "archive/isolated/native-fusion-plan/cpu-validator/test.cpp",
+      "source_sha256": "af8cd52debf029261dfab829feaa77c0403a156c2d08be4c02a6d90ed3bf9b47",
+      "export_sha256": "af8cd52debf029261dfab829feaa77c0403a156c2d08be4c02a6d90ed3bf9b47",
+      "bytes": 12163,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/dependency-triage.json",
+      "path": "archive/isolated/native-fusion-plan/dependency-triage.json",
+      "source_sha256": "96ae03d5b57e18219bb8a5ef252a5c0a07cbaa4477b6c16f85cdf25ee6242db6",
+      "export_sha256": "96ae03d5b57e18219bb8a5ef252a5c0a07cbaa4477b6c16f85cdf25ee6242db6",
+      "bytes": 1758,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/00-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/00-frozen-telemetry.json",
+      "source_sha256": "9d223890fb29cf8e92c4e0083a62d788d947697560a43245a6ca0efcc52be635",
+      "export_sha256": "9d223890fb29cf8e92c4e0083a62d788d947697560a43245a6ca0efcc52be635",
+      "bytes": 97011,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/01-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/01-reuse-telemetry.json",
+      "source_sha256": "5703ff5eb824d93853c9322b5065cea9585bac224c6b7110e98000a56b522817",
+      "export_sha256": "5703ff5eb824d93853c9322b5065cea9585bac224c6b7110e98000a56b522817",
+      "bytes": 89857,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/02-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/02-reuse-telemetry.json",
+      "source_sha256": "6ca611974dc31b0a5914301ce4bf0896884bab7654dd9d31e27c369da003fbfe",
+      "export_sha256": "6ca611974dc31b0a5914301ce4bf0896884bab7654dd9d31e27c369da003fbfe",
+      "bytes": 87955,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/03-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/03-frozen-telemetry.json",
+      "source_sha256": "e804d0aff832c68a60526006f94e01b52c09ad50c0fb96f46212f69a8f0b6e8d",
+      "export_sha256": "e804d0aff832c68a60526006f94e01b52c09ad50c0fb96f46212f69a8f0b6e8d",
+      "bytes": 73637,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/04-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/04-reuse-telemetry.json",
+      "source_sha256": "984bc5ce6ec07ef2590147596bf0438b6ea8437c1cd174116f92dba52e855f97",
+      "export_sha256": "984bc5ce6ec07ef2590147596bf0438b6ea8437c1cd174116f92dba52e855f97",
+      "bytes": 97300,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/05-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/05-frozen-telemetry.json",
+      "source_sha256": "20332dfd7539ca068c3603b3f6680e7c854f1421ba697a0e2db698a4aed26c05",
+      "export_sha256": "20332dfd7539ca068c3603b3f6680e7c854f1421ba697a0e2db698a4aed26c05",
+      "bytes": 101224,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/06-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/06-frozen-telemetry.json",
+      "source_sha256": "a8a4a9f49a9e01e9e7c7347e9f8219d55b5c31b30b1a354c85dedbf88babde55",
+      "export_sha256": "a8a4a9f49a9e01e9e7c7347e9f8219d55b5c31b30b1a354c85dedbf88babde55",
+      "bytes": 82791,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/07-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/07-reuse-telemetry.json",
+      "source_sha256": "8291833b4b4a43a896bcca6ef556ffe1c0543e9a107af18383c04451e617c22c",
+      "export_sha256": "8291833b4b4a43a896bcca6ef556ffe1c0543e9a107af18383c04451e617c22c",
+      "bytes": 81607,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/08-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/08-frozen-telemetry.json",
+      "source_sha256": "675f7d501e4c524393fe45762d74231302f08f41a94e0662cd633b155c5f9ad1",
+      "export_sha256": "675f7d501e4c524393fe45762d74231302f08f41a94e0662cd633b155c5f9ad1",
+      "bytes": 87854,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/09-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/09-reuse-telemetry.json",
+      "source_sha256": "6c4b8c4e6647dcac27e27f858a294c902f5cb327286cf82a20cf68c16d56f443",
+      "export_sha256": "6c4b8c4e6647dcac27e27f858a294c902f5cb327286cf82a20cf68c16d56f443",
+      "bytes": 98532,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/10-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/10-reuse-telemetry.json",
+      "source_sha256": "a212bf1c71cd927f867fc086d11cb633207d09718857c973c8e63b9ef786ea1b",
+      "export_sha256": "a212bf1c71cd927f867fc086d11cb633207d09718857c973c8e63b9ef786ea1b",
+      "bytes": 99309,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/11-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/11-frozen-telemetry.json",
+      "source_sha256": "831c2cf1a260174e64a48088366dc8e02bce7c7faaf32b2e3d1765d604881a31",
+      "export_sha256": "831c2cf1a260174e64a48088366dc8e02bce7c7faaf32b2e3d1765d604881a31",
+      "bytes": 87762,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/12-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/12-reuse-telemetry.json",
+      "source_sha256": "ecd4fdfbaf0d1e885f0d3e8604c759e7e32420537c23b20df469a6c387a53fe8",
+      "export_sha256": "ecd4fdfbaf0d1e885f0d3e8604c759e7e32420537c23b20df469a6c387a53fe8",
+      "bytes": 84612,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/13-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/13-frozen-telemetry.json",
+      "source_sha256": "ef22692dc6db3a5fd29dd273a21d3ccfc98aa68801631672ebb9ac55b27bcdbe",
+      "export_sha256": "ef22692dc6db3a5fd29dd273a21d3ccfc98aa68801631672ebb9ac55b27bcdbe",
+      "bytes": 94639,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/14-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/14-frozen-telemetry.json",
+      "source_sha256": "2d77f0963c7698b1659ea6f8c425a726f753bd4227c3c20139039ffb1d06b410",
+      "export_sha256": "2d77f0963c7698b1659ea6f8c425a726f753bd4227c3c20139039ffb1d06b410",
+      "bytes": 88631,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/15-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/15-reuse-telemetry.json",
+      "source_sha256": "5d2e03aa9fb16d2863ae6e1fb8ade065bba3a8cf3749bf44568a73c77192a1d9",
+      "export_sha256": "5d2e03aa9fb16d2863ae6e1fb8ade065bba3a8cf3749bf44568a73c77192a1d9",
+      "bytes": 82515,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/16-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/16-frozen-telemetry.json",
+      "source_sha256": "a9cae8597475d7b093de039a95b2f8a61f88ff3498a1c1d60fb3afe3285735dc",
+      "export_sha256": "a9cae8597475d7b093de039a95b2f8a61f88ff3498a1c1d60fb3afe3285735dc",
+      "bytes": 85697,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/17-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/17-reuse-telemetry.json",
+      "source_sha256": "93793dee71974dcebbd3f9a9c02a99adc706aa5e61a1ca8724bd0456a1fa7f78",
+      "export_sha256": "93793dee71974dcebbd3f9a9c02a99adc706aa5e61a1ca8724bd0456a1fa7f78",
+      "bytes": 96111,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/18-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/18-reuse-telemetry.json",
+      "source_sha256": "ca4d53f13a686d97d338ef04e3a8e3ca1b1cc16d415a6d165e4c26a12b7d7c9e",
+      "export_sha256": "ca4d53f13a686d97d338ef04e3a8e3ca1b1cc16d415a6d165e4c26a12b7d7c9e",
+      "bytes": 82786,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/19-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/19-frozen-telemetry.json",
+      "source_sha256": "e842eca2a5d0d787e2d46029810cbbf7a906d7a7535bf68428f734d9aebc6283",
+      "export_sha256": "e842eca2a5d0d787e2d46029810cbbf7a906d7a7535bf68428f734d9aebc6283",
+      "bytes": 87488,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/20-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/20-reuse-telemetry.json",
+      "source_sha256": "952d7ee41fa3d9850e2484fd1abf316a219fb2f0ef7668bc3a4253f9dbc5d6e7",
+      "export_sha256": "952d7ee41fa3d9850e2484fd1abf316a219fb2f0ef7668bc3a4253f9dbc5d6e7",
+      "bytes": 102606,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/21-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/21-frozen-telemetry.json",
+      "source_sha256": "ec7ef969aa73a62b2a1b8f6bde8bd190fffb607310a371095217f7b7a75297c0",
+      "export_sha256": "ec7ef969aa73a62b2a1b8f6bde8bd190fffb607310a371095217f7b7a75297c0",
+      "bytes": 86400,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/22-frozen-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/22-frozen-telemetry.json",
+      "source_sha256": "8c1a6e07b713d7e9e3bb1fb5ef1f0d2fde55f66a270f948560920d4d7b9c844a",
+      "export_sha256": "8c1a6e07b713d7e9e3bb1fb5ef1f0d2fde55f66a270f948560920d4d7b9c844a",
+      "bytes": 85006,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/23-reuse-telemetry.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/23-reuse-telemetry.json",
+      "source_sha256": "090cbe81bce2cb577c9cde4dff2942edac525dc7c0b011f813630a893e58ad40",
+      "export_sha256": "090cbe81bce2cb577c9cde4dff2942edac525dc7c0b011f813630a893e58ad40",
+      "bytes": 88132,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/assets.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/assets.json",
+      "source_sha256": "b71573f661f88cedbb08e60adf82d5d4952477b551c7c1cbba000c43162152af",
+      "export_sha256": "dcca4a1d15919f8e0675920c2e118da92fa10f0f21c2b2adb10741155b07ca3c",
+      "bytes": 2235,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/confirmation-analysis.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/confirmation-analysis.json",
+      "source_sha256": "2408def1ef61c99d17684a9c5eac7a3d420bb71179e9963d9dd3db8a57c96c32",
+      "export_sha256": "2408def1ef61c99d17684a9c5eac7a3d420bb71179e9963d9dd3db8a57c96c32",
+      "bytes": 4708,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/protocol.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/protocol.json",
+      "source_sha256": "b47c75510f8f9926af77524f4cbba69db6d105071e5a8625e34bb2bf149066ee",
+      "export_sha256": "b47c75510f8f9926af77524f4cbba69db6d105071e5a8625e34bb2bf149066ee",
+      "bytes": 2310,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/results.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/results.json",
+      "source_sha256": "9d92255662b45a3f7bba09eb20405f0e53282b870466df099dc698ee7c08c0c7",
+      "export_sha256": "9d92255662b45a3f7bba09eb20405f0e53282b870466df099dc698ee7c08c0c7",
+      "bytes": 193112,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model-timing512/20261029T195456Z/runtime-baseline.json",
+      "path": "archive/isolated/native-fusion-plan/model-timing512/20261029T195456Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model32/assets.json",
+      "path": "archive/isolated/native-fusion-plan/model32/assets.json",
+      "source_sha256": "d812ba5a33f21210b8dd3220b6c9e803aeeeaa1bd23bbcf142eb5f9801cecb3f",
+      "export_sha256": "e614687605722c67bbe8b7b73d50b5972d433449f435e3b3ad8171fcc95a6b00",
+      "bytes": 1712,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/model32/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/model32/audit-archive.json",
+      "source_sha256": "fb1675fd57df14ee84b197a6849353a755bf708d0eb5e67fab192f49a3e13ac8",
+      "export_sha256": "fb1675fd57df14ee84b197a6849353a755bf708d0eb5e67fab192f49a3e13ac8",
+      "bytes": 214,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model32/checks.json",
+      "path": "archive/isolated/native-fusion-plan/model32/checks.json",
+      "source_sha256": "e10bb03388bdb7e217c598a10edb349baeb375b46e05c3e724334cc3657ef64e",
+      "export_sha256": "e10bb03388bdb7e217c598a10edb349baeb375b46e05c3e724334cc3657ef64e",
+      "bytes": 2330,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model32/comparison.json",
+      "path": "archive/isolated/native-fusion-plan/model32/comparison.json",
+      "source_sha256": "1284ac3a85643caf5f17605765abfb91deaeb08547320bc07b691d72255748c4",
+      "export_sha256": "1284ac3a85643caf5f17605765abfb91deaeb08547320bc07b691d72255748c4",
+      "bytes": 624,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/model32/shadow-summary.json",
+      "path": "archive/isolated/native-fusion-plan/model32/shadow-summary.json",
+      "source_sha256": "f4b67034baf6b7aa2a4e42bc0ed70cee96bbfde508cf001a24a2c8c0c994177c",
+      "export_sha256": "f4b67034baf6b7aa2a4e42bc0ed70cee96bbfde508cf001a24a2c8c0c994177c",
+      "bytes": 13605,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/mutation/assets.json",
+      "path": "archive/isolated/native-fusion-plan/mutation/assets.json",
+      "source_sha256": "83acf7d64263385d5571336837caeb3bd916591720f83dec48c927bfaf25c59a",
+      "export_sha256": "3b19f96e451aa15f9a36327a24305f1d513295514e650fd6be4a591bfddd0c56",
+      "bytes": 1240,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/mutation/checks.json",
+      "path": "archive/isolated/native-fusion-plan/mutation/checks.json",
+      "source_sha256": "f1cac2d1920dd0f581049b8549f254aebfd4ed04726119c27ca0ed35ed8486d1",
+      "export_sha256": "f1cac2d1920dd0f581049b8549f254aebfd4ed04726119c27ca0ed35ed8486d1",
+      "bytes": 7003,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/mutation/comparison.json",
+      "path": "archive/isolated/native-fusion-plan/mutation/comparison.json",
+      "source_sha256": "1a6ee7929f6bb3646c6c9b22a3a78909057d84b3c92b5780691c7d7ab79cf341",
+      "export_sha256": "1a6ee7929f6bb3646c6c9b22a3a78909057d84b3c92b5780691c7d7ab79cf341",
+      "bytes": 402,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/mutation/frozen-execution.json",
+      "path": "archive/isolated/native-fusion-plan/mutation/frozen-execution.json",
+      "source_sha256": "0fea85666281ceafb48d052ee8c5b932c0420b0a333029793d1d9fda800e69cf",
+      "export_sha256": "0fea85666281ceafb48d052ee8c5b932c0420b0a333029793d1d9fda800e69cf",
+      "bytes": 81,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/mutation/oracle-execution.json",
+      "path": "archive/isolated/native-fusion-plan/mutation/oracle-execution.json",
+      "source_sha256": "a294c0e97c1f63f17e60db66330cc3325a1177fa596d89e359255e0e4acd96ae",
+      "export_sha256": "a294c0e97c1f63f17e60db66330cc3325a1177fa596d89e359255e0e4acd96ae",
+      "bytes": 81,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/mutation/reuse-execution.json",
+      "path": "archive/isolated/native-fusion-plan/mutation/reuse-execution.json",
+      "source_sha256": "45f9d26e452f7cb52846535c18ec8b6220fe5d7229e68dc8856c5c6227d1d5c2",
+      "export_sha256": "45f9d26e452f7cb52846535c18ec8b6220fe5d7229e68dc8856c5c6227d1d5c2",
+      "bytes": 81,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/mutation-build.json",
+      "path": "archive/isolated/native-fusion-plan/mutation-build.json",
+      "source_sha256": "a0704f99abd1657243f136a90a3458b7101d1389ae1107595e238e19c77e80f5",
+      "export_sha256": "26117e05c7daba71e4be131d7c0cc866fd654d047148a85024b374a55866203f",
+      "bytes": 684,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/mutation.cpp",
+      "path": "archive/isolated/native-fusion-plan/mutation.cpp",
+      "source_sha256": "2173feea3d6958ea833ae5586815e2a18855b0f9c416700c03369d6d3adbbe4e",
+      "export_sha256": "2173feea3d6958ea833ae5586815e2a18855b0f9c416700c03369d6d3adbbe4e",
+      "bytes": 3800,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/prepare_broader.py",
+      "path": "archive/isolated/native-fusion-plan/prepare_broader.py",
+      "source_sha256": "0753fd81df80c75865a3d0a9f054c1a379d379f009ece7283e1a2ee8935cbf49",
+      "export_sha256": "0753fd81df80c75865a3d0a9f054c1a379d379f009ece7283e1a2ee8935cbf49",
+      "bytes": 2374,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/prepare_cpu_diagnostic.py",
+      "path": "archive/isolated/native-fusion-plan/prepare_cpu_diagnostic.py",
+      "source_sha256": "2825ddfeb7a459a47a76a8470dcf31ad3c88f0c4698758a4ea9101ac92d83d8e",
+      "export_sha256": "2825ddfeb7a459a47a76a8470dcf31ad3c88f0c4698758a4ea9101ac92d83d8e",
+      "bytes": 3819,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/prepare_reuse_runners.py",
+      "path": "archive/isolated/native-fusion-plan/prepare_reuse_runners.py",
+      "source_sha256": "26b240c552227e894a57c9af36e4c30fbb193637e791455a62478a3409e51dd5",
+      "export_sha256": "26b240c552227e894a57c9af36e4c30fbb193637e791455a62478a3409e51dd5",
+      "bytes": 2888,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/prepare_timing.py",
+      "path": "archive/isolated/native-fusion-plan/prepare_timing.py",
+      "source_sha256": "fefe93bb0bdf9bc3103834a0c642edcc47d6b2793cadd163363b060490c6b2a5",
+      "export_sha256": "fefe93bb0bdf9bc3103834a0c642edcc47d6b2793cadd163363b060490c6b2a5",
+      "bytes": 3098,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/publish.py",
+      "path": "archive/isolated/native-fusion-plan/publish.py",
+      "source_sha256": "52db02b4c927c3ed7e367190e04817e4ea31a8e617ce4f661dd431ef1a59f298",
+      "export_sha256": "e148514aa1c98ea86737637d82a9540df26581986691084625ddd2c20c1850dd",
+      "bytes": 1188,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-boundary128/assets.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-boundary128/assets.json",
+      "source_sha256": "221702ab4be94ff39556c13cb88135527c951ca930fb147c45f8d58251352856",
+      "export_sha256": "bbaca8da7edf00e52f7354d3d4739d50d198376dbbab9fcf995deafcc8e5b7b0",
+      "bytes": 2170,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-boundary128/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-boundary128/audit-archive.json",
+      "source_sha256": "f0abd6eff6ae81f10a81ffb459c356df9e296f3c530bd43d9336711b0136cd06",
+      "export_sha256": "f0abd6eff6ae81f10a81ffb459c356df9e296f3c530bd43d9336711b0136cd06",
+      "bytes": 235,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-boundary128/checks.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-boundary128/checks.json",
+      "source_sha256": "e5639f8aeb9542566d79a9d2a71d86de2faa0865a9a37556a0d06c73c5fca599",
+      "export_sha256": "e5639f8aeb9542566d79a9d2a71d86de2faa0865a9a37556a0d06c73c5fca599",
+      "bytes": 6926,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-boundary128/comparison.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-boundary128/comparison.json",
+      "source_sha256": "95988eef525425c11abeafc6513ac86c6d10f5d2e709b702dbe33d1c93c2f124",
+      "export_sha256": "95988eef525425c11abeafc6513ac86c6d10f5d2e709b702dbe33d1c93c2f124",
+      "bytes": 717,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-build.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-build.json",
+      "source_sha256": "bfc13d4ffcd66ba3792d0f60dab39960c82047eb4a78910d32d633497709a7c7",
+      "export_sha256": "bfc13d4ffcd66ba3792d0f60dab39960c82047eb4a78910d32d633497709a7c7",
+      "bytes": 1040,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-host/build-argv.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-host/build-argv.json",
+      "source_sha256": "3dc9d5a233ff48b17c42870c67ee8f15a0330d68eabe7ac2feb63042dbf81e08",
+      "export_sha256": "225d787348826ecd228476d7254e89c70aa7e92eaa7245a781835c3933e84159",
+      "bytes": 19903,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-host/ggml-vulkan-buffers.cpp",
+      "path": "archive/isolated/native-fusion-plan/reuse-host/ggml-vulkan-buffers.cpp",
+      "source_sha256": "09f175eb0e0ce9ed29e7ac47bf959d85b3e30f05a0a0e4a67385349108fb81ef",
+      "export_sha256": "09f175eb0e0ce9ed29e7ac47bf959d85b3e30f05a0a0e4a67385349108fb81ef",
+      "bytes": 37154,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-host/ggml-vulkan-common.h",
+      "path": "archive/isolated/native-fusion-plan/reuse-host/ggml-vulkan-common.h",
+      "source_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "export_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "bytes": 29009,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-host/ggml-vulkan-debug.cpp",
+      "path": "archive/isolated/native-fusion-plan/reuse-host/ggml-vulkan-debug.cpp",
+      "source_sha256": "6f06703caee11a3d254959185c738cb762ef53a8d4622f2bdb90b5830d0c9198",
+      "export_sha256": "6f06703caee11a3d254959185c738cb762ef53a8d4622f2bdb90b5830d0c9198",
+      "bytes": 81574,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-host/ggml-vulkan-push-constants.h",
+      "path": "archive/isolated/native-fusion-plan/reuse-host/ggml-vulkan-push-constants.h",
+      "source_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "export_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "bytes": 35188,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-host/ggml-vulkan-types.h",
+      "path": "archive/isolated/native-fusion-plan/reuse-host/ggml-vulkan-types.h",
+      "source_sha256": "7e1af86bbc5fed675d743ad39bda45754b808351da6331bc08890afbab88b20c",
+      "export_sha256": "7e1af86bbc5fed675d743ad39bda45754b808351da6331bc08890afbab88b20c",
+      "bytes": 54848,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-host/ggml-vulkan.cpp",
+      "path": "archive/isolated/native-fusion-plan/reuse-host/ggml-vulkan.cpp",
+      "source_sha256": "4eed83bb58b025b4d58f8dc586acf8a0a15d762e32f3eeee4c30f1f0b02a7ab8",
+      "export_sha256": "4eed83bb58b025b4d58f8dc586acf8a0a15d762e32f3eeee4c30f1f0b02a7ab8",
+      "bytes": 929654,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-model32/assets.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-model32/assets.json",
+      "source_sha256": "5c6d757d9577eaecafe648998a8e97d06a02c80f44024927c6e0345530b98cb2",
+      "export_sha256": "724de98cc5b2204e3f24cfdee2fad5317cc9a7bbfc4f77845cc4361f28be56ca",
+      "bytes": 1969,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-model32/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-model32/audit-archive.json",
+      "source_sha256": "6a361b3fee1d3cf25b5054d9b0e01cfe644922fc812cb23df7259bbf900a1417",
+      "export_sha256": "6a361b3fee1d3cf25b5054d9b0e01cfe644922fc812cb23df7259bbf900a1417",
+      "bytes": 256,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-model32/checks.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-model32/checks.json",
+      "source_sha256": "f428ec42a7eb01049df896fe231906eed5fa4b1a96bbcd5f3b2e52a8990d7db5",
+      "export_sha256": "f428ec42a7eb01049df896fe231906eed5fa4b1a96bbcd5f3b2e52a8990d7db5",
+      "bytes": 4636,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-model32/comparison.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-model32/comparison.json",
+      "source_sha256": "af95c981ebeb98236d32d0b3e7d30ca080ba9e0ff64d045b8b80c4454b462a2a",
+      "export_sha256": "af95c981ebeb98236d32d0b3e7d30ca080ba9e0ff64d045b8b80c4454b462a2a",
+      "bytes": 631,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-populated-kv64/assets.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-populated-kv64/assets.json",
+      "source_sha256": "09946d25dd74e71a0bb3d7ac2018ab81be66fd91043767673a745005b42b5ee1",
+      "export_sha256": "f5f82666e25ef9f63b6764a7193098b5704edeb343eadf569df54bd433ad3c69",
+      "bytes": 2163,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-populated-kv64/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-populated-kv64/audit-archive.json",
+      "source_sha256": "fbb70b15a9ab74a07030af0e74335285787a15bff00e33040770c850fb84495f",
+      "export_sha256": "fbb70b15a9ab74a07030af0e74335285787a15bff00e33040770c850fb84495f",
+      "bytes": 235,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-populated-kv64/checks.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-populated-kv64/checks.json",
+      "source_sha256": "7aa88aa41b403631783728dee29b148081e74a52fb9ce5a4082e144fea4ad466",
+      "export_sha256": "7aa88aa41b403631783728dee29b148081e74a52fb9ce5a4082e144fea4ad466",
+      "bytes": 4769,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-populated-kv64/comparison.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-populated-kv64/comparison.json",
+      "source_sha256": "d785088a1e7daa182ec54fa7786e9135df0e38d61b8652a0ad2623b087345241",
+      "export_sha256": "d785088a1e7daa182ec54fa7786e9135df0e38d61b8652a0ad2623b087345241",
+      "bytes": 715,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-prompts128/assets.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-prompts128/assets.json",
+      "source_sha256": "249ab1f46ee9df2ef24c2d67e71a83bf5681a512216d7ceb6068f15a681ef14d",
+      "export_sha256": "b738c79d1d572af12b0b15986937ead7d14558db5447e3606733fbfe652c79e4",
+      "bytes": 2021,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-prompts128/checks.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-prompts128/checks.json",
+      "source_sha256": "770a5286a5858728f5a2622d8eaeb5c7510af984f4e1aa6e5ed50c328d7bcbef",
+      "export_sha256": "770a5286a5858728f5a2622d8eaeb5c7510af984f4e1aa6e5ed50c328d7bcbef",
+      "bytes": 8765,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-prompts128/comparison.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-prompts128/comparison.json",
+      "source_sha256": "3dcf873df84a391b2213506ad82c3d0d9d95dc103f446c0ac50bf26701ce0dba",
+      "export_sha256": "3dcf873df84a391b2213506ad82c3d0d9d95dc103f446c0ac50bf26701ce0dba",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-prompts128/math/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse-summary.json",
+      "path": "archive/isolated/native-fusion-plan/reuse-summary.json",
+      "source_sha256": "845ad1cb52c7b1d4ae8e699be80e0dba81f0304e5db381d8f4ba879df2d60d88",
+      "export_sha256": "845ad1cb52c7b1d4ae8e699be80e0dba81f0304e5db381d8f4ba879df2d60d88",
+      "bytes": 2035,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/reuse.patch",
+      "path": "archive/isolated/native-fusion-plan/reuse.patch",
+      "source_sha256": "b606851c273bc45af56da0fffbb9f9dfc0382b788ebea6cb1003877dce760043",
+      "export_sha256": "b606851c273bc45af56da0fffbb9f9dfc0382b788ebea6cb1003877dce760043",
+      "bytes": 13394,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/shadow-build.json",
+      "path": "archive/isolated/native-fusion-plan/shadow-build.json",
+      "source_sha256": "f79cdda51fd4a9d8cebd73887eb5b313cf2860df1bdc09703045f438ed941d89",
+      "export_sha256": "f79cdda51fd4a9d8cebd73887eb5b313cf2860df1bdc09703045f438ed941d89",
+      "bytes": 999,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/shadow-host/build-argv.json",
+      "path": "archive/isolated/native-fusion-plan/shadow-host/build-argv.json",
+      "source_sha256": "491137613389e83ce059725272029e81c829feba813720df1859a83dfa0a1347",
+      "export_sha256": "e25a71a99cdffab24c84fba8da3df504d6f5a25757a71d4e0a9349bfdfa8bab5",
+      "bytes": 19922,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/shadow-host/ggml-vulkan-buffers.cpp",
+      "path": "archive/isolated/native-fusion-plan/shadow-host/ggml-vulkan-buffers.cpp",
+      "source_sha256": "09f175eb0e0ce9ed29e7ac47bf959d85b3e30f05a0a0e4a67385349108fb81ef",
+      "export_sha256": "09f175eb0e0ce9ed29e7ac47bf959d85b3e30f05a0a0e4a67385349108fb81ef",
+      "bytes": 37154,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/shadow-host/ggml-vulkan-common.h",
+      "path": "archive/isolated/native-fusion-plan/shadow-host/ggml-vulkan-common.h",
+      "source_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "export_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "bytes": 29009,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/shadow-host/ggml-vulkan-debug.cpp",
+      "path": "archive/isolated/native-fusion-plan/shadow-host/ggml-vulkan-debug.cpp",
+      "source_sha256": "6f06703caee11a3d254959185c738cb762ef53a8d4622f2bdb90b5830d0c9198",
+      "export_sha256": "6f06703caee11a3d254959185c738cb762ef53a8d4622f2bdb90b5830d0c9198",
+      "bytes": 81574,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/shadow-host/ggml-vulkan-push-constants.h",
+      "path": "archive/isolated/native-fusion-plan/shadow-host/ggml-vulkan-push-constants.h",
+      "source_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "export_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "bytes": 35188,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/shadow-host/ggml-vulkan-types.h",
+      "path": "archive/isolated/native-fusion-plan/shadow-host/ggml-vulkan-types.h",
+      "source_sha256": "9cb301bc81913d6ea698de0fee01aba292aa5fadc8ca699fea9a8723284a4271",
+      "export_sha256": "9cb301bc81913d6ea698de0fee01aba292aa5fadc8ca699fea9a8723284a4271",
+      "bytes": 54332,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/shadow-host/ggml-vulkan.cpp",
+      "path": "archive/isolated/native-fusion-plan/shadow-host/ggml-vulkan.cpp",
+      "source_sha256": "d368ee32280747bdd2e301906e5badee3efc895e0701a34702b9cc4c8abe8f9b",
+      "export_sha256": "d368ee32280747bdd2e301906e5badee3efc895e0701a34702b9cc4c8abe8f9b",
+      "bytes": 922660,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/shadow.patch",
+      "path": "archive/isolated/native-fusion-plan/shadow.patch",
+      "source_sha256": "9b584519d69916c42c29b8092c72e908b316351802d90488f4dba088019d2c99",
+      "export_sha256": "9b584519d69916c42c29b8092c72e908b316351802d90488f4dba088019d2c99",
+      "bytes": 5765,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/sync-build.json",
+      "path": "archive/isolated/native-fusion-plan/sync-build.json",
+      "source_sha256": "5203d4f7eedb248fae038e0fa613785a69086825e1e050d31ea8ed95dcd1df7a",
+      "export_sha256": "9751b6ccecf19da2ab8e74dbb0e7beaa3a5f085c3d0e5fd1b7fb7dd97fa23ba8",
+      "bytes": 1016,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/sync-runner.cpp",
+      "path": "archive/isolated/native-fusion-plan/sync-runner.cpp",
+      "source_sha256": "268c2fd136537413a45a7889683dc9778a7a894b37f69f3d1b66759895c5350a",
+      "export_sha256": "268c2fd136537413a45a7889683dc9778a7a894b37f69f3d1b66759895c5350a",
+      "bytes": 15088,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/test_validator_cpu.py",
+      "path": "archive/isolated/native-fusion-plan/test_validator_cpu.py",
+      "source_sha256": "7070342b86307fb98044d9e381cb76725ca0cd9a56e633a33ff829742d6947c1",
+      "export_sha256": "7070342b86307fb98044d9e381cb76725ca0cd9a56e633a33ff829742d6947c1",
+      "bytes": 8336,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-boundary128/assets.json",
+      "path": "archive/isolated/native-fusion-plan/validator-boundary128/assets.json",
+      "source_sha256": "d3956c1b5e8d7c9906cd67402ceb04ed2fa7e9edcfb4289f95ddb75eca20f7ed",
+      "export_sha256": "30adff7753e5c1015ffe86f0d51c7a9cb7e9c2fcd85f773487ecc34b553fb414",
+      "bytes": 2186,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-boundary128/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/validator-boundary128/audit-archive.json",
+      "source_sha256": "38c6745f920339e5f24e7cb2b401de654a6028f7fccb0423a14cd579c2134764",
+      "export_sha256": "38c6745f920339e5f24e7cb2b401de654a6028f7fccb0423a14cd579c2134764",
+      "bytes": 214,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-boundary128/checks.json",
+      "path": "archive/isolated/native-fusion-plan/validator-boundary128/checks.json",
+      "source_sha256": "e49c678675dc9f9970e03caf05f375820968ccb8ceeec25af39bb756fbe37ffc",
+      "export_sha256": "e49c678675dc9f9970e03caf05f375820968ccb8ceeec25af39bb756fbe37ffc",
+      "bytes": 4625,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-boundary128/comparison.json",
+      "path": "archive/isolated/native-fusion-plan/validator-boundary128/comparison.json",
+      "source_sha256": "5f6ceb22374b5862ec0d0e3528c7dea269f36b61441c98c2a2aeb3c5fd3a69ed",
+      "export_sha256": "5f6ceb22374b5862ec0d0e3528c7dea269f36b61441c98c2a2aeb3c5fd3a69ed",
+      "bytes": 706,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-build.json",
+      "path": "archive/isolated/native-fusion-plan/validator-build.json",
+      "source_sha256": "5cbbf354ce0a78f029161f19c9a88af227e2d8676559bfed8e2401265d4cbe12",
+      "export_sha256": "5cbbf354ce0a78f029161f19c9a88af227e2d8676559bfed8e2401265d4cbe12",
+      "bytes": 1031,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-builder-expanded.py",
+      "path": "archive/isolated/native-fusion-plan/validator-builder-expanded.py",
+      "source_sha256": "2ef49d4a5a94c2ec351d3b677e1ba0e78fa7ba7ba416d976c72d30e96abdc781",
+      "export_sha256": "2ef49d4a5a94c2ec351d3b677e1ba0e78fa7ba7ba416d976c72d30e96abdc781",
+      "bytes": 10009,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-host/build-argv.json",
+      "path": "archive/isolated/native-fusion-plan/validator-host/build-argv.json",
+      "source_sha256": "dbcf09bd6cb13ba52044d966bab6de67a1b289424b2608281576a989d3c70225",
+      "export_sha256": "fd1bfd3a53ce90b269d984f2869bdd5bf709b509f296d0730d0f54729a2842ce",
+      "bytes": 19979,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-host/ggml-vulkan-buffers.cpp",
+      "path": "archive/isolated/native-fusion-plan/validator-host/ggml-vulkan-buffers.cpp",
+      "source_sha256": "09f175eb0e0ce9ed29e7ac47bf959d85b3e30f05a0a0e4a67385349108fb81ef",
+      "export_sha256": "09f175eb0e0ce9ed29e7ac47bf959d85b3e30f05a0a0e4a67385349108fb81ef",
+      "bytes": 37154,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-host/ggml-vulkan-common.h",
+      "path": "archive/isolated/native-fusion-plan/validator-host/ggml-vulkan-common.h",
+      "source_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "export_sha256": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+      "bytes": 29009,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-host/ggml-vulkan-debug.cpp",
+      "path": "archive/isolated/native-fusion-plan/validator-host/ggml-vulkan-debug.cpp",
+      "source_sha256": "6f06703caee11a3d254959185c738cb762ef53a8d4622f2bdb90b5830d0c9198",
+      "export_sha256": "6f06703caee11a3d254959185c738cb762ef53a8d4622f2bdb90b5830d0c9198",
+      "bytes": 81574,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-host/ggml-vulkan-push-constants.h",
+      "path": "archive/isolated/native-fusion-plan/validator-host/ggml-vulkan-push-constants.h",
+      "source_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "export_sha256": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+      "bytes": 35188,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-host/ggml-vulkan-types.h",
+      "path": "archive/isolated/native-fusion-plan/validator-host/ggml-vulkan-types.h",
+      "source_sha256": "471044b3e7865d75b3bdf918061378f7007b902e2e1f9351af1158853493d885",
+      "export_sha256": "471044b3e7865d75b3bdf918061378f7007b902e2e1f9351af1158853493d885",
+      "bytes": 54676,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-host/ggml-vulkan.cpp",
+      "path": "archive/isolated/native-fusion-plan/validator-host/ggml-vulkan.cpp",
+      "source_sha256": "644ab084acb59ac9902c9ecb8e99de7d326aa58e39a22024587464fa480abd31",
+      "export_sha256": "644ab084acb59ac9902c9ecb8e99de7d326aa58e39a22024587464fa480abd31",
+      "bytes": 925855,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-model32/assets.json",
+      "path": "archive/isolated/native-fusion-plan/validator-model32/assets.json",
+      "source_sha256": "34c9c79e9e0b5beabe0701192c15a351c08c29622ca6a5c580a0b8b4cac22775",
+      "export_sha256": "e2dd84d89fda145342e0be8e0664b828125ae64c7900fd1c8eaa6521ecc49b67",
+      "bytes": 1718,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-model32/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/validator-model32/audit-archive.json",
+      "source_sha256": "fb1675fd57df14ee84b197a6849353a755bf708d0eb5e67fab192f49a3e13ac8",
+      "export_sha256": "fb1675fd57df14ee84b197a6849353a755bf708d0eb5e67fab192f49a3e13ac8",
+      "bytes": 214,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-model32/checks.json",
+      "path": "archive/isolated/native-fusion-plan/validator-model32/checks.json",
+      "source_sha256": "3d01bf03ffc3a3468b19e3b64dcb21110f8755a4fdb083ededfa2955e0664fff",
+      "export_sha256": "3d01bf03ffc3a3468b19e3b64dcb21110f8755a4fdb083ededfa2955e0664fff",
+      "bytes": 2330,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-model32/comparison.json",
+      "path": "archive/isolated/native-fusion-plan/validator-model32/comparison.json",
+      "source_sha256": "1284ac3a85643caf5f17605765abfb91deaeb08547320bc07b691d72255748c4",
+      "export_sha256": "1284ac3a85643caf5f17605765abfb91deaeb08547320bc07b691d72255748c4",
+      "bytes": 624,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-populated-kv64/assets.json",
+      "path": "archive/isolated/native-fusion-plan/validator-populated-kv64/assets.json",
+      "source_sha256": "ca501cb784c78517992fa53fdf1ffb76fcd3320a38ede45963ebe9b328e97f69",
+      "export_sha256": "60773c295142cbcf5700ec61d9ff5d0b469311056d0b722284fd2f8d64c1a71d",
+      "bytes": 2179,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-populated-kv64/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/validator-populated-kv64/audit-archive.json",
+      "source_sha256": "9a811e9fc5e3f0f2d5cbceb2addceceab6c5de52e2f5d2c8269f10b5bbfa55c5",
+      "export_sha256": "9a811e9fc5e3f0f2d5cbceb2addceceab6c5de52e2f5d2c8269f10b5bbfa55c5",
+      "bytes": 214,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-populated-kv64/checks.json",
+      "path": "archive/isolated/native-fusion-plan/validator-populated-kv64/checks.json",
+      "source_sha256": "0074d7f0d2cad3f7fb33577855a014691569618ef0cfce013112c1aedb8a2fc6",
+      "export_sha256": "0074d7f0d2cad3f7fb33577855a014691569618ef0cfce013112c1aedb8a2fc6",
+      "bytes": 3187,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-populated-kv64/comparison.json",
+      "path": "archive/isolated/native-fusion-plan/validator-populated-kv64/comparison.json",
+      "source_sha256": "2a1180b97028611564b35193f9b9afa32e528cbe0e2c5b3072a984330211d83d",
+      "export_sha256": "2a1180b97028611564b35193f9b9afa32e528cbe0e2c5b3072a984330211d83d",
+      "bytes": 704,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-prompts128/assets.json",
+      "path": "archive/isolated/native-fusion-plan/validator-prompts128/assets.json",
+      "source_sha256": "144211dea1074deebf98155250897419debaa90f55176baa961f396d79d1650e",
+      "export_sha256": "25e63d09b697b9f2d31bf71138b526162aa129a66c40050ade5a9c2b6e6896a9",
+      "bytes": 2037,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-prompts128/checks.json",
+      "path": "archive/isolated/native-fusion-plan/validator-prompts128/checks.json",
+      "source_sha256": "15f7d7ebd885ab312fca71feb98bc0fbfeac5c0207a14f9a202226965ee67d40",
+      "export_sha256": "15f7d7ebd885ab312fca71feb98bc0fbfeac5c0207a14f9a202226965ee67d40",
+      "bytes": 4365,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/validator-prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-prompts128/comparison.json",
+      "path": "archive/isolated/native-fusion-plan/validator-prompts128/comparison.json",
+      "source_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "export_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-prompts128/math/audit-archive.json",
+      "path": "archive/isolated/native-fusion-plan/validator-prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator-summary.json",
+      "path": "archive/isolated/native-fusion-plan/validator-summary.json",
+      "source_sha256": "92ade467d32b18fa6645a0bee02f9b40d09f00f4a0972f7fbfb1a62cc0076729",
+      "export_sha256": "92ade467d32b18fa6645a0bee02f9b40d09f00f4a0972f7fbfb1a62cc0076729",
+      "bytes": 527,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/validator.patch",
+      "path": "archive/isolated/native-fusion-plan/validator.patch",
+      "source_sha256": "a9f8c7f30deb77bca60ed24497dbdd78de6ad22460e5ff3a633495cfd24a610d",
+      "export_sha256": "a9f8c7f30deb77bca60ed24497dbdd78de6ad22460e5ff3a633495cfd24a610d",
+      "bytes": 8982,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_fusion_cpu_diagnostic.py",
+      "path": "archive/isolated/run_native_fusion_cpu_diagnostic.py",
+      "source_sha256": "d01ce4b84c0362ed2ed87bfb71edcf58eb4336ee6ad165b31f18635d89bd92ff",
+      "export_sha256": "565399d96413fbb4cb382ebe72313a1f1ecbc79dd3a653b3c92e41197ecf8d56",
+      "bytes": 7535,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_fusion_mutation.py",
+      "path": "archive/isolated/run_native_fusion_mutation.py",
+      "source_sha256": "51bab85981761fe5d0296848340d591ddfc8df34c5c239875ec233053c0ce717",
+      "export_sha256": "51bab85981761fe5d0296848340d591ddfc8df34c5c239875ec233053c0ce717",
+      "bytes": 4213,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_fusion_reuse_boundary128.py",
+      "path": "archive/isolated/run_native_fusion_reuse_boundary128.py",
+      "source_sha256": "0270590a95adc5f99a4b9a7a03f47ee7b1793003a25e886844537734d524d83c",
+      "export_sha256": "db98a0807c7d7b18bd7ac468d1e7ae28ff2ba41a5bf6945be649fea60479f187",
+      "bytes": 10599,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_fusion_reuse_kv64.py",
+      "path": "archive/isolated/run_native_fusion_reuse_kv64.py",
+      "source_sha256": "de3ac1aa90196c97d3deff7249b1448fbae7fb17dfe3836e83a2910817a4064e",
+      "export_sha256": "f73d08112a8fbed390720efa2ff698b6ed95a166dc05205d677c2680bec21396",
+      "bytes": 21408,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_fusion_reuse_model32.py",
+      "path": "archive/isolated/run_native_fusion_reuse_model32.py",
+      "source_sha256": "15938764851da7c966dafd15603e96e78ce6d7f2ab04210a2aad89cb7303fbd6",
+      "export_sha256": "c03f823616afcb8cd4706fda21934e2a2a41828e5565f994796e72d5f8206fd0",
+      "bytes": 10064,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_fusion_reuse_prompts128.py",
+      "path": "archive/isolated/run_native_fusion_reuse_prompts128.py",
+      "source_sha256": "1ce3931f385067e3e062136298b33209fcb0925803eacbab4e3e7cfa12350372",
+      "export_sha256": "39409ed63d5ffc89d923d67f6b62ab2247811545b5f6f80659cc0ace27a1c009",
+      "bytes": 8911,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_fusion_reuse_timing.py",
+      "path": "archive/isolated/run_native_fusion_reuse_timing.py",
+      "source_sha256": "a339fd3ec33253d7e107680936eea3b15b3336ecceb44f522c55dcbb91b323d2",
+      "export_sha256": "2ab419beadfdeca33668142ee6b83db739a5ee735c6664b009bcc258bd96d19b",
+      "bytes": 16464,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_fusion_shadow_model32.py",
+      "path": "archive/isolated/run_native_fusion_shadow_model32.py",
+      "source_sha256": "82e3981f69a2d38f3a21fd3fb9e8618a0d3d9580dd859245981e77af72aa049f",
+      "export_sha256": "d5f1483955415d8eecdc04c15f943b3f9a827d4b6e85a7e9ee38d6f5566571de",
+      "bytes": 9620,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_fusion_validator_boundary128.py",
+      "path": "archive/isolated/run_native_fusion_validator_boundary128.py",
+      "source_sha256": "ac7c804b38b734035056537b43ff3eff2d1828a1ddd4b65b3b59905b9f0d3b66",
+      "export_sha256": "e3039e7d21ca3da27bc11e0c1af0a942d8eb7abe0f5967748a4edae4bb58742a",
+      "bytes": 10694,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_fusion_validator_kv64.py",
+      "path": "archive/isolated/run_native_fusion_validator_kv64.py",
+      "source_sha256": "304bee4ebba28ced1a95c703fa4ca3f19458e1576a0986ab9ec9e910c01c8ec4",
+      "export_sha256": "3bd908ac8999f57328317414f97db899ef5731f2b0f13b99b5a067516f4c5f20",
+      "bytes": 21503,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_fusion_validator_model32.py",
+      "path": "archive/isolated/run_native_fusion_validator_model32.py",
+      "source_sha256": "537d9ad4a643b831522c76d8e5e3cbde5c26718eb227e6cf7bc651cb75f35c9f",
+      "export_sha256": "de7cc5f0ecf5750adb55ba1b73fb8a3ee4606cd6627e444e2ffde17f9c70e1d5",
+      "bytes": 9921,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_fusion_validator_prompts128.py",
+      "path": "archive/isolated/run_native_fusion_validator_prompts128.py",
+      "source_sha256": "d43b25ddf20d05a26a93531aedc2664b38968f4bd6da692b386132c5a7a35ac0",
+      "export_sha256": "71195b771e43f8050daa02a8197b5a4af06dc5d65bee2da9c7b1314e87164113",
+      "bytes": 9055,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-fusion-plan/NEXT.md",
+      "path": "archive/isolated/native-fusion-plan/NEXT.md",
+      "source_sha256": "9c94cc9ef4ac14aa45bc694c269e27063e941c40aa1049b16f347a1187dc8023",
+      "export_sha256": "9c94cc9ef4ac14aa45bc694c269e27063e941c40aa1049b16f347a1187dc8023",
+      "bytes": 1236,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/analysis.json",
+      "path": "archive/isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/analysis.json",
+      "source_sha256": "7415a8520985c0044db442ed1a2b2f92bcc3492c730df295f6c244f1052fab5e",
+      "export_sha256": "7415a8520985c0044db442ed1a2b2f92bcc3492c730df295f6c244f1052fab5e",
+      "bytes": 21061,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/behavior-check.json",
+      "path": "archive/isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/behavior-check.json",
+      "source_sha256": "ac4fadac3e2c28d89a5e3c4ce56f4a97d23f019584a0baf916d12fd0c9e9fc98",
+      "export_sha256": "ac4fadac3e2c28d89a5e3c4ce56f4a97d23f019584a0baf916d12fd0c9e9fc98",
+      "bytes": 240,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/execution.json",
+      "path": "archive/isolated/native-fusion-plan/cpu-diagnostic/20261029T201643Z/execution.json",
+      "source_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "export_sha256": "897e028a0c4ec83b5408a460a865f2a66ef784230ced14db3bbe9febb11c7a17",
+      "bytes": 74,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-29T19:22:24.751528+00:00"
+  "updated_utc": "2026-10-29T20:19:16.468673+00:00"
 }

@@ -1,0 +1,13 @@
+{
+  "library_sha256": "be19a3c9a47be844f8753c640d463a3b6c8e67fc2ccf568af4927531549f7a20",
+  "sources": {
+    "ggml-vulkan-common.h": "940a65a1f313bb8bd92404e1ba8066197c4fd41488af7c153d2fac686e1c0f0a",
+    "ggml-vulkan-types.h": "7e1af86bbc5fed675d743ad39bda45754b808351da6331bc08890afbab88b20c",
+    "ggml-vulkan.cpp": "4eed83bb58b025b4d58f8dc586acf8a0a15d762e32f3eeee4c30f1f0b02a7ab8",
+    "ggml-vulkan-debug.cpp": "6f06703caee11a3d254959185c738cb762ef53a8d4622f2bdb90b5830d0c9198",
+    "ggml-vulkan-push-constants.h": "518af27fffabad4f788abe93fa817ca0b1c53290c527736820bf82eee290cc91",
+    "ggml-vulkan-buffers.cpp": "09f175eb0e0ce9ed29e7ac47bf959d85b3e30f05a0a0e4a67385349108fb81ef"
+  },
+  "all_three_host_TUs_rebuilt": true,
+  "scope": "Opt-inCPUfusionplanreuse(mode1),fullnativeoracle(mode2). Strictsnapshot/deviceoptions/buffer-epoch validation,exactcanonicalkeys onmiss,8context-ownedCPUentries. Actualnormalnativehelpers/descriptors/barriers/submissions/shadersretained;noVkcommandreuse. Modelqualificationpending;no speedclaim."
+}

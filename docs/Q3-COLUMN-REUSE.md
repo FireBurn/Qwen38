@@ -8,7 +8,7 @@ This retains the existing padded112 layout, K-iteration order, integer dot-produ
 
 ## Numerical and compiler evidence
 
-All **864 bounded operator dispatches** passed exact native/padded/candidate output comparison, scalar CPU checks, input immutability and buffer guards, with at most16 workgroups. Five model cases passed **630 unique requested full-vocabulary target-logit rows**, along with all tokens and acceptance counters: short generation, coding, maths, populated KV and a KV boundary. No new GPU errors occurred. This covers the specified target rows and outputs, not every internal draft tensor or arbitrary context.
+All **864 bounded operator dispatches** passed exact native/padded/candidate output comparison, scalar CPU checks, input immutability and buffer guards, with at most16 workgroups. Five model cases passed **530 unique requested full-vocabulary target-logit rows**, along with all tokens and acceptance counters: short generation, coding, maths, populated KV and a KV boundary. No new GPU errors occurred. This covers the specified target rows and outputs, not every internal draft tensor or arbitrary context.
 
 | C2 compiler metric | Frozen padded Q3 | Explicit reuse |
 |---|---:|---:|

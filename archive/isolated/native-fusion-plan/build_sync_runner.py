@@ -1,0 +1,7 @@
+from pathlib import Path
+import json,hashlib,subprocess
+p=Path(__file__).resolve().parent;b=p.parent;(p/'sync-bin').mkdir(exist_ok=True)
+s=(b/'mtp-production-throughput/runner.cpp').read_text();assert s.count('    auto t_dec_end = ggml_time_us();')==1
+s=s.replace('    const auto t_enc_end = ggml_time_us();','    llama_synchronize(ctx_tgt);if(ctx_dft)llama_synchronize(ctx_dft);\n    const auto t_enc_end = ggml_time_us();').replace('if(!warm_end&&n_predict>=16){warm_end=', 'if(!warm_end&&n_predict>=16){llama_synchronize(ctx_tgt);if(ctx_dft)llama_synchronize(ctx_dft);warm_end=').replace('    auto t_dec_end = ggml_time_us();','    llama_synchronize(ctx_tgt);if(ctx_dft)llama_synchronize(ctx_dft);\n    auto t_dec_end = ggml_time_us();')
+(p/'sync-runner.cpp').write_text(s);cmd=json.loads((b/'q3-pad112/profile-runner-build.json').read_text())['command'];cmd=[str(p/'sync-runner.cpp')if x.endswith('/profile-runner.cpp')else x for x in cmd];cmd[cmd.index('-o')+1]=str(p/'sync-bin/model-bench');subprocess.run(cmd,check=True)
+sha=lambda f:hashlib.sha256(f.read_bytes()).hexdigest();(p/'sync-build.json').write_text(json.dumps(dict(command=cmd,source_sha256=sha(p/'sync-runner.cpp'),binary_sha256=sha(p/'sync-bin/model-bench'),scope='Sameproductionrunnergenerationlogic,explicitencoding/warmboundary/generationendtarget+draftGPUcompletion. SharedbybothA/Bmodes;notdirectlypoolablewitholdunsynchronizedtiming.'),indent=2)+'\n')

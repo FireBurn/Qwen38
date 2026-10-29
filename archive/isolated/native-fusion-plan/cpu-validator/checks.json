@@ -1,0 +1,17 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/native-fusion-plan/cpu-validator/test.cpp",
+    "-o",
+    "${WORKSPACE}/isolated/native-fusion-plan/cpu-validator/test"
+  ],
+  "stdout": "CPU_VALIDATOR_PASS tests=1379 tensor_bytes=336\n",
+  "source_sha256": "af8cd52debf029261dfab829feaa77c0403a156c2d08be4c02a6d90ed3bf9b47",
+  "binary_sha256": "8869109f1352dfd4e35b269d7435e57363c9b9c411183031b014024c5785a3ff",
+  "extracted_function_sha256": "deb71d2c0881ccf364206434b973d8cda846b34a11d58ff1c2b73358095843de",
+  "origin_reuse_library_sha256": "be19a3c9a47be844f8753c640d463a3b6c8e67fc2ccf568af4927531549f7a20",
+  "scope": "CPUonly exactextractedkey/validatorfunctions withrealggml_tensorlayout andmockdevice/buffer/graph APIs. Exhaustivetensor-byteinvalidations/options/identities andPROT_NONEstaleroot/leaf/grandchild/context ordering witnesses. NoGPUdevice/commands,nottotalVulkanlifetimeproof. CurrentliveGGMLgraphmustremainvalidduringbackendcall. Benchmarklibraryunchanged."
+}

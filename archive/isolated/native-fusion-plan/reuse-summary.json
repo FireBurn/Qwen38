@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "case": "reuse-model32",
+      "oracle_checks": 70376,
+      "actual_cached_decisions": 70376,
+      "target_rows": 38,
+      "target_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+      "n_predict": 34,
+      "n_drafted": 19,
+      "n_accept": 15
+    },
+    {
+      "case": "coding",
+      "oracle_checks": 262113,
+      "actual_cached_decisions": 262113,
+      "target_rows": 136,
+      "target_sha256": "d57c28c4140917e228a584ff8f7f2185caa0c08d51942a70b1dedf891cd95c27",
+      "n_predict": 130,
+      "n_drafted": 68,
+      "n_accept": 62
+    },
+    {
+      "case": "math",
+      "oracle_checks": 266026,
+      "actual_cached_decisions": 266026,
+      "target_rows": 138,
+      "target_sha256": "cb052233cb56e8fe19113ff905700115393b19bfa263679d308ac800ca4a27f1",
+      "n_predict": 129,
+      "n_drafted": 69,
+      "n_accept": 60
+    },
+    {
+      "case": "reuse-populated-kv64",
+      "oracle_checks": 136897,
+      "actual_cached_decisions": 136897,
+      "target_rows": 72,
+      "target_sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5",
+      "n_predict": 65,
+      "n_drafted": 36,
+      "n_accept": 29
+    },
+    {
+      "case": "reuse-boundary128",
+      "oracle_checks": 277765,
+      "actual_cached_decisions": 277765,
+      "target_rows": 146,
+      "target_sha256": "16a693b0d912e151df9dc942bfb174f1dd5f8c48748f356b07be7cc8f2fa2f49",
+      "n_predict": 129,
+      "n_drafted": 73,
+      "n_accept": 56
+    }
+  ],
+  "unique_target_rows": 530,
+  "total_oracle_checks": 1013177,
+  "total_actual_cached_decisions": 1013177,
+  "library_sha256": "be19a3c9a47be844f8753c640d463a3b6c8e67fc2ccf568af4927531549f7a20",
+  "scope": "Five specifiedcases modes2nativeoracleand1actualCPUdecisionreuse alltargetlogitbits/tokens/counters nativeexact,newGPUerrorszero. NormalnativeGPUhelpers/commands/submissions/lifetimes;notVkcommandreplay orendtoendspeedproof. PrivatefixedMTPworkloadqualification,notarbitrarycustomcallback/UMA/debuggraphsupport."
+}

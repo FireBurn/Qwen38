@@ -1,0 +1,146 @@
+--- a/ggml-vulkan.cpp
++++ b/ggml-vulkan.cpp
+@@ -13444,6 +13444,7 @@
+ 
+     if(ctx->nq_pipeline){ggml_vk_destroy_pipeline(ctx->device->device,ctx->nq_pipeline);ctx->nq_pipeline.reset();}
+ 
++    if(ctx->nfp_ever_enabled)fprintf(stderr,"NATIVE_FUSION_REUSE_FINAL hits=%llu misses=%llu used=%llu checks=%llu mismatches=%llu\n",(unsigned long long)ctx->nfp_total_hits,(unsigned long long)ctx->nfp_total_misses,(unsigned long long)ctx->nfp_total_used,(unsigned long long)ctx->nfp_total_checks,(unsigned long long)ctx->nfp_total_mismatches);
+     delete ctx;
+     delete backend;
+ }
+@@ -14641,6 +14642,61 @@
+         fprintf(stderr,"NQ_PLAN_EXACT nodes=%d pairs=%zu\n",graph->n_nodes,selected.size());
+     }
+ }
++
++static uint64_t nfp_cpu_ns(){timespec t;clock_gettime(CLOCK_THREAD_CPUTIME_ID,&t);return uint64_t(t.tv_sec)*1000000000ull+t.tv_nsec;}
++struct nfp_key_result {std::vector<uint8_t>bytes;size_t tensors=0;bool admissible=true;std::vector<const ggml_tensor*>nodes;std::vector<int32_t>uses;std::vector<nfp_snapshot>snapshots;uint64_t epoch=0;int order=0;bool disabled=false;std::vector<uint64_t>options;};
++static std::vector<uint64_t>nfp_options(ggml_backend_vk_context*ctx){
++    const auto&d=ctx->device;std::vector<uint64_t>v={uint64_t(reinterpret_cast<uintptr_t>(d.get())),uint64_t(d->driver_id),uint64_t(d->multi_add),uint64_t(d->subgroup_arithmetic),uint64_t(d->subgroup_shuffle),uint64_t(d->subgroup_require_full_support),uint64_t(d->subgroup_size_log2),uint64_t(d->uma),uint64_t(d->properties.limits.maxPushConstantsSize),uint64_t(d->properties.limits.minStorageBufferOffsetAlignment),uint64_t(reinterpret_cast<uintptr_t>(d->pipeline_topk_radix_qsa.get()))};
++    for(const auto&pl:d->pipeline_topk_f32)v.push_back(uint64_t(reinterpret_cast<uintptr_t>(pl.get())));return v;
++}
++static void nfp_apply(ggml_backend_vk_context*ctx,const ggml_cgraph*graph,const uint64_t*v){
++    GGML_ASSERT(v[1]<13&&v[2]<8192&&v[8]<uint64_t(graph->n_nodes));
++    ctx->num_additional_fused_ops=int(v[1]);ctx->fused_ops_write_mask=uint32_t(v[2]);
++    ctx->fused_topk_moe_mode=decltype(ctx->fused_topk_moe_mode)(v[3]);ctx->fused_topk_moe_scale=v[4];ctx->fused_topk_qsa=v[5];ctx->fused_hc_post_gate=v[6];ctx->fused_rms_norm_mode=decltype(ctx->fused_rms_norm_mode)(v[7]);
++    ctx->gdn_state_dst=nullptr;
++    if(v[8]){auto*cpy=graph->nodes[v[8]];GGML_ASSERT(cpy->op==GGML_OP_CPY);ctx->gdn_state_dst=cpy->src[1];ctx->gdn_elided_cpys.insert(cpy);}
++    GGML_ASSERT(uint64_t(reinterpret_cast<uintptr_t>(ctx->gdn_state_dst))==v[9]);
++}
++static bool nfp_fast_key(ggml_backend_vk_context*ctx,const ggml_cgraph*graph,const nfp_entry&entry){
++    if(entry.options!=nfp_options(ctx))return false;
++    if(entry.nodes.size()!=size_t(graph->n_nodes)||entry.order!=int(graph->order)||entry.disabled!=ctx->device->disable_fusion||entry.epoch!=ctx->device->buffer_destroy_count.load(std::memory_order_acquire))return false;
++    for(int i=0;i<graph->n_nodes;++i)if(entry.nodes[i]!=graph->nodes[i]||entry.uses[i]!=ggml_node_get_use_count(graph,i))return false;
++    // Initial graph nodes are live. Later closure nodes are reached by source/view
++    // pointers in an earlier snapshot whose complete object representation matched.
++    // Stop on the first mismatch, before dereferencing unvalidated descendants.
++    for(const auto&snap:entry.snapshots){
++        const ggml_tensor*t=snap.tensor;if(std::memcmp(snap.raw.data(),t,sizeof(*t)))return false;
++        if(t->buffer){
++            if(snap.buffer_context!=reinterpret_cast<uintptr_t>(t->buffer->context)||snap.buffer_type!=reinterpret_cast<uintptr_t>(t->buffer->buft)||snap.usage!=int(ggml_backend_buffer_get_usage(t->buffer))||!ggml_backend_buffer_is_vk(t->buffer))return false;
++            const auto*bc=static_cast<const ggml_backend_vk_buffer_context*>(t->buffer->context);
++            if(snap.device_buffer!=reinterpret_cast<uintptr_t>(bc->dev_buffer.get()))return false;
++            if(bc->dev_buffer&&(snap.buffer_size!=bc->dev_buffer->size||snap.buffer_handle!=uint64_t(VkBuffer(bc->dev_buffer->buffer))))return false;
++        }
++    }
++    return entry.epoch==ctx->device->buffer_destroy_count.load(std::memory_order_acquire);
++}
++static nfp_key_result nfp_key(ggml_backend_vk_context*ctx,const ggml_cgraph*graph){
++    nfp_key_result result;auto&key=result.bytes;key.reserve(size_t(graph->n_nodes)*512);
++    auto add=[&](const auto&v){const auto*b=reinterpret_cast<const uint8_t*>(&v);key.insert(key.end(),b,b+sizeof(v));};
++    auto ptr=[&](const void*v){add(reinterpret_cast<uintptr_t>(v));};
++    result.epoch=ctx->device->buffer_destroy_count.load(std::memory_order_acquire);result.order=graph->order;result.disabled=ctx->device->disable_fusion;add(graph->n_nodes);add(graph->order);add(result.epoch);add(result.disabled);result.options=nfp_options(ctx);for(uint64_t value:result.options)add(value);
++    std::vector<const ggml_tensor*>all;all.reserve(graph->n_nodes*2);std::unordered_set<const ggml_tensor*>seen;seen.reserve(graph->n_nodes*2);
++    auto enqueue=[&](const ggml_tensor*t){if(t&&seen.insert(t).second)all.push_back(t);};
++    for(int i=0;i<graph->n_nodes;++i){const auto*t=graph->nodes[i];ptr(t);const int32_t uses=ggml_node_get_use_count(graph,i);add(uses);result.nodes.push_back(t);result.uses.push_back(uses);enqueue(t);}
++    if(all.size()!=size_t(graph->n_nodes))result.admissible=false;
++    for(size_t i=0;i<all.size();++i){const auto*t=all[i];nfp_snapshot snapshot{};snapshot.tensor=t;std::memcpy(snapshot.raw.data(),t,sizeof(*t));ptr(t);add(t->type);add(t->op);add(t->flags);add(t->ne);add(t->nb);add(t->op_params);ptr(t->data);ptr(t->view_src);add(t->view_offs);ptr(t->extra);if(t->extra)result.admissible=false;
++        for(const auto*src:t->src){ptr(src);enqueue(src);}enqueue(t->view_src);
++        const size_t name_length=strnlen(t->name,sizeof(t->name));add(name_length);key.insert(key.end(),reinterpret_cast<const uint8_t*>(t->name),reinterpret_cast<const uint8_t*>(t->name)+name_length);
++        ptr(t->buffer);
++        if(t->buffer){snapshot.buffer_context=reinterpret_cast<uintptr_t>(t->buffer->context);snapshot.buffer_type=reinterpret_cast<uintptr_t>(t->buffer->buft);snapshot.usage=ggml_backend_buffer_get_usage(t->buffer);ptr(t->buffer->context);ptr(t->buffer->buft);add(snapshot.usage);
++            const bool vk=ggml_backend_buffer_is_vk(t->buffer);add(vk);
++            if(vk){const auto*bctx=static_cast<const ggml_backend_vk_buffer_context*>(t->buffer->context);snapshot.device_buffer=reinterpret_cast<uintptr_t>(bctx->dev_buffer.get());ptr(bctx->dev_buffer.get());if(bctx->dev_buffer){snapshot.buffer_size=bctx->dev_buffer->size;snapshot.buffer_handle=uint64_t(VkBuffer(bctx->dev_buffer->buffer));add(snapshot.buffer_size);add(snapshot.buffer_handle);}}
++            else result.admissible=false;
++        }
++        result.snapshots.push_back(snapshot);
++    }
++    result.tensors=all.size();return result;
++}
+ static ggml_status ggml_backend_vk_graph_compute(ggml_backend_t backend, ggml_cgraph * cgraph) {
+     VK_LOG_DEBUG("ggml_backend_vk_graph_compute(" << cgraph->n_nodes << " nodes)");
+     ggml_backend_vk_context * ctx = (ggml_backend_vk_context *)backend->context;
+@@ -14664,6 +14720,20 @@
+     ctx->do_add_rms_partials_offset_calculation = false;
+     ctx->gdn_elided_cpys.clear();
+ 
++    const char*nfp_env=getenv("GGML_VK_FUSION_PLAN_REUSE");
++    int nfp_mode=nfp_env&&nfp_env[0]=='1'?1:nfp_env&&nfp_env[0]=='2'?2:0;
++    if(vk_perf_logger_enabled||getenv("GGML_VK_DEBUG_MARKERS")||ctx->device->uma||!ctx->nq_plan.empty())nfp_mode=0;
++    const bool nfp_shadow=getenv("GGML_VK_FUSION_PLAN_SHADOW")!=nullptr||nfp_mode==2;
++    const bool nfp_enabled=nfp_mode||nfp_shadow;
++    const bool nfp_audit=getenv("GGML_VK_FUSION_PLAN_AUDIT")!=nullptr;
++    nfp_key_result nfp_signature;std::vector<uint64_t>nfp_observed;int nfp_hit=-1,nfp_fast_hit=-1;uint64_t nfp_key_cpu=0,nfp_fast_cpu=0,nfp_cursor=0,nfp_used=0,nfp_checks=0,nfp_mismatches=0;bool nfp_key_built=false;
++    if(nfp_enabled){
++        const uint64_t start=nfp_cpu_ns();for(size_t k=0;k<ctx->nfp_entries.size();++k)if(nfp_fast_key(ctx,cgraph,ctx->nfp_entries[k])){nfp_fast_hit=k;break;}nfp_fast_cpu=nfp_cpu_ns()-start;
++        if(nfp_shadow||nfp_fast_hit<0){const uint64_t begin=nfp_cpu_ns();nfp_signature=nfp_key(ctx,cgraph);nfp_key_built=true;if(nfp_signature.admissible)for(size_t k=0;k<ctx->nfp_entries.size();++k)if(ctx->nfp_entries[k].key==nfp_signature.bytes){nfp_hit=k;break;}nfp_key_cpu=nfp_cpu_ns()-begin;
++            if(nfp_fast_hit>=0&&(nfp_hit<0||ctx->nfp_entries[nfp_fast_hit].key!=nfp_signature.bytes)){++nfp_mismatches;nfp_hit=-1;nfp_fast_hit=-1;fprintf(stderr,"NATIVE_FUSION_FAST_KEY_MISMATCH\n");}
++        }else nfp_hit=nfp_fast_hit;
++    }
++    bool nfp_use=nfp_mode&&nfp_hit>=0;
+     int last_node = cgraph->n_nodes - 1;
+ 
+     // If the last op in the cgraph isn't backend GPU, the command buffer doesn't get closed properly
+@@ -14801,17 +14871,23 @@
+         // The array is sized to handle the largest fusion (asserted later).
+         bool op_srcs_fused_elementwise[13];
+ 
++        const char*fusion_string{};int nfp_gdn_cpy=0;const uint64_t*nfp_cached=nullptr;
++        if(nfp_use){const auto&plan=ctx->nfp_entries[nfp_hit].plan;if(nfp_cursor+10<=plan.size()&&plan[nfp_cursor]==uint64_t(i))nfp_cached=plan.data()+nfp_cursor;else{nfp_use=false;++nfp_mismatches;fprintf(stderr,"NATIVE_FUSION_RECORD_MISMATCH\n");}}
++        if(nfp_cached&&nfp_mode==1){nfp_apply(ctx,cgraph,nfp_cached);nfp_gdn_cpy=nfp_cached[8];++nfp_used;}
++        else {
+         ctx->fused_topk_moe_mode = TOPK_MOE_COUNT;
+         ctx->fused_topk_moe_scale = false;
+         ctx->fused_topk_qsa = false;
+         ctx->fused_hc_post_gate = false;
+         ctx->fused_rms_norm_mode = RMS_NORM_COUNT;
+-        const char *fusion_string {};
++
+         static const bool gdn_state_fusion_disabled = getenv("GGML_VK_DISABLE_GDN_STATE_FUSION") != nullptr;
+         ctx->gdn_state_dst = nullptr;
++
+         if (!ctx->device->disable_fusion && !gdn_state_fusion_disabled && cgraph->nodes[i]->op == GGML_OP_GATED_DELTA_NET) {
+             if (const int j_cpy = ggml_vk_find_gdn_state_cpy(cgraph, i); j_cpy > 0) {
+                 ctx->gdn_state_dst = cgraph->nodes[j_cpy]->src[1];
++                nfp_gdn_cpy=j_cpy;
+                 ctx->gdn_elided_cpys.insert(cgraph->nodes[j_cpy]);
+             }
+         }
+@@ -15060,6 +15136,13 @@
+             }
+         }
+ 
++        }
++        if(nfp_cached&&nfp_mode==2){
++            const uint64_t actual[]={uint64_t(i),uint64_t(ctx->num_additional_fused_ops),uint64_t(ctx->fused_ops_write_mask),uint64_t(ctx->fused_topk_moe_mode),uint64_t(ctx->fused_topk_moe_scale),uint64_t(ctx->fused_topk_qsa),uint64_t(ctx->fused_hc_post_gate),uint64_t(ctx->fused_rms_norm_mode),uint64_t(nfp_gdn_cpy),uint64_t(reinterpret_cast<uintptr_t>(ctx->gdn_state_dst))};
++            ++nfp_checks;if(std::equal(actual,actual+10,nfp_cached)){nfp_apply(ctx,cgraph,nfp_cached);++nfp_used;}else{++nfp_mismatches;fprintf(stderr,"NATIVE_FUSION_ORACLE_MISMATCH\n");}
++        }
++        if(nfp_enabled&&(nfp_shadow||nfp_hit<0)){for(uint64_t value:{uint64_t(i),uint64_t(ctx->num_additional_fused_ops),uint64_t(ctx->fused_ops_write_mask),uint64_t(ctx->fused_topk_moe_mode),uint64_t(ctx->fused_topk_moe_scale),uint64_t(ctx->fused_topk_qsa),uint64_t(ctx->fused_hc_post_gate),uint64_t(ctx->fused_rms_norm_mode),uint64_t(nfp_gdn_cpy),uint64_t(reinterpret_cast<uintptr_t>(ctx->gdn_state_dst))})nfp_observed.push_back(value);}
++        if(nfp_enabled)nfp_cursor+=10;
+         // Signal the almost_ready fence when the graph is mostly complete (< 20% remaining)
+         bool almost_ready = (cgraph->n_nodes - i) < cgraph->n_nodes / 5;
+         bool submit = (submitted_nodes >= ctx->device->max_nodes_per_submit) ||
+@@ -15104,6 +15187,13 @@
+ 
+     GGML_ASSERT(ctx->nq_skipped.empty());
+     if(ctx->nq_fused_count&&getenv("GGML_VK_NATIVE_GLUQ_AUDIT"))fprintf(stderr,"NATIVE_GLUQ_FUSED %u\n",ctx->nq_fused_count);
++    if(nfp_enabled){
++        if(nfp_use&&nfp_cursor!=ctx->nfp_entries[nfp_hit].plan.size()){++nfp_mismatches;fprintf(stderr,"NATIVE_FUSION_RECORD_COUNT_MISMATCH\n");}
++        if(nfp_shadow&&nfp_hit>=0&&ctx->nfp_entries[nfp_hit].plan!=nfp_observed){++nfp_mismatches;fprintf(stderr,"NATIVE_FUSION_PLAN_MISMATCH\n");}
++        if(nfp_key_built&&nfp_signature.admissible&&nfp_hit<0&&nfp_mismatches==0){if(ctx->nfp_entries.size()==8)ctx->nfp_entries.erase(ctx->nfp_entries.begin());ctx->nfp_entries.push_back({std::move(nfp_signature.bytes),std::move(nfp_observed),std::move(nfp_signature.nodes),std::move(nfp_signature.uses),std::move(nfp_signature.snapshots),nfp_signature.epoch,nfp_signature.order,nfp_signature.disabled,std::move(nfp_signature.options)});}
++        ctx->nfp_total_hits+=nfp_hit>=0;ctx->nfp_total_misses+=nfp_hit<0;ctx->nfp_total_used+=nfp_used;ctx->nfp_total_checks+=nfp_checks;ctx->nfp_total_mismatches+=nfp_mismatches;ctx->nfp_ever_enabled|=nfp_mode!=0;
++        if(nfp_audit)fprintf(stderr,"NATIVE_FUSION_REUSE mode=%d nodes=%d hit=%d used=%llu checks=%llu mismatches=%llu fast_cpu_ns=%llu key_cpu_ns=%llu\n",nfp_mode,cgraph->n_nodes,nfp_hit>=0,(unsigned long long)nfp_used,(unsigned long long)nfp_checks,(unsigned long long)nfp_mismatches,(unsigned long long)nfp_fast_cpu,(unsigned long long)nfp_key_cpu);
++    }
+     ctx->last_total_flops = total_flops;
+ 
+     if (vk_perf_logger_enabled) {

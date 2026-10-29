@@ -101,8 +101,14 @@ Five observer processes preserve 530 requested target-logit rows and generated-t
 
 GDN reader indexing reduced measured host CPU work but did not qualify a throughput gain in a fixed 24-arm under-load A/B. Only three blocks matched external load; all favoured legacy. [Evidence and diagnostic](GDN-READER-INDEX.md).
 
-[Explicit Q3 column reuse](Q3-COLUMN-REUSE.md) passes864operatorchecks and630target-logitrows acrossfivecases, reducing C2instructions5556→4220 without extraallocatedregisters. Fixed24modelA/B fails qualification (only3matchedblocks;raw+1.55%[−0.20,+3.33]);separate96armGPUdiagnostic establishes noC2speedup. Keep frozenQ3/cap400. Instructionredundancy neednottranslate tocritical-path time savings.
+[Explicit Q3 column reuse](Q3-COLUMN-REUSE.md) passes864operatorchecks and530target-logitrows acrossfivecases, reducing C2instructions5556→4220 without extraallocatedregisters. Fixed24modelA/B fails qualification (only3matchedblocks;raw+1.55%[−0.20,+3.33]);separate96armGPUdiagnostic establishes noC2speedup. Keep frozenQ3/cap400. Instructionredundancy neednottranslate tocritical-path time savings.
 
-[Bounded Q3 pair/SwiGLU fusion](Q3-PAIR-GLU.md) passes576bounded/128largeoperatorcomparisons,630modeltargetrows andhosteligibility/fallbackwitnesses. PrimaryC2streamoperator time−3.87%[−5.65,−2.05]. Fullmodel24armraw+9.38%[−2.13,+22.23]isconfounded;only2/6blocks matchexternalCPU/build/runqueue,so noqualifiedmodelgain oradoption. Keepfrozen400;donotaddhistoricalpercentages.
+[Bounded Q3 pair/SwiGLU fusion](Q3-PAIR-GLU.md) passes576bounded/128largeoperatorcomparisons,530modeltargetrows andhosteligibility/fallbackwitnesses. PrimaryC2streamoperator time−3.87%[−5.65,−2.05]. Fullmodel24armraw+9.38%[−2.13,+22.23]isconfounded;only2/6blocks matchexternalCPU/build/runqueue,so noqualifiedmodelgain oradoption. Keepfrozen400;donotaddhistoricalpercentages.
 
 The separate [resident pair-fusion diagnostic](Q3-PAIR-GLU.md) matches all6loadblocks under~100%CPUcompileload. Fullgenerationtime−0.60%[−1.69,+0.51],steadysecondary−0.36%[−1.41,+0.70]:noincrementalgainestablished. All25generationsnativeexact,noGPUerrors. Sameprivatehostinactive/active,notdirectfrozencomparison,nopoolingwithfresh24. LimitedQ3paircoverageoffersarough0.6%totalGPU-timebudgetbeforeCPU/overlap,sowiderworkloadcoverageisneededforalargergain.
+
+Reporting correction: earlier prose for the column-reuse and pair-fusion rounds said630target-logitrows. The five recorded case counts are38+136+138+72+146=530. Raw checks and summary JSON already contain the correct counts; numerical outcomes are unchanged. Historical archived notes may retain the typo.
+
+## Native fusion-plan cache follow-up
+
+[CPU planning reuse](NATIVE-FUSION-PLAN.md) passes five exact target-logit cases (530 rows), 1,379 CPU invalidation checks and real GPU metadata mutations. The fixed 24-run under-load model test establishes no incremental gain: descriptive −6.77% [−17.69%, +5.61%], only one of six external-load-matched blocks. Keep the preserved qualified configuration. The separate fixed resident diagnostic finds graph CPU time −23.05% [−30.89%,−14.32%] descriptively, but full generation time +0.40% [−5.91%,+7.14%], only two matched blocks. CPU savings have not established faster generation.

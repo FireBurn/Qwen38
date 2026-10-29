@@ -1,0 +1,55 @@
+{
+  "source": "q3-pad112/host-fast-guard-v2/ggml-vulkan.cpp",
+  "selection_region_start_line": 13731,
+  "context_and_data_access_lines": [
+    {
+      "relative_line": 337,
+      "line": "if (ctx->device->driver_id == vk::DriverId::eMoltenvk) {"
+    },
+    {
+      "relative_line": 409,
+      "line": "if (!ctx->device->subgroup_arithmetic ||"
+    },
+    {
+      "relative_line": 410,
+      "line": "!ctx->device->subgroup_shuffle ||"
+    },
+    {
+      "relative_line": 411,
+      "line": "!ctx->device->subgroup_require_full_support ||"
+    },
+    {
+      "relative_line": 412,
+      "line": "ctx->device->disable_fusion) {"
+    },
+    {
+      "relative_line": 436,
+      "line": "if (ctx->device->disable_fusion || !ctx->device->pipeline_topk_radix_qsa) {"
+    },
+    {
+      "relative_line": 496,
+      "line": "const uint32_t k_min_pipeline = std::max((uint32_t) log2f(float(width)) + 1, ctx->device->subgroup_size_log2);"
+    },
+    {
+      "relative_line": 497,
+      "line": "if (k_min_pipeline < num_topk_pipelines && ctx->device->pipeline_topk_f32[k_min_pipeline]) {"
+    },
+    {
+      "relative_line": 699,
+      "line": "vk_buffer a_buf = a_buf_ctx->dev_buffer;"
+    },
+    {
+      "relative_line": 701,
+      "line": "vk_buffer b_buf = b_buf_ctx->dev_buffer;"
+    },
+    {
+      "relative_line": 746,
+      "line": "if (sizeof(vk_op_rms_norm_mul_rope_push_constants) > ctx->device->properties.limits.maxPushConstantsSize) {"
+    },
+    {
+      "relative_line": 760,
+      "line": "if (!ctx->device->multi_add) {"
+    }
+  ],
+  "scope": "Statictriageonly,notcompleteproof. Keycapturesmetadata/bufferidentity+destroyepoch,usecounts,contextfixeddevice. Reviewhelpertransitivecallsbeforeanyactualplanreuse. ShadowdoesnotreuseorchangeGPUcommands."
+}

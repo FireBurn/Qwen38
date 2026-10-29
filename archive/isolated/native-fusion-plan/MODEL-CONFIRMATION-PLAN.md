@@ -1,0 +1,5 @@
+# Conditional independent direct confirmation
+
+Declaredbeforefirstdiscoverytiming. Triggeronlyifallnumerical/runtimegatespassandfixed24discoveryhas>=4presetloadmatchedblocks withpositiveincremental95%lowerbound. No extendingdiscovery.
+
+Separatefixed24fresh512tokenprocesses/sixABBA-BAABblocks,samepreservedfrozen400 vsunchangedreuse-host400/mode1,exactsame sync-runner,shaders,core/common,driver/model/options/MTPpolicy. SameexternalCPU5pp/build2/runqueuemax(4,15%mean),mandatoryvalidtelemetry,stablelibc,mappings,all513tokens/counters,newGPUerrorszero,actualusedstats>10000/mismatches0. Clocks/poweroutcomes. Retainall6raw/matched,>=4matched,pairedlog95%t. Norescueextension. Adopt onlyifindependentprimaryintervalalsopositive;otherwisecandidateexperimental/keepfrozen. Noaddinghistoricalgains/newdirectstock/equalclock/mega/generalcontextclaim.

@@ -304,3 +304,7 @@ See [experiment and interpretation](FUSION-COMBINATION.md). The manifest include
 ## Bounded Q3 pair/SwiGLU fusion
 
 [Results and limits](Q3-PAIR-GLU.md). `archive/isolated/q3-pair-glu` contains the full shader/include closure, privatehostsource/patch/header/builds,graphaudit,704operatorcomparisons,96armoperatorscreen,five-model-casequalification,hosteligibilitywitnesses,failedfixed24under-loadmodelcomparisonandunusedpredeclaredconfirmationplan. InitialC1policyharnessexpectationfailurepreserved. No new model configuration is qualified.
+
+## Native fusion-plan cache follow-up
+
+[CPU planning reuse](NATIVE-FUSION-PLAN.md) passes five exact target-logit cases (530 rows), 1,379 CPU invalidation checks and real GPU metadata mutations. The fixed 24-run under-load model test establishes no incremental gain: descriptive −6.77% [−17.69%, +5.61%], only one of six external-load-matched blocks. Keep the preserved qualified configuration. The separate fixed resident diagnostic finds graph CPU time −23.05% [−30.89%,−14.32%] descriptively, but full generation time +0.40% [−5.91%,+7.14%], only two matched blocks. CPU savings have not established faster generation.

@@ -1,0 +1,188 @@
+{
+  "selected_mode": "reuse",
+  "blocks": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.7678621648062777,
+        "reuse": 0.9912093058202283
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1914.75,
+        "reuse": 1717.0
+      },
+      "build_mode_means": {
+        "frozen": 4.217391304347826,
+        "reuse": 2
+      },
+      "runnable_mode_means": {
+        "frozen": 15.103157349896481,
+        "reuse": 18.434912209064926
+      },
+      "comparable": false,
+      "log_effect": -0.12719752995932954,
+      "speed_change_percent": -11.944028150823204
+    },
+    {
+      "indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.7586316427786498,
+        "reuse": 0.8046225749704543
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1720.25,
+        "reuse": 1717.75
+      },
+      "build_mode_means": {
+        "frozen": 7.537037037037037,
+        "reuse": 15.870588235294118
+      },
+      "runnable_mode_means": {
+        "frozen": 17.615179573512908,
+        "reuse": 21.647350696003592
+      },
+      "comparable": false,
+      "log_effect": -0.03310882864729381,
+      "speed_change_percent": -3.256673059421464
+    },
+    {
+      "indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.7545043843793675,
+        "reuse": 0.9523836628913771
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1738.5,
+        "reuse": 1735.5
+      },
+      "build_mode_means": {
+        "frozen": 2.4511238337574213,
+        "reuse": 3.8363636363636364
+      },
+      "runnable_mode_means": {
+        "frozen": 16.53888358778626,
+        "reuse": 27.921212121212122
+      },
+      "comparable": false,
+      "log_effect": -0.19627215574591617,
+      "speed_change_percent": -17.821145023474667
+    },
+    {
+      "indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.8322800194412844,
+        "reuse": 0.647201265529064
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1744.25,
+        "reuse": 1747.0
+      },
+      "build_mode_means": {
+        "frozen": 3.317669591554942,
+        "reuse": 2
+      },
+      "runnable_mode_means": {
+        "frozen": 20.099060175493296,
+        "reuse": 12.945855614973262
+      },
+      "comparable": false,
+      "log_effect": 0.1261553554958046,
+      "speed_change_percent": 13.445839894050701
+    },
+    {
+      "indices": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.7954216964302683,
+        "reuse": 0.7668401666434597
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1746.0,
+        "reuse": 1745.0
+      },
+      "build_mode_means": {
+        "frozen": 3.742957746478873,
+        "reuse": 2
+      },
+      "runnable_mode_means": {
+        "frozen": 17.524647887323944,
+        "reuse": 17.588107928047968
+      },
+      "comparable": true,
+      "log_effect": -0.023618314672561258,
+      "speed_change_percent": -2.3341585187787386
+    },
+    {
+      "indices": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.7444761998555606,
+        "reuse": 0.875341454751095
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1746.5,
+        "reuse": 1738.5
+      },
+      "build_mode_means": {
+        "frozen": 6.178729310167574,
+        "reuse": 4.8732988307456395
+      },
+      "runnable_mode_means": {
+        "frozen": 16.669759432507455,
+        "reuse": 23.47249377036611
+      },
+      "comparable": false,
+      "log_effect": -0.16629505676810652,
+      "speed_change_percent": -15.32036556672374
+    }
+  ],
+  "all6block_descriptive": {
+    "blocks": 6,
+    "geometric_speed_change_percent": -6.765847508905211,
+    "descriptive_t95_percent": [
+      -17.687753742970013,
+      5.605272435270385
+    ],
+    "lower_bound_positive": false
+  },
+  "matched_primary": {
+    "blocks": 1,
+    "qualified": false,
+    "reason": "Fewer than4matched blocks"
+  },
+  "mean_steady_tps": {
+    "frozen": 33.89277708064063,
+    "reuse": 31.663239714957744
+  },
+  "all_tokens_and_counters_identical": true,
+  "scope": "Fixed24fresh512token discovery, sixABBA/BAABblocks. PreservedfrozenQ3/cap400 versusprivateCPUplanreusehost/cap400,sameshaders/activationpolicy,synchronizedtimingbothmodes. Primaryincrementversuspreservedqualifiedconfig,notdirectstock. Naturalclocks/power are outcomes. Matching only by preset telemetry;all results retained,no extension. Descriptive intervals,small sample/timecorrelation limitations.",
+  "incremental_gain_supported": false
+}

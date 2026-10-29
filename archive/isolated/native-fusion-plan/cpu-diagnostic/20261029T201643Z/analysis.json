@@ -1,0 +1,771 @@
+{
+  "all6_graph_cpu": {
+    "blocks": 6,
+    "time_change_percent": -23.05146364301864,
+    "descriptive_t95_percent": [
+      -30.89097167889698,
+      -14.322666787175296
+    ],
+    "upper_bound_negative": true
+  },
+  "matched_graph_cpu": {
+    "blocks": 2,
+    "qualified": false,
+    "reason": "Fewer than4matched blocks"
+  },
+  "arms": [
+    {
+      "arm": 0,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 3863103,
+      "steady_us": 3321866,
+      "full_tps": 33.39284507816644,
+      "steady_tps": 33.715989747930834,
+      "phase_samples": 37,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.6978828078992121,
+      "builds": 2,
+      "runnable": 11.891891891891891,
+      "clock_mhz": 1739.4054054054054,
+      "power_w": 118.56756756756756,
+      "graph_ns": 560825913,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 1,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 3649561,
+      "steady_us": 3118694,
+      "full_tps": 35.34671704350195,
+      "steady_tps": 35.91246848841214,
+      "phase_samples": 35,
+      "active_samples": 34,
+      "sensor_errors": [],
+      "cpu": 0.6067307824117847,
+      "builds": 2,
+      "runnable": 11.742857142857142,
+      "clock_mhz": 1743.0882352941176,
+      "power_w": 123.54285714285714,
+      "graph_ns": 399364361,
+      "fast_ns": 64589238,
+      "key_ns": 4009390,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 2,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 3809872,
+      "steady_us": 3280106,
+      "full_tps": 33.85940525036012,
+      "steady_tps": 34.1452379892601,
+      "phase_samples": 37,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.6087629557757973,
+      "builds": 2.5405405405405403,
+      "runnable": 10.567567567567568,
+      "clock_mhz": 1740.7027027027027,
+      "power_w": 120.35135135135135,
+      "graph_ns": 448773463,
+      "fast_ns": 67135308,
+      "key_ns": 6298261,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 3,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4031707,
+      "steady_us": 3484319,
+      "full_tps": 31.99637275228582,
+      "steady_tps": 32.14401436837442,
+      "phase_samples": 38,
+      "active_samples": 38,
+      "sensor_errors": [],
+      "cpu": 0.754750640439512,
+      "builds": 7.157894736842105,
+      "runnable": 17.18421052631579,
+      "clock_mhz": 1738.8157894736842,
+      "power_w": 117.26315789473684,
+      "graph_ns": 636643228,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 4,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 3811398,
+      "steady_us": 3291051,
+      "full_tps": 33.84584868859143,
+      "steady_tps": 34.031681672511304,
+      "phase_samples": 37,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.6897546877142515,
+      "builds": 3.945945945945946,
+      "runnable": 14.594594594594595,
+      "clock_mhz": 1736.5135135135135,
+      "power_w": 120.56756756756756,
+      "graph_ns": 462938710,
+      "fast_ns": 74555066,
+      "key_ns": 5833409,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 5,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 3898010,
+      "steady_us": 3385632,
+      "full_tps": 33.093809405311944,
+      "steady_tps": 33.080972769633554,
+      "phase_samples": 38,
+      "active_samples": 38,
+      "sensor_errors": [],
+      "cpu": 0.7043774025189028,
+      "builds": 4.421052631578948,
+      "runnable": 15.921052631578947,
+      "clock_mhz": 1740.921052631579,
+      "power_w": 119.47368421052632,
+      "graph_ns": 570953013,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 6,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 3763275,
+      "steady_us": 3203647,
+      "full_tps": 34.278653566375034,
+      "steady_tps": 34.96015634681349,
+      "phase_samples": 37,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.6184785405155803,
+      "builds": 2.3783783783783785,
+      "runnable": 15.18918918918919,
+      "clock_mhz": 1741.6486486486488,
+      "power_w": 122.1891891891892,
+      "graph_ns": 506562187,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 7,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 3650704,
+      "steady_us": 3141793,
+      "full_tps": 35.33565032936113,
+      "steady_tps": 35.64843387199602,
+      "phase_samples": 36,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.6017434635080905,
+      "builds": 2,
+      "runnable": 12.666666666666666,
+      "clock_mhz": 1739.5,
+      "power_w": 124.97222222222223,
+      "graph_ns": 434210296,
+      "fast_ns": 76171007,
+      "key_ns": 4867458,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 8,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 3668627,
+      "steady_us": 3166319,
+      "full_tps": 35.16301875333742,
+      "steady_tps": 35.37230455933214,
+      "phase_samples": 36,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.6272417905634284,
+      "builds": 2,
+      "runnable": 10.555555555555555,
+      "clock_mhz": 1742.9444444444443,
+      "power_w": 124.41666666666667,
+      "graph_ns": 518424740,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 9,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 3783184,
+      "steady_us": 3272353,
+      "full_tps": 34.09826220453459,
+      "steady_tps": 34.22613636120553,
+      "phase_samples": 37,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.6364791664171714,
+      "builds": 2,
+      "runnable": 15.378378378378379,
+      "clock_mhz": 1737.4594594594594,
+      "power_w": 121.70270270270271,
+      "graph_ns": 419945283,
+      "fast_ns": 71269266,
+      "key_ns": 5271295,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 10,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 3651803,
+      "steady_us": 3136282,
+      "full_tps": 35.32501616324868,
+      "steady_tps": 35.71107445057555,
+      "phase_samples": 35,
+      "active_samples": 35,
+      "sensor_errors": [],
+      "cpu": 0.6159874871039465,
+      "builds": 2,
+      "runnable": 10.17142857142857,
+      "clock_mhz": 1738.7714285714285,
+      "power_w": 124.77142857142857,
+      "graph_ns": 413977358,
+      "fast_ns": 58558369,
+      "key_ns": 5974996,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 11,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 3736313,
+      "steady_us": 3214105,
+      "full_tps": 34.52601535256816,
+      "steady_tps": 34.84640358669054,
+      "phase_samples": 36,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.6127149333060737,
+      "builds": 2.2222222222222223,
+      "runnable": 11.027777777777779,
+      "clock_mhz": 1740.0,
+      "power_w": 123.44444444444444,
+      "graph_ns": 534105869,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 12,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 3804706,
+      "steady_us": 3251885,
+      "full_tps": 33.90537928554795,
+      "steady_tps": 34.44156235537235,
+      "phase_samples": 36,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.6163822812872187,
+      "builds": 4.333333333333333,
+      "runnable": 10.277777777777779,
+      "clock_mhz": 1739.1944444444443,
+      "power_w": 121.66666666666667,
+      "graph_ns": 429038543,
+      "fast_ns": 65425953,
+      "key_ns": 9903592,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 13,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 3834246,
+      "steady_us": 3300331,
+      "full_tps": 33.64416367650902,
+      "steady_tps": 33.93599005675491,
+      "phase_samples": 37,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.6743357841711975,
+      "builds": 4,
+      "runnable": 13.594594594594595,
+      "clock_mhz": 1733.2432432432433,
+      "power_w": 121.54054054054055,
+      "graph_ns": 540934556,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 14,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 3742520,
+      "steady_us": 3247203,
+      "full_tps": 34.46875367399506,
+      "steady_tps": 34.49122213794456,
+      "phase_samples": 36,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.6586554372952061,
+      "builds": 0.5555555555555556,
+      "runnable": 12.833333333333334,
+      "clock_mhz": 1744.5277777777778,
+      "power_w": 123.91666666666667,
+      "graph_ns": 539211358,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 15,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4389577,
+      "steady_us": 3885162,
+      "full_tps": 29.387797503039586,
+      "steady_tps": 28.827626750184418,
+      "phase_samples": 41,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.8279513941412167,
+      "builds": 13.658536585365853,
+      "runnable": 23.951219512195124,
+      "clock_mhz": 1715.0555555555557,
+      "power_w": 114.29268292682927,
+      "graph_ns": 456685171,
+      "fast_ns": 48848664,
+      "key_ns": 2934985,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 16,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 5231970,
+      "steady_us": 4513800,
+      "full_tps": 24.656104679499308,
+      "steady_tps": 24.812796313527404,
+      "phase_samples": 49,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.9863200832281328,
+      "builds": 30.79591836734694,
+      "runnable": 32.46938775510204,
+      "clock_mhz": 1689.1666666666667,
+      "power_w": 101.04081632653062,
+      "graph_ns": 839909299,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 17,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 5059573,
+      "steady_us": 4344117,
+      "full_tps": 25.49622270495949,
+      "steady_tps": 25.78199436156991,
+      "phase_samples": 47,
+      "active_samples": 38,
+      "sensor_errors": [],
+      "cpu": 0.9935416051188459,
+      "builds": 31.78723404255319,
+      "runnable": 32.638297872340424,
+      "clock_mhz": 1692.0526315789473,
+      "power_w": 100.65957446808511,
+      "graph_ns": 555486562,
+      "fast_ns": 45842405,
+      "key_ns": 6402888,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 18,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 5123916,
+      "steady_us": 4463043,
+      "full_tps": 25.176056750344852,
+      "steady_tps": 25.094985640962904,
+      "phase_samples": 47,
+      "active_samples": 34,
+      "sensor_errors": [],
+      "cpu": 0.9930590751350452,
+      "builds": 31.319148936170212,
+      "runnable": 32.95744680851064,
+      "clock_mhz": 1693.9411764705883,
+      "power_w": 102.53191489361703,
+      "graph_ns": 551500090,
+      "fast_ns": 44640040,
+      "key_ns": 5456822,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 19,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 5521769,
+      "steady_us": 4812262,
+      "full_tps": 23.36207834844232,
+      "steady_tps": 23.273878271798168,
+      "phase_samples": 51,
+      "active_samples": 29,
+      "sensor_errors": [],
+      "cpu": 0.9945949378635288,
+      "builds": 26.41176470588235,
+      "runnable": 32.13725490196079,
+      "clock_mhz": 1704.9655172413793,
+      "power_w": 97.92156862745098,
+      "graph_ns": 862083013,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 20,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4391622,
+      "steady_us": 3786151,
+      "full_tps": 29.374112799325626,
+      "steady_tps": 29.581493183974967,
+      "phase_samples": 42,
+      "active_samples": 39,
+      "sensor_errors": [],
+      "cpu": 0.8625952711360142,
+      "builds": 8,
+      "runnable": 20.952380952380953,
+      "clock_mhz": 1731.2564102564102,
+      "power_w": 111.5952380952381,
+      "graph_ns": 503225008,
+      "fast_ns": 57993217,
+      "key_ns": 7247872,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 21,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 4049628,
+      "steady_us": 3558504,
+      "full_tps": 31.854777772180555,
+      "steady_tps": 31.47390026820259,
+      "phase_samples": 39,
+      "active_samples": 37,
+      "sensor_errors": [],
+      "cpu": 0.7735585483516746,
+      "builds": 6.333333333333333,
+      "runnable": 17.82051282051282,
+      "clock_mhz": 1732.1351351351352,
+      "power_w": 115.94871794871794,
+      "graph_ns": 591393775,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 22,
+      "mode": "inactive",
+      "n_predict": 129,
+      "generation_us": 3844352,
+      "steady_us": 3326816,
+      "full_tps": 33.5557201837917,
+      "steady_tps": 33.66582341794677,
+      "phase_samples": 37,
+      "active_samples": 36,
+      "sensor_errors": [],
+      "cpu": 0.6830369412564907,
+      "builds": 3.108108108108108,
+      "runnable": 13.621621621621621,
+      "clock_mhz": 1741.0277777777778,
+      "power_w": 122.54054054054055,
+      "graph_ns": 571230730,
+      "fast_ns": 0,
+      "key_ns": 0,
+      "graphs": 222,
+      "telemetry_valid": true
+    },
+    {
+      "arm": 23,
+      "mode": "active",
+      "n_predict": 129,
+      "generation_us": 4172150,
+      "steady_us": 3546927,
+      "full_tps": 30.919310187792863,
+      "steady_tps": 31.576629572584945,
+      "phase_samples": 40,
+      "active_samples": 38,
+      "sensor_errors": [],
+      "cpu": 0.8273492564273436,
+      "builds": 5.35,
+      "runnable": 19.4,
+      "clock_mhz": 1740.0,
+      "power_w": 113.75,
+      "graph_ns": 464691091,
+      "fast_ns": 46083988,
+      "key_ns": 6128874,
+      "graphs": 222,
+      "telemetry_valid": true
+    }
+  ],
+  "blocks": [
+    {
+      "block": 0,
+      "matched": false,
+      "means": {
+        "cpu": {
+          "inactive": 0.726316724169362,
+          "active": 0.607746869093791
+        },
+        "builds": {
+          "inactive": 4.578947368421053,
+          "active": 2.27027027027027
+        },
+        "runnable": {
+          "inactive": 14.538051209103841,
+          "active": 11.155212355212356
+        },
+        "clock_mhz": {
+          "inactive": 1739.1105974395448,
+          "active": 1741.8954689984103
+        },
+        "power_w": {
+          "inactive": 117.9153627311522,
+          "active": 121.94710424710425
+        }
+      },
+      "effects": {
+        "generation_us": -0.05672906342977413,
+        "steady_us": -0.061754613030981176,
+        "graph_ns": -0.3446137747831415
+      },
+      "full_time_change_percent": -5.5149970883204125
+    },
+    {
+      "block": 1,
+      "matched": true,
+      "means": {
+        "cpu": {
+          "inactive": 0.6614279715172415,
+          "active": 0.645749075611171
+        },
+        "builds": {
+          "inactive": 3.399715504978663,
+          "active": 2.972972972972973
+        },
+        "runnable": {
+          "inactive": 15.555120910384069,
+          "active": 13.63063063063063
+        },
+        "clock_mhz": {
+          "inactive": 1741.2848506401137,
+          "active": 1738.0067567567567
+        },
+        "power_w": {
+          "inactive": 120.83143669985776,
+          "active": 122.76989489489489
+        }
+      },
+      "effects": {
+        "generation_us": -0.026419839375925847,
+        "steady_us": -0.023914910319094318,
+        "graph_ns": -0.18191518604561452
+      },
+      "full_time_change_percent": -2.6073888768593925
+    },
+    {
+      "block": 2,
+      "matched": true,
+      "means": {
+        "cpu": {
+          "inactive": 0.6199783619347511,
+          "active": 0.6262333267605589
+        },
+        "builds": {
+          "inactive": 2.111111111111111,
+          "active": 2
+        },
+        "runnable": {
+          "inactive": 10.791666666666668,
+          "active": 12.774903474903475
+        },
+        "clock_mhz": {
+          "inactive": 1741.4722222222222,
+          "active": 1738.115444015444
+        },
+        "power_w": {
+          "inactive": 123.93055555555556,
+          "active": 123.23706563706564
+        }
+      },
+      "effects": {
+        "generation_us": 0.00393511371006916,
+        "steady_us": 0.004214334565933342,
+        "graph_ns": -0.2327266189007844
+      },
+      "full_time_change_percent": 0.39428664359750987
+    },
+    {
+      "block": 3,
+      "matched": false,
+      "means": {
+        "cpu": {
+          "inactive": 0.6664956107332018,
+          "active": 0.7221668377142176
+        },
+        "builds": {
+          "inactive": 2.2777777777777777,
+          "active": 8.995934959349594
+        },
+        "runnable": {
+          "inactive": 13.213963963963964,
+          "active": 17.11449864498645
+        },
+        "clock_mhz": {
+          "inactive": 1738.8855105105106,
+          "active": 1727.125
+        },
+        "power_w": {
+          "inactive": 122.7286036036036,
+          "active": 117.97967479674797
+        }
+      },
+      "effects": {
+        "generation_us": 0.07586980101375929,
+        "steady_us": 0.08229136655543456,
+        "graph_ns": -0.19893245919127622
+      },
+      "full_time_change_percent": 7.8822103468705995
+    },
+    {
+      "block": 4,
+      "matched": false,
+      "means": {
+        "cpu": {
+          "inactive": 0.9904575105458309,
+          "active": 0.9933003401269456
+        },
+        "builds": {
+          "inactive": 28.603841536614645,
+          "active": 31.5531914893617
+        },
+        "runnable": {
+          "inactive": 32.30332132853141,
+          "active": 32.79787234042553
+        },
+        "clock_mhz": {
+          "inactive": 1697.066091954023,
+          "active": 1692.996904024768
+        },
+        "power_w": {
+          "inactive": 99.4811924769908,
+          "active": 101.59574468085107
+        }
+      },
+      "effects": {
+        "generation_us": -0.05414253865643026,
+        "steady_us": -0.056826639155753256,
+        "graph_ns": -0.4300795287923478
+      },
+      "full_time_change_percent": -5.270292957356236
+    },
+    {
+      "block": 5,
+      "matched": false,
+      "means": {
+        "cpu": {
+          "inactive": 0.7282977448040826,
+          "active": 0.8449722637816789
+        },
+        "builds": {
+          "inactive": 4.7207207207207205,
+          "active": 6.675
+        },
+        "runnable": {
+          "inactive": 15.721067221067221,
+          "active": 20.176190476190477
+        },
+        "clock_mhz": {
+          "inactive": 1736.5814564564566,
+          "active": 1735.628205128205
+        },
+        "power_w": {
+          "inactive": 119.24462924462924,
+          "active": 112.67261904761905
+        }
+      },
+      "effects": {
+        "generation_us": 0.08145002107859156,
+        "steady_us": 0.06303780416418725,
+        "graph_ns": -0.18393251180340897
+      },
+      "full_time_change_percent": 8.485899614653885
+    }
+  ],
+  "all6_full_generation": {
+    "blocks": 6,
+    "time_change_percent": 0.40019020334612093,
+    "descriptive_t95_percent": [
+      -5.914438460310223,
+      7.138630284050226
+    ],
+    "upper_bound_negative": false
+  },
+  "matched_full_generation": {
+    "blocks": 2,
+    "qualified": false,
+    "reason": "Fewer than4matched blocks"
+  },
+  "all6_steady_secondary": {
+    "blocks": 6,
+    "time_change_percent": 0.11752471923262776,
+    "descriptive_t95_percent": [
+      -6.052618869555702,
+      6.692902295899823
+    ],
+    "upper_bound_negative": false
+  },
+  "matched_steady_secondary": {
+    "blocks": 2,
+    "qualified": false,
+    "reason": "Fewer than4matched blocks"
+  },
+  "all_26_generations_native_tokens_and_counters_exact": true,
+  "new_driver_errors": [],
+  "scope": "Separatefixed24resident128requested-token diagnostic,inactiveandactivewarmups. SamegraphCPUinstrumentedprivatehostinactive/active,weights/contextsresident;explicitencoding/warmboundary/endGPUcompletion synchronization. PrimarygraphthreadCPU,secondaryfullgenerationtime,negativefaster. MatchedbyCPU/build/runqueue/validtelemetryonly,clocks/poweroutcomes. Notdirectpreservedfrozencomparison,notindependentprimaryconfirmation,nopoolingorextensionoffailedfreshdataset. allarmsretained. Fewblocks/timecorrelation/stateordereffectslimitinference."
+}

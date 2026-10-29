@@ -1,0 +1,25 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${CLAUDE_WORKSPACE}/prodtree/common",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/native-fusion-plan/sync-runner.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama-common",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/native-fusion-plan/sync-bin/model-bench",
+    "-ldl"
+  ],
+  "source_sha256": "268c2fd136537413a45a7889683dc9778a7a894b37f69f3d1b66759895c5350a",
+  "binary_sha256": "13ec62662c34d963bcd9390b2151664ed23b4e9fa3adec6706e406247b49b3aa",
+  "scope": "Sameproductionrunnergenerationlogic,explicitencoding/warmboundary/generationendtarget+draftGPUcompletion. SharedbybothA/Bmodes;notdirectlypoolablewitholdunsynchronizedtiming."
+}

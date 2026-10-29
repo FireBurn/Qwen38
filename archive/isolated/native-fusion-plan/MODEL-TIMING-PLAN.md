@@ -1,0 +1,9 @@
+# Fixed direct full-model A/B before inspection
+
+Gateall5mode2oracle/mode1actual targetaudits530uniquerows,tokens/counters,actualcachedusedrecords>1000percase,nooracle/key/recordmismatches,newGPUerrorszero. No host/shadereditsafterqualification. PrimarypreservedfrozenQ3/cap400 backend4e1381cd... versusreuse-host(mode1)/cap400,samefrozenpad/repackshaders,production.27/.7core/common,privatecopy2driver,immutablemodel,MTPmax/min1/pmin0,4k/q8KV/allCPUthreads1,512requestedtokens.
+
+Bothmodesusenewsharedsync-runner,whichonlyaddsexplicittarget/draftsynchronizationatencodingend,warm/steadyboundaryandgenerationend. Greedytokens/countersmustmatchexisting513reference. Timednoaudits/profile/logitcapture. Finalonceperbackendstatsverifyactualusedrecords>10000 andzeromismatches. Cachemissesrunoriginalplanner. Sharednewtimingharnessmakesincrementalcontrastvalid,butdo notpoolabsoluteTPSwitholderrunnerhistory.
+
+Fixed24freshprocesses,sixalternatingABBA/BAABblocks. Noquietgate;backgroundcompilesallowed. MatchsteadyexternalCPUmeans<=5pp,buildmeanspread<=2,runqueuemeanspread<=max(4,15%mean);requiredtelemetryvalid/stablemappedlibcinode/pinnedmappings,exactall513tokens/279drafts/234accepts,zeronewGPUerrors. NaturalGPUclocks/poweroutcomes,notmatchinggates. Primary steadyTPS afterfirst17tokens;reportfullgeneration/cold/encoding/processcosts also. >=4matchedblocks;retainall6rawandmatched,pairedlog95%t df3/4/5. Nooutcome-drivenextensionsorparameterchanges.
+
+Positive matchedprimary95%lowerbound supportsdiscoveryonly. Independentfixed24same-controlreplication requiredbeforeadoption;declaredinMODEL-CONFIRMATION-PLANbeforefirsttiming. Failure=>keepfrozen/noresampling/conditionalconfirmationnotrun. Notfastermega/FA,equalclock,orGPUshader-speedclaim. CandidateonlyskipsCPUfusionselection,normalnativecommands/lifetimes retained.

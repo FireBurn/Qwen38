@@ -1,0 +1,16 @@
+from pathlib import Path
+p=Path(__file__).resolve().parent;b=p.parent
+s=(b/'run_q3_pair_glu_model_timing.py').read_text().replace("project=base/'q3-pair-glu'","project=base/'native-fusion-plan'")
+s=s.replace("project/('host-'+name)","project/('reuse-'+name)").replace("project/'host/","project/'reuse-host/").replace("project/'host'","project/'reuse-host'").replace("project/'host-build.json'","project/'reuse-build.json'").replace("project/'shader-build.json'","project/'reuse-build.json'")
+s=s.replace("['host-model32','host-prompts128','host-populated-kv64','host-boundary128']","['reuse-model32','reuse-prompts128','reuse-populated-kv64','reuse-boundary128']").replace("v.get('pair_mode')==1","v.get('reuse_mode')==1").replace("v['pair_calls']>100","v['cached_decisions']>1000")
+s=s.replace("project/'pair_subgroup_no_shmem.spv',","project/'sync-build.json',project/'sync-runner.cpp',project/'sync-bin/model-bench',").replace("trial['GGML_VK_PAIR_GLU_SHADER']=str(project/'pair_subgroup_no_shmem.spv')","trial['GGML_VK_FUSION_PLAN_REUSE']='1'")
+s=s.replace("str(base/'mtp-production-throughput/model-bench')","str(project/'sync-bin/model-bench')")
+s=s.replace("(out/'assets.json').write_text", "assert hashlib.sha256((project/'sync-bin/model-bench').read_bytes()).hexdigest()==json.loads((project/'sync-build.json').read_text())['binary_sha256']\n(out/'assets.json').write_text",1)
+needle=' encode_match=re.search';s=s.replace(needle," finals=[{k:int(v)for k,v in re.findall(r'(\\w+)=(\\d+)',line)}for line in re.findall(r'^NATIVE_FUSION_REUSE_FINAL (.+)$',text,re.M)]\n if mode=='fused':assert sum(v['used']for v in finals)>10000 and not any(v['mismatches']for v in finals) and not re.search(r'NATIVE_FUSION_[A-Z_]*MISMATCH',text)\n else:assert not finals\n"+needle)
+s=s.replace('row=dict(index=index,','row=dict(reuse_final=finals,index=index,')
+s=s.replace('privatepairhost','privateCPUplanhost').replace('boundedpairGLU','CPUfusionplanreuse').replace('oneadditionalpairshader','noadditionalshaders').replace('additionalpairshader','CPUplanningonly;synchronizedtimingharnessbothmodes').replace('privatehost/boundedpairGLU','privateCPUplanreuse')
+s=s.replace('fused','reuse').replace('Fixed24fresh512token confirmation','Fixed24fresh512token discovery').replace('Q3_PAIR_GLU_MODEL_DISCOVERY','NATIVE_FUSION_PLAN_MODEL_DISCOVERY')
+s=s.replace('PreservedfrozenQ3/cap400 versusprivateCPUfusionplanreusehost/cap400,samepaddedweightcache/nativeactivationpolicy;CPUplanningonly;synchronizedtimingharnessbothmodes.', 'PreservedfrozenQ3/cap400 versusprivateCPUplanreusehost/cap400,sameshaders/activationpolicy,synchronizedtimingbothmodes.')
+s=s.replace("vram_bytes=int((pci/'mem_info_vram_used').read_text()),","vram_bytes=int((pci/'mem_info_vram_used').read_text()),process_rss_bytes=int((Path('/proc')/str(child.pid)/'statm').read_text().split()[1])*os.sysconf('SC_PAGE_SIZE')if child is not None else None,")
+(b/'run_native_fusion_reuse_timing.py').write_text(s)
+f=b/'run_private_guarded_batch.py';f.write_text(f.read_text().replace('allowed={',"allowed={'run_native_fusion_reuse_timing.py',",1))

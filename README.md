@@ -7,6 +7,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 
 ## Start here
 
+- [Native fusion-plan cache](docs/NATIVE-FUSION-PLAN.md): exact cached CPU decisions and mutation tests; fixed under-load A/B establishes no incremental gain.
 - [Results and conclusions](docs/RESULTS.md): measured gains, losses and inconclusive results.
 - [36-run under-load A/B test](docs/UNDER-LOAD-AB.md): independent confirmation finds no measurable gain.
 - [Bounded Q3 gate/up/SwiGLU fusion](docs/Q3-PAIR-GLU.md): exact fused operator with lower focused GPU time; full-model under-load A/B remains unqualified.

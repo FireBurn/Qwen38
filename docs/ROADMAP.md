@@ -53,3 +53,7 @@ Prefer small shader variants selected by captured shape/quantization and justifi
 ## Research worth following
 
 Tile-dependency scheduling from Cohere/Mirage, recurrent-operation fusion from Flash Linear Attention, composable attention states from FlashInfer, RDNA-oriented FA layouts, and LLVM/ACO scheduling work are useful design references. They are not drop-in R9700 speedups. See [references](REFERENCES.md) and the historical [research notebook](../archive/research.md).
+
+## Native fusion-plan cache follow-up
+
+[CPU planning reuse](NATIVE-FUSION-PLAN.md) passes five exact target-logit cases (530 rows), 1,379 CPU invalidation checks and real GPU metadata mutations. The fixed 24-run under-load model test establishes no incremental gain: descriptive −6.77% [−17.69%, +5.61%], only one of six external-load-matched blocks. Keep the preserved qualified configuration. The separate fixed resident diagnostic finds graph CPU time −23.05% [−30.89%,−14.32%] descriptively, but full generation time +0.40% [−5.91%,+7.14%], only two matched blocks. CPU savings have not established faster generation.

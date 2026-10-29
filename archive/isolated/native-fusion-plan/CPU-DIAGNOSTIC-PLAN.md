@@ -1,0 +1,7 @@
+# Separate resident CPU diagnostic
+
+Fixed 24 measured generations, 128 requested tokens each, six alternating ABBA/BAAB blocks; two excluded warmups (inactive then active). Both modes use the same private instrumented reuse library, preserved padded shader path, cap400, resident weights and contexts. Explicit synchronization at encoding end, warm boundary and generation end. No extension, pooling with fresh24, or conditional confirmation of that failed experiment.
+
+Primary diagnostic: total graph-compute thread CPU nanoseconds per generation (two thread CPU clock reads per graph, no per-node instrumentation). Separate existing fast-validator and canonical-key CPU counters. Full generation wall time secondary. CPU measurements describe host work, not GPU completion or automatically removable latency. Exact tokens/counters against prior native prefix required; no new GPU faults; stable mapped runtime libc required.
+
+Retain all six blocks. Report external-load matched subset separately: CPU busy difference <=5 percentage points, build-count difference <=2, runnable difference <=max(4,15% block mean), valid active telemetry >=8 samples/arm. At least four matched blocks required for subset interval. Natural clocks and power are outcomes, not matching conditions. Same fixed block geometric ratios and t95 intervals as prior resident diagnostic. No adoption based on instrumented results alone.
