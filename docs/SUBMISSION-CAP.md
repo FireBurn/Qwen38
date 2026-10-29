@@ -33,3 +33,38 @@ Five blocks fail the between-mode clock criterion; the remaining block fails wit
 A scheduling change can affect GPU utilization and natural DVFS as part of its total configuration effect. Conditioning on equal clocks may therefore answer a different question from practical throughput at unchanged system settings. This is a **new hypothesis after observing this result**, not a reason to retroactively relax the original gates. A separate fixed comparison must predeclare external-load matching, leave clocks/power settings untouched, report clocks as outcomes, and include unmodified stock before claiming that whole-configuration improvement. Keep the existing frozen configuration as the qualified baseline meanwhile.
 
 Evidence: [profile comparison](../archive/isolated/q3-pad112/submission-count-profile.json), [predeclared plan](../archive/isolated/q3-pad112/submission-cap-plan.json), [confirmation](../archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/confirmation-analysis.json), [exclusion details](../archive/isolated/q3-pad112/submission-cap-confirm512/20261029T075159Z/exclusion-details.json).
+
+
+## Separate whole-configuration confirmation
+
+The adaptive follow-up was predeclared and published before collecting its new data. It fixes 36 fresh 512-token processes in six symmetric rotated ABC-CBA blocks: unmodified stock/cap100, frozen Q3/cap100 and frozen Q3/cap400. It matches **external** CPU/build/runqueue load, requires stable mapped libc and correct binaries, and treats natural clocks/power/temperature as **outcomes**. No clock, power-limit, affinity, desktop or system-library setting was changed. It estimates the total configuration effect under natural DVFS, not equal-clock shader efficiency. The original rejected clock-matched comparison remains rejected.
+
+All six blocks pass the new external-load rules, with no exclusions. All 36 arms produce identical **513 tokens, 279 drafts and 234 accepts**, valid mandatory telemetry, and zero new driver errors. The steady decoding results are:
+
+| Configuration | Mean steady tokens/s | Mean sampled active power |
+|---|---:|---:|
+| Unmodified stock, node cap100 | 39.2955 | 135.0 W |
+| Frozen Q3, node cap100 | 40.5221 | 134.8 W |
+| Frozen Q3, node cap400 | 42.6185 | 151.4 W |
+
+The primary whole-configuration contrast is **+8.4302% versus stock**, descriptive 95% t interval **[+7.1698%, +9.7054%]**. The secondary incremental contrast is **+5.1451% versus frozen Q3/cap100**, interval **[+3.8100%, +6.4974%]**. These are direct contrasts in this new test, not sums of historical percentages. Full-generation throughput, including the initial warm window, also favours cap400: **+8.2571% [+7.0396%, +9.4884%]** versus stock. Full-generation and process costs are descriptive secondary outcomes.
+
+Clocks are higher and more variable with cap400. Memory-clock samples remain 1258 MHz in all three modes; mean sampled active temperatures are approximately 58.44/58.44/58.65 C. Optional sensors have zero errors in this trial. The sampled power increase is a material tradeoff; it is not an integrated energy measurement or proof of the causal mechanism. Less submission work, changed overlap and natural clock behavior have not been isolated from each other. Six paired blocks and the adaptive experiment history limit the interpretation of the descriptive intervals.
+
+### Populated-KV correctness
+
+A separate stock100/frozen100/frozen400 audit uses the same deterministic longer prefix, 4k context, prefill batch4096/ubatch512 and 64 requested output tokens. All modes match at every requested target-logit row and generate the same 65 tokens, 36 drafts and 29 accepts. The audit spans positions **2580–2644**, with **72 full-vocabulary rows** and SHA `36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5`. Padded modes exercise the cache, and no new driver errors occur. This extends correctness coverage beyond the short timing prompt; it is not a long-context speed result or proof for every context/internal draft tensor.
+
+The frozen Q3 library and shader bytes remain unchanged. A separate qualification record and guarded reproduction wrapper select cap400 after checking the confirmation and populated-KV proof hashes. The wrapper is a private single-run reproduction, not a production deployment or another A/B qualification. The original cap100 snapshot remains available. The guarded smoke completes with 34 expected output tokens and zero new driver errors.
+
+From the original `megakernel-review` workspace, a longer single-run reproduction is:
+
+```sh
+Q3_QUALIFIED_TOKENS=512 python3 -u isolated/run_private_guarded_batch.py run_q3_submit400_qualified_once.py
+```
+
+The wrapper defaults to 32 requested tokens and verifies the frozen snapshot and qualification proof hashes. The archive publishes evidence/source, while the command uses the existing local model, binaries and private driver.
+
+The remaining contribution question is **stock with cap400 alone**. This experiment has not measured that mode, so it does not show how much of the gain requires the extra 3 GiB Q3 cache under the new scheduling policy. Test that directly before concluding the padded cache is necessary or the combination is optimal. No faster mega/FA kernel is established.
+
+Follow-up evidence: [predeclared protocol](../archive/isolated/q3-pad112/submission-system-effect-plan.json), [36-arm confirmation](../archive/isolated/q3-pad112/submission-system-effect512/20261029T080536Z/confirmation-analysis.json), [clock/power and cost outcomes](../archive/isolated/q3-pad112/submission-system-effect512/20261029T080536Z/outcomes-summary.json), [populated-KV audit](../archive/isolated/q3-pad112/submission-populated-kv64/comparison.json), [scoped configuration](../archive/isolated/q3-pad112/submission-qualified-20261029.json).

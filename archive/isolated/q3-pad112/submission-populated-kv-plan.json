@@ -1,0 +1,12 @@
+{
+  "scope": "Correctness after a populated KV prefix; no timing inference",
+  "modes": [
+    "stock100",
+    "frozen100",
+    "frozen400"
+  ],
+  "prompt": "256 repetitions of The quick brown fox jumps over the lazy dog. followed by an instruction-scheduling/cache-locality explanation request. Exact text preserved in runner source.",
+  "qualification": "At least2048KVpositions populated,prove via minimum target audit position>=2048; maximum<4096. Allrequested targetlogit row bytes and alltokens/draft/accept counters equal fresh stock reference.64requested tokens,4kctx,greedyMTPmax1,q8KV. Correct mappings/privatecopy2driver,no competing inference,zero newGPUerrors. Padded modes must exercise cache.",
+  "timing": "Run serially after fixed36arm system-effect trial terminal,irrespective of throughput outcome. Diagnostic only; retain exact hashes and one compressed canonical audit,delete duplicate binary dumps after equality proof. No generalcontext/quality or hidden-draft-state claim.",
+  "prefill_batch": "n_batch4096,n_ubatch512 for all modes,so the unchanged audit runner can pass the entire prefix through one llama_process API call. Timing trial remains batch512. This is correctness coverage,not a throughput comparison."
+}

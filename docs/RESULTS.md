@@ -84,3 +84,7 @@ Two new native float-path experiments test 212-byte aligned weights and removal 
 ## Submission-size follow-up (2026-10-29)
 
 Post-guard profiling motivates testing the existing node cap100/200/400 with frozen Q3 shaders. Target-logit audits pass. A fixed24-arm confirmation is faster in all six blocks at cap400 (raw+5.64%,descriptive95%+4.00%to+7.31%), but zero blocks pass predeclared clock matching/settling. No qualified adoption or new stock gain. A separate whole-configuration hypothesis must treat natural clocks as outcomes and match external load before any such claim. [Protocol and evidence](SUBMISSION-CAP.md).
+
+## Whole-configuration confirmation and populated KV (2026-10-29)
+
+A separate predeclared36-arm adaptive follow-up matches externalCPU/build/runqueue load and reports naturalDVFS as an outcome. All6blocks pass,noexclusions. FrozenQ3/cap400 gains **+8.43% [+7.17%,+9.71%] versus stock100** and **+5.15% [+3.81%,+6.50%] versus frozenQ3/cap100**. Mean steady39.30/40.52/42.62tokens/s. All36outputs/counters exact,no newGPUerrors. Mean sampled activepower rises135→151W; no clock/power settings changed. Originalclock-matchedfailure remains rejected. A fresh stock/frozen100/frozen400audit matches all72requestedtargetrows at positions2580–2644. Stock400alone is untested and is the next contribution check before assuming3GiBextraQ3cache necessary. [Full protocol,evidence and limits](SUBMISSION-CAP.md).

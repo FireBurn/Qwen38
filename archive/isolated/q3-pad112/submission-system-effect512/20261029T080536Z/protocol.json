@@ -1,0 +1,14 @@
+{
+ "status":"Predeclared next experiment; no new data yet",
+ "hypothesis":"The cap400 raw throughput advantage may be a total scheduling-configuration effect including natural GPU DVFS. Prior24arm clock-matched protocol failed0/6blocks and remains rejected. This is a separate adaptive follow-up,not retroactive qualification.",
+ "modes":["stock100","frozen100","frozen400"],
+ "implementation":"Identical pinned stock/core/driver,or unchanged frozen Q3 snapshot. Only Q3weight/cache+host and existing submission cap differ as specified. No clocks,power limits,affinity,desktop or system libraries changed.",
+ "samples":"Fixed36fresh512token processes,six symmetric6arm blocks,rotateABC thenCBA. All36run,no extension based on speed.",
+ "primary":"frozen400 vs unmodifiedstock100 whole-configuration steady token throughput",
+ "secondary":"frozen400 vs frozen100 incremental whole-configuration throughput",
+ "external_matching":"CPUmode mean spread<=5pp,countedbuildmeans spread<=2,runnable spread<=max(4,15%overallmean). No competing GPU inference,stable mappedlibc inode,correct pinned mappings,alltokens/counters match,no newGPUerrors,valid mandatory telemetry. >=4matchedblocks required. These rules fixed before new data.",
+ "DVFS":"Clock median/percentiles/settling,optional memory clocks,power,temperature reported as outcomes,not matching gates. No normalization or extrapolation to equal-clock shader speed. This estimates total setting behavior under existing natural DVFS,not pure kernel/code efficiency. Background desktop remains unchanged; no controlled power/clock attribution claim.",
+ "analysis":"All6andexternalmatched estimates retained,blockpaired logTPSeffects,df3/4/5 descriptive95%t. Must label adaptive follow-up and limitedsample/timecorrelation. Report full encode,cold,totalgeneration/process costs separately. No adding historical percentages.",
+ "qualification":"Existing100/200/40032token targetbits and selected400coding/math128audit pass. No arbitrary longercontext claim. Additional populated-KV and prompts validation remains necessary for broader adoption.",
+ "load":"CPU/build load authorized,noquietgate. Serial private guarded GPU scheduler. Preserve Claude,production,model and frozen binaries. Keep prior baseline until new fixed trial qualifies."
+}

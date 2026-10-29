@@ -2,13 +2,14 @@
 
 Research notes and evidence from attempts to accelerate Qwen3.8 inference on an **AMD Radeon AI Pro R9700**, principally llama.cpp's Vulkan backend and a persistent mega kernel containing matrix operations, recurrent operations and Flash Attention.
 
-**A native-path Q3 optimization measures +3.4% versus stock in a matched24-run test. [Evidence and limits](docs/Q3-HOST-COST.md). No faster-than-native mega kernel has been established.** The result uses the native backend with padded Q3 weights and lower host overhead. The persistent mega-kernel work remains a separate, unproven performance result.
+**A scoped native-backend configuration measures +8.43% versus stock in a fixed 36-run comparison under matched external load. [Evidence and limits](docs/SUBMISSION-CAP.md). No faster-than-native mega kernel has been established.** The result combines padded Q3 weights/lower host overhead with a larger existing submission cap. Natural GPU clocks and sampled power rise; this is a whole-configuration result, not equal-clock shader efficiency or general deployment qualification. The earlier clock-matched Q3 result remains documented separately.
+
 
 ## Start here
 
 - [Results and conclusions](docs/RESULTS.md): measured gains, losses and inconclusive results.
 - [36-run under-load A/B test](docs/UNDER-LOAD-AB.md): independent confirmation finds no measurable gain.
-- [Submission-size profiling and follow-up](docs/SUBMISSION-CAP.md): fewer submissions and a promising raw result; original clock-matching confirmation fails.
+- [Submission-size profiling and follow-up](docs/SUBMISSION-CAP.md): +8.43% scoped whole-configuration gain; original clock-matched failure retained, natural clocks/power reported.
 - [Native Q6 alignment and scale exchange](docs/Q6-NATIVE.md): exact operators and smaller shaders, but no qualified streamed gain.
 - [Combined smaller-fusion follow-up](docs/FUSION-COMBINATION.md): graph-cached options, correctness checks and independent matched-load confirmation.
 - [Q3 host-overhead profiling](docs/Q3-HOST-COST.md): confirmed scoped+3.4% native-path gain after reducing configuration-lookup overhead.

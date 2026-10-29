@@ -1,0 +1,32 @@
+{
+  "scope": "Scoped whole-configuration candidate under natural DVFS; unchanged qualified Q3 library,existing nodecap400. Not equal-clock shader or mega gain. Original cap100clock-matched rejection remains retained.",
+  "node_cap": 400,
+  "snapshot": "qualified-20261029",
+  "library_sha256": "4e1381cd1f5d3e047431d3cc5fbded37e72c840a1388559d0dcade1c531d03a3",
+  "primary_stock": {
+    "blocks": 6,
+    "geometric_speed_change_percent": 8.430192532991091,
+    "descriptive_t95_percent": [
+      7.169818615140298,
+      9.70538911671298
+    ],
+    "lower_bound_positive": true
+  },
+  "secondary_incremental": {
+    "blocks": 6,
+    "geometric_speed_change_percent": 5.145129152991573,
+    "descriptive_t95_percent": [
+      3.8099900940465594,
+      6.497439934090742
+    ],
+    "lower_bound_positive": true
+  },
+  "proof_files": {
+    "submission-system-effect512/20261029T080536Z/confirmation-analysis.json": "0fd5f4e37586d38532b7f1fdb8c786cfa8ddda3d42973b93fbdd1ffdf05c2aac",
+    "submission-populated-kv64/comparison.json": "683cdc8bb37390bc7cc4aef65bf0202dae3695f88f4e2b7b63935ea6fb9bf238",
+    "submission-system-effect512/20261029T080536Z/outcomes-summary.json": "9d75ef70bf0b8de77c33ab82263076457843e575c095ebc5c70ce638c0aa8eba",
+    "submission-system-effect-plan.json": "27d4a5df0fe67e9e522502fdb5ff4b5fe2725c5f8f0c9e62883c554d40dd24b3"
+  },
+  "model": "Fresh stock100/frozen100/frozen400 reference comparisons after >=2048 populated KV positions,4kctx,64requestedtokens. Allrequested targetlogits/tokens/counters;not every internal drafttensor,allcontexts or performance qualification.",
+  "proof_minimum_target_position": 2580
+}

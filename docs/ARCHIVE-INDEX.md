@@ -280,3 +280,7 @@ See [experiment and interpretation](FUSION-COMBINATION.md). The manifest include
 ## Submission sizing after host profiling
 
 [Interpretation and failed original clock qualification](SUBMISSION-CAP.md). Evidence under `archive/isolated/q3-pad112/host-profile-v2*`, `submission-cap-*` and `submission-count-profile.json` includes matching target-logit audits, a fixed6-arm screen and24-arm confirmation. Raw positive timing is not a qualified clock-matched gain.
+
+## Whole-configuration follow-up
+
+[Interpretation](SUBMISSION-CAP.md). `submission-system-effect512/20261029T080536Z` retains36fresh runs, all6external-load-matched blocks, clock/power outcomes and complete runtime/telemetry provenance. `submission-populated-kv64` covers72targetrows at positions2580–2644. `submission-qualified-20261029.json` records the scoped configuration without modifying frozen binaries. The earlier zero-clock-matched-block result is retained separately.
