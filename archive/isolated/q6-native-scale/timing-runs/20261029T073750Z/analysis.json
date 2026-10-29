@@ -1,0 +1,2834 @@
+{
+  "scope": "Fixed144arm synthetic GPU timestamp experiment. Mode0 native,1 shuffle,2 direct. Positive speed changes mean faster. All3 blocks reported regardless of telemetry, df2 descriptive intervals; no model speed or additional throughput gain established.",
+  "arms": [
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 0,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 82.770429687,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 1859.5,
+      "cpu_busy": 0.5366021046210157
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 1,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 78.322539062,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2057.0,
+      "cpu_busy": 0.5443037974683544
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 2,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 75.866835937,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2243.5,
+      "cpu_busy": 0.6277006172839507
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 3,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 74.123828125,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2431.0,
+      "cpu_busy": 0.575
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 4,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 70.186445312,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2632.0,
+      "cpu_busy": 0.5559462416002501
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 5,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 81.637695312,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2822.0,
+      "cpu_busy": 0.5487804878048781
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 0,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 76.804882812,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2914.5,
+      "cpu_busy": 0.5844947735191637
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 1,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 74.595351562,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2748.0,
+      "cpu_busy": 0.5975609756097561
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 2,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 81.750664062,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2720.5,
+      "cpu_busy": 0.5590277777777778
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 3,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 77.467929688,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2772.5,
+      "cpu_busy": 0.5998493975903614
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 4,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 81.96390625,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2796.0,
+      "cpu_busy": 0.5802469135802469
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 5,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 72.903945312,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2745.5,
+      "cpu_busy": 0.5802958670123533
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 0,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 73.819765625,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2736.0,
+      "cpu_busy": 0.5443037974683544
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 1,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 81.81359375,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2850.0,
+      "cpu_busy": 0.5802469135802469
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 2,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 76.889453125,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2817.0,
+      "cpu_busy": 0.5901234567901235
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 3,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 72.94875,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2820.0,
+      "cpu_busy": 0.5609756097560976
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 4,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 81.846210938,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2797.0,
+      "cpu_busy": 0.5719373219373219
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 5,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 82.063632813,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2773.5,
+      "cpu_busy": 0.6027006172839506
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 0,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 119.179257812,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 1719.0,
+      "cpu_busy": 0.5814189717143304
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 1,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 120.925078125,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 1670.6666666666667,
+      "cpu_busy": 0.5922475659941785
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 2,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 119.727070313,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 1713.5,
+      "cpu_busy": 0.5404445816610065
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 3,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 119.575273438,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 1775.0,
+      "cpu_busy": 0.5643004115226338
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 4,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 119.33265625,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2100.0,
+      "cpu_busy": 0.5917682926829269
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 5,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 117.8096875,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2336.5,
+      "cpu_busy": 0.5814189717143304
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 0,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 118.124179688,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2716.0,
+      "cpu_busy": 0.5880436379665002
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 1,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 117.5965625,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3073.0,
+      "cpu_busy": 0.549718574108818
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 2,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 117.152851563,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 3176.6666666666665,
+      "cpu_busy": 0.5574186991869918
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 3,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 117.161171875,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3143.0,
+      "cpu_busy": 0.5864197530864198
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 4,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 117.634609375,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3114.5,
+      "cpu_busy": 0.5934648219016779
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 5,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 117.677773437,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 3142.3333333333335,
+      "cpu_busy": 0.5892489711934157
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 0,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 117.613125,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3098.0,
+      "cpu_busy": 0.5566778900112234
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 1,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 117.165234375,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 3100.0,
+      "cpu_busy": 0.541983773506277
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 2,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 117.675351562,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3162.5,
+      "cpu_busy": 0.5672256097560975
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 3,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 117.660585938,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3185.5,
+      "cpu_busy": 0.6
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 4,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 117.149101562,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3127.5,
+      "cpu_busy": 0.5652006172839507
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 5,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 117.636679688,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3104.0,
+      "cpu_busy": 0.55625
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 0,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 72.590546875,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2894.0,
+      "cpu_busy": 0.6375
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 1,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 68.4590625,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2965.0,
+      "cpu_busy": 0.5625
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 2,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 77.802148437,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2806.0,
+      "cpu_busy": 0.5733567180112856
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 3,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 77.47234375,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2722.0,
+      "cpu_busy": 0.5652777777777778
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 4,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 66.706601562,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2689.0,
+      "cpu_busy": 0.5769230769230769
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 0,
+      "arm": 5,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 74.316757813,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2691.0,
+      "cpu_busy": 0.5609756097560976
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 0,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 70.18421875,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2711.5,
+      "cpu_busy": 0.565354938271605
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 1,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 78.76375,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2714.0,
+      "cpu_busy": 0.5375
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 2,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 74.62765625,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2741.0,
+      "cpu_busy": 0.5834876543209877
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 3,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 71.887773438,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2730.0,
+      "cpu_busy": 0.6375
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 4,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 82.129492188,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2723.5,
+      "cpu_busy": 0.5555894463931677
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 1,
+      "arm": 5,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 68.18375,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2714.5,
+      "cpu_busy": 0.5701807228915663
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 0,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 78.478554687,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2788.0,
+      "cpu_busy": 0.55
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 1,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 74.865898437,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2741.5,
+      "cpu_busy": 0.5747773089545242
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 2,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 70.67625,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2719.0,
+      "cpu_busy": 0.5432098765432098
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 3,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 68.552265625,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2689.5,
+      "cpu_busy": 0.5859756097560975
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 4,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 75.019296875,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2742.0,
+      "cpu_busy": 0.6707317073170731
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "block": 2,
+      "arm": 5,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 82.596132813,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2760.0,
+      "cpu_busy": 0.6076482987052093
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 0,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 122.79296875,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 1716.0,
+      "cpu_busy": 0.5555555555555556
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 1,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 121.29078125,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 1701.0,
+      "cpu_busy": 0.628968253968254
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 2,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 127.623476563,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 1715.0,
+      "cpu_busy": 0.5772679324894515
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 3,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 125.464648438,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 1897.5,
+      "cpu_busy": 0.5564150648538834
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 4,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 119.5315625,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2201.0,
+      "cpu_busy": 0.5645889792231256
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 0,
+      "arm": 5,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 119.046289062,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2596.3333333333335,
+      "cpu_busy": 0.5749003750586029
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 0,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 118.479609375,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2993.5,
+      "cpu_busy": 0.6098214285714286
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 1,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 121.281796875,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 3201.0,
+      "cpu_busy": 0.5834987237589206
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 2,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 118.4090625,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3163.5,
+      "cpu_busy": 0.5568910256410257
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 3,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 118.46984375,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 3128.6666666666665,
+      "cpu_busy": 0.5619926639960259
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 4,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 121.446914062,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3117.5,
+      "cpu_busy": 0.5990853658536586
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 1,
+      "arm": 5,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 118.389960938,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3146.0,
+      "cpu_busy": 0.6051606621226875
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 0,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 121.426054687,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 3125.6666666666665,
+      "cpu_busy": 0.5723811012137313
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 1,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 118.446171875,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3141.0,
+      "cpu_busy": 0.5471518987341772
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 2,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 118.395195312,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 3156.0,
+      "cpu_busy": 0.5532520325203252
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 3,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 118.388984375,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3167.5,
+      "cpu_busy": 0.6049382716049383
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 4,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 118.466796875,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3145.5,
+      "cpu_busy": 0.5976190476190476
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "block": 2,
+      "arm": 5,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 121.487265625,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 3112.3333333333335,
+      "cpu_busy": 0.564873417721519
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 0,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 92.456835938,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2688.0,
+      "cpu_busy": 0.6488970588235294
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 1,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 91.288632812,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2919.0,
+      "cpu_busy": 0.5864197530864198
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 2,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 89.389414062,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2628.0,
+      "cpu_busy": 0.5528712565606669
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 3,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 88.35625,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2665.0,
+      "cpu_busy": 0.55
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 4,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 86.847109375,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2619.5,
+      "cpu_busy": 0.5777006172839507
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 5,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 92.1690625,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2709.5,
+      "cpu_busy": 0.5756172839506173
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 0,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 91.928789063,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2718.0,
+      "cpu_busy": 0.5887048192771084
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 1,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 89.729960937,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2637.0,
+      "cpu_busy": 0.5852056962025316
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 2,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 92.5265625,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2676.0,
+      "cpu_busy": 0.56875
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 3,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 89.2921875,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2681.5,
+      "cpu_busy": 0.5408227848101266
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 4,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 93.758476562,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2664.5,
+      "cpu_busy": 0.5628517823639775
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 5,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 88.809765625,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2711.0,
+      "cpu_busy": 0.5308641975308642
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 0,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 88.6596875,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2632.0,
+      "cpu_busy": 0.5579066265060241
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 1,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 92.415507812,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2654.5,
+      "cpu_busy": 0.6321890996687745
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 2,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 91.925507813,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2722.5,
+      "cpu_busy": 0.6
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 3,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 88.5378125,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2694.5,
+      "cpu_busy": 0.5527777777777778
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 4,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 92.549023437,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2692.5,
+      "cpu_busy": 0.5561025160181279
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 5,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 93.440234375,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2658.0,
+      "cpu_busy": 0.6085755813953488
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 0,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 122.114453125,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 1711.6666666666667,
+      "cpu_busy": 0.5994038702693637
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 1,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 121.953554688,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 1701.0,
+      "cpu_busy": 0.5436210131332082
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 2,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 122.71546875,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 1712.0,
+      "cpu_busy": 0.5642109190079243
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 3,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 122.094179688,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 1762.5,
+      "cpu_busy": 0.5562587904360057
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 4,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 120.633320313,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2063.6666666666665,
+      "cpu_busy": 0.61323396567299
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 5,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 119.69078125,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2420.0,
+      "cpu_busy": 0.5960766141489033
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 0,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 119.151953125,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2781.3333333333335,
+      "cpu_busy": 0.5435185185185185
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 1,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 119.267226562,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 3002.5,
+      "cpu_busy": 0.5775462962962963
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 2,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 119.010039062,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2930.5,
+      "cpu_busy": 0.537037037037037
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 3,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 118.95484375,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2935.3333333333335,
+      "cpu_busy": 0.6092725331706573
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 4,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 119.426914063,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2921.5,
+      "cpu_busy": 0.6014001806684734
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 5,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 118.910585938,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2925.3333333333335,
+      "cpu_busy": 0.5476851851851852
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 0,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 119.444492188,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2913.5,
+      "cpu_busy": 0.575
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 1,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 118.9553125,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2917.3333333333335,
+      "cpu_busy": 0.5580284552845528
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 2,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 118.940507813,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2968.5,
+      "cpu_busy": 0.6419753086419754
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 3,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 118.921015625,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2963.0,
+      "cpu_busy": 0.6150462962962963
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 4,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 118.990390625,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2948.6666666666665,
+      "cpu_busy": 0.5724063650892919
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 5,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 119.38953125,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2906.0,
+      "cpu_busy": 0.5740740740740741
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 0,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 81.336679687,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2558.0,
+      "cpu_busy": 0.6363636363636364
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 1,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 78.582851562,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2804.0,
+      "cpu_busy": 0.5949367088607596
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 2,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 81.646992188,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2567.0,
+      "cpu_busy": 0.5590277777777778
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 3,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 81.289023438,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2503.0,
+      "cpu_busy": 0.55
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 4,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 78.481953125,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2512.0,
+      "cpu_busy": 0.576633544113219
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 0,
+      "arm": 5,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 82.829921875,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2554.0,
+      "cpu_busy": 0.55625
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 0,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 80.916328125,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2578.0,
+      "cpu_busy": 0.5679012345679013
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 1,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 81.893203125,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2530.5,
+      "cpu_busy": 0.6582561728395062
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 2,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 83.182539062,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2537.0,
+      "cpu_busy": 0.6060828680575963
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 3,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 81.241289063,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2602.0,
+      "cpu_busy": 0.55
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 4,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 84.261523438,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2538.0,
+      "cpu_busy": 0.5678353658536586
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 1,
+      "arm": 5,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 79.967070312,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2527.5,
+      "cpu_busy": 0.5837191358024691
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 0,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 81.958710938,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2539.0,
+      "cpu_busy": 0.5375
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 1,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 83.297773437,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2537.0,
+      "cpu_busy": 0.5460704607046071
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 2,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 81.269101562,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2557.5,
+      "cpu_busy": 0.646141975308642
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 3,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 79.763203125,
+      "samples": 1,
+      "sensor_errors": [],
+      "clock_mhz": 2584.0,
+      "cpu_busy": 0.5555555555555556
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 4,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 83.182148438,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2590.0,
+      "cpu_busy": 0.585232668566002
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "block": 2,
+      "arm": 5,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 84.699179688,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2533.0,
+      "cpu_busy": 0.5539772727272727
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 0,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 121.672304688,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 1703.3333333333333,
+      "cpu_busy": 0.5477880658436214
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 1,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 121.672539062,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 1714.0,
+      "cpu_busy": 0.6622093023255814
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 2,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 122.220078125,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 1712.6666666666667,
+      "cpu_busy": 0.5782217477504956
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 3,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 121.037617188,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 1803.5,
+      "cpu_busy": 0.5405982905982907
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 4,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 119.13453125,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2190.3333333333335,
+      "cpu_busy": 0.5595883534136546
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 0,
+      "arm": 5,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 118.284960938,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2555.5,
+      "cpu_busy": 0.5375
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 0,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 117.889335937,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2865.5,
+      "cpu_busy": 0.6525387263339071
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 1,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 118.145117188,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2928.0,
+      "cpu_busy": 0.575534188034188
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 2,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 117.934101563,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2899.5,
+      "cpu_busy": 0.5432098765432098
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 3,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 117.922851562,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2895.0,
+      "cpu_busy": 0.5487933214338837
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 4,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 118.10859375,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2879.5,
+      "cpu_busy": 0.5409018987341772
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 1,
+      "arm": 5,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 117.939453125,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2899.5,
+      "cpu_busy": 0.6506024096385542
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 0,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 118.164648438,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2860.6666666666665,
+      "cpu_busy": 0.5857165182059697
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 1,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 117.92765625,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2901.0,
+      "cpu_busy": 0.563301282051282
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 2,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 117.94734375,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2906.0,
+      "cpu_busy": 0.5452309236947791
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 3,
+      "mode": 1,
+      "dispatches": 1024,
+      "us": 117.948867187,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2913.5,
+      "cpu_busy": 0.575
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 4,
+      "mode": 0,
+      "dispatches": 1024,
+      "us": 117.917226563,
+      "samples": 2,
+      "sensor_errors": [],
+      "clock_mhz": 2913.5,
+      "cpu_busy": 0.6371308016877637
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "block": 2,
+      "arm": 5,
+      "mode": 2,
+      "dispatches": 1024,
+      "us": 118.135507812,
+      "samples": 3,
+      "sensor_errors": [],
+      "clock_mhz": 2855.0,
+      "cpu_busy": 0.5917317220188476
+    }
+  ],
+  "results": [
+    {
+      "cols": 1,
+      "k": 5120,
+      "replicas": 1,
+      "mean_us": {
+        "0": 81.21442057283333,
+        "1": 74.67600260383334,
+        "2": 77.072220052
+      },
+      "blocks": [
+        {
+          "block": 0,
+          "log_speed_ratios": {
+            "1": 0.10318567672015089,
+            "2": 0.09182264169530452
+          },
+          "clock_mode_means": {
+            "0": 2340.75,
+            "1": 2344.5,
+            "2": 2337.25
+          },
+          "cpu_mode_means": {
+            "0": 0.5426912962129469,
+            "1": 0.5501250195343023,
+            "2": 0.6013503086419754
+          },
+          "comparable": false
+        },
+        {
+          "block": 1,
+          "log_speed_ratios": {
+            "1": 0.06156349979769882,
+            "2": 0.0175903983098058
+          },
+          "clock_mode_means": {
+            "0": 2746.5,
+            "1": 2830.0,
+            "2": 2772.0
+          },
+          "cpu_mode_means": {
+            "0": 0.5794385876840695,
+            "1": 0.5823953202657585,
+            "2": 0.5889039445950015
+          },
+          "comparable": false
+        },
+        {
+          "block": 2,
+          "log_speed_ratios": {
+            "1": 0.08857978308591186,
+            "2": 0.050081971836087646
+          },
+          "clock_mode_means": {
+            "0": 2823.5,
+            "1": 2818.5,
+            "2": 2754.75
+          },
+          "cpu_mode_means": {
+            "0": 0.5760921177587844,
+            "1": 0.5755495332731105,
+            "2": 0.5735022073761525
+          },
+          "comparable": true
+        }
+      ],
+      "estimates": {
+        "1": {
+          "geometric_speed_change_percent": 8.811080549572477,
+          "descriptive_t95_percent": [
+            3.250196485589148,
+            14.671464591528046
+          ]
+        },
+        "2": {
+          "geometric_speed_change_percent": 5.460364452760379,
+          "descriptive_t95_percent": [
+            -3.851355073800157,
+            15.673897214524413
+          ]
+        }
+      },
+      "all_blocks_comparable": false
+    },
+    {
+      "cols": 1,
+      "k": 5120,
+      "replicas": 16,
+      "mean_us": {
+        "0": 117.6028841145,
+        "1": 118.5659375,
+        "2": 118.29722005233333
+      },
+      "blocks": [
+        {
+          "block": 0,
+          "log_speed_ratios": {
+            "1": -0.013693478040380569,
+            "2": -0.009730791052344756
+          },
+          "clock_mode_means": {
+            "0": 2027.75,
+            "1": 1885.3333333333335,
+            "2": 1744.25
+          },
+          "cpu_mode_means": {
+            "0": 0.5814189717143304,
+            "1": 0.5920079293385527,
+            "2": 0.5523724965918202
+          },
+          "comparable": false
+        },
+        {
+          "block": 1,
+          "log_speed_ratios": {
+            "1": -0.006328283467476936,
+            "2": -0.003906532064040569
+          },
+          "clock_mode_means": {
+            "0": 3159.833333333333,
+            "1": 2929.166666666667,
+            "2": 3093.75
+          },
+          "cpu_mode_means": {
+            "0": 0.5719192261367059,
+            "1": 0.5886463045799579,
+            "2": 0.571591698005248
+          },
+          "comparable": false
+        },
+        {
+          "block": 2,
+          "log_speed_ratios": {
+            "1": -0.004350485143763905,
+            "2": -0.003984415705001965
+          },
+          "clock_mode_means": {
+            "0": 3113.75,
+            "1": 3174.0,
+            "2": 3101.0
+          },
+          "cpu_mode_means": {
+            "0": 0.5535921953951138,
+            "1": 0.5836128048780487,
+            "2": 0.5564639450056117
+          },
+          "comparable": true
+        }
+      ],
+      "estimates": {
+        "1": {
+          "geometric_speed_change_percent": -0.8091171045930037,
+          "descriptive_t95_percent": [
+            -2.0149147272181827,
+            0.411518979443735
+          ]
+        },
+        "2": {
+          "geometric_speed_change_percent": -0.5856695242095306,
+          "descriptive_t95_percent": [
+            -1.4071932014403494,
+            0.24269949168407515
+          ]
+        }
+      },
+      "all_blocks_comparable": false
+    },
+    {
+      "cols": 1,
+      "k": 17408,
+      "replicas": 1,
+      "mean_us": {
+        "0": 73.88465494799999,
+        "1": 68.79369140616667,
+        "2": 79.54040364583334
+      },
+      "blocks": [
+        {
+          "block": 0,
+          "log_speed_ratios": {
+            "1": 0.08331565651786121,
+            "2": -0.05545944481211684
+          },
+          "clock_mode_means": {
+            "0": 2792.5,
+            "1": 2827.0,
+            "2": 2764.0
+          },
+          "cpu_mode_means": {
+            "0": 0.5992378048780488,
+            "1": 0.5697115384615384,
+            "2": 0.5693172478945316
+          },
+          "comparable": true
+        },
+        {
+          "block": 1,
+          "log_speed_ratios": {
+            "1": 0.05714380907632677,
+            "2": -0.09356633694999772
+          },
+          "clock_mode_means": {
+            "0": 2735.5,
+            "1": 2713.0,
+            "2": 2718.75
+          },
+          "cpu_mode_means": {
+            "0": 0.6104938271604938,
+            "1": 0.5677678305815856,
+            "2": 0.5465447231965839
+          },
+          "comparable": false
+        },
+        {
+          "block": 2,
+          "log_speed_ratios": {
+            "1": 0.07386890910815147,
+            "2": -0.07167219778153466
+          },
+          "clock_mode_means": {
+            "0": 2741.75,
+            "1": 2704.25,
+            "2": 2774.0
+          },
+          "cpu_mode_means": {
+            "0": 0.6227545081357986,
+            "1": 0.5645927431496537,
+            "2": 0.5788241493526047
+          },
+          "comparable": false
+        }
+      ],
+      "estimates": {
+        "1": {
+          "geometric_speed_change_percent": 7.405670384319094,
+          "descriptive_t95_percent": [
+            3.9270691948568963,
+            11.00070578412778
+          ]
+        },
+        "2": {
+          "geometric_speed_change_percent": -7.092516883532873,
+          "descriptive_t95_percent": [
+            -11.403018780395643,
+            -2.572296479932248
+          ]
+        }
+      },
+      "all_blocks_comparable": false
+    },
+    {
+      "cols": 1,
+      "k": 17408,
+      "replicas": 16,
+      "mean_us": {
+        "0": 119.27185546866667,
+        "1": 119.07934895833333,
+        "2": 123.12169270833334
+      },
+      "blocks": [
+        {
+          "block": 0,
+          "log_speed_ratios": {
+            "1": 0.004120443109096428,
+            "2": -0.04554810759998418
+          },
+          "clock_mode_means": {
+            "0": 2156.166666666667,
+            "1": 1951.0,
+            "2": 1806.25
+          },
+          "cpu_mode_means": {
+            "0": 0.5652279653070793,
+            "1": 0.5967786165956898,
+            "2": 0.5668414986716674
+          },
+          "comparable": false
+        },
+        {
+          "block": 1,
+          "log_speed_ratios": {
+            "1": 3.945175407871204e-05,
+            "2": -0.024395138868007038
+          },
+          "clock_mode_means": {
+            "0": 3146.083333333333,
+            "1": 3069.75,
+            "2": 3159.25
+          },
+          "cpu_mode_means": {
+            "0": 0.5594418448185258,
+            "1": 0.6074910453470581,
+            "2": 0.5912920448062896
+          },
+          "comparable": true
+        },
+        {
+          "block": 2,
+          "log_speed_ratios": {
+            "1": 0.0005437577597575682,
+            "2": -0.02501179198243264
+          },
+          "clock_mode_means": {
+            "0": 3143.25,
+            "1": 3161.75,
+            "2": 3119.0
+          },
+          "cpu_mode_means": {
+            "0": 0.5723854731766125,
+            "1": 0.5790951520626317,
+            "2": 0.5686272594676252
+          },
+          "comparable": true
+        }
+      ],
+      "estimates": {
+        "1": {
+          "geometric_speed_change_percent": 0.15691139807184698,
+          "descriptive_t95_percent": [
+            -0.39512852634025714,
+            0.7120108924993144
+          ]
+        },
+        "2": {
+          "geometric_speed_change_percent": -3.1156008447964836,
+          "descriptive_t95_percent": [
+            -5.970087995354585,
+            -0.17445938691223334
+          ]
+        }
+      },
+      "all_blocks_comparable": false
+    },
+    {
+      "cols": 2,
+      "k": 5120,
+      "replicas": 1,
+      "mean_us": {
+        "0": 91.90152994783332,
+        "1": 89.88960286466667,
+        "2": 90.55567057266667
+      },
+      "blocks": [
+        {
+          "block": 0,
+          "log_speed_ratios": {
+            "1": 0.036095469155200455,
+            "2": 0.03799361088508224
+          },
+          "clock_mode_means": {
+            "0": 2698.75,
+            "1": 2769.25,
+            "2": 2646.5
+          },
+          "cpu_mode_means": {
+            "0": 0.6122571713870734,
+            "1": 0.5820601851851852,
+            "2": 0.5514356282803334
+          },
+          "comparable": false
+        },
+        {
+          "block": 1,
+          "log_speed_ratios": {
+            "1": 0.005949450448355265,
+            "2": -0.009058519942281684
+          },
+          "clock_mode_means": {
+            "0": 2678.75,
+            "1": 2714.5,
+            "2": 2650.75
+          },
+          "cpu_mode_means": {
+            "0": 0.5547863924050633,
+            "1": 0.5597845084039863,
+            "2": 0.5740287392832546
+          },
+          "comparable": true
+        },
+        {
+          "block": 2,
+          "log_speed_ratios": {
+            "1": 0.024812506612308383,
+            "2": 0.015952976638784477
+          },
+          "clock_mode_means": {
+            "0": 2673.5,
+            "1": 2708.5,
+            "2": 2645.0
+          },
+          "cpu_mode_means": {
+            "0": 0.5941458078434512,
+            "1": 0.5763888888888888,
+            "2": 0.5832411039506864
+          },
+          "comparable": true
+        }
+      ],
+      "estimates": {
+        "1": {
+          "geometric_speed_change_percent": 2.2535992432846714,
+          "descriptive_t95_percent": [
+            -1.5429846554992868,
+            6.1965825555595915
+          ]
+        },
+        "2": {
+          "geometric_speed_change_percent": 1.5075190635515383,
+          "descriptive_t95_percent": [
+            -4.258478999049718,
+            7.620772249220993
+          ]
+        }
+      },
+      "all_blocks_comparable": false
+    },
+    {
+      "cols": 2,
+      "k": 5120,
+      "replicas": 16,
+      "mean_us": {
+        "0": 119.61930338533334,
+        "1": 119.751822917,
+        "2": 120.38963541683333
+      },
+      "blocks": [
+        {
+          "block": 0,
+          "log_speed_ratios": {
+            "1": -0.0032627337362054476,
+            "2": -0.012395392782099002
+          },
+          "clock_mode_means": {
+            "0": 2065.8333333333335,
+            "1": 1882.3333333333333,
+            "2": 1737.25
+          },
+          "cpu_mode_means": {
+            "0": 0.5977402422091336,
+            "1": 0.5784274894030992,
+            "2": 0.560234854721965
+          },
+          "comparable": false
+        },
+        {
+          "block": 1,
+          "log_speed_ratios": {
+            "1": -0.00040980967306758487,
+            "2": -0.0030596775593902947
+          },
+          "clock_mode_means": {
+            "0": 2932.916666666667,
+            "1": 2853.3333333333335,
+            "2": 2962.0
+          },
+          "cpu_mode_means": {
+            "0": 0.5731547851038472,
+            "1": 0.5456018518518518,
+            "2": 0.5894732384823849
+          },
+          "comparable": false
+        },
+        {
+          "block": 2,
+          "log_speed_ratios": {
+            "1": 0.0003538319589360128,
+            "2": -0.0037263229527759734
+          },
+          "clock_mode_means": {
+            "0": 2933.0,
+            "1": 2965.75,
+            "2": 2909.75
+          },
+          "cpu_mode_means": {
+            "0": 0.5652174101869223,
+            "1": 0.6285108024691358,
+            "2": 0.5745370370370371
+          },
+          "comparable": false
+        }
+      ],
+      "estimates": {
+        "1": {
+          "geometric_speed_change_percent": -0.11056254953620555,
+          "descriptive_t95_percent": [
+            -0.5824502408635021,
+            0.3635649675941378
+          ]
+        },
+        "2": {
+          "geometric_speed_change_percent": -0.6373400934049213,
+          "descriptive_t95_percent": [
+            -1.9146051716493622,
+            0.6565574924922415
+          ]
+        }
+      },
+      "all_blocks_comparable": false
+    },
+    {
+      "cols": 2,
+      "k": 17408,
+      "replicas": 1,
+      "mean_us": {
+        "0": 82.51172526033334,
+        "1": 79.83008463516667,
+        "2": 82.62477213583333
+      },
+      "blocks": [
+        {
+          "block": 0,
+          "log_speed_ratios": {
+            "1": 0.04418212345122541,
+            "2": 0.007485237819606638
+          },
+          "clock_mode_means": {
+            "0": 2556.0,
+            "1": 2658.0,
+            "2": 2535.0
+          },
+          "cpu_mode_means": {
+            "0": 0.5963068181818182,
+            "1": 0.5857851264869893,
+            "2": 0.554513888888889
+          },
+          "comparable": false
+        },
+        {
+          "block": 1,
+          "log_speed_ratios": {
+            "1": 0.021715249595281705,
+            "2": -0.010440135695644948
+          },
+          "clock_mode_means": {
+            "0": 2569.5,
+            "1": 2552.75,
+            "2": 2534.25
+          },
+          "cpu_mode_means": {
+            "0": 0.5780414340287982,
+            "1": 0.5758101851851852,
+            "2": 0.6130457693465824
+          },
+          "comparable": true
+        },
+        {
+          "block": 2,
+          "log_speed_ratios": {
+            "1": 0.033313204007421326,
+            "2": -0.0009334649381331772
+          },
+          "clock_mode_means": {
+            "0": 2563.5,
+            "1": 2570.75,
+            "2": 2536.0
+          },
+          "cpu_mode_means": {
+            "0": 0.5656515646353045,
+            "1": 0.6008487654320989,
+            "2": 0.5457386363636363
+          },
+          "comparable": false
+        }
+      ],
+      "estimates": {
+        "1": {
+          "geometric_speed_change_percent": 3.362308913004585,
+          "descriptive_t95_percent": [
+            0.5173226432260396,
+            6.287818088312131
+          ]
+        },
+        "2": {
+          "geometric_speed_change_percent": -0.12952813360951976,
+          "descriptive_t95_percent": [
+            -2.3298630736817634,
+            2.120376449762755
+          ]
+        }
+      },
+      "all_blocks_comparable": false
+    },
+    {
+      "cols": 2,
+      "k": 17408,
+      "replicas": 16,
+      "mean_us": {
+        "0": 118.60985026066666,
+        "1": 118.75534505183333,
+        "2": 119.3019270835
+      },
+      "blocks": [
+        {
+          "block": 0,
+          "log_speed_ratios": {
+            "1": -0.0035793295546904247,
+            "2": -0.013748340822803407
+          },
+          "clock_mode_means": {
+            "0": 2129.4166666666665,
+            "1": 1952.1666666666667,
+            "2": 1758.0833333333335
+          },
+          "cpu_mode_means": {
+            "0": 0.5426440329218107,
+            "1": 0.610898827869618,
+            "2": 0.5594100191743931
+          },
+          "comparable": false
+        },
+        {
+          "block": 1,
+          "log_speed_ratios": {
+            "1": 0.0001194402029787156,
+            "2": -0.0016807726846721494
+          },
+          "clock_mode_means": {
+            "0": 2897.25,
+            "1": 2882.5,
+            "2": 2903.75
+          },
+          "cpu_mode_means": {
+            "0": 0.5460015989885467,
+            "1": 0.6515705679862307,
+            "2": 0.5582180433841826
+          },
+          "comparable": false
+        },
+        {
+          "block": 2,
+          "log_speed_ratios": {
+            "1": -0.00021761237510631304,
+            "2": -0.001928526093425198
+          },
+          "clock_mode_means": {
+            "0": 2907.25,
+            "1": 2909.75,
+            "2": 2857.833333333333
+          },
+          "cpu_mode_means": {
+            "0": 0.6002160418695228,
+            "1": 0.5601154618473896,
+            "2": 0.5887241201124087
+          },
+          "comparable": true
+        }
+      ],
+      "estimates": {
+        "1": {
+          "geometric_speed_change_percent": -0.12250828814628495,
+          "descriptive_t95_percent": [
+            -0.6286406607574142,
+            0.3862019900133679
+          ]
+        },
+        "2": {
+          "geometric_speed_change_percent": -0.5769173899152596,
+          "descriptive_t95_percent": [
+            -2.265786206714722,
+            1.1411354533336338
+          ]
+        }
+      },
+      "all_blocks_comparable": false
+    }
+  ],
+  "total_samples": 462,
+  "samples_with_arm": 292,
+  "sensor_errors": []
+}

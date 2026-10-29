@@ -1,0 +1,13 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "${WORKSPACE}/isolated/q6-native-scale/timing.cpp",
+    "-lvulkan",
+    "-o",
+    "${WORKSPACE}/isolated/q6-native-scale/operator_bench_timed"
+  ],
+  "source_sha256": "d6d1958a12848ba465c526353db4f3f4c6bdf7befc00286eed5c22158cf9109d",
+  "binary_sha256": "7b3dbca4deb478012cb6fb42acd0ebd74e2dd5d592395223e4c5ba496d4eab29"
+}

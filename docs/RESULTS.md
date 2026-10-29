@@ -76,3 +76,7 @@ A one-buffer3GiB arena version passes the same target-logit audit and gives a pr
 ## Combined Q3 and smaller-fusion follow-up (2026-10-29)
 
 A graph-option caching build passes exact operator and target-logit checks. Its fixed screen selects padded Q3 plus Q8 shuffle. Independent 36-arm confirmation finds no extra gain against frozen Q3: −0.03% [−1.23%, +1.18%] on four matched blocks. The same candidate remains +3.42% [+1.94%, +4.93%] versus stock. Two unmatched blocks are retained. Keep the frozen winner. [Protocol, results and limitations](FUSION-COMBINATION.md).
+
+## Native Q6 follow-up (2026-10-29)
+
+Two new native float-path experiments test 212-byte aligned weights and removal of scale shared-memory exchange. Both pass 1,080 capped native-byte comparisons; each completes 144 fixed full-size timing arms. Smaller code/LDS does not yield a convincing streamed gain, and clock/CPU/sensor matching fails across complete per-shape blocks. No new model backend or throughput claim. [Evidence and interpretation](Q6-NATIVE.md).

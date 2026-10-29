@@ -1,0 +1,75 @@
+{
+  "scope": "Native float Q6 scale handoff only, no padding/new activation quantization. Native stock module byte identical; fixed64WG/wave64. Runtime/performance pending.",
+  "lane_ownership_cases": 2105344,
+  "modules": [
+    {
+      "mode": "native",
+      "source_sha256": "bc785a2457aa5b04d416e18f5ae2304da267e35cea7b54ac67b5d20987e450af",
+      "shader_sha256": "a8e565e7d189c5e62f220dcd5d5cc6230571c6e9320e2d97b5c5d1858407ac81",
+      "command": [
+        "glslc",
+        "-fshader-stage=compute",
+        "--target-env=vulkan1.2",
+        "-O",
+        "-I${WORKSPACE}/isolated/q6-native-scale/native",
+        "-DDATA_A_Q6_K=1",
+        "-DFLOAT_TYPE=float",
+        "-DFLOAT_TYPEV2=vec2",
+        "-DB_TYPE=float",
+        "-DB_TYPEV2=vec2",
+        "-DB_TYPEV4=vec4",
+        "-DD_TYPE=float",
+        "-DUSE_SUBGROUP_ADD_NO_SHMEM=1",
+        "${WORKSPACE}/isolated/q6-native-scale/native/mul_mat_vec_q6_k.comp",
+        "-o",
+        "${WORKSPACE}/isolated/q6-native-scale/native_subgroup_no_shmem.spv"
+      ]
+    },
+    {
+      "mode": "shuffle",
+      "source_sha256": "2d41643b07de8f863e88c48b64cb0efd642921956e8865a71e78d24f2ae1f90c",
+      "shader_sha256": "73a81d645075941cd10c78147b521c613ce9fba167ab45efcbc1a586fb1ddea8",
+      "command": [
+        "glslc",
+        "-fshader-stage=compute",
+        "--target-env=vulkan1.2",
+        "-O",
+        "-I${WORKSPACE}/isolated/q6-native-scale/shuffle",
+        "-DDATA_A_Q6_K=1",
+        "-DFLOAT_TYPE=float",
+        "-DFLOAT_TYPEV2=vec2",
+        "-DB_TYPE=float",
+        "-DB_TYPEV2=vec2",
+        "-DB_TYPEV4=vec4",
+        "-DD_TYPE=float",
+        "-DUSE_SUBGROUP_ADD_NO_SHMEM=1",
+        "${WORKSPACE}/isolated/q6-native-scale/shuffle/mul_mat_vec_q6_k.comp",
+        "-o",
+        "${WORKSPACE}/isolated/q6-native-scale/shuffle_subgroup_no_shmem.spv"
+      ]
+    },
+    {
+      "mode": "direct",
+      "source_sha256": "f16cbb981fa6a3e4ec5dbc8b340c32e4ea0cafb044cee70d5759c3c034be3732",
+      "shader_sha256": "d1132b116ac967dd46af1dd59bf0d1bbb473271c93145b364ca13b5acf6a017a",
+      "command": [
+        "glslc",
+        "-fshader-stage=compute",
+        "--target-env=vulkan1.2",
+        "-O",
+        "-I${WORKSPACE}/isolated/q6-native-scale/direct",
+        "-DDATA_A_Q6_K=1",
+        "-DFLOAT_TYPE=float",
+        "-DFLOAT_TYPEV2=vec2",
+        "-DB_TYPE=float",
+        "-DB_TYPEV2=vec2",
+        "-DB_TYPEV4=vec4",
+        "-DD_TYPE=float",
+        "-DUSE_SUBGROUP_ADD_NO_SHMEM=1",
+        "${WORKSPACE}/isolated/q6-native-scale/direct/mul_mat_vec_q6_k.comp",
+        "-o",
+        "${WORKSPACE}/isolated/q6-native-scale/direct_subgroup_no_shmem.spv"
+      ]
+    }
+  ]
+}

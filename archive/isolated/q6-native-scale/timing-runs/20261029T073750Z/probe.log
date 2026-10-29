@@ -1,0 +1,461 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+DEVICE AMD Radeon AI Pro R9700 (RADV GFX1201)
+WAVE_SUPPORT min=32 max=64 stages=240
+DRIVER_PATH_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+STAT native_c1 Driver pipeline hash 4183468838268478569
+STAT native_c1 SGPRs 108
+STAT native_c1 VGPRs 48
+STAT native_c1 Spilled SGPRs 0
+STAT native_c1 Spilled VGPRs 0
+STAT native_c1 Code size 8564
+STAT native_c1 LDS size 1024
+STAT native_c1 Scratch size 0
+STAT native_c1 Subgroups per SIMD 32
+STAT native_c1 Combined inputs 0
+STAT native_c1 Combined outputs 0
+STAT native_c1 Hash 3370616619
+STAT native_c1 Instructions 1675
+STAT native_c1 Copies 109
+STAT native_c1 Branches 43
+STAT native_c1 Latency 7351
+STAT native_c1 Inverse Throughput 1572
+STAT native_c1 VMEM Clause 25
+STAT native_c1 SMEM Clause 29
+STAT native_c1 Pre-Sched SGPRs 25
+STAT native_c1 Pre-Sched VGPRs 41
+STAT native_c1 VALU 805
+STAT native_c1 SALU 332
+STAT native_c1 VMEM 70
+STAT native_c1 SMEM 29
+STAT native_c1 VOPD 0
+STAT shuffle_c1 Driver pipeline hash 2195711258965421611
+STAT shuffle_c1 SGPRs 108
+STAT shuffle_c1 VGPRs 48
+STAT shuffle_c1 Spilled SGPRs 0
+STAT shuffle_c1 Spilled VGPRs 0
+STAT shuffle_c1 Code size 7576
+STAT shuffle_c1 LDS size 0
+STAT shuffle_c1 Scratch size 0
+STAT shuffle_c1 Subgroups per SIMD 32
+STAT shuffle_c1 Combined inputs 0
+STAT shuffle_c1 Combined outputs 0
+STAT shuffle_c1 Hash 1490422495
+STAT shuffle_c1 Instructions 1470
+STAT shuffle_c1 Copies 79
+STAT shuffle_c1 Branches 33
+STAT shuffle_c1 Latency 5308
+STAT shuffle_c1 Inverse Throughput 1512
+STAT shuffle_c1 VMEM Clause 19
+STAT shuffle_c1 SMEM Clause 24
+STAT shuffle_c1 Pre-Sched SGPRs 22
+STAT shuffle_c1 Pre-Sched VGPRs 38
+STAT shuffle_c1 VALU 750
+STAT shuffle_c1 SALU 278
+STAT shuffle_c1 VMEM 68
+STAT shuffle_c1 SMEM 24
+STAT shuffle_c1 VOPD 0
+STAT direct_c1 Driver pipeline hash 6581414415041865957
+STAT direct_c1 SGPRs 108
+STAT direct_c1 VGPRs 48
+STAT direct_c1 Spilled SGPRs 0
+STAT direct_c1 Spilled VGPRs 0
+STAT direct_c1 Code size 7992
+STAT direct_c1 LDS size 0
+STAT direct_c1 Scratch size 0
+STAT direct_c1 Subgroups per SIMD 32
+STAT direct_c1 Combined inputs 0
+STAT direct_c1 Combined outputs 0
+STAT direct_c1 Hash 2722535399
+STAT direct_c1 Instructions 1558
+STAT direct_c1 Copies 97
+STAT direct_c1 Branches 33
+STAT direct_c1 Latency 6670
+STAT direct_c1 Inverse Throughput 1711
+STAT direct_c1 VMEM Clause 23
+STAT direct_c1 SMEM Clause 24
+STAT direct_c1 Pre-Sched SGPRs 22
+STAT direct_c1 Pre-Sched VGPRs 38
+STAT direct_c1 VALU 852
+STAT direct_c1 SALU 278
+STAT direct_c1 VMEM 68
+STAT direct_c1 SMEM 24
+STAT direct_c1 VOPD 0
+STAT native_c2 Driver pipeline hash 18423562917257345644
+STAT native_c2 SGPRs 108
+STAT native_c2 VGPRs 84
+STAT native_c2 Spilled SGPRs 0
+STAT native_c2 Spilled VGPRs 0
+STAT native_c2 Code size 10840
+STAT native_c2 LDS size 1024
+STAT native_c2 Scratch size 0
+STAT native_c2 Subgroups per SIMD 18
+STAT native_c2 Combined inputs 0
+STAT native_c2 Combined outputs 0
+STAT native_c2 Hash 3871753023
+STAT native_c2 Instructions 2133
+STAT native_c2 Copies 143
+STAT native_c2 Branches 63
+STAT native_c2 Latency 6165
+STAT native_c2 Inverse Throughput 1849
+STAT native_c2 VMEM Clause 28
+STAT native_c2 SMEM Clause 45
+STAT native_c2 Pre-Sched SGPRs 25
+STAT native_c2 Pre-Sched VGPRs 69
+STAT native_c2 VALU 1039
+STAT native_c2 SALU 424
+STAT native_c2 VMEM 98
+STAT native_c2 SMEM 45
+STAT native_c2 VOPD 0
+STAT shuffle_c2 Driver pipeline hash 13056015977180572374
+STAT shuffle_c2 SGPRs 108
+STAT shuffle_c2 VGPRs 84
+STAT shuffle_c2 Spilled SGPRs 0
+STAT shuffle_c2 Spilled VGPRs 0
+STAT shuffle_c2 Code size 10092
+STAT shuffle_c2 LDS size 0
+STAT shuffle_c2 Scratch size 0
+STAT shuffle_c2 Subgroups per SIMD 18
+STAT shuffle_c2 Combined inputs 0
+STAT shuffle_c2 Combined outputs 0
+STAT shuffle_c2 Hash 2967251120
+STAT shuffle_c2 Instructions 1955
+STAT shuffle_c2 Copies 117
+STAT shuffle_c2 Branches 53
+STAT shuffle_c2 Latency 4931
+STAT shuffle_c2 Inverse Throughput 1842
+STAT shuffle_c2 VMEM Clause 22
+STAT shuffle_c2 SMEM Clause 40
+STAT shuffle_c2 Pre-Sched SGPRs 23
+STAT shuffle_c2 Pre-Sched VGPRs 63
+STAT shuffle_c2 VALU 988
+STAT shuffle_c2 SALU 370
+STAT shuffle_c2 VMEM 96
+STAT shuffle_c2 SMEM 40
+STAT shuffle_c2 VOPD 0
+STAT direct_c2 Driver pipeline hash 7474055262335661254
+STAT direct_c2 SGPRs 108
+STAT direct_c2 VGPRs 84
+STAT direct_c2 Spilled SGPRs 0
+STAT direct_c2 Spilled VGPRs 0
+STAT direct_c2 Code size 10396
+STAT direct_c2 LDS size 0
+STAT direct_c2 Scratch size 0
+STAT direct_c2 Subgroups per SIMD 18
+STAT direct_c2 Combined inputs 0
+STAT direct_c2 Combined outputs 0
+STAT direct_c2 Hash 1129277025
+STAT direct_c2 Instructions 2047
+STAT direct_c2 Copies 133
+STAT direct_c2 Branches 53
+STAT direct_c2 Latency 5078
+STAT direct_c2 Inverse Throughput 1991
+STAT direct_c2 VMEM Clause 30
+STAT direct_c2 SMEM Clause 40
+STAT direct_c2 Pre-Sched SGPRs 23
+STAT direct_c2 Pre-Sched VGPRs 66
+STAT direct_c2 VALU 1088
+STAT direct_c2 SALU 370
+STAT direct_c2 VMEM 96
+STAT direct_c2 SMEM 40
+STAT direct_c2 VOPD 0
+VALIDATED k=5120 rows=17408 cols=1 replicas=1 output_bytes=69632 weight_bytes_native=73113600 padded=73113600
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=0 arm=0 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=0 arm=0 mode=0 dispatches=1024 us=82.770429687
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=0 arm=1 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=0 arm=1 mode=1 dispatches=1024 us=78.322539062
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=0 arm=2 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=0 arm=2 mode=2 dispatches=1024 us=75.866835937
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=0 arm=3 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=0 arm=3 mode=2 dispatches=1024 us=74.123828125
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=0 arm=4 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=0 arm=4 mode=1 dispatches=1024 us=70.186445312
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=0 arm=5 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=0 arm=5 mode=0 dispatches=1024 us=81.637695312
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=1 arm=0 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=1 arm=0 mode=1 dispatches=1024 us=76.804882812
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=1 arm=1 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=1 arm=1 mode=2 dispatches=1024 us=74.595351562
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=1 arm=2 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=1 arm=2 mode=0 dispatches=1024 us=81.750664062
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=1 arm=3 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=1 arm=3 mode=0 dispatches=1024 us=77.467929688
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=1 arm=4 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=1 arm=4 mode=2 dispatches=1024 us=81.963906250
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=1 arm=5 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=1 arm=5 mode=1 dispatches=1024 us=72.903945312
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=2 arm=0 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=2 arm=0 mode=2 dispatches=1024 us=73.819765625
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=2 arm=1 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=2 arm=1 mode=0 dispatches=1024 us=81.813593750
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=2 arm=2 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=2 arm=2 mode=1 dispatches=1024 us=76.889453125
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=2 arm=3 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=2 arm=3 mode=1 dispatches=1024 us=72.948750000
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=2 arm=4 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=2 arm=4 mode=0 dispatches=1024 us=81.846210938
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=1 block=2 arm=5 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=1 block=2 arm=5 mode=2 dispatches=1024 us=82.063632813
+VALIDATED k=5120 rows=17408 cols=1 replicas=16 output_bytes=69632 weight_bytes_native=1169817600 padded=1169817600
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=0 arm=0 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=0 arm=0 mode=0 dispatches=1024 us=119.179257812
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=0 arm=1 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=0 arm=1 mode=1 dispatches=1024 us=120.925078125
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=0 arm=2 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=0 arm=2 mode=2 dispatches=1024 us=119.727070313
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=0 arm=3 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=0 arm=3 mode=2 dispatches=1024 us=119.575273438
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=0 arm=4 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=0 arm=4 mode=1 dispatches=1024 us=119.332656250
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=0 arm=5 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=0 arm=5 mode=0 dispatches=1024 us=117.809687500
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=1 arm=0 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=1 arm=0 mode=1 dispatches=1024 us=118.124179688
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=1 arm=1 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=1 arm=1 mode=2 dispatches=1024 us=117.596562500
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=1 arm=2 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=1 arm=2 mode=0 dispatches=1024 us=117.152851563
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=1 arm=3 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=1 arm=3 mode=0 dispatches=1024 us=117.161171875
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=1 arm=4 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=1 arm=4 mode=2 dispatches=1024 us=117.634609375
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=1 arm=5 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=1 arm=5 mode=1 dispatches=1024 us=117.677773437
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=2 arm=0 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=2 arm=0 mode=2 dispatches=1024 us=117.613125000
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=2 arm=1 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=2 arm=1 mode=0 dispatches=1024 us=117.165234375
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=2 arm=2 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=2 arm=2 mode=1 dispatches=1024 us=117.675351562
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=2 arm=3 mode=1
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=2 arm=3 mode=1 dispatches=1024 us=117.660585938
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=2 arm=4 mode=0
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=2 arm=4 mode=0 dispatches=1024 us=117.149101562
+ARM_BEGIN k=5120 rows=17408 cols=1 replicas=16 block=2 arm=5 mode=2
+TIMING k=5120 rows=17408 cols=1 replicas=16 block=2 arm=5 mode=2 dispatches=1024 us=117.636679688
+VALIDATED k=17408 rows=5120 cols=1 replicas=1 output_bytes=20480 weight_bytes_native=73113600 padded=73113600
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=0 arm=0 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=0 arm=0 mode=0 dispatches=1024 us=72.590546875
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=0 arm=1 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=0 arm=1 mode=1 dispatches=1024 us=68.459062500
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=0 arm=2 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=0 arm=2 mode=2 dispatches=1024 us=77.802148437
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=0 arm=3 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=0 arm=3 mode=2 dispatches=1024 us=77.472343750
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=0 arm=4 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=0 arm=4 mode=1 dispatches=1024 us=66.706601562
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=0 arm=5 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=0 arm=5 mode=0 dispatches=1024 us=74.316757813
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=1 arm=0 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=1 arm=0 mode=1 dispatches=1024 us=70.184218750
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=1 arm=1 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=1 arm=1 mode=2 dispatches=1024 us=78.763750000
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=1 arm=2 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=1 arm=2 mode=0 dispatches=1024 us=74.627656250
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=1 arm=3 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=1 arm=3 mode=0 dispatches=1024 us=71.887773438
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=1 arm=4 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=1 arm=4 mode=2 dispatches=1024 us=82.129492188
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=1 arm=5 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=1 arm=5 mode=1 dispatches=1024 us=68.183750000
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=2 arm=0 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=2 arm=0 mode=2 dispatches=1024 us=78.478554687
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=2 arm=1 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=2 arm=1 mode=0 dispatches=1024 us=74.865898437
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=2 arm=2 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=2 arm=2 mode=1 dispatches=1024 us=70.676250000
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=2 arm=3 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=2 arm=3 mode=1 dispatches=1024 us=68.552265625
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=2 arm=4 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=2 arm=4 mode=0 dispatches=1024 us=75.019296875
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=1 block=2 arm=5 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=1 block=2 arm=5 mode=2 dispatches=1024 us=82.596132813
+VALIDATED k=17408 rows=5120 cols=1 replicas=16 output_bytes=20480 weight_bytes_native=1169817600 padded=1169817600
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=0 arm=0 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=0 arm=0 mode=0 dispatches=1024 us=122.792968750
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=0 arm=1 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=0 arm=1 mode=1 dispatches=1024 us=121.290781250
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=0 arm=2 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=0 arm=2 mode=2 dispatches=1024 us=127.623476563
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=0 arm=3 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=0 arm=3 mode=2 dispatches=1024 us=125.464648438
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=0 arm=4 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=0 arm=4 mode=1 dispatches=1024 us=119.531562500
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=0 arm=5 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=0 arm=5 mode=0 dispatches=1024 us=119.046289062
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=1 arm=0 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=1 arm=0 mode=1 dispatches=1024 us=118.479609375
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=1 arm=1 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=1 arm=1 mode=2 dispatches=1024 us=121.281796875
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=1 arm=2 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=1 arm=2 mode=0 dispatches=1024 us=118.409062500
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=1 arm=3 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=1 arm=3 mode=0 dispatches=1024 us=118.469843750
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=1 arm=4 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=1 arm=4 mode=2 dispatches=1024 us=121.446914062
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=1 arm=5 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=1 arm=5 mode=1 dispatches=1024 us=118.389960938
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=2 arm=0 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=2 arm=0 mode=2 dispatches=1024 us=121.426054687
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=2 arm=1 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=2 arm=1 mode=0 dispatches=1024 us=118.446171875
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=2 arm=2 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=2 arm=2 mode=1 dispatches=1024 us=118.395195312
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=2 arm=3 mode=1
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=2 arm=3 mode=1 dispatches=1024 us=118.388984375
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=2 arm=4 mode=0
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=2 arm=4 mode=0 dispatches=1024 us=118.466796875
+ARM_BEGIN k=17408 rows=5120 cols=1 replicas=16 block=2 arm=5 mode=2
+TIMING k=17408 rows=5120 cols=1 replicas=16 block=2 arm=5 mode=2 dispatches=1024 us=121.487265625
+VALIDATED k=5120 rows=17408 cols=2 replicas=1 output_bytes=139264 weight_bytes_native=73113600 padded=73113600
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=0 arm=0 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=0 arm=0 mode=0 dispatches=1024 us=92.456835938
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=0 arm=1 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=0 arm=1 mode=1 dispatches=1024 us=91.288632812
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=0 arm=2 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=0 arm=2 mode=2 dispatches=1024 us=89.389414062
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=0 arm=3 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=0 arm=3 mode=2 dispatches=1024 us=88.356250000
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=0 arm=4 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=0 arm=4 mode=1 dispatches=1024 us=86.847109375
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=0 arm=5 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=0 arm=5 mode=0 dispatches=1024 us=92.169062500
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=1 arm=0 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=1 arm=0 mode=1 dispatches=1024 us=91.928789063
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=1 arm=1 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=1 arm=1 mode=2 dispatches=1024 us=89.729960937
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=1 arm=2 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=1 arm=2 mode=0 dispatches=1024 us=92.526562500
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=1 arm=3 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=1 arm=3 mode=0 dispatches=1024 us=89.292187500
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=1 arm=4 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=1 arm=4 mode=2 dispatches=1024 us=93.758476562
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=1 arm=5 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=1 arm=5 mode=1 dispatches=1024 us=88.809765625
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=2 arm=0 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=2 arm=0 mode=2 dispatches=1024 us=88.659687500
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=2 arm=1 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=2 arm=1 mode=0 dispatches=1024 us=92.415507812
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=2 arm=2 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=2 arm=2 mode=1 dispatches=1024 us=91.925507813
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=2 arm=3 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=2 arm=3 mode=1 dispatches=1024 us=88.537812500
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=2 arm=4 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=2 arm=4 mode=0 dispatches=1024 us=92.549023437
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=1 block=2 arm=5 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=1 block=2 arm=5 mode=2 dispatches=1024 us=93.440234375
+VALIDATED k=5120 rows=17408 cols=2 replicas=16 output_bytes=139264 weight_bytes_native=1169817600 padded=1169817600
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=0 arm=0 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=0 arm=0 mode=0 dispatches=1024 us=122.114453125
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=0 arm=1 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=0 arm=1 mode=1 dispatches=1024 us=121.953554688
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=0 arm=2 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=0 arm=2 mode=2 dispatches=1024 us=122.715468750
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=0 arm=3 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=0 arm=3 mode=2 dispatches=1024 us=122.094179688
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=0 arm=4 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=0 arm=4 mode=1 dispatches=1024 us=120.633320313
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=0 arm=5 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=0 arm=5 mode=0 dispatches=1024 us=119.690781250
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=1 arm=0 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=1 arm=0 mode=1 dispatches=1024 us=119.151953125
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=1 arm=1 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=1 arm=1 mode=2 dispatches=1024 us=119.267226562
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=1 arm=2 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=1 arm=2 mode=0 dispatches=1024 us=119.010039062
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=1 arm=3 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=1 arm=3 mode=0 dispatches=1024 us=118.954843750
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=1 arm=4 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=1 arm=4 mode=2 dispatches=1024 us=119.426914063
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=1 arm=5 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=1 arm=5 mode=1 dispatches=1024 us=118.910585938
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=2 arm=0 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=2 arm=0 mode=2 dispatches=1024 us=119.444492188
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=2 arm=1 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=2 arm=1 mode=0 dispatches=1024 us=118.955312500
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=2 arm=2 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=2 arm=2 mode=1 dispatches=1024 us=118.940507813
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=2 arm=3 mode=1
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=2 arm=3 mode=1 dispatches=1024 us=118.921015625
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=2 arm=4 mode=0
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=2 arm=4 mode=0 dispatches=1024 us=118.990390625
+ARM_BEGIN k=5120 rows=17408 cols=2 replicas=16 block=2 arm=5 mode=2
+TIMING k=5120 rows=17408 cols=2 replicas=16 block=2 arm=5 mode=2 dispatches=1024 us=119.389531250
+VALIDATED k=17408 rows=5120 cols=2 replicas=1 output_bytes=40960 weight_bytes_native=73113600 padded=73113600
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=0 arm=0 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=0 arm=0 mode=0 dispatches=1024 us=81.336679687
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=0 arm=1 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=0 arm=1 mode=1 dispatches=1024 us=78.582851562
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=0 arm=2 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=0 arm=2 mode=2 dispatches=1024 us=81.646992188
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=0 arm=3 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=0 arm=3 mode=2 dispatches=1024 us=81.289023438
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=0 arm=4 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=0 arm=4 mode=1 dispatches=1024 us=78.481953125
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=0 arm=5 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=0 arm=5 mode=0 dispatches=1024 us=82.829921875
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=1 arm=0 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=1 arm=0 mode=1 dispatches=1024 us=80.916328125
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=1 arm=1 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=1 arm=1 mode=2 dispatches=1024 us=81.893203125
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=1 arm=2 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=1 arm=2 mode=0 dispatches=1024 us=83.182539062
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=1 arm=3 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=1 arm=3 mode=0 dispatches=1024 us=81.241289063
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=1 arm=4 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=1 arm=4 mode=2 dispatches=1024 us=84.261523438
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=1 arm=5 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=1 arm=5 mode=1 dispatches=1024 us=79.967070312
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=2 arm=0 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=2 arm=0 mode=2 dispatches=1024 us=81.958710938
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=2 arm=1 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=2 arm=1 mode=0 dispatches=1024 us=83.297773437
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=2 arm=2 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=2 arm=2 mode=1 dispatches=1024 us=81.269101562
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=2 arm=3 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=2 arm=3 mode=1 dispatches=1024 us=79.763203125
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=2 arm=4 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=2 arm=4 mode=0 dispatches=1024 us=83.182148438
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=1 block=2 arm=5 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=1 block=2 arm=5 mode=2 dispatches=1024 us=84.699179688
+VALIDATED k=17408 rows=5120 cols=2 replicas=16 output_bytes=40960 weight_bytes_native=1169817600 padded=1169817600
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=0 arm=0 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=0 arm=0 mode=0 dispatches=1024 us=121.672304688
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=0 arm=1 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=0 arm=1 mode=1 dispatches=1024 us=121.672539062
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=0 arm=2 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=0 arm=2 mode=2 dispatches=1024 us=122.220078125
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=0 arm=3 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=0 arm=3 mode=2 dispatches=1024 us=121.037617188
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=0 arm=4 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=0 arm=4 mode=1 dispatches=1024 us=119.134531250
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=0 arm=5 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=0 arm=5 mode=0 dispatches=1024 us=118.284960938
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=1 arm=0 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=1 arm=0 mode=1 dispatches=1024 us=117.889335937
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=1 arm=1 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=1 arm=1 mode=2 dispatches=1024 us=118.145117188
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=1 arm=2 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=1 arm=2 mode=0 dispatches=1024 us=117.934101563
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=1 arm=3 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=1 arm=3 mode=0 dispatches=1024 us=117.922851562
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=1 arm=4 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=1 arm=4 mode=2 dispatches=1024 us=118.108593750
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=1 arm=5 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=1 arm=5 mode=1 dispatches=1024 us=117.939453125
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=2 arm=0 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=2 arm=0 mode=2 dispatches=1024 us=118.164648438
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=2 arm=1 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=2 arm=1 mode=0 dispatches=1024 us=117.927656250
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=2 arm=2 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=2 arm=2 mode=1 dispatches=1024 us=117.947343750
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=2 arm=3 mode=1
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=2 arm=3 mode=1 dispatches=1024 us=117.948867187
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=2 arm=4 mode=0
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=2 arm=4 mode=0 dispatches=1024 us=117.917226563
+ARM_BEGIN k=17408 rows=5120 cols=2 replicas=16 block=2 arm=5 mode=2
+TIMING k=17408 rows=5120 cols=2 replicas=16 block=2 arm=5 mode=2 dispatches=1024 us=118.135507812
+Q6_NATIVE_SCALE_TIMING_COMPLETE

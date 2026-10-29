@@ -1,0 +1,14 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "${WORKSPACE}/isolated/q6-pad212/probe.cpp",
+    "-lvulkan",
+    "-o",
+    "${WORKSPACE}/isolated/q6-pad212/operator_bench"
+  ],
+  "source_sha256": "5aa6f861d793386fdb52a7ff00e0541314ff14083c102f129ea8f9a396830a1c",
+  "binary_sha256": "748ef80c296cba5d8d88d6eed08ded75953929be51bdc5feaf8144d2521da59a",
+  "scope": "Nonpersistent native/padded Q6 float shader probe, native rm_kq2, C1/C2,16WG maximum; build only"
+}

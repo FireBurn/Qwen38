@@ -272,3 +272,7 @@ See [Q3 host cost and final+3.43% result](Q3-HOST-COST.md) for intrusive profili
 ## Q3 and smaller-fusion combination follow-up
 
 See [experiment and interpretation](FUSION-COMBINATION.md). The manifest includes the predeclared combination plan, host patch/build provenance, exact operator and target-logit checks, ten-arm screen, fixed 36-arm confirmation, runtime mappings and telemetry under `archive/isolated/q3-pad112/`. Q6 alignment files are CPU-only exploratory evidence.
+
+## Native Q6 alignment and scale exchange
+
+[Interpretation](Q6-NATIVE.md). Evidence under `archive/isolated/q6-pad212/` and `archive/isolated/q6-native-scale/` includes original/copied shader source closures, embedded-stock proof,2,160 capped comparisons total,288 fixed timing arms total, telemetry, analysis and runner sources. Neither experiment establishes a model speedup.

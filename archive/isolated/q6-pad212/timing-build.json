@@ -1,0 +1,13 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "${WORKSPACE}/isolated/q6-pad212/timing.cpp",
+    "-lvulkan",
+    "-o",
+    "${WORKSPACE}/isolated/q6-pad212/operator_bench_timed"
+  ],
+  "source_sha256": "7d74100f3c7cb56e82e7e0d04b403dece53993780e12d299ae2815f7c0e51e22",
+  "binary_sha256": "b659f09fd54be276910933a2389c23befbbb7452febce9dedbe131419ccbd2a7"
+}

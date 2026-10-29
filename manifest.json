@@ -11467,7 +11467,535 @@
       "export_sha256": "634fe39abb4325c00d70c66bea58a9e9d0f2398abfc5be80254bd028e777e8dd",
       "bytes": 17827,
       "sanitized": true
+    },
+    {
+      "source": "isolated/q6-pad212/build.json",
+      "path": "archive/isolated/q6-pad212/build.json",
+      "source_sha256": "5833703b14dbacaf742559b791d5c00f0f86d958b4146be2c3754de5b76747c1",
+      "export_sha256": "70c5719bb83684becb1bbeb8bfebb0eeaf0cebe9f16cf92536e55d2268386817",
+      "bytes": 9279,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-pad212/prepare.py",
+      "path": "archive/isolated/q6-pad212/prepare.py",
+      "source_sha256": "b9e2737969b313631de36a8316d21147f95e84d646ed22757c2120c51eef95f7",
+      "export_sha256": "b9e2737969b313631de36a8316d21147f95e84d646ed22757c2120c51eef95f7",
+      "bytes": 3883,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/probe-build.json",
+      "path": "archive/isolated/q6-pad212/probe-build.json",
+      "source_sha256": "b78ac39804504ef3546027a3427dcd9c9f6ef54a9259b94486911a962c50fc49",
+      "export_sha256": "5d6281de566b4f96ba408ed64873562b9d72334f4a700f416175db159a1ef945",
+      "bytes": 480,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-pad212/publish_q6_round.py",
+      "path": "archive/isolated/q6-pad212/publish_q6_round.py",
+      "source_sha256": "72fedb461c4f4a8c011547766653c6a5082eb91d4b8bb99ae48c1fd14ac09955",
+      "export_sha256": "1e1280d7f70c1ad2020aaeb255f702dcf3e1d0dc3a2d3ff8fdbb38ad184f1f54",
+      "bytes": 1659,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-pad212/prepare_timing.py",
+      "path": "archive/isolated/q6-pad212/prepare_timing.py",
+      "source_sha256": "16af8df847da965086eac1f1f35273aabc50a8e8d8d0d13d135b9fc3fafcd6cd",
+      "export_sha256": "16af8df847da965086eac1f1f35273aabc50a8e8d8d0d13d135b9fc3fafcd6cd",
+      "bytes": 2883,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/probe.cpp",
+      "path": "archive/isolated/q6-pad212/probe.cpp",
+      "source_sha256": "5aa6f861d793386fdb52a7ff00e0541314ff14083c102f129ea8f9a396830a1c",
+      "export_sha256": "5aa6f861d793386fdb52a7ff00e0541314ff14083c102f129ea8f9a396830a1c",
+      "bytes": 15096,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/timing-build.json",
+      "path": "archive/isolated/q6-pad212/timing-build.json",
+      "source_sha256": "8691e08c888c7fa48a086c0ec93625b11890d78d7ac1153669c6b566bafef8d9",
+      "export_sha256": "502632588b93457f77dc8d9590ae1d02d0799e2b728d16d20638d87a5191d5ab",
+      "bytes": 376,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-pad212/timing-plan.json",
+      "path": "archive/isolated/q6-pad212/timing-plan.json",
+      "source_sha256": "e11c09c92aa153cc6016fc9ecded40699244bd8dfc6b7602134ed56be5e60702",
+      "export_sha256": "e11c09c92aa153cc6016fc9ecded40699244bd8dfc6b7602134ed56be5e60702",
+      "bytes": 1391,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/timing.cpp",
+      "path": "archive/isolated/q6-pad212/timing.cpp",
+      "source_sha256": "7d74100f3c7cb56e82e7e0d04b403dece53993780e12d299ae2815f7c0e51e22",
+      "export_sha256": "7d74100f3c7cb56e82e7e0d04b403dece53993780e12d299ae2815f7c0e51e22",
+      "bytes": 16381,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/analyse_timing.py",
+      "path": "archive/isolated/q6-pad212/analyse_timing.py",
+      "source_sha256": "6a61359c59605fbc0b432ad9958069a18ee88a1f078fa9881958d364f19641c6",
+      "export_sha256": "6a61359c59605fbc0b432ad9958069a18ee88a1f078fa9881958d364f19641c6",
+      "bytes": 3256,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/prepare_probe.py",
+      "path": "archive/isolated/q6-pad212/prepare_probe.py",
+      "source_sha256": "ecfba91a4aa07e6a8f0e24d12191eb4f5580357b669d1a579d321885ea9a2459",
+      "export_sha256": "ecfba91a4aa07e6a8f0e24d12191eb4f5580357b669d1a579d321885ea9a2459",
+      "bytes": 2359,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/native/mul_mat_vec_iface.glsl",
+      "path": "archive/isolated/q6-pad212/native/mul_mat_vec_iface.glsl",
+      "source_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "export_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "bytes": 1223,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/native/mul_mat_vec_q6_k.comp",
+      "path": "archive/isolated/q6-pad212/native/mul_mat_vec_q6_k.comp",
+      "source_sha256": "bc785a2457aa5b04d416e18f5ae2304da267e35cea7b54ac67b5d20987e450af",
+      "export_sha256": "bc785a2457aa5b04d416e18f5ae2304da267e35cea7b54ac67b5d20987e450af",
+      "bytes": 5746,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/native/types.glsl",
+      "path": "archive/isolated/q6-pad212/native/types.glsl",
+      "source_sha256": "a88aade2345ab25eb681632d79632df5da7579460e0781f616338343e823a84c",
+      "export_sha256": "a88aade2345ab25eb681632d79632df5da7579460e0781f616338343e823a84c",
+      "bytes": 128859,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/native/mul_mat_vec_base.glsl",
+      "path": "archive/isolated/q6-pad212/native/mul_mat_vec_base.glsl",
+      "source_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "export_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "bytes": 8205,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/pad16/mul_mat_vec_iface.glsl",
+      "path": "archive/isolated/q6-pad212/pad16/mul_mat_vec_iface.glsl",
+      "source_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "export_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "bytes": 1223,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/pad16/mul_mat_vec_q6_k.comp",
+      "path": "archive/isolated/q6-pad212/pad16/mul_mat_vec_q6_k.comp",
+      "source_sha256": "bc785a2457aa5b04d416e18f5ae2304da267e35cea7b54ac67b5d20987e450af",
+      "export_sha256": "bc785a2457aa5b04d416e18f5ae2304da267e35cea7b54ac67b5d20987e450af",
+      "bytes": 5746,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/pad16/types.glsl",
+      "path": "archive/isolated/q6-pad212/pad16/types.glsl",
+      "source_sha256": "b1077254299970617192a91a2a819cad394a099193f41851cd1f23552d05f960",
+      "export_sha256": "b1077254299970617192a91a2a819cad394a099193f41851cd1f23552d05f960",
+      "bytes": 128915,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/pad16/mul_mat_vec_base.glsl",
+      "path": "archive/isolated/q6-pad212/pad16/mul_mat_vec_base.glsl",
+      "source_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "export_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "bytes": 8205,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/pad32/mul_mat_vec_iface.glsl",
+      "path": "archive/isolated/q6-pad212/pad32/mul_mat_vec_iface.glsl",
+      "source_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "export_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "bytes": 1223,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/pad32/mul_mat_vec_q6_k.comp",
+      "path": "archive/isolated/q6-pad212/pad32/mul_mat_vec_q6_k.comp",
+      "source_sha256": "46ae15d13dcb4a857ce3b8d892938e8441450a318aae8d2f2a2c929705b4ccfd",
+      "export_sha256": "46ae15d13dcb4a857ce3b8d892938e8441450a318aae8d2f2a2c929705b4ccfd",
+      "bytes": 5512,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/pad32/types.glsl",
+      "path": "archive/isolated/q6-pad212/pad32/types.glsl",
+      "source_sha256": "fc68ebf1d390847a8bf9e9cf3883c0d0859de8eed00ba03a5c1dad9b7fec9407",
+      "export_sha256": "fc68ebf1d390847a8bf9e9cf3883c0d0859de8eed00ba03a5c1dad9b7fec9407",
+      "bytes": 129094,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/pad32/mul_mat_vec_base.glsl",
+      "path": "archive/isolated/q6-pad212/pad32/mul_mat_vec_base.glsl",
+      "source_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "export_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "bytes": 8205,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/diagnostics/probe.log",
+      "path": "archive/isolated/q6-pad212/diagnostics/probe.log",
+      "source_sha256": "d95b9d7faea0b5452dfba2ad43c36798c50a17c428339a9dd91ce4359c6d602b",
+      "export_sha256": "72e5f1eb0e43038e1e88d7376b9c9db54b5af4c96f887eeeced522895d931701",
+      "bytes": 2122076,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-pad212/diagnostics/assets.json",
+      "path": "archive/isolated/q6-pad212/diagnostics/assets.json",
+      "source_sha256": "33588ca7900c2811eebc37f5442697b62da0804c40288f4b08aead029a5ab153",
+      "export_sha256": "5af11c6b9a6ea8da4ecd9ed943b0051381ee067e06e818c71f95a77cce4c88d1",
+      "bytes": 896,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-pad212/diagnostics/checks.json",
+      "path": "archive/isolated/q6-pad212/diagnostics/checks.json",
+      "source_sha256": "94cc5cb94d5f73e96e1f39cc5c779a620d17585584f3d0a0850c89020b0d20b1",
+      "export_sha256": "94cc5cb94d5f73e96e1f39cc5c779a620d17585584f3d0a0850c89020b0d20b1",
+      "bytes": 4471,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/timing-runs/20261029T073435Z/analysis.json",
+      "path": "archive/isolated/q6-pad212/timing-runs/20261029T073435Z/analysis.json",
+      "source_sha256": "f3bdf09004291d085a58d20dcd6b03385267e2a6742b443313873156b3a44d3c",
+      "export_sha256": "f3bdf09004291d085a58d20dcd6b03385267e2a6742b443313873156b3a44d3c",
+      "bytes": 61264,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/timing-runs/20261029T073435Z/probe.log",
+      "path": "archive/isolated/q6-pad212/timing-runs/20261029T073435Z/probe.log",
+      "source_sha256": "64a5f74461a03431d8dd38ee1a2871503a07e4458c02a8beb4b15987fea37c30",
+      "export_sha256": "b51aad11f5a015383191f1e0100d2a5651012253c834b95311a2ba23df958b92",
+      "bytes": 29833,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-pad212/timing-runs/20261029T073435Z/assets.json",
+      "path": "archive/isolated/q6-pad212/timing-runs/20261029T073435Z/assets.json",
+      "source_sha256": "e399f9ff84af73677ae60a5271b264a8a7e31d6f3aba54916ed124a7b5b96297",
+      "export_sha256": "00cc0317f618a6d11203ea71ef7018bf593fa39b8d63fbe45d4b1c9c7a59c5f5",
+      "bytes": 904,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-pad212/timing-runs/20261029T073435Z/checks.json",
+      "path": "archive/isolated/q6-pad212/timing-runs/20261029T073435Z/checks.json",
+      "source_sha256": "0d0303885b28a0d615a3a004c5771a3a99d32abbc30a677a26c2f724af44556d",
+      "export_sha256": "0d0303885b28a0d615a3a004c5771a3a99d32abbc30a677a26c2f724af44556d",
+      "bytes": 27938,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/timing-runs/20261029T073435Z/telemetry.jsonl",
+      "path": "archive/isolated/q6-pad212/timing-runs/20261029T073435Z/telemetry.jsonl",
+      "source_sha256": "0019f68777e5a37bc3a2e03730eb53b6be29f5a2ae8125441ee9a7cf2de975bb",
+      "export_sha256": "0019f68777e5a37bc3a2e03730eb53b6be29f5a2ae8125441ee9a7cf2de975bb",
+      "bytes": 191060,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/build.json",
+      "path": "archive/isolated/q6-native-scale/build.json",
+      "source_sha256": "58b61631c04e8a2616354f3a2765697751e3e34979284d9611229da1f2eacd9c",
+      "export_sha256": "fef46645d9fa2b47685645adda0acbdde59dced92c144941c51560c0622f4316",
+      "bytes": 2655,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-native-scale/prepare.py",
+      "path": "archive/isolated/q6-native-scale/prepare.py",
+      "source_sha256": "62445283cfb3ec46e99de2558980bb675b814712b1f11f628a2e5b52ee7cd4ff",
+      "export_sha256": "62445283cfb3ec46e99de2558980bb675b814712b1f11f628a2e5b52ee7cd4ff",
+      "bytes": 2732,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/probe-build.json",
+      "path": "archive/isolated/q6-native-scale/probe-build.json",
+      "source_sha256": "471d237876fabc6d31a06d2fba5f0cc11646c326a00595112cdd8f8fce26fe83",
+      "export_sha256": "372b261f3ebcaecabc81db0606611e584b570bd9c6531bff833e5c4f54b9eb4b",
+      "bytes": 381,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-native-scale/prepare_harnesses.py",
+      "path": "archive/isolated/q6-native-scale/prepare_harnesses.py",
+      "source_sha256": "6a0833f14980214a905d8d18dd4b5ee67bd4d3563606ac3eee5436fcf454765e",
+      "export_sha256": "6a0833f14980214a905d8d18dd4b5ee67bd4d3563606ac3eee5436fcf454765e",
+      "bytes": 2316,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/probe.cpp",
+      "path": "archive/isolated/q6-native-scale/probe.cpp",
+      "source_sha256": "68ff8053064679ab92dbf603a20b9953a432dedade337f9f89303c878d70ff30",
+      "export_sha256": "68ff8053064679ab92dbf603a20b9953a432dedade337f9f89303c878d70ff30",
+      "bytes": 15078,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/timing-build.json",
+      "path": "archive/isolated/q6-native-scale/timing-build.json",
+      "source_sha256": "599f707ec8a8e3054a156dc7cf11aeff3ed39a0690c39596b6771e018d346af9",
+      "export_sha256": "9f31c66140b0e1634db372ca8567d4a7ea70b09cdaead672c4e9e6b037f127b3",
+      "bytes": 388,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-native-scale/timing-plan.json",
+      "path": "archive/isolated/q6-native-scale/timing-plan.json",
+      "source_sha256": "dc48bb8f31f4922b43ebcaddd9e9df02a2e4f31d4cb89da734d35f02769b1e1b",
+      "export_sha256": "dc48bb8f31f4922b43ebcaddd9e9df02a2e4f31d4cb89da734d35f02769b1e1b",
+      "bytes": 1368,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/timing.cpp",
+      "path": "archive/isolated/q6-native-scale/timing.cpp",
+      "source_sha256": "d6d1958a12848ba465c526353db4f3f4c6bdf7befc00286eed5c22158cf9109d",
+      "export_sha256": "d6d1958a12848ba465c526353db4f3f4c6bdf7befc00286eed5c22158cf9109d",
+      "bytes": 16365,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/analyse_timing.py",
+      "path": "archive/isolated/q6-native-scale/analyse_timing.py",
+      "source_sha256": "5956a9e9a88c0be610d240d973460be66db8634f59875f92d3a2b8cc7e2809d4",
+      "export_sha256": "5956a9e9a88c0be610d240d973460be66db8634f59875f92d3a2b8cc7e2809d4",
+      "bytes": 3259,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/native/mul_mat_vec_iface.glsl",
+      "path": "archive/isolated/q6-native-scale/native/mul_mat_vec_iface.glsl",
+      "source_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "export_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "bytes": 1223,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/native/mul_mat_vec_q6_k.comp",
+      "path": "archive/isolated/q6-native-scale/native/mul_mat_vec_q6_k.comp",
+      "source_sha256": "bc785a2457aa5b04d416e18f5ae2304da267e35cea7b54ac67b5d20987e450af",
+      "export_sha256": "bc785a2457aa5b04d416e18f5ae2304da267e35cea7b54ac67b5d20987e450af",
+      "bytes": 5746,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/native/types.glsl",
+      "path": "archive/isolated/q6-native-scale/native/types.glsl",
+      "source_sha256": "a88aade2345ab25eb681632d79632df5da7579460e0781f616338343e823a84c",
+      "export_sha256": "a88aade2345ab25eb681632d79632df5da7579460e0781f616338343e823a84c",
+      "bytes": 128859,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/native/mul_mat_vec_base.glsl",
+      "path": "archive/isolated/q6-native-scale/native/mul_mat_vec_base.glsl",
+      "source_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "export_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "bytes": 8205,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/shuffle/mul_mat_vec_iface.glsl",
+      "path": "archive/isolated/q6-native-scale/shuffle/mul_mat_vec_iface.glsl",
+      "source_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "export_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "bytes": 1223,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/shuffle/mul_mat_vec_q6_k.comp",
+      "path": "archive/isolated/q6-native-scale/shuffle/mul_mat_vec_q6_k.comp",
+      "source_sha256": "2d41643b07de8f863e88c48b64cb0efd642921956e8865a71e78d24f2ae1f90c",
+      "export_sha256": "2d41643b07de8f863e88c48b64cb0efd642921956e8865a71e78d24f2ae1f90c",
+      "bytes": 5494,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/shuffle/types.glsl",
+      "path": "archive/isolated/q6-native-scale/shuffle/types.glsl",
+      "source_sha256": "a88aade2345ab25eb681632d79632df5da7579460e0781f616338343e823a84c",
+      "export_sha256": "a88aade2345ab25eb681632d79632df5da7579460e0781f616338343e823a84c",
+      "bytes": 128859,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/shuffle/mul_mat_vec_base.glsl",
+      "path": "archive/isolated/q6-native-scale/shuffle/mul_mat_vec_base.glsl",
+      "source_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "export_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "bytes": 8205,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/direct/mul_mat_vec_iface.glsl",
+      "path": "archive/isolated/q6-native-scale/direct/mul_mat_vec_iface.glsl",
+      "source_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "export_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "bytes": 1223,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/direct/mul_mat_vec_q6_k.comp",
+      "path": "archive/isolated/q6-native-scale/direct/mul_mat_vec_q6_k.comp",
+      "source_sha256": "f16cbb981fa6a3e4ec5dbc8b340c32e4ea0cafb044cee70d5759c3c034be3732",
+      "export_sha256": "f16cbb981fa6a3e4ec5dbc8b340c32e4ea0cafb044cee70d5759c3c034be3732",
+      "bytes": 5348,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/direct/types.glsl",
+      "path": "archive/isolated/q6-native-scale/direct/types.glsl",
+      "source_sha256": "a88aade2345ab25eb681632d79632df5da7579460e0781f616338343e823a84c",
+      "export_sha256": "a88aade2345ab25eb681632d79632df5da7579460e0781f616338343e823a84c",
+      "bytes": 128859,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/direct/mul_mat_vec_base.glsl",
+      "path": "archive/isolated/q6-native-scale/direct/mul_mat_vec_base.glsl",
+      "source_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "export_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "bytes": 8205,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/diagnostics/probe.log",
+      "path": "archive/isolated/q6-native-scale/diagnostics/probe.log",
+      "source_sha256": "647cc8b197f7f4eb592b2b172d0a3cee49848dfa29696c458d1f991f64780fe7",
+      "export_sha256": "d5f95471bbf761f3bfdc04b275a8e75aa2868ca64908d467d0902bf4ae7025b6",
+      "bytes": 2044198,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-native-scale/diagnostics/assets.json",
+      "path": "archive/isolated/q6-native-scale/diagnostics/assets.json",
+      "source_sha256": "d612974841af03f7fabe228fba689ba1ef8be8a13d7a8e17d6ec45b1b444db09",
+      "export_sha256": "d9726836b66e644274135af4d27a3665447d03932967aedd43a824e5f425c856",
+      "bytes": 935,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-native-scale/diagnostics/checks.json",
+      "path": "archive/isolated/q6-native-scale/diagnostics/checks.json",
+      "source_sha256": "96b2c63066982a6820df7c272d296ff1ec4ba634c321e9f85f0323912a49f82b",
+      "export_sha256": "96b2c63066982a6820df7c272d296ff1ec4ba634c321e9f85f0323912a49f82b",
+      "bytes": 4474,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/timing-runs/20261029T073750Z/analysis.json",
+      "path": "archive/isolated/q6-native-scale/timing-runs/20261029T073750Z/analysis.json",
+      "source_sha256": "ef2e100c91d285d94c66cf5127eb56fc16d365d9aa1aae03766c6cb654668398",
+      "export_sha256": "ef2e100c91d285d94c66cf5127eb56fc16d365d9aa1aae03766c6cb654668398",
+      "bytes": 60996,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/timing-runs/20261029T073750Z/probe.log",
+      "path": "archive/isolated/q6-native-scale/timing-runs/20261029T073750Z/probe.log",
+      "source_sha256": "4000d467b2cdc230a91017cd3da15c8a3e0bbf87996934eb06e994a9b5eca4b6",
+      "export_sha256": "3f82b6bc3c18a3f170c9f20637405c39aafe923f4f6913ed4695b84f9450f316",
+      "bytes": 29982,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-native-scale/timing-runs/20261029T073750Z/assets.json",
+      "path": "archive/isolated/q6-native-scale/timing-runs/20261029T073750Z/assets.json",
+      "source_sha256": "b89e2e5b0df982fc1fb870b6f7038892f4f2608eec9241a55b7fb9539260d719",
+      "export_sha256": "a7cbf534ef8f11870352d4c5fc8eaed1490e52ce3a7ae05ef683349734ca4fa3",
+      "bytes": 943,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q6-native-scale/timing-runs/20261029T073750Z/checks.json",
+      "path": "archive/isolated/q6-native-scale/timing-runs/20261029T073750Z/checks.json",
+      "source_sha256": "e3834b0c9b4c54707d8a3100d98b2f67bc415f8cd05bc51b136593e34371c59a",
+      "export_sha256": "e3834b0c9b4c54707d8a3100d98b2f67bc415f8cd05bc51b136593e34371c59a",
+      "bytes": 27970,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/timing-runs/20261029T073750Z/telemetry.jsonl",
+      "path": "archive/isolated/q6-native-scale/timing-runs/20261029T073750Z/telemetry.jsonl",
+      "source_sha256": "5c63cf99d715bb2471b5bd93af057286665ebd2a4c2ea2b9b1859d7ad82e45c8",
+      "export_sha256": "5c63cf99d715bb2471b5bd93af057286665ebd2a4c2ea2b9b1859d7ad82e45c8",
+      "bytes": 190414,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q6_pad212_probe.py",
+      "path": "archive/isolated/run_q6_pad212_probe.py",
+      "source_sha256": "85c0b252929f49355a1df03a4096f998563da22b5bcee9dc17fac3f0a5c504e8",
+      "export_sha256": "85c0b252929f49355a1df03a4096f998563da22b5bcee9dc17fac3f0a5c504e8",
+      "bytes": 3104,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q6_pad212_timing.py",
+      "path": "archive/isolated/run_q6_pad212_timing.py",
+      "source_sha256": "c88e96a90b9fedd646d4cb02f7bc670eeb61806d0e08cfdea32db0a37fd8ed20",
+      "export_sha256": "c88e96a90b9fedd646d4cb02f7bc670eeb61806d0e08cfdea32db0a37fd8ed20",
+      "bytes": 4364,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q6_native_scale_probe.py",
+      "path": "archive/isolated/run_q6_native_scale_probe.py",
+      "source_sha256": "cfeff6734ae4bee0dbacef304aff33879797ab9d8024e1023d219c67c49a3e42",
+      "export_sha256": "cfeff6734ae4bee0dbacef304aff33879797ab9d8024e1023d219c67c49a3e42",
+      "bytes": 3141,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q6_native_scale_timing.py",
+      "path": "archive/isolated/run_q6_native_scale_timing.py",
+      "source_sha256": "6fd8bf78f43cfbc42da654373d4d7c9903e3e0c64d577340680c01d0d9c52e9e",
+      "export_sha256": "6fd8bf78f43cfbc42da654373d4d7c9903e3e0c64d577340680c01d0d9c52e9e",
+      "bytes": 4394,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-pad212/STATUS.md",
+      "path": "archive/isolated/q6-pad212/STATUS.md",
+      "source_sha256": "986a0094dc80fa9ebfbce7958d1881cbe4f68b3f7b71be82cb0087057780981f",
+      "export_sha256": "986a0094dc80fa9ebfbce7958d1881cbe4f68b3f7b71be82cb0087057780981f",
+      "bytes": 409,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q6-native-scale/STATUS.md",
+      "path": "archive/isolated/q6-native-scale/STATUS.md",
+      "source_sha256": "986a0094dc80fa9ebfbce7958d1881cbe4f68b3f7b71be82cb0087057780981f",
+      "export_sha256": "986a0094dc80fa9ebfbce7958d1881cbe4f68b3f7b71be82cb0087057780981f",
+      "bytes": 409,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-29T07:29:31.785151+00:00"
+  "updated_utc": "2026-10-29T07:40:40.923366+00:00"
 }

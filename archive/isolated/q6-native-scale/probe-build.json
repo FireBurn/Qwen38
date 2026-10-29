@@ -1,0 +1,13 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "${WORKSPACE}/isolated/q6-native-scale/probe.cpp",
+    "-lvulkan",
+    "-o",
+    "${WORKSPACE}/isolated/q6-native-scale/operator_bench"
+  ],
+  "source_sha256": "68ff8053064679ab92dbf603a20b9953a432dedade337f9f89303c878d70ff30",
+  "binary_sha256": "fb8dc3a39f8934a8f333564bce0fa9eab14d1f2911d7e39e8f2638c9310dbf7e"
+}
