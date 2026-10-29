@@ -1,0 +1,75 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+0.08.405.134 I cmn          init: llama threadpool init, n_threads = 1
+BACKEND_PATH_OK ${WORKSPACE}/isolated/production-baseline-aa8/bin/libggml-vulkan.so.0.27.0
+DRIVER_PATH_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+0.08.472.795 I common_speculative_init_result: creating MTP draft context against the target model '${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf'
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 4216
+ the eventsACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 5879
+ that ledACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 279
+ to theACCEPTED_TOKEN 20616
+ establishmentACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theACCEPTED_TOKEN 12386
+ACCEPTED_TOKEN 19825
+ Roman EmpireACCEPTED_TOKEN 1172
+ underACCEPTED_TOKEN 5963
+ACCEPTED_TOKEN 350
+ AugustusACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+FULL_MODEL_WARM tokens=17 time_us=128680030420
+TheACCEPTED_TOKEN 46706
+ assassinationACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 66900
+ of JuliusACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 303
+ Caesar inACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 19
+ 4ACCEPTED_TOKEN 19
+ACCEPTED_TOKEN 17501
+4 BCACCEPTED_TOKEN 12495
+ACCEPTED_TOKEN 279
+ marked theACCEPTED_TOKEN 6941
+ACCEPTED_TOKEN 314
+ beginning ofACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 4031
+ a periodACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 4788
+FULL_MODEL_TIMING warm_tokens=17 cold_generation_us=468243 steady_tokens=17 steady_us=406941 total_generation_us=875184
+ of political
+
+0.09.547.347 I encoded   37 tokens in    0.182 seconds, speed:  202.839 t/s
+0.09.547.348 I decoded   34 tokens in    0.875 seconds, speed:   38.849 t/s
+0.09.547.348 I 
+0.09.547.349 I n_draft   = 1
+0.09.547.349 I n_predict = 34
+0.09.547.349 I n_drafted = 19
+0.09.547.349 I n_accept  = 15
+0.09.547.350 I accept    = 78.947%
+0.09.547.350 I 
+0.09.547.351 I draft:
+
+0.09.547.362 I 
+0.09.547.363 I target:
+
+0.09.547.364 I common_perf_print:    sampling time =      11.53 ms
+0.09.547.365 I common_perf_print:    samplers time =       3.22 ms /    34 tokens
+0.09.547.366 I common_perf_print:        load time =    6142.22 ms
+0.09.547.368 I common_perf_print: prompt eval time =     669.30 ms /    74 tokens (    9.04 ms per token,   110.56 tokens per second)
+0.09.547.370 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.09.547.371 I common_perf_print:       total time =    1075.09 ms /    75 tokens
+0.09.547.372 I common_perf_print: unaccounted time =     394.26 ms /  36.7 %      (total - sampling - prompt eval - eval) / (total)
+0.09.547.373 I common_perf_print:    graphs reused =         18
+0.09.547.374 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+
+

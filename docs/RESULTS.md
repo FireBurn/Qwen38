@@ -88,3 +88,9 @@ Post-guard profiling motivates testing the existing node cap100/200/400 with fro
 ## Whole-configuration confirmation and populated KV (2026-10-29)
 
 A separate predeclared36-arm adaptive follow-up matches externalCPU/build/runqueue load and reports naturalDVFS as an outcome. All6blocks pass,noexclusions. FrozenQ3/cap400 gains **+8.43% [+7.17%,+9.71%] versus stock100** and **+5.15% [+3.81%,+6.50%] versus frozenQ3/cap100**. Mean steady39.30/40.52/42.62tokens/s. All36outputs/counters exact,no newGPUerrors. Mean sampled activepower rises135→151W; no clock/power settings changed. Originalclock-matchedfailure remains rejected. A fresh stock/frozen100/frozen400audit matches all72requestedtargetrows at positions2580–2644. Stock400alone is untested and is the next contribution check before assuming3GiBextraQ3cache necessary. [Full protocol,evidence and limits](SUBMISSION-CAP.md).
+
+## Setting-only contribution (2026-10-29)
+
+An independent 36-arm stock100/stock400/frozen400 trial passes all six external-load-matched blocks, with no exclusions. Stock400 gains **+5.67% [+3.50%, +7.87%]** without a padded cache. Frozen400 adds **+2.89% [+0.96%, +4.86%]** for about 3 GiB extra sampled VRAM; stock400 fails the predeclared within-1% noninferiority check.
+
+The combination's +8.72% contrast is a descriptive repeat consistent with the preceding +8.43% trial. Outputs and counters match, no new GPU errors occur, and stock400 passes short and populated-KV target-logit checks. Sampled power rises from about 136 W to 153 W with cap400 under unchanged system settings and natural DVFS. Keep the fastest padded option and lower-memory stock option. [Evidence and guarded reproduction](CONTRIBUTION.md).

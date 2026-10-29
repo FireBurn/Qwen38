@@ -9,7 +9,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 
 - [Results and conclusions](docs/RESULTS.md): measured gains, losses and inconclusive results.
 - [36-run under-load A/B test](docs/UNDER-LOAD-AB.md): independent confirmation finds no measurable gain.
-- [Submission-only contribution experiment](docs/CONTRIBUTION.md): checks whether stock/cap400 can avoid the extra Q3 cache; timing pending.
+- [Submission-only contribution experiment](docs/CONTRIBUTION.md): stock/cap400 gains 5.67%; padded Q3 adds 2.89% at about 3 GiB extra VRAM.
 - [Submission-size profiling and follow-up](docs/SUBMISSION-CAP.md): +8.43% scoped whole-configuration gain; original clock-matched failure retained, natural clocks/power reported.
 - [Native Q6 alignment and scale exchange](docs/Q6-NATIVE.md): exact operators and smaller shaders, but no qualified streamed gain.
 - [Combined smaller-fusion follow-up](docs/FUSION-COMBINATION.md): graph-cached options, correctness checks and independent matched-load confirmation.

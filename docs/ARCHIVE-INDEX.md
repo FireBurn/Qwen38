@@ -284,3 +284,7 @@ See [experiment and interpretation](FUSION-COMBINATION.md). The manifest include
 ## Whole-configuration follow-up
 
 [Interpretation](SUBMISSION-CAP.md). `submission-system-effect512/20261029T080536Z` retains36fresh runs, all6external-load-matched blocks, clock/power outcomes and complete runtime/telemetry provenance. `submission-populated-kv64` covers72targetrows at positions2580–2644. `submission-qualified-20261029.json` records the scoped configuration without modifying frozen binaries. The earlier zero-clock-matched-block result is retained separately.
+
+## Submission-only contribution check
+
+[Interpretation](CONTRIBUTION.md). `contribution512/20261029T082723Z` contains36fresh processes,all6external-load-matched blocks,paired primary/secondary contrasts and preset1%noninferiority check. Stock400logit checks match short andpopulatedKVreferences. `stock400-qualified-20261029.json` and `qualified-stock400-single` preserve a guarded lower-memory option; frozenQ3/cap400 remains available.

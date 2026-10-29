@@ -1,0 +1,253 @@
+{
+  "modes": {
+    "stock100": {
+      "arms": 12,
+      "means": {
+        "steady_tokens_per_second": 39.42204303539962,
+        "total_generation_tokens_per_second": 39.25832731646206,
+        "encode_seconds": 0.17966666666666667,
+        "cold_first_window_seconds": 0.4855149166666667,
+        "total_generation_seconds": 13.069991583333334,
+        "process_wall_seconds": 21.22067679799996
+      },
+      "clock_settled_arms": 12,
+      "outcomes": {
+        "clock_mhz": {
+          "samples": 1485,
+          "mean": 1676.624915824916,
+          "p10": 1640.0,
+          "median": 1649.0,
+          "p90": 1749.0
+        },
+        "memory_clock_mhz": {
+          "samples": 1485,
+          "mean": 1258.0,
+          "p10": 1258.0,
+          "median": 1258.0,
+          "p90": 1258.0
+        },
+        "power_watts": {
+          "samples": 1485,
+          "mean": 135.72255892255893,
+          "p10": 130.0,
+          "median": 135.0,
+          "p90": 142.0
+        },
+        "temperature_c": {
+          "samples": 1485,
+          "mean": 58.78855218855219,
+          "p10": 55.0,
+          "median": 61.0,
+          "p90": 62.0
+        },
+        "gpu_busy": {
+          "samples": 1485,
+          "mean": 83.95959595959596,
+          "p10": 80.0,
+          "median": 84.0,
+          "p90": 89.0
+        },
+        "cpu_busy": {
+          "samples": 1485,
+          "mean": 0.5168374431416961,
+          "p10": 0.5,
+          "median": 0.5126582278481013,
+          "p90": 0.5345911949685535
+        },
+        "vram_bytes": {
+          "samples": 1485,
+          "mean": 16808030208.0,
+          "p10": 16808030208.0,
+          "median": 16808030208.0,
+          "p90": 16808030208.0
+        }
+      },
+      "optional_sensor_errors": []
+    },
+    "stock400": {
+      "arms": 12,
+      "means": {
+        "steady_tokens_per_second": 41.66667044303272,
+        "total_generation_tokens_per_second": 41.44523325230323,
+        "encode_seconds": 0.1815,
+        "cold_first_window_seconds": 0.47359358333333335,
+        "total_generation_seconds": 12.386567416666667,
+        "process_wall_seconds": 20.4675964340034
+      },
+      "clock_settled_arms": 2,
+      "outcomes": {
+        "clock_mhz": {
+          "samples": 1406,
+          "mean": 1973.900426742532,
+          "p10": 1641.0,
+          "median": 1732.0,
+          "p90": 2644.0
+        },
+        "memory_clock_mhz": {
+          "samples": 1406,
+          "mean": 1258.0,
+          "p10": 1258.0,
+          "median": 1258.0,
+          "p90": 1258.0
+        },
+        "power_watts": {
+          "samples": 1406,
+          "mean": 153.4580369843528,
+          "p10": 132.0,
+          "median": 140.0,
+          "p90": 195.0
+        },
+        "temperature_c": {
+          "samples": 1406,
+          "mean": 58.9950213371266,
+          "p10": 53.0,
+          "median": 61.0,
+          "p90": 62.0
+        },
+        "gpu_busy": {
+          "samples": 1406,
+          "mean": 85.51564722617354,
+          "p10": 81.0,
+          "median": 86.0,
+          "p90": 90.0
+        },
+        "cpu_busy": {
+          "samples": 1406,
+          "mean": 0.5207605593372058,
+          "p10": 0.5,
+          "median": 0.5157232704402516,
+          "p90": 0.55625
+        },
+        "vram_bytes": {
+          "samples": 1406,
+          "mean": 16808914944.0,
+          "p10": 16808914944.0,
+          "median": 16808914944.0,
+          "p90": 16808914944.0
+        }
+      },
+      "optional_sensor_errors": []
+    },
+    "frozen400": {
+      "arms": 12,
+      "means": {
+        "steady_tokens_per_second": 42.86511902487027,
+        "total_generation_tokens_per_second": 42.627897982319666,
+        "encode_seconds": 0.1825,
+        "cold_first_window_seconds": 0.46313624999999997,
+        "total_generation_seconds": 12.039879166666667,
+        "process_wall_seconds": 20.125463797752065
+      },
+      "clock_settled_arms": 1,
+      "outcomes": {
+        "clock_mhz": {
+          "samples": 1362,
+          "mean": 2049.3421439060207,
+          "p10": 1641.0,
+          "median": 1891.5,
+          "p90": 2524.0
+        },
+        "memory_clock_mhz": {
+          "samples": 1362,
+          "mean": 1258.0,
+          "p10": 1258.0,
+          "median": 1258.0,
+          "p90": 1258.0
+        },
+        "power_watts": {
+          "samples": 1362,
+          "mean": 153.94126284875185,
+          "p10": 132.0,
+          "median": 146.0,
+          "p90": 182.0
+        },
+        "temperature_c": {
+          "samples": 1362,
+          "mean": 58.9654919236417,
+          "p10": 53.0,
+          "median": 60.0,
+          "p90": 62.0
+        },
+        "gpu_busy": {
+          "samples": 1362,
+          "mean": 85.62775330396475,
+          "p10": 81.0,
+          "median": 86.0,
+          "p90": 90.0
+        },
+        "cpu_busy": {
+          "samples": 1362,
+          "mean": 0.5201731800943683,
+          "p10": 0.5,
+          "median": 0.5157232704402516,
+          "p90": 0.5471698113207547
+        },
+        "vram_bytes": {
+          "samples": 1362,
+          "mean": 20030148608.0,
+          "p10": 20030148608.0,
+          "median": 20030148608.0,
+          "p90": 20030148608.0
+        }
+      },
+      "optional_sensor_errors": []
+    }
+  },
+  "matched_contrasts": {
+    "steady_tokens_per_second": {
+      "cap_only": {
+        "blocks": 6,
+        "geometric_speed_change_percent": 5.66578117438762,
+        "descriptive_t95_percent": [
+          3.5032503919779736,
+          7.873494493260215
+        ]
+      },
+      "cache_incremental": {
+        "blocks": 6,
+        "geometric_speed_change_percent": 2.8901372268456833,
+        "descriptive_t95_percent": [
+          0.9583682701516703,
+          4.8588692542190985
+        ]
+      },
+      "combo_vs_stock": {
+        "blocks": 6,
+        "geometric_speed_change_percent": 8.719667252145895,
+        "descriptive_t95_percent": [
+          7.48322737331988,
+          9.97033059272787
+        ]
+      }
+    },
+    "total_generation_tokens_per_second": {
+      "cap_only": {
+        "blocks": 6,
+        "geometric_speed_change_percent": 5.544458597607804,
+        "descriptive_t95_percent": [
+          3.5053228645002563,
+          7.623766897912494
+        ]
+      },
+      "cache_incremental": {
+        "blocks": 6,
+        "geometric_speed_change_percent": 2.8663615797154556,
+        "descriptive_t95_percent": [
+          1.0214186391518336,
+          4.744998508146086
+        ]
+      },
+      "combo_vs_stock": {
+        "blocks": 6,
+        "geometric_speed_change_percent": 8.56974440836832,
+        "descriptive_t95_percent": [
+          7.437292368590169,
+          9.714133156473018
+        ]
+      }
+    }
+  },
+  "all_tokens_and_counters_identical": true,
+  "new_driver_errors": [],
+  "scope": "Supplement to predeclared contribution experiment. Clock/power/temperature are outcomes; optional sensor errors retained and do not alter mandatory external matching. Pooled mode means include all arms. Full-generation TPS contrast is descriptive secondary,not another primary test. Sensor mean power is not integrated energy or controlled-clock causality. No new samples or matching-rule changes."
+}
