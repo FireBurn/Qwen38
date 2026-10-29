@@ -14971,7 +14971,719 @@
       "export_sha256": "9debb020c48bbcc2938ae3548c6ceb1c80317d1cbd8732deb1515d54edc04588",
       "bytes": 9005,
       "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/CONFIRMATION-PLAN.md",
+      "path": "archive/isolated/q3-column-reuse/CONFIRMATION-PLAN.md",
+      "source_sha256": "1434bb37503448a3a51377abe4a03f49a55e61bb2951b5f695986e938c29f266",
+      "export_sha256": "1434bb37503448a3a51377abe4a03f49a55e61bb2951b5f695986e938c29f266",
+      "bytes": 962,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/MICRO-PLAN.md",
+      "path": "archive/isolated/q3-column-reuse/MICRO-PLAN.md",
+      "source_sha256": "699aa0bff32e5387033f6b718034d1e4b90e37afcc243fd7ffe60842310e63a3",
+      "export_sha256": "699aa0bff32e5387033f6b718034d1e4b90e37afcc243fd7ffe60842310e63a3",
+      "bytes": 1023,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/NEXT.md",
+      "path": "archive/isolated/q3-column-reuse/NEXT.md",
+      "source_sha256": "4f75118ad98eae6ad605d09a35275949ad07a0d48233e474010bcbc91c910d56",
+      "export_sha256": "4f75118ad98eae6ad605d09a35275949ad07a0d48233e474010bcbc91c910d56",
+      "bytes": 2243,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/PLAN.md",
+      "path": "archive/isolated/q3-column-reuse/PLAN.md",
+      "source_sha256": "1166748bc4626ca7e8e011da24782f29e2376f6d058c5f3884486be7f846559b",
+      "export_sha256": "1166748bc4626ca7e8e011da24782f29e2376f6d058c5f3884486be7f846559b",
+      "bytes": 1224,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/RESEARCH.md",
+      "path": "archive/isolated/q3-column-reuse/RESEARCH.md",
+      "source_sha256": "28d8e20140fed7bed8f09e34cf9cd15fe19b7ebf60db7acf616cf1413cc72356",
+      "export_sha256": "28d8e20140fed7bed8f09e34cf9cd15fe19b7ebf60db7acf616cf1413cc72356",
+      "bytes": 2342,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/STATUS.md",
+      "path": "archive/isolated/q3-column-reuse/STATUS.md",
+      "source_sha256": "744f1dbd2d524141427bd5db43d6443ab5815d17dbae8ad6ac052e5773166c7b",
+      "export_sha256": "744f1dbd2d524141427bd5db43d6443ab5815d17dbae8ad6ac052e5773166c7b",
+      "bytes": 1752,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/TIMING-PLAN.md",
+      "path": "archive/isolated/q3-column-reuse/TIMING-PLAN.md",
+      "source_sha256": "2718c01a3e7584abb71b5523c4a49d0149ed039a01582c0c14b50b763c19b902",
+      "export_sha256": "2718c01a3e7584abb71b5523c4a49d0149ed039a01582c0c14b50b763c19b902",
+      "bytes": 1311,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/analyse_micro.py",
+      "path": "archive/isolated/q3-column-reuse/analyse_micro.py",
+      "source_sha256": "09cba3346251b9a64627ac3d5d19b3f4904a2355669670ad310c6bfb42de0096",
+      "export_sha256": "09cba3346251b9a64627ac3d5d19b3f4904a2355669670ad310c6bfb42de0096",
+      "bytes": 1725,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/boundary128/assets.json",
+      "path": "archive/isolated/q3-column-reuse/boundary128/assets.json",
+      "source_sha256": "baba545e1d631d61e6338b962118e286ff7ba14db644c9e55e1a819f99971c41",
+      "export_sha256": "6a8160d544cf7ccd2fa0701240352e8c1b7f27d3614e2bf8ee87ed77bfa08f47",
+      "bytes": 2317,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/boundary128/audit-archive.json",
+      "path": "archive/isolated/q3-column-reuse/boundary128/audit-archive.json",
+      "source_sha256": "629835ec55e2d42834866f4f30da074f98f1e60b1b91382f86ef6bec236a511a",
+      "export_sha256": "629835ec55e2d42834866f4f30da074f98f1e60b1b91382f86ef6bec236a511a",
+      "bytes": 235,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/boundary128/checks.json",
+      "path": "archive/isolated/q3-column-reuse/boundary128/checks.json",
+      "source_sha256": "4a43378b69a3338ec78f431b1088f3692cc1666bf5f34745b521feca0fadc9e8",
+      "export_sha256": "4a43378b69a3338ec78f431b1088f3692cc1666bf5f34745b521feca0fadc9e8",
+      "bytes": 6935,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/boundary128/comparison.json",
+      "path": "archive/isolated/q3-column-reuse/boundary128/comparison.json",
+      "source_sha256": "7732c5c50f9efc8f9c5e54d4ab6863c1b5d6a4bd8e58e5fcb6e708e1a29f1f36",
+      "export_sha256": "7732c5c50f9efc8f9c5e54d4ab6863c1b5d6a4bd8e58e5fcb6e708e1a29f1f36",
+      "bytes": 734,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/build.json",
+      "path": "archive/isolated/q3-column-reuse/build.json",
+      "source_sha256": "367d2a4b1a935a2bb91676f6ffcb8e5071958401eadd2800b903d21ef0e57822",
+      "export_sha256": "d1f905dab2b62d0a3177be637c12298dc3a5bc0e39e83eedbf598d141f5b0333",
+      "bytes": 1448,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/build.py",
+      "path": "archive/isolated/q3-column-reuse/build.py",
+      "source_sha256": "d22bb9a8cf2f7627c725e2f0f033a8ca8582b50e2b40186d56b90d9fe5b922ee",
+      "export_sha256": "d22bb9a8cf2f7627c725e2f0f033a8ca8582b50e2b40186d56b90d9fe5b922ee",
+      "bytes": 3963,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/frozen-external-verification.json",
+      "path": "archive/isolated/q3-column-reuse/frozen-external-verification.json",
+      "source_sha256": "8b8b5a29c9ff84c30e6f54ad5b560b1621ad4e6f2c4329e610aa1840ad4171e7",
+      "export_sha256": "469bfb781172ad7ba1e495459215962ae2b67bb25fc0b1eba22e7842effb3ab1",
+      "bytes": 403,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/micro/20261029T131755Z/assets.json",
+      "path": "archive/isolated/q3-column-reuse/micro/20261029T131755Z/assets.json",
+      "source_sha256": "6d8b9a27c666ea8a24204866bc17eeb111ba8db575c35cd308619174be17d4d5",
+      "export_sha256": "94cd54d4aae6a4ce2c50c3510ed544aa8ae7b1f994997147ec2abe9b70e1c94b",
+      "bytes": 924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/micro/20261029T131755Z/checks.json",
+      "path": "archive/isolated/q3-column-reuse/micro/20261029T131755Z/checks.json",
+      "source_sha256": "f738f6b00dd963fc31a0476cf96532edf3eb71099aae8599b37db7e0026b39a8",
+      "export_sha256": "f738f6b00dd963fc31a0476cf96532edf3eb71099aae8599b37db7e0026b39a8",
+      "bytes": 18698,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/micro/20261029T131755Z/sensors-summary.json",
+      "path": "archive/isolated/q3-column-reuse/micro/20261029T131755Z/sensors-summary.json",
+      "source_sha256": "b9731c5b201c38bf63346b62204b0a71a21f93648ab3ad3b946eee9138e0d2a1",
+      "export_sha256": "b9731c5b201c38bf63346b62204b0a71a21f93648ab3ad3b946eee9138e0d2a1",
+      "bytes": 3776,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/micro/20261029T131755Z/summary.json",
+      "path": "archive/isolated/q3-column-reuse/micro/20261029T131755Z/summary.json",
+      "source_sha256": "45a7078baf252e11a5e5212d3d7765db2ce6973217b7b2b0d2f13228b6b7aab7",
+      "export_sha256": "45a7078baf252e11a5e5212d3d7765db2ce6973217b7b2b0d2f13228b6b7aab7",
+      "bytes": 7353,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/micro/20261029T131755Z/telemetry.jsonl",
+      "path": "archive/isolated/q3-column-reuse/micro/20261029T131755Z/telemetry.jsonl",
+      "source_sha256": "84e7d1468f21ccd52e2b979d59318342c33b648e6252b7e84d796a49c4d21937",
+      "export_sha256": "84e7d1468f21ccd52e2b979d59318342c33b648e6252b7e84d796a49c4d21937",
+      "bytes": 85354,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/model32/assets.json",
+      "path": "archive/isolated/q3-column-reuse/model32/assets.json",
+      "source_sha256": "1973789d542c00a77e4f12296f585facf999fb0116148060388d724704f5571b",
+      "export_sha256": "6f0ed8d9d02ce845146170450e464cdebbf696a4404008c29c38d0439671769f",
+      "bytes": 2116,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/model32/audit-archive.json",
+      "path": "archive/isolated/q3-column-reuse/model32/audit-archive.json",
+      "source_sha256": "e7929c6eade94641271436f3de93d494e451b8b6b1c9ee3f5761724de8b934d8",
+      "export_sha256": "e7929c6eade94641271436f3de93d494e451b8b6b1c9ee3f5761724de8b934d8",
+      "bytes": 235,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/model32/checks.json",
+      "path": "archive/isolated/q3-column-reuse/model32/checks.json",
+      "source_sha256": "943227a0482f8da9f0bceb40af36cfa7579abfcb71d0f7b594eb4b05d299899b",
+      "export_sha256": "943227a0482f8da9f0bceb40af36cfa7579abfcb71d0f7b594eb4b05d299899b",
+      "bytes": 3492,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/model32/comparison.json",
+      "path": "archive/isolated/q3-column-reuse/model32/comparison.json",
+      "source_sha256": "93b2304765558d56d3d13e5d7de67ed26456d2eea5489fc95fb9fef1294bf087",
+      "export_sha256": "93b2304765558d56d3d13e5d7de67ed26456d2eea5489fc95fb9fef1294bf087",
+      "bytes": 648,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/operators/assets.json",
+      "path": "archive/isolated/q3-column-reuse/operators/assets.json",
+      "source_sha256": "b6ef56d17771e0218473c8b2265e9316d77839b6a6a529325388b6d156915444",
+      "export_sha256": "c2e0c8cb30a39df4c74bf39c9ad3f124160ccc97290725a149208c62cc85e9a5",
+      "bytes": 936,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/operators/checks.json",
+      "path": "archive/isolated/q3-column-reuse/operators/checks.json",
+      "source_sha256": "bd79055684acd325b10dc2496096129848ab875e5772a176ab65552711ae4867",
+      "export_sha256": "bd79055684acd325b10dc2496096129848ab875e5772a176ab65552711ae4867",
+      "bytes": 4505,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/populated-kv64/assets.json",
+      "path": "archive/isolated/q3-column-reuse/populated-kv64/assets.json",
+      "source_sha256": "22e5d7d3dbbb3a025b200ce82768dde4bf6d635e894ce1f42b934a0984b9dac2",
+      "export_sha256": "ce03140a19e6eefcbc5f8a2a183ae7c6e25aeca5e7bc8e0b6451a6cd08678249",
+      "bytes": 2310,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/populated-kv64/audit-archive.json",
+      "path": "archive/isolated/q3-column-reuse/populated-kv64/audit-archive.json",
+      "source_sha256": "a14231d4c58ad6ae98e34914c3b07fad38a9f41db2d209d8d2ecaa1c6ce5b215",
+      "export_sha256": "a14231d4c58ad6ae98e34914c3b07fad38a9f41db2d209d8d2ecaa1c6ce5b215",
+      "bytes": 235,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/populated-kv64/checks.json",
+      "path": "archive/isolated/q3-column-reuse/populated-kv64/checks.json",
+      "source_sha256": "c4e20b947cc83ba5bb01216ebb82d3f0d0fee3236576438685753e9d3981f033",
+      "export_sha256": "c4e20b947cc83ba5bb01216ebb82d3f0d0fee3236576438685753e9d3981f033",
+      "bytes": 4778,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/populated-kv64/comparison.json",
+      "path": "archive/isolated/q3-column-reuse/populated-kv64/comparison.json",
+      "source_sha256": "63e3134bc3371ed25e6704d000cd0871d6a56fa1b9523f501e9333864a0adf56",
+      "export_sha256": "63e3134bc3371ed25e6704d000cd0871d6a56fa1b9523f501e9333864a0adf56",
+      "bytes": 732,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/prepare_confirmation.py",
+      "path": "archive/isolated/q3-column-reuse/prepare_confirmation.py",
+      "source_sha256": "ccccc0ac2f240fda2da922854a7128b175dcf7cd531e2395a5510f96dedc80f8",
+      "export_sha256": "ccccc0ac2f240fda2da922854a7128b175dcf7cd531e2395a5510f96dedc80f8",
+      "bytes": 928,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/prepare_micro.py",
+      "path": "archive/isolated/q3-column-reuse/prepare_micro.py",
+      "source_sha256": "58deb04f5bb8d1c73b491b522c71c65845085e61c8f0f5a0fa7f401348a9bd46",
+      "export_sha256": "58deb04f5bb8d1c73b491b522c71c65845085e61c8f0f5a0fa7f401348a9bd46",
+      "bytes": 1412,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/prepare_models.py",
+      "path": "archive/isolated/q3-column-reuse/prepare_models.py",
+      "source_sha256": "8420ef49804ace78d758e25c9bfa6bc1eae2da6127b8f4f3c852aff8342a4902",
+      "export_sha256": "8420ef49804ace78d758e25c9bfa6bc1eae2da6127b8f4f3c852aff8342a4902",
+      "bytes": 2334,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/prepare_timing.py",
+      "path": "archive/isolated/q3-column-reuse/prepare_timing.py",
+      "source_sha256": "f51fcb1c4904296becdf9cdfea9139c4763201cdc26e7d20fb3611ebe5b3e3a5",
+      "export_sha256": "f51fcb1c4904296becdf9cdfea9139c4763201cdc26e7d20fb3611ebe5b3e3a5",
+      "bytes": 4078,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/probe.cpp",
+      "path": "archive/isolated/q3-column-reuse/probe.cpp",
+      "source_sha256": "cfce56ce6e1b85249de4a76e68d8d3e883498f13811b38b73d05d52f16ee8844",
+      "export_sha256": "cfce56ce6e1b85249de4a76e68d8d3e883498f13811b38b73d05d52f16ee8844",
+      "bytes": 15401,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/prompts128/assets.json",
+      "path": "archive/isolated/q3-column-reuse/prompts128/assets.json",
+      "source_sha256": "0c97d0f1fe379b4e9d5533156ac1128766a61b1fad2de41c8dd1a8237e9a1252",
+      "export_sha256": "5e0b55a2f4bcd2cad0bef3e04fe585509709eb49d820df008dd3986f249de5c4",
+      "bytes": 2168,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/prompts128/checks.json",
+      "path": "archive/isolated/q3-column-reuse/prompts128/checks.json",
+      "source_sha256": "279d68dddec0b64cac23ba8822d37ef622bff9188f53cc518e7fed1f357de385",
+      "export_sha256": "279d68dddec0b64cac23ba8822d37ef622bff9188f53cc518e7fed1f357de385",
+      "bytes": 4419,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/q3-column-reuse/prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/prompts128/comparison.json",
+      "path": "archive/isolated/q3-column-reuse/prompts128/comparison.json",
+      "source_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "export_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/prompts128/math/audit-archive.json",
+      "path": "archive/isolated/q3-column-reuse/prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/publish.py",
+      "path": "archive/isolated/q3-column-reuse/publish.py",
+      "source_sha256": "e56bff25b59e09eae100b5c9034d568e7fa6a27b07287a76232c69b27f8623ec",
+      "export_sha256": "18ebfaf0e4f481abc643656a9a728db1f739a75fcfb97b678853c5fbb51e1d6e",
+      "bytes": 1595,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/qualification-summary.json",
+      "path": "archive/isolated/q3-column-reuse/qualification-summary.json",
+      "source_sha256": "edccbcbdd80954b0f609a5f3bb222e2b6b056106987ec48ad46d4f4f0a46aeac",
+      "export_sha256": "edccbcbdd80954b0f609a5f3bb222e2b6b056106987ec48ad46d4f4f0a46aeac",
+      "bytes": 2574,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/shader/mul_mat_vec_base.glsl",
+      "path": "archive/isolated/q3-column-reuse/shader/mul_mat_vec_base.glsl",
+      "source_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "export_sha256": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323",
+      "bytes": 8205,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/shader/mul_mat_vec_iface.glsl",
+      "path": "archive/isolated/q3-column-reuse/shader/mul_mat_vec_iface.glsl",
+      "source_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "export_sha256": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+      "bytes": 1223,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/shader/mul_mat_vecq.comp",
+      "path": "archive/isolated/q3-column-reuse/shader/mul_mat_vecq.comp",
+      "source_sha256": "32cb66c9c3a1daa4e51ff226f8f0fdfc295e5378c09be82109dabb1e808848d6",
+      "export_sha256": "32cb66c9c3a1daa4e51ff226f8f0fdfc295e5378c09be82109dabb1e808848d6",
+      "bytes": 27599,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/shader/mul_mat_vecq_funcs.glsl",
+      "path": "archive/isolated/q3-column-reuse/shader/mul_mat_vecq_funcs.glsl",
+      "source_sha256": "09d3c0c51323401046a86ef9b4fddfbda62635959b4b87fa7dc4e8ed507f55fd",
+      "export_sha256": "09d3c0c51323401046a86ef9b4fddfbda62635959b4b87fa7dc4e8ed507f55fd",
+      "bytes": 24160,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/shader/types.glsl",
+      "path": "archive/isolated/q3-column-reuse/shader/types.glsl",
+      "source_sha256": "aca653120c4868f58fdc3a8ccb66bd568ac50f062475978286c200c73464419b",
+      "export_sha256": "aca653120c4868f58fdc3a8ccb66bd568ac50f062475978286c200c73464419b",
+      "bytes": 128915,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/shader.patch",
+      "path": "archive/isolated/q3-column-reuse/shader.patch",
+      "source_sha256": "60924d59a69b05f3c49787582cd11a7544495012cd4ab65fa14f0eb1f942fd29",
+      "export_sha256": "60924d59a69b05f3c49787582cd11a7544495012cd4ab65fa14f0eb1f942fd29",
+      "bytes": 2034,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/summarize.py",
+      "path": "archive/isolated/q3-column-reuse/summarize.py",
+      "source_sha256": "3f1706e6c3025d3cc4a31d9d9aac4c4701cd406775e7147b7a46e5d5dd55b453",
+      "export_sha256": "3f1706e6c3025d3cc4a31d9d9aac4c4701cd406775e7147b7a46e5d5dd55b453",
+      "bytes": 1867,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/summarize_micro_sensors.py",
+      "path": "archive/isolated/q3-column-reuse/summarize_micro_sensors.py",
+      "source_sha256": "2583c8c64dda4a67a6328ea7eccf9c98dfddb789acae694969024bd8ff123995",
+      "export_sha256": "2583c8c64dda4a67a6328ea7eccf9c98dfddb789acae694969024bd8ff123995",
+      "bytes": 1319,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing-build.json",
+      "path": "archive/isolated/q3-column-reuse/timing-build.json",
+      "source_sha256": "3f82b0750eab02307e7e7340c7e61d40a8eeb736872138eae7bcf31f83370fad",
+      "export_sha256": "1b3dae0004d98d0483f6a46e864be51e816f09198fc2a41cc7196e841ec65f6d",
+      "bytes": 388,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing.cpp",
+      "path": "archive/isolated/q3-column-reuse/timing.cpp",
+      "source_sha256": "01737120fc490ef34327227dfc784dd62cdeb6a8864d495d380f53c59a910454",
+      "export_sha256": "01737120fc490ef34327227dfc784dd62cdeb6a8864d495d380f53c59a910454",
+      "bytes": 16596,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/00-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/00-frozen-telemetry.json",
+      "source_sha256": "cb41cf3e5edb6cec17101038b13ce4861f1c52f09e65244b2141ef747d4dcd16",
+      "export_sha256": "cb41cf3e5edb6cec17101038b13ce4861f1c52f09e65244b2141ef747d4dcd16",
+      "bytes": 67448,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/01-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/01-reuse-telemetry.json",
+      "source_sha256": "0ca95196d28ad644cc15f12d44add0710c99814ecb00ce56f3bc7563bd43093a",
+      "export_sha256": "0ca95196d28ad644cc15f12d44add0710c99814ecb00ce56f3bc7563bd43093a",
+      "bytes": 65721,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/02-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/02-reuse-telemetry.json",
+      "source_sha256": "109267edd825d10b60257c26e25f6b735b48091d212f9c3692c61827f5f9bdb7",
+      "export_sha256": "109267edd825d10b60257c26e25f6b735b48091d212f9c3692c61827f5f9bdb7",
+      "bytes": 64789,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/03-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/03-frozen-telemetry.json",
+      "source_sha256": "75e321e2105bca3d5fc632fb86efed8112ac4f56c459dddb1af9cd5cf4b3dd9f",
+      "export_sha256": "75e321e2105bca3d5fc632fb86efed8112ac4f56c459dddb1af9cd5cf4b3dd9f",
+      "bytes": 65750,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/04-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/04-reuse-telemetry.json",
+      "source_sha256": "b590caeadd081e2f1cafc2a4a9426832e9234b278378d7828583cbf9efa3c465",
+      "export_sha256": "b590caeadd081e2f1cafc2a4a9426832e9234b278378d7828583cbf9efa3c465",
+      "bytes": 65624,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/05-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/05-frozen-telemetry.json",
+      "source_sha256": "067638f6730f43b6d519d7a452ea84e42575137a97d0e42e57f61c307a91cef7",
+      "export_sha256": "067638f6730f43b6d519d7a452ea84e42575137a97d0e42e57f61c307a91cef7",
+      "bytes": 66364,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/06-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/06-frozen-telemetry.json",
+      "source_sha256": "ec4a91f2aa7ffd035304611c6be7148f946fbc5c678d12d311297b87edf34f79",
+      "export_sha256": "ec4a91f2aa7ffd035304611c6be7148f946fbc5c678d12d311297b87edf34f79",
+      "bytes": 67290,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/07-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/07-reuse-telemetry.json",
+      "source_sha256": "aa5be70ba8c2aacf532785ce32d50aeab32fdf75f2cf5193882b36d21a8b679e",
+      "export_sha256": "aa5be70ba8c2aacf532785ce32d50aeab32fdf75f2cf5193882b36d21a8b679e",
+      "bytes": 65785,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/08-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/08-frozen-telemetry.json",
+      "source_sha256": "6357afe7bfc030eb698406445ce47dda84c49c997dddad3d460a2e5d47693d06",
+      "export_sha256": "6357afe7bfc030eb698406445ce47dda84c49c997dddad3d460a2e5d47693d06",
+      "bytes": 65784,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/09-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/09-reuse-telemetry.json",
+      "source_sha256": "23a12390d0ff9c4fb59cab738112e3988cca61abc12b8577f0257679ea1c3321",
+      "export_sha256": "23a12390d0ff9c4fb59cab738112e3988cca61abc12b8577f0257679ea1c3321",
+      "bytes": 64744,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/10-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/10-reuse-telemetry.json",
+      "source_sha256": "6c6d8b40b51db2509582e91b44090a627dd72552baccbf4509039807221d6b46",
+      "export_sha256": "6c6d8b40b51db2509582e91b44090a627dd72552baccbf4509039807221d6b46",
+      "bytes": 80895,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/11-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/11-frozen-telemetry.json",
+      "source_sha256": "718a19e7e1122862aa1caadf884c467a831bad8cdcff2aa40b22f2e0443f65bd",
+      "export_sha256": "718a19e7e1122862aa1caadf884c467a831bad8cdcff2aa40b22f2e0443f65bd",
+      "bytes": 84224,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/12-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/12-reuse-telemetry.json",
+      "source_sha256": "b87a281c56e4035b8ae5bd942891bb62c1516a5283d13ddd3810b38479c8bad3",
+      "export_sha256": "b87a281c56e4035b8ae5bd942891bb62c1516a5283d13ddd3810b38479c8bad3",
+      "bytes": 103219,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/13-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/13-frozen-telemetry.json",
+      "source_sha256": "f0d5f02b72fe20b493e69f90726f24ba0200b7aa90f17287823dfff94339f1d1",
+      "export_sha256": "f0d5f02b72fe20b493e69f90726f24ba0200b7aa90f17287823dfff94339f1d1",
+      "bytes": 107046,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/14-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/14-frozen-telemetry.json",
+      "source_sha256": "48925bc4c7eea42c44179b00431f3fc8511f8a604f2eeaa66a0b4de6479734df",
+      "export_sha256": "48925bc4c7eea42c44179b00431f3fc8511f8a604f2eeaa66a0b4de6479734df",
+      "bytes": 106793,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/15-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/15-reuse-telemetry.json",
+      "source_sha256": "f0319c0d9f1cfc2930771bb85b21fffb6cdf985abfa6f063984bfbb80abc5245",
+      "export_sha256": "f0319c0d9f1cfc2930771bb85b21fffb6cdf985abfa6f063984bfbb80abc5245",
+      "bytes": 98270,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/16-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/16-frozen-telemetry.json",
+      "source_sha256": "93d8be24ffb5472de5e0d454802384d74087752d3dedcd1a836e79a634e56c44",
+      "export_sha256": "93d8be24ffb5472de5e0d454802384d74087752d3dedcd1a836e79a634e56c44",
+      "bytes": 101015,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/17-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/17-reuse-telemetry.json",
+      "source_sha256": "c236657209f630afce1d7dc27efd2c8913634386f2b819393b41455ae3d7ddcd",
+      "export_sha256": "c236657209f630afce1d7dc27efd2c8913634386f2b819393b41455ae3d7ddcd",
+      "bytes": 95365,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/18-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/18-reuse-telemetry.json",
+      "source_sha256": "421c0504c7463b94a3ec0c6cfcfb0c7ceaea3ff350fd9c0505806e35871495cc",
+      "export_sha256": "421c0504c7463b94a3ec0c6cfcfb0c7ceaea3ff350fd9c0505806e35871495cc",
+      "bytes": 99617,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/19-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/19-frozen-telemetry.json",
+      "source_sha256": "bcfab959d804fa2a2f4039bdf4215eb55222a9690722a21f385098d9f783c80e",
+      "export_sha256": "bcfab959d804fa2a2f4039bdf4215eb55222a9690722a21f385098d9f783c80e",
+      "bytes": 94612,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/20-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/20-reuse-telemetry.json",
+      "source_sha256": "e7c520d2b08aafe25ca730bb904eacd4cc509265906709ca1643382ed9710f8c",
+      "export_sha256": "e7c520d2b08aafe25ca730bb904eacd4cc509265906709ca1643382ed9710f8c",
+      "bytes": 94699,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/21-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/21-frozen-telemetry.json",
+      "source_sha256": "f70a2ca55b05366c2894a054b08ae0c5f702f5b3d78ceccf9c9586f68c8792f8",
+      "export_sha256": "f70a2ca55b05366c2894a054b08ae0c5f702f5b3d78ceccf9c9586f68c8792f8",
+      "bytes": 84587,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/22-frozen-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/22-frozen-telemetry.json",
+      "source_sha256": "83a51fe07d01e1d5a26d53af0d363d716f1d4e4f9fff40918cb86f49446bcdee",
+      "export_sha256": "83a51fe07d01e1d5a26d53af0d363d716f1d4e4f9fff40918cb86f49446bcdee",
+      "bytes": 83301,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/23-reuse-telemetry.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/23-reuse-telemetry.json",
+      "source_sha256": "81fb7656c3446b051e192a306b0b7a8a9538074dda986b445d0e90abf068e282",
+      "export_sha256": "81fb7656c3446b051e192a306b0b7a8a9538074dda986b445d0e90abf068e282",
+      "bytes": 73703,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/assets.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/assets.json",
+      "source_sha256": "264352c350ba1acdc368430f86ef0572ad05eef2d72b203b0b6e7557512790c1",
+      "export_sha256": "721adcd338788b48df0dea1c296ba029880726be16350a8eaf277cf3ddfdd824",
+      "bytes": 1953,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/confirmation-analysis.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/confirmation-analysis.json",
+      "source_sha256": "9656919ca0227630211a3e77d21d9128b3300b260e5d626866d6be778653cdf3",
+      "export_sha256": "9656919ca0227630211a3e77d21d9128b3300b260e5d626866d6be778653cdf3",
+      "bytes": 4693,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/protocol.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/protocol.json",
+      "source_sha256": "7ae95d56621bf50a5a9606c01aad6020bbf7d589d8fd825962d1ab23eb5d2397",
+      "export_sha256": "7ae95d56621bf50a5a9606c01aad6020bbf7d589d8fd825962d1ab23eb5d2397",
+      "bytes": 1783,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/results.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/results.json",
+      "source_sha256": "358c157441f39541251b5625f359269bbd73b015ef571f095f5a85fc49b65af4",
+      "export_sha256": "358c157441f39541251b5625f359269bbd73b015ef571f095f5a85fc49b65af4",
+      "bytes": 188070,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/timing512/20261029T130540Z/runtime-baseline.json",
+      "path": "archive/isolated/q3-column-reuse/timing512/20261029T130540Z/runtime-baseline.json",
+      "source_sha256": "9a870ae2a664de9c59be68536156a9853b36f1ed0337842419532276eeb2c189",
+      "export_sha256": "9a870ae2a664de9c59be68536156a9853b36f1ed0337842419532276eeb2c189",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-column-reuse/write_report.py",
+      "path": "archive/isolated/q3-column-reuse/write_report.py",
+      "source_sha256": "a393ca7a666fcdae6f197d9b8ba05a0887b2783e07774983cf3f044d73bcd85a",
+      "export_sha256": "a393ca7a666fcdae6f197d9b8ba05a0887b2783e07774983cf3f044d73bcd85a",
+      "bytes": 5296,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q3_column_reuse_boundary128.py",
+      "path": "archive/isolated/run_q3_column_reuse_boundary128.py",
+      "source_sha256": "a0facd097f2889466eda2afe436508d4d1d1ee888d182cb598289b466362d19e",
+      "export_sha256": "685986efcc6c4e0c88123ebc9fe55b3f045a8e8818a93b603eb6d06b1306e792",
+      "bytes": 10530,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_column_reuse_kv64.py",
+      "path": "archive/isolated/run_q3_column_reuse_kv64.py",
+      "source_sha256": "149019843660a20167d65ff68925ef1bb72144188be9e6d79804df7f15a8973e",
+      "export_sha256": "32f1801dfa8a305edd936ea536791b7be40721f96ab146ff5316902cf53292e9",
+      "bytes": 21339,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_column_reuse_micro.py",
+      "path": "archive/isolated/run_q3_column_reuse_micro.py",
+      "source_sha256": "529fe504319b991892ac1f0fccdd7323dccc8005df7ce5bfd621d386a6c17332",
+      "export_sha256": "529fe504319b991892ac1f0fccdd7323dccc8005df7ce5bfd621d386a6c17332",
+      "bytes": 4073,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q3_column_reuse_model32.py",
+      "path": "archive/isolated/run_q3_column_reuse_model32.py",
+      "source_sha256": "18e08374b8f174089a9a6e896e58210cec6b2d25059abbb911a2c50391c4df2c",
+      "export_sha256": "24409d69a05df9ad00dc90f77b73f4d0e68c84f23c03ccfc7c5b0ffee37db28c",
+      "bytes": 9887,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_column_reuse_operators.py",
+      "path": "archive/isolated/run_q3_column_reuse_operators.py",
+      "source_sha256": "e958cbd7ac826da3435116e9cad08094cfd185f2c5a1bcd3a84ffc088089da7d",
+      "export_sha256": "e958cbd7ac826da3435116e9cad08094cfd185f2c5a1bcd3a84ffc088089da7d",
+      "bytes": 3137,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q3_column_reuse_prompts128.py",
+      "path": "archive/isolated/run_q3_column_reuse_prompts128.py",
+      "source_sha256": "cf27aa8516c5d8effbaa73241fe7d4cfe458c59e623a0948c274e1712e7f6d37",
+      "export_sha256": "0845a8be2251451a98d39d02f5a512f92be6537e6cad5b95620be22c40df9346",
+      "bytes": 8764,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_column_reuse_timing.py",
+      "path": "archive/isolated/run_q3_column_reuse_timing.py",
+      "source_sha256": "cd3f86d8322e7be5973ae7fc79d768b5b063170a7291a0f65f37ec3387e6580b",
+      "export_sha256": "a214380cea4742067c0a9910411a4a3d9c716d2b8f8a247de0129b54b4b7517f",
+      "bytes": 15288,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-29T12:59:10.966960+00:00"
+  "updated_utc": "2026-10-29T13:20:08.610006+00:00"
 }

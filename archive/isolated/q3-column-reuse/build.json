@@ -1,0 +1,37 @@
+{
+  "shader_command": [
+    "glslc",
+    "-fshader-stage=compute",
+    "--target-env=vulkan1.2",
+    "-O",
+    "-I${WORKSPACE}/isolated/q3-column-reuse/shader",
+    "-DDATA_A_Q3_K=1",
+    "-DD_TYPE=float",
+    "-DFLOAT_TYPE=float",
+    "-DFLOAT_TYPEV2=vec2",
+    "-DACC_TYPE=float",
+    "-DUSE_SUBGROUP_ADD_NO_SHMEM=1",
+    "${WORKSPACE}/isolated/q3-column-reuse/shader/mul_mat_vecq.comp",
+    "-o",
+    "${WORKSPACE}/isolated/q3-column-reuse/reuse_subgroup_no_shmem.spv"
+  ],
+  "probe_command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "${WORKSPACE}/isolated/q3-column-reuse/probe.cpp",
+    "-lvulkan",
+    "-o",
+    "${WORKSPACE}/isolated/q3-column-reuse/operator_bench"
+  ],
+  "shader_sha256": "f4efd5e65ebbdf4fcb1f35f65408a599b12f948f740f103251807157372732cb",
+  "binary_sha256": "fadc1ab7f4ddd76bed6f93aebcc7df2cacfcdd64dadf17e43bb5a9988721cc61",
+  "source_sha256": "cfce56ce6e1b85249de4a76e68d8d3e883498f13811b38b73d05d52f16ee8844",
+  "shader_sources": {
+    "mul_mat_vec_iface.glsl": "528c37b1c0988582bb9fe8c4a424e5155c568cce7fbde720309afdb6e3cab688",
+    "mul_mat_vecq.comp": "32cb66c9c3a1daa4e51ff226f8f0fdfc295e5378c09be82109dabb1e808848d6",
+    "types.glsl": "aca653120c4868f58fdc3a8ccb66bd568ac50f062475978286c200c73464419b",
+    "mul_mat_vecq_funcs.glsl": "09d3c0c51323401046a86ef9b4fddfbda62635959b4b87fa7dc4e8ed507f55fd",
+    "mul_mat_vec_base.glsl": "fc7bb5cc47bd9761f8a3484466e10b61d7866df41a150cdd47cfa1f389110323"
+  }
+}

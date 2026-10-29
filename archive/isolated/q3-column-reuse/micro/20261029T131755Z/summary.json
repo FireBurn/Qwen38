@@ -1,0 +1,272 @@
+{
+  "complete": true,
+  "arms": 96,
+  "new_driver_errors": [],
+  "cases": [
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 1,
+      "frozen_us": 68.07796875,
+      "reuse_us": 67.42066406266666,
+      "geometric_time_change_percent": -0.9709425394192266,
+      "descriptive_t95_percent": [
+        -3.849621776892283,
+        1.9939224656545524
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "frozen_us": 74.87769531250001,
+          "reuse_us": 75.01232421899999,
+          "time_change_percent": 0.17979841117987672
+        },
+        {
+          "block": 1,
+          "frozen_us": 73.8335546875,
+          "reuse_us": 72.232011719,
+          "time_change_percent": -2.1691261856191524
+        },
+        {
+          "block": 2,
+          "frozen_us": 55.52265625,
+          "reuse_us": 55.01765625,
+          "time_change_percent": -0.9095386173999853
+        }
+      ]
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 1,
+      "replicas": 16,
+      "frozen_us": 71.472591146,
+      "reuse_us": 70.96190104183333,
+      "geometric_time_change_percent": -0.7049521590393029,
+      "descriptive_t95_percent": [
+        -4.053207389348766,
+        2.760147134341531
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "frozen_us": 77.9750781255,
+          "reuse_us": 78.06640625,
+          "time_change_percent": 0.11712476177709874
+        },
+        {
+          "block": 1,
+          "frozen_us": 73.0809179685,
+          "reuse_us": 71.41810546900001,
+          "time_change_percent": -2.2753032470346213
+        },
+        {
+          "block": 2,
+          "frozen_us": 63.361777344000004,
+          "reuse_us": 63.401191406500004,
+          "time_change_percent": 0.06220479309793081
+        }
+      ]
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 1,
+      "frozen_us": 46.4114908855,
+      "reuse_us": 45.833105468666666,
+      "geometric_time_change_percent": -1.2348200572377706,
+      "descriptive_t95_percent": [
+        -2.2995969503704106,
+        -0.1584388124672634
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "frozen_us": 48.6418164065,
+          "reuse_us": 47.8153710935,
+          "time_change_percent": -1.6990428689862114
+        },
+        {
+          "block": 1,
+          "frozen_us": 44.9103515625,
+          "reuse_us": 44.52921875,
+          "time_change_percent": -0.8486524804188877
+        },
+        {
+          "block": 2,
+          "frozen_us": 45.6823046875,
+          "reuse_us": 45.1547265625,
+          "time_change_percent": -1.154885088677149
+        }
+      ]
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 1,
+      "replicas": 16,
+      "frozen_us": 70.90253906233333,
+      "reuse_us": 71.29756510416667,
+      "geometric_time_change_percent": 0.5649139707909512,
+      "descriptive_t95_percent": [
+        -2.6004960191718127,
+        3.833197384077599
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "frozen_us": 77.961015625,
+          "reuse_us": 77.72648437550001,
+          "time_change_percent": -0.30083144456213295
+        },
+        {
+          "block": 1,
+          "frozen_us": 70.3921484375,
+          "reuse_us": 71.84501953099999,
+          "time_change_percent": 2.063967538638156
+        },
+        {
+          "block": 2,
+          "frozen_us": 64.3544531245,
+          "reuse_us": 64.321191406,
+          "time_change_percent": -0.05168518553898549
+        }
+      ]
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 1,
+      "frozen_us": 51.218515625,
+      "reuse_us": 51.6654622395,
+      "geometric_time_change_percent": 0.9344565397167598,
+      "descriptive_t95_percent": [
+        -6.900709679869518,
+        9.429024452672035
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "frozen_us": 56.4510742185,
+          "reuse_us": 56.3040625,
+          "time_change_percent": -0.2604232435524101
+        },
+        {
+          "block": 1,
+          "frozen_us": 47.75001953100001,
+          "reuse_us": 50.0031054685,
+          "time_change_percent": 4.718502651160716
+        },
+        {
+          "block": 2,
+          "frozen_us": 49.4544531255,
+          "reuse_us": 48.689218749999995,
+          "time_change_percent": -1.547351809872577
+        }
+      ]
+    },
+    {
+      "k": 5120,
+      "rows": 17408,
+      "cols": 2,
+      "replicas": 16,
+      "frozen_us": 73.821002604,
+      "reuse_us": 74.38222656233333,
+      "geometric_time_change_percent": 0.7493660833232264,
+      "descriptive_t95_percent": [
+        -4.472291731958345,
+        6.256445906881036
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "frozen_us": 84.3350390625,
+          "reuse_us": 84.24904296849999,
+          "time_change_percent": -0.10196959052367616
+        },
+        {
+          "block": 1,
+          "frozen_us": 71.6714062495,
+          "reuse_us": 73.9895898435,
+          "time_change_percent": 3.234460875415257
+        },
+        {
+          "block": 2,
+          "frozen_us": 65.4565625,
+          "reuse_us": 64.908046875,
+          "time_change_percent": -0.8379841593423198
+        }
+      ]
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 1,
+      "frozen_us": 51.695696614333336,
+      "reuse_us": 51.4307421875,
+      "geometric_time_change_percent": -0.42637380626334753,
+      "descriptive_t95_percent": [
+        -5.345771579056595,
+        4.748696373887547
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "frozen_us": 56.6881054685,
+          "reuse_us": 55.4145507815,
+          "time_change_percent": -2.2465994876256334
+        },
+        {
+          "block": 1,
+          "frozen_us": 48.5041796875,
+          "reuse_us": 49.3668554685,
+          "time_change_percent": 1.778559675801139
+        },
+        {
+          "block": 2,
+          "frozen_us": 49.894804687,
+          "reuse_us": 49.5108203125,
+          "time_change_percent": -0.7695878897789221
+        }
+      ]
+    },
+    {
+      "k": 17408,
+      "rows": 5120,
+      "cols": 2,
+      "replicas": 16,
+      "frozen_us": 77.2890559895,
+      "reuse_us": 78.17920572933333,
+      "geometric_time_change_percent": 1.1337762932943605,
+      "descriptive_t95_percent": [
+        -5.8000008778020415,
+        8.577927841316722
+      ],
+      "blocks": [
+        {
+          "block": 0,
+          "frozen_us": 84.639804688,
+          "reuse_us": 84.72138671900001,
+          "time_change_percent": 0.09638731008505541
+        },
+        {
+          "block": 1,
+          "frozen_us": 75.330976562,
+          "reuse_us": 78.6872851565,
+          "time_change_percent": 4.455416281159752
+        },
+        {
+          "block": 2,
+          "frozen_us": 71.8963867185,
+          "reuse_us": 71.12894531250001,
+          "time_change_percent": -1.0674269473440967
+        }
+      ]
+    }
+  ],
+  "interpretation": "GPU operator timing only. Negative time change is faster. Descriptive t intervals use three symmetric blocks (df2), temporal correlation and GPU workload differences limit generalization. No full-model performance established. Same112byteweightlayout,shaderonlycomparison;separate fromfailedfixed24modeldiscovery. Process-widesensors do notestablishper-armclock/loadmatching."
+}

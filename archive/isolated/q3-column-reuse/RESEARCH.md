@@ -1,0 +1,11 @@
+# Related work checked 2026-10-29
+
+These are leads, not measurements on this R9700 or evidence for adopting a patch.
+
+- [llama.cpp PR31196](https://github.com/ggml-org/llama.cpp/pull/31196), draft Vulkan Q8_0 weight reuse for 9–16 columns. Its author reports a large improvement above the eight-column crossover on W7800, with output-head regressions at some widths. Our current MTP-max1 target uses C1/C2, so that wide-column route is outside this experiment. The broader lesson—express cross-column weight reuse explicitly—is consistent with the independently implemented Q3 candidate, not proof of its speed. Changing MTP depth would be a separate policy experiment.
+- [llama.cpp PR29948](https://github.com/ggml-org/llama.cpp/pull/29948), merged CUDA dense gate/up/GLU MMQ. It interleaves gate/up rows in the loaders and applies GLU during write-back, retaining a single accumulator arrangement instead of a second tile. This is a useful register-pressure design lead for bounded FFN fusion. It is CUDA prompt processing, not a Vulkan decode result; Q3 is absent from the listed supported types. Our candidate does not implement this pair fusion.
+- [llama.cpp PR31188](https://github.com/ggml-org/llama.cpp/pull/31188) extends that CUDA fusion to MoE. Its reported prompt gains do not apply directly to this dense Q3 decoder.
+- [llama.cpp PR29280](https://github.com/ggml-org/llama.cpp/pull/29280) skips unchanged descriptor updates in a per-context ring. The original report concerns translation layers; inspect current source and measure actual update CPU cost before treating this as another candidate. No Vk command-buffer replay/lifetime proof follows.
+- [AMD occupancy explanation](https://gpuopen.com/learn/occupancy-explained/) explains why more occupancy helps only some latency-bound workloads. The new C2 shader retains48allocatedVGPRs; instruction reduction is the observed compiler fact, not an occupancy gain.
+
+Priority after this fixed timing test: if the Q3 gain qualifies, replicate without edits; otherwise preserve the failure and use an independent operation diagnostic before changing geometry. For a future pair fusion, inspect existing native small-batch gate/up code first and preserve arithmetic/aliasing semantics. None of these external patches has been imported into Claude's tree or the frozen control.

@@ -1,0 +1,84 @@
+{
+  "exact_operator_dispatches": 864,
+  "model_cases": [
+    {
+      "case": "model32",
+      "target_rows": 38,
+      "target_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+      "n_predict": 34,
+      "n_drafted": 19,
+      "n_accept": 15,
+      "new_driver_errors": []
+    },
+    {
+      "case": "coding",
+      "target_rows": 136,
+      "target_sha256": "d57c28c4140917e228a584ff8f7f2185caa0c08d51942a70b1dedf891cd95c27",
+      "n_predict": 130,
+      "n_drafted": 68,
+      "n_accept": 62,
+      "new_driver_errors": []
+    },
+    {
+      "case": "math",
+      "target_rows": 138,
+      "target_sha256": "cb052233cb56e8fe19113ff905700115393b19bfa263679d308ac800ca4a27f1",
+      "n_predict": 129,
+      "n_drafted": 69,
+      "n_accept": 60,
+      "new_driver_errors": []
+    },
+    {
+      "case": "populated-kv64",
+      "target_rows": 72,
+      "target_sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5",
+      "n_predict": 65,
+      "n_drafted": 36,
+      "n_accept": 29,
+      "new_driver_errors": []
+    },
+    {
+      "case": "boundary128",
+      "target_rows": 146,
+      "target_sha256": "16a693b0d912e151df9dc942bfb174f1dd5f8c48748f356b07be7cc8f2fa2f49",
+      "n_predict": 129,
+      "n_drafted": 73,
+      "n_accept": 56,
+      "new_driver_errors": []
+    }
+  ],
+  "unique_target_rows": 530,
+  "c2_resources": {
+    "Instructions": {
+      "frozen": 5556,
+      "reuse": 4220,
+      "change_percent": -24.046076313894893
+    },
+    "VMEM": {
+      "frozen": 274,
+      "reuse": 204,
+      "change_percent": -25.547445255474454
+    },
+    "Code size": {
+      "frozen": 30988,
+      "reuse": 23444,
+      "change_percent": -24.34490770620885
+    },
+    "VGPRs": {
+      "frozen": 48,
+      "reuse": 48,
+      "change_percent": 0.0
+    },
+    "LDS size": {
+      "frozen": 0,
+      "reuse": 0,
+      "change_percent": null
+    },
+    "Scratch size": {
+      "frozen": 0,
+      "reuse": 0,
+      "change_percent": null
+    }
+  },
+  "scope": "Full requested target-vocabulary bit parity, tokens and acceptance counters for five specified cases; not every internal draft tensor, all contexts or throughput proof. Frozen .27 host unchanged; only private paddedQ3shader differs. Inherited reader_mode/oracle fields are zero and unused, no reader index is present. Some copied textual labels refer to earlier native-command/GDN/frozen-shader experiments; actual shader paths and hashes are pinned in assets and runner source. Candidate is explicit column reuse, not command replay or a combined pair kernel."
+}

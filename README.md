@@ -9,6 +9,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 
 - [Results and conclusions](docs/RESULTS.md): measured gains, losses and inconclusive results.
 - [36-run under-load A/B test](docs/UNDER-LOAD-AB.md): independent confirmation finds no measurable gain.
+- [Q3 cross-column weight reuse](docs/Q3-COLUMN-REUSE.md): 24% fewer C2 instructions and exact model outputs, but no qualified model or C2 operator gain.
 - [GDN reader-index follow-up](docs/GDN-READER-INDEX.md): exact outputs and lower CPU cost, but fixed under-load A/B finds no qualified token-rate gain.
 - [Native command observer](docs/NATIVE-COMMAND-OBSERVER.md): exact native outputs and repeated recording arguments, including a KV transition; no replay or new speed claim.
 - [Submission-only contribution experiment](docs/CONTRIBUTION.md): stock/cap400 gains 5.67%; padded Q3 adds 2.89% at about 3 GiB extra VRAM.

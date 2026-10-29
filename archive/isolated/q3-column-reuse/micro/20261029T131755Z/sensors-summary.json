@@ -1,0 +1,146 @@
+{
+  "samples": 246,
+  "sensor_errors": [
+    {
+      "time": 1793279875.8510277,
+      "monotonic": 145291.169044627,
+      "loadavg": [
+        15.86279296875,
+        42.294921875,
+        32.65576171875
+      ],
+      "sensor_error": "[Errno 16] Device or resource busy"
+    },
+    {
+      "time": 1793279875.9020574,
+      "monotonic": 145291.220074012,
+      "loadavg": [
+        15.86279296875,
+        42.294921875,
+        32.65576171875
+      ],
+      "cpu_busy_fraction": 0.725,
+      "sensor_error": "[Errno 16] Device or resource busy"
+    },
+    {
+      "time": 1793279875.954677,
+      "monotonic": 145291.272694741,
+      "loadavg": [
+        15.86279296875,
+        42.294921875,
+        32.65576171875
+      ],
+      "cpu_busy_fraction": 0.654320987654321,
+      "sensor_error": "[Errno 16] Device or resource busy"
+    },
+    {
+      "time": 1793279876.005403,
+      "monotonic": 145291.32342009,
+      "loadavg": [
+        15.86279296875,
+        42.294921875,
+        32.65576171875
+      ],
+      "cpu_busy_fraction": 0.5822784810126582,
+      "sensor_error": "[Errno 16] Device or resource busy"
+    },
+    {
+      "time": 1793279876.0559945,
+      "monotonic": 145291.374011501,
+      "loadavg": [
+        15.86279296875,
+        42.294921875,
+        32.65576171875
+      ],
+      "cpu_busy_fraction": 0.5925925925925926,
+      "sensor_error": "[Errno 16] Device or resource busy"
+    },
+    {
+      "time": 1793279876.1070132,
+      "monotonic": 145291.42503191,
+      "loadavg": [
+        15.86279296875,
+        42.294921875,
+        32.65576171875
+      ],
+      "cpu_busy_fraction": 0.5443037974683544,
+      "sensor_error": "[Errno 16] Device or resource busy"
+    },
+    {
+      "time": 1793279876.1580594,
+      "monotonic": 145291.476075943,
+      "loadavg": [
+        15.86279296875,
+        42.294921875,
+        32.65576171875
+      ],
+      "cpu_busy_fraction": 0.55,
+      "sensor_error": "[Errno 16] Device or resource busy"
+    },
+    {
+      "time": 1793279876.2085822,
+      "monotonic": 145291.526598646,
+      "loadavg": [
+        15.86279296875,
+        42.294921875,
+        32.65576171875
+      ],
+      "cpu_busy_fraction": 0.5384615384615384,
+      "sensor_error": "[Errno 16] Device or resource busy"
+    },
+    {
+      "time": 1793279876.2592068,
+      "monotonic": 145291.577223268,
+      "loadavg": [
+        15.86279296875,
+        42.294921875,
+        32.65576171875
+      ],
+      "cpu_busy_fraction": 0.620253164556962,
+      "sensor_error": "[Errno 16] Device or resource busy"
+    }
+  ],
+  "cpu_busy_range": [
+    0.48750000000000004,
+    0.725
+  ],
+  "clock_mhz_range": [
+    0.0,
+    3063.0
+  ],
+  "scope": "Process-wide sensor samples, not precisely per-arm attributed. Errors retained; no strict per-arm matched-clock qualification. Payload rate below is nominal matrix bytes per dispatch-time, not measured physical DRAM throughput.",
+  "streamed_payload_rates": [
+    {
+      "cols": 1,
+      "k": 5120,
+      "rows": 17408,
+      "matrix_bytes": 38993920,
+      "frozen_nominal_payload_GB_s": 545.5786529460715,
+      "reuse_nominal_payload_GB_s": 549.5050080043991
+    },
+    {
+      "cols": 1,
+      "k": 17408,
+      "rows": 5120,
+      "matrix_bytes": 38993920,
+      "frozen_nominal_payload_GB_s": 549.9650719943731,
+      "reuse_nominal_payload_GB_s": 546.9179759930004
+    },
+    {
+      "cols": 2,
+      "k": 5120,
+      "rows": 17408,
+      "matrix_bytes": 38993920,
+      "frozen_nominal_payload_GB_s": 528.2225738544373,
+      "reuse_nominal_payload_GB_s": 524.2370631016612
+    },
+    {
+      "cols": 2,
+      "k": 17408,
+      "rows": 5120,
+      "matrix_bytes": 38993920,
+      "frozen_nominal_payload_GB_s": 504.5205883391494,
+      "reuse_nominal_payload_GB_s": 498.77610850898213
+    }
+  ]
+}

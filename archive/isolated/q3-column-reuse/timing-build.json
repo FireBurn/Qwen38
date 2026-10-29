@@ -1,0 +1,13 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "${WORKSPACE}/isolated/q3-column-reuse/timing.cpp",
+    "-lvulkan",
+    "-o",
+    "${WORKSPACE}/isolated/q3-column-reuse/operator_bench_timed"
+  ],
+  "source_sha256": "01737120fc490ef34327227dfc784dd62cdeb6a8864d495d380f53c59a910454",
+  "binary_sha256": "7241e040d087942d3acd5bba54e6794bfe60cf988657786e35f7ab7be120691d"
+}

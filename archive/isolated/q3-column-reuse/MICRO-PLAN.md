@@ -1,0 +1,5 @@
+# Focused diagnostic after full-model discovery failure
+
+Completed fixed24modelA/B failed >=4externalmatched blocks (only3);raw+1.55%[-0.20,+3.33] isnotqualified. No resamplingorindependentconfirmation. Preserve frozen.
+
+Separatequestion:doeslowercompiledC2instructioncounttranslate to isolatedGPUtime? Use originalpadded112 versuscolumnreuse112,identicalweightbytes;nevercompareoriginal110ascontrol. Same64threadC1row1/C2row2geometry,twomodelshapes K5120/R17408 andK17408/R5120;cached1replica andstream16replicas;threefixedABBA/BAABblocks each,1024dispatchesperarm,96arms total. GPUtimestamps andalloutputbytes/guards/activationimmutability checks,privatecopy2driver/serialguard. Allfullshapereplicasvalidatedbeforetiming. Wave/scalarsourcesalready passed<=16WG and5modelcases. CPUcompilesallowed,recordclock/loadtelemetry;no new full-modelgainclaimormicro-onlypromotion. Timer includesbarriersanddescriptorbinding,canstillreflectDVFS. This isnot anextensionofmodeltiming samples. No retries/extraarms torescuebadoutcome.

@@ -296,3 +296,7 @@ See [experiment and interpretation](FUSION-COMBINATION.md). The manifest include
 ## GDN reader-index follow-up
 
 [Results and limitations](GDN-READER-INDEX.md). `archive/isolated/native-host-planning-profile` contains the source-cost diagnostic; `archive/isolated/native-gdn-reader-index` contains candidate builders/patch, five-case numerical evidence, fixed24 timing, minimal CPU-cost diagnostic and parsed GPU profiles. No reader-index throughput gain is qualified.
+
+## Explicit Q3 column reuse
+
+[Results and limits](Q3-COLUMN-REUSE.md). `archive/isolated/q3-column-reuse` contains the complete shader include closure, patch/builders,864operatorchecks/five-model-case qualification, fixed24under-load discovery and separate96armtimestamp diagnostic, with plans and negative evidence. No new configuration is qualified.

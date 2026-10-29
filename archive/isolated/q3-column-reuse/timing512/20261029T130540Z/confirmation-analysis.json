@@ -1,0 +1,188 @@
+{
+  "selected_mode": "reuse",
+  "blocks": [
+    {
+      "indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.5776301125645877,
+        "reuse": 0.574329563846395
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1718.0,
+        "reuse": 1713.5
+      },
+      "build_mode_means": {
+        "frozen": 0.4661016949152542,
+        "reuse": 0.01694915254237288
+      },
+      "runnable_mode_means": {
+        "frozen": 10.603866970517021,
+        "reuse": 8.567796610169491
+      },
+      "comparable": true,
+      "log_effect": 0.00244044346304495,
+      "speed_change_percent": 0.2443423769122802
+    },
+    {
+      "indices": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.5941117633214741,
+        "reuse": 0.6028035114399728
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1724.0,
+        "reuse": 1724.0
+      },
+      "build_mode_means": {
+        "frozen": 1.5873853848291193,
+        "reuse": 1.3800952514357754
+      },
+      "runnable_mode_means": {
+        "frozen": 11.646568491247569,
+        "reuse": 10.434444600084046
+      },
+      "comparable": true,
+      "log_effect": 0.004930795863572701,
+      "speed_change_percent": 0.49429722423501143
+    },
+    {
+      "indices": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.7579607547781442,
+        "reuse": 0.7559433172812939
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1721.0,
+        "reuse": 1724.5
+      },
+      "build_mode_means": {
+        "frozen": 7.833333333333333,
+        "reuse": 3.9460741351755426
+      },
+      "runnable_mode_means": {
+        "frozen": 29.31980056980057,
+        "reuse": 18.242099293705213
+      },
+      "comparable": false,
+      "log_effect": -0.004064714706268013,
+      "speed_change_percent": -0.4056464934887162
+    },
+    {
+      "indices": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.999628615746537,
+        "reuse": 0.9996463627395163
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1712.5,
+        "reuse": 1711.25
+      },
+      "build_mode_means": {
+        "frozen": 20.65914318573893,
+        "reuse": 20.192737430167597
+      },
+      "runnable_mode_means": {
+        "frozen": 118.48151236342724,
+        "reuse": 105.7134531179224
+      },
+      "comparable": true,
+      "log_effect": 0.022516623467171648,
+      "speed_change_percent": 2.2772036040495665
+    },
+    {
+      "indices": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.9997790572383616,
+        "reuse": 0.9994000338601648
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1697.75,
+        "reuse": 1699.5
+      },
+      "build_mode_means": {
+        "frozen": 12.693548387096774,
+        "reuse": 10.8268156424581
+      },
+      "runnable_mode_means": {
+        "frozen": 81.93837547224643,
+        "reuse": 63.109216333837466
+      },
+      "comparable": false,
+      "log_effect": 0.0294881920170722,
+      "speed_change_percent": 2.9927274036422156
+    },
+    {
+      "indices": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "cpu_mode_means": {
+        "frozen": 0.9142560911253572,
+        "reuse": 0.8901139440123261
+      },
+      "gpu_clock_mode_means": {
+        "frozen": 1712.5,
+        "reuse": 1709.5
+      },
+      "build_mode_means": {
+        "frozen": 4,
+        "reuse": 11.045851162010235
+      },
+      "runnable_mode_means": {
+        "frozen": 25.19904495690659,
+        "reuse": 27.148460441312192
+      },
+      "comparable": false,
+      "log_effect": 0.03706234230294969,
+      "speed_change_percent": 3.7757715027402363
+    }
+  ],
+  "all6block_descriptive": {
+    "blocks": 6,
+    "geometric_speed_change_percent": 1.5514736734507923,
+    "descriptive_t95_percent": [
+      -0.20040936329109582,
+      3.334109282972223
+    ],
+    "lower_bound_positive": false
+  },
+  "matched_primary": {
+    "blocks": 3,
+    "qualified": false,
+    "reason": "Fewer than4matched blocks"
+  },
+  "mean_steady_tps": {
+    "frozen": 32.60023633145677,
+    "reuse": 33.07098536462075
+  },
+  "all_tokens_and_counters_identical": true,
+  "scope": "Fixed24fresh512token confirmation, sixABBA/BAABblocks. Same preserved frozen library/cap400;only Q3shader directory differs. Primary increment versuspreservedqualifiedQ3/cap400;not directstock. Naturalclocks/power are outcomes. Matching only by preset telemetry;all results retained,no extension. Descriptive intervals,small sample/timecorrelation limitations.",
+  "incremental_gain_supported": false
+}
