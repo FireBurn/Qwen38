@@ -1,0 +1,12 @@
+{
+ "scope":"Contribution check using existing settings,not a parameter search. Preserve qualified frozenQ3/cap400 and all earlier evidence.",
+ "modes":["stock100","stock400","frozen400"],
+ "primary":"stock400 versus stock100: gain from existing submission setting alone",
+ "secondary":"frozen400 versus stock400: incremental paddedQ3/host contribution at the same cap",
+ "engineering_noninferiority":"Report whether stock400 is no more than1% slower than frozen400: lower95%descriptive interval of stock400/frozen400 exceeds0.99. This is an explicit speed/VRAM tradeoff,not proof of exact equivalence or automatic replacement of faster configuration. Both options remain available.",
+ "qualification":"Stock40032token full-vocab target-logit hash75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576 and populatedKV64hash36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5 must match prior native reference before timing. Alltokens/counters exact,no newdrivererrors,correct pinned mappings.",
+ "samples":"Fixed36fresh512token processes in6symmetric6arm blocks,rotateABC thenCBA. Run all36,no extension based on outcome. Same RomanEmpire prompt,greedyMTPmax1,4kctx,q8KV,1CPUthread,production.27/.7cores,privatecopy2driver.",
+ "matching":"ExternalCPUmode means<=5pp,buildmean spread<=2,runnable spread<=max(4,15%overallmean). Stable mappedlibc inode,no competingGPUinference,valid mandatorytelemetry. Atleast4matchedblocks required;retainall6 andmatched analyses. Naturalclocks,power,temperature,VRAM are outcomes,notmatchinggates. No systemclock/power/affinity/desktop changes.",
+ "analysis":"Blockpaired log steadyTPS ratios,descriptive95%t df3/4/5. Primary andsecondary predeclared separately;include reverse stock400/frozen400 interval for noninferiority. Do not equate nonsignificance with equivalence. Record encode,cold,fullgeneration,process costs and VRAM. No summing historicalpercentages or equalclockkernel attribution.",
+ "load":"CPU/buildloadauthorized,noquietgate. SerialprivateGPUguard;do not alter Claude,production,model,frozenartifacts orsystemlibraries. No mega/FA or arbitrarycontext claim."
+}

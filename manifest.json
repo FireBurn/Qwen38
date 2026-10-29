@@ -13115,7 +13115,127 @@
       "export_sha256": "9be3dd457b2063ab2d90ee6f1677976d42f48563e3646f6b0faa7d25f4a17e8d",
       "bytes": 20551,
       "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/contribution-plan.json",
+      "path": "archive/isolated/q3-pad112/contribution-plan.json",
+      "source_sha256": "02af94709f3e06491e8319d93fcd7a37bf90e1f5ab963b4266b2d3c38e6afee9",
+      "export_sha256": "02af94709f3e06491e8319d93fcd7a37bf90e1f5ab963b4266b2d3c38e6afee9",
+      "bytes": 2137,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/prepare_contribution.py",
+      "path": "archive/isolated/q3-pad112/prepare_contribution.py",
+      "source_sha256": "1b60669037475c5417d5d79a090b013745b07988f4b5667ae2f4d71a6bce3282",
+      "export_sha256": "1b60669037475c5417d5d79a090b013745b07988f4b5667ae2f4d71a6bce3282",
+      "bytes": 2481,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/prepare_contribution_timing.py",
+      "path": "archive/isolated/q3-pad112/prepare_contribution_timing.py",
+      "source_sha256": "e65650c3aeeb1ac85bdbef7225f71d14e10ee6b6433c23b6413f7693f4bb5ae9",
+      "export_sha256": "e65650c3aeeb1ac85bdbef7225f71d14e10ee6b6433c23b6413f7693f4bb5ae9",
+      "bytes": 4565,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/publish_contribution.py",
+      "path": "archive/isolated/q3-pad112/publish_contribution.py",
+      "source_sha256": "f8dd5f3a0391219d5143506334d9a7268b0f36522aff92bfc04f6e8028608bbc",
+      "export_sha256": "9e22bbd74cd53c150144730628ff929a05b184b60c5b2276c6f47746b3546684",
+      "bytes": 1911,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/contribution-stock400-model32/comparison.json",
+      "path": "archive/isolated/q3-pad112/contribution-stock400-model32/comparison.json",
+      "source_sha256": "8de3bf3a533524ac0e1b79299cabf4eeef83c43dcf74c0c137837a2469534f14",
+      "export_sha256": "8de3bf3a533524ac0e1b79299cabf4eeef83c43dcf74c0c137837a2469534f14",
+      "bytes": 527,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/contribution-stock400-model32/assets.json",
+      "path": "archive/isolated/q3-pad112/contribution-stock400-model32/assets.json",
+      "source_sha256": "1b10e94247555535a41ec7a469839310e3f2fd3f31d47279a6f49ae34f66a4a1",
+      "export_sha256": "dc94b7bc7d8c88ee1417f657514cb721542f70b097fe307cc8c2352b039040e9",
+      "bytes": 1758,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/contribution-stock400-model32/checks.json",
+      "path": "archive/isolated/q3-pad112/contribution-stock400-model32/checks.json",
+      "source_sha256": "1cdff62ae0acd0a5524f08a129c5c99f109afa261d9a029a767f8a20fa4bba04",
+      "export_sha256": "1cdff62ae0acd0a5524f08a129c5c99f109afa261d9a029a767f8a20fa4bba04",
+      "bytes": 1033,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/contribution-stock400-model32/audit-archive.json",
+      "path": "archive/isolated/q3-pad112/contribution-stock400-model32/audit-archive.json",
+      "source_sha256": "b70ee305169231f24cdf38221515719c59dc9d3bb04a7e1519d46dd89a5cf237",
+      "export_sha256": "b70ee305169231f24cdf38221515719c59dc9d3bb04a7e1519d46dd89a5cf237",
+      "bytes": 192,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/contribution-stock400-populated-kv64/comparison.json",
+      "path": "archive/isolated/q3-pad112/contribution-stock400-populated-kv64/comparison.json",
+      "source_sha256": "7550529d2f5aa7adcec553c74b05036c569ccfbbdfeec4b6d81ad0bc8158932b",
+      "export_sha256": "7550529d2f5aa7adcec553c74b05036c569ccfbbdfeec4b6d81ad0bc8158932b",
+      "bytes": 682,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/contribution-stock400-populated-kv64/assets.json",
+      "path": "archive/isolated/q3-pad112/contribution-stock400-populated-kv64/assets.json",
+      "source_sha256": "145633764ad9657ccc331023f47ec6e06a497d3e0254fdbb0d2842bf3565d9ee",
+      "export_sha256": "6f53ceb12eadd7589295a6a89af9cf62d77d0bc975600b778b090cf8cb28dc90",
+      "bytes": 1908,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/contribution-stock400-populated-kv64/checks.json",
+      "path": "archive/isolated/q3-pad112/contribution-stock400-populated-kv64/checks.json",
+      "source_sha256": "73bcc9fa24dc465a7f493daab32b52c9eacd95e867f507a7075025f8c5c7cd97",
+      "export_sha256": "73bcc9fa24dc465a7f493daab32b52c9eacd95e867f507a7075025f8c5c7cd97",
+      "bytes": 1485,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/contribution-stock400-populated-kv64/audit-archive.json",
+      "path": "archive/isolated/q3-pad112/contribution-stock400-populated-kv64/audit-archive.json",
+      "source_sha256": "41907c50f1ee1af0f1ffe3e498325baca141911402c5e45ea5c92bd1bf942132",
+      "export_sha256": "41907c50f1ee1af0f1ffe3e498325baca141911402c5e45ea5c92bd1bf942132",
+      "bytes": 194,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q3_contribution_stock400_model32.py",
+      "path": "archive/isolated/run_q3_contribution_stock400_model32.py",
+      "source_sha256": "055b7cd8f7ba23f09177e788bb435bbfc7ccc98c12e0e6475eab739e43b36e48",
+      "export_sha256": "434b23918f7d51387ee03e7a1439963a26f1ccbf7aff6c8ff057cf502dccab27",
+      "bytes": 8349,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_contribution_stock400_kv64.py",
+      "path": "archive/isolated/run_q3_contribution_stock400_kv64.py",
+      "source_sha256": "d822b9ea5b8ecd698c5833777fb2cd616a142a3a4aedb9d67877dad2807d5540",
+      "export_sha256": "660fe014c526ec673785c904d0e2392b67f07eb4f6645550ada87bc579c8aac2",
+      "bytes": 20733,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_contribution_timing.py",
+      "path": "archive/isolated/run_q3_contribution_timing.py",
+      "source_sha256": "5c2c66fb4b5c1d628bed4f71b93428f73ba9794231023d6c853f3f6d0154b460",
+      "export_sha256": "bae897fc4e43a9b818e957aac945da046e77963b894dcad9feaf61e27d049dbc",
+      "bytes": 16054,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-29T08:21:24.835562+00:00"
+  "updated_utc": "2026-10-29T08:27:55.969794+00:00"
 }
