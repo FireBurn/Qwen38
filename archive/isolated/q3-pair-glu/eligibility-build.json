@@ -1,0 +1,20 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/q3-pair-glu/eligibility.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/q3-pair-glu/eligibility-bin/operator_bench"
+  ],
+  "source_sha256": "af9cf8612ae2adbd32ffb3ea101725b6a74bf8502d43d2d810f90cd2c5a27a15",
+  "binary_sha256": "df182ec4a937a6e7955ed9faa8dcf451baa0430d61592204ed5357fe5df9a508"
+}

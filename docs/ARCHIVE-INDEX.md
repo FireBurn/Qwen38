@@ -300,3 +300,7 @@ See [experiment and interpretation](FUSION-COMBINATION.md). The manifest include
 ## Explicit Q3 column reuse
 
 [Results and limits](Q3-COLUMN-REUSE.md). `archive/isolated/q3-column-reuse` contains the complete shader include closure, patch/builders,864operatorchecks/five-model-case qualification, fixed24under-load discovery and separate96armtimestamp diagnostic, with plans and negative evidence. No new configuration is qualified.
+
+## Bounded Q3 pair/SwiGLU fusion
+
+[Results and limits](Q3-PAIR-GLU.md). `archive/isolated/q3-pair-glu` contains the full shader/include closure, privatehostsource/patch/header/builds,graphaudit,704operatorcomparisons,96armoperatorscreen,five-model-casequalification,hosteligibilitywitnesses,failedfixed24under-loadmodelcomparisonandunusedpredeclaredconfirmationplan. InitialC1policyharnessexpectationfailurepreserved. No new model configuration is qualified.

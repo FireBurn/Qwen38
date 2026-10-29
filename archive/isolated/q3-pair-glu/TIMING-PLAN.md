@@ -1,0 +1,7 @@
+# Bounded pair-fusion operator screen
+
+Only after576bounded and128larger operatorcases pass exactGPUreference/guards,zeroGPUerrors. SamepairSPIRV,48VGPR/zeroLDS/scratch. ControltwofrozenpaddedQ3matmuls (no barrierbetweentheindependentgate/up), barrier, exactproductionGLU. CandidateonepairQ3GLU. Bothreadsameweightbuffers/packedactivation;activationquantizationoutsideboth. Same outputdependencybarrier betweenrepeats,hostbarriers/timestampsoutside. No artificialserializationofindependentnativepair.
+
+FixedK5120/R17408,C1/C2,1or8rotatingreplicas ofbothweights;fourconditions. SixalternatingABBA/BAABblocks each,1024operatorrepeatsperarm =>96arms. Validateallreplicas andalltimedoutputs exact,fullinputimmutability/guards. GPUtimestampprimary;recordCPUmonotonicarmwindows andprocessCPU/clock/power/load telemetry. Noquietgate;CPUcompilesallowed. No extension basedonobservedtime.
+
+Primaryscreen C2/8replica pooledpairedlogtimechange,descriptive95%t(df5). Lower/upperbothnegative justifies privatehostprototypeonly,notqualifiedendtoendgain;allfourconditionsretained. CPU/clocks/sensorerrors/per-armcoverage aredescriptive;noequalclockclaimormatchedmodelclaimfrommicro. Any numerical/driverfailure stops. ShaderfusionmaychangeDVFS,referenceinterleaving,weightcachebehaviour. Sixblocks/timecorrelationandmicro-to-modelgaplimitgeneralization. Actualmodelintegration needsstrictalias/lifetimesafety,5fulltargetlogitaudits andfixedunderloadA/B versuspreservedfrozenQ3/cap400,thenindependentconfirmationbeforeadoption.

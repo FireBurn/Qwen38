@@ -1,0 +1,13 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "${WORKSPACE}/isolated/q3-pair-glu/stress.cpp",
+    "-lvulkan",
+    "-o",
+    "${WORKSPACE}/isolated/q3-pair-glu/stress-bin/operator_bench"
+  ],
+  "source_sha256": "cddbd1b2f7ba5beee709f33dac57bc3f6f30251ca1ea2b52d9e0eb077d0661aa",
+  "binary_sha256": "1d66efc0c7016693b4c186b8da8a464b8263ad1b573b7b6d88069cc5d6f7cc8e"
+}

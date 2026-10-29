@@ -1,0 +1,137 @@
+--- a/ggml-vulkan.cpp
++++ b/ggml-vulkan.cpp
+@@ -6816,6 +6816,35 @@
+     if(!ctx->np_matrix[cols-1])create(ctx->np_matrix[cols-1],"q3_pad112_matrix","pad16_subgroup_no_shmem.spv",5,sizeof(vk_mat_vec_push_constants),cols,{64,cols,cols});
+     weights={entry->padded,entry->padded_offset,entry->bytes/110*112};pipeline=ctx->np_matrix[cols-1];++ctx->np_calls;return true;
+ }
++
++static bool qpg_pipeline(ggml_backend_vk_context*ctx,uint32_t cols){
++    auto&pl=ctx->qpg_matrix[cols-1];if(pl)return true;
++    std::ifstream f(ctx->qpg_shader,std::ios::binary|std::ios::ate);if(!f)return false;size_t n=f.tellg();if(n<20||n%4)return false;std::vector<uint32_t>code(n/4);f.seekg(0);f.read((char*)code.data(),n);if(!f||code[0]!=0x07230203u)return false;
++    pl=std::make_shared<vk_pipeline_struct>();pl->name="q3_pair_glu";pl->parameter_count=5;pl->push_constant_size=sizeof(vk_mat_vec_push_constants);pl->wg_denoms={1,1,1};pl->align=1;pl->initialized=true;
++    ggml_vk_create_pipeline_func(ctx->device,pl,n,code.data(),"main",5,{1,1,1},{64,2,cols},true,true,64);return true;
++}
++static void qpg_dispatch(ggml_backend_vk_context*ctx,vk_context&subctx,const ggml_cgraph*graph,int idx){
++    GGML_ASSERT(ctx->qpg_active&&ctx->num_additional_fused_ops==2);
++    const ggml_tensor*g=graph->nodes[idx+2],*gate=g->src[0],*x=gate->src[1];
++    const uint32_t k=x->ne[0],cols=x->ne[1],rows=g->ne[0];
++    vk_subbuffer d_X=ggml_vk_tensor_subbuffer(ctx,x),d_D=ggml_vk_tensor_subbuffer(ctx,g);
++    const uint64_t count=uint64_t(k)*cols;
++    const uint64_t packed_size=ggml_vk_align_size(count,128)*ggml_type_size(GGML_TYPE_Q8_1)/ggml_blck_size(GGML_TYPE_Q8_1);
++    GGML_ASSERT(packed_size<=ctx->device->properties.limits.maxStorageBufferRange);
++    if(ctx->prealloc_size_y<packed_size){ctx->prealloc_size_y=packed_size;ggml_vk_preallocate_buffers(ctx,subctx);}
++    vk_subbuffer d_Y={ctx->prealloc_y,0,ctx->prealloc_y->size};
++    vk_pipeline quant=ggml_vk_get_quantize_pipeline(ctx,GGML_TYPE_Q8_1);ggml_pipeline_request_descriptor_sets(ctx,quant,1);
++    if(ctx->prealloc_y_last_pipeline_used!=quant.get()||ctx->prealloc_y_last_tensor_used!=x||ctx->prealloc_y_last_k_padded){
++        if(ctx->prealloc_y_need_sync)ggml_vk_sync_buffers(ctx,subctx);
++        ggml_vk_quantize_q8_1(ctx,subctx,d_X,d_Y,count);
++        ctx->prealloc_y_last_pipeline_used=quant.get();ctx->prealloc_y_last_tensor_used=x;ctx->prealloc_y_last_k_padded=false;
++    }
++    vk_pipeline&pl=ctx->qpg_matrix[cols-1];ggml_pipeline_request_descriptor_sets(ctx,pl,1);
++    const vk_mat_vec_push_constants pc={k,k,k,2*rows,0,k,rows,0,0,1,1,1,1};
++    ggml_vk_dispatch_pipeline(ctx,subctx,pl,{ctx->qpg_gate,d_Y,d_D,ctx->qpg_up,d_D},pc,{rows,1,1});
++    ctx->prealloc_y_need_sync=true;++ctx->qpg_calls;
++    if(ctx->qpg_audit)fprintf(stderr,"PAIR_GLU_DISPATCH K=%u rows=%u cols=%u gate=%s up=%s output=%s\n",k,rows,cols,gate->src[0]->name,g->src[1]->src[0]->name,g->name);
++}
+ static void ggml_vk_mul_mat_vec_q_f16(ggml_backend_vk_context * ctx, vk_context& subctx, const struct ggml_cgraph * cgraph, int node_idx, bool swap_inputs = false) {
+     ggml_tensor * dst = cgraph->nodes[node_idx];
+     const ggml_tensor * src0 = dst->src[swap_inputs ? 1 : 0];
+@@ -12949,7 +12978,8 @@
+ 
+         break;
+     case GGML_OP_MUL_MAT:
+-        ggml_vk_mul_mat(ctx, compute_ctx, cgraph, node_idx);
++        if(ctx->qpg_active)qpg_dispatch(ctx,compute_ctx,cgraph,node_idx);
++        else ggml_vk_mul_mat(ctx, compute_ctx, cgraph, node_idx);
+ 
+         break;
+     case GGML_OP_MUL_MAT_ID:
+@@ -13439,6 +13469,9 @@
+     ggml_vk_cleanup(ctx);
+     if(getenv("GGML_VK_Q3_PAD112_AUDIT"))fprintf(stderr,"Q3_PAD112_FINAL entries=%zu bytes=%llu calls=%llu\n",ctx->np_cache.size(),(unsigned long long)ctx->np_cache_bytes,(unsigned long long)ctx->np_calls);
+     for(auto&e:ctx->np_cache)ggml_vk_destroy_buffer(e.padded);ctx->np_cache.clear();ggml_vk_destroy_buffer(ctx->np_arena);
++    if(ctx->qpg_audit)fprintf(stderr,"PAIR_GLU_FINAL calls=%llu\n",(unsigned long long)ctx->qpg_calls);
++    ctx->qpg_gate.buffer.reset();ctx->qpg_up.buffer.reset();
++    for(auto&pl:ctx->qpg_matrix)if(pl){ggml_vk_destroy_pipeline(ctx->device->device,pl);pl.reset();}
+     for(auto&pl:ctx->np_matrix)if(pl){ggml_vk_destroy_pipeline(ctx->device->device,pl);pl.reset();}
+     if(ctx->np_repack){ggml_vk_destroy_pipeline(ctx->device->device,ctx->np_repack);ctx->np_repack.reset();}
+ 
+@@ -14368,6 +14401,33 @@
+     return j;
+ }
+ 
++// Strict three-node subgraph. Built-in graph use counts avoid a new per-graph index.
++static bool qpg_can_fuse(ggml_backend_vk_context*ctx,const ggml_cgraph*graph,int i){
++    if(!ctx->qpg_enabled||vk_perf_logger_enabled||i+2>=graph->n_nodes)return false;
++    const ggml_tensor*a=graph->nodes[i],*b=graph->nodes[i+1],*g=graph->nodes[i+2];
++    if(a->op!=GGML_OP_MUL_MAT||b->op!=GGML_OP_MUL_MAT||g->op!=GGML_OP_GLU||ggml_get_glu_op(g)!=GGML_GLU_OP_SWIGLU)return false;
++    if(!((g->src[0]==a&&g->src[1]==b)||(g->src[0]==b&&g->src[1]==a)))return false;
++    if(!ggml_node_has_n_uses(graph,i,1)||!ggml_node_has_n_uses(graph,i+1,1))return false;
++    if(!a->src[0]||!b->src[0]||!a->src[1]||a->src[1]!=b->src[1])return false;
++    const ggml_tensor*wa=a->src[0],*wb=b->src[0],*x=a->src[1];
++    if(wa->type!=GGML_TYPE_Q3_K||wb->type!=GGML_TYPE_Q3_K||x->type!=GGML_TYPE_F32||a->type!=GGML_TYPE_F32||b->type!=GGML_TYPE_F32||g->type!=GGML_TYPE_F32)return false;
++    if(ggml_get_op_params_i32(a,0)!=GGML_PREC_DEFAULT||ggml_get_op_params_i32(b,0)!=GGML_PREC_DEFAULT)return false;
++    if(!ggml_are_same_shape(wa,wb)||!ggml_are_same_shape(a,b)||!ggml_are_same_shape(a,g))return false;
++    if(wa->ne[0]!=x->ne[0]||wa->ne[1]!=g->ne[0]||x->ne[1]!=g->ne[1]||x->ne[0]%256||g->ne[1]<1||g->ne[1]>2||g->ne[0]<1||g->ne[0]>ctx->device->properties.limits.maxComputeWorkGroupCount[0])return false;
++    for(const ggml_tensor*t:{wa,wb,x,a,b,g}){
++        if(!t->buffer||!ggml_backend_buffer_is_vk(t->buffer)||!ggml_is_contiguous(t)||t->view_src||t->ne[2]!=1||t->ne[3]!=1||get_misalign_bytes(ctx,t)!=0||((t->flags&GGML_TENSOR_FLAG_COMPUTE)==0&&t!=wa&&t!=wb&&t!=x))return false;
++    }
++    if(!ggml_vk_should_use_mmvq(ctx->device,g->ne[0],g->ne[1],x->ne[0],GGML_TYPE_Q3_K))return false;
++    // Include constant weights and activation: no destination overlap is allowed.
++    for(const ggml_tensor*t:{wa,wb,x})if(ggml_vk_tensors_overlap(t,g,false))return false;
++    if(ggml_nbytes(wa)>ctx->device->properties.limits.maxStorageBufferRange||ggml_nbytes(wb)>ctx->device->properties.limits.maxStorageBufferRange)return false;
++    const uint32_t cols=g->ne[1];if(!qpg_pipeline(ctx,cols))return false;
++    auto subctx=ggml_vk_get_compute_ctx(ctx);vk_pipeline original;
++    auto gate=ggml_vk_tensor_subbuffer(ctx,g->src[0]->src[0]);auto up=ggml_vk_tensor_subbuffer(ctx,g->src[1]->src[0]);
++    if(!np_weight(ctx,subctx,g->src[0]->src[0],cols,original,gate)||!np_weight(ctx,subctx,g->src[1]->src[0],cols,original,up))return false;
++    ctx->qpg_gate=gate;ctx->qpg_up=up;return true;
++}
++
+ bool ggml_vk_can_fuse_snake(ggml_backend_vk_context * ctx, const struct ggml_cgraph * cgraph, int node_idx) {
+     GGML_UNUSED(ctx);
+     if (!ggml_can_fuse(cgraph, node_idx, snake_pattern)) {
+@@ -14646,6 +14706,11 @@
+     ggml_backend_vk_context * ctx = (ggml_backend_vk_context *)backend->context;
+     np_prepare_options(ctx);
+     nq_prepare(ctx,cgraph);
++    const char*qpg_path=getenv("GGML_VK_PAIR_GLU_SHADER");
++    ctx->qpg_enabled=ctx->np_enabled&&qpg_path&&((!ctx->qpg_matrix[0]&&!ctx->qpg_matrix[1])||ctx->qpg_shader==qpg_path);
++    if(ctx->qpg_enabled)ctx->qpg_shader=qpg_path;
++    ctx->qpg_audit=getenv("GGML_VK_PAIR_GLU_AUDIT")!=nullptr;
++
+ 
+     ctx->device->diag_cgraph = nullptr;
+     ctx->device->diag_prev_start = -1;
+@@ -14805,6 +14870,7 @@
+         ctx->fused_topk_moe_scale = false;
+         ctx->fused_topk_qsa = false;
+         ctx->fused_hc_post_gate = false;
++        ctx->qpg_active=false;
+         ctx->fused_rms_norm_mode = RMS_NORM_COUNT;
+         const char *fusion_string {};
+         static const bool gdn_state_fusion_disabled = getenv("GGML_VK_DISABLE_GDN_STATE_FUSION") != nullptr;
+@@ -14817,7 +14883,10 @@
+         }
+         if (!ctx->device->disable_fusion) {
+             uint32_t num_adds = ggml_vk_fuse_multi_add(ctx, cgraph, i);
+-            if (num_adds) {
++            if (qpg_can_fuse(ctx,cgraph,i)) {
++                ctx->qpg_active=true;ctx->num_additional_fused_ops=2;fusion_string="Q3_PAIR_GLU";
++                std::fill_n(op_srcs_fused_elementwise,3,false);
++            } else if (num_adds) {
+                 ctx->num_additional_fused_ops = num_adds - 1;
+                 fusion_string = "MULTI_ADD";
+                 std::fill_n(op_srcs_fused_elementwise, ctx->num_additional_fused_ops + 1, true);
+@@ -15056,10 +15125,12 @@
+                 ctx->fused_topk_qsa = false;
+                 ctx->fused_hc_post_gate = false;
+                 ctx->fused_rms_norm_mode = RMS_NORM_COUNT;
++                ctx->qpg_active=false;
+                 fusion_string = nullptr;
+             }
+         }
+ 
++        if(ctx->qpg_active){for(int j=1;j<=2;++j){const auto extra=ggml_vk_get_node_flops(cgraph->nodes[i+j]);total_flops+=extra;batch_flops+=extra;}}
+         // Signal the almost_ready fence when the graph is mostly complete (< 20% remaining)
+         bool almost_ready = (cgraph->n_nodes - i) < cgraph->n_nodes / 5;
+         bool submit = (submitted_nodes >= ctx->device->max_nodes_per_submit) ||

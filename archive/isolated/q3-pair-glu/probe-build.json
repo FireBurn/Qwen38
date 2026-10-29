@@ -1,0 +1,13 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "${WORKSPACE}/isolated/q3-pair-glu/probe.cpp",
+    "-lvulkan",
+    "-o",
+    "${WORKSPACE}/isolated/q3-pair-glu/operator_bench"
+  ],
+  "source_sha256": "4a82ecbacd29946b75bfe1ca93ba4fd691bdf835835647109d6e9b1b90ae775c",
+  "binary_sha256": "5380e089ccbcbf17b2295dfbcf43b488860713236b40727e92198d900066a27f"
+}

@@ -1,0 +1,13 @@
+{
+  "command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "${WORKSPACE}/isolated/q3-pair-glu/timing.cpp",
+    "-lvulkan",
+    "-o",
+    "${WORKSPACE}/isolated/q3-pair-glu/timing-bin/operator_bench_timed"
+  ],
+  "source_sha256": "b259e8982cc8eb3289a09be3d67889d255d58eb742caa54ba8e9e20a4d77ac37",
+  "binary_sha256": "573bd29c4ab0d440dcade1d30ea665a2fdf4bbb36f10b8d32828e87e622837d8"
+}

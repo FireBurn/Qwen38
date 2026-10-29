@@ -1,0 +1,37 @@
+--- a/ggml-vulkan.cpp
++++ b/ggml-vulkan.cpp
+@@ -14641,9 +14641,34 @@
+         fprintf(stderr,"NQ_PLAN_EXACT nodes=%d pairs=%zu\n",graph->n_nodes,selected.size());
+     }
+ }
++
++// Read-only graph metadata diagnostic; no recording/planning changes.
++static void qpg_graph_audit(const ggml_cgraph*graph){
++    if(!getenv("GGML_VK_PAIR_AUDIT"))return;
++    std::unordered_map<const ggml_tensor*,int>indices,uses;
++    for(int i=0;i<graph->n_nodes;++i){indices[graph->nodes[i]]=i;for(int k=0;k<GGML_MAX_SRC;++k)if(graph->nodes[i]->src[k])++uses[graph->nodes[i]->src[k]];}
++    int pairs=0,eligible=0;
++    for(int i=0;i<graph->n_nodes;++i){
++        const ggml_tensor*g=graph->nodes[i];if(g->op!=GGML_OP_GLU||ggml_get_glu_op(g)!=GGML_GLU_OP_SWIGLU||!g->src[0]||!g->src[1])continue;
++        const ggml_tensor*a=g->src[0],*b=g->src[1];if(a->op!=GGML_OP_MUL_MAT||b->op!=GGML_OP_MUL_MAT||!a->src[0]||!a->src[1]||!b->src[0]||!b->src[1])continue;
++        ++pairs;const ggml_tensor*wa=a->src[0],*wb=b->src[0];int ia=indices.count(a)?indices[a]:-1,ib=indices.count(b)?indices[b]:-1;
++        const bool shared=a->src[1]==b->src[1];
++        const bool contiguous=ggml_is_contiguous(wa)&&ggml_is_contiguous(wb)&&ggml_is_contiguous(a->src[1])&&ggml_is_contiguous(a)&&ggml_is_contiguous(b)&&ggml_is_contiguous(g);
++        const bool no_views=!wa->view_src&&!wb->view_src&&!a->view_src&&!b->view_src&&!g->view_src;
++        const bool same_shape=ggml_are_same_shape(wa,wb)&&ggml_are_same_shape(a,b)&&ggml_are_same_shape(a,g);
++        const bool small=a->ne[1]>=1&&a->ne[1]<=2&&a->ne[2]==1&&a->ne[3]==1&&wa->ne[2]==1&&wa->ne[3]==1;
++        const bool unique=uses[a]==1&&uses[b]==1&&!(a->flags&GGML_TENSOR_FLAG_OUTPUT)&&!(b->flags&GGML_TENSOR_FLAG_OUTPUT);
++        const bool adjacent=ia>=0&&ib>=0&&std::max(ia,ib)==i-1&&std::min(ia,ib)==i-2;
++        const bool ok=shared&&contiguous&&no_views&&same_shape&&small&&unique&&adjacent&&wa->type==GGML_TYPE_Q3_K&&wb->type==GGML_TYPE_Q3_K;
++        eligible+=ok;
++        fprintf(stderr,"PAIR_GRAPH glu=%d a=%d b=%d type_a=%s type_b=%s K=%lld R=%lld C=%lld shared=%d contiguous=%d no_views=%d same_shape=%d small=%d uses_a=%d uses_b=%d unique=%d adjacent=%d eligible=%d name=%s\n",i,ia,ib,ggml_type_name(wa->type),ggml_type_name(wb->type),(long long)wa->ne[0],(long long)wa->ne[1],(long long)a->ne[1],shared,contiguous,no_views,same_shape,small,uses[a],uses[b],unique,adjacent,ok,g->name);
++    }
++    fprintf(stderr,"PAIR_GRAPH_SUMMARY nodes=%d pairs=%d eligible=%d\n",graph->n_nodes,pairs,eligible);
++}
+ static ggml_status ggml_backend_vk_graph_compute(ggml_backend_t backend, ggml_cgraph * cgraph) {
+     VK_LOG_DEBUG("ggml_backend_vk_graph_compute(" << cgraph->n_nodes << " nodes)");
+     ggml_backend_vk_context * ctx = (ggml_backend_vk_context *)backend->context;
++    qpg_graph_audit(cgraph);
+     np_prepare_options(ctx);
+     nq_prepare(ctx,cgraph);
+ 

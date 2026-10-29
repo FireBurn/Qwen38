@@ -1,0 +1,65 @@
+{
+  "bounded_cases": 576,
+  "larger_cases": 128,
+  "model_cases": [
+    {
+      "case": "host-model32",
+      "target_rows": 38,
+      "target_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+      "pair_calls": 780,
+      "n_predict": 34,
+      "n_drafted": 19,
+      "n_accept": 15
+    },
+    {
+      "case": "coding",
+      "target_rows": 136,
+      "target_sha256": "d57c28c4140917e228a584ff8f7f2185caa0c08d51942a70b1dedf891cd95c27",
+      "pair_calls": 2691,
+      "n_predict": 130,
+      "n_drafted": 68,
+      "n_accept": 62
+    },
+    {
+      "case": "math",
+      "target_rows": 138,
+      "target_sha256": "cb052233cb56e8fe19113ff905700115393b19bfa263679d308ac800ca4a27f1",
+      "pair_calls": 2730,
+      "n_predict": 129,
+      "n_drafted": 69,
+      "n_accept": 60
+    },
+    {
+      "case": "host-populated-kv64",
+      "target_rows": 72,
+      "target_sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5",
+      "pair_calls": 1443,
+      "n_predict": 65,
+      "n_drafted": 36,
+      "n_accept": 29
+    },
+    {
+      "case": "host-boundary128",
+      "target_rows": 146,
+      "target_sha256": "16a693b0d912e151df9dc942bfb174f1dd5f8c48748f356b07be7cc8f2fa2f49",
+      "pair_calls": 2886,
+      "n_predict": 129,
+      "n_drafted": 73,
+      "n_accept": 56
+    }
+  ],
+  "unique_target_rows": 530,
+  "total_model_pair_calls": 10530,
+  "host_library_sha256": "cc73743efb4ece59bd2d495243fee15b829c3b555785fe86c727fb40a97a87b3",
+  "pair_shader_sha256": "ea4144459fb262ed69ca3a5a64502b8c055c2c239128800570cf57b4bd7040aa",
+  "operator_primary": {
+    "cols": 2,
+    "replicas": 8,
+    "time_change_percent": -3.8702693288364634,
+    "descriptive_t95_percent": [
+      -5.652614530050719,
+      -2.054253301446497
+    ]
+  },
+  "scope": "Five specified fullrequestedtarget-vocabulary rows/tokens/counters exact;actualpairuse inallactivecases,inactivecontrolsinallcases andfreshstock/frozencontrolsshort. Notallinternaltensors/draftscores/arbitrarycontexts. Inheritedzerooraclefields areunused(noGDNreaderindex);copylabels mayretainnative-command/GDNtext,actualassets/paths/modesgovern. NewhostallthreeTUs rebuilt;strictaliasfallback;noendtoendthroughputconclusionfromqualification/micro."
+}

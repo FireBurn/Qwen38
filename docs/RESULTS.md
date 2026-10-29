@@ -102,3 +102,5 @@ Five observer processes preserve 530 requested target-logit rows and generated-t
 GDN reader indexing reduced measured host CPU work but did not qualify a throughput gain in a fixed 24-arm under-load A/B. Only three blocks matched external load; all favoured legacy. [Evidence and diagnostic](GDN-READER-INDEX.md).
 
 [Explicit Q3 column reuse](Q3-COLUMN-REUSE.md) passes864operatorchecks and630target-logitrows acrossfivecases, reducing C2instructions5556→4220 without extraallocatedregisters. Fixed24modelA/B fails qualification (only3matchedblocks;raw+1.55%[−0.20,+3.33]);separate96armGPUdiagnostic establishes noC2speedup. Keep frozenQ3/cap400. Instructionredundancy neednottranslate tocritical-path time savings.
+
+[Bounded Q3 pair/SwiGLU fusion](Q3-PAIR-GLU.md) passes576bounded/128largeoperatorcomparisons,630modeltargetrows andhosteligibility/fallbackwitnesses. PrimaryC2streamoperator time−3.87%[−5.65,−2.05]. Fullmodel24armraw+9.38%[−2.13,+22.23]isconfounded;only2/6blocks matchexternalCPU/build/runqueue,so noqualifiedmodelgain oradoption. Keepfrozen400;donotaddhistoricalpercentages.

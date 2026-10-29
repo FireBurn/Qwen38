@@ -1,0 +1,548 @@
+{
+  "harness_expectation_failure": "Initial harness expected C1fusionatK256. NativeAMDMMVQpolicyrejectsC1K<2048,sofallbackcorrect;initialassertwaswrong. No numerical/driverfailure. FirstthreecompletedGPUprocessoutputsidentical;disabledarmsnotrunafterassert.",
+  "arms": [
+    {
+      "mode": "frozen",
+      "cases": [
+        {
+          "case": "valid",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "valid",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "reverse",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "reverse",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "different_input",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "different_input",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "extra_consumer",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "extra_consumer",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "output_intermediate",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "output_intermediate",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "weight_view",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "weight_view",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "input_view",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "input_view",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "other_quant",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "other_quant",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "mixed_quant",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "mixed_quant",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "precision",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "precision",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "unmarked_weights",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "unmarked_weights",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "activation_alias",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "activation_alias",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "cols3",
+          "columns": 3,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        }
+      ],
+      "output_sha256": "be7cc1615dfff8d45eea6ae32e8b94dd7f3655d110c615b156373de22368758f"
+    },
+    {
+      "mode": "inactive",
+      "cases": [
+        {
+          "case": "valid",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "valid",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "reverse",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "reverse",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "different_input",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "different_input",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "extra_consumer",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "extra_consumer",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "output_intermediate",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "output_intermediate",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "weight_view",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "weight_view",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "input_view",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "input_view",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "other_quant",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "other_quant",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "mixed_quant",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "mixed_quant",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "precision",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "precision",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "unmarked_weights",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "unmarked_weights",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "activation_alias",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "activation_alias",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "cols3",
+          "columns": 3,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        }
+      ],
+      "output_sha256": "be7cc1615dfff8d45eea6ae32e8b94dd7f3655d110c615b156373de22368758f"
+    },
+    {
+      "mode": "active",
+      "cases": [
+        {
+          "case": "valid",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "valid",
+          "columns": 2,
+          "K": 256,
+          "calls": 4,
+          "expected_by_native_policy": 4
+        },
+        {
+          "case": "reverse",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "reverse",
+          "columns": 2,
+          "K": 256,
+          "calls": 4,
+          "expected_by_native_policy": 4
+        },
+        {
+          "case": "different_input",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "different_input",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "extra_consumer",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "extra_consumer",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "output_intermediate",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "output_intermediate",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "weight_view",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "weight_view",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "input_view",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "input_view",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "other_quant",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "other_quant",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "mixed_quant",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "mixed_quant",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "precision",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "precision",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "unmarked_weights",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "unmarked_weights",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "activation_alias",
+          "columns": 1,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "activation_alias",
+          "columns": 2,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        },
+        {
+          "case": "cols3",
+          "columns": 3,
+          "K": 256,
+          "calls": 0,
+          "expected_by_native_policy": 0
+        }
+      ],
+      "output_sha256": "be7cc1615dfff8d45eea6ae32e8b94dd7f3655d110c615b156373de22368758f"
+    }
+  ]
+}

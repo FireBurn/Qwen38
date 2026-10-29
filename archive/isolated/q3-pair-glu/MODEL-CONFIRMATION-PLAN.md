@@ -1,0 +1,5 @@
+# Conditional independent full-model confirmation
+
+Declared beforediscovery starts. Triggeronlyifcompletedfixed24discovery has>=4presetloadmatchedblocks andpositiveincremental95%lowerbound,withallnumerical/runtimegatespassing. Do notextenddiscovery.
+
+Separatefixed24fresh512tokenprocesses,sixalternatingABBA/BAABblocks,samepreservedfrozenQ3/cap400 primaryversussamepairhost/shader. Noasset,policy,shader,optionsortargetchange. SameexternalCPU5pp/buildspread2/runqueuespreadmax(4,15%mean),mandatoryvalidtelemetry,stablelibc,correctpinnedmappings,exact513tokens/counters,zeroGPUerrors. Naturalclocks/poweroutcomes;all6raw/matchedretained,>=4matched,pairedlog95%t. Norescueextension. Adopt onlyifindependentincrementalintervalalsopositive;otherwisekeepfrozen/candidateexperimental. No directstock/equalclock/generalcontext/megaclaim.

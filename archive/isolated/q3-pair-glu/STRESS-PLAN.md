@@ -1,0 +1,3 @@
+# Larger nonpersistent operator qualification
+
+Only after576boundedcasepass andactual48VGPR/zeroLDS/scratch/noSpills inspection. Same shaderbinary;no shaderedit. C1/C2,K5120/17408,R17/33/5120/17408,4activationpatterns,2gate/uporders =>128cases. Max17408 independentworkgroups;no interWGbarriers/atomics/persistence. Two exactfrozenmatmuls+extractedproductionGLU versusfusedpair;alloutputbytes exact,allnative matrixrows sampledscalarCPU atfirst/middle/lastwhenR>64,allrowsfor17/33,allinputbytesimmutable/guards. NativeGPUoracle coversentireoutputs. No speedclaim. SerialGPUguard/privatecopy2,noClaudechanges.

@@ -1,0 +1,38 @@
+{
+  "command": [
+    "glslc",
+    "-fshader-stage=compute",
+    "--target-env=vulkan1.2",
+    "-O",
+    "-I${WORKSPACE}/isolated/q3-pair-glu/shader",
+    "-DDATA_A_Q3_K=1",
+    "-DD_TYPE=float",
+    "-DFLOAT_TYPE=float",
+    "-DFLOAT_TYPEV2=vec2",
+    "-DACC_TYPE=float",
+    "-DUSE_SUBGROUP_ADD_NO_SHMEM=1",
+    "${WORKSPACE}/isolated/q3-pair-glu/shader/mul_mat_vecq.comp",
+    "-o",
+    "${WORKSPACE}/isolated/q3-pair-glu/pair_subgroup_no_shmem.spv"
+  ],
+  "extract_command": [
+    "clang++",
+    "${WORKSPACE}/isolated/q3-pair-glu/extract_glu.cpp",
+    "${WORKSPACE}/isolated/production-native-shaders/host/objects/swiglu.comp.cpp.o",
+    "-o",
+    "${WORKSPACE}/isolated/q3-pair-glu/extract-glu"
+  ],
+  "production_glu_object_sha256": "7ddc973b9fe71a01ecacd9083cd7b23907d856350e57e01231aa7c503efc89c8",
+  "modules": {
+    "pair_subgroup_no_shmem.spv": "ea4144459fb262ed69ca3a5a64502b8c055c2c239128800570cf57b4bd7040aa",
+    "swiglu_ref.spv": "cc52bcccc9847a2c1d7cb36c0475c363d66ec0fed641d43fcdeb63ace031c5ce",
+    "pad16_subgroup_no_shmem.spv": "a981d20e7a31965cfe9e603f1318080badeae379671fb2839383f4788e5a2755"
+  },
+  "sources": {
+    "mul_mat_vec_iface.glsl": "354d3f13b77edc557e4c8b13d39fbf05dba9b1df1106dcebd8b715840fe29aca",
+    "mul_mat_vecq.comp": "a40c7edd8836a9394d3f7502b8d103e11617386fcf679276de539d52265b826c",
+    "types.glsl": "aca653120c4868f58fdc3a8ccb66bd568ac50f062475978286c200c73464419b",
+    "mul_mat_vecq_funcs.glsl": "e2888bae9d8d3279896b3aae739a5b4ff9216b52c326e68a27366a85ee478035",
+    "mul_mat_vec_base.glsl": "673aeff855cb5694e1fb42ee2675ba1b673d510d6bd7662b62d1557728b47c02"
+  }
+}

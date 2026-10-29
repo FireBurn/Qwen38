@@ -1,0 +1,9 @@
+# Fixed full-model discovery
+
+Declared beforeany newfullmodeltiming. Gate:576bounded+128fullsizeoperators exact,positivepredeclaredC2streamoperator screen,allfive fulltargetlogitmodelcases inactive/active exact plusfreshstock/frozencontrols short;zeroGPUerrors andactualpositivepairdispatchcountsinallactivecases. No shader/hosteditsafterqualification.
+
+Primarycontrol preservedqualifiedQ3/cap400 SHA4e1381cd...;candidateprivatepairhost/cap400 plusqualifiedpairshader. Bothsamefrozenpad112/repackshaders,immutablemodel,production.27/.7core/common,privatecopy2driver,greedyMTPmax/min1,pmin0,4kctx/q8KV,1CPUthread,512requestedtokens. Audits/profiling/logitcaptureoff. Candidatehasnativefallback;eligibilityandactualuseproveninpriorfivecases. Newhostinactivequalifiedbutnotaseparatetimingarm;primaryisactualpreservedconfiguration.
+
+Fixed24freshprocesses,sixalternatingABBA/BAABblocks. CPU/buildworkallowed,noquietgate. ExternalsteadyCPUmode means<=5pp,buildmeanspread<=2,runnablemeanspread<=max(4,15%mean);validmandatorytelemetry,stablemappedlibcinode,pinnedassets,exact513tokens/279draft/234acceptreference,zeroGPUerrors. Naturalclocks/poweroutcomes,notmatchinggates. Atleast4matchedblocks;all6rawandmatchedresultsretained,pairedlog95%t(df3/4/5). No sampleextension/outcome-drivenparameterchange.
+
+Positive matched95%interval supportsdiscoveryonly;adoptionrequiresaseparatefixed24replication againstsamepreservedprimary,declaredinMODEL-CONFIRMATION-PLAN. Failedgate/noeffect=>retainnegativeevidence,keepfrozen;noresampling. No addinghistoricalpercentages,equalclock/generalcontext/mega claim. PublicationinFireBurn/Qwen38aftercompleteevidence.

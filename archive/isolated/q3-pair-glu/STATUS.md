@@ -1,0 +1,17 @@
+# Bounded Q3 pair/GLU fusion
+
+Graphaudit readonly:61graphs/20targetgraphswith39stricteligibleQ3pairs=780decisions,shorttarget38rows exact. NativeGLUextractedfromproductionobjectandexactmodulebytesfoundinfrozenlibrary.
+
+576boundedcases<=16WG and128larger cases through17408WG pass bitexact twofrozenmatmuls+productionGLU versusonepairkernel,allfourpatterns/twogateuporders/C1C2,CPUscalarspot/fullchecks,allinputs/guards,noGPUerrors.48VGPR/zeroLDS/scratch/noSpills bothC1/C2. Staticcodecountsnotretiredinstructions;notcausalperformanceproof.
+
+Fixed96armoperator screen(primaryC2/8replicas) streamedtime-3.8703%[-5.6526,-2.0543],C1stream-2.5703%[-3.8183,-1.3060];cachedC1-12.8221%,C2-10.5020%. Sameweightbuffers,nativegate/upcanoverlap. No matchedmodel/equalclockclaim;telemetrydescriptive. Triggerprivatehostprototypepasses.
+
+Hostimplementedwithstrictthree-nodeeligibility,builtinusecounts,nodeflags/defaultprecision/alignment/contiguous/VKbuffers,C1C2/nobatch/immutableQ3 cache,explicitweight/input-overlapreject,normalfusionhazardchecker,context-ownedpipelines,preflightmaterializebothweightsbeforeelision,nativequantization/preallocstate,onlyGLUwritebit,flopsretained. All3privatehostTUs rebuilt. No sharedfrozen/Claudechanges.
+
+Allfivehostnumericalcases pass630uniquerequestedfullvocabularytargetrows andtokens/counters;positiveactualpaircallsactive,inactivecontrolsexact,shortfreshstock/frozen/newinactive/newactiveallmatch. NoGPUerrors. Seequalification-summary.json. PairC2onlyinshortMTPmax1target;C1operatorproofdoesnotimplyC1modeluse.
+
+Fixed24fresh512tokenmodelA/B nowrunning viaexec15537,primarypreservedfrozenQ3/cap400 vsnewactivepairhost/cap400,matchCPU/build/runqueue,clocks/poweroutcomes,noquietgate. Do notmodifyassets orstartotherGPUjobs. Ifpositive>=4matchedblock95%lowerbound,runprepare_confirmation.py thenguardedrun_q3_pair_glu_confirmation.py (independentfixed24);elsekeepfrozen,archivefailure,noresample. Plansdeclaredbeforediscovery. No newfullmodelgainestablishedyet;publicHEAD9bc4060,newroundunpublished.
+
+Modeldiscoverycomplete:model-timing512/20261029T135426Z,all24outputs/counters/mappings/telemetryvalid,noGPUerrors. Raw+9.3774%[-2.1257,+22.2325],only2matchedblocks(effects+0.8056,+9.5794),incremental_gain_supported=false. Block0+32.1%coincides21.5ppCPUloadimbalance. No independentconfirmation(triggerfalse),noresampling/adoption. Preservefrozen. Eligibilitywitnessrunningexec17062 afterinitialharnessexpectationmistake:K256C1rightlynativefallback(AMDK<2048);all3completedoutputsidentical/nofault. Preservedattempt1,newK2048witnesscheckspositiveC1/C2andnegativefallbacks. Nohost/shaderedits.
+
+Eligibilityround2all5armscomplete:25casesnormal*frozen/inactive/active,2casesdisabled*frozen/active,fourpatterns;alloutputs/preservedintermediatesbyte-identicalandallpositive/negativecounts correct. Active16paircalls(valid/reversedC1/C2 K2048),allnegative0includingC2activationalias anddisabledfusion. NoGPUerrors. InitialK256attempt preserved(normal3outputsidentical,C1policyfallbackcorrect;harnessexpectationfailureonly). AllGPUjobs terminal,modelconfirmationtriggerfalse.

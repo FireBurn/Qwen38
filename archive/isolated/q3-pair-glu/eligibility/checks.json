@@ -1,0 +1,531 @@
+[
+  {
+    "mode": "frozen",
+    "disabled": false,
+    "cases": [
+      {
+        "case": "valid",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "valid",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "reverse",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "reverse",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "different_input",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "different_input",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "extra_consumer",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "extra_consumer",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "output_intermediate",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "output_intermediate",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "weight_view",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "weight_view",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "input_view",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "input_view",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "other_quant",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "other_quant",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "mixed_quant",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "mixed_quant",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "precision",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "precision",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "unmarked_weights",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "unmarked_weights",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "activation_alias",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "activation_alias",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "cols3",
+        "columns": 3,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      }
+    ],
+    "output_bytes": 22368,
+    "sha256": "1607db610ab9cb2ff225079eb7592295efa1998210f72982fed62c75d6f24632",
+    "returncode": 0,
+    "failure": null,
+    "new_driver_errors": []
+  },
+  {
+    "mode": "inactive",
+    "disabled": false,
+    "cases": [
+      {
+        "case": "valid",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "valid",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "reverse",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "reverse",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "different_input",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "different_input",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "extra_consumer",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "extra_consumer",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "output_intermediate",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "output_intermediate",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "weight_view",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "weight_view",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "input_view",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "input_view",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "other_quant",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "other_quant",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "mixed_quant",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "mixed_quant",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "precision",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "precision",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "unmarked_weights",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "unmarked_weights",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "activation_alias",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "activation_alias",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "cols3",
+        "columns": 3,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      }
+    ],
+    "output_bytes": 22368,
+    "sha256": "1607db610ab9cb2ff225079eb7592295efa1998210f72982fed62c75d6f24632",
+    "returncode": 0,
+    "failure": null,
+    "new_driver_errors": []
+  },
+  {
+    "mode": "active",
+    "disabled": false,
+    "cases": [
+      {
+        "case": "valid",
+        "columns": 1,
+        "pair_calls": 4,
+        "expected_pair_calls": 4
+      },
+      {
+        "case": "valid",
+        "columns": 2,
+        "pair_calls": 4,
+        "expected_pair_calls": 4
+      },
+      {
+        "case": "reverse",
+        "columns": 1,
+        "pair_calls": 4,
+        "expected_pair_calls": 4
+      },
+      {
+        "case": "reverse",
+        "columns": 2,
+        "pair_calls": 4,
+        "expected_pair_calls": 4
+      },
+      {
+        "case": "different_input",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "different_input",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "extra_consumer",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "extra_consumer",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "output_intermediate",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "output_intermediate",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "weight_view",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "weight_view",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "input_view",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "input_view",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "other_quant",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "other_quant",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "mixed_quant",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "mixed_quant",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "precision",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "precision",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "unmarked_weights",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "unmarked_weights",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "activation_alias",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "activation_alias",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "cols3",
+        "columns": 3,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      }
+    ],
+    "output_bytes": 22368,
+    "sha256": "1607db610ab9cb2ff225079eb7592295efa1998210f72982fed62c75d6f24632",
+    "returncode": 0,
+    "failure": null,
+    "new_driver_errors": []
+  },
+  {
+    "mode": "frozen",
+    "disabled": true,
+    "cases": [
+      {
+        "case": "valid",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "valid",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      }
+    ],
+    "output_bytes": 720,
+    "sha256": "556607a56c4b3fc12aae59a36339baf2cd3b6059905ad9ed39331e7fcdaf2383",
+    "returncode": 0,
+    "failure": null,
+    "new_driver_errors": []
+  },
+  {
+    "mode": "active",
+    "disabled": true,
+    "cases": [
+      {
+        "case": "valid",
+        "columns": 1,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      },
+      {
+        "case": "valid",
+        "columns": 2,
+        "pair_calls": 0,
+        "expected_pair_calls": 0
+      }
+    ],
+    "output_bytes": 720,
+    "sha256": "556607a56c4b3fc12aae59a36339baf2cd3b6059905ad9ed39331e7fcdaf2383",
+    "returncode": 0,
+    "failure": null,
+    "new_driver_errors": []
+  }
+]

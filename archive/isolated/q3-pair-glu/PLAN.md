@@ -1,0 +1,7 @@
+# Bounded gate/up/GLU fusion
+
+Goal: remove two matrix-output intermediates and launches through one bounded FFN kernel, rather than build another whole-model persistent kernel. Preserve native outputs and compare against frozen qualifiedQ3/cap400. No Claude/shared/frozen mutations;serialGPUguard,firstunknownkernel<=16WG.
+
+First audit read-only graph topology using private frozen-derivedhost and unchanged shaders: GLU splitinputs must be two same-shapeQ3matmuls with sharedactivation,uniqueoutputs,contiguousnonviewweights/outputs,C1/C2,strictadjacency. Verify requested32token targetlogitbits/tokens/counters freshnative. No throughputclaim frominstrumentedhost. Audit only givesgrapheligibility,notmemoryalias/lifetimeproof.
+
+If actualeligiblepairs exist, prototype operator: each64threadwave carries gate/up reductions foroneoutputrow andC1/C2. Keep originalK/reduction/order;GLU exactly a/(1+exp(-a))*b after nativefloat32matrixresults. Same4C2accumulators asnative2rowC2 kernel,though actualallocatedregisters maychange. Native activationquantization/layout,private112weights,strictnoalias/bias/view/batchfallback. BothA matrices stillread;expectedtrafficreduction isintermediates/launches,notweightbytes. Shader mustpass<=16WG/nativeGPUoracle,guards/resources;then largerfocusedstress beforeprivatehostintegration. All5modeltargetaudits beforefixedunderloadtiming. No speed claim until qualified. No interworkgroupbarrier orunsafecommandreplay.
