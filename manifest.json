@@ -10723,7 +10723,751 @@
       "export_sha256": "cd26c586a0d47f9495d0a31feefea22e9968b1f844755e5ed445a62d2b4c9faf",
       "bytes": 485,
       "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/publish_fusion_round.py",
+      "path": "archive/isolated/q3-pad112/publish_fusion_round.py",
+      "source_sha256": "adf05fb05da6657422b9bfcde03914d1a370d328d06f4efaf67e653fd0e92e09",
+      "export_sha256": "fa4bfc76ff93f579426a29538ac5759375a663159fe4d13a7dd94a485bfa5bae",
+      "bytes": 1768,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/q6-alignment-plan.md",
+      "path": "archive/isolated/q3-pad112/q6-alignment-plan.md",
+      "source_sha256": "e0408ca801dd1ac995855da1c2956a660f7f648993d1205fd4ca0b35086fa070",
+      "export_sha256": "e0408ca801dd1ac995855da1c2956a660f7f648993d1205fd4ca0b35086fa070",
+      "bytes": 1624,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/q6-alignment-cpu-proof.json",
+      "path": "archive/isolated/q3-pad112/q6-alignment-cpu-proof.json",
+      "source_sha256": "eba208ffd093b66cc69056180c859baa3220951509c09b3d4ab0ad59df3f4fa6",
+      "export_sha256": "eba208ffd093b66cc69056180c859baa3220951509c09b3d4ab0ad59df3f4fa6",
+      "bytes": 475,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-plan.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-plan.json",
+      "source_sha256": "892d34ad0afd2ce921af7202bf83f37e31ccbe22c55db1f49a4444207b5c0067",
+      "export_sha256": "892d34ad0afd2ce921af7202bf83f37e31ccbe22c55db1f49a4444207b5c0067",
+      "bytes": 1575,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-module-proof.json",
+      "path": "archive/isolated/q3-pad112/fusion-module-proof.json",
+      "source_sha256": "ddb26ee8d24355d5bbfc5ab9fe99023197049ee4dfff7e70dc4d332033d1dfcf",
+      "export_sha256": "ddb26ee8d24355d5bbfc5ab9fe99023197049ee4dfff7e70dc4d332033d1dfcf",
+      "bytes": 518,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options.patch",
+      "path": "archive/isolated/q3-pad112/fusion-options.patch",
+      "source_sha256": "e72973a6220478f61b4b9de9cb45fae4eab8d8954235098ac7fba9bd33281423",
+      "export_sha256": "e72973a6220478f61b4b9de9cb45fae4eab8d8954235098ac7fba9bd33281423",
+      "bytes": 8488,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/build_fusion_options.py",
+      "path": "archive/isolated/q3-pad112/build_fusion_options.py",
+      "source_sha256": "2159198c2f036abf44927eee31247756198339a1a77439beff3f3f60852b4aca",
+      "export_sha256": "d5aa7fa44e52ce47f6f9a1ad8ad5fd359cf154305e0409f16b4e43f98f286a46",
+      "bytes": 4165,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/prepare_combination_screen.py",
+      "path": "archive/isolated/q3-pad112/prepare_combination_screen.py",
+      "source_sha256": "e95e416c6aba95907b7163fd331bfaabf4a82b602b82bbb60aa852b3413448ed",
+      "export_sha256": "e95e416c6aba95907b7163fd331bfaabf4a82b602b82bbb60aa852b3413448ed",
+      "bytes": 2946,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/prepare_combination_confirm.py",
+      "path": "archive/isolated/q3-pad112/prepare_combination_confirm.py",
+      "source_sha256": "d78c10117e21099a6e8da6d16c39806dcb0d9a76a039315fc9d618493778f5bc",
+      "export_sha256": "d78c10117e21099a6e8da6d16c39806dcb0d9a76a039315fc9d618493778f5bc",
+      "bytes": 5546,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/host-fusion-options/build.json",
+      "path": "archive/isolated/q3-pad112/host-fusion-options/build.json",
+      "source_sha256": "fcf5d5729f81694f26dafdf7806ec04eabd060252702cce87469fcd4478129df",
+      "export_sha256": "fcf5d5729f81694f26dafdf7806ec04eabd060252702cce87469fcd4478129df",
+      "bytes": 511,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-operators/comparison.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-operators/comparison.json",
+      "source_sha256": "6444e16c075c9414d3c245023c5695bef1389b212a70ca16c610252112bcbcd5",
+      "export_sha256": "6444e16c075c9414d3c245023c5695bef1389b212a70ca16c610252112bcbcd5",
+      "bytes": 306,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-operators/assets.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-operators/assets.json",
+      "source_sha256": "49756884ee3084e0db5dfd1b0656106b2ae902f59458d5e68af36da458cf70bb",
+      "export_sha256": "352fbcc8b6f0abbca2a9909f9dc78f41caa96e66128d6039b8d89c1e20facaec",
+      "bytes": 1328,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-operators/checks.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-operators/checks.json",
+      "source_sha256": "846fa2825019bbcd906462c2b88242835ba223eec6835f9c898c203e48d6b419",
+      "export_sha256": "846fa2825019bbcd906462c2b88242835ba223eec6835f9c898c203e48d6b419",
+      "bytes": 3267,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-model32/comparison.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-model32/comparison.json",
+      "source_sha256": "899063e6da0730ac144542d6048d2ffa19c001e42a378fd470448fdcb65c4f4a",
+      "export_sha256": "899063e6da0730ac144542d6048d2ffa19c001e42a378fd470448fdcb65c4f4a",
+      "bytes": 555,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-model32/assets.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-model32/assets.json",
+      "source_sha256": "8e095d18960900183d6c07384186f8c7dce9bb5a862af10cfeef6cedb7de308e",
+      "export_sha256": "bc16f617772622b331850ca5dd8df630fca0c8b78c4d587cb69cd1f334dc32ec",
+      "bytes": 1756,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-model32/checks.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-model32/checks.json",
+      "source_sha256": "06a87f16fdf00d393c4c8345f24f3cf73ca336eb8f28523f1c8dc52f26f00b28",
+      "export_sha256": "06a87f16fdf00d393c4c8345f24f3cf73ca336eb8f28523f1c8dc52f26f00b28",
+      "bytes": 4077,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-model32/audit-archive.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-model32/audit-archive.json",
+      "source_sha256": "0961a5d66a0193e4e2fcbb863693ba7362820c9523dfa5ba96d7f1621298ade7",
+      "export_sha256": "0961a5d66a0193e4e2fcbb863693ba7362820c9523dfa5ba96d7f1621298ade7",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-model136/comparison.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-model136/comparison.json",
+      "source_sha256": "899063e6da0730ac144542d6048d2ffa19c001e42a378fd470448fdcb65c4f4a",
+      "export_sha256": "899063e6da0730ac144542d6048d2ffa19c001e42a378fd470448fdcb65c4f4a",
+      "bytes": 555,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-model136/assets.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-model136/assets.json",
+      "source_sha256": "c2a48502acb3a3c5c93cead4af1ce7dcd39b241565cfb00dc0146f0a205ce5e9",
+      "export_sha256": "dc48af4d27654cea9d4c0baeec277fd5692e391603294c2102ddaf846d2ff6a9",
+      "bytes": 1757,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-model136/checks.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-model136/checks.json",
+      "source_sha256": "1db1e4ebca4ae2e3bec4f7891badfa2b9fe3d4292c817174139a6914a4dfc68c",
+      "export_sha256": "1db1e4ebca4ae2e3bec4f7891badfa2b9fe3d4292c817174139a6914a4dfc68c",
+      "bytes": 4077,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-model136/audit-archive.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-model136/audit-archive.json",
+      "source_sha256": "0961a5d66a0193e4e2fcbb863693ba7362820c9523dfa5ba96d7f1621298ade7",
+      "export_sha256": "0961a5d66a0193e4e2fcbb863693ba7362820c9523dfa5ba96d7f1621298ade7",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-prompts128/comparison.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-prompts128/comparison.json",
+      "source_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "export_sha256": "56d90f179805d021b6dfe3b3ff3ee4161af566c313e13eccd624083e91f299f7",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-prompts128/assets.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-prompts128/assets.json",
+      "source_sha256": "efac9587ea2b1be89b948e27c32a056a2c99e0818ee904bf7771be27eab18d74",
+      "export_sha256": "8166179d47b9721cb3b3f8b8c1cbe0665018827d2f66a4509540e6f6736d3449",
+      "bytes": 1759,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-prompts128/checks.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-prompts128/checks.json",
+      "source_sha256": "bc331cdd398ed54223085a88f0c095beae024ad32aaff1f886c08e853d60ec2e",
+      "export_sha256": "bc331cdd398ed54223085a88f0c095beae024ad32aaff1f886c08e853d60ec2e",
+      "bytes": 4223,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-prompts128/math/audit-archive.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-quant32/comparison.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-quant32/comparison.json",
+      "source_sha256": "316df95d87918237a8d125bd5adfb624a7d517cba28e0c2ac306b5a1f6c2f417",
+      "export_sha256": "316df95d87918237a8d125bd5adfb624a7d517cba28e0c2ac306b5a1f6c2f417",
+      "bytes": 555,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-quant32/assets.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-quant32/assets.json",
+      "source_sha256": "acf16184c1f030c0a2dd10a9f16185a3e7d5f32813e6a5de9f85b7e5df8f8da8",
+      "export_sha256": "642f6538da3df6e5212cdb02dcbc8ac926437c710bb30225145bf531c3ea70a9",
+      "bytes": 1756,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-quant32/checks.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-quant32/checks.json",
+      "source_sha256": "c8b1f967a9bf89d6a0d5986ef5c28abbaf3292135ccd934c10ab0742789de25d",
+      "export_sha256": "c8b1f967a9bf89d6a0d5986ef5c28abbaf3292135ccd934c10ab0742789de25d",
+      "bytes": 2033,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-options-quant32/audit-archive.json",
+      "path": "archive/isolated/q3-pad112/fusion-options-quant32/audit-archive.json",
+      "source_sha256": "17af1142d66eab50354f91407dab986e8b5e79df3892d27f492423019903d489",
+      "export_sha256": "17af1142d66eab50354f91407dab986e8b5e79df3892d27f492423019903d489",
+      "bytes": 208,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/runtime-baseline.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/runtime-baseline.json",
+      "source_sha256": "40c9ee0fc99b0d560e390b4e4a2d87199760e10ff82262ebaf108b8b241fcc4c",
+      "export_sha256": "40c9ee0fc99b0d560e390b4e4a2d87199760e10ff82262ebaf108b8b241fcc4c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/02-fuse-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/02-fuse-telemetry.json",
+      "source_sha256": "6e5e6a8fc09d0d26ca28184518cd733936e764fd2f995d3aead6ca0cea3d90d5",
+      "export_sha256": "6e5e6a8fc09d0d26ca28184518cd733936e764fd2f995d3aead6ca0cea3d90d5",
+      "bytes": 64927,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/results.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/results.json",
+      "source_sha256": "a56a2f62b04b7e0b58884a2f1232b90a79ab69d5cea84606749e82bea86f330e",
+      "export_sha256": "a56a2f62b04b7e0b58884a2f1232b90a79ab69d5cea84606749e82bea86f330e",
+      "bytes": 78761,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/04-both-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/04-both-telemetry.json",
+      "source_sha256": "e690da5c54edb231af4f33220e6056359b5f5758920e92c4dc49587756e4280f",
+      "export_sha256": "e690da5c54edb231af4f33220e6056359b5f5758920e92c4dc49587756e4280f",
+      "bytes": 63934,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/screen.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/screen.json",
+      "source_sha256": "23838790f7c4b2dc38ee2e65a9fe7e6044842bcc1160dd434950184f4b214f85",
+      "export_sha256": "23838790f7c4b2dc38ee2e65a9fe7e6044842bcc1160dd434950184f4b214f85",
+      "bytes": 467,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/protocol.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/protocol.json",
+      "source_sha256": "892d34ad0afd2ce921af7202bf83f37e31ccbe22c55db1f49a4444207b5c0067",
+      "export_sha256": "892d34ad0afd2ce921af7202bf83f37e31ccbe22c55db1f49a4444207b5c0067",
+      "bytes": 1575,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/01-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/01-pad-telemetry.json",
+      "source_sha256": "61d1ec8bd4d5f3dc82a31e4f1564b5b23df75f3a6ffb89d7aa6c3c45c176bc0d",
+      "export_sha256": "61d1ec8bd4d5f3dc82a31e4f1564b5b23df75f3a6ffb89d7aa6c3c45c176bc0d",
+      "bytes": 60060,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/00-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/00-frozen-telemetry.json",
+      "source_sha256": "0a47a54a2086ae0480dbd65e0ab1bda13796a7b564fe6c37634ce8d897f6996c",
+      "export_sha256": "0a47a54a2086ae0480dbd65e0ab1bda13796a7b564fe6c37634ce8d897f6996c",
+      "bytes": 64575,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/09-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/09-frozen-telemetry.json",
+      "source_sha256": "16a78da68a763aca94a7fca270bf299ee2357cadf2e0887ea1ed427f15dc698c",
+      "export_sha256": "16a78da68a763aca94a7fca270bf299ee2357cadf2e0887ea1ed427f15dc698c",
+      "bytes": 59572,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/05-both-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/05-both-telemetry.json",
+      "source_sha256": "46708844352a3ac6d3ab5b50e5735eaed8cb636105cb8669743e8e78d3cffb43",
+      "export_sha256": "46708844352a3ac6d3ab5b50e5735eaed8cb636105cb8669743e8e78d3cffb43",
+      "bytes": 60202,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/03-quant-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/03-quant-telemetry.json",
+      "source_sha256": "8cfbbec3a8933106767bee02b0be3b477e937756086a21fb2c3e5e0101588581",
+      "export_sha256": "8cfbbec3a8933106767bee02b0be3b477e937756086a21fb2c3e5e0101588581",
+      "bytes": 63830,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/07-fuse-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/07-fuse-telemetry.json",
+      "source_sha256": "6fd36c0364e2d8168195b23aa892f4de48eb391efd4318a68cda8f8bd8ae5290",
+      "export_sha256": "6fd36c0364e2d8168195b23aa892f4de48eb391efd4318a68cda8f8bd8ae5290",
+      "bytes": 60115,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/assets.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/assets.json",
+      "source_sha256": "885c89eda88db78d642cd661f8eac59947e71a5af9fd410ee47951fbb3a7c96b",
+      "export_sha256": "720cd0b2005e8250b83273f4e094ec510b85480a6ffa6e73eba4a2040a0b04fe",
+      "bytes": 1889,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/06-quant-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/06-quant-telemetry.json",
+      "source_sha256": "9cb45e47a57d3dc4f5ad1393e79af99ce961b44dc2f13533014feeb740cccb13",
+      "export_sha256": "9cb45e47a57d3dc4f5ad1393e79af99ce961b44dc2f13533014feeb740cccb13",
+      "bytes": 59483,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-screen512/20261029T070642Z/08-pad-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-screen512/20261029T070642Z/08-pad-telemetry.json",
+      "source_sha256": "648c283f64e4ca25af74b40435c7525a8c0bd65fc066f282614b45d6f874ebb2",
+      "export_sha256": "648c283f64e4ca25af74b40435c7525a8c0bd65fc066f282614b45d6f874ebb2",
+      "bytes": 60148,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/31-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/31-stock-telemetry.json",
+      "source_sha256": "609232ef96bbdf1308ddbb2716f58876b231fb3ff10ede378ce1c088c4d2425e",
+      "export_sha256": "609232ef96bbdf1308ddbb2716f58876b231fb3ff10ede378ce1c088c4d2425e",
+      "bytes": 63352,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/25-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/25-best-telemetry.json",
+      "source_sha256": "67ccd0a619b07c25267265fe15270c6cb0e8f7baa4eb240257fa498d8d2e1e36",
+      "export_sha256": "67ccd0a619b07c25267265fe15270c6cb0e8f7baa4eb240257fa498d8d2e1e36",
+      "bytes": 60727,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/runtime-baseline.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/runtime-baseline.json",
+      "source_sha256": "40c9ee0fc99b0d560e390b4e4a2d87199760e10ff82262ebaf108b8b241fcc4c",
+      "export_sha256": "40c9ee0fc99b0d560e390b4e4a2d87199760e10ff82262ebaf108b8b241fcc4c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/09-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/09-stock-telemetry.json",
+      "source_sha256": "b022f9e795c6ec3f040f7e16ebe86e5a0c3a5575415fb1c025207ccdbdf0124a",
+      "export_sha256": "b022f9e795c6ec3f040f7e16ebe86e5a0c3a5575415fb1c025207ccdbdf0124a",
+      "bytes": 61012,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/01-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/01-frozen-telemetry.json",
+      "source_sha256": "6460f6759cd18324ef79b805a5cc2be74b2839f4bf9aff86b7e37a36e2cd3920",
+      "export_sha256": "6460f6759cd18324ef79b805a5cc2be74b2839f4bf9aff86b7e37a36e2cd3920",
+      "bytes": 60163,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/11-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/11-frozen-telemetry.json",
+      "source_sha256": "66ce93b95670474878fb99d7681b5e7100014e5fa66e20057d31be1a92a980f6",
+      "export_sha256": "66ce93b95670474878fb99d7681b5e7100014e5fa66e20057d31be1a92a980f6",
+      "bytes": 60164,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/00-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/00-stock-telemetry.json",
+      "source_sha256": "46df766859a74b4fbc627765b81b9ec6f4e5008227743835200e276d1c7ca13a",
+      "export_sha256": "46df766859a74b4fbc627765b81b9ec6f4e5008227743835200e276d1c7ca13a",
+      "bytes": 62286,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/06-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/06-frozen-telemetry.json",
+      "source_sha256": "6af3ff942d77075763ecf5231b5df8726b9402f5ee7a1a16379335cf8a75b1d2",
+      "export_sha256": "6af3ff942d77075763ecf5231b5df8726b9402f5ee7a1a16379335cf8a75b1d2",
+      "bytes": 60176,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/19-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/19-frozen-telemetry.json",
+      "source_sha256": "5ecc0031c4c75ee8275522527e56bb24448e1f655a3a0258c28d1356cb77fb9c",
+      "export_sha256": "5ecc0031c4c75ee8275522527e56bb24448e1f655a3a0258c28d1356cb77fb9c",
+      "bytes": 70869,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/results.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/results.json",
+      "source_sha256": "07a1bf4f919c1b0ac063e92b02bd9727629912e482da2e3b7aa439834870012e",
+      "export_sha256": "07a1bf4f919c1b0ac063e92b02bd9727629912e482da2e3b7aa439834870012e",
+      "bytes": 283717,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/05-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/05-stock-telemetry.json",
+      "source_sha256": "ce961994d8bf0927f9597b3d68945b4ee7f42437b2d3622333d0637af44a9e40",
+      "export_sha256": "ce961994d8bf0927f9597b3d68945b4ee7f42437b2d3622333d0637af44a9e40",
+      "bytes": 60974,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/23-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/23-stock-telemetry.json",
+      "source_sha256": "9e68b6c86954e80f5e3b2eec2dbfa80cbbda7ceb73c39160726a406bfd99b0e3",
+      "export_sha256": "9e68b6c86954e80f5e3b2eec2dbfa80cbbda7ceb73c39160726a406bfd99b0e3",
+      "bytes": 62290,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/protocol.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/protocol.json",
+      "source_sha256": "3e153bd04450d128716291bad1cc20a5df9444a74fd3283b1c79b77e7132e456",
+      "export_sha256": "3e153bd04450d128716291bad1cc20a5df9444a74fd3283b1c79b77e7132e456",
+      "bytes": 2345,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/03-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/03-best-telemetry.json",
+      "source_sha256": "16d78b9297d749b72d408327a211fef8edcc172c193f92bab5cc93dff87028e1",
+      "export_sha256": "16d78b9297d749b72d408327a211fef8edcc172c193f92bab5cc93dff87028e1",
+      "bytes": 60045,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/confirmation-analysis.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/confirmation-analysis.json",
+      "source_sha256": "97dca7c53270782d985e7339e7a6f27eb3c4d8c0420dd45fe3d3099e64f4ae76",
+      "export_sha256": "97dca7c53270782d985e7339e7a6f27eb3c4d8c0420dd45fe3d3099e64f4ae76",
+      "bytes": 6871,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/15-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/15-frozen-telemetry.json",
+      "source_sha256": "5755a3a2d5eba664d3c41f4fdb9beda65b9d2d56941421852d326b8acdc6a545",
+      "export_sha256": "5755a3a2d5eba664d3c41f4fdb9beda65b9d2d56941421852d326b8acdc6a545",
+      "bytes": 61130,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/20-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/20-best-telemetry.json",
+      "source_sha256": "3550d056283998b92672b0b6ba14d9639d272fd72a315de1ddc113ec50ec8279",
+      "export_sha256": "3550d056283998b92672b0b6ba14d9639d272fd72a315de1ddc113ec50ec8279",
+      "bytes": 61703,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/34-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/34-stock-telemetry.json",
+      "source_sha256": "58c9a7d3977a414e9c29e6d26ec215d2dc4b0a2cbb15e113f503ae06e8b05ba8",
+      "export_sha256": "58c9a7d3977a414e9c29e6d26ec215d2dc4b0a2cbb15e113f503ae06e8b05ba8",
+      "bytes": 63403,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/17-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/17-best-telemetry.json",
+      "source_sha256": "2b84b3188101dc10c932dfbe94057e20f7b9817a0d1333fa4c1c176b04b76634",
+      "export_sha256": "2b84b3188101dc10c932dfbe94057e20f7b9817a0d1333fa4c1c176b04b76634",
+      "bytes": 61515,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/24-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/24-frozen-telemetry.json",
+      "source_sha256": "a5605e40e82d1432697b98a57a464296d4247c22c2eb9550277efdcd58dcc942",
+      "export_sha256": "a5605e40e82d1432697b98a57a464296d4247c22c2eb9550277efdcd58dcc942",
+      "bytes": 61331,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/02-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/02-best-telemetry.json",
+      "source_sha256": "3d850262fe052b1cb04de7e7590e70f2f516e94b2a3ce1700c44d2509c4420d9",
+      "export_sha256": "3d850262fe052b1cb04de7e7590e70f2f516e94b2a3ce1700c44d2509c4420d9",
+      "bytes": 64812,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/22-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/22-frozen-telemetry.json",
+      "source_sha256": "65b43641a4dd8cbc9ca9f4cb55ae7e22e16eb40ed59f5efca7640c64dc5986ff",
+      "export_sha256": "65b43641a4dd8cbc9ca9f4cb55ae7e22e16eb40ed59f5efca7640c64dc5986ff",
+      "bytes": 60826,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/29-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/29-frozen-telemetry.json",
+      "source_sha256": "f001570befeb13ec46de6826ecc6e78c0ceae016f6aecd831c9da7a6fe0e24d3",
+      "export_sha256": "f001570befeb13ec46de6826ecc6e78c0ceae016f6aecd831c9da7a6fe0e24d3",
+      "bytes": 61074,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/27-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/27-stock-telemetry.json",
+      "source_sha256": "3ecd88c0b34c29dee5630ac9d7d65a7a352f26feb5b0cefc5842bb8bcc6b2484",
+      "export_sha256": "3ecd88c0b34c29dee5630ac9d7d65a7a352f26feb5b0cefc5842bb8bcc6b2484",
+      "bytes": 51435,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/07-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/07-best-telemetry.json",
+      "source_sha256": "c7a9c53111b42490cf76687d7ef0dd12649ec5dcb6fe0332af4067f3eefc71ac",
+      "export_sha256": "c7a9c53111b42490cf76687d7ef0dd12649ec5dcb6fe0332af4067f3eefc71ac",
+      "bytes": 61024,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/assets.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/assets.json",
+      "source_sha256": "1a67909892e2d0560de7cd100b41c0e8d5a94c40cb478466c3bc732c10ca5989",
+      "export_sha256": "f11851b54ea021d025b14e6632b094bd7e6eb054fd5bdd32e77aea4e847459d2",
+      "bytes": 2181,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/33-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/33-frozen-telemetry.json",
+      "source_sha256": "599b5984a4bd7a8e835f06b57c7e590bda836e5d3c6ef381eca5c37453aa5eee",
+      "export_sha256": "599b5984a4bd7a8e835f06b57c7e590bda836e5d3c6ef381eca5c37453aa5eee",
+      "bytes": 62405,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/35-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/35-best-telemetry.json",
+      "source_sha256": "a43d64cd50fda0216844b074c3c77de1361ba59ce105370bb07233389673344b",
+      "export_sha256": "a43d64cd50fda0216844b074c3c77de1361ba59ce105370bb07233389673344b",
+      "bytes": 61918,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/12-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/12-best-telemetry.json",
+      "source_sha256": "4700a95d14af4c4948198366bf0e4cb4535c3476337b5119beae38a2cc0a61bc",
+      "export_sha256": "4700a95d14af4c4948198366bf0e4cb4535c3476337b5119beae38a2cc0a61bc",
+      "bytes": 60177,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/04-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/04-frozen-telemetry.json",
+      "source_sha256": "8634f1dc75adc5a77f34ea712943984786adcf803b13224e7d47e4660ca1a4ea",
+      "export_sha256": "8634f1dc75adc5a77f34ea712943984786adcf803b13224e7d47e4660ca1a4ea",
+      "bytes": 60155,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/21-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/21-best-telemetry.json",
+      "source_sha256": "74cd30bb6c4530c1b828aec0af4c7f7b4f4c06d639a61a7632914ab5a0121221",
+      "export_sha256": "74cd30bb6c4530c1b828aec0af4c7f7b4f4c06d639a61a7632914ab5a0121221",
+      "bytes": 60145,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/13-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/13-stock-telemetry.json",
+      "source_sha256": "cfa4a423bcf91c6fa99d2bcc2561acdfee1510e1896cc5c6fa6746e64fe48a29",
+      "export_sha256": "cfa4a423bcf91c6fa99d2bcc2561acdfee1510e1896cc5c6fa6746e64fe48a29",
+      "bytes": 62477,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/18-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/18-stock-telemetry.json",
+      "source_sha256": "ded62648bb7971e91a6183d250ed039f97036a43222cce83893eb8ff44e5d29c",
+      "export_sha256": "ded62648bb7971e91a6183d250ed039f97036a43222cce83893eb8ff44e5d29c",
+      "bytes": 62566,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/28-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/28-best-telemetry.json",
+      "source_sha256": "22337150d2a5079d4ed8637de9b52a21c1a4559a9562034f1d5ef0ebbd9c1033",
+      "export_sha256": "22337150d2a5079d4ed8637de9b52a21c1a4559a9562034f1d5ef0ebbd9c1033",
+      "bytes": 60986,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/10-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/10-best-telemetry.json",
+      "source_sha256": "8fc17bbae01b9212ac1abb7c2516eacaac041941189f164908956e39418b3121",
+      "export_sha256": "8fc17bbae01b9212ac1abb7c2516eacaac041941189f164908956e39418b3121",
+      "bytes": 60129,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/08-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/08-stock-telemetry.json",
+      "source_sha256": "d5ba4966b022b928101ba9bfcd8b59556df294a4a2e46304e474ce0a1e6c7922",
+      "export_sha256": "d5ba4966b022b928101ba9bfcd8b59556df294a4a2e46304e474ce0a1e6c7922",
+      "bytes": 61915,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/14-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/14-frozen-telemetry.json",
+      "source_sha256": "5c1e01ecaf80f3ab3464e84ce1d6a27e9ab79756d5af99bd6246cb2ac79736cd",
+      "export_sha256": "5c1e01ecaf80f3ab3464e84ce1d6a27e9ab79756d5af99bd6246cb2ac79736cd",
+      "bytes": 61048,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/32-frozen-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/32-frozen-telemetry.json",
+      "source_sha256": "713b934bf248d6058d8407259f7be828082c9633a07adbb97821dc24b16d8c47",
+      "export_sha256": "713b934bf248d6058d8407259f7be828082c9633a07adbb97821dc24b16d8c47",
+      "bytes": 61669,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/16-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/16-stock-telemetry.json",
+      "source_sha256": "c736f436713f2cd8dfe9260861e82aacd1022f3066e9cef776eed90fd81cfa58",
+      "export_sha256": "c736f436713f2cd8dfe9260861e82aacd1022f3066e9cef776eed90fd81cfa58",
+      "bytes": 62495,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/30-best-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/30-best-telemetry.json",
+      "source_sha256": "7158d34c60875342dcd0286a75338aae21ce277f7fd3dd7a159a9ec7bf0774fd",
+      "export_sha256": "7158d34c60875342dcd0286a75338aae21ce277f7fd3dd7a159a9ec7bf0774fd",
+      "bytes": 61083,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/26-stock-telemetry.json",
+      "path": "archive/isolated/q3-pad112/fusion-combination-confirm512/20261029T071550Z/26-stock-telemetry.json",
+      "source_sha256": "c805e95fd94ab68535670e1fa1faebdc5c030ff8a34209d7e60d632c65a53e93",
+      "export_sha256": "c805e95fd94ab68535670e1fa1faebdc5c030ff8a34209d7e60d632c65a53e93",
+      "bytes": 62243,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q3_pad112_fusion_quant32.py",
+      "path": "archive/isolated/run_q3_pad112_fusion_quant32.py",
+      "source_sha256": "9ae644a45062a96335cb6f0a968d1b77d74a66718ff3832f99f974fc119b3186",
+      "export_sha256": "828a80dcf5b02e3430eebc8eee34a3d37cd83506ddf727b3306cb74899086584",
+      "bytes": 8390,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_pad112_fusion_model32.py",
+      "path": "archive/isolated/run_q3_pad112_fusion_model32.py",
+      "source_sha256": "2b4c0ffa38d3422d0dec8ba42d4e8130ebd649a7decd2906f99341623a2c093f",
+      "export_sha256": "f925660304ab996766aed733d01ae8af75bc88a851f77e54ac0c495038c7f3c4",
+      "bytes": 8408,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_pad112_fusion_prompts128.py",
+      "path": "archive/isolated/run_q3_pad112_fusion_prompts128.py",
+      "source_sha256": "316e7cb272037387e75c98a0bd94cd9caa626437245f97de4077a2ef62ab6449",
+      "export_sha256": "e29f992adfb378245be3d4026c72582d364b82748c2f2d61ce6835bdc4c4c32c",
+      "bytes": 8027,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_pad112_fusion_operators.py",
+      "path": "archive/isolated/run_q3_pad112_fusion_operators.py",
+      "source_sha256": "c341070bb08454b36ef5154b31860f581ea189b1b9a705c254183fc87657e2c2",
+      "export_sha256": "c341070bb08454b36ef5154b31860f581ea189b1b9a705c254183fc87657e2c2",
+      "bytes": 5496,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_q3_pad112_fusion_model136.py",
+      "path": "archive/isolated/run_q3_pad112_fusion_model136.py",
+      "source_sha256": "6c562a33186dce5c59c31d2547af27cfd59ba6c443057d2fa5b91bf4466718d6",
+      "export_sha256": "423ec610c84f7651ac8baf1faac21ce4162d8215f71e140a4cff55f6a7eadcd0",
+      "bytes": 8410,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_pad112_combination_screen.py",
+      "path": "archive/isolated/run_q3_pad112_combination_screen.py",
+      "source_sha256": "f512bf2a577eed91cfa0898d9b799d89d0f8c6ca0991c68c783e435f3e52d61e",
+      "export_sha256": "94fe4c037f782e2e14ddf4e291f20369c17f6314ea529631d526976f4895847f",
+      "bytes": 13040,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_q3_pad112_combination_confirm.py",
+      "path": "archive/isolated/run_q3_pad112_combination_confirm.py",
+      "source_sha256": "d7dafaca06353309f72ea058ea927435b0faf366bd7b2d37168d82ebeb2dff34",
+      "export_sha256": "634fe39abb4325c00d70c66bea58a9e9d0f2398abfc5be80254bd028e777e8dd",
+      "bytes": 17827,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-29T06:51:48.760099+00:00"
+  "updated_utc": "2026-10-29T07:29:31.785151+00:00"
 }

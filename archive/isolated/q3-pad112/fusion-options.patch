@@ -1,0 +1,119 @@
+--- a/ggml-vulkan.cpp
++++ b/ggml-vulkan.cpp
+@@ -6766,8 +6766,8 @@
+ 
+ static void nq_quantize(ggml_backend_vk_context*ctx,vk_context&subctx,const ggml_tensor*g,const vk_subbuffer&floating,const vk_subbuffer&packed,uint32_t ne){
+     GGML_ASSERT(ctx->nq_pipeline&&ctx->nq_skipped.count(g));
+-    uint32_t limit=16;
+-    if(const char*v=getenv("GGML_VK_NATIVE_GLUQ_GROUPS")){unsigned long n=strtoul(v,nullptr,10);GGML_ASSERT(n>0&&n<=136);limit=uint32_t(n);}
++    GGML_ASSERT(ctx->nq_group_limit>0&&ctx->nq_group_limit<=136);
++    const uint32_t limit=uint32_t(ctx->nq_group_limit);
+     const vk_quantize_q8_1_push_constants pc={ne,ne/256};
+     ggml_pipeline_request_descriptor_sets(ctx,ctx->nq_pipeline,1);
+     ggml_vk_dispatch_pipeline(ctx,subctx,ctx->nq_pipeline,{ggml_vk_tensor_subbuffer(ctx,g->src[0]),ggml_vk_tensor_subbuffer(ctx,g->src[1]),floating,packed},pc,{std::min(ne,limit*256u),1,1});
+@@ -12545,7 +12545,7 @@
+         }
+ 
+         const ggml_tensor*nq_g=node->op==GGML_OP_MUL_MAT?node->src[1]:nullptr;
+-        bool nq_coalesce=need_sync&&!vk_perf_logger_enabled&&nq_g&&ctx->nq_skipped.count(nq_g)&&ctx->nq_plan.count(nq_g)&&ctx->nq_plan.at(nq_g)==node&&ctx->unsynced_nodes_written.size()==1&&ctx->unsynced_nodes_written[0]==nq_g&&ctx->unsynced_nodes_read.size()==2&&ctx->unsynced_nodes_read[0]==nq_g->src[0]&&ctx->unsynced_nodes_read[1]==nq_g->src[1]&&getenv("GGML_VK_NATIVE_GLUQ_COALESCE");
++        bool nq_coalesce=need_sync&&!vk_perf_logger_enabled&&nq_g&&ctx->nq_skipped.count(nq_g)&&ctx->nq_plan.count(nq_g)&&ctx->nq_plan.at(nq_g)==node&&ctx->unsynced_nodes_written.size()==1&&ctx->unsynced_nodes_written[0]==nq_g&&ctx->unsynced_nodes_read.size()==2&&ctx->unsynced_nodes_read[0]==nq_g->src[0]&&ctx->unsynced_nodes_read[1]==nq_g->src[1]&&ctx->nq_coalesce_enabled;
+         if (need_sync) {
+             if (vk_enable_sync_logger) {
+                 std::cerr <<  "sync" << std::endl;
+@@ -12553,7 +12553,7 @@
+             ctx->unsynced_nodes_written.clear();
+             ctx->unsynced_nodes_read.clear();
+             if(!nq_coalesce)ggml_vk_sync_buffers(ctx, compute_ctx);
+-            else if(getenv("GGML_VK_NATIVE_GLUQ_AUDIT"))fprintf(stderr,"NQ_COALESCE %s\n",nq_g->name);
++            else if(ctx->nq_audit)fprintf(stderr,"NQ_COALESCE %s\n",nq_g->name);
+ 
+             if (vk_perf_logger_enabled && vk_perf_logger_concurrent) {
+                 ctx->query_node_idx[ctx->query_idx] = node_idx;
+@@ -14553,10 +14553,10 @@
+ }
+ static void nq_prepare_legacy(ggml_backend_vk_context*ctx,const ggml_cgraph*graph){
+     ctx->nq_plan.clear();ctx->nq_skipped.clear();ctx->nq_fused_count=0;
+-    if(!getenv("GGML_VK_NATIVE_GLUQ_FUSE")||getenv("GGML_VK_MEGA")||ctx->device->vendor_id!=VK_VENDOR_ID_AMD||!ctx->device->integer_dot_product||ctx->device->properties.deviceID!=0x7551||ctx->device->subgroup_size!=64||!ctx->device->subgroup_shuffle||!ctx->device->subgroup_require_full_support)return;
++    if(!ctx->nq_enabled)return;
+     for(int i=0;i+1<graph->n_nodes;++i){
+         int j=i+1;
+-        if(getenv("GGML_VK_NATIVE_GLUQ_EXPAND_VIEWS")){
++        if(ctx->nq_expanded){
+             while(j<graph->n_nodes&&j<=i+8){
+                 auto op=graph->nodes[j]->op;
+                 if(op!=GGML_OP_VIEW&&op!=GGML_OP_RESHAPE&&op!=GGML_OP_PERMUTE&&op!=GGML_OP_TRANSPOSE&&op!=GGML_OP_NONE)break;
+@@ -14577,7 +14577,7 @@
+         if(!ggml_vk_get_dequantize_mul_mat_vec(ctx,w->type,GGML_TYPE_Q8_1,g->ne[1],m->ne[0],w->ne[0]))continue;
+         if(nq_overlap(g,g->src[0])||nq_overlap(g,g->src[1])||nq_overlap(m,g)||nq_overlap(m,g->src[0])||nq_overlap(m,g->src[1]))continue;
+         ctx->nq_plan[g]=m;
+-        if(getenv("GGML_VK_NATIVE_GLUQ_AUDIT"))fprintf(stderr,"NQ_COVERAGE %s producer=%d consumer=%d weight=%s\n",g->name,i,j,ggml_type_name(w->type));
++        if(ctx->nq_audit)fprintf(stderr,"NQ_COVERAGE %s producer=%d consumer=%d weight=%s\n",g->name,i,j,ggml_type_name(w->type));
+     }
+     if(ctx->nq_plan.empty())return;
+     if(!ctx->nq_pipeline){
+@@ -14588,12 +14588,12 @@
+         auto&pl=ctx->nq_pipeline;pl=std::make_shared<vk_pipeline_struct>();pl->name="native_swiglu_quant";pl->parameter_count=4;pl->push_constant_size=8;pl->wg_denoms={256,1,1};pl->align=1;pl->initialized=true;
+         ggml_vk_create_pipeline_func(ctx->device,pl,size_t(n),code.data(),"main",4,{256,1,1},{},true,true,getenv("GGML_VK_NATIVE_GLUQ_SUBGROUP32")?32:64);
+     }
+-    if(getenv("GGML_VK_NATIVE_GLUQ_AUDIT"))fprintf(stderr,"NATIVE_GLUQ_PLAN %zu\n",ctx->nq_plan.size());
++    if(ctx->nq_audit)fprintf(stderr,"NATIVE_GLUQ_PLAN %zu\n",ctx->nq_plan.size());
+ }
+ static void nq_prepare_fast(ggml_backend_vk_context*ctx,const ggml_cgraph*graph){
+     ctx->nq_plan.clear();ctx->nq_skipped.clear();ctx->nq_fused_count=0;
+-    if(!getenv("GGML_VK_NATIVE_GLUQ_FUSE")||getenv("GGML_VK_MEGA")||ctx->device->vendor_id!=VK_VENDOR_ID_AMD||!ctx->device->integer_dot_product||ctx->device->properties.deviceID!=0x7551||ctx->device->subgroup_size!=64||!ctx->device->subgroup_shuffle||!ctx->device->subgroup_require_full_support)return;
+-    const bool expanded=getenv("GGML_VK_NATIVE_GLUQ_EXPAND_VIEWS")!=nullptr;
++    if(!ctx->nq_enabled)return;
++    const bool expanded=ctx->nq_expanded;
+     for(int i=0;i+1<graph->n_nodes;++i){
+         const ggml_tensor*g=graph->nodes[i];
+         if(g->op!=GGML_OP_GLU||ggml_get_glu_op(g)!=GGML_GLU_OP_SWIGLU||!g->src[0]||!g->src[1])continue;
+@@ -14619,7 +14619,7 @@
+         if(!ggml_vk_get_dequantize_mul_mat_vec(ctx,w->type,GGML_TYPE_Q8_1,g->ne[1],m->ne[0],w->ne[0]))continue;
+         if(nq_overlap(g,g->src[0])||nq_overlap(g,g->src[1])||nq_overlap(m,g)||nq_overlap(m,g->src[0])||nq_overlap(m,g->src[1]))continue;
+         ctx->nq_plan[g]=m;
+-        if(getenv("GGML_VK_NATIVE_GLUQ_AUDIT"))fprintf(stderr,"NQ_COVERAGE %s producer=%d consumer=%d weight=%s\n",g->name,i,j,ggml_type_name(w->type));
++        if(ctx->nq_audit)fprintf(stderr,"NQ_COVERAGE %s producer=%d consumer=%d weight=%s\n",g->name,i,j,ggml_type_name(w->type));
+     }
+     if(ctx->nq_plan.empty())return;
+     if(!ctx->nq_pipeline){
+@@ -14630,9 +14630,19 @@
+         auto&pl=ctx->nq_pipeline;pl=std::make_shared<vk_pipeline_struct>();pl->name="native_swiglu_quant";pl->parameter_count=4;pl->push_constant_size=8;pl->wg_denoms={256,1,1};pl->align=1;pl->initialized=true;
+         ggml_vk_create_pipeline_func(ctx->device,pl,size_t(n),code.data(),"main",4,{256,1,1},{},true,true,getenv("GGML_VK_NATIVE_GLUQ_SUBGROUP32")?32:64);
+     }
+-    if(getenv("GGML_VK_NATIVE_GLUQ_AUDIT"))fprintf(stderr,"NATIVE_GLUQ_PLAN %zu\n",ctx->nq_plan.size());
++    if(ctx->nq_audit)fprintf(stderr,"NATIVE_GLUQ_PLAN %zu\n",ctx->nq_plan.size());
++}
++static void nq_prepare_options(ggml_backend_vk_context*ctx){
++    ctx->nq_enabled=getenv("GGML_VK_NATIVE_GLUQ_FUSE")&&!getenv("GGML_VK_MEGA")&&ctx->device->vendor_id==VK_VENDOR_ID_AMD&&ctx->device->integer_dot_product&&ctx->device->properties.deviceID==0x7551&&ctx->device->subgroup_size==64&&ctx->device->subgroup_shuffle&&ctx->device->subgroup_require_full_support;
++    ctx->nq_group_limit=16;ctx->nq_expanded=false;ctx->nq_audit=false;ctx->nq_coalesce_enabled=false;
++    if(!ctx->nq_enabled)return;
++    if(const char*v=getenv("GGML_VK_NATIVE_GLUQ_GROUPS"))ctx->nq_group_limit=strtoul(v,nullptr,10);
++    ctx->nq_expanded=getenv("GGML_VK_NATIVE_GLUQ_EXPAND_VIEWS")!=nullptr;
++    ctx->nq_audit=getenv("GGML_VK_NATIVE_GLUQ_AUDIT")!=nullptr;
++    ctx->nq_coalesce_enabled=getenv("GGML_VK_NATIVE_GLUQ_COALESCE")!=nullptr;
+ }
+ static void nq_prepare(ggml_backend_vk_context*ctx,const ggml_cgraph*graph){
++    nq_prepare_options(ctx);
+     nq_prepare_fast(ctx,graph);
+     if(getenv("GGML_VK_NATIVE_GLUQ_CHECK_PLAN")){
+         auto selected=ctx->nq_plan;
+@@ -15103,7 +15113,7 @@
+     }
+ 
+     GGML_ASSERT(ctx->nq_skipped.empty());
+-    if(ctx->nq_fused_count&&getenv("GGML_VK_NATIVE_GLUQ_AUDIT"))fprintf(stderr,"NATIVE_GLUQ_FUSED %u\n",ctx->nq_fused_count);
++    if(ctx->nq_fused_count&&ctx->nq_audit)fprintf(stderr,"NATIVE_GLUQ_FUSED %u\n",ctx->nq_fused_count);
+     ctx->last_total_flops = total_flops;
+ 
+     if (vk_perf_logger_enabled) {
+--- a/ggml-vulkan-types.h
++++ b/ggml-vulkan-types.h
+@@ -1233,6 +1233,8 @@
+     uint64_t np_cache_bytes=0;
+     uint64_t np_calls=0;
+ 
++    uint64_t nq_group_limit=16;
++    bool nq_enabled=false,nq_expanded=false,nq_audit=false,nq_coalesce_enabled=false;
+     vk_pipeline nq_pipeline;
+     std::unordered_map<const ggml_tensor*,const ggml_tensor*> nq_plan;
+     std::unordered_map<const ggml_tensor*,bool> nq_skipped;

@@ -268,3 +268,7 @@ See [Q3 padded-weight experiments](Q3-PAD112.md) for1,584capped matrix checks, s
 ## Host configuration overhead and matched stock result
 
 See [Q3 host cost and final+3.43% result](Q3-HOST-COST.md) for intrusive profiling, both guard changes, failed/inconclusive comparisons, runtime provenance and all24final matched arms.
+
+## Q3 and smaller-fusion combination follow-up
+
+See [experiment and interpretation](FUSION-COMBINATION.md). The manifest includes the predeclared combination plan, host patch/build provenance, exact operator and target-logit checks, ten-arm screen, fixed 36-arm confirmation, runtime mappings and telemetry under `archive/isolated/q3-pad112/`. Q6 alignment files are CPU-only exploratory evidence.
