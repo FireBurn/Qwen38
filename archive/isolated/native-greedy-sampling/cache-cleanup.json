@@ -1,0 +1,2379 @@
+{
+  "utc": "2026-10-30T08:30:43.300368+00:00",
+  "removed": [
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-mega_bound32/mesa_shader_cache",
+      "bytes": 2365058
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-throughput/cache-mega_bound/mesa_shader_cache",
+      "bytes": 2365058
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-headskip-graduated/cache-mega192_head192/mesa_shader_cache",
+      "bytes": 2365058
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-headskip-graduated/cache-mega16_head16/mesa_shader_cache",
+      "bytes": 2365058
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-graduated/cache-mega192_head192/mesa_shader_cache",
+      "bytes": 2365058
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-graduated/cache-mega16_head16/mesa_shader_cache",
+      "bytes": 2365058
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-mega_bound_old/mesa_shader_cache",
+      "bytes": 2363651
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-mega_bound10/mesa_shader_cache",
+      "bytes": 2363651
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-graduated/cache-mega192_head192/mesa_shader_cache",
+      "bytes": 2363651
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-graduated/cache-mega16_head16/mesa_shader_cache",
+      "bytes": 2363651
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-mega_bound_new/mesa_shader_cache",
+      "bytes": 2362830
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-graduated/cache-mega192_head192/mesa_shader_cache",
+      "bytes": 2362830
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-graduated/cache-mega16_head16/mesa_shader_cache",
+      "bytes": 2362830
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/model/cache-off16/mesa_shader_cache",
+      "bytes": 2358936
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/cache-mega_bound_rowoff192/mesa_shader_cache",
+      "bytes": 2358936
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-throughput/cache-mega_gpu/mesa_shader_cache",
+      "bytes": 2341322
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-populated-kv64/cache-active400/mesa_shader_cache",
+      "bytes": 2306611
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/q3-pad112/submission-populated-kv64/cache-stock100/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/q3-pad112/contribution-stock400-populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/q3-column-reuse/populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/native-submit-budget/populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/native-rebar-input/populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/native-default-q3-100/populated-kv64/cache-stock100/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/native-default-baseline/populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/native-default-baseline/populated-kv64/cache-stock100/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/native-constant-rotation/populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/native-command-observer/populated-kv64/cache-stock400/mesa_shader_cache",
+      "bytes": 2301200
+    },
+    {
+      "path": "isolated/q3-column-reuse/populated-kv64/cache-reuse400/mesa_shader_cache",
+      "bytes": 2300158
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-populated-kv64/cache-inactive400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/q3-pad112/submission-populated-kv64/cache-frozen400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/q3-pad112/submission-populated-kv64/cache-frozen100/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/q3-column-reuse/populated-kv64/cache-frozen400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-submit-budget/populated-kv64/cache-control40/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-submit-budget/populated-kv64/cache-budget20/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-rebar-input/populated-kv64/cache-mapped400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-rebar-input/populated-kv64/cache-frozen400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/populated-kv64/cache-verify400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/populated-kv64/cache-index400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-populated-kv64/cache-audit400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-populated-kv64/cache-verify400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-populated-kv64/cache-index400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-default-q3-100/populated-kv64/cache-q3_100/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-default-baseline/populated-kv64/cache-q3_400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-constant-rotation/populated-kv64/cache-private1/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-constant-rotation/populated-kv64/cache-private0/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/native-command-observer/populated-kv64/cache-observer400/mesa_shader_cache",
+      "bytes": 2300109
+    },
+    {
+      "path": "isolated/q3-pad112/inprocess-shader-cache/mesa_shader_cache",
+      "bytes": 2268024
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-boundary128/cache-active400/mesa_shader_cache",
+      "bytes": 2266509
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-boundary128/cache-stock400/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/q3-column-reuse/boundary128/cache-stock400/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/native-submit-budget/boundary128/cache-stock400/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/native-rebar-input/boundary128/cache-stock400/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/boundary128/cache-stock400/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-boundary128/cache-stock400/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-boundary128/cache-stock400/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/native-default-q3-100/boundary128/cache-stock100/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/native-default-baseline/boundary128/cache-stock400/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/native-default-baseline/boundary128/cache-stock100/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/native-constant-rotation/boundary128/cache-stock400/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/native-command-observer/boundary128/cache-stock400/mesa_shader_cache",
+      "bytes": 2261098
+    },
+    {
+      "path": "isolated/q3-column-reuse/boundary128/cache-reuse400/mesa_shader_cache",
+      "bytes": 2260056
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-boundary128/cache-inactive400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/q3-column-reuse/boundary128/cache-frozen400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-submit-budget/boundary128/cache-control40/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-submit-budget/boundary128/cache-budget20/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-rebar-input/boundary128/cache-mapped400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-rebar-input/boundary128/cache-frozen400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/boundary128/cache-verify400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/boundary128/cache-index400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-boundary128/cache-audit400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-boundary128/cache-verify400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-boundary128/cache-index400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-default-q3-100/boundary128/cache-q3_100/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-default-baseline/boundary128/cache-q3_400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-constant-rotation/boundary128/cache-private1/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-constant-rotation/boundary128/cache-private0/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/native-command-observer/boundary128/cache-observer400/mesa_shader_cache",
+      "bytes": 2260007
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-prompts128/cache-active400/mesa_shader_cache",
+      "bytes": 2256869
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-model32/cache-active400/mesa_shader_cache",
+      "bytes": 2256869
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask4/mesa_shader_cache",
+      "bytes": 2252366
+    },
+    {
+      "path": "isolated/production-native-fusion/prompts128/cache-mask4/mesa_shader_cache",
+      "bytes": 2252366
+    },
+    {
+      "path": "isolated/production-native-fusion/model32/cache-mask4/mesa_shader_cache",
+      "bytes": 2252366
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask4/mesa_shader_cache",
+      "bytes": 2252366
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask4/mesa_shader_cache",
+      "bytes": 2252366
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask5/mesa_shader_cache",
+      "bytes": 2252316
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask5/mesa_shader_cache",
+      "bytes": 2252316
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask5/mesa_shader_cache",
+      "bytes": 2252316
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask6/mesa_shader_cache",
+      "bytes": 2252082
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask6/mesa_shader_cache",
+      "bytes": 2252082
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask6/mesa_shader_cache",
+      "bytes": 2252082
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask7/mesa_shader_cache",
+      "bytes": 2252032
+    },
+    {
+      "path": "isolated/production-native-fusion/prompts128/cache-mask7/mesa_shader_cache",
+      "bytes": 2252032
+    },
+    {
+      "path": "isolated/production-native-fusion/model32/cache-mask7/mesa_shader_cache",
+      "bytes": 2252032
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask7/mesa_shader_cache",
+      "bytes": 2252032
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask7/mesa_shader_cache",
+      "bytes": 2252032
+    },
+    {
+      "path": "isolated/q3-pair-glu/model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pad112/model32/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-stock/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-control/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pad112/guard-v2-model32/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-quant32/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model32/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model136/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pad112/fast-guard-model32/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pad112/contribution-stock400-model32/cache-cap400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-pad112/arena-model32/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/q3-column-reuse/model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-shaders/timing-smoke32/cache-stock/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-shaders/timing-smoke32/cache-control/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-shaders/stock-model32/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-shaders/model32/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-stock/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-fusion/prompts128/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-fusion/model32/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-stock/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask0/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-submit-budget/model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-rebar-input/model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-host-planning-profile/model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-fusion-plan/model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-default-q3-100/prompts128/cache-stock100/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-default-q3-100/model32/cache-stock100/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-default-baseline/prompts128/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-default-baseline/prompts128/cache-stock100/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-default-baseline/model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-default-baseline/model32/cache-stock100/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt2-suppressed-info-log/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt1-path-order/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/native-command-observer/model32/cache-stock400/mesa_shader_cache",
+      "bytes": 2251458
+    },
+    {
+      "path": "isolated/production-native-shaders/timing-smoke32/cache-quant/mesa_shader_cache",
+      "bytes": 2251408
+    },
+    {
+      "path": "isolated/production-native-shaders/model32/cache-mask1/mesa_shader_cache",
+      "bytes": 2251408
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask1/mesa_shader_cache",
+      "bytes": 2251408
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask1/mesa_shader_cache",
+      "bytes": 2251408
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask1/mesa_shader_cache",
+      "bytes": 2251408
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-fuse/mesa_shader_cache",
+      "bytes": 2251275
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model32/cache-mask12/mesa_shader_cache",
+      "bytes": 2251275
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model136/cache-mask12/mesa_shader_cache",
+      "bytes": 2251275
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-both/mesa_shader_cache",
+      "bytes": 2251225
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-prompts128/cache-mask13/mesa_shader_cache",
+      "bytes": 2251225
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model32/cache-mask13/mesa_shader_cache",
+      "bytes": 2251225
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model136/cache-mask13/mesa_shader_cache",
+      "bytes": 2251225
+    },
+    {
+      "path": "isolated/production-native-shaders/timing-smoke32/cache-q3/mesa_shader_cache",
+      "bytes": 2251174
+    },
+    {
+      "path": "isolated/production-native-shaders/model32/cache-mask2/mesa_shader_cache",
+      "bytes": 2251174
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask2/mesa_shader_cache",
+      "bytes": 2251174
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask2/mesa_shader_cache",
+      "bytes": 2251174
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask2/mesa_shader_cache",
+      "bytes": 2251174
+    },
+    {
+      "path": "isolated/production-native-shaders/timing-smoke32/cache-both/mesa_shader_cache",
+      "bytes": 2251124
+    },
+    {
+      "path": "isolated/production-native-shaders/model32/cache-mask3/mesa_shader_cache",
+      "bytes": 2251124
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask3/mesa_shader_cache",
+      "bytes": 2251124
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask3/mesa_shader_cache",
+      "bytes": 2251124
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask3/mesa_shader_cache",
+      "bytes": 2251124
+    },
+    {
+      "path": "isolated/q3-column-reuse/prompts128/cache-reuse400/mesa_shader_cache",
+      "bytes": 2250416
+    },
+    {
+      "path": "isolated/q3-column-reuse/model32/cache-reuse400/mesa_shader_cache",
+      "bytes": 2250416
+    },
+    {
+      "path": "isolated/q3-pair-glu/model32/cache-audit400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-prompts128/cache-inactive400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-model32/cache-inactive400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-model32/cache-frozen400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/submission-cap-prompts128/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/submission-cap-model32/cache-cap400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/submission-cap-model32/cache-cap200/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/submission-cap-model32/cache-cap100/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/model32/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-frozen/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/guard-v2-prompts128/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/guard-v2-model32/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model32/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model136/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/fast-guard-prompts128/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/fast-guard-model32/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/arena-prompts128/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/arena-model32/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-column-reuse/model32/cache-frozen400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-submit-budget/prompts128/cache-divisor40/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-submit-budget/prompts128/cache-divisor20/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-submit-budget/model32/cache-frozen400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-submit-budget/model32/cache-control40/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-submit-budget/model32/cache-budget20/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-rebar-input/prompts128/cache-mapped1/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-rebar-input/prompts128/cache-mapped0/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-rebar-input/model32/cache-mapped400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-rebar-input/model32/cache-frozen400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-host-planning-profile/model32/cache-profile400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/prompts128/cache-reader2/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/prompts128/cache-reader1/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/model32/cache-verify400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/model32/cache-index400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-prompts128/cache-reader0/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-model32/cache-audit400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-prompts128/cache-reader2/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-prompts128/cache-reader1/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-model32/cache-verify400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-model32/cache-index400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-model32/cache-frozen400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-fusion-plan/model32/cache-audit400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-default-q3-100/prompts128/cache-q3_100/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-default-q3-100/model32/cache-q3_100/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-default-baseline/prompts128/cache-q3_400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-default-baseline/model32/cache-q3_400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-constant-rotation/prompts128/cache-constTrue/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-constant-rotation/prompts128/cache-constFalse/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32/cache-private1/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32/cache-private0/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32/cache-frozen400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt2-suppressed-info-log/cache-private1/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt2-suppressed-info-log/cache-private0/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt2-suppressed-info-log/cache-frozen400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-command-observer/prompts128/cache-mask8/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/native-command-observer/model32/cache-observer400/mesa_shader_cache",
+      "bytes": 2250367
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-quant/mesa_shader_cache",
+      "bytes": 2250317
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-best/mesa_shader_cache",
+      "bytes": 2250317
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-quant32/cache-mask9/mesa_shader_cache",
+      "bytes": 2250317
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-native_bound32/mesa_shader_cache",
+      "bytes": 2246915
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-host32-modelcheck/cache-bounded_top10/mesa_shader_cache",
+      "bytes": 2246915
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-throughput/cache-native_bound/mesa_shader_cache",
+      "bytes": 2246915
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-headskip-graduated/cache-native_body_head192/mesa_shader_cache",
+      "bytes": 2246915
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-graduated/cache-native_body_head192/mesa_shader_cache",
+      "bytes": 2246915
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-gpu-op-profile/cache-bounded_top10/mesa_shader_cache",
+      "bytes": 2246915
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-first16/cache-bounded_top10/mesa_shader_cache",
+      "bytes": 2246915
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask6/mesa_shader_cache",
+      "bytes": 2245684
+    },
+    {
+      "path": "isolated/sdma-optin-probe/model16/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245636
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views16/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245636
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views136/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245636
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-timing-cache-adjacent_bound/mesa_shader_cache",
+      "bytes": 2245636
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt16/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245636
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt136/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245636
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce16/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245636
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce136/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245636
+    },
+    {
+      "path": "isolated/native-swiglu-q8/coalesce-prompts/cache-coalesced_bounded/mesa_shader_cache",
+      "bytes": 2245636
+    },
+    {
+      "path": "isolated/native-combined/prompts128/cache-mask7/mesa_shader_cache",
+      "bytes": 2245634
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask7/mesa_shader_cache",
+      "bytes": 2245634
+    },
+    {
+      "path": "isolated/native-combined/model136/cache-mask7/mesa_shader_cache",
+      "bytes": 2245634
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model16/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245630
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shadow16/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245630
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-scalar16/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245630
+    },
+    {
+      "path": "isolated/native-combined/prompts128/cache-mask4/mesa_shader_cache",
+      "bytes": 2245595
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask4/mesa_shader_cache",
+      "bytes": 2245595
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle16/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245579
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle136/cache-fused_bounded/mesa_shader_cache",
+      "bytes": 2245579
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask5/mesa_shader_cache",
+      "bytes": 2245545
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-native_bound_old/mesa_shader_cache",
+      "bytes": 2245508
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-host10-modelcheck/cache-original_threshold16/mesa_shader_cache",
+      "bytes": 2245508
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-native_bound10/mesa_shader_cache",
+      "bytes": 2245508
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-graduated/cache-native_body_head192/mesa_shader_cache",
+      "bytes": 2245508
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-first16/cache-bounded_top10/mesa_shader_cache",
+      "bytes": 2245508
+    },
+    {
+      "path": "isolated/q3-native-correction/model32/cache-shuffle_bounded/mesa_shader_cache",
+      "bytes": 2244776
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask2/mesa_shader_cache",
+      "bytes": 2244776
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask3/mesa_shader_cache",
+      "bytes": 2244726
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-timing-cache-native_bound/mesa_shader_cache",
+      "bytes": 2244687
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-audit/cache-bounded_top10/mesa_shader_cache",
+      "bytes": 2244687
+    },
+    {
+      "path": "isolated/native-combined/prompts128/cache-mask0/mesa_shader_cache",
+      "bytes": 2244687
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask0/mesa_shader_cache",
+      "bytes": 2244687
+    },
+    {
+      "path": "isolated/native-combined/model136/cache-mask0/mesa_shader_cache",
+      "bytes": 2244687
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/cache-native_bound/mesa_shader_cache",
+      "bytes": 2244687
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-native_bound_new/mesa_shader_cache",
+      "bytes": 2244687
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-graduated/cache-native_body_head192/mesa_shader_cache",
+      "bytes": 2244687
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-first16/cache-bounded_top10/mesa_shader_cache",
+      "bytes": 2244687
+    },
+    {
+      "path": "isolated/mtp-fa-layout-timing/cache-native_bound/mesa_shader_cache",
+      "bytes": 2244687
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32/cache-shuffle_bounded/mesa_shader_cache",
+      "bytes": 2244637
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32-static-v2/cache-shuffle_bounded/mesa_shader_cache",
+      "bytes": 2244637
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask1/mesa_shader_cache",
+      "bytes": 2244637
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/first16/cache-off/mesa_shader_cache",
+      "bytes": 2232812
+    },
+    {
+      "path": "isolated/sdma-optin-probe/model16/cache-fused_coalesced/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/sdma-optin-probe/model16/cache-fused/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views16/cache-fused/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views136/cache-fused/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle16/cache-fused_parent64/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle136/cache-fused_parent64/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt16/cache-fused/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt136/cache-fused/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce16/cache-fused_coalesced/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce16/cache-fused/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce136/cache-fused_coalesced/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce136/cache-fused/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/coalesce-prompts/cache-coalesced/mesa_shader_cache",
+      "bytes": 2224128
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model16/cache-fused/mesa_shader_cache",
+      "bytes": 2224122
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shadow16/cache-fused/mesa_shader_cache",
+      "bytes": 2224122
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-scalar16/cache-fused/mesa_shader_cache",
+      "bytes": 2224122
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle16/cache-fused_shuffle64/mesa_shader_cache",
+      "bytes": 2224087
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle136/cache-fused_shuffle64/mesa_shader_cache",
+      "bytes": 2224087
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle16/cache-fused_shuffle32/mesa_shader_cache",
+      "bytes": 2224071
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle136/cache-fused_shuffle32/mesa_shader_cache",
+      "bytes": 2224071
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shadow-quant16/cache-fused/mesa_shader_cache",
+      "bytes": 2223947
+    },
+    {
+      "path": "isolated/q3-native-correction/model32/cache-shuffle/mesa_shader_cache",
+      "bytes": 2223268
+    },
+    {
+      "path": "isolated/sdma-optin-probe/model16/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/q3-native-correction/model32/cache-native/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/sync-metadata/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model16/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views16/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views136/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle16/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle136/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shadow16/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shadow-quant16/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-scalar16/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt16/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt136/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce16/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce136/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-audit/cache-native_top10/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-swiglu-q8/coalesce-prompts/cache-off/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32/cache-native/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32-static-v2/cache-native/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-native_gpu/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-graduated/cache-fallback_cache16/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-first16/cache-native_top10/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-native_gpu/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-graduated/cache-fallback_cache16/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-first16/cache-native_top10/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-throughput/cache-native_gpu/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-headskip-graduated/cache-fallback_cache16/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-gpu-op-profile/cache-native_top10/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-first16/cache-native_top10/mesa_shader_cache",
+      "bytes": 2223179
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32/cache-shuffle/mesa_shader_cache",
+      "bytes": 2223129
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32-static-v2/cache-shuffle/mesa_shader_cache",
+      "bytes": 2223129
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-native_cpu/mesa_shader_cache",
+      "bytes": 2218199
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-native_cpu/mesa_shader_cache",
+      "bytes": 2218199
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-throughput/cache-native_cpu/mesa_shader_cache",
+      "bytes": 2218199
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt1-path-order/cache-frozen400/mesa_shader_cache",
+      "bytes": 2189769
+    },
+    {
+      "path": "isolated/q3-pair-glu/eligibility/cache/mesa_shader_cache",
+      "bytes": 2172850
+    },
+    {
+      "path": "isolated/q3-pair-glu/eligibility-attempt1-policy-expectation/cache/mesa_shader_cache",
+      "bytes": 2156229
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-select-matched-bench/cache/mesa_shader_cache",
+      "bytes": 2145673
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-single-graph-bench/cache/mesa_shader_cache",
+      "bytes": 2144909
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-topk-graph-full/cache/mesa_shader_cache",
+      "bytes": 2144880
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-single-graph-full/cache/mesa_shader_cache",
+      "bytes": 2144880
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-topk-transfer-control/cache/mesa_shader_cache",
+      "bytes": 2144872
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-topk-packed/cache/mesa_shader_cache",
+      "bytes": 2144872
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-topk-profile/cache/mesa_shader_cache",
+      "bytes": 2144291
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-topk-bench/cache/mesa_shader_cache",
+      "bytes": 2144291
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-topk-full/cache/mesa_shader_cache",
+      "bytes": 2144291
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-threshold-matched-bench/cache/mesa_shader_cache",
+      "bytes": 2144145
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-seed10-bench/cache/mesa_shader_cache",
+      "bytes": 2143502
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-seed10-full/cache/mesa_shader_cache",
+      "bytes": 2143473
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/cache-native/mesa_shader_cache",
+      "bytes": 2142168
+    },
+    {
+      "path": "isolated/mtp-quant-schedule-timing/cache-native/mesa_shader_cache",
+      "bytes": 2142168
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-select-full/cache/mesa_shader_cache",
+      "bytes": 2142057
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-threshold-full/cache/mesa_shader_cache",
+      "bytes": 2141953
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-seed10-micro/cache/mesa_shader_cache",
+      "bytes": 2141395
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-topk-graph-micro/cache/mesa_shader_cache",
+      "bytes": 2141293
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-single-graph-micro/cache/mesa_shader_cache",
+      "bytes": 2141293
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-topk-micro/cache/mesa_shader_cache",
+      "bytes": 2140704
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-shuffle16/cache-parent64/mesa_shader_cache",
+      "bytes": 2138797
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-four-quant16/cache-fused/mesa_shader_cache",
+      "bytes": 2138797
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-four-quant16/cache-coalesced/mesa_shader_cache",
+      "bytes": 2138797
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-shuffle16/cache-shuffle64/mesa_shader_cache",
+      "bytes": 2138756
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-shuffle16/cache-shuffle32/mesa_shader_cache",
+      "bytes": 2138740
+    },
+    {
+      "path": "isolated/q3-native-correction/operators/cache-shuffle/mesa_shader_cache",
+      "bytes": 2138687
+    },
+    {
+      "path": "isolated/q3-native-correction/operator-resources/cache-shuffle/mesa_shader_cache",
+      "bytes": 2138687
+    },
+    {
+      "path": "isolated/q3-native-correction/operators/cache-native/mesa_shader_cache",
+      "bytes": 2138658
+    },
+    {
+      "path": "isolated/q3-native-correction/operator-resources/cache-native/mesa_shader_cache",
+      "bytes": 2138658
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-shuffle16/cache-native/mesa_shader_cache",
+      "bytes": 2138658
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-four-quant16/cache-native/mesa_shader_cache",
+      "bytes": 2138658
+    },
+    {
+      "path": "isolated/native-quant-shuffle/operators/cache-native/mesa_shader_cache",
+      "bytes": 2138658
+    },
+    {
+      "path": "isolated/native-quant-shuffle/operators-static-v2/cache-native/mesa_shader_cache",
+      "bytes": 2138658
+    },
+    {
+      "path": "isolated/native-quant-shuffle/operators/cache-shuffle/mesa_shader_cache",
+      "bytes": 2138608
+    },
+    {
+      "path": "isolated/native-quant-shuffle/operators-static-v2/cache-shuffle/mesa_shader_cache",
+      "bytes": 2138608
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-reduce-bench/cache/mesa_shader_cache",
+      "bytes": 2134147
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-reduce-micro/cache/mesa_shader_cache",
+      "bytes": 2134147
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-reduce-full/cache/mesa_shader_cache",
+      "bytes": 2134147
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-stage-profile/cache/mesa_shader_cache",
+      "bytes": 2133364
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-refs-bench/cache/mesa_shader_cache",
+      "bytes": 2133364
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-queued-bench/cache/mesa_shader_cache",
+      "bytes": 2133364
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-bench/cache/mesa_shader_cache",
+      "bytes": 2133364
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-sparse-micro/cache/mesa_shader_cache",
+      "bytes": 2133364
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-queued-micro/cache/mesa_shader_cache",
+      "bytes": 2133364
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-queued-full/cache/mesa_shader_cache",
+      "bytes": 2133364
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-full-sparse/cache/mesa_shader_cache",
+      "bytes": 2133364
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-operators/cache-c2-mask4/mesa_shader_cache",
+      "bytes": 2132456
+    },
+    {
+      "path": "isolated/production-native-fusion/operators/cache-c2-mask4/mesa_shader_cache",
+      "bytes": 2132456
+    },
+    {
+      "path": "isolated/production-native-fusion/operators-q4-first/cache-c2-mask4/mesa_shader_cache",
+      "bytes": 2132456
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-operators/cache-c2-mask0/mesa_shader_cache",
+      "bytes": 2132358
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c2-mask0/mesa_shader_cache",
+      "bytes": 2132358
+    },
+    {
+      "path": "isolated/production-native-fusion/operators/cache-c2-mask0/mesa_shader_cache",
+      "bytes": 2132358
+    },
+    {
+      "path": "isolated/production-native-fusion/operators-q4-first/cache-c2-mask0/mesa_shader_cache",
+      "bytes": 2132358
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c2-mask1/mesa_shader_cache",
+      "bytes": 2132308
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-operators/cache-c2-mask7/mesa_shader_cache",
+      "bytes": 2132122
+    },
+    {
+      "path": "isolated/production-native-fusion/operators/cache-c2-mask7/mesa_shader_cache",
+      "bytes": 2132122
+    },
+    {
+      "path": "isolated/production-native-fusion/operators-q4-first/cache-c2-mask7/mesa_shader_cache",
+      "bytes": 2132122
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c2-mask2/mesa_shader_cache",
+      "bytes": 2132074
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c2-mask3/mesa_shader_cache",
+      "bytes": 2132024
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-full-filter/cache/mesa_shader_cache",
+      "bytes": 2130928
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-filter-micro/cache/mesa_shader_cache",
+      "bytes": 2130928
+    },
+    {
+      "path": "isolated/q3-pad112/timing/20261028T230046Z/cache/mesa_shader_cache",
+      "bytes": 2128847
+    },
+    {
+      "path": "isolated/q3-pad112/timing-confirmation/20261028T230156Z/cache/mesa_shader_cache",
+      "bytes": 2128847
+    },
+    {
+      "path": "isolated/q6-native-scale/timing-runs/20261029T073750Z/cache/mesa_shader_cache",
+      "bytes": 2127171
+    },
+    {
+      "path": "isolated/q3-column-reuse/micro/20261029T131755Z/cache/mesa_shader_cache",
+      "bytes": 2126442
+    },
+    {
+      "path": "isolated/q3-pair-glu/timing/20261029T133758Z/cache/mesa_shader_cache",
+      "bytes": 2124510
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-correction-micro/cache/mesa_shader_cache",
+      "bytes": 2121593
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-correction-full/cache/mesa_shader_cache",
+      "bytes": 2121593
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-views16/cache-fused/mesa_shader_cache",
+      "bytes": 2118897
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-nativeopt16/cache-fused/mesa_shader_cache",
+      "bytes": 2118897
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-coalesce16/cache-fused/mesa_shader_cache",
+      "bytes": 2118897
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-coalesce16/cache-coalesced/mesa_shader_cache",
+      "bytes": 2118897
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-scalar16/cache-fused/mesa_shader_cache",
+      "bytes": 2118891
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-host16/cache-fused/mesa_shader_cache",
+      "bytes": 2118891
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-views16/cache-native/mesa_shader_cache",
+      "bytes": 2118758
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-scalar16/cache-native/mesa_shader_cache",
+      "bytes": 2118758
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-nativeopt16/cache-native/mesa_shader_cache",
+      "bytes": 2118758
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-host16/cache-native/mesa_shader_cache",
+      "bytes": 2118758
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-coalesce16/cache-native/mesa_shader_cache",
+      "bytes": 2118758
+    },
+    {
+      "path": "isolated/q6-pad212/timing-runs/20261029T073435Z/cache/mesa_shader_cache",
+      "bytes": 2118607
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/first16/cache-native/mesa_shader_cache",
+      "bytes": 2118563
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/causal16/cache-native/mesa_shader_cache",
+      "bytes": 2118563
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-micro/cache/mesa_shader_cache",
+      "bytes": 2117767
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-bins-bench/cache/mesa_shader_cache",
+      "bytes": 2117571
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-four-quant16-attempt1/cache-native/mesa_shader_cache",
+      "bytes": 2116213
+    },
+    {
+      "path": "isolated/native-quant-shuffle/operators-static/cache-native/mesa_shader_cache",
+      "bytes": 2116213
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-operators/cache-c1-mask4/mesa_shader_cache",
+      "bytes": 2114299
+    },
+    {
+      "path": "isolated/production-native-fusion/operators/cache-c1-mask4/mesa_shader_cache",
+      "bytes": 2114299
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-operators/cache-c1-mask0/mesa_shader_cache",
+      "bytes": 2114201
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c1-mask0/mesa_shader_cache",
+      "bytes": 2114201
+    },
+    {
+      "path": "isolated/production-native-fusion/operators/cache-c1-mask0/mesa_shader_cache",
+      "bytes": 2114201
+    },
+    {
+      "path": "isolated/production-native-fusion/operators-q4-first/cache-c1-mask4/mesa_shader_cache",
+      "bytes": 2114201
+    },
+    {
+      "path": "isolated/production-native-fusion/operators-q4-first/cache-c1-mask0/mesa_shader_cache",
+      "bytes": 2114201
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-operators/cache-c1-mask7/mesa_shader_cache",
+      "bytes": 2114189
+    },
+    {
+      "path": "isolated/production-native-fusion/operators/cache-c1-mask7/mesa_shader_cache",
+      "bytes": 2114189
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c1-mask1/mesa_shader_cache",
+      "bytes": 2114151
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c1-mask2/mesa_shader_cache",
+      "bytes": 2114141
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c1-mask3/mesa_shader_cache",
+      "bytes": 2114091
+    },
+    {
+      "path": "isolated/production-native-fusion/operators-q4-first/cache-c1-mask7/mesa_shader_cache",
+      "bytes": 2114091
+    },
+    {
+      "path": "isolated/native-fusion-plan/mutation/cache/mesa_shader_cache",
+      "bytes": 2112355
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/wide16/cache-native/mesa_shader_cache",
+      "bytes": 2108413
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-threshold-full/cache/radv_builtin_shaders",
+      "bytes": 2107492
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-single-graph-full/cache/radv_builtin_shaders",
+      "bytes": 2106412
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-select-full/cache/radv_builtin_shaders",
+      "bytes": 2106412
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-seed10-full/cache/radv_builtin_shaders",
+      "bytes": 2106412
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/model/cache-off16/radv_builtin_shaders",
+      "bytes": 2105797
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/cache-mega_bound_rowoff192/radv_builtin_shaders",
+      "bytes": 2105797
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-mega_bound_old/radv_builtin_shaders",
+      "bytes": 2105797
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-mega_bound_new/radv_builtin_shaders",
+      "bytes": 2105797
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-graduated/cache-mega192_head192/radv_builtin_shaders",
+      "bytes": 2105797
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-graduated/cache-mega16_head16/radv_builtin_shaders",
+      "bytes": 2105797
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-mega_bound10/radv_builtin_shaders",
+      "bytes": 2105797
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-graduated/cache-mega192_head192/radv_builtin_shaders",
+      "bytes": 2105797
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-graduated/cache-mega16_head16/radv_builtin_shaders",
+      "bytes": 2105797
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-topk-full/cache/radv_builtin_shaders",
+      "bytes": 2105366
+    },
+    {
+      "path": "isolated/mtp-sched-keep-7k/cache-native_bound/radv_builtin_shaders",
+      "bytes": 2105327
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-native_bound_old/radv_builtin_shaders",
+      "bytes": 2105327
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-native_bound_new/radv_builtin_shaders",
+      "bytes": 2105327
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-graduated/cache-native_body_head192/radv_builtin_shaders",
+      "bytes": 2105327
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-first16/cache-bounded_top10/radv_builtin_shaders",
+      "bytes": 2105327
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-host10-modelcheck/cache-original_threshold16/radv_builtin_shaders",
+      "bytes": 2105327
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-native_bound10/radv_builtin_shaders",
+      "bytes": 2105327
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-graduated/cache-native_body_head192/radv_builtin_shaders",
+      "bytes": 2105327
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-first16/cache-bounded_top10/radv_builtin_shaders",
+      "bytes": 2105327
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-single-graph-micro/cache/radv_builtin_shaders",
+      "bytes": 2105307
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-seed10-micro/cache/radv_builtin_shaders",
+      "bytes": 2105307
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-mega_bound32/radv_builtin_shaders",
+      "bytes": 2105277
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-throughput/cache-mega_bound/radv_builtin_shaders",
+      "bytes": 2105277
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-headskip-graduated/cache-mega192_head192/radv_builtin_shaders",
+      "bytes": 2105277
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-headskip-graduated/cache-mega16_head16/radv_builtin_shaders",
+      "bytes": 2105277
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-graduated/cache-mega192_head192/radv_builtin_shaders",
+      "bytes": 2105277
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-graduated/cache-mega16_head16/radv_builtin_shaders",
+      "bytes": 2105277
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-threshold-matched-bench/cache/radv_builtin_shaders",
+      "bytes": 2104983
+    },
+    {
+      "path": "isolated/sdma-optin-probe/model16/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2104837
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-topk-graph-full/cache/radv_builtin_shaders",
+      "bytes": 2104834
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-native_bound32/radv_builtin_shaders",
+      "bytes": 2104807
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-host32-modelcheck/cache-bounded_top10/radv_builtin_shaders",
+      "bytes": 2104807
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-throughput/cache-native_bound/radv_builtin_shaders",
+      "bytes": 2104807
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-headskip-graduated/cache-native_body_head192/radv_builtin_shaders",
+      "bytes": 2104807
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-graduated/cache-native_body_head192/radv_builtin_shaders",
+      "bytes": 2104807
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-gpu-op-profile/cache-bounded_top10/radv_builtin_shaders",
+      "bytes": 2104807
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-first16/cache-bounded_top10/radv_builtin_shaders",
+      "bytes": 2104807
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-correction-micro/cache/radv_builtin_shaders",
+      "bytes": 2104347
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-throughput/cache-mega_gpu/radv_builtin_shaders",
+      "bytes": 2104339
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-topk-graph-micro/cache/radv_builtin_shaders",
+      "bytes": 2104302
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-topk-micro/cache/radv_builtin_shaders",
+      "bytes": 2104296
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-select-matched-bench/cache/radv_builtin_shaders",
+      "bytes": 2103911
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-native_gpu/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-throughput/cache-native_cpu/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-graduated/cache-fallback_cache16/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/threshold-model-first16/cache-native_top10/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-native_gpu/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-throughput/cache-native_cpu/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-graduated/cache-fallback_cache16/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/seed10-model-first16/cache-native_top10/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-throughput/cache-native_gpu/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-throughput/cache-native_cpu/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-headskip-graduated/cache-fallback_cache16/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-gpu-op-profile/cache-native_top10/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/model-first16/cache-native_top10/radv_builtin_shaders",
+      "bytes": 2103869
+    },
+    {
+      "path": "isolated/q3-native-correction/model32/cache-shuffle_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model16/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views16/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views136/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-timing-cache-native_bound/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-timing-cache-adjacent_bound/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle16/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle136/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shadow16/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-scalar16/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt16/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt136/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce16/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce136/cache-fused_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-audit/cache-bounded_top10/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-swiglu-q8/coalesce-prompts/cache-coalesced_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32/cache-shuffle_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32-static-v2/cache-shuffle_bounded/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/prompts128/cache-mask7/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/prompts128/cache-mask4/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/prompts128/cache-mask0/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask7/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask6/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask5/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask4/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask3/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask2/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask1/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/model32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/model136/cache-mask7/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/native-combined/model136/cache-mask0/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/mtp-fa-layout-timing/cache-native_bound/radv_builtin_shaders",
+      "bytes": 2103426
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-reduce-full/cache/radv_builtin_shaders",
+      "bytes": 2103382
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-queued-full/cache/radv_builtin_shaders",
+      "bytes": 2103382
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-full-sparse/cache/radv_builtin_shaders",
+      "bytes": 2103382
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-correction-full/cache/radv_builtin_shaders",
+      "bytes": 2103365
+    },
+    {
+      "path": "isolated/q3-pair-glu/eligibility-attempt1-policy-expectation/cache/radv_builtin_shaders",
+      "bytes": 2102516
+    },
+    {
+      "path": "isolated/sdma-optin-probe/model16/cache-off/radv_builtin_shaders",
+      "bytes": 2102434
+    },
+    {
+      "path": "isolated/sdma-optin-probe/model16/cache-fused_coalesced/radv_builtin_shaders",
+      "bytes": 2102434
+    },
+    {
+      "path": "isolated/sdma-optin-probe/model16/cache-fused/radv_builtin_shaders",
+      "bytes": 2102434
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-stage-profile/cache/radv_builtin_shaders",
+      "bytes": 2102389
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-refs-bench/cache/radv_builtin_shaders",
+      "bytes": 2102389
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-reduce-bench/cache/radv_builtin_shaders",
+      "bytes": 2102389
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-queued-bench/cache/radv_builtin_shaders",
+      "bytes": 2102389
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-bench/cache/radv_builtin_shaders",
+      "bytes": 2102389
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-topk-transfer-control/cache/radv_builtin_shaders",
+      "bytes": 2102370
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-topk-profile/cache/radv_builtin_shaders",
+      "bytes": 2102370
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-topk-packed/cache/radv_builtin_shaders",
+      "bytes": 2102370
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-topk-bench/cache/radv_builtin_shaders",
+      "bytes": 2102370
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-single-graph-bench/cache/radv_builtin_shaders",
+      "bytes": 2102370
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/head-seed10-bench/cache/radv_builtin_shaders",
+      "bytes": 2102370
+    },
+    {
+      "path": "isolated/q3-pair-glu/model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/model32/cache-audit400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-prompts128/cache-inactive400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-prompts128/cache-active400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-populated-kv64/cache-inactive400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-populated-kv64/cache-active400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-model32/cache-inactive400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-model32/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-model32/cache-active400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-boundary128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-boundary128/cache-inactive400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pair-glu/host-boundary128/cache-active400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/submission-populated-kv64/cache-stock100/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/submission-populated-kv64/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/submission-populated-kv64/cache-frozen100/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/submission-cap-prompts128/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/submission-cap-model32/cache-cap400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/submission-cap-model32/cache-cap200/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/submission-cap-model32/cache-cap100/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/model32/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/model32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-stock/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-quant/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-fuse/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-frozen/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-control/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-both/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/model-timing-cache-best/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/inprocess-shader-cache/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/guard-v2-prompts128/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/guard-v2-model32/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/guard-v2-model32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-quant32/cache-mask9/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-quant32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-prompts128/cache-mask13/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model32/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model32/cache-mask13/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model32/cache-mask12/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model136/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model136/cache-mask13/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model136/cache-mask12/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-model136/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fast-guard-prompts128/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fast-guard-model32/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/fast-guard-model32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/contribution-stock400-populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/contribution-stock400-model32/cache-cap400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/arena-prompts128/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    }
+  ],
+  "bytes": 1300565376,
+  "scope": "Reproducible private historical Mesa/RADV shader caches only. Main timing cache, sources, SPIRV assets, binaries, logs and numerical evidence preserved; no Claude/system mutation."
+}

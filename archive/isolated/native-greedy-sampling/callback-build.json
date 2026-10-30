@@ -1,0 +1,24 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${WORKSPACE}/isolated/native-greedy-sampling/build-inputs/common",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/native-greedy-sampling/callback-audit-runner.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama-common",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/native-greedy-sampling/callback-audit-runner"
+  ],
+  "source_sha256": "dc616b2128b6e569c90aa87e03978b0ced1818ffdb957c4e3fa7681f1888bba8",
+  "binary_sha256": "eca161a9c6646fc4b1adf7093d09de62560b873dbf9368013d3bfd039d238755",
+  "scope": "Correctness-only raw target graph callback. No GPU qualification or throughput proof."
+}
