@@ -1,0 +1,157 @@
+{
+  "cases": [
+    {
+      "case": "sampling-model32",
+      "target_rows_per_mode": 38,
+      "raw_audit_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576"
+    },
+    {
+      "case": "coding",
+      "target_rows_per_mode": 136,
+      "raw_audit_sha256": "d57c28c4140917e228a584ff8f7f2185caa0c08d51942a70b1dedf891cd95c27"
+    },
+    {
+      "case": "math",
+      "target_rows_per_mode": 138,
+      "raw_audit_sha256": "cb052233cb56e8fe19113ff905700115393b19bfa263679d308ac800ca4a27f1"
+    },
+    {
+      "case": "sampling-populated-kv64",
+      "target_rows_per_mode": 72,
+      "raw_audit_sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5"
+    },
+    {
+      "case": "sampling-boundary128",
+      "target_rows_per_mode": 146,
+      "raw_audit_sha256": "16a693b0d912e151df9dc942bfb174f1dd5f8c48748f356b07be7cc8f2fa2f49"
+    }
+  ],
+  "activities": [
+    {
+      "case": "sampling-model32",
+      "mode": "stock100",
+      "rows": 38,
+      "target_backend_active": false,
+      "scalar_output_assertions_pass": false,
+      "log_sha256": "72f51d60d7cb122bcda940df13855696cb29a7c9bee685bcf0601205c7501fd3"
+    },
+    {
+      "case": "sampling-model32",
+      "mode": "temp_cpu",
+      "rows": 38,
+      "target_backend_active": false,
+      "scalar_output_assertions_pass": false,
+      "log_sha256": "098aa44a7e6258524f091a483c0f37aa0d6042561564e71d370fb3ba845df76d"
+    },
+    {
+      "case": "sampling-model32",
+      "mode": "temp_gpu",
+      "rows": 38,
+      "target_backend_active": true,
+      "scalar_output_assertions_pass": true,
+      "log_sha256": "91a276dab9f9207fe6dea6c8f024968eed8a85161fdbd793d39d8474e77c1639"
+    },
+    {
+      "case": "coding",
+      "mode": "stock100",
+      "rows": 136,
+      "target_backend_active": false,
+      "scalar_output_assertions_pass": false,
+      "log_sha256": "8fa3b42831f0e22047755519641be26160c7e843ae1544a097276899b8066060"
+    },
+    {
+      "case": "coding",
+      "mode": "temp_cpu",
+      "rows": 136,
+      "target_backend_active": false,
+      "scalar_output_assertions_pass": false,
+      "log_sha256": "b0e15238d3f626d97be5062dd86a3a33068b1525b12bfcade635259805c2204c"
+    },
+    {
+      "case": "coding",
+      "mode": "temp_gpu",
+      "rows": 136,
+      "target_backend_active": true,
+      "scalar_output_assertions_pass": true,
+      "log_sha256": "e421dea74aa7a7e85b3cd4c3b3985ec381e409d3396eca11e9bef60a2045d11e"
+    },
+    {
+      "case": "math",
+      "mode": "stock100",
+      "rows": 138,
+      "target_backend_active": false,
+      "scalar_output_assertions_pass": false,
+      "log_sha256": "d2500fa6efc7418e48f071d544c5ac7239511334f17b95a812d628c4284a67ba"
+    },
+    {
+      "case": "math",
+      "mode": "temp_cpu",
+      "rows": 138,
+      "target_backend_active": false,
+      "scalar_output_assertions_pass": false,
+      "log_sha256": "1d9cc92e35fb18694a6ca4944cddd3f0ded4d0e0a9ff70afb2d61c1bd635418a"
+    },
+    {
+      "case": "math",
+      "mode": "temp_gpu",
+      "rows": 138,
+      "target_backend_active": true,
+      "scalar_output_assertions_pass": true,
+      "log_sha256": "1a1277b114719e929cd9b2aab567b46df8592f0ebf94b6d3e9dec8a7dbf589b1"
+    },
+    {
+      "case": "sampling-populated-kv64",
+      "mode": "stock100",
+      "rows": 72,
+      "target_backend_active": false,
+      "scalar_output_assertions_pass": false,
+      "log_sha256": "453630ca839999948315b195436e944259052e38515908f8208afa8f00a70cdd"
+    },
+    {
+      "case": "sampling-populated-kv64",
+      "mode": "temp_cpu",
+      "rows": 72,
+      "target_backend_active": false,
+      "scalar_output_assertions_pass": false,
+      "log_sha256": "6dc42ec74139a13193bbb3f09923029f33e5156ef106c4009a91c14f2ce72803"
+    },
+    {
+      "case": "sampling-populated-kv64",
+      "mode": "temp_gpu",
+      "rows": 72,
+      "target_backend_active": true,
+      "scalar_output_assertions_pass": true,
+      "log_sha256": "f49edb872cf226fd7b12a5702c868e2835653c5bbb643ca090321a790092541c"
+    },
+    {
+      "case": "sampling-boundary128",
+      "mode": "stock100",
+      "rows": 146,
+      "target_backend_active": false,
+      "scalar_output_assertions_pass": false,
+      "log_sha256": "02fd72d38220f5c4221d9b2f12b3b5943defc8ede514631fcda439058454571a"
+    },
+    {
+      "case": "sampling-boundary128",
+      "mode": "temp_cpu",
+      "rows": 146,
+      "target_backend_active": false,
+      "scalar_output_assertions_pass": false,
+      "log_sha256": "53f22a2a893895e2518a05b5fa8f81518ab7342cc2347409859a559388934d3e"
+    },
+    {
+      "case": "sampling-boundary128",
+      "mode": "temp_gpu",
+      "rows": 146,
+      "target_backend_active": true,
+      "scalar_output_assertions_pass": true,
+      "log_sha256": "1739f53be2bee73634b2b4ae541201f1c357f97381263ccfb8cc76ba3259c4ac"
+    }
+  ],
+  "target_rows_per_mode": 530,
+  "total_mode_row_checks": 1590,
+  "all_native_raw_bits_tokens_counters_identical": true,
+  "no_new_gpu_errors": true,
+  "all_assets_unchanged": true,
+  "scope": "Restricted greedy CLI controls, native100stocklibraries/MTP1/driver. GPU sampled-token/scalar-array activity verified. Fullrawcallback audit only; no timing/general tie equivalence claim."
+}

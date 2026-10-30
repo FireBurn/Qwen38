@@ -23615,9 +23615,9 @@
     {
       "source": "isolated/native-greedy-sampling/STATUS.md",
       "path": "archive/isolated/native-greedy-sampling/STATUS.md",
-      "source_sha256": "a047cfbf5b360731ac4f79a6c73c6babe85f83aaffd0d2cbf3e9f17041cf8612",
-      "export_sha256": "a047cfbf5b360731ac4f79a6c73c6babe85f83aaffd0d2cbf3e9f17041cf8612",
-      "bytes": 1936,
+      "source_sha256": "4fe0278eac2edb38937b555486c3e1fb44caa4b119fa48ae6cb433134ae5aa65",
+      "export_sha256": "4fe0278eac2edb38937b555486c3e1fb44caa4b119fa48ae6cb433134ae5aa65",
+      "bytes": 1253,
       "sanitized": false
     },
     {
@@ -23943,9 +23943,9 @@
     {
       "source": "isolated/native-greedy-sampling/sampling-prompts128/checks.json",
       "path": "archive/isolated/native-greedy-sampling/sampling-prompts128/checks.json",
-      "source_sha256": "67f97be2461962c7b185baed51d003411c5e85e1bccb0f7ea89dad5f2ecbd767",
-      "export_sha256": "67f97be2461962c7b185baed51d003411c5e85e1bccb0f7ea89dad5f2ecbd767",
-      "bytes": 9523,
+      "source_sha256": "f7da0075cba019462aac6787d24e9f6813bd1a3216f60bf9500e3b54ae00d361",
+      "export_sha256": "f7da0075cba019462aac6787d24e9f6813bd1a3216f60bf9500e3b54ae00d361",
+      "bytes": 14265,
       "sanitized": false
     },
     {
@@ -23987,7 +23987,143 @@
       "export_sha256": "89ca9d88f0fa1b8583fc094751c389e2ac25408c699fa82b66fd5b4d7d635631",
       "bytes": 9325,
       "sanitized": true
+    },
+    {
+      "source": "isolated/native-greedy-sampling/analyse_outcomes.py",
+      "path": "archive/isolated/native-greedy-sampling/analyse_outcomes.py",
+      "source_sha256": "5786e2fac426f22e684351c5e46f3489c1f35b871e45a573e43ee3bc0330b409",
+      "export_sha256": "5786e2fac426f22e684351c5e46f3489c1f35b871e45a573e43ee3bc0330b409",
+      "bytes": 2786,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/prepare_timing.py",
+      "path": "archive/isolated/native-greedy-sampling/prepare_timing.py",
+      "source_sha256": "1648a85576f9f60ec4233209729ab99613029d472d999d6e2bfad7601a52e3f5",
+      "export_sha256": "1648a85576f9f60ec4233209729ab99613029d472d999d6e2bfad7601a52e3f5",
+      "bytes": 3897,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-boundary128/assets.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-boundary128/assets.json",
+      "source_sha256": "93ac4e831662e50bea396de703a7a5a986faf6db710fd130e60f9ae3e10fa391",
+      "export_sha256": "3928578ebd337b352b0265f8c3f9a15baae387e60a250288d7b6d13f0fd64200",
+      "bytes": 2904,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-boundary128/audit-archive.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-boundary128/audit-archive.json",
+      "source_sha256": "7208d45a91a5fe65521b59a8df9fc02520170dcf30792f5e2e47df31470798be",
+      "export_sha256": "7208d45a91a5fe65521b59a8df9fc02520170dcf30792f5e2e47df31470798be",
+      "bytes": 234,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-boundary128/checks.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-boundary128/checks.json",
+      "source_sha256": "b4fed8217e1900c2981973dcea469da819ff72837ac6e293ed7dd260f0929589",
+      "export_sha256": "b4fed8217e1900c2981973dcea469da819ff72837ac6e293ed7dd260f0929589",
+      "bytes": 7365,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-boundary128/comparison.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-boundary128/comparison.json",
+      "source_sha256": "c819415fb34a3ae63bdcce1cd411f32e2f5b1788d8cb19a0fd1ac8e82bb72010",
+      "export_sha256": "c819415fb34a3ae63bdcce1cd411f32e2f5b1788d8cb19a0fd1ac8e82bb72010",
+      "bytes": 720,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-populated-kv64/assets.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-populated-kv64/assets.json",
+      "source_sha256": "112c98478b30250ff1582f37824eac2fe5cbf3911b8d15f67b1d39aadc4f49cb",
+      "export_sha256": "5feef3891ea04b75ce2137a12aab20e1417a27cdbc450f73560f3232fafd3ab8",
+      "bytes": 2897,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-populated-kv64/audit-archive.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-populated-kv64/audit-archive.json",
+      "source_sha256": "13b51faa22dd87147f5c0cd45ef17da710bde0cecf1ac1de91f3c5bd40206b94",
+      "export_sha256": "13b51faa22dd87147f5c0cd45ef17da710bde0cecf1ac1de91f3c5bd40206b94",
+      "bytes": 234,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-populated-kv64/checks.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-populated-kv64/checks.json",
+      "source_sha256": "40653256423e3fa575b2596436029385966dbe7a3df4fb64c0572135ccac240a",
+      "export_sha256": "40653256423e3fa575b2596436029385966dbe7a3df4fb64c0572135ccac240a",
+      "bytes": 5208,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-populated-kv64/comparison.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-populated-kv64/comparison.json",
+      "source_sha256": "bd1c21886be07c85379e41a495c0394c771253b035c71742f62925264352af9a",
+      "export_sha256": "bd1c21886be07c85379e41a495c0394c771253b035c71742f62925264352af9a",
+      "bytes": 718,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-prompts128/comparison.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-prompts128/comparison.json",
+      "source_sha256": "77ebe1b36190c7b95df970baa78d5109f78625902fd5ce21a53503bcbaa296b2",
+      "export_sha256": "77ebe1b36190c7b95df970baa78d5109f78625902fd5ce21a53503bcbaa296b2",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-prompts128/math/audit-archive.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/sampling-qualification-summary.json",
+      "path": "archive/isolated/native-greedy-sampling/sampling-qualification-summary.json",
+      "source_sha256": "8744f6d9f181b98c1cd67c9a0245a9069f2cea451d81a1d4f749a96665f712bf",
+      "export_sha256": "8744f6d9f181b98c1cd67c9a0245a9069f2cea451d81a1d4f749a96665f712bf",
+      "bytes": 5184,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/summarise_sampling_checks.py",
+      "path": "archive/isolated/native-greedy-sampling/summarise_sampling_checks.py",
+      "source_sha256": "1931f0eb2da8a5140c5f442eccbc8bda7162d526dc4a7882fa7cb6cec43d9c54",
+      "export_sha256": "1931f0eb2da8a5140c5f442eccbc8bda7162d526dc4a7882fa7cb6cec43d9c54",
+      "bytes": 2487,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/timing-preflight.json",
+      "path": "archive/isolated/native-greedy-sampling/timing-preflight.json",
+      "source_sha256": "b12d2aee5a58e59e13a7e9ecb4a027f32f434b39721f0f6c55064b0d8ec1bc0f",
+      "export_sha256": "b12d2aee5a58e59e13a7e9ecb4a027f32f434b39721f0f6c55064b0d8ec1bc0f",
+      "bytes": 1344,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_sampling_confirm.py",
+      "path": "archive/isolated/run_native_sampling_confirm.py",
+      "source_sha256": "46c9646cc07be4b8db16f97725eda65b7f024f60bb88e5a0c07312ddd2db8b93",
+      "export_sha256": "ad4a6f0efb20dd94918ca6f1151671d729bbc32c978ca134f6018ac1f56c568b",
+      "bytes": 17287,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_sampling_timing.py",
+      "path": "archive/isolated/run_native_sampling_timing.py",
+      "source_sha256": "5e327749c93d4f27c47f7866e5c179662463f2cf1f23c37b4cc3c8b6d53a74c4",
+      "export_sha256": "df79c7996b954b387f3abfc79cd130ac93218ee060723874f0504506104861a2",
+      "bytes": 17151,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-30T08:36:44.323137+00:00"
+  "updated_utc": "2026-10-30T08:41:12.358189+00:00"
 }

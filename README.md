@@ -7,6 +7,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 
 ## Start here
 
+- [Restricted target greedy sampling](docs/NATIVE-GREEDY-SAMPLING.md): allthree530rawrows/config exact, backend activity verified; fixed72throughput test running.
 - [Current work and latest results](docs/CURRENT-STATUS.md): completed experiments, confirmed scope and untested next steps.
 
 - [Direct native-default stock comparison](docs/NATIVE-DEFAULT-BASELINE.md): cap100Q3 independently confirms+1.33%; earlier cap400combination1.69% slower.
