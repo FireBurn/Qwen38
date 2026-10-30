@@ -4,6 +4,10 @@
 
 There is **no demonstrated mega-kernel throughput win over the current native baseline**. The combined implementation can produce exact model outputs, and several local improvements are real, but correctness and lower resource counts do not establish a speedup.
 
+### Independently confirmed native-default cap100 result, 2026-10-30
+
+PaddedQ3 at native cap100 independently confirms **+1.331%** steadyTPS[+0.348%,+2.324%],11/12matched blocks in a fixed48-run confirmation. Discovery separately found+1.863%[+1.016%,+2.717%],11/12matched. All96outputs/counters exact, no new GPU errors. Extra~3GiBVRAM. Full-generation confirmation+1.421%[+0.420%,+2.433%]. No pooling/deployment/general/mega claim. [Complete evidence and tradeoffs](NATIVE-DEFAULT-BASELINE.md).
+
 ### Corrected native-default comparison, 2026-10-30
 
 The completed72-run comparison finds Q3padding/cap400 **1.689% slower** than stock100, descriptive95% interval[-2.606%,-0.764%], all12blocks externally load-matched. All outputs remain exact and no new GPU errors occurred. Earlier positive results below used the archived forced-nonmapped-memory harness; they do not establish improvement over native defaults. [Full comparison](NATIVE-DEFAULT-BASELINE.md).

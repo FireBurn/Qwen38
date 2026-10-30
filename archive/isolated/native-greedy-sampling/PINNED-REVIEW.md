@@ -1,0 +1,13 @@
+# Pinned aa8 sampling review
+
+Read-only snapshots and SHA256 provenance in reference-source.json. No GPU or compile work during Q3cap100 timing.
+
+common/common.cpp:1358-1372 DOES attach backend sampler chains during context creation when backend_sampling is enabled. The timing runner uses common_init_from_params before constructing its separate CPU sampler. Therefore an additional llama_set_sampler call is not inherently needed. It remains necessary to verify backend chain acceptance/activity rather than trust a CLI flag, especially with unsupported stages or grammar. Separate CPU/backend chains must retain acceptance/reset semantics for any stateful settings.
+
+src/llama-context.cpp:1804 needs_raw_logits returns false when every output sequence has a backend sampler. The output copy at2049 is actually gated by this function. Sampling data at2157 is copied separately with per-row counts. Thus an accepted backend temperature-only chain can in principle avoid full raw-logit transfer and return selected arrays, not just move CPU arithmetic. This remains a source-based hypothesis, not measured bytes/speed.
+
+src/llama-sampler.cpp:2042 temperature<=0 builds argmax and gathers one selected candidate and one selected logit. common/sampling.cpp::set_logits sizes its CPU vector to sampled output counts if available. It does not necessarily reconstruct full-vocabulary candidates for this path.
+
+Tie caveat: CPU temperature<=0 selects first strictly greater maximum in current candidate order. Top-k partial_sort compares ONLY logit, without token-ID tiebreak; std::partial_sort is unstable. A temperature-only chain in token-ID order can select a different tied maximum than existing top-k then temperature. Therefore do not claim universal semantic equivalence or silently substitute it. A strict fast-path implementation must preserve legacy tie outcomes (e.g. fallback when adjusted maximum tied) and nonfinite cases; raw bias/suppression and default model sampler metadata also matter. A CLI experiment is explicitly a restricted configuration, not a universally exact optimization.
+
+Next after current timing: measure existing target default CPU chain, temperature-only CPU control, and temperature-only backend control with original stock100/native memory. First establish exact model tokens/counters and true raw target-bit audit through evaluation callbacks before testing backend mode. Existing model audit runner reads llama_get_logits_ith, which intentionally need not contain raw values when backend sampling is active; do not use it unchanged. No claimed reduction or new shader before that evidence.

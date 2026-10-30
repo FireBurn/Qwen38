@@ -1,0 +1,7 @@
+{
+  "parent_sha256": "387a28b2d8b6603145511da000296a49b9415da0250b3d9f51dac9edc0960c3a",
+  "source_sha256": "dc616b2128b6e569c90aa87e03978b0ced1818ffdb957c4e3fa7681f1888bba8",
+  "status": "prepared_uncompiled_unverified",
+  "scope": "Correctness-only synchronous target result_output capture; verify raw-stock audit identity before backend sampler use. Not a timing runner.",
+  "static_review": "Pinned llama_context::graph_get_cb uses exact name for il<0; qwen35 result_output identifies raw head before sampling. Common init attaches backend samplers when enabled. Runtime row/layout/hash qualification remains required."
+}

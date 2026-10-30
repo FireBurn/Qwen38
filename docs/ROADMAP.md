@@ -73,3 +73,6 @@ The [native transfer observer](NATIVE-TRANSFER-OBSERVER.md) attributes1,850 of4,
 ## Direct native-default controls
 
 [Stock100, stock400 and padded-Q3/default400](NATIVE-DEFAULT-BASELINE.md) pass530targetrows per mode (1,590mode-row checks), with matching native tokens/counters and no GPU errors. All four legacy allocation/queue overrides are absent. The predeclared72-run primary combination and secondary cap/padding attribution is in progress; no default-stock speed gain is claimed yet.
+
+
+Latest priority and completed confirmation: [current status](CURRENT-STATUS.md). Cap100Q3 is independently positive; cap400combination rejected. Next: validate raw callback audit, then restricted greedy/backend controls before hierarchical argmax kernels. Mapped CPU fusion cache remains a separate deferred interaction.

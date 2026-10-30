@@ -1,0 +1,17 @@
+{
+  "checks": 88560,
+  "all_pass": true,
+  "counterexample": {
+    "values": [
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "block": 4,
+    "native_index": 2,
+    "lowest_index": 1
+  },
+  "finite_tie_rank": "(bit_reverse(index modulo native BLOCK_SIZE), index)",
+  "scope": "CPU transcription of pinned native finite comparison order versus hierarchical comparator; not compiled shader/GPU/performance validation. NaN/nonfinite semantics excluded."
+}

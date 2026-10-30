@@ -2,12 +2,14 @@
 
 Research notes and evidence from attempts to accelerate Qwen3.8 inference on an **AMD Radeon AI Pro R9700**, principally llama.cpp's Vulkan backend and a persistent mega kernel containing matrix operations, recurrent operations and Flash Attention.
 
-**No faster-than-native mega kernel has been established. The latest72-run test against stock native defaults finds padded Q3 plus cap400 is1.69% slower (95% interval[-2.61%,-0.76%]).** All12primary blocks matched external load. [Results and baseline correction](docs/NATIVE-DEFAULT-BASELINE.md). Earlier+8.43% findings used an explicitly constrained memory-allocation harness and remain archived within that scope; they do not establish a win over ordinary native defaults.
+**Padded Q3 at the native submission cap100 independently confirms a +1.33% gain over stock native defaults**, descriptive95% interval[+0.35%,+2.32%], across11load-matched blocks in a fixed48-run confirmation. Discovery separately measured+1.86%. All96processes preserve exact tokens/counters, no new GPU errors; approximately3GiB extraVRAM. [Evidence, baseline correction and limits](docs/NATIVE-DEFAULT-BASELINE.md). **No faster-than-native mega kernel has been established.** The cap400 combination was slower than native-default stock, and older+8.43% gains used a constrained memory harness.
 
 
 ## Start here
 
-- [Direct native-default stock comparison](docs/NATIVE-DEFAULT-BASELINE.md): 72-run matched-load comparison complete; combined candidate1.69% slower than native-default stock.
+- [Current work and latest results](docs/CURRENT-STATUS.md): completed experiments, confirmed scope and untested next steps.
+
+- [Direct native-default stock comparison](docs/NATIVE-DEFAULT-BASELINE.md): cap100Q3 independently confirms+1.33%; earlier cap400combination1.69% slower.
 - [Mapped-VRAM path](docs/NATIVE-MAPPED-VRAM.md): restores an existing native default, removes2,442queuecalls; independent48-run confirmation+28.3% versus the old harness; native-default comparison now complete.
 - [Immutable GPU rotation matrices](docs/NATIVE-CONSTANT-ROTATION.md): new private core cache passes530targetrows and repeated KV clears, eliminating444repeated uploads; no model speed claim yet.
 - [Native transfer observer](docs/NATIVE-TRANSFER-OBSERVER.md): identifies1,850 synchronous tensor-set submissions per short decode; ownership-preserving batching is the next target.

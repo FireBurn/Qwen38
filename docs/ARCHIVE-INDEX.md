@@ -324,3 +324,6 @@ The [native transfer observer](NATIVE-TRANSFER-OBSERVER.md) attributes1,850 of4,
 ## Direct native-default controls
 
 [Stock100, stock400 and padded-Q3/default400](NATIVE-DEFAULT-BASELINE.md) pass530targetrows per mode (1,590mode-row checks), with matching native tokens/counters and no GPU errors. All four legacy allocation/queue overrides are absent. The predeclared72-run primary combination and secondary cap/padding attribution is in progress; no default-stock speed gain is claimed yet.
+
+
+- [Current work](CURRENT-STATUS.md), including completed cap100 independent confirmation and prepared sampling/argmax research; prepared sources are explicitly unvalidated.

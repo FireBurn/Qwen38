@@ -36,11 +36,11 @@ The primary fails the predeclared positive-gain gate, so its conditional48-run c
 
 [Primary analysis](../archive/isolated/native-default-baseline/model-timing512/20261030T061854Z/confirmation-analysis.json), [secondary full-generation and telemetry outcomes](../archive/isolated/native-default-baseline/model-timing512/20261030T061854Z/outcomes-summary.json).
 
-## Padding with the native cap100: positive discovery, confirmation running
+## Padding with the native cap100: independent confirmation complete
 
 The distinct Q3default100 configuration passes all five native numerical cases:530full target-logit rows per arm,1,060mode-row checks, exact tokens/counters/bits, zero new GPU errors. Both arms leave the node-cap override and four legacy allocation/queue/suballocation overrides absent. Actual padded-Q3 dispatch is verified; the stock core, driver and model policy remain unchanged.
 
-A separately predeclared fixed48 fresh512-request-token discovery comparison completed:12alternatingABBA/BAABblocks,24processes per arm, original CPU/build/runqueue rules, no retries/extensions/pooling. Only a positive primary lower bound with at least four matched blocks permits an independent48-run confirmation. The discovery result is positive; independent confirmation is running.
+A separately predeclared fixed48 fresh512-request-token discovery comparison completed:12alternatingABBA/BAABblocks,24processes per arm, original CPU/build/runqueue rules, no retries/extensions/pooling. Only a positive primary lower bound with at least four matched blocks permits an independent48-run confirmation. Both discovery and independent confirmation are positive.
 
 [Qualification summary](../archive/isolated/native-default-q3-100/qualification-summary.json), [scope](../archive/isolated/native-default-q3-100/PLAN.md), [fixed timing and conditional confirmation plan](../archive/isolated/native-default-q3-100/MODEL-TIMING-PLAN.md), [timing recipe preflight](../archive/isolated/native-default-q3-100/timing-preflight.json). Active timing data are withheld until terminal.
 
@@ -48,6 +48,24 @@ A separately predeclared fixed48 fresh512-request-token discovery comparison com
 
 Across11/12externally load-matched blocks, Q3default100 gains **1.863%** steadyTPS, descriptive95% interval[1.016%,2.717%]. All12blocks give1.700%[0.859%,2.549%]. Full-generation speed gains1.827%[0.950%,2.712%] in the matched subset. All-run arithmetic means35.058stock versus35.656Q3tokens/s. All48processes preserve513tokens/279drafts/234accepts, with no new GPU errors; pinned assets remain unchanged.
 
-This passes the predeclared gate. A separate fixed48-run confirmation is now running with unchanged settings and matching rules. No pooling, retries, extensions, or deployment/generalization claim. Padding still consumes roughly3GiB additionalVRAM; natural clock and power differences are recorded in the outcomes report. This is a native configuration result, not a faster mega kernel.
+This passes the predeclared gate. The separate fixed48-run confirmation completed with unchanged settings and matching rules. No pooling, retries, extensions, or deployment/generalization claim. Padding still consumes roughly3GiB additionalVRAM; natural clock and power differences are recorded in the outcomes report. This is a native configuration result, not a faster mega kernel.
 
 [Discovery analysis](../archive/isolated/native-default-q3-100/model-timing512/20261030T070511Z/confirmation-analysis.json), [full-generation and telemetry outcomes](../archive/isolated/native-default-q3-100/model-timing512/20261030T070511Z/outcomes-summary.json).
+
+### Independent cap100 confirmation
+
+The independent fixed48-run experiment confirms **+1.331% steady decoding**, descriptive95% interval[+0.348%,+2.324%], across11/12predeclared load-matched blocks. All12blocks give+1.395%[+0.497%,+2.302%]. Full-generation speed independently gains+1.421%[+0.420%,+2.433%]. The experiments remain separate; no pooled96-run estimate is used.
+
+| Confirmation matched mean | Stock100 | Q3default100 |
+|---|---:|---:|
+| Steady tokens/s |36.524|37.008|
+| CPU busy |99.963%|99.953%|
+| Background build processes |16.773|16.710|
+| Runnable threads |29.108|28.837|
+| GPU clock, MHz |1698.932|1697.477|
+| Sampled GPU power, W |126.726|125.000|
+| VRAM, GiB |15.654|18.654|
+
+All96processes have513identical tokens/279drafts/234accepts and zero new GPU errors. Both datasets' pinned assets were rechecked unchanged after completion. Natural clocks and power were observed, not controlled; these means do not establish equal-clock efficiency or general energy savings. The+3GiBVRAM tradeoff remains. This is a scoped native-path gain for the pinnedR9700/aa8.27.7/privatecopy2driver/Q3LynnStyleMTP1/greedy/q8KV/FA/4096context workload, with no production deployment or faster mega-kernel claim.
+
+[Independent analysis](../archive/isolated/native-default-q3-100/model-confirmation512/20261030T072802Z/confirmation-analysis.json), [independent full-generation and telemetry outcomes](../archive/isolated/native-default-q3-100/model-confirmation512/20261030T072802Z/outcomes-summary.json), [two-experiment confirmation record](../archive/isolated/native-default-q3-100/confirmed-native-default-q3-100.json).

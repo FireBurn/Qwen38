@@ -1,0 +1,51 @@
+{
+  "status": "independently_confirmed_scoped_native_default_gain",
+  "experiments": {
+    "model-timing512": {
+      "dataset": "isolated/native-default-q3-100/model-timing512/20261030T070511Z",
+      "analysis_sha256": "48079d7e87531ef78eeef4274fc12e53b19621283b10e4dc4084ad93271f9efe",
+      "matched": {
+        "blocks": 11,
+        "geometric_speed_change_percent": 1.8628584612671386,
+        "descriptive_t95_percent": [
+          1.0162214123758662,
+          2.7165913437040867
+        ],
+        "lower_bound_positive": true
+      },
+      "full_generation": {
+        "blocks": 11,
+        "geometric_change_percent": 1.8270876819387973,
+        "descriptive_t95_percent": [
+          0.9501948082071597,
+          2.711597590124526
+        ]
+      }
+    },
+    "model-confirmation512": {
+      "dataset": "isolated/native-default-q3-100/model-confirmation512/20261030T072802Z",
+      "analysis_sha256": "f77e51222c7fffdc0c08310564de64bb3fbcb5e0ef736c475902af3a2cc70ea0",
+      "matched": {
+        "blocks": 11,
+        "geometric_speed_change_percent": 1.3314921361353684,
+        "descriptive_t95_percent": [
+          0.34840923931454343,
+          2.324205997605736
+        ],
+        "lower_bound_positive": true
+      },
+      "full_generation": {
+        "blocks": 11,
+        "geometric_change_percent": 1.4211891820176958,
+        "descriptive_t95_percent": [
+          0.4195946733423163,
+          2.4327736887912748
+        ]
+      }
+    }
+  },
+  "no_pooling": true,
+  "all96_native_tokens_counters_exact": true,
+  "no_new_gpu_errors": true,
+  "scope": "PinnedR9700/aa8.27.7/copy2driver/Q3LynnStyleMTP1/greedy/q8KV/FA/ctx4096. Nativeallocation/submission100defaults, frozenpaddedQ3backend. Naturalclocks/power, extraVRAM. Notmega/equalclock/generaldeploymentqualification."
+}

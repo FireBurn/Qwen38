@@ -1,7 +1,8 @@
-# Native-default Q3cap100
+# Native-default Q3cap100: independent confirmation complete
 
-Allfivecases530targetrows PERARM (1060checks) exact stockbits/tokens/counters, zeroGPUerrors. Allfourlegacyoverrides and nodecap override absentbothmodes.
+Short88266/broad53230: allfivecases530rawtargetrows PERARM exactnativebits/tokens/counters, zeroGPUerrors. Fourlegacyoverrides and nodecap override absentbotharms.
 
-Fixed48discovery session86698 terminal0, model-timing512/20261030T070511Z. Primary11/12matched +1.862858%[1.016221,2.716591];all12descriptive+1.700311%[0.859027,2.548612]. Fullgeneration11matched+1.827088%[0.950195,2.711598]. All48native513tokens279drafts234accepts exact,noGPUerrors. Allpinnedassetscheckedunchangedafterrun.
+Discovery86698 terminal0 dataset20261030T070511Z:11matched+1.862858%[1.016221,2.716591];all12+1.700311%[0.859027,2.548612].
+Independentconfirmation16917 terminal0 dataset20261030T072802Z:11matched+1.331492%[0.348409,2.324206];all12+1.395165%[0.496833,2.301527]. Fullgeneration11matched+1.421189%[0.419595,2.432774]. Bothfixed48separate, no pooling/retries/extensions. All96native513/279/234exact,noGPUerrors. Allassetscheckedunchangedafterconfirmation.
 
-Gatepassed, independentfixed48confirmation NOWLIVE session16917, model-confirmation512/20261030T072802Z. Sameunchangedsettings/assets/MTPpolicy/driver/matching/schedule;noowncompile/GPUoverlap. Do not restart/extend/pool. Discovery isnot independentconfirmation or generaladoptionproof. Onlyprivateworkspace;goalactive,fastermegaunachieved. Samplingcallbacksource prepareduncompiled, deferreduntiltimingterminal.
+Record confirmed-native-default-q3-100.json: scopednative-defaultgain only, extra~3GiBVRAM, naturalclocks/power. No deployment/mega/equalclock/generalclaim. Nextcompile privatecallbackaudit after terminalchecks, verify stockrawidentity before GPUtargetsampling. PreparedmappedCPUplanreuse deferred. Goalactive.
