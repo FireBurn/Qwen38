@@ -76,3 +76,6 @@ The [native transfer observer](NATIVE-TRANSFER-OBSERVER.md) attributes1,850 of4,
 
 
 Latest priority and completed confirmation: [current status](CURRENT-STATUS.md). Cap100Q3 is independently positive; cap400combination rejected. Next: validate raw callback audit, then restricted greedy/backend controls before hierarchical argmax kernels. Mapped CPU fusion cache remains a separate deferred interaction.
+
+
+Widerargmaxindependentlyconfirms+2.35%native-pathgain; see[currentstatus](CURRENT-STATUS.md). Next:newprivateQ3padding/native100+widecomposition, correctnessbeforetiming, noaddingindependentpercentages. Existingqualifiedcomponentsunchanged.

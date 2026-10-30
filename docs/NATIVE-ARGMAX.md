@@ -1,6 +1,6 @@
 # Wider native argmax prototype
 
-The256-lane prototype preserves native indices in630adversarialcases/1680rows perarm and passes all530Qwenrawtargetrows perarm, with exact stock tokens/counters and noGPUerrors. A fixed24operatorcomparison measures **60.899% less synchronous argmax-plus-gather graph wall time**, descriptive95% interval[56.951%,64.485%less], all6wholeprocessCPU/build/runqueue-matched blocks. **The fixed72-run model discovery measures+1.92% overstock; an independent48-run confirmation is now running.**
+The256-lane prototype preserves native indices in630adversarialcases/1680rows perarm and passes all530Qwenrawtargetrows perarm, with exact stock tokens/counters and noGPUerrors. A fixed24operatorcomparison measures **60.899% less synchronous argmax-plus-gather graph wall time**, descriptive95% interval[56.951%,64.485%less], all6wholeprocessCPU/build/runqueue-matched blocks. **The fixed48-run independent confirmation measures+2.35% steady decoding overstock[+1.53%,+3.19%], all12load-matched blocks. Discovery separately measures+1.92%.**
 
 ## Implementation and correctness
 
@@ -22,11 +22,11 @@ Firstmicroattempt stopped afterone nativeprocess becauseGPUclock/powersysfs retu
 
 [Fixedoperatorprotocol](../archive/isolated/native-argmax-review/WIDE-MICRO-PLAN-v2.md), [operatoranalysis](../archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/analysis.json), [failedattemptrecord](../archive/isolated/native-argmax-review/wide-micro-attempt1.json), [phasehistory](../archive/isolated/native-argmax-review/STATUS.md).
 
-## Positive full-model discovery; independent confirmation running
+## Full-model discovery and independent confirmation complete
 
 Fixed72fresh512-request-token processes,12symmetric6armblocks, all6permutations twice withorder+reverse. Primarywidebackend versusstockdefaultCPU; private-nativebackendcontrol separates shader contribution descriptively. Native100/mappeddefaults, originalstockcore/common/model/MTP1/q8KV/FA/ctx4096/privatecopy2driver. Originalnoninstrumentedsynchronizedrunner; audit/profilerOFF. Pair-specificCPU/build/runqueue matching, naturalclocks/power reported. No retries/extensions/quietgate/pooling. Onlypositiveprimarylowerbound with>=4matchedblocks triggers predeclaredindependent48confirmation. All513tokens/279drafts/234accepts must matchnative, stablepinnedlibraries/runtime and noGPUerrors.
 
-[Fullmodelplan](../archive/isolated/native-argmax-review/MODEL-TIMING-PLAN.md), [timingrecipe](../archive/isolated/run_native_argmax_wide_timing.py). The completed discovery is archived; active confirmation data are withheld untilterminal. No fastermega/equalclock/generaldeploymentclaim, noaddingindependentQ3gain tothisunmeasuredmodeleffect.
+[Fullmodelplan](../archive/isolated/native-argmax-review/MODEL-TIMING-PLAN.md), [timingrecipe](../archive/isolated/run_native_argmax_wide_timing.py). The completed discovery is archived; the independent confirmation is also complete and archived. No fastermega/equalclock/generaldeploymentclaim, noaddingindependentQ3gain tothisunmeasuredmodeleffect.
 
 ### Completed fixed72 model discovery
 
@@ -40,6 +40,26 @@ All12primaryblocks meet the original loadmatching rules, with no exclusions. Ful
 
 PrimarymatchedCPUbusy99.95%both; buildprocessmeans16.638stock/16.533wide; runnable28.809/28.992; naturalGPUclock1713.229/1707.896MHz; sampledGPU power124.261/125.540W; VRAMabout15.654GiBboth. These are observed configuration outcomes, not controlledclocks, energy or generaldeploymentproof.
 
-The positive primarylowerbound passes the predeclared gate. A separate fixed48fresh512-request-tokenstock/wideconfirmation isrunning, alternatingABBA/BAAB12blocks with unchangedsettings/matching/analysis. Confirmationmust independentlypassbefore a supportedgain claim. No adding the independentQ3+1.331% tothisdifferentconfiguration. No fastermega claim.
+The positive primarylowerbound passes the predeclared gate. A separate fixed48fresh512-request-tokenstock/wideconfirmation completed, alternatingABBA/BAAB12blocks with unchangedsettings/matching/analysis. The confirmation independentlypasses the predeclaredpositive-lowerbound gate. No adding the independentQ3+1.331% tothisdifferentconfiguration. No fastermega claim.
 
 [Discoveryanalysis](../archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/confirmation-analysis.json), [full-generation/load/clock/power outcomes](../archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/outcomes-summary.json), [status](../archive/isolated/native-argmax-review/STATUS.md).
+
+### Independent fixed48 model confirmation
+
+All12blocks pass the originalCPU/build/runqueue rules. Steady decoding independently improves **2.3549%**, descriptive95% interval[1.5294%,3.1871%]. Full-generation speed improves **2.1680%**[1.3150%,3.0282%]. Discovery and confirmation remain separate; no120-runpooled estimate or data-dependentextensions. All120timedprocesses preserve the same513tokens/279drafts/234accepts, zero newGPUerrors, pinnedassets unchanged aftercompletion. Numerical audits separately establish530fullrawtargetrows perarm.
+
+| Independent confirmation mean | Stock | Wideconfiguration |
+|---|---:|---:|
+| Steady tokens/s |35.342|36.174|
+| CPU busy |99.952%|99.946%|
+| Background build processes |16.735|16.544|
+| Runnable threads |28.956|28.965|
+| GPU clock,MHz |1695.813|1720.042|
+| Sampled GPU power,W |124.648|126.800|
+| VRAM,GiB |15.654|15.654|
+
+This supports a scopednativeconfigurationgain on the pinnedR9700/aa8.27.7/privatecopy2driver/Q3LynnStyleMTP1/greedy/q8KV/FA/4096context workload underheavycompilationload. It does not establish equal-clock efficiency, energy savings, universalCPUchain semantics, arbitrarycontexts/models/drivers, productiondeployment, or fastermega throughput. The positivewideshadervsprivate-nativebackend contrast is from the separate72-run discovery; this independent48confirms the wholeconfigurationversusstock.
+
+[Independent analysis](../archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/confirmation-analysis.json), [independent full-generation/load/clock/power outcomes](../archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/outcomes-summary.json), [confirmation/configuration proof record](../archive/isolated/native-argmax-review/confirmed-wide-native-path.json), [shader build command and input provenance](../archive/isolated/native-argmax-review/SHADER-BUILD.md).
+
+Next: compose with the independentlyconfirmedQ3padding/native100path in a newprivatehost, then repeat rawmodelqualification and measure the interaction against stock/componentcontrols. No composition has been tested yet; the two percentages cannot be added. The existing qualifiedcomponents remain unchanged.

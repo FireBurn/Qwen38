@@ -24759,9 +24759,9 @@
     {
       "source": "isolated/native-argmax-review/STATUS.md",
       "path": "archive/isolated/native-argmax-review/STATUS.md",
-      "source_sha256": "54e2ac5dc321ea628542eb9b00c31501acd0dda2a12229604095814877c83127",
-      "export_sha256": "54e2ac5dc321ea628542eb9b00c31501acd0dda2a12229604095814877c83127",
-      "bytes": 3063,
+      "source_sha256": "cbfa682efccd65f2c40f63e16a86a6a93cbeb89cac82ff48be3674b6c655af06",
+      "export_sha256": "cbfa682efccd65f2c40f63e16a86a6a93cbeb89cac82ff48be3674b6c655af06",
+      "bytes": 3657,
       "sanitized": false
     },
     {
@@ -25735,9 +25735,9 @@
     {
       "source": "isolated/native-argmax-review/analyse_model_outcomes.py",
       "path": "archive/isolated/native-argmax-review/analyse_model_outcomes.py",
-      "source_sha256": "5786e2fac426f22e684351c5e46f3489c1f35b871e45a573e43ee3bc0330b409",
-      "export_sha256": "5786e2fac426f22e684351c5e46f3489c1f35b871e45a573e43ee3bc0330b409",
-      "bytes": 2786,
+      "source_sha256": "c62f5b8a281e9cbfa72249cf0dfb3b9cb6d24fc81608afaf61fa63586ddbc644",
+      "export_sha256": "c62f5b8a281e9cbfa72249cf0dfb3b9cb6d24fc81608afaf61fa63586ddbc644",
+      "bytes": 2792,
       "sanitized": false
     },
     {
@@ -27163,7 +27163,847 @@
       "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
       "bytes": 135,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/SHADER-BUILD.md",
+      "path": "archive/isolated/native-argmax-review/SHADER-BUILD.md",
+      "source_sha256": "748ae87109621ccec7fe03c920665ee29b2df5bde5147b9e5025c1eb19e12127",
+      "export_sha256": "748ae87109621ccec7fe03c920665ee29b2df5bde5147b9e5025c1eb19e12127",
+      "bytes": 1198,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/confirmed-wide-native-path.json",
+      "path": "archive/isolated/native-argmax-review/confirmed-wide-native-path.json",
+      "source_sha256": "14436c1d86e6ae09e8bcdcf40ba0acddec31aeceff2a7c550c10744864891226",
+      "export_sha256": "14436c1d86e6ae09e8bcdcf40ba0acddec31aeceff2a7c550c10744864891226",
+      "bytes": 2922,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation-outcomes.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation-outcomes.log",
+      "source_sha256": "c1f472edce0f077c1ac60f327a61005d8170570d6cd507ac8c236ec1d593bd30",
+      "export_sha256": "c1f472edce0f077c1ac60f327a61005d8170570d6cd507ac8c236ec1d593bd30",
+      "bytes": 3025,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/00-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/00-stock100-telemetry.json",
+      "source_sha256": "90b0a9f4f226ad3405bb17d1197bd36dde838fda9eeb408aaab149db38f4ad24",
+      "export_sha256": "90b0a9f4f226ad3405bb17d1197bd36dde838fda9eeb408aaab149db38f4ad24",
+      "bytes": 89043,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/00-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/00-stock100.log",
+      "source_sha256": "42fbd7abb182224b5c9639f3f371bf0c38e9d65370eda5e68338e1de4c91fbad",
+      "export_sha256": "0a1175d451288df5e8903dd40b65491b4edb9c64d9c9e7b38fb3b606f84d6dbb",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/01-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/01-private_wide-telemetry.json",
+      "source_sha256": "847cdcb836ff24d6cdb443ea42c3a199d327095e2affd532efbf376bc25eb0c4",
+      "export_sha256": "847cdcb836ff24d6cdb443ea42c3a199d327095e2affd532efbf376bc25eb0c4",
+      "bytes": 86792,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/01-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/01-private_wide.log",
+      "source_sha256": "08b68fbb73069ae675e6c4d738d634cc48b56f9e1521c2a96e84a561430686de",
+      "export_sha256": "88ec6f76bcfaed3b59eb391e7beca3405258d9fe27297135c460879342eef24a",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/02-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/02-private_wide-telemetry.json",
+      "source_sha256": "89e953671be154bd178f060b29e60fd92d3fc2f555763cb812ab2af9eb863125",
+      "export_sha256": "89e953671be154bd178f060b29e60fd92d3fc2f555763cb812ab2af9eb863125",
+      "bytes": 89072,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/02-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/02-private_wide.log",
+      "source_sha256": "2801166e342f3a8b4bc8782eda9eb02720a35ec4914e17a841d665a5680dded4",
+      "export_sha256": "3605d01d34ccf08cbb485c4a50129c463874560f27f73c8b9e4a2b4efd596b63",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/03-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/03-stock100-telemetry.json",
+      "source_sha256": "92a0ab8fbb4adff426232e0abc0acaf48197e9ea2b88cb867b9a6dd80c1de8b0",
+      "export_sha256": "92a0ab8fbb4adff426232e0abc0acaf48197e9ea2b88cb867b9a6dd80c1de8b0",
+      "bytes": 84202,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/03-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/03-stock100.log",
+      "source_sha256": "9675a728e375270981aa7c4a49c148a8b756e1e8239b0382f72735ce3a4b0ca7",
+      "export_sha256": "4df8ccd821e53f18ec79f9552ca58b5624f919ac920b751921a5f5e11a592a21",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/04-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/04-private_wide-telemetry.json",
+      "source_sha256": "e22c73ef505fb42c4049f409edbfb2b1ec743fb5151f17bc22405cf25943fd97",
+      "export_sha256": "e22c73ef505fb42c4049f409edbfb2b1ec743fb5151f17bc22405cf25943fd97",
+      "bytes": 86549,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/04-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/04-private_wide.log",
+      "source_sha256": "aaead5f88b755f79a7e92bdd73e20b09f651ceeee91404a8a8fc9a6de0cb9cd4",
+      "export_sha256": "b68ea1ddae948d9ce4822efafcb0ef07a06e944eaee64cea8f4ac8e4f2459f5e",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/05-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/05-stock100-telemetry.json",
+      "source_sha256": "4e1066950ee3c3d4262fa19103a6893566fa771e9ca0fc9d2110c28ea69652b0",
+      "export_sha256": "4e1066950ee3c3d4262fa19103a6893566fa771e9ca0fc9d2110c28ea69652b0",
+      "bytes": 83303,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/05-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/05-stock100.log",
+      "source_sha256": "364c06a16f79f534244cf6e0d5f3aba0f2db9909cea597aceb43e0ac6dee6876",
+      "export_sha256": "51270faedfcc616245d51856c2993abdc055a61b6821396c8b94cdc08b4c1dcd",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/06-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/06-stock100-telemetry.json",
+      "source_sha256": "df6d0296edbfbb5501f8e46d78a0d33b3a2b3cb5d8dd08be8a4e03244091f85c",
+      "export_sha256": "df6d0296edbfbb5501f8e46d78a0d33b3a2b3cb5d8dd08be8a4e03244091f85c",
+      "bytes": 85568,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/06-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/06-stock100.log",
+      "source_sha256": "645bd5cfbb49e36ef7d5b18a6628546b030a87c2dd10bcb50d0b83c417612bd9",
+      "export_sha256": "84b749a991b9cf69eea0284de7f9bcb5b1e5d92a2447df6921744379c3367bf9",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/07-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/07-private_wide-telemetry.json",
+      "source_sha256": "7853c2c9585bf5d45be2b59464731a75ea55279ce3e7607657b3165d30f23efc",
+      "export_sha256": "7853c2c9585bf5d45be2b59464731a75ea55279ce3e7607657b3165d30f23efc",
+      "bytes": 84389,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/07-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/07-private_wide.log",
+      "source_sha256": "1ff3785a03cd8cee303fccc41bb11352bd411ea70a27a923ff9d6397c98d18d3",
+      "export_sha256": "2cbe5057c6f06349814761e8b3d0f4703ecfe36cc3fec788dbc465e5d983bd6c",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/08-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/08-stock100-telemetry.json",
+      "source_sha256": "ac4bc87f6de691bb37fa250e2ed3ea9662cfb47ba6599be3bf7a770c0bc8ae71",
+      "export_sha256": "ac4bc87f6de691bb37fa250e2ed3ea9662cfb47ba6599be3bf7a770c0bc8ae71",
+      "bytes": 88822,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/08-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/08-stock100.log",
+      "source_sha256": "4412c7429024e81d49fb768d7fc47f9e66273e1b9fdad9b20d4e484ba7d666dd",
+      "export_sha256": "093acb1631df01c2432efd5d07e74ca32e7c7ba15004bb07f371fa473d0c8395",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/09-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/09-private_wide-telemetry.json",
+      "source_sha256": "2b240bd7a31b47b633bc20f39768508c20746ad6fa12f3ac20674335b6f1dc95",
+      "export_sha256": "2b240bd7a31b47b633bc20f39768508c20746ad6fa12f3ac20674335b6f1dc95",
+      "bytes": 85006,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/09-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/09-private_wide.log",
+      "source_sha256": "c6a773cf32addfa6d6fb8b3763787eb9ef294d7ae7624e84f363be88d1e30bce",
+      "export_sha256": "61fef6329e01475941a2ec6e3fb82307cee04a2c8dff54f725bd7723faeb9b30",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/10-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/10-private_wide-telemetry.json",
+      "source_sha256": "67b6b84d60ed3dad53a063bfbac4ff628ecbc7053b79a9de6ab52dca0da60455",
+      "export_sha256": "67b6b84d60ed3dad53a063bfbac4ff628ecbc7053b79a9de6ab52dca0da60455",
+      "bytes": 90265,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/10-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/10-private_wide.log",
+      "source_sha256": "675d00cf913d47acda86affdcfc0d930436874438b55340093b4d692dc468248",
+      "export_sha256": "76ba6e44b9a033ee3afe42986de236e33c99cd5f50a60173405d3a51e4b1dc73",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/11-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/11-stock100-telemetry.json",
+      "source_sha256": "7b4097817292806e929d26ebbec76ca9f25601bd90446956bf49eb742398bf76",
+      "export_sha256": "7b4097817292806e929d26ebbec76ca9f25601bd90446956bf49eb742398bf76",
+      "bytes": 88082,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/11-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/11-stock100.log",
+      "source_sha256": "47d19a21e9ce36410c5297b13e12bb2a1dfbc2db38e67810aa6b6c24c154480f",
+      "export_sha256": "3c4da9630bda49a17bd546121346ac6477c848e6428208af0711ccef0faef0f9",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/12-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/12-private_wide-telemetry.json",
+      "source_sha256": "164ed74e92543ea3a25ea5cb2f3ccb81d4e2b3ebaa184d3c57123ec7c49faba2",
+      "export_sha256": "164ed74e92543ea3a25ea5cb2f3ccb81d4e2b3ebaa184d3c57123ec7c49faba2",
+      "bytes": 87411,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/12-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/12-private_wide.log",
+      "source_sha256": "ff1325a1bf7591e8180fc5181164671fbb4bf2bde6bea2255b40c67e520271ec",
+      "export_sha256": "bd2f3e3c8dc77ba7f75542997b325f8c01d98174113c657f60bcb423dd430cbd",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/13-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/13-stock100-telemetry.json",
+      "source_sha256": "7589c072b1680e96568624c4fe61322e838de2cba05f2ece98e7a0cc2f491c77",
+      "export_sha256": "7589c072b1680e96568624c4fe61322e838de2cba05f2ece98e7a0cc2f491c77",
+      "bytes": 83609,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/13-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/13-stock100.log",
+      "source_sha256": "84c67ed46a1487a0d00c844c6e8428b8a5131069270e007b66bc81193c66f61a",
+      "export_sha256": "cd6f76626b71f606a562c937dddc435c46220cb190c943ed8612c90dd07473e3",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/14-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/14-stock100-telemetry.json",
+      "source_sha256": "b3e1927afae2638b0283e551ffaac37c437f5e99fc46014a5b661c37a779dffa",
+      "export_sha256": "b3e1927afae2638b0283e551ffaac37c437f5e99fc46014a5b661c37a779dffa",
+      "bytes": 88038,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/14-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/14-stock100.log",
+      "source_sha256": "8f7dd2978d3ca79818c8983ff83dcd72b9efe058fb2658df46f35ceaa408644b",
+      "export_sha256": "943c2cae9d6826620b0acfc070a3476872d11a8cfc28c9aff70885cd6affbe90",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/15-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/15-private_wide-telemetry.json",
+      "source_sha256": "0f9ba5716ce02c10098caac4d486d41ee8e57df324caf733390c37830f30f928",
+      "export_sha256": "0f9ba5716ce02c10098caac4d486d41ee8e57df324caf733390c37830f30f928",
+      "bytes": 83934,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/15-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/15-private_wide.log",
+      "source_sha256": "8c42e8cbd76b2309a1890bdf8746f35986b0fa0c0235ba87d98466f799301224",
+      "export_sha256": "ed824eb68695b15ff1b6513b7da842c6db16222102db8f3de080115d390f5281",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/16-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/16-stock100-telemetry.json",
+      "source_sha256": "a22959295a80c8e616fed9bf9fbcd7d1adc90093592970314c692cf066632085",
+      "export_sha256": "a22959295a80c8e616fed9bf9fbcd7d1adc90093592970314c692cf066632085",
+      "bytes": 86959,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/16-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/16-stock100.log",
+      "source_sha256": "5e2aafc9be3b35368d01cb0f3dda435ba8ac1c3e88a20e5841c5ca2d97325c57",
+      "export_sha256": "1400e8e80a3fc5462f1d95d7e5adf0e4401e37338a252e84fcf93552fa84bd10",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/17-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/17-private_wide-telemetry.json",
+      "source_sha256": "2970986500e42d5fe0519bb16da3562cc169b5799d437bed2420ad93c718d449",
+      "export_sha256": "2970986500e42d5fe0519bb16da3562cc169b5799d437bed2420ad93c718d449",
+      "bytes": 88026,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/17-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/17-private_wide.log",
+      "source_sha256": "0f35ab0f22fdc7a6c3673ac5056c993abce9f0828e18b1367731cede7cd87c16",
+      "export_sha256": "a5bbb6b514acdee2b04411146f4991fdf81e9e165f30e98ab89a5c35fbe9f3a7",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/18-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/18-private_wide-telemetry.json",
+      "source_sha256": "e4328db0e804700b1d6adc8f33898020d2ff4e4c825200a60cd80a46e0764087",
+      "export_sha256": "e4328db0e804700b1d6adc8f33898020d2ff4e4c825200a60cd80a46e0764087",
+      "bytes": 85870,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/18-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/18-private_wide.log",
+      "source_sha256": "d6d6f29a6ab532c1b86d2bfd469693049531bc468d8069df6854438ad522193c",
+      "export_sha256": "a7b7c2f4248b0724270b0dc0ac470cd9df1ff69b823ee26ccf907c8b83702481",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/19-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/19-stock100-telemetry.json",
+      "source_sha256": "051a46953d59fb7b225eacb3f1b4162e51059127901b9171483c397be574828d",
+      "export_sha256": "051a46953d59fb7b225eacb3f1b4162e51059127901b9171483c397be574828d",
+      "bytes": 86732,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/19-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/19-stock100.log",
+      "source_sha256": "ab396d3c85f7a7788921c77b54ab06338de3672a39a1a4e9de4e3b8f7b2ea057",
+      "export_sha256": "d06cd672c43e3138a0ce947488c5799428943e78e458d72265c686ef11b69869",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/20-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/20-private_wide-telemetry.json",
+      "source_sha256": "b2cb64be825580d4e5a828ee6f4dd6333d097139d25c6d3d242cf92eb93809e5",
+      "export_sha256": "b2cb64be825580d4e5a828ee6f4dd6333d097139d25c6d3d242cf92eb93809e5",
+      "bytes": 87931,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/20-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/20-private_wide.log",
+      "source_sha256": "ca949f817f21fee257f4ae21f8ab0a16d246e774d322d1b5ccb72735d67f6530",
+      "export_sha256": "290a8fa351f3e19ce3d44d16ff591521bcbb2d46fef437fcb017f5c7fdb3fc24",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/21-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/21-stock100-telemetry.json",
+      "source_sha256": "142b015518ac38a208d7fdc8d243438b3e1feea3c9acc0bc92fce20404b4b6dc",
+      "export_sha256": "142b015518ac38a208d7fdc8d243438b3e1feea3c9acc0bc92fce20404b4b6dc",
+      "bytes": 85786,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/21-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/21-stock100.log",
+      "source_sha256": "69fe398cfdff611ab9352385df92c1860a2eb037b404607b8027598a62b1c856",
+      "export_sha256": "63f5d3b67abc77ed4ea4ef38b884266c76828de4cdb6a9bd39e5a144f92a710e",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/22-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/22-stock100-telemetry.json",
+      "source_sha256": "c2336f4207475546332ce9b0c7fe96dde04d35a5f91ab5e108a426908253ea42",
+      "export_sha256": "c2336f4207475546332ce9b0c7fe96dde04d35a5f91ab5e108a426908253ea42",
+      "bytes": 90324,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/22-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/22-stock100.log",
+      "source_sha256": "0c432bc3855b541782431bb487b6ef06e129e226b7e43a4f9c235f31856324f7",
+      "export_sha256": "fac4200669ccb926d48e5dd6c861507e6c1b51d58bad86e9c9e512581570bc22",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/23-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/23-private_wide-telemetry.json",
+      "source_sha256": "8eeb34f429e2989a3c74436db9be1e7642680d9694f7ff8f6ed7829483604c3a",
+      "export_sha256": "8eeb34f429e2989a3c74436db9be1e7642680d9694f7ff8f6ed7829483604c3a",
+      "bytes": 87177,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/23-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/23-private_wide.log",
+      "source_sha256": "35c5baf6c6621f21577f44f0f73057337b7f0484001973c0cdff2642f2a9e230",
+      "export_sha256": "969fd4406028c65005f1ce050d229d53ef76b4458d161e3c4511650cd2f4aaa7",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/24-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/24-stock100-telemetry.json",
+      "source_sha256": "7f3dbc90dc9b6bf997b23fe4e3078e63bf8dddef0ba6768c99ce683ae4199936",
+      "export_sha256": "7f3dbc90dc9b6bf997b23fe4e3078e63bf8dddef0ba6768c99ce683ae4199936",
+      "bytes": 88209,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/24-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/24-stock100.log",
+      "source_sha256": "bf4770d08807080b257498148a1995ebbb714dd599644dd25403b14b65864143",
+      "export_sha256": "20f70743944231f43acb38988ddf34e371e38baf2ab94d3538e34b45c66d3a01",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/25-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/25-private_wide-telemetry.json",
+      "source_sha256": "17888fe96f8f4acc4f757a509ed56a21bd3bf01f063c0f203f115804b7954126",
+      "export_sha256": "17888fe96f8f4acc4f757a509ed56a21bd3bf01f063c0f203f115804b7954126",
+      "bytes": 89634,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/25-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/25-private_wide.log",
+      "source_sha256": "3fb7b691816de46426c60d410f8e4a6996d5e3ac4174b31f7d9d43f3f66f581c",
+      "export_sha256": "5c3b8f39e7a3e422169eccb93a18cfa83166d6aa870d2a53afcc71c26fb23907",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/26-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/26-private_wide-telemetry.json",
+      "source_sha256": "9ac71ed8e1894be5b4b4ca307e971f82036a2717a6005029dbea43f5f5cb08e2",
+      "export_sha256": "9ac71ed8e1894be5b4b4ca307e971f82036a2717a6005029dbea43f5f5cb08e2",
+      "bytes": 86333,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/26-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/26-private_wide.log",
+      "source_sha256": "de217fa44a071441a2ec935e47c8ec5997172b353f7f5541ecbee37d320b5e72",
+      "export_sha256": "ad1d62c85d8a1d4c837279aeb7e1416c783c1bb9bca55fff8d909b7ed5674278",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/27-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/27-stock100-telemetry.json",
+      "source_sha256": "f095ce534b69bf7f673d284e10f7d4c54d0dba21ffd6a4cbcd3e40f57ec7b3cb",
+      "export_sha256": "f095ce534b69bf7f673d284e10f7d4c54d0dba21ffd6a4cbcd3e40f57ec7b3cb",
+      "bytes": 97756,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/27-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/27-stock100.log",
+      "source_sha256": "462d30695a3e92b0de8341eb9745e64598f5a29b11e80d0861b0f07891d143bd",
+      "export_sha256": "58266cca4522c25ba5496b9f3f83389c911b5c02697f18d6bc290543766ff44b",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/28-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/28-private_wide-telemetry.json",
+      "source_sha256": "563579348e9b048f91257d0be76a31a346c5e711f957e3c65ffbcd2aa182bf03",
+      "export_sha256": "563579348e9b048f91257d0be76a31a346c5e711f957e3c65ffbcd2aa182bf03",
+      "bytes": 86839,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/28-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/28-private_wide.log",
+      "source_sha256": "fd427d47935a83a8127eaaa3a2f83033c03c011860c3ce9ae4010d22ab2af8bb",
+      "export_sha256": "2aab52e4285961334bdb7207608a671aa59da3748613fb82f9e4877fc6854b16",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/29-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/29-stock100-telemetry.json",
+      "source_sha256": "d392e3873079e0e42be4fb15136cdfcb39e96475e53ad66be29bb0b09272ba79",
+      "export_sha256": "d392e3873079e0e42be4fb15136cdfcb39e96475e53ad66be29bb0b09272ba79",
+      "bytes": 90427,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/29-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/29-stock100.log",
+      "source_sha256": "1b32fc89145ecaa816180fe2e11d64df75d6be21219ddd535544a09a6110ea7a",
+      "export_sha256": "9c10715b4b88e0f9ad51ab2dd38c911b5e2f4333a23b71af772a96a6bc126647",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/30-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/30-stock100-telemetry.json",
+      "source_sha256": "478244ff7e1eae9fd76047a886794a66cbacaf0681beeb6faf961628341778dc",
+      "export_sha256": "478244ff7e1eae9fd76047a886794a66cbacaf0681beeb6faf961628341778dc",
+      "bytes": 89560,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/30-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/30-stock100.log",
+      "source_sha256": "b1a2f489f50f9ae636060cb6fdfd78f53722ee3f64f2ee36ba379bf87d16e1bc",
+      "export_sha256": "25985d77681517c1cc069a56354a61f1776cfb8dab02b00036ac4dce100f13f9",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/31-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/31-private_wide-telemetry.json",
+      "source_sha256": "d1d842b4b5980e04677a86d0a609eb0481d7088164baaeabe97602e4c7cefb26",
+      "export_sha256": "d1d842b4b5980e04677a86d0a609eb0481d7088164baaeabe97602e4c7cefb26",
+      "bytes": 90012,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/31-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/31-private_wide.log",
+      "source_sha256": "79950671b35a21381b1933851ded4d0ac6ca82c88a1dd7e578880c7f89aeecbe",
+      "export_sha256": "dfee7e4948fe4fe91e1ae6469e0e5805aa90ce47c0f947a7b1f3a05cb000a688",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/32-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/32-stock100-telemetry.json",
+      "source_sha256": "0c9e0294752a3be88502d4282fa88436b6b5271c69429296c94237756ae4fa19",
+      "export_sha256": "0c9e0294752a3be88502d4282fa88436b6b5271c69429296c94237756ae4fa19",
+      "bytes": 87216,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/32-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/32-stock100.log",
+      "source_sha256": "5c74f3c5041a48492a513c14141791ae059e7c709a38270c5996ba3543f78ae7",
+      "export_sha256": "ac3b058073e303d528f0bc3453e785f1a63ccea266490460591bb5380f6cc3e4",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/33-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/33-private_wide-telemetry.json",
+      "source_sha256": "0d939c77213df48e93a499f9554664de53d3468f8702e1d148a286afd6211f6b",
+      "export_sha256": "0d939c77213df48e93a499f9554664de53d3468f8702e1d148a286afd6211f6b",
+      "bytes": 87122,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/33-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/33-private_wide.log",
+      "source_sha256": "a7a3cbc25831720a7a90a60a27dac2b0e55dd3816774b6d980db93ab78978245",
+      "export_sha256": "3be7acc69dd9fa24da378ed11a3934b8bcfefc1ef1e7607a51fb31930493bfd8",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/34-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/34-private_wide-telemetry.json",
+      "source_sha256": "8f5d30c7acc59a466612d1425c2ba0085172e12debb44d5ca467e3c4c2db3c4f",
+      "export_sha256": "8f5d30c7acc59a466612d1425c2ba0085172e12debb44d5ca467e3c4c2db3c4f",
+      "bytes": 90769,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/34-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/34-private_wide.log",
+      "source_sha256": "7cc31ac1f96e2cabe8aae50236a1f8d0091ae1f9d2099913136efd69a4ee728e",
+      "export_sha256": "05a830bc0cfcbb01374d200f82b03ea4f924af63907e8466c7fab157b121aef9",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/35-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/35-stock100-telemetry.json",
+      "source_sha256": "db7ad37a86202683a6f1d83cd4db4962664368a1043934406f06408abc26e6c5",
+      "export_sha256": "db7ad37a86202683a6f1d83cd4db4962664368a1043934406f06408abc26e6c5",
+      "bytes": 91781,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/35-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/35-stock100.log",
+      "source_sha256": "0c0bc2adcfa4199defa8060a887e466614b89d6ea42b9509252607fb9dc477fb",
+      "export_sha256": "db5ed399bc9a48f68532b6e8afebce9f6312d9eed5b9ea1aca2876b9d77c52c5",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/36-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/36-private_wide-telemetry.json",
+      "source_sha256": "29772e823352b0de3eb52ad687382875def5b0c8389d3ae678e2a8f1b4020ccc",
+      "export_sha256": "29772e823352b0de3eb52ad687382875def5b0c8389d3ae678e2a8f1b4020ccc",
+      "bytes": 89639,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/36-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/36-private_wide.log",
+      "source_sha256": "8ffe1cb2d3e50c447f7ed5bf4ee9ca7cfb80cfde836b6f78358a3414b4b422c2",
+      "export_sha256": "8ade91085cba05f9c87dca708238866df15bd320a45ceef3c190c92110cadb44",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/37-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/37-stock100-telemetry.json",
+      "source_sha256": "10f92f226e7e94a7b5d9bd68b9dcc73855756a96227e079538c62b3bebe15f2d",
+      "export_sha256": "10f92f226e7e94a7b5d9bd68b9dcc73855756a96227e079538c62b3bebe15f2d",
+      "bytes": 84482,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/37-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/37-stock100.log",
+      "source_sha256": "c4b6e97fa0b7fe6168ef5d61870bdf06b6202197e16a5ad43706753d3401a83b",
+      "export_sha256": "7e382e234f40a2ca9663b53168a70d2b827aece4b09ba5ee9eab56e37e0fb73e",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/38-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/38-stock100-telemetry.json",
+      "source_sha256": "e95c1d0603ac6277bab63fa417049e5a2a87bf1ac9883abdaf62bc7be1f9a186",
+      "export_sha256": "e95c1d0603ac6277bab63fa417049e5a2a87bf1ac9883abdaf62bc7be1f9a186",
+      "bytes": 87215,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/38-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/38-stock100.log",
+      "source_sha256": "1497ef2b8a4ce4812385176a7f5325b94c4cc9a4b01f10e3bd7d21a104ac8a84",
+      "export_sha256": "96604f8ebe2081de5c0368205d052572fadb87622a90a2c7908735db0307d550",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/39-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/39-private_wide-telemetry.json",
+      "source_sha256": "2eb848f455a49f118b0f045932526ab1b08e3e322f3f21d20980523507f79a5c",
+      "export_sha256": "2eb848f455a49f118b0f045932526ab1b08e3e322f3f21d20980523507f79a5c",
+      "bytes": 85152,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/39-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/39-private_wide.log",
+      "source_sha256": "c9f7b1732671ccc33b91951ac09f7b67d5180be42f93e04cead91423b0cdccad",
+      "export_sha256": "5c8275be41eb949457d2a96b1b9e02c7ad5293f087d6aa77324c35a9a35acd49",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/40-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/40-stock100-telemetry.json",
+      "source_sha256": "8d8fb38b24dfe79cf927d6d5392ed8b36666016d65733586d77a58a5e88dad0a",
+      "export_sha256": "8d8fb38b24dfe79cf927d6d5392ed8b36666016d65733586d77a58a5e88dad0a",
+      "bytes": 84430,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/40-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/40-stock100.log",
+      "source_sha256": "0c5d35de18e69c58b4753eaae66f7a01f8380ebce53860b3f8d86085d92617f9",
+      "export_sha256": "44be95f83f682b45e4aa721ffe87a0673887038e500d9ff16a3f3a83d9b2b2fe",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/41-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/41-private_wide-telemetry.json",
+      "source_sha256": "00d1dceec98ba45beb5d187566cb21d5bfd75d9a9c45656d85040830359dff6b",
+      "export_sha256": "00d1dceec98ba45beb5d187566cb21d5bfd75d9a9c45656d85040830359dff6b",
+      "bytes": 86025,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/41-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/41-private_wide.log",
+      "source_sha256": "2ecfc8e29c7e3e4594660ae4e4ef4ddb68aea6a0f4be1fd323cfb616e071d1e5",
+      "export_sha256": "5f6478a103ca114532ad5ca77578c370da5cec03d3e286e4ee0374cb397cbc1d",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/42-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/42-private_wide-telemetry.json",
+      "source_sha256": "399e282e26abd275cf8bf3ac810641036985d588c8fc324eb264f5f42e38dbd1",
+      "export_sha256": "399e282e26abd275cf8bf3ac810641036985d588c8fc324eb264f5f42e38dbd1",
+      "bytes": 87792,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/42-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/42-private_wide.log",
+      "source_sha256": "43bb647de2e2bec36ced714c3f51a63a03db72cc1144f7edf92e2d4cf183a7d7",
+      "export_sha256": "0602944098289d7115d8efe12b2435d6557a80238744539707c7dee8ec2b4eab",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/43-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/43-stock100-telemetry.json",
+      "source_sha256": "179e53331efb298e21ce2a589c4799f380315d73568da798be0b32d8dcf8ad50",
+      "export_sha256": "179e53331efb298e21ce2a589c4799f380315d73568da798be0b32d8dcf8ad50",
+      "bytes": 86212,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/43-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/43-stock100.log",
+      "source_sha256": "b9834a77ee0a18e1f95a08164ed0af6b25f3987dcfa9457976a610a48933798c",
+      "export_sha256": "eb3334434407571dfd005ec33557ffa5ff78e00aa82f123378685652a33202f4",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/44-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/44-private_wide-telemetry.json",
+      "source_sha256": "282112a1d7c170262987c78835d73aad6cf019bb540b030ca998c2b04e1e2e85",
+      "export_sha256": "282112a1d7c170262987c78835d73aad6cf019bb540b030ca998c2b04e1e2e85",
+      "bytes": 87743,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/44-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/44-private_wide.log",
+      "source_sha256": "e79c007e1daa19a060232693495ca6849cdfc96dddbb3a46f64a27540c3986ae",
+      "export_sha256": "aa4f21b69237c034a7f1200d2be9b661802847385a47c324372816282fd2a85a",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/45-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/45-stock100-telemetry.json",
+      "source_sha256": "562a614bd102d587a5782027878ed542dbd49fe81cb5a0e77b1152ee185b3099",
+      "export_sha256": "562a614bd102d587a5782027878ed542dbd49fe81cb5a0e77b1152ee185b3099",
+      "bytes": 86454,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/45-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/45-stock100.log",
+      "source_sha256": "8f2a0ba8f64113849017448b88784af864b89c52e8ff2c1204b7d35db7f0c569",
+      "export_sha256": "a08c71b96b3d72d790b994247bdf6bf486a8d1544db26acef8914e84b741e359",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/46-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/46-stock100-telemetry.json",
+      "source_sha256": "48be0d9f3af9de44da91290b7711165a23d501a9dcec1ddec710262592fc1e38",
+      "export_sha256": "48be0d9f3af9de44da91290b7711165a23d501a9dcec1ddec710262592fc1e38",
+      "bytes": 85768,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/46-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/46-stock100.log",
+      "source_sha256": "51b390b788397f5dbc448a56bcd7928188bc947ec9701c9d10b85a0208d3e5ee",
+      "export_sha256": "2d5a6fa9e41873481b8f7b211a3254902363a9df9a676980dcb9e3bdb54f5e73",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/47-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/47-private_wide-telemetry.json",
+      "source_sha256": "65fb0dcb82e051de65d7db188ea01168904899b9fe8dca42ea1e31673cd393de",
+      "export_sha256": "65fb0dcb82e051de65d7db188ea01168904899b9fe8dca42ea1e31673cd393de",
+      "bytes": 87848,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/47-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/47-private_wide.log",
+      "source_sha256": "b0fd7b75860a12c93ed2f8369ebc7a82ac8714e74ed6896f362eb3b447015fbd",
+      "export_sha256": "a2e86e50b4ba7b7efce98ee27d2bfe952fd36dad7dbc8db2bfc602506396afe7",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/assets.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/assets.json",
+      "source_sha256": "b0c43030c3372599196b15a43d82e103aa381e612ad339c35defe5f3bbec749a",
+      "export_sha256": "a187302f973cecc3533d563b653d5a2c2748423b9c04c27be10f365611b9b643",
+      "bytes": 2982,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/confirmation-analysis.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/confirmation-analysis.json",
+      "source_sha256": "ad41d291ae469dcd19ad89446148f4d2e850b69329e3794d714e5a75d3b13c64",
+      "export_sha256": "ad41d291ae469dcd19ad89446148f4d2e850b69329e3794d714e5a75d3b13c64",
+      "bytes": 20095,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/outcomes-summary.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/outcomes-summary.json",
+      "source_sha256": "c1f472edce0f077c1ac60f327a61005d8170570d6cd507ac8c236ec1d593bd30",
+      "export_sha256": "c1f472edce0f077c1ac60f327a61005d8170570d6cd507ac8c236ec1d593bd30",
+      "bytes": 3025,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/protocol.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/protocol.json",
+      "source_sha256": "2ac9e4184ca149e8a63d9a99c569dca35a0022950f034f2b76d87e804ab79ee0",
+      "export_sha256": "2ac9e4184ca149e8a63d9a99c569dca35a0022950f034f2b76d87e804ab79ee0",
+      "bytes": 3257,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/results.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/results.json",
+      "source_sha256": "ffdd94e10bcef2fbcc9b9f973cd65d1868553a054e56b366e0ee313763e044a5",
+      "export_sha256": "ffdd94e10bcef2fbcc9b9f973cd65d1868553a054e56b366e0ee313763e044a5",
+      "bytes": 393644,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z/runtime-baseline.json",
+      "path": "archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-30T14:05:36.091853+00:00"
+  "updated_utc": "2026-10-30T14:30:55.272917+00:00"
 }

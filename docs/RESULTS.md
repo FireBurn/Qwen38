@@ -4,9 +4,9 @@
 
 There is **no demonstrated mega-kernel throughput win over the current native baseline**. The combined implementation can produce exact model outputs, and several local improvements are real, but correctness and lower resource counts do not establish a speedup.
 
-### Widerargmax: positive discovery, independent confirmation running
+### Widerargmax: independently confirmed native-path gain
 
-Fixed72modeldiscovery finds+1.920%overstock[+0.714%,+3.141%],all12load-matchedblocks; fullgeneration+1.826%[+0.631%,+3.035%]. Wideshaderversusprivate-nativebackendcontrol+2.737%[+1.854%,+3.627%],secondarydescriptive. All72nativeoutputs/counters exact,noGPUerrors,pinnedassetsunchanged. Predeclaredindependent48confirmationrunning withunchangedsettings. No pooling/Q3percentageaddition/confirmedgain/general/mega claim. [Completeevidence](NATIVE-ARGMAX.md).
+Independentfixed48modelconfirmation:+2.3549%steadyTPSversusstock[+1.5294%,+3.1871%],all12load-matchedblocks. Fullgeneration+2.1680%[+1.3150%,+3.0282%]. Discoveryseparately+1.9201%[+0.7141%,+3.1405%],all12blocks; shadercontributionversusprivate-nativebackend+2.7368%[+1.8539%,+3.6274%]isdiscovery-onlydescriptive. All120timedprocessesidenticalnative tokens/counters,noGPUerrors, unchangedassets. VRAMabout15.65GiBboth; naturalclock/power differences recorded. No pooling/equalclock/generaldeployment/mega claim. [Implementationandfullproof](NATIVE-ARGMAX.md).
 
 ### Restricted sampling controls: no supported stock gain
 

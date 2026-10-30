@@ -8,7 +8,7 @@ import sys
 root = Path(sys.argv[1])
 report = json.loads((root / 'confirmation-analysis.json').read_text())
 rows = json.loads((root / 'results.json').read_text())
-assert len(rows) == 72
+assert len(rows) in (48, 72)
 critical = {4: 3.182446305284263, 5: 2.776445105197799,
             6: 2.570581835636305, 7: 2.44691185114497,
             8: 2.3646242515927844, 9: 2.306004135204166,

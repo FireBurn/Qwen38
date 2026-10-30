@@ -2,12 +2,12 @@
 
 Research notes and evidence from attempts to accelerate Qwen3.8 inference on an **AMD Radeon AI Pro R9700**, principally llama.cpp's Vulkan backend and a persistent mega kernel containing matrix operations, recurrent operations and Flash Attention.
 
-**Padded Q3 at the native submission cap100 independently confirms a +1.33% gain over stock native defaults**, descriptive95% interval[+0.35%,+2.32%], across11load-matched blocks in a fixed48-run confirmation. Discovery separately measured+1.86%. All96processes preserve exact tokens/counters, no new GPU errors; approximately3GiB extraVRAM. [Evidence, baseline correction and limits](docs/NATIVE-DEFAULT-BASELINE.md). **No faster-than-native mega kernel has been established.** The cap400 combination was slower than native-default stock, and older+8.43% gains used a constrained memory harness.
+**The wider-argmax native-path configuration independently confirms+2.35% steady decoding overstock**, descriptive95% interval[+1.53%,+3.19%], all12load-matched blocks in a fixed48-run confirmation. Discovery separately measured+1.92%; full-generation confirmation+2.17%. All120timedprocesses preserve native tokens/counters, zeroGPUerrors; VRAM remains about15.65GiB. [Implementation, measurements and limits](docs/NATIVE-ARGMAX.md). PaddedQ3 separately confirms+1.33% at about3GiB extraVRAM; these gains are not added or pooled. **No faster-than-native mega kernel has been established.** Earlier cap400 and constrained-memory-harness results remain archived with their actual scope.
 
 
 ## Start here
 
-- [Wider native argmax](docs/NATIVE-ARGMAX.md): fixed72modeldiscovery+1.92%overstock; independent48confirmationrunning, not yet confirmed.
+- [Wider native argmax](docs/NATIVE-ARGMAX.md): independentlyconfirmed+2.35%overstock, fullgeneration+2.17%; exacttokens/counters, noGPUerrors.
 - [Restricted target greedy sampling](docs/NATIVE-GREEDY-SAMPLING.md): allthree530rawrows/config exact, backend activity verified; fixed72test finds no gain overstock.
 - [Current work and latest results](docs/CURRENT-STATUS.md): completed experiments, confirmed scope and untested next steps.
 

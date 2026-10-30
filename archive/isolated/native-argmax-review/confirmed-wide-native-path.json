@@ -1,0 +1,63 @@
+{
+  "status": "independently_confirmed_scoped_native_path_gain",
+  "experiments": {
+    "model-timing512": {
+      "dataset": "isolated/native-argmax-review/model-timing512/20261030T133105Z",
+      "analysis_sha256": "acc5f7881a37aa8008a85ddd838d4552c96ae02341d75462e7122bb17f1a1964",
+      "primary": {
+        "blocks": 12,
+        "geometric_speed_change_percent": 1.9201164283770233,
+        "descriptive_t95_percent": [
+          0.714131392159823,
+          3.140542336867814
+        ],
+        "lower_bound_positive": true
+      },
+      "full_generation": {
+        "blocks": 12,
+        "geometric_change_percent": 1.8260476826212968,
+        "descriptive_t95_percent": [
+          0.6314301827996703,
+          3.0348467454823003
+        ]
+      }
+    },
+    "model-confirmation512": {
+      "dataset": "isolated/native-argmax-review/model-confirmation512/20261030T140423Z",
+      "analysis_sha256": "ad41d291ae469dcd19ad89446148f4d2e850b69329e3794d714e5a75d3b13c64",
+      "primary": {
+        "blocks": 12,
+        "geometric_speed_change_percent": 2.354896381217029,
+        "descriptive_t95_percent": [
+          1.5293864897581415,
+          3.187118285862022
+        ],
+        "lower_bound_positive": true
+      },
+      "full_generation": {
+        "blocks": 12,
+        "geometric_change_percent": 2.1680013265924276,
+        "descriptive_t95_percent": [
+          1.3149999604874505,
+          3.028184366989077
+        ]
+      }
+    }
+  },
+  "no_pooling": true,
+  "total_native_exact_processes": 120,
+  "no_new_gpu_errors": true,
+  "library_sha256": "dd12cb230b0f38f126675b02fa0deed8f6c587d121d0d57ce0ac7d325ed53255",
+  "shader_sha256": "5eb0fe29d5cd3c1b6bf28b772910c9112a432fa4007fdecca18e6bab961d39da",
+  "configuration": "Native100/mappedstock.7core/common/privatewidehost+256laneargmax, restrictedtargettemperature-onlybackend, unchangedMTP1draftsampler/q8KV/FA/ctx4096/copy2driver/Q3LynnStylemodel. NoQ3padding or othernewfeature.",
+  "scope": "R9700/pinnedaa8/privatecopy2stack measured underheavycompileload. Naturalclocks/power; notequalclock/generaldeployment/mega proof. OriginalCPUdefault reference matched inallmodelauditedworkloads, notuniversaltie/statefulchain equivalence.",
+  "proof_files": {
+    "wide-build.json": "bd7aaaf1e3c6ba7e3ed7dce7b1c21254347aef6f820674dd8c38e5456f71daa3",
+    "argmax-wide.comp": "b3c0638efe991564bd31ee8ebec437782dcd3ec5a9e4650cba7ba10f03377b94",
+    "wide-host.patch": "34f5a7e24265430a44ceb6735100a84a862d2c12d975e858e275419ed0dbfc50",
+    "wide-model-qualification.json": "68f2296e9759343d3b50a870a6216a559ad66e3607757a4a133f3beae0d2f3c3",
+    "wide-checks/20261030T092907Z/comparison.json": "a059a03b5069e347b7fa895e0112dfbd176412b1ce95bcdaa186a9e31d565c97",
+    "MODEL-TIMING-PLAN.md": "c7a7a448dbbaf8f2e8695290f1d45b836dd2633e3777f8d0ea28be4b96d68222",
+    "SHADER-BUILD.md": "748ae87109621ccec7fe03c920665ee29b2df5bde5147b9e5025c1eb19e12127"
+  }
+}
