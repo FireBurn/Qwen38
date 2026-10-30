@@ -1,11 +1,7 @@
 # Direct native-default work
 
-Short32 completed guardedsession31686terminal0:stock100(no nodecapoverride),stock400,Q3default400 all38targetrows/native34tokens/19drafts/15accepts exact/noGPUerrors. Allfourlegacyoverrides recordedNone(hostvisibleVRAMdisable,preferhostmemory,allowgraphics,suballocation). Baseline .27sourceconfirmsnative nodecap100.
+Qualification: all three modes530targetrows each,1590checks, native tokens/counters/bits exact, zero new GPU errors.
 
-BROADQUAL81143completedterminal0. Allfivecases530rowsPERMODE,1590mode-rowchecks;stock100/stock400/Q3default400 bits/tokens/counters matchnative,noGPUerrors,allfourlegacyoverridesNone. summarise_checks.py passed.
+Fixed72session84988 terminal0, datasetmodel-timing512/20261030T061854Z. PrimaryQ3cap400vsstock100 -1.689482%[-2.606317,-0.764017],12/12matched. Stock400vsstock100 -2.755195%[-3.814054,-1.684679],11/12matched. Paddingat400 +1.382696%[0.660982,2.109585],12/12matched secondary. All72native513/279/234exact, noGPUerrors. Conditional confirmation gate FAILS; do not run/retry/extend/pool.
 
-Fixed72direct-defaultattribution NOWLIVE guardedsession84988, model-timing512/20261030T061854Z. Twelve symmetric6armblocks, all6permutationsordertwice, order+reverse. PrimaryQ3default400vsstock100;secondarycap/paddingpair-specificmatchedblocks(min4)descriptive. No owncompile/newcore/samplingchanges. Do notrestart/resample/extend;pollspecificsession/process/logs. Conditionalindependent48A/Cplanpredatesfirstdirecttiming. AllstockDLLsandfrozenassets pinned. Active72datasetwithheldfromarchiveuntilterminal.
-
-PriorBARrestorationindependentconfirmation36431completedterminal0:5matched+28.305%[22.370,34.528],all12raw+28.899%[24.310,33.657];all48native513/279/234exact,noGPUerrors. Itcomparesexplicitforced-unmappedharnessvsrestorednativeBAR,NOTnormallyconfiguredstock. These directdefaultcasesrepairbaselineinterpretation. No pooling/addingpercentages.
-
-Onlyprivate megakernel-review mutations,allClaude/production/model/system/desktop/clocks/affinityunchanged. SerialGPUguard/copy2driver. Fastermega+FAunachieved;goalactive.
+Next new configuration: native-default-q3-100/PLAN.md, frozen padding but native100capunset. Qualify530rows before a separate predeclared timed comparison. Mapped CPU plan cache preparation deferred, no runs. No fastermega/native-defaultcombinedwin established;goalactive. Only privateworkspace mutations.

@@ -1,0 +1,1452 @@
+{
+  "contrasts": {
+    "combined": {
+      "baseline": "stock100",
+      "candidate": "q3_400",
+      "blocks": [
+        {
+          "block": 0,
+          "indices": [
+            0,
+            5,
+            2,
+            3
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999570068853355,
+            "q3_400": 0.999980272243046
+          },
+          "build_mode_means": {
+            "stock100": 23.959365840660805,
+            "q3_400": 23.927271765577068
+          },
+          "runnable_mode_means": {
+            "stock100": 34.701172395417004,
+            "q3_400": 34.681767692795944
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1634.75,
+            "q3_400": 1637.75
+          },
+          "comparable": true,
+          "log_effect": -0.003549021672449193,
+          "speed_change_percent": -0.3542731338743971
+        },
+        {
+          "block": 1,
+          "indices": [
+            8,
+            9,
+            7,
+            10
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999769362055445,
+            "q3_400": 0.9999377638123801
+          },
+          "build_mode_means": {
+            "stock100": 23.885482938114517,
+            "q3_400": 23.85157545605307
+          },
+          "runnable_mode_means": {
+            "stock100": 33.61263736263736,
+            "q3_400": 34.715644002211164
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1667.5,
+            "q3_400": 1646.5
+          },
+          "comparable": true,
+          "log_effect": -0.01847174563366849,
+          "speed_change_percent": -1.8302188550462495
+        },
+        {
+          "block": 2,
+          "indices": [
+            13,
+            16,
+            12,
+            17
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999318940437609,
+            "q3_400": 0.9999551012784543
+          },
+          "build_mode_means": {
+            "stock100": 23.85181932934526,
+            "q3_400": 23.89049936521371
+          },
+          "runnable_mode_means": {
+            "stock100": 33.69329345260962,
+            "q3_400": 34.54467308506136
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1662.0,
+            "q3_400": 1644.0
+          },
+          "comparable": true,
+          "log_effect": -0.023796474504456544,
+          "speed_change_percent": -2.3515570987688807
+        },
+        {
+          "block": 3,
+          "indices": [
+            18,
+            23,
+            19,
+            22
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999542752629172,
+            "q3_400": 1.0
+          },
+          "build_mode_means": {
+            "stock100": 23.93316624895572,
+            "q3_400": 23.854796663190825
+          },
+          "runnable_mode_means": {
+            "stock100": 34.52110832637148,
+            "q3_400": 33.65020855057351
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1657.0,
+            "q3_400": 1646.5
+          },
+          "comparable": true,
+          "log_effect": -0.044142666777093,
+          "speed_change_percent": -4.318255832552634
+        },
+        {
+          "block": 4,
+          "indices": [
+            26,
+            27,
+            24,
+            29
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.999976793836443,
+            "q3_400": 0.999871609602003
+          },
+          "build_mode_means": {
+            "stock100": 21.874030780075188,
+            "q3_400": 20.350671421407476
+          },
+          "runnable_mode_means": {
+            "stock100": 31.620095159774436,
+            "q3_400": 30.794812503482476
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1673.5,
+            "q3_400": 1656.25
+          },
+          "comparable": true,
+          "log_effect": -0.027021812516610844,
+          "speed_change_percent": -2.6659989702358224
+        },
+        {
+          "block": 5,
+          "indices": [
+            31,
+            34,
+            32,
+            33
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999610071301248,
+            "q3_400": 0.9999563620708372
+          },
+          "build_mode_means": {
+            "stock100": 23.849264705882355,
+            "q3_400": 23.71597721822542
+          },
+          "runnable_mode_means": {
+            "stock100": 34.55514705882353,
+            "q3_400": 33.98104016786571
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1659.5,
+            "q3_400": 1642.75
+          },
+          "comparable": true,
+          "log_effect": -0.03302734551012909,
+          "speed_change_percent": -3.2487897884701313
+        },
+        {
+          "block": 6,
+          "indices": [
+            36,
+            41,
+            38,
+            39
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999823502418017,
+            "q3_400": 0.9999429094545957
+          },
+          "build_mode_means": {
+            "stock100": 23.815789473684212,
+            "q3_400": 23.852941176470587
+          },
+          "runnable_mode_means": {
+            "stock100": 34.44294559929235,
+            "q3_400": 34.904411764705884
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1673.5,
+            "q3_400": 1667.5
+          },
+          "comparable": true,
+          "log_effect": -0.009461509889051367,
+          "speed_change_percent": -0.9416890637075703
+        },
+        {
+          "block": 7,
+          "indices": [
+            44,
+            45,
+            43,
+            46
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9998902887369234,
+            "q3_400": 0.9997317343839502
+          },
+          "build_mode_means": {
+            "stock100": 17.000284802916383,
+            "q3_400": 17.384287925696594
+          },
+          "runnable_mode_means": {
+            "stock100": 29.116142629300526,
+            "q3_400": 29.562748783724015
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1673.0,
+            "q3_400": 1662.0
+          },
+          "comparable": true,
+          "log_effect": -0.01683231896831794,
+          "speed_change_percent": -1.6691446995496226
+        },
+        {
+          "block": 8,
+          "indices": [
+            49,
+            52,
+            48,
+            53
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999126241690435,
+            "q3_400": 0.9998407764613335
+          },
+          "build_mode_means": {
+            "stock100": 17,
+            "q3_400": 17.906565656565657
+          },
+          "runnable_mode_means": {
+            "stock100": 28.866797676008204,
+            "q3_400": 28.310690235690235
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1671.0,
+            "q3_400": 1664.5
+          },
+          "comparable": true,
+          "log_effect": -0.011448139554608439,
+          "speed_change_percent": -1.138285895625351
+        },
+        {
+          "block": 9,
+          "indices": [
+            54,
+            59,
+            55,
+            58
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9998579999219512,
+            "q3_400": 0.9998768971166656
+          },
+          "build_mode_means": {
+            "stock100": 16.957692307692305,
+            "q3_400": 18.253731343283583
+          },
+          "runnable_mode_means": {
+            "stock100": 28.33493834409865,
+            "q3_400": 29.798507462686565
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1679.0,
+            "q3_400": 1672.0
+          },
+          "comparable": true,
+          "log_effect": -0.025375291170541825,
+          "speed_change_percent": -2.5056044495772123
+        },
+        {
+          "block": 10,
+          "indices": [
+            62,
+            63,
+            60,
+            65
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.999850112538771,
+            "q3_400": 0.9998441864603846
+          },
+          "build_mode_means": {
+            "stock100": 17,
+            "q3_400": 17
+          },
+          "runnable_mode_means": {
+            "stock100": 27.8864650616559,
+            "q3_400": 28.675904878475258
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1680.75,
+            "q3_400": 1677.0
+          },
+          "comparable": true,
+          "log_effect": 0.005114430335273923,
+          "speed_change_percent": 0.512753135933703
+        },
+        {
+          "block": 11,
+          "indices": [
+            67,
+            70,
+            68,
+            69
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9997869989471678,
+            "q3_400": 0.9998628672855239
+          },
+          "build_mode_means": {
+            "stock100": 16.87998475996952,
+            "q3_400": 16.91935483870968
+          },
+          "runnable_mode_means": {
+            "stock100": 27.155924561849126,
+            "q3_400": 27.602696572580648
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1694.0,
+            "q3_400": 1820.75
+          },
+          "comparable": true,
+          "log_effect": 0.0035418684846257875,
+          "speed_change_percent": 0.354814831272656
+        }
+      ],
+      "all12block_descriptive": {
+        "blocks": 12,
+        "geometric_speed_change_percent": -1.6894823314871636,
+        "descriptive_t95_percent": [
+          -2.6063171351517433,
+          -0.7640167210547862
+        ],
+        "lower_bound_positive": false
+      },
+      "matched": {
+        "blocks": 12,
+        "geometric_speed_change_percent": -1.6894823314871636,
+        "descriptive_t95_percent": [
+          -2.6063171351517433,
+          -0.7640167210547862
+        ],
+        "lower_bound_positive": false
+      }
+    },
+    "submission": {
+      "baseline": "stock100",
+      "candidate": "stock400",
+      "blocks": [
+        {
+          "block": 0,
+          "indices": [
+            0,
+            5,
+            1,
+            4
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999570068853355,
+            "stock400": 0.9999787811916483
+          },
+          "build_mode_means": {
+            "stock100": 23.959365840660805,
+            "stock400": 23.89179603166444
+          },
+          "runnable_mode_means": {
+            "stock100": 34.701172395417004,
+            "stock400": 35.193276447003186
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1634.75,
+            "stock400": 1636.75
+          },
+          "comparable": true,
+          "log_effect": -0.00972252684389563,
+          "speed_change_percent": -0.9675415882597833
+        },
+        {
+          "block": 1,
+          "indices": [
+            8,
+            9,
+            6,
+            11
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999769362055445,
+            "stock400": 0.9999608784553624
+          },
+          "build_mode_means": {
+            "stock100": 23.885482938114517,
+            "stock400": 23.870027752081405
+          },
+          "runnable_mode_means": {
+            "stock100": 33.61263736263736,
+            "stock400": 34.704209065679926
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1667.5,
+            "stock400": 1642.75
+          },
+          "comparable": true,
+          "log_effect": -0.046212615659398715,
+          "speed_change_percent": -4.516107310082393
+        },
+        {
+          "block": 2,
+          "indices": [
+            13,
+            16,
+            14,
+            15
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999318940437609,
+            "stock400": 0.9999807603509312
+          },
+          "build_mode_means": {
+            "stock100": 23.85181932934526,
+            "stock400": 24
+          },
+          "runnable_mode_means": {
+            "stock100": 33.69329345260962,
+            "stock400": 34.50223121627231
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1662.0,
+            "stock400": 1782.25
+          },
+          "comparable": true,
+          "log_effect": -0.025576774588864204,
+          "speed_change_percent": -2.52524597487271
+        },
+        {
+          "block": 3,
+          "indices": [
+            18,
+            23,
+            20,
+            21
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999542752629172,
+            "stock400": 1.0
+          },
+          "build_mode_means": {
+            "stock100": 23.93316624895572,
+            "stock400": 23.820903840308034
+          },
+          "runnable_mode_means": {
+            "stock100": 34.52110832637148,
+            "stock400": 33.82994730975783
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1657.0,
+            "stock400": 1650.0
+          },
+          "comparable": true,
+          "log_effect": -0.06012605047787023,
+          "speed_change_percent": -5.835416880384728
+        },
+        {
+          "block": 4,
+          "indices": [
+            26,
+            27,
+            25,
+            28
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.999976793836443,
+            "stock400": 0.9998430743384245
+          },
+          "build_mode_means": {
+            "stock100": 21.874030780075188,
+            "stock400": 21.35239651416122
+          },
+          "runnable_mode_means": {
+            "stock100": 31.620095159774436,
+            "stock400": 31.711056644880173
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1673.5,
+            "stock400": 1657.5
+          },
+          "comparable": true,
+          "log_effect": -0.03732382008525548,
+          "speed_change_percent": -3.663587181943359
+        },
+        {
+          "block": 5,
+          "indices": [
+            31,
+            34,
+            30,
+            35
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999610071301248,
+            "stock400": 1.0
+          },
+          "build_mode_means": {
+            "stock100": 23.849264705882355,
+            "stock400": 23.879849779849778
+          },
+          "runnable_mode_means": {
+            "stock100": 34.55514705882353,
+            "stock400": 33.71458171458171
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1659.5,
+            "stock400": 1653.75
+          },
+          "comparable": true,
+          "log_effect": -0.03335992967224133,
+          "speed_change_percent": -3.2809623583115295
+        },
+        {
+          "block": 6,
+          "indices": [
+            36,
+            41,
+            37,
+            40
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999823502418017,
+            "stock400": 0.9999849939975991
+          },
+          "build_mode_means": {
+            "stock100": 23.815789473684212,
+            "stock400": 23.857142857142858
+          },
+          "runnable_mode_means": {
+            "stock100": 34.44294559929235,
+            "stock400": 34.823096976016686
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1673.5,
+            "stock400": 1658.25
+          },
+          "comparable": true,
+          "log_effect": -0.025704746087650054,
+          "speed_change_percent": -2.5377191671155126
+        },
+        {
+          "block": 7,
+          "indices": [
+            44,
+            45,
+            42,
+            47
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9998902887369234,
+            "stock400": 0.9998272546433784
+          },
+          "build_mode_means": {
+            "stock100": 17.000284802916383,
+            "stock400": 17.90007081381414
+          },
+          "runnable_mode_means": {
+            "stock100": 29.116142629300526,
+            "stock400": 29.93496023531975
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1673.0,
+            "stock400": 1671.5
+          },
+          "comparable": true,
+          "log_effect": -0.017085445020156964,
+          "speed_change_percent": -1.6940316508250393
+        },
+        {
+          "block": 8,
+          "indices": [
+            49,
+            52,
+            50,
+            51
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9999126241690435,
+            "stock400": 0.9999629193183845
+          },
+          "build_mode_means": {
+            "stock100": 17,
+            "stock400": 17.985294117647058
+          },
+          "runnable_mode_means": {
+            "stock100": 28.866797676008204,
+            "stock400": 29.110294117647058
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1671.0,
+            "stock400": 1665.75
+          },
+          "comparable": true,
+          "log_effect": -0.03194833252272655,
+          "speed_change_percent": -3.144337633623357
+        },
+        {
+          "block": 9,
+          "indices": [
+            54,
+            59,
+            56,
+            57
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9998579999219512,
+            "stock400": 0.9999617416225836
+          },
+          "build_mode_means": {
+            "stock100": 16.957692307692305,
+            "stock400": 18.961245602058497
+          },
+          "runnable_mode_means": {
+            "stock100": 28.33493834409865,
+            "stock400": 31.570577114950375
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1679.0,
+            "stock400": 1663.0
+          },
+          "comparable": false,
+          "log_effect": -0.06193207297868719,
+          "speed_change_percent": -6.005326759563185
+        },
+        {
+          "block": 10,
+          "indices": [
+            62,
+            63,
+            61,
+            64
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.999850112538771,
+            "stock400": 0.9998906604309138
+          },
+          "build_mode_means": {
+            "stock100": 17,
+            "stock400": 16.96124031007752
+          },
+          "runnable_mode_means": {
+            "stock100": 27.8864650616559,
+            "stock400": 27.218269119518688
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1680.75,
+            "stock400": 1689.0
+          },
+          "comparable": true,
+          "log_effect": -0.00474684910136336,
+          "speed_change_percent": -0.4735600618489661
+        },
+        {
+          "block": 11,
+          "indices": [
+            67,
+            70,
+            66,
+            71
+          ],
+          "cpu_mode_means": {
+            "stock100": 0.9997869989471678,
+            "stock400": 0.9998363831884114
+          },
+          "build_mode_means": {
+            "stock100": 16.87998475996952,
+            "stock400": 16.9609375
+          },
+          "runnable_mode_means": {
+            "stock100": 27.155924561849126,
+            "stock400": 27.46484375
+          },
+          "gpu_clock_mode_means": {
+            "stock100": 1694.0,
+            "stock400": 1688.0
+          },
+          "comparable": true,
+          "log_effect": -0.015517730539443608,
+          "speed_change_percent": -1.5397950928500925
+        }
+      ],
+      "all12block_descriptive": {
+        "blocks": 12,
+        "geometric_speed_change_percent": -3.0302787036455068,
+        "descriptive_t95_percent": [
+          -4.155968049725475,
+          -1.8913681222095864
+        ],
+        "lower_bound_positive": false
+      },
+      "matched": {
+        "blocks": 11,
+        "geometric_speed_change_percent": -2.7551946221965027,
+        "descriptive_t95_percent": [
+          -3.8140539481542,
+          -1.6846788836526745
+        ],
+        "lower_bound_positive": false
+      }
+    },
+    "padding": {
+      "baseline": "stock400",
+      "candidate": "q3_400",
+      "blocks": [
+        {
+          "block": 0,
+          "indices": [
+            1,
+            4,
+            2,
+            3
+          ],
+          "cpu_mode_means": {
+            "stock400": 0.9999787811916483,
+            "q3_400": 0.999980272243046
+          },
+          "build_mode_means": {
+            "stock400": 23.89179603166444,
+            "q3_400": 23.927271765577068
+          },
+          "runnable_mode_means": {
+            "stock400": 35.193276447003186,
+            "q3_400": 34.681767692795944
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1636.75,
+            "q3_400": 1637.75
+          },
+          "comparable": true,
+          "log_effect": 0.006173505171446436,
+          "speed_change_percent": 0.6192600529370316
+        },
+        {
+          "block": 1,
+          "indices": [
+            6,
+            11,
+            7,
+            10
+          ],
+          "cpu_mode_means": {
+            "stock400": 0.9999608784553624,
+            "q3_400": 0.9999377638123801
+          },
+          "build_mode_means": {
+            "stock400": 23.870027752081405,
+            "q3_400": 23.85157545605307
+          },
+          "runnable_mode_means": {
+            "stock400": 34.704209065679926,
+            "q3_400": 34.715644002211164
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1642.75,
+            "q3_400": 1646.5
+          },
+          "comparable": true,
+          "log_effect": 0.027740870025730224,
+          "speed_change_percent": 2.8129230798732965
+        },
+        {
+          "block": 2,
+          "indices": [
+            14,
+            15,
+            12,
+            17
+          ],
+          "cpu_mode_means": {
+            "stock400": 0.9999807603509312,
+            "q3_400": 0.9999551012784543
+          },
+          "build_mode_means": {
+            "stock400": 24,
+            "q3_400": 23.89049936521371
+          },
+          "runnable_mode_means": {
+            "stock400": 34.50223121627231,
+            "q3_400": 34.54467308506136
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1782.25,
+            "q3_400": 1644.0
+          },
+          "comparable": true,
+          "log_effect": 0.00178030008440766,
+          "speed_change_percent": 0.17818857594557844
+        },
+        {
+          "block": 3,
+          "indices": [
+            20,
+            21,
+            19,
+            22
+          ],
+          "cpu_mode_means": {
+            "stock400": 1.0,
+            "q3_400": 1.0
+          },
+          "build_mode_means": {
+            "stock400": 23.820903840308034,
+            "q3_400": 23.854796663190825
+          },
+          "runnable_mode_means": {
+            "stock400": 33.82994730975783,
+            "q3_400": 33.65020855057351
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1650.0,
+            "q3_400": 1646.5
+          },
+          "comparable": true,
+          "log_effect": 0.01598338370077723,
+          "speed_change_percent": 1.6111801248085775
+        },
+        {
+          "block": 4,
+          "indices": [
+            25,
+            28,
+            24,
+            29
+          ],
+          "cpu_mode_means": {
+            "stock400": 0.9998430743384245,
+            "q3_400": 0.999871609602003
+          },
+          "build_mode_means": {
+            "stock400": 21.35239651416122,
+            "q3_400": 20.350671421407476
+          },
+          "runnable_mode_means": {
+            "stock400": 31.711056644880173,
+            "q3_400": 30.794812503482476
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1657.5,
+            "q3_400": 1656.25
+          },
+          "comparable": true,
+          "log_effect": 0.010302007568644633,
+          "speed_change_percent": 1.0355255946592141
+        },
+        {
+          "block": 5,
+          "indices": [
+            30,
+            35,
+            32,
+            33
+          ],
+          "cpu_mode_means": {
+            "stock400": 1.0,
+            "q3_400": 0.9999563620708372
+          },
+          "build_mode_means": {
+            "stock400": 23.879849779849778,
+            "q3_400": 23.71597721822542
+          },
+          "runnable_mode_means": {
+            "stock400": 33.71458171458171,
+            "q3_400": 33.98104016786571
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1653.75,
+            "q3_400": 1642.75
+          },
+          "comparable": true,
+          "log_effect": 0.0003325841621122372,
+          "speed_change_percent": 0.03326394743565033
+        },
+        {
+          "block": 6,
+          "indices": [
+            37,
+            40,
+            38,
+            39
+          ],
+          "cpu_mode_means": {
+            "stock400": 0.9999849939975991,
+            "q3_400": 0.9999429094545957
+          },
+          "build_mode_means": {
+            "stock400": 23.857142857142858,
+            "q3_400": 23.852941176470587
+          },
+          "runnable_mode_means": {
+            "stock400": 34.823096976016686,
+            "q3_400": 34.904411764705884
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1658.25,
+            "q3_400": 1667.5
+          },
+          "comparable": true,
+          "log_effect": 0.016243236198598687,
+          "speed_change_percent": 1.637587474629908
+        },
+        {
+          "block": 7,
+          "indices": [
+            42,
+            47,
+            43,
+            46
+          ],
+          "cpu_mode_means": {
+            "stock400": 0.9998272546433784,
+            "q3_400": 0.9997317343839502
+          },
+          "build_mode_means": {
+            "stock400": 17.90007081381414,
+            "q3_400": 17.384287925696594
+          },
+          "runnable_mode_means": {
+            "stock400": 29.93496023531975,
+            "q3_400": 29.562748783724015
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1671.5,
+            "q3_400": 1662.0
+          },
+          "comparable": true,
+          "log_effect": 0.0002531260518390255,
+          "speed_change_percent": 0.025315809094133872
+        },
+        {
+          "block": 8,
+          "indices": [
+            50,
+            51,
+            48,
+            53
+          ],
+          "cpu_mode_means": {
+            "stock400": 0.9999629193183845,
+            "q3_400": 0.9998407764613335
+          },
+          "build_mode_means": {
+            "stock400": 17.985294117647058,
+            "q3_400": 17.906565656565657
+          },
+          "runnable_mode_means": {
+            "stock400": 29.110294117647058,
+            "q3_400": 28.310690235690235
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1665.75,
+            "q3_400": 1664.5
+          },
+          "comparable": true,
+          "log_effect": 0.020500192968118114,
+          "speed_change_percent": 2.0711765208003006
+        },
+        {
+          "block": 9,
+          "indices": [
+            56,
+            57,
+            55,
+            58
+          ],
+          "cpu_mode_means": {
+            "stock400": 0.9999617416225836,
+            "q3_400": 0.9998768971166656
+          },
+          "build_mode_means": {
+            "stock400": 18.961245602058497,
+            "q3_400": 18.253731343283583
+          },
+          "runnable_mode_means": {
+            "stock400": 31.570577114950375,
+            "q3_400": 29.798507462686565
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1663.0,
+            "q3_400": 1672.0
+          },
+          "comparable": true,
+          "log_effect": 0.03655678180814537,
+          "speed_change_percent": 3.723319832214046
+        },
+        {
+          "block": 10,
+          "indices": [
+            61,
+            64,
+            60,
+            65
+          ],
+          "cpu_mode_means": {
+            "stock400": 0.9998906604309138,
+            "q3_400": 0.9998441864603846
+          },
+          "build_mode_means": {
+            "stock400": 16.96124031007752,
+            "q3_400": 17
+          },
+          "runnable_mode_means": {
+            "stock400": 27.218269119518688,
+            "q3_400": 28.675904878475258
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1689.0,
+            "q3_400": 1677.0
+          },
+          "comparable": true,
+          "log_effect": 0.009861279436637282,
+          "speed_change_percent": 0.9910062073913185
+        },
+        {
+          "block": 11,
+          "indices": [
+            66,
+            71,
+            68,
+            69
+          ],
+          "cpu_mode_means": {
+            "stock400": 0.9998363831884114,
+            "q3_400": 0.9998628672855239
+          },
+          "build_mode_means": {
+            "stock400": 16.9609375,
+            "q3_400": 16.91935483870968
+          },
+          "runnable_mode_means": {
+            "stock400": 27.46484375,
+            "q3_400": 27.602696572580648
+          },
+          "gpu_clock_mode_means": {
+            "stock400": 1688.0,
+            "q3_400": 1820.75
+          },
+          "comparable": true,
+          "log_effect": 0.019059599024069396,
+          "speed_change_percent": 1.9242392659139869
+        }
+      ],
+      "all12block_descriptive": {
+        "blocks": 12,
+        "geometric_speed_change_percent": 1.3826959119132267,
+        "descriptive_t95_percent": [
+          0.660981748163736,
+          2.109584586432538
+        ],
+        "lower_bound_positive": true
+      },
+      "matched": {
+        "blocks": 12,
+        "geometric_speed_change_percent": 1.3826959119132267,
+        "descriptive_t95_percent": [
+          0.660981748163736,
+          2.109584586432538
+        ],
+        "lower_bound_positive": true
+      }
+    }
+  },
+  "primary": {
+    "baseline": "stock100",
+    "candidate": "q3_400",
+    "blocks": [
+      {
+        "block": 0,
+        "indices": [
+          0,
+          5,
+          2,
+          3
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.9999570068853355,
+          "q3_400": 0.999980272243046
+        },
+        "build_mode_means": {
+          "stock100": 23.959365840660805,
+          "q3_400": 23.927271765577068
+        },
+        "runnable_mode_means": {
+          "stock100": 34.701172395417004,
+          "q3_400": 34.681767692795944
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1634.75,
+          "q3_400": 1637.75
+        },
+        "comparable": true,
+        "log_effect": -0.003549021672449193,
+        "speed_change_percent": -0.3542731338743971
+      },
+      {
+        "block": 1,
+        "indices": [
+          8,
+          9,
+          7,
+          10
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.9999769362055445,
+          "q3_400": 0.9999377638123801
+        },
+        "build_mode_means": {
+          "stock100": 23.885482938114517,
+          "q3_400": 23.85157545605307
+        },
+        "runnable_mode_means": {
+          "stock100": 33.61263736263736,
+          "q3_400": 34.715644002211164
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1667.5,
+          "q3_400": 1646.5
+        },
+        "comparable": true,
+        "log_effect": -0.01847174563366849,
+        "speed_change_percent": -1.8302188550462495
+      },
+      {
+        "block": 2,
+        "indices": [
+          13,
+          16,
+          12,
+          17
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.9999318940437609,
+          "q3_400": 0.9999551012784543
+        },
+        "build_mode_means": {
+          "stock100": 23.85181932934526,
+          "q3_400": 23.89049936521371
+        },
+        "runnable_mode_means": {
+          "stock100": 33.69329345260962,
+          "q3_400": 34.54467308506136
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1662.0,
+          "q3_400": 1644.0
+        },
+        "comparable": true,
+        "log_effect": -0.023796474504456544,
+        "speed_change_percent": -2.3515570987688807
+      },
+      {
+        "block": 3,
+        "indices": [
+          18,
+          23,
+          19,
+          22
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.9999542752629172,
+          "q3_400": 1.0
+        },
+        "build_mode_means": {
+          "stock100": 23.93316624895572,
+          "q3_400": 23.854796663190825
+        },
+        "runnable_mode_means": {
+          "stock100": 34.52110832637148,
+          "q3_400": 33.65020855057351
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1657.0,
+          "q3_400": 1646.5
+        },
+        "comparable": true,
+        "log_effect": -0.044142666777093,
+        "speed_change_percent": -4.318255832552634
+      },
+      {
+        "block": 4,
+        "indices": [
+          26,
+          27,
+          24,
+          29
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.999976793836443,
+          "q3_400": 0.999871609602003
+        },
+        "build_mode_means": {
+          "stock100": 21.874030780075188,
+          "q3_400": 20.350671421407476
+        },
+        "runnable_mode_means": {
+          "stock100": 31.620095159774436,
+          "q3_400": 30.794812503482476
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1673.5,
+          "q3_400": 1656.25
+        },
+        "comparable": true,
+        "log_effect": -0.027021812516610844,
+        "speed_change_percent": -2.6659989702358224
+      },
+      {
+        "block": 5,
+        "indices": [
+          31,
+          34,
+          32,
+          33
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.9999610071301248,
+          "q3_400": 0.9999563620708372
+        },
+        "build_mode_means": {
+          "stock100": 23.849264705882355,
+          "q3_400": 23.71597721822542
+        },
+        "runnable_mode_means": {
+          "stock100": 34.55514705882353,
+          "q3_400": 33.98104016786571
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1659.5,
+          "q3_400": 1642.75
+        },
+        "comparable": true,
+        "log_effect": -0.03302734551012909,
+        "speed_change_percent": -3.2487897884701313
+      },
+      {
+        "block": 6,
+        "indices": [
+          36,
+          41,
+          38,
+          39
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.9999823502418017,
+          "q3_400": 0.9999429094545957
+        },
+        "build_mode_means": {
+          "stock100": 23.815789473684212,
+          "q3_400": 23.852941176470587
+        },
+        "runnable_mode_means": {
+          "stock100": 34.44294559929235,
+          "q3_400": 34.904411764705884
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1673.5,
+          "q3_400": 1667.5
+        },
+        "comparable": true,
+        "log_effect": -0.009461509889051367,
+        "speed_change_percent": -0.9416890637075703
+      },
+      {
+        "block": 7,
+        "indices": [
+          44,
+          45,
+          43,
+          46
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.9998902887369234,
+          "q3_400": 0.9997317343839502
+        },
+        "build_mode_means": {
+          "stock100": 17.000284802916383,
+          "q3_400": 17.384287925696594
+        },
+        "runnable_mode_means": {
+          "stock100": 29.116142629300526,
+          "q3_400": 29.562748783724015
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1673.0,
+          "q3_400": 1662.0
+        },
+        "comparable": true,
+        "log_effect": -0.01683231896831794,
+        "speed_change_percent": -1.6691446995496226
+      },
+      {
+        "block": 8,
+        "indices": [
+          49,
+          52,
+          48,
+          53
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.9999126241690435,
+          "q3_400": 0.9998407764613335
+        },
+        "build_mode_means": {
+          "stock100": 17,
+          "q3_400": 17.906565656565657
+        },
+        "runnable_mode_means": {
+          "stock100": 28.866797676008204,
+          "q3_400": 28.310690235690235
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1671.0,
+          "q3_400": 1664.5
+        },
+        "comparable": true,
+        "log_effect": -0.011448139554608439,
+        "speed_change_percent": -1.138285895625351
+      },
+      {
+        "block": 9,
+        "indices": [
+          54,
+          59,
+          55,
+          58
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.9998579999219512,
+          "q3_400": 0.9998768971166656
+        },
+        "build_mode_means": {
+          "stock100": 16.957692307692305,
+          "q3_400": 18.253731343283583
+        },
+        "runnable_mode_means": {
+          "stock100": 28.33493834409865,
+          "q3_400": 29.798507462686565
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1679.0,
+          "q3_400": 1672.0
+        },
+        "comparable": true,
+        "log_effect": -0.025375291170541825,
+        "speed_change_percent": -2.5056044495772123
+      },
+      {
+        "block": 10,
+        "indices": [
+          62,
+          63,
+          60,
+          65
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.999850112538771,
+          "q3_400": 0.9998441864603846
+        },
+        "build_mode_means": {
+          "stock100": 17,
+          "q3_400": 17
+        },
+        "runnable_mode_means": {
+          "stock100": 27.8864650616559,
+          "q3_400": 28.675904878475258
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1680.75,
+          "q3_400": 1677.0
+        },
+        "comparable": true,
+        "log_effect": 0.005114430335273923,
+        "speed_change_percent": 0.512753135933703
+      },
+      {
+        "block": 11,
+        "indices": [
+          67,
+          70,
+          68,
+          69
+        ],
+        "cpu_mode_means": {
+          "stock100": 0.9997869989471678,
+          "q3_400": 0.9998628672855239
+        },
+        "build_mode_means": {
+          "stock100": 16.87998475996952,
+          "q3_400": 16.91935483870968
+        },
+        "runnable_mode_means": {
+          "stock100": 27.155924561849126,
+          "q3_400": 27.602696572580648
+        },
+        "gpu_clock_mode_means": {
+          "stock100": 1694.0,
+          "q3_400": 1820.75
+        },
+        "comparable": true,
+        "log_effect": 0.0035418684846257875,
+        "speed_change_percent": 0.354814831272656
+      }
+    ],
+    "all12block_descriptive": {
+      "blocks": 12,
+      "geometric_speed_change_percent": -1.6894823314871636,
+      "descriptive_t95_percent": [
+        -2.6063171351517433,
+        -0.7640167210547862
+      ],
+      "lower_bound_positive": false
+    },
+    "matched": {
+      "blocks": 12,
+      "geometric_speed_change_percent": -1.6894823314871636,
+      "descriptive_t95_percent": [
+        -2.6063171351517433,
+        -0.7640167210547862
+      ],
+      "lower_bound_positive": false
+    }
+  },
+  "mean_steady_tps": {
+    "stock100": 34.60204329282446,
+    "stock400": 33.562640689463166,
+    "q3_400": 34.02611409902322
+  },
+  "all_tokens_and_counters_identical": true,
+  "scope": "Fixed72fresh512token directnative-defaultattribution,12symmetric6armblocks. PrimaryQ3default400vsstock100,secondarycap/paddingdescriptivepair-specificmatchedsubsets. No legacyallocation/queue/suballocationoverrides;nodecapunsetforstock100. Samepinnedstack/MTP/driver,synchronizedtiming,naturalclocks/poweroutcomes. Noextensions/retries/pooling/quietgate. Notmega/equalclock/generaldeploymentproof.",
+  "incremental_gain_supported": false
+}

@@ -4,6 +4,10 @@
 
 There is **no demonstrated mega-kernel throughput win over the current native baseline**. The combined implementation can produce exact model outputs, and several local improvements are real, but correctness and lower resource counts do not establish a speedup.
 
+### Corrected native-default comparison, 2026-10-30
+
+The completed72-run comparison finds Q3padding/cap400 **1.689% slower** than stock100, descriptive95% interval[-2.606%,-0.764%], all12blocks externally load-matched. All outputs remain exact and no new GPU errors occurred. Earlier positive results below used the archived forced-nonmapped-memory harness; they do not establish improvement over native defaults. [Full comparison](NATIVE-DEFAULT-BASELINE.md).
+
 ### Matched native-path result, 2026-10-29
 
 The Q3 padded-weight arena with graph-level configuration checks measures **+3.43% steady decoding versus unmodified stock**, descriptive95% interval[+2.26%,+4.62%]. All six predeclared blocks/24fresh512-token runs pass CPU/clock/build/runqueue/runtime matching, with no exclusions. Mean38.228→39.542tokens/s; all tokens and acceptance counters match. This is the specified R9700/.27/.7/MTPmax1/q8KV/4096context workload, not a mega-kernel or general performance claim. [Full protocol, numerical audits and limitations](Q3-HOST-COST.md).

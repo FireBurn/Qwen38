@@ -1,0 +1,225 @@
+{
+  "combined": {
+    "all12": {
+      "full_generation_speed": {
+        "blocks": 12,
+        "geometric_change_percent": -1.6800607843022282,
+        "descriptive_t95_percent": [
+          -2.5673623065268822,
+          -0.7846787665682657
+        ]
+      },
+      "mode_means": {
+        "stock100": {
+          "steady_tokens_per_second": 34.60204329282446,
+          "total_generation_tokens_per_second": 34.45152003484691,
+          "encode_seconds": 0.27879166666666666,
+          "process_wall_seconds": 28.245209443836455,
+          "phase_cpu_busy_mean": 0.9999198573266487,
+          "phase_build_process_mean": 20.833906765608024,
+          "phase_runnable_mean": 31.54222230231985,
+          "steady_clock_median_mhz": 1668.7916666666667,
+          "phase_power_w_mean": 121.7313723223502,
+          "phase_vram_bytes_mean": 16808154112
+        },
+        "q3_400": {
+          "steady_tokens_per_second": 34.02611409902322,
+          "total_generation_tokens_per_second": 33.88068670510663,
+          "encode_seconds": 0.26025,
+          "process_wall_seconds": 28.320410133625654,
+          "phase_cpu_busy_mean": 0.9999000400140978,
+          "phase_build_process_mean": 20.90897273586614,
+          "phase_runnable_mean": 31.7685921416544,
+          "steady_clock_median_mhz": 1669.7916666666667,
+          "phase_power_w_mean": 117.87953417954989,
+          "phase_vram_bytes_mean": 20030194055.378445
+        }
+      }
+    },
+    "matched": {
+      "full_generation_speed": {
+        "blocks": 12,
+        "geometric_change_percent": -1.6800607843022282,
+        "descriptive_t95_percent": [
+          -2.5673623065268822,
+          -0.7846787665682657
+        ]
+      },
+      "mode_means": {
+        "stock100": {
+          "steady_tokens_per_second": 34.60204329282446,
+          "total_generation_tokens_per_second": 34.45152003484691,
+          "encode_seconds": 0.27879166666666666,
+          "process_wall_seconds": 28.245209443836455,
+          "phase_cpu_busy_mean": 0.9999198573266487,
+          "phase_build_process_mean": 20.833906765608024,
+          "phase_runnable_mean": 31.54222230231985,
+          "steady_clock_median_mhz": 1668.7916666666667,
+          "phase_power_w_mean": 121.7313723223502,
+          "phase_vram_bytes_mean": 16808154112
+        },
+        "q3_400": {
+          "steady_tokens_per_second": 34.02611409902322,
+          "total_generation_tokens_per_second": 33.88068670510663,
+          "encode_seconds": 0.26025,
+          "process_wall_seconds": 28.320410133625654,
+          "phase_cpu_busy_mean": 0.9999000400140978,
+          "phase_build_process_mean": 20.90897273586614,
+          "phase_runnable_mean": 31.7685921416544,
+          "steady_clock_median_mhz": 1669.7916666666667,
+          "phase_power_w_mean": 117.87953417954989,
+          "phase_vram_bytes_mean": 20030194055.378445
+        }
+      }
+    }
+  },
+  "submission": {
+    "all12": {
+      "full_generation_speed": {
+        "blocks": 12,
+        "geometric_change_percent": -2.9816037210501634,
+        "descriptive_t95_percent": [
+          -4.106332316356871,
+          -1.8436832806127235
+        ]
+      },
+      "mode_means": {
+        "stock100": {
+          "steady_tokens_per_second": 34.60204329282446,
+          "total_generation_tokens_per_second": 34.45152003484691,
+          "encode_seconds": 0.27879166666666666,
+          "process_wall_seconds": 28.245209443836455,
+          "phase_cpu_busy_mean": 0.9999198573266487,
+          "phase_build_process_mean": 20.833906765608024,
+          "phase_runnable_mean": 31.54222230231985,
+          "steady_clock_median_mhz": 1668.7916666666667,
+          "phase_power_w_mean": 121.7313723223502,
+          "phase_vram_bytes_mean": 16808154112
+        },
+        "stock400": {
+          "steady_tokens_per_second": 33.562640689463166,
+          "total_generation_tokens_per_second": 33.43272817951205,
+          "encode_seconds": 0.263375,
+          "process_wall_seconds": 28.415468404997227,
+          "phase_cpu_busy_mean": 0.9999356206281365,
+          "phase_build_process_mean": 21.12007542656708,
+          "phase_runnable_mean": 31.98144530930231,
+          "steady_clock_median_mhz": 1671.5416666666667,
+          "phase_power_w_mean": 119.03067879506303,
+          "phase_vram_bytes_mean": 16809005056
+        }
+      }
+    },
+    "matched": {
+      "full_generation_speed": {
+        "blocks": 11,
+        "geometric_change_percent": -2.7237434378631282,
+        "descriptive_t95_percent": [
+          -3.806311673535729,
+          -1.6289919289916677
+        ]
+      },
+      "mode_means": {
+        "stock100": {
+          "steady_tokens_per_second": 34.52943501241642,
+          "total_generation_tokens_per_second": 34.38207163688506,
+          "encode_seconds": 0.2828636363636364,
+          "process_wall_seconds": 28.383903967731218,
+          "phase_cpu_busy_mean": 0.9999254807270758,
+          "phase_build_process_mean": 21.186289898145816,
+          "phase_runnable_mean": 31.83379357124905,
+          "steady_clock_median_mhz": 1667.8636363636363,
+          "phase_power_w_mean": 121.49276809798477,
+          "phase_vram_bytes_mean": 16808154205.09091
+        },
+        "stock400": {
+          "steady_tokens_per_second": 33.58866845586243,
+          "total_generation_tokens_per_second": 33.45539594333036,
+          "encode_seconds": 0.26477272727272727,
+          "process_wall_seconds": 28.48771843336131,
+          "phase_cpu_busy_mean": 0.9999332459922776,
+          "phase_build_process_mean": 21.316332683340587,
+          "phase_runnable_mean": 32.0187969633343,
+          "steady_clock_median_mhz": 1672.3181818181818,
+          "phase_power_w_mean": 119.12465136572553,
+          "phase_vram_bytes_mean": 16809009524.363636
+        }
+      }
+    }
+  },
+  "padding": {
+    "all12": {
+      "full_generation_speed": {
+        "blocks": 12,
+        "geometric_change_percent": 1.3415424153226618,
+        "descriptive_t95_percent": [
+          0.6290356875326634,
+          2.0590940671117575
+        ]
+      },
+      "mode_means": {
+        "stock400": {
+          "steady_tokens_per_second": 33.562640689463166,
+          "total_generation_tokens_per_second": 33.43272817951205,
+          "encode_seconds": 0.263375,
+          "process_wall_seconds": 28.415468404997227,
+          "phase_cpu_busy_mean": 0.9999356206281365,
+          "phase_build_process_mean": 21.12007542656708,
+          "phase_runnable_mean": 31.98144530930231,
+          "steady_clock_median_mhz": 1671.5416666666667,
+          "phase_power_w_mean": 119.03067879506303,
+          "phase_vram_bytes_mean": 16809005056
+        },
+        "q3_400": {
+          "steady_tokens_per_second": 34.02611409902322,
+          "total_generation_tokens_per_second": 33.88068670510663,
+          "encode_seconds": 0.26025,
+          "process_wall_seconds": 28.320410133625654,
+          "phase_cpu_busy_mean": 0.9999000400140978,
+          "phase_build_process_mean": 20.90897273586614,
+          "phase_runnable_mean": 31.7685921416544,
+          "steady_clock_median_mhz": 1669.7916666666667,
+          "phase_power_w_mean": 117.87953417954989,
+          "phase_vram_bytes_mean": 20030194055.378445
+        }
+      }
+    },
+    "matched": {
+      "full_generation_speed": {
+        "blocks": 12,
+        "geometric_change_percent": 1.3415424153226618,
+        "descriptive_t95_percent": [
+          0.6290356875326634,
+          2.0590940671117575
+        ]
+      },
+      "mode_means": {
+        "stock400": {
+          "steady_tokens_per_second": 33.562640689463166,
+          "total_generation_tokens_per_second": 33.43272817951205,
+          "encode_seconds": 0.263375,
+          "process_wall_seconds": 28.415468404997227,
+          "phase_cpu_busy_mean": 0.9999356206281365,
+          "phase_build_process_mean": 21.12007542656708,
+          "phase_runnable_mean": 31.98144530930231,
+          "steady_clock_median_mhz": 1671.5416666666667,
+          "phase_power_w_mean": 119.03067879506303,
+          "phase_vram_bytes_mean": 16809005056
+        },
+        "q3_400": {
+          "steady_tokens_per_second": 34.02611409902322,
+          "total_generation_tokens_per_second": 33.88068670510663,
+          "encode_seconds": 0.26025,
+          "process_wall_seconds": 28.320410133625654,
+          "phase_cpu_busy_mean": 0.9999000400140978,
+          "phase_build_process_mean": 20.90897273586614,
+          "phase_runnable_mean": 31.7685921416544,
+          "steady_clock_median_mhz": 1669.7916666666667,
+          "phase_power_w_mean": 117.87953417954989,
+          "phase_vram_bytes_mean": 20030194055.378445
+        }
+      }
+    }
+  },
+  "scope": "Secondary descriptive outcomes using original pair-specific matched blocks. No new exclusions, pooling, independent confirmation, or equal-clock claim."
+}
