@@ -19703,9 +19703,9 @@
     {
       "source": "isolated/native-rebar-input/STATUS.md",
       "path": "archive/isolated/native-rebar-input/STATUS.md",
-      "source_sha256": "711344188250c76ff843b01713f81f00f4371089dd1c7d87968cd5c581b993b3",
-      "export_sha256": "711344188250c76ff843b01713f81f00f4371089dd1c7d87968cd5c581b993b3",
-      "bytes": 2624,
+      "source_sha256": "886de5028340579d4fce012b201cd3819f629c79598f42c97ab6d3f613e446bf",
+      "export_sha256": "886de5028340579d4fce012b201cd3819f629c79598f42c97ab6d3f613e446bf",
+      "bytes": 2927,
       "sanitized": false
     },
     {
@@ -20931,7 +20931,719 @@
       "export_sha256": "df82be78ce6513f243175b37ed79bdea51dbc6336e5055ad2b2a63f475d6cead",
       "bytes": 7577,
       "sanitized": true
+    },
+    {
+      "source": "isolated/native-rebar-input/confirmed-harness-restoration-20261030.json",
+      "path": "archive/isolated/native-rebar-input/confirmed-harness-restoration-20261030.json",
+      "source_sha256": "0744f21eae99d81149c6104ec6fd3819514ed9f1c0012c07ab7a54059845e22b",
+      "export_sha256": "0744f21eae99d81149c6104ec6fd3819514ed9f1c0012c07ab7a54059845e22b",
+      "bytes": 1707,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/00-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/00-frozen-telemetry.json",
+      "source_sha256": "6ab711c4f245daa038b7ca02fc3ddccdaf86f362038d32bf338d724ef2da141f",
+      "export_sha256": "6ab711c4f245daa038b7ca02fc3ddccdaf86f362038d32bf338d724ef2da141f",
+      "bytes": 75509,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/01-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/01-mapped-telemetry.json",
+      "source_sha256": "6169ff2cc2530ef5b42322742e0f88a57862aaedc194540a8f737c6c701af690",
+      "export_sha256": "6169ff2cc2530ef5b42322742e0f88a57862aaedc194540a8f737c6c701af690",
+      "bytes": 68339,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/02-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/02-mapped-telemetry.json",
+      "source_sha256": "4ef9204050298efbc876b2c5355761fd147fea3f51e7dab48ed85c9d762a3062",
+      "export_sha256": "4ef9204050298efbc876b2c5355761fd147fea3f51e7dab48ed85c9d762a3062",
+      "bytes": 66401,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/03-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/03-frozen-telemetry.json",
+      "source_sha256": "d194c38dc198bae0799b653da190b1d6465817460eebc3e51b454d157d78e58b",
+      "export_sha256": "d194c38dc198bae0799b653da190b1d6465817460eebc3e51b454d157d78e58b",
+      "bytes": 75781,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/04-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/04-mapped-telemetry.json",
+      "source_sha256": "9c0aee7f99544233adea610a693ff7c9cb092b7ad778d85a35de1a2e0c25ad67",
+      "export_sha256": "9c0aee7f99544233adea610a693ff7c9cb092b7ad778d85a35de1a2e0c25ad67",
+      "bytes": 77400,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/05-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/05-frozen-telemetry.json",
+      "source_sha256": "e93ab96877c394ad84fb2d55b40832a0cd310bc794aec32497d03709862e9ffe",
+      "export_sha256": "e93ab96877c394ad84fb2d55b40832a0cd310bc794aec32497d03709862e9ffe",
+      "bytes": 101367,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/06-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/06-frozen-telemetry.json",
+      "source_sha256": "a00061b4ddec67b2f06d0bd29e3b01749e06a1bfefc86607bfd7a1c447d537ab",
+      "export_sha256": "a00061b4ddec67b2f06d0bd29e3b01749e06a1bfefc86607bfd7a1c447d537ab",
+      "bytes": 102996,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/07-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/07-mapped-telemetry.json",
+      "source_sha256": "ad339fb6ed165134081a70e5ce2707e49341e108b3c2d1ce04f2887b5476fa61",
+      "export_sha256": "ad339fb6ed165134081a70e5ce2707e49341e108b3c2d1ce04f2887b5476fa61",
+      "bytes": 87780,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/08-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/08-frozen-telemetry.json",
+      "source_sha256": "b0f87e023701cdefe8e0e13ee555cd4cd89e068e7908174161e640e770b8bf06",
+      "export_sha256": "b0f87e023701cdefe8e0e13ee555cd4cd89e068e7908174161e640e770b8bf06",
+      "bytes": 100772,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/09-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/09-mapped-telemetry.json",
+      "source_sha256": "f81bfa483d170876705a14b3e12cb9353bdf940ae60657025e1cc4d8a24b7ee9",
+      "export_sha256": "f81bfa483d170876705a14b3e12cb9353bdf940ae60657025e1cc4d8a24b7ee9",
+      "bytes": 86985,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/10-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/10-mapped-telemetry.json",
+      "source_sha256": "172765e255ad698cc4cd00fc1c45f75e8b8c13b7689671ff3d99e42eb73cbf67",
+      "export_sha256": "172765e255ad698cc4cd00fc1c45f75e8b8c13b7689671ff3d99e42eb73cbf67",
+      "bytes": 85294,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/11-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/11-frozen-telemetry.json",
+      "source_sha256": "d979bccdbd7b86b11161bd3cd169350200dbc89682ac0c2eba474af9614c9bf3",
+      "export_sha256": "d979bccdbd7b86b11161bd3cd169350200dbc89682ac0c2eba474af9614c9bf3",
+      "bytes": 103993,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/12-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/12-mapped-telemetry.json",
+      "source_sha256": "c2c628a68bdb06e64277cd53afdac09a689d64bca9f403e21f2fd6cb2d82998e",
+      "export_sha256": "c2c628a68bdb06e64277cd53afdac09a689d64bca9f403e21f2fd6cb2d82998e",
+      "bytes": 89017,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/13-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/13-frozen-telemetry.json",
+      "source_sha256": "66d4ac38dbceb840e5c1ead0ca8d3070f31f2293bcf4b4e02ffc89ece529639c",
+      "export_sha256": "66d4ac38dbceb840e5c1ead0ca8d3070f31f2293bcf4b4e02ffc89ece529639c",
+      "bytes": 102750,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/14-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/14-frozen-telemetry.json",
+      "source_sha256": "33b9d45c6c6a467281352af171553e752c8f94da5c10b125e0ae956527e7a4b5",
+      "export_sha256": "33b9d45c6c6a467281352af171553e752c8f94da5c10b125e0ae956527e7a4b5",
+      "bytes": 102739,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/15-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/15-mapped-telemetry.json",
+      "source_sha256": "d5697d57095e56987b411e0ab8038f4e80a352cdc1c8e6a51a607141e00292f1",
+      "export_sha256": "d5697d57095e56987b411e0ab8038f4e80a352cdc1c8e6a51a607141e00292f1",
+      "bytes": 87618,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/16-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/16-frozen-telemetry.json",
+      "source_sha256": "d3f14d82ac634685efc1ba50104d40d861dfd2e34322b68eaab454a56a2cd15f",
+      "export_sha256": "d3f14d82ac634685efc1ba50104d40d861dfd2e34322b68eaab454a56a2cd15f",
+      "bytes": 102465,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/17-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/17-mapped-telemetry.json",
+      "source_sha256": "058074a3e4cbbfb6b9b272fc45e1b3a7c68e2a6224ff5ccbfb7070189f5aeb92",
+      "export_sha256": "058074a3e4cbbfb6b9b272fc45e1b3a7c68e2a6224ff5ccbfb7070189f5aeb92",
+      "bytes": 87247,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/18-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/18-mapped-telemetry.json",
+      "source_sha256": "f917b9bc666a11d5c80cef7d1f1205ba2b048f1a6e035d2c6bae08e745bef4b0",
+      "export_sha256": "f917b9bc666a11d5c80cef7d1f1205ba2b048f1a6e035d2c6bae08e745bef4b0",
+      "bytes": 87691,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/19-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/19-frozen-telemetry.json",
+      "source_sha256": "2e765450a954c4bfe656d9271c5f9c26beb2377d12c8a36595a7a633f8bf3f79",
+      "export_sha256": "2e765450a954c4bfe656d9271c5f9c26beb2377d12c8a36595a7a633f8bf3f79",
+      "bytes": 102309,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/20-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/20-mapped-telemetry.json",
+      "source_sha256": "9e81a33d2f5bf502aa1756e0fdc8d381e0c46e6a54eb4ea0110e2b16725275f8",
+      "export_sha256": "9e81a33d2f5bf502aa1756e0fdc8d381e0c46e6a54eb4ea0110e2b16725275f8",
+      "bytes": 90664,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/21-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/21-frozen-telemetry.json",
+      "source_sha256": "4cf4415c6a75994b129f1e71e28754ad40b6956b12b2d1183a96bdf3832170e5",
+      "export_sha256": "4cf4415c6a75994b129f1e71e28754ad40b6956b12b2d1183a96bdf3832170e5",
+      "bytes": 105460,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/22-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/22-frozen-telemetry.json",
+      "source_sha256": "4b198ed23f117678684a3bfc1c0e2a21742a14594f733e606dfa04e2cb9a74d7",
+      "export_sha256": "4b198ed23f117678684a3bfc1c0e2a21742a14594f733e606dfa04e2cb9a74d7",
+      "bytes": 102523,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/23-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/23-mapped-telemetry.json",
+      "source_sha256": "f217fee599b1d9810d70c2a5cbb57f93a086acc02eada896cd73f200897d5806",
+      "export_sha256": "f217fee599b1d9810d70c2a5cbb57f93a086acc02eada896cd73f200897d5806",
+      "bytes": 88703,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/24-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/24-frozen-telemetry.json",
+      "source_sha256": "2bde93579380b38e2ba54ca23bd610ad574b652d2174e476d6c0ba67509d2c0f",
+      "export_sha256": "2bde93579380b38e2ba54ca23bd610ad574b652d2174e476d6c0ba67509d2c0f",
+      "bytes": 102425,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/25-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/25-mapped-telemetry.json",
+      "source_sha256": "1483942873610ee396bd6819ac3c7ac8fbeea4113572a236eeb32b867edc26d9",
+      "export_sha256": "1483942873610ee396bd6819ac3c7ac8fbeea4113572a236eeb32b867edc26d9",
+      "bytes": 89052,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/26-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/26-mapped-telemetry.json",
+      "source_sha256": "f10fd08c8baea9b8df006d24519655ddddfbb28a8b0ce8745162eb84a6dfb19f",
+      "export_sha256": "f10fd08c8baea9b8df006d24519655ddddfbb28a8b0ce8745162eb84a6dfb19f",
+      "bytes": 90599,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/27-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/27-frozen-telemetry.json",
+      "source_sha256": "01891f18916cb93193b2dd7c821e603d889ccfa4dcc32c4f1f4088baf9e07bcf",
+      "export_sha256": "01891f18916cb93193b2dd7c821e603d889ccfa4dcc32c4f1f4088baf9e07bcf",
+      "bytes": 91499,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/28-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/28-mapped-telemetry.json",
+      "source_sha256": "0eeb74bf4744440d52b83418955dd0107a1861a3e23e060dbf75659aa3bd06e4",
+      "export_sha256": "0eeb74bf4744440d52b83418955dd0107a1861a3e23e060dbf75659aa3bd06e4",
+      "bytes": 72848,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/29-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/29-frozen-telemetry.json",
+      "source_sha256": "a18acf06282e4b0b48da62ceef8b7eac3d864214772969c5a5378d878a5aa907",
+      "export_sha256": "a18acf06282e4b0b48da62ceef8b7eac3d864214772969c5a5378d878a5aa907",
+      "bytes": 74666,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/30-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/30-frozen-telemetry.json",
+      "source_sha256": "f2f922ffd6f9411951d266cf7ad1f35638588772bf1729c5af39c1e3ca10d9d8",
+      "export_sha256": "f2f922ffd6f9411951d266cf7ad1f35638588772bf1729c5af39c1e3ca10d9d8",
+      "bytes": 74723,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/31-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/31-mapped-telemetry.json",
+      "source_sha256": "3499428473ea6166fea51590ae61c3fb33b0a7dabb53c0af6a4f1e7181c0b54b",
+      "export_sha256": "3499428473ea6166fea51590ae61c3fb33b0a7dabb53c0af6a4f1e7181c0b54b",
+      "bytes": 66447,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/32-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/32-frozen-telemetry.json",
+      "source_sha256": "866b7d38a361fa81b38a98ff063652a2727b79409437ea0be37afede5910bdf2",
+      "export_sha256": "866b7d38a361fa81b38a98ff063652a2727b79409437ea0be37afede5910bdf2",
+      "bytes": 83031,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/33-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/33-mapped-telemetry.json",
+      "source_sha256": "9509d7931f28c83dc4bd107d6f35c04f904c2eff6208411fb470d8d84e9ab935",
+      "export_sha256": "9509d7931f28c83dc4bd107d6f35c04f904c2eff6208411fb470d8d84e9ab935",
+      "bytes": 66771,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/34-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/34-mapped-telemetry.json",
+      "source_sha256": "1937882e2a4f0f77157fce82b3d0719d30b16809a1a82a2e2956b14232618fd6",
+      "export_sha256": "1937882e2a4f0f77157fce82b3d0719d30b16809a1a82a2e2956b14232618fd6",
+      "bytes": 66430,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/35-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/35-frozen-telemetry.json",
+      "source_sha256": "a21fe12ec6db40601d22f5e169bf88b0eafe7860d0f85801f24ac1e72d231ba7",
+      "export_sha256": "a21fe12ec6db40601d22f5e169bf88b0eafe7860d0f85801f24ac1e72d231ba7",
+      "bytes": 74617,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/36-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/36-mapped-telemetry.json",
+      "source_sha256": "ea45702a665d20f6d89e2cce32caa99f0f18eabe4304cb9b2ec3756f79c0f871",
+      "export_sha256": "ea45702a665d20f6d89e2cce32caa99f0f18eabe4304cb9b2ec3756f79c0f871",
+      "bytes": 79875,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/37-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/37-frozen-telemetry.json",
+      "source_sha256": "53326564fec9d5e124043f480312ce9c0e520dca9756f60de8da3ef213661ccf",
+      "export_sha256": "53326564fec9d5e124043f480312ce9c0e520dca9756f60de8da3ef213661ccf",
+      "bytes": 105510,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/38-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/38-frozen-telemetry.json",
+      "source_sha256": "858d1cfec954bb3029cc8e7964f30d24a7b61eef38099c2d7a10b395fc46aaeb",
+      "export_sha256": "858d1cfec954bb3029cc8e7964f30d24a7b61eef38099c2d7a10b395fc46aaeb",
+      "bytes": 96754,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/39-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/39-mapped-telemetry.json",
+      "source_sha256": "a2edbdc97a45b9ce928ead050387f009bfa0ce7560f59d06ad6911241103bd5c",
+      "export_sha256": "a2edbdc97a45b9ce928ead050387f009bfa0ce7560f59d06ad6911241103bd5c",
+      "bytes": 92559,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/40-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/40-frozen-telemetry.json",
+      "source_sha256": "fff21dc3c208343e1b97f4d5102a518dcd36e22ec452880b816992c86e6c1bc7",
+      "export_sha256": "fff21dc3c208343e1b97f4d5102a518dcd36e22ec452880b816992c86e6c1bc7",
+      "bytes": 109237,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/41-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/41-mapped-telemetry.json",
+      "source_sha256": "93cb58d31a77ced513b69c0a436b9bded723859eb0dac1a596442d8ee06eaec8",
+      "export_sha256": "93cb58d31a77ced513b69c0a436b9bded723859eb0dac1a596442d8ee06eaec8",
+      "bytes": 90052,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/42-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/42-mapped-telemetry.json",
+      "source_sha256": "4463f3af38e585b2c4f50a4c473a37ccbe533a70ac078fc2cad0fed5a510aba1",
+      "export_sha256": "4463f3af38e585b2c4f50a4c473a37ccbe533a70ac078fc2cad0fed5a510aba1",
+      "bytes": 87817,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/43-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/43-frozen-telemetry.json",
+      "source_sha256": "f78ad7d5d414694197519d4d884547b3e85454187c732c595191b296a13a9772",
+      "export_sha256": "f78ad7d5d414694197519d4d884547b3e85454187c732c595191b296a13a9772",
+      "bytes": 113119,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/44-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/44-mapped-telemetry.json",
+      "source_sha256": "623a9b6a5df97270dc51490b27b14eedeb6e0b4e3b80d59239a41313de5045ac",
+      "export_sha256": "623a9b6a5df97270dc51490b27b14eedeb6e0b4e3b80d59239a41313de5045ac",
+      "bytes": 88630,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/45-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/45-frozen-telemetry.json",
+      "source_sha256": "5e2a42ce31af37a89270aacfe1703960a0856e951df7af1b93d01bc9ace3a742",
+      "export_sha256": "5e2a42ce31af37a89270aacfe1703960a0856e951df7af1b93d01bc9ace3a742",
+      "bytes": 109664,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/46-frozen-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/46-frozen-telemetry.json",
+      "source_sha256": "e2c00add3e8f6ce5fcc79e7cc45c393188f05463e2b10dccb34ca0300aeaf96f",
+      "export_sha256": "e2c00add3e8f6ce5fcc79e7cc45c393188f05463e2b10dccb34ca0300aeaf96f",
+      "bytes": 110979,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/47-mapped-telemetry.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/47-mapped-telemetry.json",
+      "source_sha256": "6c5af031e5440f5113211e8effed8d3c03593ac6a2a325cb7c2d86541686612c",
+      "export_sha256": "6c5af031e5440f5113211e8effed8d3c03593ac6a2a325cb7c2d86541686612c",
+      "bytes": 91172,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/assets.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/assets.json",
+      "source_sha256": "558ba284908b89df45cce3644efc9f87148bd2a53859432f6856a4ee8245b218",
+      "export_sha256": "d67ef25a39b1e23591a6dd5ec3038e3e33a59ba6b6aa829648a43782e1d632a6",
+      "bytes": 2075,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/confirmation-analysis.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/confirmation-analysis.json",
+      "source_sha256": "d3e615fb791c47bdf23ca01b2cd574a214af6165c8ead263a44e39b5f373e3d4",
+      "export_sha256": "d3e615fb791c47bdf23ca01b2cd574a214af6165c8ead263a44e39b5f373e3d4",
+      "bytes": 8613,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/outcomes-summary.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/outcomes-summary.json",
+      "source_sha256": "24f38239629f6792794bb8fc81b4aa0f789853e210325232128428e78bcc58c5",
+      "export_sha256": "24f38239629f6792794bb8fc81b4aa0f789853e210325232128428e78bcc58c5",
+      "bytes": 3552,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/protocol.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/protocol.json",
+      "source_sha256": "fed87dd55eeb6f3ae5a70fc086892e3c1272f4f21df568c7747ea14868cdbb17",
+      "export_sha256": "fed87dd55eeb6f3ae5a70fc086892e3c1272f4f21df568c7747ea14868cdbb17",
+      "bytes": 1758,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/results.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/results.json",
+      "source_sha256": "94cfb4d13b6d5d688f4f37e35140397b640f2027d4f17d2e5329aa533ab05a65",
+      "export_sha256": "94cfb4d13b6d5d688f4f37e35140397b640f2027d4f17d2e5329aa533ab05a65",
+      "bytes": 379563,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-rebar-input/model-confirmation512/20261030T011412Z/runtime-baseline.json",
+      "path": "archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/INTERACTION-LEADS.md",
+      "path": "archive/isolated/native-default-baseline/INTERACTION-LEADS.md",
+      "source_sha256": "c9fe4e825287b36f1f54875afb36744fb28605856867e5e19f3aba6d70b16b32",
+      "export_sha256": "c9fe4e825287b36f1f54875afb36744fb28605856867e5e19f3aba6d70b16b32",
+      "bytes": 2240,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/MODEL-CONFIRMATION-PLAN.md",
+      "path": "archive/isolated/native-default-baseline/MODEL-CONFIRMATION-PLAN.md",
+      "source_sha256": "91832391d6e94485f8b3d7478dd628a27dbf89dbaf8f74a7e3fe2db1ab805c05",
+      "export_sha256": "91832391d6e94485f8b3d7478dd628a27dbf89dbaf8f74a7e3fe2db1ab805c05",
+      "bytes": 740,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/MODEL-TIMING-PLAN.md",
+      "path": "archive/isolated/native-default-baseline/MODEL-TIMING-PLAN.md",
+      "source_sha256": "463e42780a779a29403c78d589770af61a88eed87427ef6787d574f65d44b1a6",
+      "export_sha256": "463e42780a779a29403c78d589770af61a88eed87427ef6787d574f65d44b1a6",
+      "bytes": 1958,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/STATUS.md",
+      "path": "archive/isolated/native-default-baseline/STATUS.md",
+      "source_sha256": "c3a84c271122bd122131e3c97bedfeacc0d25c648cb8caf57db28ad4447d3c29",
+      "export_sha256": "c3a84c271122bd122131e3c97bedfeacc0d25c648cb8caf57db28ad4447d3c29",
+      "bytes": 1587,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/boundary128/assets.json",
+      "path": "archive/isolated/native-default-baseline/boundary128/assets.json",
+      "source_sha256": "3b9766b6e32c008e11090f80d3624f7586a9cbec871c2c364d63d79eb0c1d1dd",
+      "export_sha256": "adf44985d797f9dd07c2eed3f0e6de870e17edbb059e7f0f9ebf7b9134a7703a",
+      "bytes": 2891,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-baseline/boundary128/audit-archive.json",
+      "path": "archive/isolated/native-default-baseline/boundary128/audit-archive.json",
+      "source_sha256": "c7909571f0b9f6a443e8ac692c6653ff15d891bf9e645084e016f5504e009b63",
+      "export_sha256": "c7909571f0b9f6a443e8ac692c6653ff15d891bf9e645084e016f5504e009b63",
+      "bytes": 232,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/boundary128/checks.json",
+      "path": "archive/isolated/native-default-baseline/boundary128/checks.json",
+      "source_sha256": "27fcc28c14cd1d765adb6c01dacc302be37c0998713ec98d2cec8b25e470c290",
+      "export_sha256": "27fcc28c14cd1d765adb6c01dacc302be37c0998713ec98d2cec8b25e470c290",
+      "bytes": 7364,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/boundary128/comparison.json",
+      "path": "archive/isolated/native-default-baseline/boundary128/comparison.json",
+      "source_sha256": "7d42e84bd565b4fd4008b68cd51c57feeef320c06cb3bbfc3ea7a96b685da1d5",
+      "export_sha256": "7d42e84bd565b4fd4008b68cd51c57feeef320c06cb3bbfc3ea7a96b685da1d5",
+      "bytes": 723,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/build.json",
+      "path": "archive/isolated/native-default-baseline/build.json",
+      "source_sha256": "cd028e84c6056eb1211da87910eed865ec459116a10db92297cd602865b5084a",
+      "export_sha256": "cd028e84c6056eb1211da87910eed865ec459116a10db92297cd602865b5084a",
+      "bytes": 216,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/fusion-accounting-triage.json",
+      "path": "archive/isolated/native-default-baseline/fusion-accounting-triage.json",
+      "source_sha256": "3ccb919f57558d926ef00539b1a6239ff47c2d95790cc0d03a753600e685c03d",
+      "export_sha256": "3ccb919f57558d926ef00539b1a6239ff47c2d95790cc0d03a753600e685c03d",
+      "bytes": 729,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/model32/assets.json",
+      "path": "archive/isolated/native-default-baseline/model32/assets.json",
+      "source_sha256": "b1dc5f5c3cae96405c22c05a94166c9b5f210b11e4ebdf02239e6d41f454cc13",
+      "export_sha256": "ecefa103edfaf9f362393d62f98e0218bd005499247589d8416c6559cef1c416",
+      "bytes": 2690,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-baseline/model32/audit-archive.json",
+      "path": "archive/isolated/native-default-baseline/model32/audit-archive.json",
+      "source_sha256": "cec1574326c0787343d8144bfbd723e9d67f7bab0433cc0db536370e435504cf",
+      "export_sha256": "cec1574326c0787343d8144bfbd723e9d67f7bab0433cc0db536370e435504cf",
+      "bytes": 232,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/model32/checks.json",
+      "path": "archive/isolated/native-default-baseline/model32/checks.json",
+      "source_sha256": "fe31afb9f9865571864f38b1237d2d86bc82d34fab27e45fd6221d6348e0ae5d",
+      "export_sha256": "fe31afb9f9865571864f38b1237d2d86bc82d34fab27e45fd6221d6348e0ae5d",
+      "bytes": 3922,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/model32/comparison.json",
+      "path": "archive/isolated/native-default-baseline/model32/comparison.json",
+      "source_sha256": "605a345dba7431492f51aa6f59954bc4a32fddcc4ac7a403a1637ddb5e321348",
+      "export_sha256": "605a345dba7431492f51aa6f59954bc4a32fddcc4ac7a403a1637ddb5e321348",
+      "bytes": 637,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/populated-kv64/assets.json",
+      "path": "archive/isolated/native-default-baseline/populated-kv64/assets.json",
+      "source_sha256": "603959f8f6d4587a4bb033e1b29261f84be077e8e5cbe1017959c6f16342acff",
+      "export_sha256": "fcadc6966760e1d8043acc9d1cc7d69f905890a19a7ceab9b1790328480f0646",
+      "bytes": 2884,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-baseline/populated-kv64/audit-archive.json",
+      "path": "archive/isolated/native-default-baseline/populated-kv64/audit-archive.json",
+      "source_sha256": "c41598933c56f0a503626a8f802c56c8cbb9b13d864626321c5b0c2b2180ddb1",
+      "export_sha256": "c41598933c56f0a503626a8f802c56c8cbb9b13d864626321c5b0c2b2180ddb1",
+      "bytes": 232,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/populated-kv64/checks.json",
+      "path": "archive/isolated/native-default-baseline/populated-kv64/checks.json",
+      "source_sha256": "ac93ed9df29134682f7feb31d6c4aa9ae60bf2c15265289a35533870372c1631",
+      "export_sha256": "ac93ed9df29134682f7feb31d6c4aa9ae60bf2c15265289a35533870372c1631",
+      "bytes": 5207,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/populated-kv64/comparison.json",
+      "path": "archive/isolated/native-default-baseline/populated-kv64/comparison.json",
+      "source_sha256": "4f9550154f62733acc521dd4461c8438d4f529e91a372ba4eef2bb0cbc552def",
+      "export_sha256": "4f9550154f62733acc521dd4461c8438d4f529e91a372ba4eef2bb0cbc552def",
+      "bytes": 721,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/prepare_checks.py",
+      "path": "archive/isolated/native-default-baseline/prepare_checks.py",
+      "source_sha256": "04488362d112f03bc179761397324aaf7d3b0d8727c82722313b13f94ef15b6f",
+      "export_sha256": "04488362d112f03bc179761397324aaf7d3b0d8727c82722313b13f94ef15b6f",
+      "bytes": 4501,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/prepare_timing.py",
+      "path": "archive/isolated/native-default-baseline/prepare_timing.py",
+      "source_sha256": "d312eafd7a16505f8c1403a0420579092e06fd15975404e06cc8df963246b4b5",
+      "export_sha256": "d312eafd7a16505f8c1403a0420579092e06fd15975404e06cc8df963246b4b5",
+      "bytes": 6239,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/prompts128/assets.json",
+      "path": "archive/isolated/native-default-baseline/prompts128/assets.json",
+      "source_sha256": "bf287e74f33ab41b2d26a966b4dd131f7ae0ba189b6948e597e6c1a123aeb43d",
+      "export_sha256": "fcfe1febe77e5dbc9b0d5383a921f47554d0ff40b38dd393eb7134c43f082c06",
+      "bytes": 2890,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-baseline/prompts128/checks.json",
+      "path": "archive/isolated/native-default-baseline/prompts128/checks.json",
+      "source_sha256": "635037db2f3e7f86bd2943964d4e2b91ff85427b666d67b7f0a79c9a00be49a5",
+      "export_sha256": "635037db2f3e7f86bd2943964d4e2b91ff85427b666d67b7f0a79c9a00be49a5",
+      "bytes": 14281,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/native-default-baseline/prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/prompts128/comparison.json",
+      "path": "archive/isolated/native-default-baseline/prompts128/comparison.json",
+      "source_sha256": "77ebe1b36190c7b95df970baa78d5109f78625902fd5ce21a53503bcbaa296b2",
+      "export_sha256": "77ebe1b36190c7b95df970baa78d5109f78625902fd5ce21a53503bcbaa296b2",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/prompts128/math/audit-archive.json",
+      "path": "archive/isolated/native-default-baseline/prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/publish.py",
+      "path": "archive/isolated/native-default-baseline/publish.py",
+      "source_sha256": "baf3d94835cdd658bf17057915babdd6951d06e46003291b33a2229df89d7d8c",
+      "export_sha256": "111c51ea73fe2e3633d90595ea1bb3c7fb3ab27fc28525edaf80e9bd5006a857",
+      "bytes": 1390,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-baseline/qualification-summary.json",
+      "path": "archive/isolated/native-default-baseline/qualification-summary.json",
+      "source_sha256": "119ba336f284379fe60759fc5733f196f4a7167053f09dc10b5da3c4c5c9bb6e",
+      "export_sha256": "119ba336f284379fe60759fc5733f196f4a7167053f09dc10b5da3c4c5c9bb6e",
+      "bytes": 2099,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-baseline/summarise_checks.py",
+      "path": "archive/isolated/native-default-baseline/summarise_checks.py",
+      "source_sha256": "4e7d2b384fe7a3e1837cd4eedd390e9e3e3dc940f8c4a8e5bbe7700d48014c3a",
+      "export_sha256": "4e7d2b384fe7a3e1837cd4eedd390e9e3e3dc940f8c4a8e5bbe7700d48014c3a",
+      "bytes": 1737,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_default_boundary128.py",
+      "path": "archive/isolated/run_native_default_boundary128.py",
+      "source_sha256": "65758bf0f5599f434293ad681ab72247db85c8b8c3e17f539c3707709d1dac3b",
+      "export_sha256": "abf8fde0d9fe52d6b8d059777cd310d3e832ff74fde7646e052c577e9f69fac9",
+      "bytes": 10646,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_default_kv64.py",
+      "path": "archive/isolated/run_native_default_kv64.py",
+      "source_sha256": "42c07b8237b461d531d64c9da67f144df15f1b110b670eeb1f3eaebd0dcca8a6",
+      "export_sha256": "1477e4cbca2a6c366544a11a7b60752352f831a9d0b389fc1ca8bdf3768bb445",
+      "bytes": 21455,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_default_model32.py",
+      "path": "archive/isolated/run_native_default_model32.py",
+      "source_sha256": "07fd6632fd7e4ea4dc159f35fb9ccae15bdd78e349fcc51a608f786c2e1071be",
+      "export_sha256": "b9570097657b1a9201c311c1c42e13a6dfe80f4489f50f47d75fe28fe03ce644",
+      "bytes": 9949,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_default_prompts128.py",
+      "path": "archive/isolated/run_native_default_prompts128.py",
+      "source_sha256": "67573c78758b2f9e8c478844b5ec311e4a3be8661f048a93484bb724cd548111",
+      "export_sha256": "d93aa2b0d5ba08c9ba984ecdff3f831b3cbb770a68cda6ef1776512435fbb8ce",
+      "bytes": 9117,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_default_timing.py",
+      "path": "archive/isolated/run_native_default_timing.py",
+      "source_sha256": "1d691c940112f464050fba36c082ca599911ca1ec7a058c4f0ca36b38cb415f7",
+      "export_sha256": "5fe54aeab6713d3a67763ac200ea834a3f1b35d6a423b20ad8b73fdf0d2fb6be",
+      "bytes": 17407,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-baseline/analyse_outcomes.py",
+      "path": "archive/isolated/native-default-baseline/analyse_outcomes.py",
+      "source_sha256": "5786e2fac426f22e684351c5e46f3489c1f35b871e45a573e43ee3bc0330b409",
+      "export_sha256": "5786e2fac426f22e684351c5e46f3489c1f35b871e45a573e43ee3bc0330b409",
+      "bytes": 2786,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-30T01:25:06.233907+00:00"
+  "updated_utc": "2026-10-30T06:48:33.209693+00:00"
 }

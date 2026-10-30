@@ -1,0 +1,13 @@
+{
+  "all_requested_target_logit_bits_identical": true,
+  "all_tokens_and_counters_identical": true,
+  "padded_cache_dispatch_verified": true,
+  "matches_fresh_unmodified_stock_target_logits": true,
+  "arms": 3,
+  "requested_tokens": 128,
+  "target_logit_rows_per_arm": 146,
+  "target_logit_audit_sha256": "16a693b0d912e151df9dc942bfb174f1dd5f8c48748f356b07be7cc8f2fa2f49",
+  "minimum_target_audit_position": 174,
+  "maximum_target_audit_position": 302,
+  "scope": "Freshstock400 versusstocknative-default100/400versusQ3default400 comparisons across audit positions straddling256,4kctx,128requestedtokens. Allrequested targetlogits/tokens/counters;not every internal drafttensor,allcontexts or performance qualification."
+}

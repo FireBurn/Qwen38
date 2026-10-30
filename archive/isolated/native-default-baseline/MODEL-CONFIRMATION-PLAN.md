@@ -1,0 +1,3 @@
+# Conditional direct-default independent confirmation
+
+Beforefirst72armmeasurement: onlyif primaryCvsAhas>=4matchedblocks and positive lower primaryt95bound, run separatefixed48fresh512two-modealternatingABBA/BAAB12blocks: unmodifiedstock100 nativeallocationdefaults versus unchangedQ3default400. Samefixedstack/modelpolicy/assetmapping/runtimeguards/CPU-build-runqueuerules, naturalDVFS/poweroutcomes. >=4matchedblocks and independentpositiveprimarylowerbound required for scopedadoptionclaim. No olddisableflag,allowgraphics/suballocation override,constantcorecache orsamplingchange. Noextensions/retries/pooling/quietgate. Keepfrozenoldconfig untilscope/correctness/confirmationaudit complete. No fastermega-kernelclaimfromnativeconfig.

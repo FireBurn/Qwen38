@@ -1,6 +1,6 @@
 # Native mapped-VRAM input path
 
-Restoring native mapped-VRAM allocation in the isolated harness removes **2,442 of4,579 queue submissions** per short decode. All five numerical cases pass530 full target-logit rows with matching tokens/counters and no new GPU errors. The fixed48-run discovery measures+28.6% steady speed over the previous forced-unmapped harness in eight load-matched blocks. Independent confirmation is in progress; there is no adoption or gain claim over normally configured stock.
+Restoring native mapped-VRAM allocation in the isolated harness removes **2,442 of4,579 queue submissions** per short decode. All five numerical cases pass530 full target-logit rows with matching tokens/counters and no new GPU errors. The fixed48-run discovery measures+28.6% steady speed over the previous forced-unmapped harness in eight load-matched blocks. A separate48-run confirmation measures+28.3% in five matched blocks. These results restore an existing native default overridden by the harness; a direct stock-default comparison is pending. No production change or broader stock claim is made.
 
 The candidate uses the same immutable qualified Q3/cap400 backend, production core and shaders. It only unsets the child-process variable `GGML_VK_DISABLE_HOST_VISIBLE_VIDMEM`. Device-local memory remains preferred; host-RAM preference is unset. The native backend already supports this path, including a DMA path for large mapped-VRAM writes. There is no new shader, core or transfer-ownership implementation.
 
@@ -43,10 +43,30 @@ All48 fresh512-request-token arms preserve513output tokens,279drafts and234accep
 | Matched GPU clock, unmapped / mapped | 1,684 / 2,182 MHz |
 | Matched sampled power, unmapped / mapped | 113.9 / 160.1 W |
 
-VRAM is about18.65GiB in both modes. Clocks and power rise naturally; this is a whole-configuration throughput result with a power tradeoff, not an equal-clock shader-efficiency result. All12 blocks remain reported, including four that fail load matching. The predeclared positive discovery trigger starts a separate unchanged48-run confirmation, with no pooling or extension. Its result is pending.
+VRAM is about18.65GiB in both modes. Clocks and power rise naturally; this is a whole-configuration throughput result with a power tradeoff, not an equal-clock shader-efficiency result. All12 blocks remain reported, including four that fail load matching. The predeclared positive discovery trigger started a separate unchanged48-run confirmation, with no pooling or extension. Its completed result follows.
 
 [Discovery](../archive/isolated/native-rebar-input/model-timing512/20261030T005211Z/confirmation-analysis.json), [secondary outcomes](../archive/isolated/native-rebar-input/model-timing512/20261030T005211Z/outcomes-summary.json), [independent plan](../archive/isolated/native-rebar-input/MODEL-CONFIRMATION-PLAN.md).
 
+## Completed independent confirmation
+
+The second fixed48-run experiment preserves all513tokens/279drafts/234accepts in every arm, with no new GPU errors. Five of12blocks meet all predeclared external-load criteria.
+
+| Independent measure | Result |
+|---|---:|
+| Matched primary steady speed | +28.31% [+22.37%, +34.53%] |
+| All12-block descriptive speed | +28.90% [+24.31%, +33.66%] |
+| Matched full-generation secondary speed | +27.99% [+21.93%, +34.35%] |
+| Matched mean steady tokens/s, unmapped / mapped | 28.99 / 37.00 |
+| Mean CPU busy, unmapped / mapped | 91.52% / 91.39% |
+| Mean build count, unmapped / mapped | 26.82 / 27.09 |
+| Mean runnable count, unmapped / mapped | 25.75 / 25.33 |
+| GPU clock, unmapped / mapped | 1,680 / 1,971 MHz |
+| Sampled power, unmapped / mapped | 108.5 / 150.4 W |
+
+VRAM remains about18.65GiB in both modes. This independently confirms the scoped throughput effect despite heavy background load. Natural GPU clocks and sampled power increase; there is no equal-clock or shader-efficiency claim. All12 blocks remain available, including seven failing load matching. There is no pooling of the96runs into a replacement primary estimate.
+
+[Independent result](../archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/confirmation-analysis.json), [secondary outcomes](../archive/isolated/native-rebar-input/model-confirmation512/20261030T011412Z/outcomes-summary.json), [scoped confirmation record](../archive/isolated/native-rebar-input/confirmed-harness-restoration-20261030.json).
+
 This restores an existing native default overridden by the harness. See [baseline environment](BASELINE-ENVIRONMENT.md). A separate native-default stock comparison is required before a claim against normally configured stock. The [immutable rotation cache](NATIVE-CONSTANT-ROTATION.md) is a separate code change, disabled throughout this A/B; its copy savings overlap this mechanism and are not additive.
 
-Evidence: [qualification](../archive/isolated/native-rebar-input/qualification-summary.json), [profile](../archive/isolated/native-rebar-input/profile-summary.json), [experiment plan](../archive/isolated/native-rebar-input/PLAN.md), [final timing plan](../archive/isolated/native-rebar-input/MODEL-TIMING-PLAN.md), [revision record](../archive/isolated/native-rebar-input/timing-plan-revision.json), [next actions](../archive/isolated/native-rebar-input/NEXT.md). Active confirmation files are withheld from the archive until that dataset is terminal.
+Evidence: [qualification](../archive/isolated/native-rebar-input/qualification-summary.json), [profile](../archive/isolated/native-rebar-input/profile-summary.json), [experiment plan](../archive/isolated/native-rebar-input/PLAN.md), [final timing plan](../archive/isolated/native-rebar-input/MODEL-TIMING-PLAN.md), [revision record](../archive/isolated/native-rebar-input/timing-plan-revision.json), [next actions](../archive/isolated/native-rebar-input/NEXT.md). Both fixed48-run datasets are complete and archived.

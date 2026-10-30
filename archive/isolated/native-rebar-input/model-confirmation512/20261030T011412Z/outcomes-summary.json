@@ -1,0 +1,95 @@
+{
+  "all12": {
+    "full_generation_speed": {
+      "blocks": 12,
+      "geometric_change_percent": 28.633568607762943,
+      "descriptive_t95_percent": [
+        23.9484457662089,
+        33.49578423902291
+      ]
+    },
+    "steady_speed": {
+      "blocks": 12,
+      "geometric_change_percent": 28.89881716171289,
+      "descriptive_t95_percent": [
+        24.30957704553702,
+        33.65748207479079
+      ]
+    },
+    "mode_means": {
+      "frozen": {
+        "steady_tokens_per_second": 29.40276394262971,
+        "total_generation_tokens_per_second": 29.274546344184845,
+        "total_generation_seconds": 18.175330375,
+        "encode_seconds": 0.24991666666666668,
+        "process_wall_seconds": 29.369785366876993,
+        "phase_cpu_busy_mean": 0.8924075334608351,
+        "phase_build_process_mean": 28.819142738448736,
+        "phase_runnable_mean": 26.56884727709475,
+        "steady_clock_median_mhz": 1660.9791666666667,
+        "phase_power_w_mean": 109.75338270009809,
+        "phase_vram_bytes_mean": 20030284970.666668
+      },
+      "mapped": {
+        "steady_tokens_per_second": 37.61450281475722,
+        "total_generation_tokens_per_second": 37.373813436182985,
+        "total_generation_seconds": 14.0374915,
+        "encode_seconds": 0.25033333333333335,
+        "process_wall_seconds": 25.043503954334785,
+        "phase_cpu_busy_mean": 0.891102980375799,
+        "phase_build_process_mean": 27.26484873455498,
+        "phase_runnable_mean": 25.30763647733338,
+        "steady_clock_median_mhz": 2050.375,
+        "phase_power_w_mean": 157.83837295025327,
+        "phase_vram_bytes_mean": 20030416213.333332
+      }
+    }
+  },
+  "matched": {
+    "full_generation_speed": {
+      "blocks": 5,
+      "geometric_change_percent": 27.98679291726508,
+      "descriptive_t95_percent": [
+        21.92891622135126,
+        34.34564719257668
+      ]
+    },
+    "steady_speed": {
+      "blocks": 5,
+      "geometric_change_percent": 28.30516843005771,
+      "descriptive_t95_percent": [
+        22.36977859328791,
+        34.52844677099419
+      ]
+    },
+    "mode_means": {
+      "frozen": {
+        "steady_tokens_per_second": 28.991948757779802,
+        "total_generation_tokens_per_second": 28.884120257928426,
+        "total_generation_seconds": 18.2828866,
+        "encode_seconds": 0.24659999999999999,
+        "process_wall_seconds": 29.669635602203197,
+        "phase_cpu_busy_mean": 0.9151584548492219,
+        "phase_build_process_mean": 26.820267280699348,
+        "phase_runnable_mean": 25.75494284206723,
+        "steady_clock_median_mhz": 1679.85,
+        "phase_power_w_mean": 108.5040718856,
+        "phase_vram_bytes_mean": 20030308352
+      },
+      "mapped": {
+        "steady_tokens_per_second": 36.998764635906994,
+        "total_generation_tokens_per_second": 36.766626971884634,
+        "total_generation_seconds": 14.2232563,
+        "encode_seconds": 0.2322,
+        "process_wall_seconds": 25.499490410208818,
+        "phase_cpu_busy_mean": 0.9138560462988627,
+        "phase_build_process_mean": 27.094257157172077,
+        "phase_runnable_mean": 25.330945162200507,
+        "steady_clock_median_mhz": 1971.05,
+        "phase_power_w_mean": 150.4207060284595,
+        "phase_vram_bytes_mean": 20030731059.2
+      }
+    }
+  },
+  "scope": "Secondarydescriptiveoutcomesonly;notnewmatchingrulesorindependentconfirmation,notpooledwithanyotherexperiment. Naturalclocks/powerandCPUloadreportedasobserved. Fullgenerationspeedincludeswarmwindow;processincludesload/encoding. Noequalclock/generalizationclaim."
+}

@@ -1,0 +1,11 @@
+# Direct native-default work
+
+Short32 completed guardedsession31686terminal0:stock100(no nodecapoverride),stock400,Q3default400 all38targetrows/native34tokens/19drafts/15accepts exact/noGPUerrors. Allfourlegacyoverrides recordedNone(hostvisibleVRAMdisable,preferhostmemory,allowgraphics,suballocation). Baseline .27sourceconfirmsnative nodecap100.
+
+BROADQUAL81143completedterminal0. Allfivecases530rowsPERMODE,1590mode-rowchecks;stock100/stock400/Q3default400 bits/tokens/counters matchnative,noGPUerrors,allfourlegacyoverridesNone. summarise_checks.py passed.
+
+Fixed72direct-defaultattribution NOWLIVE guardedsession84988, model-timing512/20261030T061854Z. Twelve symmetric6armblocks, all6permutationsordertwice, order+reverse. PrimaryQ3default400vsstock100;secondarycap/paddingpair-specificmatchedblocks(min4)descriptive. No owncompile/newcore/samplingchanges. Do notrestart/resample/extend;pollspecificsession/process/logs. Conditionalindependent48A/Cplanpredatesfirstdirecttiming. AllstockDLLsandfrozenassets pinned. Active72datasetwithheldfromarchiveuntilterminal.
+
+PriorBARrestorationindependentconfirmation36431completedterminal0:5matched+28.305%[22.370,34.528],all12raw+28.899%[24.310,33.657];all48native513/279/234exact,noGPUerrors. Itcomparesexplicitforced-unmappedharnessvsrestorednativeBAR,NOTnormallyconfiguredstock. These directdefaultcasesrepairbaselineinterpretation. No pooling/addingpercentages.
+
+Onlyprivate megakernel-review mutations,allClaude/production/model/system/desktop/clocks/affinityunchanged. SerialGPUguard/copy2driver. Fastermega+FAunachieved;goalactive.

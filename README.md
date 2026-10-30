@@ -7,7 +7,8 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 
 ## Start here
 
-- [Mapped-VRAM path](docs/NATIVE-MAPPED-VRAM.md): restores an existing native default, removes2,442queuecalls; fixed48-run discovery+28.6% versus the old harness, confirmation pending.
+- [Direct native-default stock comparison](docs/NATIVE-DEFAULT-BASELINE.md): three modes pass530targetrows each; predeclared72-run attribution underway.
+- [Mapped-VRAM path](docs/NATIVE-MAPPED-VRAM.md): restores an existing native default, removes2,442queuecalls; independent48-run confirmation+28.3% versus the old harness; direct stock-default comparison pending.
 - [Immutable GPU rotation matrices](docs/NATIVE-CONSTANT-ROTATION.md): new private core cache passes530targetrows and repeated KV clears, eliminating444repeated uploads; no model speed claim yet.
 - [Native transfer observer](docs/NATIVE-TRANSFER-OBSERVER.md): identifies1,850 synchronous tensor-set submissions per short decode; ownership-preserving batching is the next target.
 - [Native submission budget](docs/NATIVE-SUBMIT-BUDGET.md): fewer batches and a small discovery gain; independent under-load confirmation remains unqualified.

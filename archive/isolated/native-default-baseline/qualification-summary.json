@@ -1,0 +1,67 @@
+{
+  "cases": [
+    {
+      "case": "model32",
+      "target_rows_per_mode": 38,
+      "sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+      "modes": [
+        "stock100",
+        "stock400",
+        "q3_400"
+      ],
+      "all_native_tokens_counters_and_target_bits_identical": true,
+      "all_four_legacy_overrides_absent": true
+    },
+    {
+      "case": "coding",
+      "target_rows_per_mode": 136,
+      "sha256": "d57c28c4140917e228a584ff8f7f2185caa0c08d51942a70b1dedf891cd95c27",
+      "modes": [
+        "stock100",
+        "stock400",
+        "q3_400"
+      ],
+      "all_native_tokens_counters_and_target_bits_identical": true,
+      "all_four_legacy_overrides_absent": true
+    },
+    {
+      "case": "math",
+      "target_rows_per_mode": 138,
+      "sha256": "cb052233cb56e8fe19113ff905700115393b19bfa263679d308ac800ca4a27f1",
+      "modes": [
+        "stock100",
+        "stock400",
+        "q3_400"
+      ],
+      "all_native_tokens_counters_and_target_bits_identical": true,
+      "all_four_legacy_overrides_absent": true
+    },
+    {
+      "case": "populated-kv64",
+      "target_rows_per_mode": 72,
+      "sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5",
+      "modes": [
+        "stock100",
+        "stock400",
+        "q3_400"
+      ],
+      "all_native_tokens_counters_and_target_bits_identical": true,
+      "all_four_legacy_overrides_absent": true
+    },
+    {
+      "case": "boundary128",
+      "target_rows_per_mode": 146,
+      "sha256": "16a693b0d912e151df9dc942bfb174f1dd5f8c48748f356b07be7cc8f2fa2f49",
+      "modes": [
+        "stock100",
+        "stock400",
+        "q3_400"
+      ],
+      "all_native_tokens_counters_and_target_bits_identical": true,
+      "all_four_legacy_overrides_absent": true
+    }
+  ],
+  "target_rows_per_mode": 530,
+  "mode_row_checks": 1590,
+  "scope": "Directnativeallocation/queue/suballocationdefaultsunderpinnedstack/MTPpolicy;unmodifiedstock100(defaultcapunset),stock400,Q3default400.Fivecasebits/tokens/countersmatchnative,noGPUerrors.No performance/equalclock/generalclaim."
+}

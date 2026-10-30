@@ -1,0 +1,9 @@
+{
+  "hypothesis": "EarlierpairfusionmightundercountskippedmatrixFLOPsandtherebyalterbudgetunintentionally",
+  "finding": "Contradictedbyexistingcode;alreadyaddsskippedup/GLUworkto total_flops and batch_flops whenqpg_active.",
+  "source": "isolated/q3-pair-glu/host/ggml-vulkan.cpp",
+  "source_sha256": "1022fe59960507bb52e241881311802f79e5eefb926287c02c03220d03c0f433",
+  "line": 15133,
+  "evidence": "        if(ctx->qpg_active){for(int j=1;j<=2;++j){const auto extra=ggml_vk_get_node_flops(cgraph->nodes[i+j]);total_flops+=extra;batch_flops+=extra;}}",
+  "action": "NoFLOP-accountingfixorretimingofoldpaircandidateonthishypothesis. Continuecorrectdefaultbaseline;oldmicro-to-modelcoverageandCPU/GPUoverlaplimitationsremain."
+}
