@@ -1,0 +1,21 @@
+{
+  "dataset": "isolated/native-argmax-review/gpu-profile32/20261030T091659Z",
+  "tables": [
+    {
+      "total_serialized_gpu_us": 447553.0,
+      "argmax_calls": 0,
+      "argmax_mean_us": null,
+      "argmax_total_us": 0
+    },
+    {
+      "total_serialized_gpu_us": 2438630.0,
+      "argmax_calls": 78,
+      "argmax_mean_us": 537.094,
+      "argmax_total_us": 41893.4
+    }
+  ],
+  "native_tokens_identical": true,
+  "generated_tokens": 34,
+  "no_new_gpu_errors": true,
+  "scope": "Intrusive32requested-tokenGPUtimestamp logger, includesprompt/warmup, serializesnodes/waits. ARGMAX aggregates all shapes including potentialscalar stage, not fullvocabulary-only attribution. No TPS/criticalpath upperbound or shadergain claim. Correcteffectivecap100 in metadata-correction.json."
+}

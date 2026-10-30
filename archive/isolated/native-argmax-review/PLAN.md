@@ -1,0 +1,5 @@
+# Native argmax cost before a new shader
+
+Use original pinned stock .27/.7/core/common, safe privatecopy2driver, native100/mappeddefaults, MTP1/q8KV/FA/ctx4096. No production changes. Restricted target temperature-only backend sampling previously passes530rawrows and APIactivity, but fixed72modelcomparison fails gain vsstock. Run existing Vulkan GPU timestamp logger on32requestedtokens to identify actual argmax/gather shape/count/time. Includes prompt/warmup and serializes operations/submissions; diagnostic cost attribution only, never TPS/speedup/equalclock proof. Tokens/counters/native mappings/noGPUerrors required. No concurrent GPUwork.
+
+Next isolated operator benchmark should compare native argmax and scalar-gather graph at observed vocabularyK/rowcounts against a minimal GPU control, with native exact finite/tie checks before measuring. Do not implement hierarchical shader unless native cost gives useful headroom. Preserve native bit-reversed-lane tie order and nonfinite semantics. Fullmodelgain would still require fresh native numerical audits and matched-load A/B.

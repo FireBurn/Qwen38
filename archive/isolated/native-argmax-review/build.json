@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/native-argmax-review/native-argmax-bench.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/native-argmax-review/native-argmax-bench"
+  ],
+  "source_sha256": "895d66d5a3cfa7f06916b41d7b33f2d6694dd7fbae42a7853282a51fadf49484",
+  "binary_sha256": "99e600ecb99a68d7187f9b19317d6a7787cad1c6daad9b6b62d2839daa97523e",
+  "scope": "Native existing argmax/gather operator diagnostic, no customshader/no modelgainclaim."
+}

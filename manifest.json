@@ -24747,7 +24747,191 @@
       "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
       "bytes": 135,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/PLAN.md",
+      "path": "archive/isolated/native-argmax-review/PLAN.md",
+      "source_sha256": "a7023db54ff71a24ff8efa4cf5070872a9de9ae53cb6ec1dbe350a5ae9a3abb3",
+      "export_sha256": "a7023db54ff71a24ff8efa4cf5070872a9de9ae53cb6ec1dbe350a5ae9a3abb3",
+      "bytes": 1089,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/STATUS.md",
+      "path": "archive/isolated/native-argmax-review/STATUS.md",
+      "source_sha256": "da475dbd5a457bb14abafff584048963301c4b75ffcc3ee6f1a1d228fa5462fd",
+      "export_sha256": "da475dbd5a457bb14abafff584048963301c4b75ffcc3ee6f1a1d228fa5462fd",
+      "bytes": 1259,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/build.json",
+      "path": "archive/isolated/native-argmax-review/build.json",
+      "source_sha256": "8bb28d8bd3cc259f256f976688c9876b2b0b663f6beac9550fff413e5a1b1f06",
+      "export_sha256": "607c87b660066de1dac7ed5a06b0f5e9ccb1f2180b1c0aa3600137a00130d605",
+      "bytes": 859,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/gpu-profile32/20261030T091659Z/assets.json",
+      "path": "archive/isolated/native-argmax-review/gpu-profile32/20261030T091659Z/assets.json",
+      "source_sha256": "7495e3b2bd83e18242a6c48b08e7cef5baf4d5cb4032e8939ae55f5e2b502b7a",
+      "export_sha256": "86675b2b3ac26fd215edc3ab92d00698d1b7485e5096f32b56ded4172bb68d2e",
+      "bytes": 1957,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/gpu-profile32/20261030T091659Z/checks.json",
+      "path": "archive/isolated/native-argmax-review/gpu-profile32/20261030T091659Z/checks.json",
+      "source_sha256": "b7d6c56908ff29b11938258aca617e27420f9c8c73c40ded6723de5d453d65a7",
+      "export_sha256": "53542eedb9fa2bf90e7de87a8ae23024fe8bc0f4aa34cdb32a6503c30cddf952",
+      "bytes": 1974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/gpu-profile32/20261030T091659Z/execution.json",
+      "path": "archive/isolated/native-argmax-review/gpu-profile32/20261030T091659Z/execution.json",
+      "source_sha256": "e10d0dc5b6fd0a9c3bf62ed9532a4449334e2710cfb0b516076e4eb380f0f6e7",
+      "export_sha256": "48dad1a2366ad71052a28b31024a3ebbce1427fe58cfd0d887f00910dd8e4b98",
+      "bytes": 1806,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/gpu-profile32/20261030T091659Z/metadata-correction.json",
+      "path": "archive/isolated/native-argmax-review/gpu-profile32/20261030T091659Z/metadata-correction.json",
+      "source_sha256": "0ac63eeea32d1d6203204bfa62e12e31510fcd5a4c83c11bdd0fb5718487b8d1",
+      "export_sha256": "0ac63eeea32d1d6203204bfa62e12e31510fcd5a4c83c11bdd0fb5718487b8d1",
+      "bytes": 506,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/gpu-profile32/20261030T091659Z/run.log",
+      "path": "archive/isolated/native-argmax-review/gpu-profile32/20261030T091659Z/run.log",
+      "source_sha256": "2b13dbcd825994600ef066ca6c6a10c12f991906bd73b36349b33c2282f3ec10",
+      "export_sha256": "57ecf62cf0010096bbf9464fca5a5d1172a52f20bb0609372a25468332698900",
+      "bytes": 13491,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/micro-run.log",
+      "path": "archive/isolated/native-argmax-review/micro-run.log",
+      "source_sha256": "a708e733c561242bb0791c9dbe45979f2f0230b59bb2d49b78273e130a2d0059",
+      "export_sha256": "d4f5fb495bc8dcd7536c19db4924cfabe66706a73b0dadf6b5fd096f2cad8dce",
+      "bytes": 2107,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/native-argmax-bench.cpp",
+      "path": "archive/isolated/native-argmax-review/native-argmax-bench.cpp",
+      "source_sha256": "895d66d5a3cfa7f06916b41d7b33f2d6694dd7fbae42a7853282a51fadf49484",
+      "export_sha256": "895d66d5a3cfa7f06916b41d7b33f2d6694dd7fbae42a7853282a51fadf49484",
+      "bytes": 2944,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/native-micro/20261030T091931Z/00.log",
+      "path": "archive/isolated/native-argmax-review/native-micro/20261030T091931Z/00.log",
+      "source_sha256": "c70edeab7f14efafbfd6a1a5d6f8709003da218f88040850254894cd0d8f8f36",
+      "export_sha256": "f31aa2cc682e1703a2df911e988e3e9f632247fead0c08534f0e22146d3fda54",
+      "bytes": 919,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/native-micro/20261030T091931Z/01.log",
+      "path": "archive/isolated/native-argmax-review/native-micro/20261030T091931Z/01.log",
+      "source_sha256": "cbcd7060c9ee9ccf331aea92ec9f9d842c0f62fb3f98683df1ef4de6b9f78a2f",
+      "export_sha256": "26105c2353db17c14fe2c68e1ab8f3537eff8a5ead707723e07281eb14d0ff54",
+      "bytes": 926,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/native-micro/20261030T091931Z/02.log",
+      "path": "archive/isolated/native-argmax-review/native-micro/20261030T091931Z/02.log",
+      "source_sha256": "2bd8c731934324754890f931483521ccd82f24c085d97cb4ad5bbd9efb73a7de",
+      "export_sha256": "d30604f15a08fbc3a8690030e0c52aed69a3672f4ebbf93da32def2eba11b097",
+      "bytes": 926,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/native-micro/20261030T091931Z/03.log",
+      "path": "archive/isolated/native-argmax-review/native-micro/20261030T091931Z/03.log",
+      "source_sha256": "af7f8a0642eb399ffaf331148f9bf99bb9158c12c10c13a3483ce2a6ac831e1a",
+      "export_sha256": "dcc5f4b4b4ab79a5d49acdb571c8dc11367e522ae6be6b730c9c7a0a51188e7d",
+      "bytes": 919,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/native-micro/20261030T091931Z/04.log",
+      "path": "archive/isolated/native-argmax-review/native-micro/20261030T091931Z/04.log",
+      "source_sha256": "0fa526fcb9b6e6826b93c4ad25c14c759ca82334f924c11c7bf8dc7ad850419a",
+      "export_sha256": "222874a7757725937b655e5a6f4ca0ea355240e1818e14356db9e7013ce9346c",
+      "bytes": 926,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/native-micro/20261030T091931Z/05.log",
+      "path": "archive/isolated/native-argmax-review/native-micro/20261030T091931Z/05.log",
+      "source_sha256": "9d799bdd69bc9806892ed120a34a4affb9043a8e4eb90bb12b95aa14c96c027e",
+      "export_sha256": "3dd93e4a061e1d651665a79e0a2966676a680a3c2f8c121ca1fd08c67a9b2762",
+      "bytes": 927,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/native-micro/20261030T091931Z/assets.json",
+      "path": "archive/isolated/native-argmax-review/native-micro/20261030T091931Z/assets.json",
+      "source_sha256": "0704d9f16db3052f292cfc79ffcdb2b09b6fdd0b2399a23e587fe697442c7b15",
+      "export_sha256": "9d36b599b4d0bd79c928025c1234f92480f2d20a9eab9e5da87bf25bf5df8aa4",
+      "bytes": 925,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/native-micro/20261030T091931Z/results.json",
+      "path": "archive/isolated/native-argmax-review/native-micro/20261030T091931Z/results.json",
+      "source_sha256": "5fa4d5459530509bf9d78e81c17d9e569aa1afb5c5e3b4ba53d9f0cc366ee0ed",
+      "export_sha256": "5fa4d5459530509bf9d78e81c17d9e569aa1afb5c5e3b4ba53d9f0cc366ee0ed",
+      "bytes": 2136,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/profile-run.log",
+      "path": "archive/isolated/native-argmax-review/profile-run.log",
+      "source_sha256": "987db81cc3a906f516bb077f5803ea4d561729e4bf42b9f9b7757b56430de240",
+      "export_sha256": "53b3fed3b898a90d41c6675e4172d9a7acb7233df938f360ffc077d3ea8c1df2",
+      "bytes": 344,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/profile-summary.json",
+      "path": "archive/isolated/native-argmax-review/profile-summary.json",
+      "source_sha256": "75d6ee9b0e430e16d94e5ca35bb193f22df9855279f2c13f47cd0e9bdb483f98",
+      "export_sha256": "75d6ee9b0e430e16d94e5ca35bb193f22df9855279f2c13f47cd0e9bdb483f98",
+      "bytes": 785,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/publish.py",
+      "path": "archive/isolated/native-argmax-review/publish.py",
+      "source_sha256": "5d7a329b418147255942d8618220705fcb04752946f0121f2aefd628ec61c067",
+      "export_sha256": "53fd4cd7bd92f53980b57215e162da244c62d02e0840ea162fe60f95f74be9f7",
+      "bytes": 1515,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_argmax_micro.py",
+      "path": "archive/isolated/run_native_argmax_micro.py",
+      "source_sha256": "3e876f3d418cbeb86fc10d0b1630336312a5461e6ffb1c8205f5f8eacb274f2f",
+      "export_sha256": "3e876f3d418cbeb86fc10d0b1630336312a5461e6ffb1c8205f5f8eacb274f2f",
+      "bytes": 2817,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_argmax_profile32.py",
+      "path": "archive/isolated/run_native_argmax_profile32.py",
+      "source_sha256": "cbf5dcdcfa5863c481077e209413e20881e24913f7cdfb231f2d8905b3acd2d4",
+      "export_sha256": "cbf5dcdcfa5863c481077e209413e20881e24913f7cdfb231f2d8905b3acd2d4",
+      "bytes": 5790,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-30T09:15:31.059842+00:00"
+  "updated_utc": "2026-10-30T09:21:53.423688+00:00"
 }
