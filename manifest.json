@@ -22267,7 +22267,279 @@
       "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
       "bytes": 135,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/MODEL-TIMING-PLAN.md",
+      "path": "archive/isolated/native-default-q3-100/MODEL-TIMING-PLAN.md",
+      "source_sha256": "485cc897cecf9aa3f099037d2f4c9c86a0ec14d0c54603e77b9cd2d82333dc41",
+      "export_sha256": "485cc897cecf9aa3f099037d2f4c9c86a0ec14d0c54603e77b9cd2d82333dc41",
+      "bytes": 1368,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/PLAN.md",
+      "path": "archive/isolated/native-default-q3-100/PLAN.md",
+      "source_sha256": "7ab1f023d402df5854eeca0851743450dd466180afb1a28bd3b21ea83f7cec43",
+      "export_sha256": "7ab1f023d402df5854eeca0851743450dd466180afb1a28bd3b21ea83f7cec43",
+      "bytes": 930,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/STATUS.md",
+      "path": "archive/isolated/native-default-q3-100/STATUS.md",
+      "source_sha256": "7f72d6232bf22b8c57e982d8da9e2e52f29d4a317a3a23560f89bac8c785ee78",
+      "export_sha256": "7f72d6232bf22b8c57e982d8da9e2e52f29d4a317a3a23560f89bac8c785ee78",
+      "bytes": 598,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/analyse_outcomes.py",
+      "path": "archive/isolated/native-default-q3-100/analyse_outcomes.py",
+      "source_sha256": "7cc8871693644ecb2a472b18b1f499aad7da08ec75ecfba5f1190b7ed6d80f33",
+      "export_sha256": "7cc8871693644ecb2a472b18b1f499aad7da08ec75ecfba5f1190b7ed6d80f33",
+      "bytes": 2786,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/build.json",
+      "path": "archive/isolated/native-default-q3-100/build.json",
+      "source_sha256": "3563b029d929d6485a3e0699f01dce5eff5eb5a0bcee609e01f95d254c7ead15",
+      "export_sha256": "3563b029d929d6485a3e0699f01dce5eff5eb5a0bcee609e01f95d254c7ead15",
+      "bytes": 185,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/model32/assets.json",
+      "path": "archive/isolated/native-default-q3-100/model32/assets.json",
+      "source_sha256": "1df0560cfcdcb4c6d5220b6fc45b8aa5093460c936a1da5ba7375a66eb5a0821",
+      "export_sha256": "d16043e1b0a5917fc02bf67fbad20de885b8cea9332aa862a99d0284e8efeb37",
+      "bytes": 2685,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-q3-100/model32/audit-archive.json",
+      "path": "archive/isolated/native-default-q3-100/model32/audit-archive.json",
+      "source_sha256": "ed33640017cdaf4fd409f96031b33d86c6ca3e5be805fe6894f34f812332e8d3",
+      "export_sha256": "ed33640017cdaf4fd409f96031b33d86c6ca3e5be805fe6894f34f812332e8d3",
+      "bytes": 212,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/model32/checks.json",
+      "path": "archive/isolated/native-default-q3-100/model32/checks.json",
+      "source_sha256": "52bdeb77c49000bbbd273c17e99497ce4554addb1f44a24a0ffd2aaac5db17c5",
+      "export_sha256": "52bdeb77c49000bbbd273c17e99497ce4554addb1f44a24a0ffd2aaac5db17c5",
+      "bytes": 2615,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/model32/comparison.json",
+      "path": "archive/isolated/native-default-q3-100/model32/comparison.json",
+      "source_sha256": "5057a342032766b1b924de235cbaafc9c572da9af702823707d7399b2d45d7bd",
+      "export_sha256": "5057a342032766b1b924de235cbaafc9c572da9af702823707d7399b2d45d7bd",
+      "bytes": 634,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/populated-kv64/assets.json",
+      "path": "archive/isolated/native-default-q3-100/populated-kv64/assets.json",
+      "source_sha256": "3f2853a805f2f40e39774094c20b752fc94f83a36eda45258173daa72fb49b76",
+      "export_sha256": "f085001430beab389bed5ab80925cedba07433f23f0c2fe9fc1b9d2940ffb3f1",
+      "bytes": 2879,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-q3-100/populated-kv64/checks.json",
+      "path": "archive/isolated/native-default-q3-100/populated-kv64/checks.json",
+      "source_sha256": "15b97f4afb5e11739248db420ee00731a7c165c677b81509da1a3a292d176406",
+      "export_sha256": "15b97f4afb5e11739248db420ee00731a7c165c677b81509da1a3a292d176406",
+      "bytes": 3472,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/prepare_checks.py",
+      "path": "archive/isolated/native-default-q3-100/prepare_checks.py",
+      "source_sha256": "a1061249f3db9c2a61befaa20805d2713b4d2eb11aa4db7ba387cc672711c813",
+      "export_sha256": "a1061249f3db9c2a61befaa20805d2713b4d2eb11aa4db7ba387cc672711c813",
+      "bytes": 1571,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/prepare_timing.py",
+      "path": "archive/isolated/native-default-q3-100/prepare_timing.py",
+      "source_sha256": "a6ed86a2ca585bd4fecba5537b922c508ad60c57cd25279e8823cd4662d3f768",
+      "export_sha256": "a6ed86a2ca585bd4fecba5537b922c508ad60c57cd25279e8823cd4662d3f768",
+      "bytes": 2549,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/prompts128/assets.json",
+      "path": "archive/isolated/native-default-q3-100/prompts128/assets.json",
+      "source_sha256": "33994781e54968b8a0d64ff9a1890308260829f749eecfec59374a6f16a12640",
+      "export_sha256": "0a324b74ef9fd47e02033354d21734478d6997eb5cf3c2c3085b04fb5ffc5192",
+      "bytes": 2885,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-q3-100/prompts128/checks.json",
+      "path": "archive/isolated/native-default-q3-100/prompts128/checks.json",
+      "source_sha256": "73cf78e38817341aab003b20abe6724b296353b024035961900ba50ccd9ba355",
+      "export_sha256": "73cf78e38817341aab003b20abe6724b296353b024035961900ba50ccd9ba355",
+      "bytes": 9509,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/native-default-q3-100/prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/prompts128/comparison.json",
+      "path": "archive/isolated/native-default-q3-100/prompts128/comparison.json",
+      "source_sha256": "3dcf873df84a391b2213506ad82c3d0d9d95dc103f446c0ac50bf26701ce0dba",
+      "export_sha256": "3dcf873df84a391b2213506ad82c3d0d9d95dc103f446c0ac50bf26701ce0dba",
+      "bytes": 408,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/prompts128/math/audit-archive.json",
+      "path": "archive/isolated/native-default-q3-100/prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/publish.py",
+      "path": "archive/isolated/native-default-q3-100/publish.py",
+      "source_sha256": "8c926b277757a79c03c57f1f917920b6813862af65802516c2c6cf3374c6c892",
+      "export_sha256": "d59244070110c3b05c94a193f0d1abbe3dc7269109b8d9742b25526cac3680c9",
+      "bytes": 1389,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-q3-100/summarise_checks.py",
+      "path": "archive/isolated/native-default-q3-100/summarise_checks.py",
+      "source_sha256": "4aefe09e24cae77252e8ab739131d85899ce746ca74c48e7c9a5579d6efa9f0b",
+      "export_sha256": "4aefe09e24cae77252e8ab739131d85899ce746ca74c48e7c9a5579d6efa9f0b",
+      "bytes": 1685,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_q3_100_boundary128.py",
+      "path": "archive/isolated/run_native_q3_100_boundary128.py",
+      "source_sha256": "4a732f88d94193f6ed276d213e58682664c9399069df4cefa28acd127023f80f",
+      "export_sha256": "1e18f02f615d7aebf9725f9c41013869380004980505a58fbfa408c9948c5e84",
+      "bytes": 10612,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_q3_100_confirm.py",
+      "path": "archive/isolated/run_native_q3_100_confirm.py",
+      "source_sha256": "17e653ece29eb2c3541911fd2e77f035e920b2a895a44cd318b8d5d1b5f4057b",
+      "export_sha256": "f6f2f62cfd8dd9aa31812feee71084ade621bf3972b018349db6bc1ae2ccb926",
+      "bytes": 17531,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_q3_100_kv64.py",
+      "path": "archive/isolated/run_native_q3_100_kv64.py",
+      "source_sha256": "6572c40ba530026c3fabc99f556a5e7eb07d0a220d9f02f29d6490675b4c3f13",
+      "export_sha256": "fcb5d942fb4bc4f65c2bf6f070fed0118bdab8f2992a4097ede7c5c062e7166e",
+      "bytes": 21421,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_q3_100_model32.py",
+      "path": "archive/isolated/run_native_q3_100_model32.py",
+      "source_sha256": "df85e1dd9dbc4279cbb145c993c2daac6584949a10d49717fa6cfa1a3dccdcf7",
+      "export_sha256": "fa1b8ec4d4f0f2f4c67132aded28929bfc7497af475895163721bad266c2b00d",
+      "bytes": 9889,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_q3_100_prompts128.py",
+      "path": "archive/isolated/run_native_q3_100_prompts128.py",
+      "source_sha256": "ea973bbcff428d922ef075bb7548b18d23cb60640e449882877fffa5ecc2a506",
+      "export_sha256": "016fd9fbb96cf5ecc155c5710c829287dc5dfef2d2f291611c44d2d39bf61013",
+      "bytes": 9105,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_q3_100_timing.py",
+      "path": "archive/isolated/run_native_q3_100_timing.py",
+      "source_sha256": "6c98b4e1a9959443cc5e2795f5526a9a2670f34073f89f556a96f8a1d835374a",
+      "export_sha256": "bdfd9863b82b3c101210d34f5d49dab261144c564ee043cc379c3467b9770efe",
+      "bytes": 17278,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-q3-100/boundary128/assets.json",
+      "path": "archive/isolated/native-default-q3-100/boundary128/assets.json",
+      "source_sha256": "4f7dcc8d4302c8141f9f1966613b4214b369e136db4f460eac983745ab5fe664",
+      "export_sha256": "b511a10f35b95efb891c3b55fdc314e1d51d39cae5eba109424b53202af1d2fd",
+      "bytes": 2886,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-default-q3-100/boundary128/audit-archive.json",
+      "path": "archive/isolated/native-default-q3-100/boundary128/audit-archive.json",
+      "source_sha256": "5fd395333ddfe0dc14fdd701ae7f7a4336f2871381efb0efd522cdbadc04e5af",
+      "export_sha256": "5fd395333ddfe0dc14fdd701ae7f7a4336f2871381efb0efd522cdbadc04e5af",
+      "bytes": 212,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/boundary128/checks.json",
+      "path": "archive/isolated/native-default-q3-100/boundary128/checks.json",
+      "source_sha256": "bd525fff0c60aaf72f534ffb0f5f3f98df19ba67cf37a71956fcabfadb730992",
+      "export_sha256": "bd525fff0c60aaf72f534ffb0f5f3f98df19ba67cf37a71956fcabfadb730992",
+      "bytes": 4910,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/boundary128/comparison.json",
+      "path": "archive/isolated/native-default-q3-100/boundary128/comparison.json",
+      "source_sha256": "12054d6dab897131cc9b8b297654331af5826717b5886b7bd4dccf3beb70f976",
+      "export_sha256": "12054d6dab897131cc9b8b297654331af5826717b5886b7bd4dccf3beb70f976",
+      "bytes": 720,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/populated-kv64/audit-archive.json",
+      "path": "archive/isolated/native-default-q3-100/populated-kv64/audit-archive.json",
+      "source_sha256": "a15f9f788ca4400d1052316039a5e161bd993c92591980cc0e1d024b5609f358",
+      "export_sha256": "a15f9f788ca4400d1052316039a5e161bd993c92591980cc0e1d024b5609f358",
+      "bytes": 212,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/populated-kv64/comparison.json",
+      "path": "archive/isolated/native-default-q3-100/populated-kv64/comparison.json",
+      "source_sha256": "9b730b9ea2b2c501e45b2a14138146ff4de9f07f029c0d7bf81e0e172a825090",
+      "export_sha256": "9b730b9ea2b2c501e45b2a14138146ff4de9f07f029c0d7bf81e0e172a825090",
+      "bytes": 718,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/qualification-summary.json",
+      "path": "archive/isolated/native-default-q3-100/qualification-summary.json",
+      "source_sha256": "7d6ba21228fb58426afc7fc293a941c28dfc66b31a943651f96d2ff5a8ec713f",
+      "export_sha256": "7d6ba21228fb58426afc7fc293a941c28dfc66b31a943651f96d2ff5a8ec713f",
+      "bytes": 1990,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-default-q3-100/timing-preflight.json",
+      "path": "archive/isolated/native-default-q3-100/timing-preflight.json",
+      "source_sha256": "daab1cc28f39264526c23b6a34eda65ba3a0a62a4786e8ef3a2d5ef2e77aa3e6",
+      "export_sha256": "daab1cc28f39264526c23b6a34eda65ba3a0a62a4786e8ef3a2d5ef2e77aa3e6",
+      "bytes": 1095,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-30T07:01:31.358486+00:00"
+  "updated_utc": "2026-10-30T07:05:27.385454+00:00"
 }

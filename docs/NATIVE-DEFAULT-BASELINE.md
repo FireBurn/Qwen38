@@ -35,3 +35,11 @@ All-run arithmetic means: stock10034.602, stock40033.563, Q3cap40034.026tokens/s
 The primary fails the predeclared positive-gain gate, so its conditional48-run confirmation will not run. Older gains under forced nonmapped allocation do not transfer to ordinary native defaults. Padding at cap100 is a new interaction hypothesis requiring fresh numerical qualification and separate timing; secondary contrasts cannot establish that unmeasured configuration.
 
 [Primary analysis](../archive/isolated/native-default-baseline/model-timing512/20261030T061854Z/confirmation-analysis.json), [secondary full-generation and telemetry outcomes](../archive/isolated/native-default-baseline/model-timing512/20261030T061854Z/outcomes-summary.json).
+
+## Padding with the native cap100: qualification complete, timing pending
+
+The distinct Q3default100 configuration passes all five native numerical cases:530full target-logit rows per arm,1,060mode-row checks, exact tokens/counters/bits, zero new GPU errors. Both arms leave the node-cap override and four legacy allocation/queue/suballocation overrides absent. Actual padded-Q3 dispatch is verified; the stock core, driver and model policy remain unchanged.
+
+A separately predeclared fixed48 fresh512-request-token comparison is now running:12alternatingABBA/BAABblocks,24processes per arm, original CPU/build/runqueue rules, no retries/extensions/pooling. Only a positive primary lower bound with at least four matched blocks permits an independent48-run confirmation. No speed result is claimed yet.
+
+[Qualification summary](../archive/isolated/native-default-q3-100/qualification-summary.json), [scope](../archive/isolated/native-default-q3-100/PLAN.md), [fixed timing and conditional confirmation plan](../archive/isolated/native-default-q3-100/MODEL-TIMING-PLAN.md), [timing recipe preflight](../archive/isolated/native-default-q3-100/timing-preflight.json). Active timing data are withheld until terminal.
