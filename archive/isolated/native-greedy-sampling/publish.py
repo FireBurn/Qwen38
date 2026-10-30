@@ -7,6 +7,8 @@ for folder in [p,b/'native-mapped-plan-reuse']:
  for f in folder.rglob('*'):
   if not f.is_file()or f.suffix not in ['.py','.cpp','.h','.md','.json','.comp']:continue
   if 'build-inputs'in f.relative_to(folder).parts:continue
+  parts=f.relative_to(folder).parts
+  if parts[0]in ['model-timing512','model-confirmation512']and not(folder/parts[0]/parts[1]/'confirmation-analysis.json').exists():continue
   files.append(f)
 files+=list(b.glob('run_native_mapped_reuse_*.py'))
 files+=list(b.glob('run_native_callback_*.py'))

@@ -18,3 +18,5 @@ All experimental changes remain inside the private review workspace. Claude/prod
 Private disk cleanup removed1.30GBof reproducible historical shader caches after a broad-audit disk-space preflight stop before inference. Sources, pinned SPIRV, binaries, logs and numerical evidence remain. [Audit status and preserved attempt](../archive/isolated/native-greedy-sampling/STATUS.md).
 
 [Completed530-row callback qualification](../archive/isolated/native-greedy-sampling/callback-qualification-summary.json).
+
+The three short sampling controls now pass38rawtargetrows each with identical stock tokens/counters and noGPUerrors. GPUtemperature-only mode passes sampled-token/scalar-output API checks. Broader three-way qualification is running; a fixed72throughput plan is predeclared but has not started. [Short activity evidence](../archive/isolated/native-greedy-sampling/sampling-short-activity.json), [timing protocol and conditional confirmation](../archive/isolated/native-greedy-sampling/MODEL-TIMING-PLAN.md). No sampling speedup claimed.

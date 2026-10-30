@@ -1,0 +1,959 @@
+{
+  "utc": "2026-10-30T08:35:09.314744+00:00",
+  "bytes": 500209868,
+  "removed": [
+    {
+      "path": "isolated/q3-pad112/arena-model32/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-pad112/arena-model32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-native-correction/model32/cache-shuffle/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-native-correction/model32/cache-native/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-column-reuse/prompts128/cache-reuse400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-column-reuse/populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-column-reuse/populated-kv64/cache-reuse400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-column-reuse/populated-kv64/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-column-reuse/model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-column-reuse/model32/cache-reuse400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-column-reuse/model32/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-column-reuse/boundary128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-column-reuse/boundary128/cache-reuse400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/q3-column-reuse/boundary128/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-shaders/timing-smoke32/cache-stock/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-shaders/timing-smoke32/cache-quant/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-shaders/timing-smoke32/cache-q3/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-shaders/timing-smoke32/cache-control/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-shaders/timing-smoke32/cache-both/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-shaders/stock-model32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-shaders/model32/cache-mask3/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-shaders/model32/cache-mask2/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-shaders/model32/cache-mask1/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-shaders/model32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-stock/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask7/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask6/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask5/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask4/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask3/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask2/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask1/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/timing-smoke32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/prompts128/cache-mask7/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/prompts128/cache-mask4/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/prompts128/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model32/cache-mask7/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model32/cache-mask4/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model32/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask7/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask6/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask5/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask4/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask3/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask2/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask1/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model136-factorial/cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-stock/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask7/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask6/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask5/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask4/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask3/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask2/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask1/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/production-native-fusion/model-timing-cache-mask0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/sync-metadata/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model16/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model16/cache-fused/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views16/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views16/cache-fused/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views136/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-views136/cache-fused/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle16/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle16/cache-fused_shuffle64/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle16/cache-fused_shuffle32/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle16/cache-fused_parent64/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle136/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle136/cache-fused_shuffle64/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle136/cache-fused_shuffle32/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shuffle136/cache-fused_parent64/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shadow16/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shadow16/cache-fused/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shadow-quant16/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-shadow-quant16/cache-fused/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-scalar16/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-scalar16/cache-fused/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt16/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt16/cache-fused/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt136/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-nativeopt136/cache-fused/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce16/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce16/cache-fused_coalesced/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce16/cache-fused/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce136/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce136/cache-fused_coalesced/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-coalesce136/cache-fused/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/model-audit/cache-native_top10/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/coalesce-prompts/cache-off/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-swiglu-q8/coalesce-prompts/cache-coalesced/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/prompts128/cache-divisor40/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/prompts128/cache-divisor20/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/populated-kv64/cache-control40/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/populated-kv64/cache-budget20/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/model32/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/model32/cache-control40/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/model32/cache-budget20/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/boundary128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/boundary128/cache-control40/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-submit-budget/boundary128/cache-budget20/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-rebar-input/prompts128/cache-mapped0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-rebar-input/populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-rebar-input/populated-kv64/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-rebar-input/model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-rebar-input/model32/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-rebar-input/boundary128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-rebar-input/boundary128/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32/cache-shuffle/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32/cache-native/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32-static-v2/cache-shuffle/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-quant-shuffle/model32-static-v2/cache-native/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-host-planning-profile/model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-host-planning-profile/model32/cache-profile400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/prompts128/cache-reader2/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/prompts128/cache-reader1/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/populated-kv64/cache-verify400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/populated-kv64/cache-index400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/model32/cache-verify400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/model32/cache-index400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/boundary128/cache-verify400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/boundary128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-gdn-reader-index/boundary128/cache-index400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-prompts128/cache-reader0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-populated-kv64/cache-audit400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-model32/cache-audit400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-boundary128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/validator-boundary128/cache-audit400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-prompts128/cache-reader2/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-prompts128/cache-reader1/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-populated-kv64/cache-verify400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-populated-kv64/cache-index400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-model32/cache-verify400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-model32/cache-index400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-model32/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-boundary128/cache-verify400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-boundary128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/reuse-boundary128/cache-index400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-fusion-plan/model32/cache-audit400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/prompts128/cache-constTrue/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/prompts128/cache-constFalse/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/populated-kv64/cache-private1/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/populated-kv64/cache-private0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32/cache-private1/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32/cache-private0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt2-suppressed-info-log/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt2-suppressed-info-log/cache-private1/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt2-suppressed-info-log/cache-private0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt2-suppressed-info-log/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt1-path-order/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/model32-attempt1-path-order/cache-frozen400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/boundary128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/boundary128/cache-private1/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-constant-rotation/boundary128/cache-private0/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-command-observer/prompts128/cache-mask8/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-command-observer/populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-command-observer/populated-kv64/cache-observer400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-command-observer/model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-command-observer/model32/cache-observer400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-command-observer/boundary128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/native-command-observer/boundary128/cache-observer400/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-bins-micro/cache/radv_builtin_shaders",
+      "bytes": 2101989
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-sparse-micro/cache/radv_builtin_shaders",
+      "bytes": 2101428
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-reduce-micro/cache/radv_builtin_shaders",
+      "bytes": 2101428
+    },
+    {
+      "path": "isolated/mtp-head-bound-audit/gpu-queued-micro/cache/radv_builtin_shaders",
+      "bytes": 2101428
+    },
+    {
+      "path": "isolated/sdma-optin-probe/copy-cache/radv_builtin_shaders",
+      "bytes": 2101041
+    },
+    {
+      "path": "isolated/native-rebar-input/prompts128/cache-mapped1/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-rebar-input/populated-kv64/cache-mapped400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-rebar-input/model32/cache-mapped400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-rebar-input/boundary128/cache-mapped400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-q3-100/prompts128/cache-stock100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-q3-100/prompts128/cache-q3_100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-q3-100/populated-kv64/cache-stock100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-q3-100/populated-kv64/cache-q3_100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-q3-100/model32/cache-stock100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-q3-100/model32/cache-q3_100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-q3-100/boundary128/cache-stock100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-q3-100/boundary128/cache-q3_100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/prompts128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/prompts128/cache-stock100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/prompts128/cache-q3_400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/populated-kv64/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/populated-kv64/cache-stock100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/populated-kv64/cache-q3_400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/model32/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/model32/cache-stock100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/model32/cache-q3_400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/boundary128/cache-stock400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/boundary128/cache-stock100/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/native-default-baseline/boundary128/cache-q3_400/radv_builtin_shaders",
+      "bytes": 2101017
+    },
+    {
+      "path": "isolated/q3-pair-glu/eligibility/cache/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-operators/cache-c1-mask7/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-operators/cache-c1-mask4/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/q3-pad112/fusion-options-operators/cache-c1-mask0/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/q3-native-correction/operators/cache-shuffle/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/q3-native-correction/operators/cache-native/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/q3-native-correction/operator-resources/cache-shuffle/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/q3-native-correction/operator-resources/cache-native/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c1-mask3/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c1-mask2/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c1-mask1/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/production-native-shaders/operators/cache-c1-mask0/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/production-native-fusion/operators/cache-c1-mask7/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/production-native-fusion/operators/cache-c1-mask4/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/production-native-fusion/operators/cache-c1-mask0/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/production-native-fusion/operators-q4-first/cache-c1-mask7/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/production-native-fusion/operators-q4-first/cache-c1-mask4/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/production-native-fusion/operators-q4-first/cache-c1-mask0/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-views16/cache-native/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-views16/cache-fused/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-shuffle16/cache-shuffle64/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-shuffle16/cache-shuffle32/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-shuffle16/cache-parent64/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-shuffle16/cache-native/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-scalar16/cache-native/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-scalar16/cache-fused/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-nativeopt16/cache-native/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-nativeopt16/cache-fused/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-host16/cache-native/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-host16/cache-fused/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-four-quant16/cache-native/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-four-quant16/cache-fused/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-four-quant16/cache-coalesced/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-four-quant16-attempt1/cache-native/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-coalesce16/cache-native/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-coalesce16/cache-fused/radv_builtin_shaders",
+      "bytes": 2100974
+    },
+    {
+      "path": "isolated/native-swiglu-q8/operator-coalesce16/cache-coalesced/radv_builtin_shaders",
+      "bytes": 2100974
+    }
+  ],
+  "scope": "Additional reproducible private historical caches only, preserve all currentsampling/main timingcaches and evidence."
+}

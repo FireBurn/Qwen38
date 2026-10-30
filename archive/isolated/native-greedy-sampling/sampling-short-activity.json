@@ -1,0 +1,24 @@
+{
+  "cases": [
+    {
+      "mode": "stock100",
+      "activity_rows": 38,
+      "backend_active": false,
+      "scalar_outputs_verified": false
+    },
+    {
+      "mode": "temp_cpu",
+      "activity_rows": 38,
+      "backend_active": false,
+      "scalar_outputs_verified": false
+    },
+    {
+      "mode": "temp_gpu",
+      "activity_rows": 38,
+      "backend_active": true,
+      "scalar_outputs_verified": true
+    }
+  ],
+  "all_three_raw_target_bits_tokens_counters_identical": true,
+  "scope": "Short38rows/config only, GPUactivityAPIassertions, no throughput/generalgreedyequivalenceclaim"
+}
