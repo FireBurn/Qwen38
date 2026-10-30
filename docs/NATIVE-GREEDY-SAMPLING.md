@@ -43,3 +43,5 @@ All12primaryblocks:+0.181%[-0.547%,+0.914%]. Primaryfull-generation speed:+0.168
 Source-level explanation to investigate: defaulttopk reduces subsequent CPUtemperature/distribution work to a shortlist. Temperature-only removes topk but makes those later stages process the full vocabulary. Backend mode recovers the observed temperature-only regression, without a stocklatency improvement. This is a hypothesis about cost attribution, not a CPU/GPUprofile result. Next measure nativeGPUargmax on its actual dimensions before writing hierarchical reduction kernels.
 
 [Complete analysis](../archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/confirmation-analysis.json), [full-generation and telemetry outcomes](../archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/outcomes-summary.json).
+
+The subsequent [widerargmax prototype](NATIVE-ARGMAX.md) nowpasses adversarial/modelaudits and improves isolatedoperatorgraphwalltime; its full-model comparison isrunning. A two-stagehierarchical reduction remains a separate unimplemented lead.

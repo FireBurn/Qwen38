@@ -1,0 +1,394 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+NATIVE_SHADER_MODULES quant=0 q3=0,0,0
+0.11.754.431 I cmn          init: llama threadpool init, n_threads = 1
+BACKEND_PATH_OK ${WORKSPACE}/isolated/native-argmax-review/wide-host/bin/libggml-vulkan.so.0.27.0
+DRIVER_PATH_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+CORE_PATH_OK ${WORKSPACE}/isolated/production-baseline-aa8/bin/libllama.so.0.7.0
+0.13.728.590 I common_speculative_init_result: creating MTP draft context against the target model '${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf'
+
+
+Write a Python function that merges overlapping integer intervals. Include complete code, tests for unsorted input, empty input, nesting and adjacent non-overlapping intervals, and a detailed explanation of every design choice and its complexity.TARGET_LOGIT_AUDIT batch_tokens=42 rows=0 vocab=248320
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=271 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=727 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 271
+ACCEPTED_TOKEN 727
+
+
+defTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=10562 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=87682 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 10562
+ACCEPTED_TOKEN 87682
+ merge_intervalsTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1494 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=40798 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1494
+ACCEPTED_TOKEN 40798
+(intervalsTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1590 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1590
+):ACCEPTED_TOKEN 198
+
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=4071 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+   ACCEPTED_TOKEN 4071
+ """TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=50346 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=262 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 50346
+MergeTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=48142 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=7308 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 48142
+ACCEPTED_TOKEN 7308
+ overlapping integerTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=13 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 26126
+ACCEPTED_TOKEN 13
+ intervals.TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=271 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=262 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 271
+ACCEPTED_TOKEN 262
+
+
+   TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=17167 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 17167
+ACCEPTED_TOKEN 25
+ Args:TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=198 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=285 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 285
+
+       TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 26126
+ACCEPTED_TOKEN 25
+ intervals:TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1103 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=314 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1103
+ACCEPTED_TOKEN 314
+ list ofTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=498 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=2388 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 498
+ [TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=2388 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 2388
+startACCEPTED_TOKEN 11
+,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=60 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 809
+ACCEPTED_TOKEN 60
+ end]TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=13139 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=318 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 13139
+ACCEPTED_TOKEN 318
+ pairs (TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=94964 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=65313 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 94964
+inclusiveTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=553 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=271 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 553
+).ACCEPTED_TOKEN 271
+
+
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=5019 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 5019
+    ReturnsTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=25 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 25
+ACCEPTED_TOKEN 198
+:
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=285 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=1103 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 285
+ACCEPTED_TOKEN 1103
+        listTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=314 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25170 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 25170
+ of mergedTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=498 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=2397 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 498
+ [TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=2388 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 2388
+startACCEPTED_TOKEN 11
+,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=60 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 809
+ endACCEPTED_TOKEN 60
+]TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=13139 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 13139
+ pairsACCEPTED_TOKEN 11
+,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=10300 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=539 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 10300
+ sortedACCEPTED_TOKEN 539
+ byTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1151 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=13 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1151
+ startACCEPTED_TOKEN 13
+.TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=198 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=262 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 262
+   TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4071 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 4071
+ """ACCEPTED_TOKEN 198
+
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=413 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+   ACCEPTED_TOKEN 413
+ ifTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=524 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 524
+ notACCEPTED_TOKEN 26126
+ intervalsTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=25 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 25
+ACCEPTED_TOKEN 198
+:
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=285 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=460 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 285
+ACCEPTED_TOKEN 460
+        returnTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=2958 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=271 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 2958
+ACCEPTED_TOKEN 271
+ []
+
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=653 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+   ACCEPTED_TOKEN 653
+ #TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=15495 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=539 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 15495
+ SortACCEPTED_TOKEN 539
+ byTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1151 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=318 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1151
+ startACCEPTED_TOKEN 318
+ (TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=3282 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=809 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 3282
+thenTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=8 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 809
+ endACCEPTED_TOKEN 8
+)TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=748 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=421 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 748
+ACCEPTED_TOKEN 421
+ so thatTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=48142 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 48142
+ACCEPTED_TOKEN 26126
+ overlapping intervalsTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=513 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=23194 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 513
+ACCEPTED_TOKEN 23194
+ are adjacentTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=13 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+   ACCEPTED_TOKEN 26126
+ intervalsTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=10299 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=10300 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 10299
+.sortTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4702 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26612 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 4702
+ACCEPTED_TOKEN 26612
+(key=lambdaTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=830 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 830
+ACCEPTED_TOKEN 25
+ x:TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=318 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=87 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 318
+ACCEPTED_TOKEN 87
+ (xTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=58 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=15 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 58
+[ACCEPTED_TOKEN 15
+0TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1089 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=830 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1089
+],ACCEPTED_TOKEN 830
+ xTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=58 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=16 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 58
+ACCEPTED_TOKEN 16
+[1TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=9087 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=271 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 9087
+ACCEPTED_TOKEN 271
+]))
+
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25170 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 25170
+    mergedTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=283 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=498 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 283
+ACCEPTED_TOKEN 498
+ = [TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=390 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=40798 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 390
+ACCEPTED_TOKEN 40798
+intervalsTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=58 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=15 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 58
+ACCEPTED_TOKEN 15
+[0TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4891 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 4891
+ACCEPTED_TOKEN 198
+]]
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=364 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 364
+    forTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1151 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1151
+ACCEPTED_TOKEN 11
+ start,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=303 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 809
+ACCEPTED_TOKEN 303
+ end inTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=58 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 26126
+ACCEPTED_TOKEN 58
+ intervals[TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=16 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 16
+1ACCEPTED_TOKEN 25
+:TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=5491 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 5491
+]:ACCEPTED_TOKEN 198
+
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=285 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=1483 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 285
+       ACCEPTED_TOKEN 1483
+ lastTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4747 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 4747
+_startACCEPTED_TOKEN 11
+,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1483 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=6018 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1483
+ lastACCEPTED_TOKEN 6018
+_end
+
+0.19.388.670 I encoded   43 tokens in    1.539 seconds, speed:   27.932 t/s
+0.19.388.683 I decoded  130 tokens in    3.965 seconds, speed:   32.789 t/s
+0.19.388.693 I 
+0.19.388.703 I n_draft   = 1
+0.19.388.713 I n_predict = 130
+0.19.388.723 I n_drafted = 68
+0.19.388.733 I n_accept  = 62
+0.19.388.744 I accept    = 91.176%
+0.19.388.753 I 
+0.19.388.763 I draft:
+
+0.19.388.785 I 
+0.19.388.796 I target:
+
+0.19.388.807 I common_perf_print:    sampling time =       1.05 ms
+0.19.388.818 I common_perf_print:    samplers time =       0.05 ms /   130 tokens
+0.19.388.829 I common_perf_print:        load time =    9984.31 ms
+0.19.388.840 I common_perf_print: prompt eval time =    2936.99 ms /   178 tokens (   16.50 ms per token,    60.61 tokens per second)
+0.19.388.851 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.19.388.862 I common_perf_print:       total time =    5661.48 ms /   179 tokens
+0.19.388.873 I common_perf_print: unaccounted time =    2723.45 ms /  48.1 %      (total - sampling - prompt eval - eval) / (total)
+0.19.388.892 I common_perf_print:    graphs reused =         67
+0.19.388.902 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+
+

@@ -1,0 +1,3 @@
+# Wider argmax in restricted target backend sampling
+
+Prerequisites: stock/privateoff/wide indices identical across630adversarialcases/1680rows, exactstock38shortmodelrows with native tokens/counters, actualwidepipeline selection andbackendscalarAPIassertions. Compare stockdefaultCPUchain, privateofftemperature-backend, privatewidetemperature-backend. Native100/memorydefaults, same stock .7core/common/privatecopy2driver/MTP1/q8KV/FA/ctx4096. NoQ3padding/othernewshader/corecache. Requalifyfivecases530fullrawtargetrows PERMODE with exactnativebits/tokens/counters,positivewideactivity and noGPUerrors before modeltiming. Rawcallback audit iscorrectness-only; no speedclaimfromauditprocesses. GenerallegacyCPUties semanticsremainoutsidecurrentrestrictedCLIconfigurationproof.

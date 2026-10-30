@@ -1,0 +1,17 @@
+{
+  "modes": [
+    "stock100",
+    "private_off",
+    "private_wide"
+  ],
+  "target_rows_per_mode": 38,
+  "all_stock_raw_bits_tokens_counters_identical": true,
+  "no_new_gpu_errors": true,
+  "all_quant_feature_masks_zero": true,
+  "wide_selection_verified": true,
+  "unused_copied_metadata_fields": [
+    "padded_cache_dispatch_verified",
+    "scope Q3 boilerplate"
+  ],
+  "scope": "Privatewideargmax+restrictedbackendtemperature vsprivateoff andstockCPUreference; noQ3padding. Originalcomparisonretained, allprimaryrawchecksvalid. Not modelthroughputproof."
+}
