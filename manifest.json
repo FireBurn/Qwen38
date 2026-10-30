@@ -23615,9 +23615,9 @@
     {
       "source": "isolated/native-greedy-sampling/STATUS.md",
       "path": "archive/isolated/native-greedy-sampling/STATUS.md",
-      "source_sha256": "4fe0278eac2edb38937b555486c3e1fb44caa4b119fa48ae6cb433134ae5aa65",
-      "export_sha256": "4fe0278eac2edb38937b555486c3e1fb44caa4b119fa48ae6cb433134ae5aa65",
-      "bytes": 1253,
+      "source_sha256": "65e2695e88bd106ab0527508a4839e51844a1ef30daad6ea037217a5634f168e",
+      "export_sha256": "65e2695e88bd106ab0527508a4839e51844a1ef30daad6ea037217a5634f168e",
+      "bytes": 1184,
       "sanitized": false
     },
     {
@@ -24123,7 +24123,631 @@
       "export_sha256": "df79c7996b954b387f3abfc79cd130ac93218ee060723874f0504506104861a2",
       "bytes": 17151,
       "sanitized": true
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/00-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/00-stock100-telemetry.json",
+      "source_sha256": "8f4cafdb709adc8d7fcdbd1420d4934d0c680d50be789333db5ba7e8b88aa60c",
+      "export_sha256": "8f4cafdb709adc8d7fcdbd1420d4934d0c680d50be789333db5ba7e8b88aa60c",
+      "bytes": 90912,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/01-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/01-temp_cpu-telemetry.json",
+      "source_sha256": "7e695a5ae5485c9fea3c49e05c7f743441d331283cf74da4b5d024b85f2f571d",
+      "export_sha256": "7e695a5ae5485c9fea3c49e05c7f743441d331283cf74da4b5d024b85f2f571d",
+      "bytes": 88322,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/02-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/02-temp_gpu-telemetry.json",
+      "source_sha256": "7276246c7bf68329aa75f94875fd40720f8082f545345be7555d9695591f2b5d",
+      "export_sha256": "7276246c7bf68329aa75f94875fd40720f8082f545345be7555d9695591f2b5d",
+      "bytes": 85302,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/03-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/03-temp_gpu-telemetry.json",
+      "source_sha256": "6db2d2bad69c6b0b5144f5fe6e1e6219b483baa18aba835aecf2dbe8676d907a",
+      "export_sha256": "6db2d2bad69c6b0b5144f5fe6e1e6219b483baa18aba835aecf2dbe8676d907a",
+      "bytes": 87011,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/04-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/04-temp_cpu-telemetry.json",
+      "source_sha256": "89b135f0a9f591dec227990e42344e9435c7e46e06512def8c220ff09d189083",
+      "export_sha256": "89b135f0a9f591dec227990e42344e9435c7e46e06512def8c220ff09d189083",
+      "bytes": 83020,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/05-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/05-stock100-telemetry.json",
+      "source_sha256": "b8982e9ffb6b87634583f5f1888668bc66545e969ed79a3ff1f4d6dbd6bc8e40",
+      "export_sha256": "b8982e9ffb6b87634583f5f1888668bc66545e969ed79a3ff1f4d6dbd6bc8e40",
+      "bytes": 85361,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/06-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/06-temp_cpu-telemetry.json",
+      "source_sha256": "efb17b5191de60af5906ddf07ecd707239ad666292ee944284a67db02d6cf86d",
+      "export_sha256": "efb17b5191de60af5906ddf07ecd707239ad666292ee944284a67db02d6cf86d",
+      "bytes": 86156,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/07-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/07-temp_gpu-telemetry.json",
+      "source_sha256": "ee972293cc22e64d402901fd8f8ddcd9358e466e11e5344cbd325d32bb6583ce",
+      "export_sha256": "ee972293cc22e64d402901fd8f8ddcd9358e466e11e5344cbd325d32bb6583ce",
+      "bytes": 94458,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/08-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/08-stock100-telemetry.json",
+      "source_sha256": "4ea751cdbf38395b803b37c7892cc9c5ce697d669b7ddf7bbf929d36fba6e45e",
+      "export_sha256": "4ea751cdbf38395b803b37c7892cc9c5ce697d669b7ddf7bbf929d36fba6e45e",
+      "bytes": 85982,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/09-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/09-stock100-telemetry.json",
+      "source_sha256": "26fd317aa3304f527e45d8e5338c5d86c59eb9c1bb0bdda3063b572156c5bc69",
+      "export_sha256": "26fd317aa3304f527e45d8e5338c5d86c59eb9c1bb0bdda3063b572156c5bc69",
+      "bytes": 88845,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/10-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/10-temp_gpu-telemetry.json",
+      "source_sha256": "05b0d23575455b00a675a42c5d2b6c1e070cfa0b64b2dd5174fc86d99a98d458",
+      "export_sha256": "05b0d23575455b00a675a42c5d2b6c1e070cfa0b64b2dd5174fc86d99a98d458",
+      "bytes": 90156,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/11-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/11-temp_cpu-telemetry.json",
+      "source_sha256": "3a1d430e5886c768e98271b19c7e13770dc0b6a76503c9c957241df8b55ff46b",
+      "export_sha256": "3a1d430e5886c768e98271b19c7e13770dc0b6a76503c9c957241df8b55ff46b",
+      "bytes": 93258,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/12-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/12-temp_gpu-telemetry.json",
+      "source_sha256": "9c981ef688bef04dbf59b9508ff8d3147a8f13d678d93f4d77ce54fdbb224b77",
+      "export_sha256": "9c981ef688bef04dbf59b9508ff8d3147a8f13d678d93f4d77ce54fdbb224b77",
+      "bytes": 91120,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/13-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/13-stock100-telemetry.json",
+      "source_sha256": "f23d60cc553214bf685e808344f5b09eed207057ddad0869424db64519c3f32e",
+      "export_sha256": "f23d60cc553214bf685e808344f5b09eed207057ddad0869424db64519c3f32e",
+      "bytes": 97115,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/14-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/14-temp_cpu-telemetry.json",
+      "source_sha256": "f6c89c3465013e25e68992f51ce1f83a8d805fc8672f30663cfa89ea1b7a3051",
+      "export_sha256": "f6c89c3465013e25e68992f51ce1f83a8d805fc8672f30663cfa89ea1b7a3051",
+      "bytes": 90937,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/15-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/15-temp_cpu-telemetry.json",
+      "source_sha256": "eee5b6c6d471d0997c60ec149c7a5e7226aaf6952099f7698a996f6188686d40",
+      "export_sha256": "eee5b6c6d471d0997c60ec149c7a5e7226aaf6952099f7698a996f6188686d40",
+      "bytes": 93158,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/16-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/16-stock100-telemetry.json",
+      "source_sha256": "1ef025dec16f6ccbb3c48daa9d6ef35b1d91986f57d7d1110d87107d27e375b4",
+      "export_sha256": "1ef025dec16f6ccbb3c48daa9d6ef35b1d91986f57d7d1110d87107d27e375b4",
+      "bytes": 94794,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/17-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/17-temp_gpu-telemetry.json",
+      "source_sha256": "bfa734f524a63a7321e0c36367141bb44a0f9e41ac35b08fe8017b2ed4517ec8",
+      "export_sha256": "bfa734f524a63a7321e0c36367141bb44a0f9e41ac35b08fe8017b2ed4517ec8",
+      "bytes": 94816,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/18-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/18-stock100-telemetry.json",
+      "source_sha256": "5b0412856d7278f8ee6b39ba997892057df6d09ae4fa1112134e6a3c4d827e7d",
+      "export_sha256": "5b0412856d7278f8ee6b39ba997892057df6d09ae4fa1112134e6a3c4d827e7d",
+      "bytes": 138501,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/19-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/19-temp_gpu-telemetry.json",
+      "source_sha256": "1145a772f013a8033799262f90f6963ee99ee07160659a8024aeaed54ad8d928",
+      "export_sha256": "1145a772f013a8033799262f90f6963ee99ee07160659a8024aeaed54ad8d928",
+      "bytes": 90763,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/20-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/20-temp_cpu-telemetry.json",
+      "source_sha256": "a18eeb9602c9cb9d06a78a030f75fda56ee22dccb141853f66a48d37aabf482c",
+      "export_sha256": "a18eeb9602c9cb9d06a78a030f75fda56ee22dccb141853f66a48d37aabf482c",
+      "bytes": 87975,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/21-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/21-temp_cpu-telemetry.json",
+      "source_sha256": "2e40960395e3ab00197bd1cafb201d892c80872cc7b1c42446dc06f4ac3dba99",
+      "export_sha256": "2e40960395e3ab00197bd1cafb201d892c80872cc7b1c42446dc06f4ac3dba99",
+      "bytes": 89331,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/22-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/22-temp_gpu-telemetry.json",
+      "source_sha256": "9b205aa0e3f385bce70b2f43c3f35617e6e24101deafed62a0fc9359424f1a18",
+      "export_sha256": "9b205aa0e3f385bce70b2f43c3f35617e6e24101deafed62a0fc9359424f1a18",
+      "bytes": 82891,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/23-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/23-stock100-telemetry.json",
+      "source_sha256": "23c025f949fa9f3d2b93a5c275dbd1cf19e842e8bf63e1e7df0eb7da36e9ac19",
+      "export_sha256": "23c025f949fa9f3d2b93a5c275dbd1cf19e842e8bf63e1e7df0eb7da36e9ac19",
+      "bytes": 81882,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/24-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/24-temp_gpu-telemetry.json",
+      "source_sha256": "4bb8be36165f48e06807ddb0ef3a289f720a42159d508b02be10800a6838de66",
+      "export_sha256": "4bb8be36165f48e06807ddb0ef3a289f720a42159d508b02be10800a6838de66",
+      "bytes": 85252,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/25-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/25-temp_cpu-telemetry.json",
+      "source_sha256": "e6af69f55855537c1b72ac3277b7f818ef9d4f563f3460baff79e0770d22daa7",
+      "export_sha256": "e6af69f55855537c1b72ac3277b7f818ef9d4f563f3460baff79e0770d22daa7",
+      "bytes": 86479,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/26-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/26-stock100-telemetry.json",
+      "source_sha256": "2ecb77b0b2057af30394fd26ab24df04c01be8fce0018b4e579eeb959014850e",
+      "export_sha256": "2ecb77b0b2057af30394fd26ab24df04c01be8fce0018b4e579eeb959014850e",
+      "bytes": 86847,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/27-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/27-stock100-telemetry.json",
+      "source_sha256": "49d492156606de317307cd4695e8113ba537c5e00c6cbc7c934c904b4f184524",
+      "export_sha256": "49d492156606de317307cd4695e8113ba537c5e00c6cbc7c934c904b4f184524",
+      "bytes": 87438,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/28-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/28-temp_cpu-telemetry.json",
+      "source_sha256": "55d92fc68c69e1767d4c68134a86e05f35d0b93470687f5f6ca55dcab8fac616",
+      "export_sha256": "55d92fc68c69e1767d4c68134a86e05f35d0b93470687f5f6ca55dcab8fac616",
+      "bytes": 93482,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/29-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/29-temp_gpu-telemetry.json",
+      "source_sha256": "de2b72bebd5deced1eb57446d8cf5f03fe00992267cdd99dcc013e05a2a7e31f",
+      "export_sha256": "de2b72bebd5deced1eb57446d8cf5f03fe00992267cdd99dcc013e05a2a7e31f",
+      "bytes": 85109,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/30-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/30-temp_cpu-telemetry.json",
+      "source_sha256": "1673d604caf25c764442ecd785a57d81ec6ec95d1f95fd56fd8ca708dff5b5df",
+      "export_sha256": "1673d604caf25c764442ecd785a57d81ec6ec95d1f95fd56fd8ca708dff5b5df",
+      "bytes": 89334,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/31-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/31-stock100-telemetry.json",
+      "source_sha256": "75fdcfcbb5ca84217806922c38da86f7a3fc32bfe0088613c0f7fb41d048abcb",
+      "export_sha256": "75fdcfcbb5ca84217806922c38da86f7a3fc32bfe0088613c0f7fb41d048abcb",
+      "bytes": 86146,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/32-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/32-temp_gpu-telemetry.json",
+      "source_sha256": "8f67467e3c54f003c789434638ca8497430e4aae013018a4719e43537a1cfb18",
+      "export_sha256": "8f67467e3c54f003c789434638ca8497430e4aae013018a4719e43537a1cfb18",
+      "bytes": 98748,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/33-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/33-temp_gpu-telemetry.json",
+      "source_sha256": "9840db09474f93394115ee95a3e378da2d1382cdac97a96b3d13e0f4a7ea397a",
+      "export_sha256": "9840db09474f93394115ee95a3e378da2d1382cdac97a96b3d13e0f4a7ea397a",
+      "bytes": 87708,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/34-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/34-stock100-telemetry.json",
+      "source_sha256": "9c8fdba8a94917123c7069bfd8709b941d57a7f2cceef4fd0a7c808d9aa7b962",
+      "export_sha256": "9c8fdba8a94917123c7069bfd8709b941d57a7f2cceef4fd0a7c808d9aa7b962",
+      "bytes": 88208,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/35-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/35-temp_cpu-telemetry.json",
+      "source_sha256": "fb7b5c120b582e25f230863c3a352d54dbf085da95f676b1e03cd72b34c30107",
+      "export_sha256": "fb7b5c120b582e25f230863c3a352d54dbf085da95f676b1e03cd72b34c30107",
+      "bytes": 93889,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/36-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/36-stock100-telemetry.json",
+      "source_sha256": "5b948adc7507bcc7559cd1919298f1f86cbcb1dc278d004b5b796d772d8ac6c2",
+      "export_sha256": "5b948adc7507bcc7559cd1919298f1f86cbcb1dc278d004b5b796d772d8ac6c2",
+      "bytes": 92018,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/37-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/37-temp_cpu-telemetry.json",
+      "source_sha256": "fbece1f3edd4b1e0b81e6428370046e62c67efbb01e6bb7d3d7e8bece8abd568",
+      "export_sha256": "fbece1f3edd4b1e0b81e6428370046e62c67efbb01e6bb7d3d7e8bece8abd568",
+      "bytes": 152052,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/38-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/38-temp_gpu-telemetry.json",
+      "source_sha256": "958d176f9555bba1af30ef5f647c665d2200b22333d1bad786d4b38dc3bd7071",
+      "export_sha256": "958d176f9555bba1af30ef5f647c665d2200b22333d1bad786d4b38dc3bd7071",
+      "bytes": 90552,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/39-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/39-temp_gpu-telemetry.json",
+      "source_sha256": "870b34e787d3d2f299021ebd1a0d8680a3dd9d84751ad5ddcd6421dd4a255d64",
+      "export_sha256": "870b34e787d3d2f299021ebd1a0d8680a3dd9d84751ad5ddcd6421dd4a255d64",
+      "bytes": 84399,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/40-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/40-temp_cpu-telemetry.json",
+      "source_sha256": "1675748b44bbef97aacf7279ca5defea46c62711d85f008dd66b834c8a1c66ea",
+      "export_sha256": "1675748b44bbef97aacf7279ca5defea46c62711d85f008dd66b834c8a1c66ea",
+      "bytes": 91660,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/41-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/41-stock100-telemetry.json",
+      "source_sha256": "0428ae770d4fe5c1e270dad01330317fa8e0c1041b933170f7ad1045cce29782",
+      "export_sha256": "0428ae770d4fe5c1e270dad01330317fa8e0c1041b933170f7ad1045cce29782",
+      "bytes": 85284,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/42-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/42-temp_cpu-telemetry.json",
+      "source_sha256": "7c08cb5cd6305e3915801aefcb4b95cd5974378f730a8b529de11d2e0ab2eb83",
+      "export_sha256": "7c08cb5cd6305e3915801aefcb4b95cd5974378f730a8b529de11d2e0ab2eb83",
+      "bytes": 91026,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/43-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/43-temp_gpu-telemetry.json",
+      "source_sha256": "afdb9a471dd2fd93779569d94fa25c5e7955c78b70fc39e6fd72812fc9f3c522",
+      "export_sha256": "afdb9a471dd2fd93779569d94fa25c5e7955c78b70fc39e6fd72812fc9f3c522",
+      "bytes": 85636,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/44-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/44-stock100-telemetry.json",
+      "source_sha256": "42ac78e6833dc547cb1b1755d2f7dd9e797d72293bde73de1beaa0e7392cc817",
+      "export_sha256": "42ac78e6833dc547cb1b1755d2f7dd9e797d72293bde73de1beaa0e7392cc817",
+      "bytes": 87159,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/45-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/45-stock100-telemetry.json",
+      "source_sha256": "f5eae78f14cd01fc1d30292a0c2e41294ae2c5ca72e318b34404ce23f15179fd",
+      "export_sha256": "f5eae78f14cd01fc1d30292a0c2e41294ae2c5ca72e318b34404ce23f15179fd",
+      "bytes": 85387,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/46-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/46-temp_gpu-telemetry.json",
+      "source_sha256": "a62b952301d9b219974dd334e094ceb94b81d33999ce601fe4f645ef2a305675",
+      "export_sha256": "a62b952301d9b219974dd334e094ceb94b81d33999ce601fe4f645ef2a305675",
+      "bytes": 85393,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/47-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/47-temp_cpu-telemetry.json",
+      "source_sha256": "36e6f837a965762c3c887a72ba1931c141535e97b325d2b64cc54b62cd255389",
+      "export_sha256": "36e6f837a965762c3c887a72ba1931c141535e97b325d2b64cc54b62cd255389",
+      "bytes": 85523,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/48-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/48-temp_gpu-telemetry.json",
+      "source_sha256": "f3bfa49a583c07c3ea02078952f6f3239dd7a977ed737c4816a5ba0c4594b214",
+      "export_sha256": "f3bfa49a583c07c3ea02078952f6f3239dd7a977ed737c4816a5ba0c4594b214",
+      "bytes": 86316,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/49-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/49-stock100-telemetry.json",
+      "source_sha256": "273affd815a6434497070be0d9be3cefce86831836eefdb1a38659cf64f28b8b",
+      "export_sha256": "273affd815a6434497070be0d9be3cefce86831836eefdb1a38659cf64f28b8b",
+      "bytes": 86973,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/50-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/50-temp_cpu-telemetry.json",
+      "source_sha256": "b726340a7afba96452f96c9383835d19db20cc6ddbf0a63d22af175d6f7f4462",
+      "export_sha256": "b726340a7afba96452f96c9383835d19db20cc6ddbf0a63d22af175d6f7f4462",
+      "bytes": 86036,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/51-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/51-temp_cpu-telemetry.json",
+      "source_sha256": "91a0d94c77db95b5c4933b9bd3a02945ac4a2b1349e491f2895a86cde84fa69a",
+      "export_sha256": "91a0d94c77db95b5c4933b9bd3a02945ac4a2b1349e491f2895a86cde84fa69a",
+      "bytes": 84936,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/52-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/52-stock100-telemetry.json",
+      "source_sha256": "a7ca391eb47b6059cdb7b0286a517d5d88db9dd837e463d3db6900916b1eb405",
+      "export_sha256": "a7ca391eb47b6059cdb7b0286a517d5d88db9dd837e463d3db6900916b1eb405",
+      "bytes": 86489,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/53-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/53-temp_gpu-telemetry.json",
+      "source_sha256": "7b453409e72bc6b0970aba35a2192fbfceda732cb3d7e5a91a51bfc9590934b1",
+      "export_sha256": "7b453409e72bc6b0970aba35a2192fbfceda732cb3d7e5a91a51bfc9590934b1",
+      "bytes": 88420,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/54-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/54-stock100-telemetry.json",
+      "source_sha256": "e2b0c050de224e4e1ce77aa2430fa3f98d49b56f4f1c670f7f7633446de947cd",
+      "export_sha256": "e2b0c050de224e4e1ce77aa2430fa3f98d49b56f4f1c670f7f7633446de947cd",
+      "bytes": 100749,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/55-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/55-temp_gpu-telemetry.json",
+      "source_sha256": "a893f82aab040492f89763d35c551b96edff95c44bac7fc8873c2276b222aaed",
+      "export_sha256": "a893f82aab040492f89763d35c551b96edff95c44bac7fc8873c2276b222aaed",
+      "bytes": 92054,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/56-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/56-temp_cpu-telemetry.json",
+      "source_sha256": "81c207b6572a37f6061f80320ff16bfd73afefae9e3d5dd28f65697c16af4e60",
+      "export_sha256": "81c207b6572a37f6061f80320ff16bfd73afefae9e3d5dd28f65697c16af4e60",
+      "bytes": 132572,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/57-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/57-temp_cpu-telemetry.json",
+      "source_sha256": "0163b97c66f5955f89ab417994c90f5a7d8370e73975b02a3deb7e5d176297f9",
+      "export_sha256": "0163b97c66f5955f89ab417994c90f5a7d8370e73975b02a3deb7e5d176297f9",
+      "bytes": 88276,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/58-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/58-temp_gpu-telemetry.json",
+      "source_sha256": "dd86684147d69bf4872139e0e458f984ba6db27b095d775c2bd17ff1686eb89d",
+      "export_sha256": "dd86684147d69bf4872139e0e458f984ba6db27b095d775c2bd17ff1686eb89d",
+      "bytes": 87965,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/59-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/59-stock100-telemetry.json",
+      "source_sha256": "97d5b8b4fd7879a408681358b4a5e6117be44164bb29988d5d65c579284d615e",
+      "export_sha256": "97d5b8b4fd7879a408681358b4a5e6117be44164bb29988d5d65c579284d615e",
+      "bytes": 86902,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/60-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/60-temp_gpu-telemetry.json",
+      "source_sha256": "f3f6bf5e7d80cbb91863612ad85eb634431e5700de3f03b05864cc14a22b7b03",
+      "export_sha256": "f3f6bf5e7d80cbb91863612ad85eb634431e5700de3f03b05864cc14a22b7b03",
+      "bytes": 87916,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/61-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/61-temp_cpu-telemetry.json",
+      "source_sha256": "3ebfe37ab6ccb9d8ea0adb401f06269df9a274d4ce8e71bb5d9d92a790f9f87a",
+      "export_sha256": "3ebfe37ab6ccb9d8ea0adb401f06269df9a274d4ce8e71bb5d9d92a790f9f87a",
+      "bytes": 86111,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/62-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/62-stock100-telemetry.json",
+      "source_sha256": "91d47b7ec4bccaca189a496a4cd93f9d7023ff6f7957fa8cd113ca0a4e531856",
+      "export_sha256": "91d47b7ec4bccaca189a496a4cd93f9d7023ff6f7957fa8cd113ca0a4e531856",
+      "bytes": 86255,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/63-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/63-stock100-telemetry.json",
+      "source_sha256": "77f2db898dafbd436e6c533682cddb4a58e957547b35307901998fe308aaa244",
+      "export_sha256": "77f2db898dafbd436e6c533682cddb4a58e957547b35307901998fe308aaa244",
+      "bytes": 97382,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/64-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/64-temp_cpu-telemetry.json",
+      "source_sha256": "781359f12a55a16b8e90e620368a56db3dca883931d64a6c332d08b138604b1d",
+      "export_sha256": "781359f12a55a16b8e90e620368a56db3dca883931d64a6c332d08b138604b1d",
+      "bytes": 90243,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/65-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/65-temp_gpu-telemetry.json",
+      "source_sha256": "7b2809b2c3808ea2c3f41d615f400dc7f3f105ddda29ca51a8b81d5b7b4892c0",
+      "export_sha256": "7b2809b2c3808ea2c3f41d615f400dc7f3f105ddda29ca51a8b81d5b7b4892c0",
+      "bytes": 86878,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/66-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/66-temp_cpu-telemetry.json",
+      "source_sha256": "c4c97a738188ef24d70fd01916bbd2af6c7df0fc678fabc2be7ce9934656db49",
+      "export_sha256": "c4c97a738188ef24d70fd01916bbd2af6c7df0fc678fabc2be7ce9934656db49",
+      "bytes": 89455,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/67-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/67-stock100-telemetry.json",
+      "source_sha256": "b6d5610c64cc3a740e4c3a63b2a680fd4229b28ceb4766bb4c839bfdb268eb20",
+      "export_sha256": "b6d5610c64cc3a740e4c3a63b2a680fd4229b28ceb4766bb4c839bfdb268eb20",
+      "bytes": 86610,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/68-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/68-temp_gpu-telemetry.json",
+      "source_sha256": "12ce12967976a4427662bd125e836e6958b4eb576a7629094a2d2434e08c8191",
+      "export_sha256": "12ce12967976a4427662bd125e836e6958b4eb576a7629094a2d2434e08c8191",
+      "bytes": 88244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/69-temp_gpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/69-temp_gpu-telemetry.json",
+      "source_sha256": "13903a49a49edba514b76f64712aa9917ddf5e20bccebafb52bb888df9bab0ae",
+      "export_sha256": "13903a49a49edba514b76f64712aa9917ddf5e20bccebafb52bb888df9bab0ae",
+      "bytes": 90248,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/70-stock100-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/70-stock100-telemetry.json",
+      "source_sha256": "d0a92fe5afc60a615549464b91df2ca343cd787dc4ad93c8dc15f7d5ca721d6c",
+      "export_sha256": "d0a92fe5afc60a615549464b91df2ca343cd787dc4ad93c8dc15f7d5ca721d6c",
+      "bytes": 88330,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/71-temp_cpu-telemetry.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/71-temp_cpu-telemetry.json",
+      "source_sha256": "9825ad163b04e4060b158543263f8236264d8c5667cbe4405a7a819611f2e1a7",
+      "export_sha256": "9825ad163b04e4060b158543263f8236264d8c5667cbe4405a7a819611f2e1a7",
+      "bytes": 88294,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/assets.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/assets.json",
+      "source_sha256": "dff0bad3436c1aad4a82a01dd016c0432b8424dd3f9645cfaf272a9aa8af3658",
+      "export_sha256": "43f52894cbc49ba88a56fc08fa3ea918e678d92f15cc53e01624032890881f46",
+      "bytes": 2569,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/confirmation-analysis.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/confirmation-analysis.json",
+      "source_sha256": "8702985cfb106b6e853002f04ae0d86496c745f0efac53141e95a415c5ac5bd5",
+      "export_sha256": "8702985cfb106b6e853002f04ae0d86496c745f0efac53141e95a415c5ac5bd5",
+      "bytes": 39901,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/outcomes-summary.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/outcomes-summary.json",
+      "source_sha256": "ce420b5ee471e63a9274fffc34e028a53d8cce7b4f877aa6784c030bea46bc65",
+      "export_sha256": "ce420b5ee471e63a9274fffc34e028a53d8cce7b4f877aa6784c030bea46bc65",
+      "bytes": 8845,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/protocol.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/protocol.json",
+      "source_sha256": "083707091eb199803e60085ec1e7bcf21fa3117761f2f16788d74b62a014f4f8",
+      "export_sha256": "083707091eb199803e60085ec1e7bcf21fa3117761f2f16788d74b62a014f4f8",
+      "bytes": 3642,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/results.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/results.json",
+      "source_sha256": "b81c9cabb1148cb7bc199143c83aec7ff1c59ad63db60aa9b330ba614bbf63d0",
+      "export_sha256": "b81c9cabb1148cb7bc199143c83aec7ff1c59ad63db60aa9b330ba614bbf63d0",
+      "bytes": 588509,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-greedy-sampling/model-timing512/20261030T084002Z/runtime-baseline.json",
+      "path": "archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-30T08:41:12.358189+00:00"
+  "updated_utc": "2026-10-30T09:15:31.059842+00:00"
 }

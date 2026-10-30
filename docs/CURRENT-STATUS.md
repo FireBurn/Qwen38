@@ -1,6 +1,6 @@
 # Current work — 2026-10-30
 
-**Now running:** fixed72matched-load target sampling comparison, guardedsession91245. DefaultCPU chain versusCPUtemperature-only versusbackendtemperature-only. Allthree configurations already pass530rawtargetrows each (1,590checks), with exact stock tokens/counters and zero new GPU errors. Backend mode returns sampledtokens/scalararrays on all530rows. The timed runner is the original noninstrumented binary, with no callback/profiler/activity logging. No sampling speed result yet. [Full protocol and numerical/activity evidence](NATIVE-GREEDY-SAMPLING.md).
+**Latest completed experiment:** fixed72targetsampling comparison finds no supportedgain overstock: backendtemperature-only+0.122%[-0.672%,+0.921%],11matchedblocks. CPUtemperature-only regresses1.749%; backendoffload recovers thatloss but does not beatstock. All72nativeoutputs/counters exact,noGPUerrors. Conditionalconfirmationgatefails; no retry/extension/pooling. No ownGPUjob currentlyrunning. [Numerical/activity audits, complete timing data and interpretation](NATIVE-GREEDY-SAMPLING.md).
 
 **Latest confirmed gain:** paddedQ3 at nativecap100 independently confirms+1.331% steadyTPS[+0.348%,+2.324%],11/12load-matched blocks in a fixed48confirmation. Discovery separately+1.863%[+1.016%,+2.717%]. Full-generation confirmation+1.421%. All96processes exacttokens/counters, zeroGPUerrors; about3GiBextraVRAM. [Results, scope, power/load tables and archive](NATIVE-DEFAULT-BASELINE.md). These are separate configurations; effects are not added or pooled.
 
@@ -8,7 +8,7 @@
 
 ## Next experiments
 
-- Finish the fixed72sampling run without retries/extensions/pooling/quiet gates. Only a qualifiedpositive primary triggers the predeclared independent48confirmation. Owncompile and otherGPUwork remain deferred while timing runs.
+- Measure nativeGPUargmax on actual greedy dimensions and attribute its critical-path cost before implementing a hierarchical replacement. Sampling72primaryfailed; its confirmation will not run.
 - Nativeargmax currently uses one subgroup-sized workgroup per vocabulary row. A hierarchical reduction is a source-level hypothesis, not an implemented or measured shader. [Tie-order and validation requirements](../archive/isolated/native-greedy-sampling/ARGMAX-TRIAGE.md), [88,560CPU source-model checks](../archive/isolated/native-greedy-sampling/argmax-tie-order-check.json). Correctfinite tie rank usesbit-reversedlaneorder; the earlier lowest-lane inference was corrected before implementation. Nonfinite/GPU validation remains open.
 - [Mapped CPU fusion-plan reuse preparation](../archive/isolated/native-mapped-plan-reuse/PLAN.md) remains deferred, with generated wrappers but no new mapped-path runs/gain. The separate immutable rotation cache passes numerical/clear checks but has no timed model gain.
 

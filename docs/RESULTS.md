@@ -4,6 +4,10 @@
 
 There is **no demonstrated mega-kernel throughput win over the current native baseline**. The combined implementation can produce exact model outputs, and several local improvements are real, but correctness and lower resource counts do not establish a speedup.
 
+### Restricted sampling controls: no supported stock gain
+
+Fixed72fresh512-request-token comparison: backendtemperature-onlyvsdefaultCPU+0.122%[-0.672%,+0.921%],11/12matchedblocks, primarygatefails. CPUtemperature-onlyregresses1.749%; backendoffloadrecovers2.069%versusthatcontrol on9matchedblocks, secondarydescriptive. All72nativeoutputs/counters exact,noGPUerrors. Allthreeconfigs previouslypass530rawtargetrows each and verifiedbackendscalaractivity. No confirmation/adoption. [Complete evidence and cost hypothesis](NATIVE-GREEDY-SAMPLING.md).
+
 ### Independently confirmed native-default cap100 result, 2026-10-30
 
 PaddedQ3 at native cap100 independently confirms **+1.331%** steadyTPS[+0.348%,+2.324%],11/12matched blocks in a fixed48-run confirmation. Discovery separately found+1.863%[+1.016%,+2.717%],11/12matched. All96outputs/counters exact, no new GPU errors. Extra~3GiBVRAM. Full-generation confirmation+1.421%[+0.420%,+2.433%]. No pooling/deployment/general/mega claim. [Complete evidence and tradeoffs](NATIVE-DEFAULT-BASELINE.md).
