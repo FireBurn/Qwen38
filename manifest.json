@@ -28003,7 +28003,327 @@
       "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
       "bytes": 135,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/MODEL-TIMING-PLAN.md",
+      "path": "archive/isolated/native-pad-wide/MODEL-TIMING-PLAN.md",
+      "source_sha256": "398a15af5b60b44f9b98bd550ef7c0d79c1d246deb95eb2161162a8996a7afff",
+      "export_sha256": "398a15af5b60b44f9b98bd550ef7c0d79c1d246deb95eb2161162a8996a7afff",
+      "bytes": 2417,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/PLAN.md",
+      "path": "archive/isolated/native-pad-wide/PLAN.md",
+      "source_sha256": "3b1fa98902c7a85a87a38d28a5d1a3b13913525ef649c6dd18707ba321799312",
+      "export_sha256": "3b1fa98902c7a85a87a38d28a5d1a3b13913525ef649c6dd18707ba321799312",
+      "bytes": 1465,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/STATUS.md",
+      "path": "archive/isolated/native-pad-wide/STATUS.md",
+      "source_sha256": "b9b7cda75b261b12ca52b2573fcf153de1adcda233cbf74454d6fdc3a94f802d",
+      "export_sha256": "b9b7cda75b261b12ca52b2573fcf153de1adcda233cbf74454d6fdc3a94f802d",
+      "bytes": 1323,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/audit-archive-dedup.json",
+      "path": "archive/isolated/native-pad-wide/audit-archive-dedup.json",
+      "source_sha256": "1dfc7f6685f8010f13f97c21a145c7484b74e9572316be6bac89fa898c7265f2",
+      "export_sha256": "1dfc7f6685f8010f13f97c21a145c7484b74e9572316be6bac89fa898c7265f2",
+      "bytes": 7885,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/broad-run.log",
+      "path": "archive/isolated/native-pad-wide/broad-run.log",
+      "source_sha256": "1efaf0870237eb060bceb5dcf89766792e71a07921420fbd27a9fcdec3bc472d",
+      "export_sha256": "1efaf0870237eb060bceb5dcf89766792e71a07921420fbd27a9fcdec3bc472d",
+      "bytes": 1974,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/build.json",
+      "path": "archive/isolated/native-pad-wide/build.json",
+      "source_sha256": "d8a86628190baabf72098a5780e3a727fe20fa81d288657b1344a32a46fa18d7",
+      "export_sha256": "d8a86628190baabf72098a5780e3a727fe20fa81d288657b1344a32a46fa18d7",
+      "bytes": 836,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/build.log",
+      "path": "archive/isolated/native-pad-wide/build.log",
+      "source_sha256": "6e208ad45eff47f325b74412037641d76ec898f45443fc303a1a2bbe9fb57968",
+      "export_sha256": "15dc693df09f7805ae8bbdf52e88c8e240554d642fbd38b2561f7eb402f781a6",
+      "bytes": 1418,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/build.py",
+      "path": "archive/isolated/native-pad-wide/build.py",
+      "source_sha256": "38268934c1aea07e77988a65e25ef6ba2d5c25ee13b86882c6ed928bb4e211d6",
+      "export_sha256": "2d4e3d8d641080c8154c46df13a70e148cb3eb7e24606fc2b921a8f476da4f12",
+      "bytes": 3399,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/host.patch",
+      "path": "archive/isolated/native-pad-wide/host.patch",
+      "source_sha256": "f1b3e2b4ce2bc3784582614bc248d62c31443800c1c0d4b4b961e6006a9e8ece",
+      "export_sha256": "f1b3e2b4ce2bc3784582614bc248d62c31443800c1c0d4b4b961e6006a9e8ece",
+      "bytes": 2191,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/inputs.json",
+      "path": "archive/isolated/native-pad-wide/inputs.json",
+      "source_sha256": "8a7b37269bddb77aeb0e1396b86d407b4fa08d76a5d5167e91ffe8fd2a02e014",
+      "export_sha256": "5cdbacae2220657b52d1134def606ebbfa5b5879689f394c99417eeefa306b75",
+      "bytes": 73282,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model32/assets.json",
+      "path": "archive/isolated/native-pad-wide/model32/assets.json",
+      "source_sha256": "6f3c06ada4c6fb8d762d7e747b929fe6eeb706878bd69059f59d2a965fc984ab",
+      "export_sha256": "fd75ef3fdad5e1c7d7b6c60adb6c1b3a3aa7f3dcd370e382c5c0113037f04eb0",
+      "bytes": 3221,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model32/audit-archive.json",
+      "path": "archive/isolated/native-pad-wide/model32/audit-archive.json",
+      "source_sha256": "b839e4aefac77133b78f7db91ed3e717e7e87b9f96716d513ef823669a6b04f4",
+      "export_sha256": "b839e4aefac77133b78f7db91ed3e717e7e87b9f96716d513ef823669a6b04f4",
+      "bytes": 264,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model32/both.log",
+      "path": "archive/isolated/native-pad-wide/model32/both.log",
+      "source_sha256": "2a1db3aa42297ec84f8559b1d079015b012efc6a190b53a978c4923e636ab179",
+      "export_sha256": "4a7aabb29c6d572c59c8ae704bdf5e6cc717b38aeb192db0631a7a5dd33b110f",
+      "bytes": 19305,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model32/checks.json",
+      "path": "archive/isolated/native-pad-wide/model32/checks.json",
+      "source_sha256": "86d9a90b43529da7398092f6d48cff6cf5eb903f5d5a8a9d3fc52774f8b97b4d",
+      "export_sha256": "86d9a90b43529da7398092f6d48cff6cf5eb903f5d5a8a9d3fc52774f8b97b4d",
+      "bytes": 6535,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model32/comparison.json",
+      "path": "archive/isolated/native-pad-wide/model32/comparison.json",
+      "source_sha256": "29f9eb3a35ca85386b78eb9f8e704d805a28333d3c3dbfa5bed534ba623ad861",
+      "export_sha256": "29f9eb3a35ca85386b78eb9f8e704d805a28333d3c3dbfa5bed534ba623ad861",
+      "bytes": 582,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model32/pad.log",
+      "path": "archive/isolated/native-pad-wide/model32/pad.log",
+      "source_sha256": "cb0a7832b4dba3f0c1ffb215cce36bbdf6ce632d90c45f81d3be6ac23d7c68f4",
+      "export_sha256": "8a9c6742f56eb42df9426a370f6b4b792b2056a026931e31e5ccebab690ee8b7",
+      "bytes": 16536,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model32/private_off.log",
+      "path": "archive/isolated/native-pad-wide/model32/private_off.log",
+      "source_sha256": "796f7311cf057ab482679022cdecb4e0125567c16d3754e42c2c3910bc6fe3a3",
+      "export_sha256": "cec648ab4bcec45687add23a2e7072f552e2caa767ae580a8996e033c222b33d",
+      "bytes": 9602,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model32/stock100.log",
+      "path": "archive/isolated/native-pad-wide/model32/stock100.log",
+      "source_sha256": "5210b237fb199fa7bbbcdab64dc3271d554bec01c97ec358f5cd5672a96fffc9",
+      "export_sha256": "cd557ff3c218948900cb7b634f1fadd925d9721bfcef5e4f56c1637eb4b773ed",
+      "bytes": 7633,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model32/wide.log",
+      "path": "archive/isolated/native-pad-wide/model32/wide.log",
+      "source_sha256": "bef02dea3e6c51cb5a5414cc2bb0f49e297ff2c71bd4d4bef18c49684b02f693",
+      "export_sha256": "5691307eb263107310c776803c2b7118d2e93fc412e0ef5e3c10674fd8b77213",
+      "bytes": 12416,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/operators/20261030T184354Z/assets.json",
+      "path": "archive/isolated/native-pad-wide/operators/20261030T184354Z/assets.json",
+      "source_sha256": "2b828653889f3be97b58e6a38286f47c1ba275b3af39cba7019b00ab847b3f7f",
+      "export_sha256": "74fd433f098e6a4cc32d7b47cf0391d47dc1f8837aa1b185180cf61d1b8fa8d6",
+      "bytes": 1589,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/operators/20261030T184354Z/comparison.json",
+      "path": "archive/isolated/native-pad-wide/operators/20261030T184354Z/comparison.json",
+      "source_sha256": "a059a03b5069e347b7fa895e0112dfbd176412b1ce95bcdaa186a9e31d565c97",
+      "export_sha256": "a059a03b5069e347b7fa895e0112dfbd176412b1ce95bcdaa186a9e31d565c97",
+      "bytes": 260,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/operators/20261030T184354Z/private_off.log",
+      "path": "archive/isolated/native-pad-wide/operators/20261030T184354Z/private_off.log",
+      "source_sha256": "b168ddcc95084388d25018e3316da93f4cbc2988a900e4c95adcde3c4f79c826",
+      "export_sha256": "6b1c509c035c03cf241a8b17571044a99125b7d3202ac945b02bf26b9dfa89d1",
+      "bytes": 979,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/operators/20261030T184354Z/private_wide.log",
+      "path": "archive/isolated/native-pad-wide/operators/20261030T184354Z/private_wide.log",
+      "source_sha256": "46b2abcda0938024b2208b4e3d5ea6333733eb2c74430c7fc20e7feae460ed49",
+      "export_sha256": "3e43c1dfc219a684d91de72eed332e1fc9d3b4337dbe84aa16a35efb36d6c66b",
+      "bytes": 1009,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/operators/20261030T184354Z/results.json",
+      "path": "archive/isolated/native-pad-wide/operators/20261030T184354Z/results.json",
+      "source_sha256": "b0f1beb35b04df6b5662b8321197e218daa5e577e3ddd937e07ac7b829bf7aaf",
+      "export_sha256": "b0f1beb35b04df6b5662b8321197e218daa5e577e3ddd937e07ac7b829bf7aaf",
+      "bytes": 559,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/operators/20261030T184354Z/stock.log",
+      "path": "archive/isolated/native-pad-wide/operators/20261030T184354Z/stock.log",
+      "source_sha256": "a7b6aa3721978b9a0b29d846ec5a1bbbda32f0d94cfd4dce2a00b52693341f7a",
+      "export_sha256": "629000ba978e45de228951b6e8ec436e5729be8d1114f7ea639122d3b9e4a4b9",
+      "bytes": 853,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/prepare_broad.py",
+      "path": "archive/isolated/native-pad-wide/prepare_broad.py",
+      "source_sha256": "1c3677d5bdd793bc9e96e979708b2262e6ee62675acf230e92e4f3782a4b8248",
+      "export_sha256": "1c3677d5bdd793bc9e96e979708b2262e6ee62675acf230e92e4f3782a4b8248",
+      "bytes": 2040,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/prepare_short.py",
+      "path": "archive/isolated/native-pad-wide/prepare_short.py",
+      "source_sha256": "e7212d9fceebac093aabec021fa1651fd89ef9733a54919a88bb5c72956251b5",
+      "export_sha256": "e7212d9fceebac093aabec021fa1651fd89ef9733a54919a88bb5c72956251b5",
+      "bytes": 1697,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/assets.json",
+      "path": "archive/isolated/native-pad-wide/prompts128/assets.json",
+      "source_sha256": "9bc682fe9cae056546e97414b78bc321d5f61a4387bbc631a467b24654d5b3af",
+      "export_sha256": "0eb06f1c08e8fd42f85350cea1d6f17e50583070dccb9fa8dcb18511e38cd44a",
+      "bytes": 3421,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/checks.json",
+      "path": "archive/isolated/native-pad-wide/prompts128/checks.json",
+      "source_sha256": "6a86762038c6874e49850fddd236482189d3668fd6fe2319447f5c94d0ccdac7",
+      "export_sha256": "6a86762038c6874e49850fddd236482189d3668fd6fe2319447f5c94d0ccdac7",
+      "bytes": 4914,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/coding/pad.log",
+      "path": "archive/isolated/native-pad-wide/prompts128/coding/pad.log",
+      "source_sha256": "e4bd727eda8e1384de9bc87f9feb08649250f5934a36cf24332371c3c5317da9",
+      "export_sha256": "e4bd727eda8e1384de9bc87f9feb08649250f5934a36cf24332371c3c5317da9",
+      "bytes": 544,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/coding/private_off.log",
+      "path": "archive/isolated/native-pad-wide/prompts128/coding/private_off.log",
+      "source_sha256": "f3406bbedbe5a8cb9e2ac6c3050f57b7674bcc1083a456bcb9fa8a48bff4bd0a",
+      "export_sha256": "af664f6c8c4249c7c0c5f0e55a7f8236e0f6a6aabccb583bc0a6d89d2b8d2d32",
+      "bytes": 27661,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/coding/stock100.log",
+      "path": "archive/isolated/native-pad-wide/prompts128/coding/stock100.log",
+      "source_sha256": "b11cfeaf27a9ae91aa6296f131176f4216c5cfaf93bb47e2e974352c72422147",
+      "export_sha256": "fa7090459ba70e74842547637984328c12dc0d788f66ea1fca27195b796686d6",
+      "bytes": 21037,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/publish.py",
+      "path": "archive/isolated/native-pad-wide/publish.py",
+      "source_sha256": "bbaf246f7ba47fe0e1d40a6e0f2692e8c416c4789a205fbdaf5bf0185222afac",
+      "export_sha256": "7967534602963cea963bb3643a9e612d8fcf8930593e418cae58239880c077b2",
+      "bytes": 2029,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/short-run.log",
+      "path": "archive/isolated/native-pad-wide/short-run.log",
+      "source_sha256": "8a0e8925775d653c0bc0d820a41fd246b59eab7c5a14e6d0c121df8ea86f5a15",
+      "export_sha256": "a175cbe3d2f0d5e06a7f63a8f3a62a95a955ba6018b9f892f09f7da45bd76eea",
+      "bytes": 4888,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/short-summary.json",
+      "path": "archive/isolated/native-pad-wide/short-summary.json",
+      "source_sha256": "636a1ab61b72e4b2e36572b1d4c47f786f86c80f465cfb1bc4b9c49b7370f6a4",
+      "export_sha256": "636a1ab61b72e4b2e36572b1d4c47f786f86c80f465cfb1bc4b9c49b7370f6a4",
+      "bytes": 349,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_pad_wide_boundary128.py",
+      "path": "archive/isolated/run_native_pad_wide_boundary128.py",
+      "source_sha256": "dedd96bf14bb27d2e1c88c15cf7710c055d263f7f81f530471c10c4289d7ddb0",
+      "export_sha256": "8d5dd5c2a683988ef42f85c606279c6bab17648b633e8b742d222d1fb95210a5",
+      "bytes": 11423,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_pad_wide_kv64.py",
+      "path": "archive/isolated/run_native_pad_wide_kv64.py",
+      "source_sha256": "73bba71709cd58cc0015c157ea84ff6ba1cb0841329deef55f781a5eb578ef9c",
+      "export_sha256": "def9227a842df24f2662659d955e3386d9b265094f60ce1db84f2f7ce9b9bce3",
+      "bytes": 22232,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_pad_wide_model32.py",
+      "path": "archive/isolated/run_native_pad_wide_model32.py",
+      "source_sha256": "bd9a5106197c26d4ad0787c827f66263846ca320eda9eb0953baceb559f1c0eb",
+      "export_sha256": "d653ed0b41f603ee24a8c98c98606f4ef5459c0c453a0fd7309b38b448134bfb",
+      "bytes": 10778,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_pad_wide_operators.py",
+      "path": "archive/isolated/run_native_pad_wide_operators.py",
+      "source_sha256": "c8b12ee1e5499d87342752f3ba2d829a6709a75e8e47b3c7fe7cff18dc76feb5",
+      "export_sha256": "c8b12ee1e5499d87342752f3ba2d829a6709a75e8e47b3c7fe7cff18dc76feb5",
+      "bytes": 3531,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_pad_wide_prompts128.py",
+      "path": "archive/isolated/run_native_pad_wide_prompts128.py",
+      "source_sha256": "36cec055020e703a3885f2774b09d8a9129817f936621d410410d1354953214c",
+      "export_sha256": "3b6df149137bbedd4b62cf7fe1accffe835518497f6a863bb2b16b88249b2a2b",
+      "bytes": 9970,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-30T14:30:55.272917+00:00"
+  "updated_utc": "2026-10-30T18:47:22.452527+00:00"
 }

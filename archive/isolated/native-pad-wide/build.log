@@ -1,0 +1,16 @@
+${WORKSPACE}/isolated/native-pad-wide/host/ggml-vulkan.cpp:1380:22: warning: no previous prototype for function 'get_fa_pipeline_state' [-Wmissing-prototypes]
+ 1380 | vk_fa_pipeline_state get_fa_pipeline_state(const vk_device& device, const vk_fa_tuning_params& params, uint32_t hsk, uint32_t hsv, bool aligned, bool f32acc,
+      |                      ^
+${WORKSPACE}/isolated/native-pad-wide/host/ggml-vulkan.cpp:1380:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+ 1380 | vk_fa_pipeline_state get_fa_pipeline_state(const vk_device& device, const vk_fa_tuning_params& params, uint32_t hsk, uint32_t hsv, bool aligned, bool f32acc,
+      | ^
+      | static 
+${WORKSPACE}/isolated/native-pad-wide/host/ggml-vulkan.cpp:10463:6: warning: no previous prototype for function 'ggml_vk_gated_delta_net' [-Wmissing-prototypes]
+ 10463 | void ggml_vk_gated_delta_net(ggml_backend_vk_context * ctx, vk_context& subctx, ggml_tensor * dst, const ggml_tensor * state_dst) {
+       |      ^
+${WORKSPACE}/isolated/native-pad-wide/host/ggml-vulkan.cpp:10463:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+ 10463 | void ggml_vk_gated_delta_net(ggml_backend_vk_context * ctx, vk_context& subctx, ggml_tensor * dst, const ggml_tensor * state_dst) {
+       | ^
+       | static 
+2 warnings generated.
+PAD_WIDE_PRIVATE_HOST_BUILT

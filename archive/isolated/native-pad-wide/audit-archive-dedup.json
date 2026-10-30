@@ -1,0 +1,147 @@
+{
+  "utc": "2026-10-30T18:43:54.597703+00:00",
+  "changed": [
+    {
+      "path": "isolated/native-default-q3-100/boundary128/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/boundary128/canonical-target-logits.bin.gz",
+      "sha256": "8f7982d6fb4205cc7723e4fa1e069205ae747425a7852bcf01a4943bdeaaf6ef",
+      "bytes": 131261883,
+      "reclaimed_allocated_bytes": 131264512
+    },
+    {
+      "path": "isolated/native-default-q3-100/model32/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/model32/canonical-target-logits.bin.gz",
+      "sha256": "627a90b8c71ec2653d0d11a69bb8839bda3a5765aff60f6a4a87fdd789439512",
+      "bytes": 34259312,
+      "reclaimed_allocated_bytes": 34263040
+    },
+    {
+      "path": "isolated/native-default-q3-100/populated-kv64/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/populated-kv64/canonical-target-logits.bin.gz",
+      "sha256": "8f4cd948ee789b50dd9736446738073ac4017f1112357bd6bae44f1e945e9a39",
+      "bytes": 64511626,
+      "reclaimed_allocated_bytes": 64512000
+    },
+    {
+      "path": "isolated/native-default-q3-100/prompts128/coding/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/prompts128/coding/canonical-target-logits.bin.gz",
+      "sha256": "e76adc670aa5bbb66db8c5d7f9a4a4e7b360c39f56022dd5f6ea62cd5134c7d2",
+      "bytes": 122386896,
+      "reclaimed_allocated_bytes": 122388480
+    },
+    {
+      "path": "isolated/native-default-q3-100/prompts128/math/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/prompts128/math/canonical-target-logits.bin.gz",
+      "sha256": "39daf38092f620e176f1255e28646846e4f18cf2b16ceb813222632b29a0c2eb",
+      "bytes": 123645614,
+      "reclaimed_allocated_bytes": 123645952
+    },
+    {
+      "path": "isolated/native-greedy-sampling/callback-boundary128/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/boundary128/canonical-target-logits.bin.gz",
+      "sha256": "8f7982d6fb4205cc7723e4fa1e069205ae747425a7852bcf01a4943bdeaaf6ef",
+      "bytes": 131261883,
+      "reclaimed_allocated_bytes": 131268608
+    },
+    {
+      "path": "isolated/native-greedy-sampling/callback-model32/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/model32/canonical-target-logits.bin.gz",
+      "sha256": "627a90b8c71ec2653d0d11a69bb8839bda3a5765aff60f6a4a87fdd789439512",
+      "bytes": 34259312,
+      "reclaimed_allocated_bytes": 34267136
+    },
+    {
+      "path": "isolated/native-greedy-sampling/callback-populated-kv64/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/populated-kv64/canonical-target-logits.bin.gz",
+      "sha256": "8f4cd948ee789b50dd9736446738073ac4017f1112357bd6bae44f1e945e9a39",
+      "bytes": 64511626,
+      "reclaimed_allocated_bytes": 64512000
+    },
+    {
+      "path": "isolated/native-greedy-sampling/callback-prompts128/coding/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/prompts128/coding/canonical-target-logits.bin.gz",
+      "sha256": "e76adc670aa5bbb66db8c5d7f9a4a4e7b360c39f56022dd5f6ea62cd5134c7d2",
+      "bytes": 122386896,
+      "reclaimed_allocated_bytes": 122392576
+    },
+    {
+      "path": "isolated/native-greedy-sampling/callback-prompts128/math/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/prompts128/math/canonical-target-logits.bin.gz",
+      "sha256": "39daf38092f620e176f1255e28646846e4f18cf2b16ceb813222632b29a0c2eb",
+      "bytes": 123645614,
+      "reclaimed_allocated_bytes": 123645952
+    },
+    {
+      "path": "isolated/native-greedy-sampling/sampling-boundary128/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/boundary128/canonical-target-logits.bin.gz",
+      "sha256": "8f7982d6fb4205cc7723e4fa1e069205ae747425a7852bcf01a4943bdeaaf6ef",
+      "bytes": 131261883,
+      "reclaimed_allocated_bytes": 131264512
+    },
+    {
+      "path": "isolated/native-greedy-sampling/sampling-model32/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/model32/canonical-target-logits.bin.gz",
+      "sha256": "627a90b8c71ec2653d0d11a69bb8839bda3a5765aff60f6a4a87fdd789439512",
+      "bytes": 34259312,
+      "reclaimed_allocated_bytes": 34263040
+    },
+    {
+      "path": "isolated/native-greedy-sampling/sampling-populated-kv64/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/populated-kv64/canonical-target-logits.bin.gz",
+      "sha256": "8f4cd948ee789b50dd9736446738073ac4017f1112357bd6bae44f1e945e9a39",
+      "bytes": 64511626,
+      "reclaimed_allocated_bytes": 64512000
+    },
+    {
+      "path": "isolated/native-greedy-sampling/sampling-prompts128/coding/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/prompts128/coding/canonical-target-logits.bin.gz",
+      "sha256": "e76adc670aa5bbb66db8c5d7f9a4a4e7b360c39f56022dd5f6ea62cd5134c7d2",
+      "bytes": 122386896,
+      "reclaimed_allocated_bytes": 122392576
+    },
+    {
+      "path": "isolated/native-greedy-sampling/sampling-prompts128/math/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/prompts128/math/canonical-target-logits.bin.gz",
+      "sha256": "39daf38092f620e176f1255e28646846e4f18cf2b16ceb813222632b29a0c2eb",
+      "bytes": 123645614,
+      "reclaimed_allocated_bytes": 123645952
+    },
+    {
+      "path": "isolated/native-argmax-review/wide-boundary128/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/boundary128/canonical-target-logits.bin.gz",
+      "sha256": "8f7982d6fb4205cc7723e4fa1e069205ae747425a7852bcf01a4943bdeaaf6ef",
+      "bytes": 131261883,
+      "reclaimed_allocated_bytes": 131264512
+    },
+    {
+      "path": "isolated/native-argmax-review/wide-model32/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/model32/canonical-target-logits.bin.gz",
+      "sha256": "627a90b8c71ec2653d0d11a69bb8839bda3a5765aff60f6a4a87fdd789439512",
+      "bytes": 34259312,
+      "reclaimed_allocated_bytes": 34263040
+    },
+    {
+      "path": "isolated/native-argmax-review/wide-populated-kv64/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/populated-kv64/canonical-target-logits.bin.gz",
+      "sha256": "8f4cd948ee789b50dd9736446738073ac4017f1112357bd6bae44f1e945e9a39",
+      "bytes": 64511626,
+      "reclaimed_allocated_bytes": 64516096
+    },
+    {
+      "path": "isolated/native-argmax-review/wide-prompts128/coding/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/prompts128/coding/canonical-target-logits.bin.gz",
+      "sha256": "e76adc670aa5bbb66db8c5d7f9a4a4e7b360c39f56022dd5f6ea62cd5134c7d2",
+      "bytes": 122386896,
+      "reclaimed_allocated_bytes": 122388480
+    },
+    {
+      "path": "isolated/native-argmax-review/wide-prompts128/math/canonical-target-logits.bin.gz",
+      "identical_reference": "isolated/native-default-baseline/prompts128/math/canonical-target-logits.bin.gz",
+      "sha256": "39daf38092f620e176f1255e28646846e4f18cf2b16ceb813222632b29a0c2eb",
+      "bytes": 123645614,
+      "reclaimed_allocated_bytes": 123645952
+    }
+  ],
+  "reclaimed_allocated_bytes": 1904316416,
+  "scope": "Hardlinkdeduplication of EXACTBYTEIDENTICAL completedprivatecanonicalraw-audit gziparchives only. Allpaths/content/hashes preserved, no activejob/Claude/system/modelsource affected. Oldcompleted outputdirectoriesareone-shot and notwrittenagain."
+}

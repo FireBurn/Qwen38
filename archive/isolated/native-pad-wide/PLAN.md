@@ -1,0 +1,7 @@
+# Q3 padding and wider argmax composition
+
+Newprivatehost only. Parent is immutable q3-pad112/qualified-20261029 source/header/buildrecipe, preserving its extendedcontext layout and recordedmatchingbuffer/debugobjects. Copy ONLY the testedargmaxselectionblock from native-argmax-review/wide-host/ggml-vulkan.cpp, using the exactconfirmed256-laneSPIRV. Preservebothconfirmedparentconfigs/binaries. No source edits in Claude/production/system, no model/core changes.
+
+Qualify stockdefaultCPU, privatefeaturesoffCPU, paddedQ3CPU, widerargmax+restrictedtemperaturebackend, bothpadding+widebackend. Allprivatearms oneidenticalbinary; factorflags only. Nativecap100unset, alllegacyallocation/queue/suballocationoverrides absent, originalstock.7core/common/MTP1draftsampling/q8KV/FA/ctx4096/copy2driver. Check530rawtargetrows PERMODE/tokens/counters, actualQ3arena/wide/backendactivity andnoGPUerrors before any modeltiming. Existing630argmaxadversarialcases additionallyneeded oncombinedhost. Restrictedgreedy/modelcaseproof isnotuniversalCPUchain tie/stateful equivalence.
+
+The separatelyconfirmed+1.33%padding and+2.35%wide results are NOT additive or a head-to-head comparison. Firstestablishthatcompositionworks; thenpredeclarebalancedstock/private/component/combinedmodeltiming andinteractionanalysis. No performanceclaimfrombuild/audits. Paddedarena costsabout3GiB; combinedmustearnitsincrementalbenefit. Existingconfirmedcomponentsunchanged, fastermegaunachieved.
