@@ -1,0 +1,262 @@
+{
+  "cases": [
+    {
+      "case": "model32",
+      "target_rows_per_mode": 38,
+      "raw_audit_sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576"
+    },
+    {
+      "case": "coding",
+      "target_rows_per_mode": 136,
+      "raw_audit_sha256": "d57c28c4140917e228a584ff8f7f2185caa0c08d51942a70b1dedf891cd95c27"
+    },
+    {
+      "case": "math",
+      "target_rows_per_mode": 138,
+      "raw_audit_sha256": "cb052233cb56e8fe19113ff905700115393b19bfa263679d308ac800ca4a27f1"
+    },
+    {
+      "case": "populated-kv64",
+      "target_rows_per_mode": 72,
+      "raw_audit_sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5"
+    },
+    {
+      "case": "boundary128",
+      "target_rows_per_mode": 146,
+      "raw_audit_sha256": "16a693b0d912e151df9dc942bfb174f1dd5f8c48748f356b07be7cc8f2fa2f49"
+    }
+  ],
+  "activities": [
+    {
+      "case": "model32",
+      "mode": "stock100",
+      "rows": 38,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": false,
+      "log_sha256": "5210b237fb199fa7bbbcdab64dc3271d554bec01c97ec358f5cd5672a96fffc9"
+    },
+    {
+      "case": "model32",
+      "mode": "private_off",
+      "rows": 38,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": false,
+      "log_sha256": "796f7311cf057ab482679022cdecb4e0125567c16d3754e42c2c3910bc6fe3a3"
+    },
+    {
+      "case": "model32",
+      "mode": "pad",
+      "rows": 38,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": true,
+      "log_sha256": "cb0a7832b4dba3f0c1ffb215cce36bbdf6ce632d90c45f81d3be6ac23d7c68f4"
+    },
+    {
+      "case": "model32",
+      "mode": "wide",
+      "rows": 38,
+      "target_backend_active": true,
+      "wide_selection_verified": true,
+      "padded_arena_verified": false,
+      "log_sha256": "bef02dea3e6c51cb5a5414cc2bb0f49e297ff2c71bd4d4bef18c49684b02f693"
+    },
+    {
+      "case": "model32",
+      "mode": "both",
+      "rows": 38,
+      "target_backend_active": true,
+      "wide_selection_verified": true,
+      "padded_arena_verified": true,
+      "log_sha256": "2a1db3aa42297ec84f8559b1d079015b012efc6a190b53a978c4923e636ab179"
+    },
+    {
+      "case": "coding",
+      "mode": "stock100",
+      "rows": 136,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": false,
+      "log_sha256": "b11cfeaf27a9ae91aa6296f131176f4216c5cfaf93bb47e2e974352c72422147"
+    },
+    {
+      "case": "coding",
+      "mode": "private_off",
+      "rows": 136,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": false,
+      "log_sha256": "f3406bbedbe5a8cb9e2ac6c3050f57b7674bcc1083a456bcb9fa8a48bff4bd0a"
+    },
+    {
+      "case": "coding",
+      "mode": "pad",
+      "rows": 136,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": true,
+      "log_sha256": "e9e5cd81382ce5c09770fd851ccf64dbfd6162576f73ee135590650a0b8a19f3"
+    },
+    {
+      "case": "coding",
+      "mode": "wide",
+      "rows": 136,
+      "target_backend_active": true,
+      "wide_selection_verified": true,
+      "padded_arena_verified": false,
+      "log_sha256": "e9345d7c37d997b71dc616c2ac84296b8199409ccc85086565a8606aef672b14"
+    },
+    {
+      "case": "coding",
+      "mode": "both",
+      "rows": 136,
+      "target_backend_active": true,
+      "wide_selection_verified": true,
+      "padded_arena_verified": true,
+      "log_sha256": "a1ec3d0ccd6a6d65442e27c22936c3c608fb228b0213d38de43d883613b60314"
+    },
+    {
+      "case": "math",
+      "mode": "stock100",
+      "rows": 138,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": false,
+      "log_sha256": "75f05d88886b56c41a3b767823dacb0aac685a7f0145efe9cff776b8f4589086"
+    },
+    {
+      "case": "math",
+      "mode": "private_off",
+      "rows": 138,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": false,
+      "log_sha256": "c18dcb5e9ff485c7f3393abe52ea42453eb1802afc0e04b9c83f3ce1f225839b"
+    },
+    {
+      "case": "math",
+      "mode": "pad",
+      "rows": 138,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": true,
+      "log_sha256": "b8f68197f88b09db12e506386c1a4375412c9a2fae3a704fc34bad6c32dfc335"
+    },
+    {
+      "case": "math",
+      "mode": "wide",
+      "rows": 138,
+      "target_backend_active": true,
+      "wide_selection_verified": true,
+      "padded_arena_verified": false,
+      "log_sha256": "cbe764ce82111bb4063575f8d3f37c3f89310c8d11e2b5e9eadf211ce085b735"
+    },
+    {
+      "case": "math",
+      "mode": "both",
+      "rows": 138,
+      "target_backend_active": true,
+      "wide_selection_verified": true,
+      "padded_arena_verified": true,
+      "log_sha256": "26229c8e3f4db453e4fa6821af96cf66d06650dc8a234365d9fdae6c270b4fb4"
+    },
+    {
+      "case": "populated-kv64",
+      "mode": "stock100",
+      "rows": 72,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": false,
+      "log_sha256": "4620feba5c6f8ab26ebedccbdac80f956740d3ff8f29fffdb886177051956d4e"
+    },
+    {
+      "case": "populated-kv64",
+      "mode": "private_off",
+      "rows": 72,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": false,
+      "log_sha256": "e48664692214626de63497448a5e444fec445be20c6532ca2b542bf6f9e4fb3d"
+    },
+    {
+      "case": "populated-kv64",
+      "mode": "pad",
+      "rows": 72,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": true,
+      "log_sha256": "1cad9acca52c71d9f95e548c02e50147b8e21eb32eea4b57a97bdf7716f74691"
+    },
+    {
+      "case": "populated-kv64",
+      "mode": "wide",
+      "rows": 72,
+      "target_backend_active": true,
+      "wide_selection_verified": true,
+      "padded_arena_verified": false,
+      "log_sha256": "d84d85f15bf5be43d64933ac27273cea66719174b01d78e615ab31e566c3c3b4"
+    },
+    {
+      "case": "populated-kv64",
+      "mode": "both",
+      "rows": 72,
+      "target_backend_active": true,
+      "wide_selection_verified": true,
+      "padded_arena_verified": true,
+      "log_sha256": "a89c465cebb31598a06d8ee3a6eada063f5e3d1d99de7abeb3b18f8e154626c4"
+    },
+    {
+      "case": "boundary128",
+      "mode": "stock100",
+      "rows": 146,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": false,
+      "log_sha256": "ac0bab95391bd3efaf384136a63dc1b7a98005a3cf6d23abeca4fe9c1f999f31"
+    },
+    {
+      "case": "boundary128",
+      "mode": "private_off",
+      "rows": 146,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": false,
+      "log_sha256": "78d641147e1aff16f9466e9a681256aac52dd29435efb1ce0319f04323fb7474"
+    },
+    {
+      "case": "boundary128",
+      "mode": "pad",
+      "rows": 146,
+      "target_backend_active": false,
+      "wide_selection_verified": false,
+      "padded_arena_verified": true,
+      "log_sha256": "74a69b3f21ac9bdc9e0ea43623d2216aab124e3483731dc7ef6f3093f176324d"
+    },
+    {
+      "case": "boundary128",
+      "mode": "wide",
+      "rows": 146,
+      "target_backend_active": true,
+      "wide_selection_verified": true,
+      "padded_arena_verified": false,
+      "log_sha256": "8d6ec1fe08439b8a35016ae0a0a37a20320e3f23d55c01cead2aec6df37fb88c"
+    },
+    {
+      "case": "boundary128",
+      "mode": "both",
+      "rows": 146,
+      "target_backend_active": true,
+      "wide_selection_verified": true,
+      "padded_arena_verified": true,
+      "log_sha256": "ee289100aca5747bc65f2cb2f5e905bc4004fd2cb33130ae7f8e1c8634f0dbf6"
+    }
+  ],
+  "target_rows_per_mode": 530,
+  "total_mode_row_checks": 2650,
+  "all_native_raw_bits_tokens_counters_identical": true,
+  "no_new_gpu_errors": true,
+  "all_assets_unchanged": true,
+  "scope": "Five restricted greedy configs, native100 defaults, sameprivatecombinedhost for allprivatearms. Q3arena/wide/backendactivity verified, rawtargetbits/tokens/counters exact. No timing/universal sampler equivalence claim."
+}

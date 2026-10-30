@@ -2,13 +2,13 @@
 
 **Latest confirmed result:** wider-argmax nativeconfiguration+2.3549%steady decoding versusstock[+1.5294%,+3.1871%],all12externally load-matched blocks in a fixed48-runindependentconfirmation. Full-generation confirmation+2.1680%[+1.3150%,+3.0282%]. Discovery separately+1.9201%[+0.7141%,+3.1405%],all12blocks. All120timedprocesses preserve exactnative513tokens/279drafts/234accepts, zeroGPUerrors; assets recheckedunchanged. About15.65GiBVRAMboth. [Implementation, source, build and full evidence](NATIVE-ARGMAX.md).
 
-Five-arm combinedhost correctness qualification is now running. Widerargmax confirmation10091completed successfully; allcompleted timingdata are archived.
+Five-arm combined-host correctness qualification passed: 530 raw target rows per mode matched native bits, tokens and counters, with intended feature activity verified. The predeclared fixed100 comparison is running; no combined performance result is established. Widerargmax confirmation10091completed successfully; allcompleted timingdata are archived.
 
 **Other confirmed configuration:** paddedQ3 atnativecap100+1.331%[+0.348%,+2.324%] in its independentfixed48test, about3GiBextraVRAM. [Separate proof and limits](NATIVE-DEFAULT-BASELINE.md). No head-to-head ranking or additive/combinedgain is established between these separate experiments.
 
 ## Next work
 
-Compose widerargmax withQ3padding/native100in a NEWprivatehost, preserving bothqualifiedcomponents. The newcombinedhost buildswiththequalifiedQ3extendedcontext/matchingobjects andonlythetestedargmaxselectionblock. It passes630adversarialcases/1680indices perarm andfive-armshort38rawrows perarm,exactstocktokens/counters,noGPUerrors. Broader530rawrow/modeaudits arerunning beforethepredeclaredfixed100stock/private/component/combinedthroughput comparison. No combinedgainyet. Prior gains must not be added.
+Compose widerargmax withQ3padding/native100in a NEWprivatehost, preserving bothqualifiedcomponents. The newcombinedhost buildswiththequalifiedQ3extendedcontext/matchingobjects andonlythetestedargmaxselectionblock. It passes630adversarialcases/1680indices perarm andfive-armshort38rawrows perarm,exactstocktokens/counters,noGPUerrors. Broader 530-raw-row-per-mode audits passed; the predeclared fixed100 stock/private/component/combined throughput comparison is running. No combinedgainyet. Prior gains must not be added.
 
 A two-stagehierarchical reduction, output-head integration, mappedCPUfusionplanreuse andimmutableHadamardcorecache remain distinct follow-ups, not confirmedcombined gains. No fastermega kernel or productiondeployment established.
 
@@ -27,4 +27,6 @@ Onlyprivate review-workspace files arechanged; Claude/production/model/system co
 
 [Combinedphasehistory](../archive/isolated/native-pad-wide/STATUS.md), [smallcompositionpatch](../archive/isolated/native-pad-wide/host.patch), [five-armshortsummary](../archive/isolated/native-pad-wide/short-summary.json), [predeclaredfactorialplan](../archive/isolated/native-pad-wide/MODEL-TIMING-PLAN.md). Theplanrequiresbenefitoverstockandbothcomponentcontrols beforeconditionalconfirmation. ExactcompletedrawauditduplicateswerelinkedbyverifiedSHA256,reclaiming1.90GBwithoutdeletingpaths/content/evidence; see[deduprecord](../archive/isolated/native-pad-wide/audit-archive-dedup.json).
 
-The combined comparison now requires evidence in every padded run that its qualified 78-entry weight cache actually existed and did not report a budget fallback. This pre-measurement protocol revision detects silent fallback; cache diagnostics may affect startup time. The original plan is preserved alongside the revision. The broader correctness audit is still running; its archived partial logs are a snapshot, not a completed result.
+The combined comparison now requires evidence in every padded run that its qualified 78-entry weight cache actually existed and did not report a budget fallback. This pre-measurement protocol revision detects silent fallback; cache diagnostics may affect startup time. The original plan is preserved alongside the revision. The completed five-arm audit and its feature checks are archived in the qualification summary.
+
+[Five-arm qualification summary](../archive/isolated/native-pad-wide/qualification-summary.json): all 2,650 mode-row checks passed with no new GPU errors. Timing is ongoing and its dataset will be published after it is terminal.
