@@ -1,0 +1,38 @@
+{
+  "profile": "${WORKSPACE}/isolated/native-constant-rotation/clear-profile/20261030T005024Z",
+  "arms": [
+    {
+      "arm": 0,
+      "sets": 1406,
+      "queue_calls": 4135,
+      "fence_waits": 518,
+      "metadata_exactly_original_without_two_rotation_inputs": true
+    },
+    {
+      "arm": 1,
+      "sets": 1406,
+      "queue_calls": 4135,
+      "fence_waits": 518,
+      "metadata_exactly_original_without_two_rotation_inputs": true
+    },
+    {
+      "arm": 2,
+      "sets": 1406,
+      "queue_calls": 4135,
+      "fence_waits": 518,
+      "metadata_exactly_original_without_two_rotation_inputs": true
+    },
+    {
+      "arm": 3,
+      "sets": 1406,
+      "queue_calls": 4135,
+      "fence_waits": 518,
+      "metadata_exactly_original_without_two_rotation_inputs": true
+    }
+  ],
+  "generations": 6,
+  "all_tokens_and_counters_native_exact": true,
+  "creation_count": 2,
+  "bypass_count": 2692,
+  "scope": "Repeatedllama_memory_clear(true)withownedconstanttensorssurviving;all6native129tokens/74drafts/55accepts exact,noGPUerrors. Metadata1850->1406onlytwofixedHadamardinputsremoved. CPUinstrumentedmechanism/lifetimewitness,notspeed/generalproof."
+}

@@ -1,0 +1,162 @@
+{
+  "generations": 4,
+  "zero_overflow": true,
+  "identical_records_all_generations": true,
+  "calls_per_generation": 1850,
+  "records": [
+    {
+      "name_hex": "56756c6b616e30236174746e5f696e705f6b5f696478732330",
+      "type": 27,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 8,
+      "calls": 74,
+      "name": "Vulkan0#attn_inp_k_idxs#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236174746e5f696e705f6b5f696478732330",
+      "type": 27,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 16,
+      "calls": 148,
+      "name": "Vulkan0#attn_inp_k_idxs#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236174746e5f696e705f6b5f726f742330",
+      "type": 0,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 262144,
+      "calls": 222,
+      "name": "Vulkan0#attn_inp_k_rot#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236174746e5f696e705f6b715f6d61736b2330",
+      "type": 1,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 512,
+      "calls": 74,
+      "name": "Vulkan0#attn_inp_kq_mask#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236174746e5f696e705f6b715f6d61736b2330",
+      "type": 1,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 1024,
+      "calls": 148,
+      "name": "Vulkan0#attn_inp_kq_mask#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236174746e5f696e705f765f696478732330",
+      "type": 27,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 8,
+      "calls": 74,
+      "name": "Vulkan0#attn_inp_v_idxs#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236174746e5f696e705f765f696478732330",
+      "type": 27,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 16,
+      "calls": 148,
+      "name": "Vulkan0#attn_inp_v_idxs#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236174746e5f696e705f765f726f742330",
+      "type": 0,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 16384,
+      "calls": 222,
+      "name": "Vulkan0#attn_inp_v_rot#0"
+    },
+    {
+      "name_hex": "56756c6b616e3023696e705f6d697865645f656d62642330",
+      "type": 0,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 40960,
+      "calls": 74,
+      "name": "Vulkan0#inp_mixed_embd#0"
+    },
+    {
+      "name_hex": "56756c6b616e3023696e705f6d697865645f736c6f74732330",
+      "type": 27,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 16,
+      "calls": 74,
+      "name": "Vulkan0#inp_mixed_slots#0"
+    },
+    {
+      "name_hex": "56756c6b616e3023696e705f706f732330",
+      "type": 26,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 16,
+      "calls": 74,
+      "name": "Vulkan0#inp_pos#0"
+    },
+    {
+      "name_hex": "56756c6b616e3023696e705f706f732330",
+      "type": 26,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 32,
+      "calls": 148,
+      "name": "Vulkan0#inp_pos#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236d74705f685f696e7075742330",
+      "type": 0,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 20480,
+      "calls": 74,
+      "name": "Vulkan0#mtp_h_input#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236d74705f685f696e7075742330",
+      "type": 0,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 40960,
+      "calls": 74,
+      "name": "Vulkan0#mtp_h_input#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236f75745f6964732330",
+      "type": 26,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 4,
+      "calls": 74,
+      "name": "Vulkan0#out_ids#0"
+    },
+    {
+      "name_hex": "56756c6b616e30236f75745f6964732330",
+      "type": 26,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 8,
+      "calls": 74,
+      "name": "Vulkan0#out_ids#0"
+    },
+    {
+      "name_hex": "56756c6b616e302372735f735f636f70792330",
+      "type": 26,
+      "op": 0,
+      "flags": 0,
+      "bytes_requested": 4,
+      "calls": 74,
+      "name": "Vulkan0#rs_s_copy#0"
+    }
+  ],
+  "scope": "CPUmetadataonly,noshader/transfer/ownershipchanges;destinationcopiesflags0withVulkan0#names. Pinnedsource scheduler creates these copies for graph inputs. Namesandconstantsconfirmedbyoriginal aa8 graph/KV code."
+}

@@ -1,0 +1,89 @@
+--- a/src/llama-kv-cache.cpp
++++ b/src/llama-kv-cache.cpp
+@@ -61,6 +61,14 @@
+ //
+ // llama_kv_cache
+ //
++
++
++static bool qcr_context(ggml_context*ctx){auto*t=ggml_get_first_tensor(ctx);return t&&strcmp(t->name,"__qwen_const_rot_marker")==0;}
++static ggml_tensor*qcr_find(const std::vector<std::pair<ggml_context_ptr,ggml_backend_buffer_ptr>>&owned,uint32_t n){
++ if(!n)return nullptr;char name[64];snprintf(name,sizeof(name),"__qwen_const_rot_%u",n);
++ for(const auto&entry:owned)if(qcr_context(entry.first.get()))if(auto*t=ggml_get_tensor(entry.first.get(),name))return t;
++ return nullptr;
++}
+ 
+ llama_kv_cache::llama_kv_cache(
+         const llama_model & model,
+@@ -384,6 +392,27 @@
+         }
+     }
+ 
++    // Immutable rotations belong to the cache, not reusable graph allocations.
++    const char*qcr_env=getenv("LLAMA_VK_CONST_ROT");
++    if(qcr_env&&strcmp(qcr_env,"1")==0&&!hparams.no_alloc&&(n_rot_k||n_rot_v)&&ctxs_bufs.size()==1){
++        auto*base_buf=ctxs_bufs.front().second.get();const char*backend_name=ggml_backend_buffer_name(base_buf);
++        if(!ggml_backend_buffer_is_host(base_buf)&&strncmp(backend_name,"Vulkan",6)==0){
++            ggml_init_params params={4*ggml_tensor_overhead(),nullptr,true};ggml_context_ptr const_ctx{ggml_init(params)};
++            if(const_ctx){
++                auto*marker=ggml_new_tensor_1d(const_ctx.get(),GGML_TYPE_I32,1);ggml_set_name(marker,"__qwen_const_rot_marker");
++                std::vector<ggml_tensor*>mats;std::vector<uint32_t>sizes;
++                if(n_rot_k)sizes.push_back(n_rot_k);if(n_rot_v&&n_rot_v!=n_rot_k)sizes.push_back(n_rot_v);
++                for(auto n:sizes){GGML_ASSERT(attn_rot_hadamard.count(n));auto*t=ggml_new_tensor_2d(const_ctx.get(),GGML_TYPE_F32,n,n);ggml_format_name(t,"__qwen_const_rot_%u",n);mats.push_back(t);}
++                auto*buft=ggml_backend_buffer_get_type(base_buf);ggml_backend_buffer_ptr const_buf{ggml_backend_alloc_ctx_tensors_from_buft(const_ctx.get(),buft)};
++                if(const_buf){
++                    ggml_backend_buffer_set_usage(const_buf.get(),GGML_BACKEND_BUFFER_USAGE_WEIGHTS);int32_t tag=1;ggml_backend_tensor_set(marker,&tag,0,sizeof(tag));size_t bytes=0;
++                    for(size_t i=0;i<mats.size();++i){auto*t=mats[i];ggml_backend_tensor_set(t,attn_rot_hadamard.at(sizes[i]).data(),0,ggml_nbytes(t));bytes+=ggml_nbytes(t);}
++                    LLAMA_LOG_INFO("LLAMA_CONST_ROT_CREATED matrices=%zu bytes=%zu\n",mats.size(),bytes);
++                    ctxs_bufs.emplace_back(std::move(const_ctx),std::move(const_buf));
++                }else LLAMA_LOG_WARN("LLAMA_CONST_ROT_FALLBACK allocation\n");
++            }else LLAMA_LOG_WARN("LLAMA_CONST_ROT_FALLBACK context\n");
++        }
++    }
+     const char * LLAMA_KV_CACHE_DEBUG = getenv("LLAMA_KV_CACHE_DEBUG");
+     debug = LLAMA_KV_CACHE_DEBUG ? atoi(LLAMA_KV_CACHE_DEBUG) : 0;
+ }
+@@ -395,7 +424,8 @@
+     }
+ 
+     if (data) {
+-        for (auto & [_, buf] : ctxs_bufs) {
++        for (auto & [owned_ctx, buf] : ctxs_bufs) {
++            if(qcr_context(owned_ctx.get()))continue;
+             ggml_backend_buffer_clear(buf.get(), 0);
+         }
+     }
+@@ -1467,6 +1497,7 @@
+ }
+ 
+ ggml_tensor * llama_kv_cache::build_input_k_rot(ggml_context * ctx) const {
++    if(auto*t=qcr_find(ctxs_bufs,n_rot_k))return t;
+     ggml_tensor * res = nullptr;
+ 
+     if (n_rot_k) {
+@@ -1479,6 +1510,7 @@
+ }
+ 
+ ggml_tensor * llama_kv_cache::build_input_v_rot(ggml_context * ctx) const {
++    if(auto*t=qcr_find(ctxs_bufs,n_rot_v))return t;
+     ggml_tensor * res = nullptr;
+ 
+     if (n_rot_v) {
+@@ -1828,6 +1860,8 @@
+ }
+ 
+ void llama_kv_cache::set_input_k_rot(ggml_tensor * dst) const {
++    if(dst==qcr_find(ctxs_bufs,n_rot_k)){if(getenv("LLAMA_VK_CONST_ROT_AUDIT"))LLAMA_LOG_INFO("LLAMA_CONST_ROT_BYPASS kind=k n=%lld\n",(long long)dst->ne[0]);return;}
++
+     GGML_ASSERT(ggml_backend_buffer_is_host(dst->buffer));
+ 
+     const auto n_rot = dst->ne[0];
+@@ -1837,6 +1871,8 @@
+ }
+ 
+ void llama_kv_cache::set_input_v_rot(ggml_tensor * dst) const {
++    if(dst==qcr_find(ctxs_bufs,n_rot_v)){if(getenv("LLAMA_VK_CONST_ROT_AUDIT"))LLAMA_LOG_INFO("LLAMA_CONST_ROT_BYPASS kind=v n=%lld\n",(long long)dst->ne[0]);return;}
++
+     GGML_ASSERT(ggml_backend_buffer_is_host(dst->buffer));
+ 
+     const auto n_rot = dst->ne[0];

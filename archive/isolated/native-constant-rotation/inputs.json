@@ -1,0 +1,332 @@
+{
+  "source_head": "aa8ab0504deda8ef55958aa2c7ccdee3eab924ca",
+  "baseline_core_sha256": "1fa207e1936d69d58cc5b251b380250791a414697452bb039beeb293be9d1796",
+  "control_relink_sha256": "3bef077432caa9d572d26a6311fc9fc58353f9db64484ef1be0518efb3e1ce12",
+  "control_relink_runtime_segments_identical_after_file_header_section_offset_normalization": true,
+  "normalization_fields": [
+    "ELF64.e_shoff(nonruntime section table file offset)"
+  ],
+  "control_relink_differing_sections": [
+    ".comment"
+  ],
+  "objects": [
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_10_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_10_cxx.cxx.o",
+      "sha256": "1502e6a87fe5346bcf6bd211240857bb4e96b7a7f25a4d8ff05dcd8b79be3507"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_9_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_9_cxx.cxx.o",
+      "sha256": "b1bb686cad05cbc96ad180ca14925214f52b8a92b5e7cf357f8b7c132225bbf7"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_8_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_8_cxx.cxx.o",
+      "sha256": "9368303c0a32df4caf4c9709277552ce53c7cbc53ff80fe39c28551fb36c6e06"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_7_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_7_cxx.cxx.o",
+      "sha256": "17db34c301f9684122526d9005f13c33311a596811f58c0902a6741f69a05cc0"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_6_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_6_cxx.cxx.o",
+      "sha256": "54b4b133170c05924db2c9f2b65739574e9bbc114898102ce587ea753b91819c"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_5_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_5_cxx.cxx.o",
+      "sha256": "790565d80726f334431d180580c25b69ad1c757194c57a6f1c400001dc096d7e"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_4_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_4_cxx.cxx.o",
+      "sha256": "e4d04d7d062bd8e2dd2a6cebb4d0ece631e39538f21f962440ff2f0dff831602"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_3_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_3_cxx.cxx.o",
+      "sha256": "6af6610012e4da15441743663f6ee5e5b59de625731f7e81c9bc6e957e1a730b"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_2_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_2_cxx.cxx.o",
+      "sha256": "b4db2d3b4017110cf04fd94b75f585658f8d2ea3806ebcae593bf13a25f22290"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_1_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_1_cxx.cxx.o",
+      "sha256": "32ffd678ab0b3d28c5712d8565fc98b346653016e2cf6f45d1242c8ab542ea92"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/Unity/unity_0_cxx.cxx.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_0_cxx.cxx.o",
+      "sha256": "251ebfcac8cc97540abf5cb7a813ff70ce97bc0a31b1c7ce6587816f2bee81b9"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama.cpp.o",
+      "sha256": "0d2df5388a7d38c4882857720e13fdfd492f01cf42e175a4a17c8ee5cd088d67"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-adapter.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-adapter.cpp.o",
+      "sha256": "21c6fa20839b055e2fd30a5d18de92eb050dd2628f4f987abc3d0b9dbd67a210"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-arch.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-arch.cpp.o",
+      "sha256": "82115595888388896f4765d641c06a6a87f0919e6ba58ab23553927f07c01edd"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-batch.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-batch.cpp.o",
+      "sha256": "7119dfec48a71f82fa499709e9120878ca846687ebdcaf7d1d3936e53e2176fe"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-chat.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-chat.cpp.o",
+      "sha256": "e89977b48da4628969bd8663951fda115d3b85d25a5f49c8eba93a17a8052d47"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-context.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-context.cpp.o",
+      "sha256": "9d226f15771b753ee5076ea17f0eeb67359805ef34a44d8b672c15f7dc280dab"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-cparams.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-cparams.cpp.o",
+      "sha256": "0c9b69d1b29850cbeaff152653996dc506bf33dfc35ae2896c896f4aff126b1d"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-grammar.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-grammar.cpp.o",
+      "sha256": "4fe5c93213bfb988380dc81f9423c7cd5df8ebb4a4786abd66a38d6a6dc2f981"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-graph.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-graph.cpp.o",
+      "sha256": "1c9cc6482b2fadec91896a98d37c14df9b6676dbab913d3863714fbe87ef834f"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-hparams.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-hparams.cpp.o",
+      "sha256": "b8a6c645d0308a17fa4c74a377945c36ecb9c945950a7a366168b1ed1c51c690"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-impl.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-impl.cpp.o",
+      "sha256": "2cd3f40fb450aeff2668154a5a2e6433e5df1cb5dd11ed13b5d0a3ff3f3f0817"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-io.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-io.cpp.o",
+      "sha256": "fd2b636c5f39efdf8c0e7cad5fa00dc226147d2224a353d41afd82d2a5a50fdf"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache.cpp.o",
+      "sha256": "31e4675a76514dd4d30100da5d5d0282b5aafe59f30f86595f035e9c949ffbb8"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache-iswa.cpp.o",
+      "sha256": "3a0c1498930e4311829f7336a81ea6a6e35383664868a4ae7fc6552305b65cca"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-kv-cache-dsa.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache-dsa.cpp.o",
+      "sha256": "697eb331e075b361a1ca9519e624d41e63e75aa1cbb0a90304ea78172862bee9"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-kv-cache-dsa-iswa.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache-dsa-iswa.cpp.o",
+      "sha256": "992c9994354a2b0c49ed7df3970e97d1437d6c4303acc5be4911916fc3189591"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-kv-cache-msa.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache-msa.cpp.o",
+      "sha256": "afda1d4917b46f81a2c01e16abae0489bb27a88ef8a088e6db02c5686c21d133"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-kv-cache-dsv4.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache-dsv4.cpp.o",
+      "sha256": "533c1792fcac04dd3dd84e6620d2968ab8377fb31c71d6b506e790612163d66f"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-memory.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-memory.cpp.o",
+      "sha256": "533f1adcd488748f575916adef08e7c20305cb90648f21da117cb5225b1d27dd"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-moe-cache.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-moe-cache.cpp.o",
+      "sha256": "106c9b0eab7866cf66b4ec34f884b11369ecbde327de832838350e8102e00dfb"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-memory-hybrid.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-memory-hybrid.cpp.o",
+      "sha256": "bf5d36b7a9985afa3425a5c9673c5cd1a694ed02ef49ed0de8e1e44dd74a9cac"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-memory-hybrid-iswa.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-memory-hybrid-iswa.cpp.o",
+      "sha256": "40a1da1472d08147416f9b4315511158296b3c2b78cb804da7ee0871fa318614"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-memory-hybrid-idx.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-memory-hybrid-idx.cpp.o",
+      "sha256": "e959e7b94d9b5ff97e23495b1bd1a0d3194c94cdaa0717e3379c16f0f4392c70"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-memory-recurrent.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-memory-recurrent.cpp.o",
+      "sha256": "7898a920fae31f70de540544b1c623d04d49b48f6e39a43e77f845b63729c6d2"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-mmap.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-mmap.cpp.o",
+      "sha256": "3005d0d4e0687139d6d2b129e2680e7b9b02437f6e8ccf30994b8e7b388063cb"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-model-loader.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-model-loader.cpp.o",
+      "sha256": "86b5c7d30cf80d50ecf1283a49faaf539d8a45dd0a630ea654deaf63fa56ddaa"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-model-saver.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-model-saver.cpp.o",
+      "sha256": "9d50daceedb3821a31c35042214a0719eb43f5a7008987c690cea4c151d5e44f"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-model.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-model.cpp.o",
+      "sha256": "94c0fe67b385521c0c6da1c99408d84552c7d1e6b1ef5c9049581993d0d44834"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-quant.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-quant.cpp.o",
+      "sha256": "b5a7cab0307dd43dc7c313d0341bb132d975a56d2bbaac9c70c9cbe438507f9c"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-sampler.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-sampler.cpp.o",
+      "sha256": "4e0d23ca4f5f199df584a0459fb52ac8e72ff28733bdb51903216acb58d4202d"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/llama-vocab.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-vocab.cpp.o",
+      "sha256": "b195fae9272fc225dd18e89e056f6d6bfc4bd434003e7183e47d8df6e85ddb11"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/unicode-data.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unicode-data.cpp.o",
+      "sha256": "757428233d74feb225122208d3f8c41fc8b494a3cf8a0fe852663e0de4780649"
+    },
+    {
+      "source": "${CLAUDE_WORKSPACE}/prodtree/build/src/CMakeFiles/llama.dir/unicode.cpp.o",
+      "path": "${WORKSPACE}/isolated/native-constant-rotation/objects/unicode.cpp.o",
+      "sha256": "25d8890a775719f94ac501403d585793f3bc14d2d759dfa6295c0c01514c4cc0"
+    }
+  ],
+  "link_command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-fPIC",
+    "-stdlib=libc++",
+    "-O3",
+    "-DNDEBUG",
+    "-shared",
+    "-Xlinker",
+    "--dependency-file=${WORKSPACE}/isolated/native-constant-rotation/control-link.d",
+    "-Wl,-soname,libllama.so.0",
+    "-o",
+    "${WORKSPACE}/isolated/native-constant-rotation/control-libllama.so.0.7.0",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_10_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_9_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_8_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_7_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_6_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_5_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_4_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_3_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_2_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_1_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unity_0_cxx.cxx.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-adapter.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-arch.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-batch.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-chat.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-context.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-cparams.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-grammar.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-graph.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-hparams.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-impl.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-io.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache-iswa.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache-dsa.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache-dsa-iswa.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache-msa.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-kv-cache-dsv4.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-memory.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-moe-cache.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-memory-hybrid.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-memory-hybrid-iswa.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-memory-hybrid-idx.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-memory-recurrent.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-mmap.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-model-loader.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-model-saver.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-model.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-quant.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-sampler.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/llama-vocab.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unicode-data.cpp.o",
+    "${WORKSPACE}/isolated/native-constant-rotation/objects/unicode.cpp.o",
+    "-Wl,-rpath,${CLAUDE_WORKSPACE}/prodtree/build/bin:",
+    "${CLAUDE_WORKSPACE}/prodtree/build/bin/libggml.so.0.27.0",
+    "${CLAUDE_WORKSPACE}/prodtree/build/bin/libggml-cpu.so.0.27.0",
+    "${CLAUDE_WORKSPACE}/prodtree/build/bin/libggml-vulkan.so.0.27.0",
+    "${CLAUDE_WORKSPACE}/prodtree/build/bin/libggml-base.so.0.27.0"
+  ],
+  "compile_command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-DGGML_BACKEND_SHARED",
+    "-DGGML_SHARED",
+    "-DGGML_USE_CPU",
+    "-DGGML_USE_VULKAN",
+    "-DLLAMA_BUILD",
+    "-DLLAMA_SHARED",
+    "-Dllama_EXPORTS",
+    "-I${WORKSPACE}/isolated/native-constant-rotation/source/src/.",
+    "-I${CLAUDE_WORKSPACE}/prodtree/build/src",
+    "-I${WORKSPACE}/isolated/native-constant-rotation/source/src/../include",
+    "-I${WORKSPACE}/isolated/native-constant-rotation/source/ggml/src/../include",
+    "-stdlib=libc++",
+    "-O3",
+    "-DNDEBUG",
+    "-fPIC",
+    "-Xclang",
+    "-fno-pch-timestamp",
+    "-Wmissing-declarations",
+    "-Wmissing-noreturn",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Wcast-qual",
+    "-Wno-unused-function",
+    "-Wunreachable-code-break",
+    "-Wunreachable-code-return",
+    "-Wmissing-prototypes",
+    "-Wextra-semi",
+    "-o",
+    "${WORKSPACE}/isolated/native-constant-rotation/kv-cache.o",
+    "-c",
+    "${WORKSPACE}/isolated/native-constant-rotation/source/src/llama-kv-cache.cpp"
+  ],
+  "scope": "Alloriginalcoreobjectsprivatelysnapshotted;unchangedcontrollinkreproducesallproductioncoreloadablesegmentcode/databytesexactly(exceptELFsectiontablefileoffset);nonloadedlinkercommentmaydiffer. OnlyKVcachecppwillchange,noheaders/classlayout/ABI changes."
+}

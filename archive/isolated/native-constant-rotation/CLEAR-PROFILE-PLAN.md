@@ -1,0 +1,3 @@
+# Repeated clear and rotation-copy witness
+
+After fivefulltargetcases pass privateinactive/activecore, use existing CPUmetadataobserver with privateconstantrotationcore active. Two warmups/four measured128requested-token generations, each resetting target/draft memory via llama_memory_clear(...,true). All6native129tokens/74drafts/55accepts required,noGPUerrors/stableassets. Positivecreation/bypass audit required; for each measuredgeneration expect originalmetadata minusattn_inp_k_rot/attn_inp_v_rot exactly, no overflow,1406syncsetrequests. This tests immutable rotations survive repeated clears while mutable KV/state/tokenbehavior remain reference-exact. No new shader/backendbuild, sameunmappedfrozenQ3/cap400/copy2driver. CPUwallinstrumented,notperformancecomparison.

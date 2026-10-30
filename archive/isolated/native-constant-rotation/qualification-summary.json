@@ -1,0 +1,41 @@
+{
+  "cases": [
+    {
+      "case": "model32",
+      "target_rows": 38,
+      "sha256": "75055a49a5844ad14030f45cb76c11de20a44a6bb0e2db7c1c89a616137eb576",
+      "created": 2,
+      "bypasses": 122
+    },
+    {
+      "case": "coding",
+      "target_rows": 136,
+      "sha256": "d57c28c4140917e228a584ff8f7f2185caa0c08d51942a70b1dedf891cd95c27",
+      "created": 2,
+      "bypasses": 416
+    },
+    {
+      "case": "math",
+      "target_rows": 138,
+      "sha256": "cb052233cb56e8fe19113ff905700115393b19bfa263679d308ac800ca4a27f1",
+      "created": 2,
+      "bypasses": 422
+    },
+    {
+      "case": "populated-kv64",
+      "target_rows": 72,
+      "sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5",
+      "created": 2,
+      "bypasses": 244
+    },
+    {
+      "case": "boundary128",
+      "target_rows": 146,
+      "sha256": "16a693b0d912e151df9dc942bfb174f1dd5f8c48748f356b07be7cc8f2fa2f49",
+      "created": 2,
+      "bypasses": 446
+    }
+  ],
+  "target_rows": 530,
+  "scope": "Privateinactive/activecorefullrequestedtargetbits/tokens/countersmatchnative;positivecacheactivity,noGPUerrors. Sampledcontextsnotgenerallifetime/performanceproof. Repeatedclearprofilestillrequired."
+}

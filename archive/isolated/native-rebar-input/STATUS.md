@@ -1,0 +1,15 @@
+# Native mapped-VRAM state
+
+All five full-target cases pass530rows/tokens/counters,noGPUerrors, same immutable qualified4e1381cdbackend and production.27/.7core. Only candidatechild unsets GGML_VK_DISABLE_HOST_VISIBLE_VIDMEM; sourcebuffer implementationprefersdevice-local+host-visible+coherent, not sysmemprefer.
+
+Mapped CPUmetadata profile (native-transfer-observer/mapped-metadata-runs/20261030T003419Z) completedfourmeasured/sixnativegenerations129tokens/74drafts/55accepts. Exactsame17metadatarecords/1850syncsetrequests,zerooverflow. Queues4579->2137:syncset1850->0, fencewait518->222;graphqueues1767unchanged. Syncsetwallmean17.347msCPU17.272ms vspriorunmappedprofile643.613/91.145ms(nonmatched profiles,notTPSproof). Seeprofile-summary.json.
+
+Fixed48discovery completedsession74921terminal0,model-timing512/20261030T005211Z. All48native513tokens/279drafts/234accepts,noGPUerrors. Eightof12external-loadmatchedblocks:primary+28.599084%[25.905216,31.350590]. All12raw+29.779504%[25.024623,34.715222]. Fullgenerationsecondary+28.342707%[25.601768,31.143460]. Matchedmeans31.669/40.617TPS,CPU89.876/89.827%,builds10.763/11.060,runqueue23.143/23.155,clock1683.813/2181.625MHz,power113.856/160.050W,VRAM~18.65GiBboth. Wholeconfiguration/NATURALDVFS+powertradeoff,notshader/equalclockproof.
+
+Predeclaredconditionaltriggerpassed:UNCHANGEDfixed48independentconfirmation nowrunning session36431,model-confirmation512/20261030T011412Z. Sameasset/env/library/driver/core/shaders,same12blockrules,noowncompilation. Pollspecificsession/process/logs;do notrestart/resample/extend/pool. No adoption untilseparateconfirmationanddefault-stockscopeaudit.
+
+Protocolrevision24->48occurredBEFOREfirstmappedTPSmeasurement;v1plansandtiming-plan-revision.jsonpreserved. Notapostresulttestextension. Conditionalconfirmation48planalsopredateddiscovery. Activeconfirmationexcludedfrompublicationuntilterminal.
+
+Baseline caveat:unsettingdisablerestoresanexistingnativeDEFAULTthattheharnessoverrides. Awinwouldbeagainstthepreviousconstrainedharness,notnewshadergainorproofagainstnormallyconfiguredstock. Needseparatedirectunmodifiedstock/defaultallocationcomparisonbeforeordinary-stockclaim/generalrecommendation. Priorcontrolledresultsvalidonlywithinthedocumentedruntimeenvironment;do notaddhistoricalpercentages.
+
+CurrentGPUwork:independentBAR48session36431only. Constantbroad34006/clear88900terminal0;all530rowsand6resets nativeexact. AllowncompilesterminalbeforeBARtiming. No overlappingGPUwork;allClaude/production/system/desktop/clocks/affinityuntouched. Keepcurrentqualifiedunmappedconfig untilcompleteevidence;goalfastermega notachieved.

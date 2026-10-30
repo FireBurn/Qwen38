@@ -1,0 +1,9 @@
+# Next immutable-rotation work
+
+Allfivecases530rows plus repeatedclear6generations nativeexact, noGPUerrors. CoreSHA8c1fb5acce58a96544a2795252e96d54c859a4c1e25be0e0660e09525722eff5, noheaders/classABIchanges. Positiveactivitylogs andprobeattempts documented. Onlysource/src/llama-kv-cache.cpp rebuilt over privatelysnapshottedaa8coreobjects; compilerpatchcontrol included.
+
+CurrentGPUjobis mappedVRAM48A/Bsession74921, unrelatedoriginalcore. Do notcompile/runGPUuntilitsterminal. Keepconstantcoreimmutable.
+
+Next performance baseline must use native mapped/defaultallocation and directunmodifiedstockcontrol. ConstantcacheoverlapsBARcopysavings; do notclaim444removeduploadsadd toBAR's1850removedsetsubmissions. UnderBAR thecachemayonlysaveCPUcopies andremainingmetadatawork, soamappeddefaultbaselineisrequired. Beforecombinedtiming, runnewmapped+constfulltarget/token/referencechecks;suballocation/queuelegacyoverrides shouldbeexplicit orremovedandrequalified. No speedgainestablishedforcacheyet.
+
+See../native-rebar-input/NEXT.md forbaselinecorrection/conditionalconfirmationand../native-greedy-sampling/STATIC-TRIAGE.md forfuturepipelineleads. Preserveallattempts/sourcehashes/rawchecks;noowner/pointerlifetimeshortcuts. NoClaude/production/systemchanges. Goalactive,nofastermega demonstrated.

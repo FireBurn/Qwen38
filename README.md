@@ -2,11 +2,13 @@
 
 Research notes and evidence from attempts to accelerate Qwen3.8 inference on an **AMD Radeon AI Pro R9700**, principally llama.cpp's Vulkan backend and a persistent mega kernel containing matrix operations, recurrent operations and Flash Attention.
 
-**A scoped native-backend configuration measures +8.43% versus stock in a fixed 36-run comparison under matched external load. [Evidence and limits](docs/SUBMISSION-CAP.md). No faster-than-native mega kernel has been established.** The result combines padded Q3 weights/lower host overhead with a larger existing submission cap. Natural GPU clocks and sampled power rise; this is a whole-configuration result, not equal-clock shader efficiency or general deployment qualification. The earlier clock-matched Q3 result remains documented separately.
+**A scoped native-backend configuration measures +8.43% versus stock in a fixed 36-run comparison under matched external load. [Evidence and limits](docs/SUBMISSION-CAP.md). No faster-than-native mega kernel has been established.** The result combines padded Q3 weights/lower host overhead with a larger existing submission cap. Natural GPU clocks and sampled power rise; this is a whole-configuration result, not equal-clock shader efficiency or general deployment qualification. The earlier clock-matched Q3 result remains documented separately. These comparisons use explicit archived runtime flags; [baseline environment and native-default scope](docs/BASELINE-ENVIRONMENT.md) explains the newly identified mapped-VRAM override.
 
 
 ## Start here
 
+- [Mapped-VRAM path](docs/NATIVE-MAPPED-VRAM.md): restores an existing native default, removes2,442queuecalls; fixed48-run discovery+28.6% versus the old harness, confirmation pending.
+- [Immutable GPU rotation matrices](docs/NATIVE-CONSTANT-ROTATION.md): new private core cache passes530targetrows and repeated KV clears, eliminating444repeated uploads; no model speed claim yet.
 - [Native transfer observer](docs/NATIVE-TRANSFER-OBSERVER.md): identifies1,850 synchronous tensor-set submissions per short decode; ownership-preserving batching is the next target.
 - [Native submission budget](docs/NATIVE-SUBMIT-BUDGET.md): fewer batches and a small discovery gain; independent under-load confirmation remains unqualified.
 - [Native fusion-plan cache](docs/NATIVE-FUSION-PLAN.md): exact cached CPU decisions and mutation tests; fixed under-load A/B establishes no incremental gain.

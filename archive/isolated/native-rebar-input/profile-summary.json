@@ -1,0 +1,58 @@
+{
+  "profile": "${WORKSPACE}/isolated/native-transfer-observer/mapped-metadata-runs/20261030T003419Z",
+  "arms": [
+    {
+      "arm": 0,
+      "queues": {
+        "graph": 1767,
+        "other_outside": 370
+      },
+      "fence_waits": 222,
+      "set_wall_ns": 17175576,
+      "set_cpu_ns": 17241377,
+      "metadata_matches_unmapped": true
+    },
+    {
+      "arm": 1,
+      "queues": {
+        "graph": 1767,
+        "other_outside": 370
+      },
+      "fence_waits": 222,
+      "set_wall_ns": 17066718,
+      "set_cpu_ns": 17135494,
+      "metadata_matches_unmapped": true
+    },
+    {
+      "arm": 2,
+      "queues": {
+        "graph": 1767,
+        "other_outside": 370
+      },
+      "fence_waits": 222,
+      "set_wall_ns": 17010780,
+      "set_cpu_ns": 17344104,
+      "metadata_matches_unmapped": true
+    },
+    {
+      "arm": 3,
+      "queues": {
+        "graph": 1767,
+        "other_outside": 370
+      },
+      "fence_waits": 222,
+      "set_wall_ns": 18133545,
+      "set_cpu_ns": 17368916,
+      "metadata_matches_unmapped": true
+    }
+  ],
+  "baseline_queue_calls": 4579,
+  "candidate_queue_calls": 2137,
+  "baseline_sync_set_queue_calls": 1850,
+  "candidate_sync_set_queue_calls": 0,
+  "baseline_fence_waits": 518,
+  "candidate_fence_waits": 222,
+  "mean_set_wall_ms": 17.34665475,
+  "mean_set_cpu_ms": 17.27247275,
+  "scope": "CPUinstrumentedmechanismprofileonly,notmatchedTPScomparison. Allsixnative129tokens/74drafts/55accepts exact;fourmetadatahistogramsidentical,zerooverflow/noGPUerrors.Nativeallocationfallbackexistsbutobservedqueuesprovenactivepath."
+}

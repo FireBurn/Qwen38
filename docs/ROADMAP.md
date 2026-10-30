@@ -65,3 +65,7 @@ Tile-dependency scheduling from Cohere/Mirage, recurrent-operation fusion from F
 ## Transfer-attribution follow-up
 
 The [native transfer observer](NATIVE-TRANSFER-OBSERVER.md) attributes1,850 of4,579queuecalls per short decode to synchronous tensor sets, with643.6msinclusive wall/91.1msCPU on average. All six native generations match129tokens/74drafts/55accepts; no GPU errors. This is a measured optimization target, not a speedup. Identify tensor names/flags before designing retained staging that preserves immediate source capture and completion-aware recycling.
+
+## Input metadata, native defaults and immutable rotations
+
+[Metadata attribution](NATIVE-TRANSFER-OBSERVER.md#tensor-metadata-and-follow-up) found repeated fixed Hadamard inputs. The [private constant cache](NATIVE-CONSTANT-ROTATION.md) passes530targetrows and six repeated-clear generations, with444fewer uploads/queuecalls. Separately, [mapped VRAM](NATIVE-MAPPED-VRAM.md) passes530rows and removes2,442queuecalls, with fixed48-run discovery+28.60% [+25.91%,+31.35%] over the old harness in eight matched blocks, independent confirmation pending. Natural GPU clocks/power rise; no equal-clock/default-stock claim. Restoring this existing native default corrects a [harness override](BASELINE-ENVIRONMENT.md); prior stock comparisons are scoped to their archived environment. No new shader/default-stock/mega-kernel gain is claimed from these mechanism checks.
