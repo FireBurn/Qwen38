@@ -7,7 +7,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 
 ## Start here
 
-- [Wider native argmax](docs/NATIVE-ARGMAX.md): adversarial/modeloutputs exact; fixedoperatorgraphwalltime−60.9%; fullmodel72-run test running.
+- [Wider native argmax](docs/NATIVE-ARGMAX.md): fixed72modeldiscovery+1.92%overstock; independent48confirmationrunning, not yet confirmed.
 - [Restricted target greedy sampling](docs/NATIVE-GREEDY-SAMPLING.md): allthree530rawrows/config exact, backend activity verified; fixed72test finds no gain overstock.
 - [Current work and latest results](docs/CURRENT-STATUS.md): completed experiments, confirmed scope and untested next steps.
 

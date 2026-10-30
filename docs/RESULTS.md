@@ -4,6 +4,10 @@
 
 There is **no demonstrated mega-kernel throughput win over the current native baseline**. The combined implementation can produce exact model outputs, and several local improvements are real, but correctness and lower resource counts do not establish a speedup.
 
+### Widerargmax: positive discovery, independent confirmation running
+
+Fixed72modeldiscovery finds+1.920%overstock[+0.714%,+3.141%],all12load-matchedblocks; fullgeneration+1.826%[+0.631%,+3.035%]. Wideshaderversusprivate-nativebackendcontrol+2.737%[+1.854%,+3.627%],secondarydescriptive. All72nativeoutputs/counters exact,noGPUerrors,pinnedassetsunchanged. Predeclaredindependent48confirmationrunning withunchangedsettings. No pooling/Q3percentageaddition/confirmedgain/general/mega claim. [Completeevidence](NATIVE-ARGMAX.md).
+
 ### Restricted sampling controls: no supported stock gain
 
 Fixed72fresh512-request-token comparison: backendtemperature-onlyvsdefaultCPU+0.122%[-0.672%,+0.921%],11/12matchedblocks, primarygatefails. CPUtemperature-onlyregresses1.749%; backendoffloadrecovers2.069%versusthatcontrol on9matchedblocks, secondarydescriptive. All72nativeoutputs/counters exact,noGPUerrors. Allthreeconfigs previouslypass530rawtargetrows each and verifiedbackendscalaractivity. No confirmation/adoption. [Complete evidence and cost hypothesis](NATIVE-GREEDY-SAMPLING.md).

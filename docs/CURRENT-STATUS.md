@@ -1,6 +1,6 @@
 # Current work — 2026-10-30
 
-**Now running:** fixed72full-model widerargmax comparison, guardedsession95273. Allthreearms pass530rawtargetrows perarm with stockbits/tokens/counters, positivewide/backendactivity, zeroGPUerrors. Shader also matchesstock on630adversarialcases/1680indices perarm; fixed24operatorgraphwalltime decreases60.9%, not modelTPS. [Implementation, completed evidence and timing protocol](NATIVE-ARGMAX.md). No modelgainyet.
+**Now running:** independentfixed48full-model widerargmax confirmation, guardedsession10091. Completedfixed72discoverymeasures+1.920%overstock[+0.714%,+3.141%],all12load-matchedblocks. Full-generation+1.826%[+0.631%,+3.035%];secondarywideshadervsprivate-nativebackend+2.737%[+1.854%,+3.627%]. All72nativeoutputs/counters exact,noGPUerrors,pinnedassetsunchanged. The positiveprimarygate permits thisunchangedindependentconfirmation; notyet a confirmedmodelgain. [Implementation, allcompletedchecks/results and confirmationprotocol](NATIVE-ARGMAX.md).
 
 **Latest completed full-model test:** fixed72targetsampling comparison finds no supportedgain overstock: backendtemperature-only+0.122%[-0.672%,+0.921%],11matchedblocks. CPUtemperature-only regresses1.749%; backendoffload recovers thatloss but does not beatstock. All72nativeoutputs/counters exact,noGPUerrors. Conditionalconfirmationgatefails; no retry/extension/pooling. Widerargmax full-model throughput comparison is now running after numerical qualification. [Numerical/activity audits, complete timing data and interpretation](NATIVE-GREEDY-SAMPLING.md).
 

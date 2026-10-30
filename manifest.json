@@ -24759,9 +24759,9 @@
     {
       "source": "isolated/native-argmax-review/STATUS.md",
       "path": "archive/isolated/native-argmax-review/STATUS.md",
-      "source_sha256": "2d3bdab785184ea24c089ea962834ca5179c2d47c10afd58c38381d5c21ed22c",
-      "export_sha256": "2d3bdab785184ea24c089ea962834ca5179c2d47c10afd58c38381d5c21ed22c",
-      "bytes": 2440,
+      "source_sha256": "54e2ac5dc321ea628542eb9b00c31501acd0dda2a12229604095814877c83127",
+      "export_sha256": "54e2ac5dc321ea628542eb9b00c31501acd0dda2a12229604095814877c83127",
+      "bytes": 3063,
       "sanitized": false
     },
     {
@@ -25955,7 +25955,1215 @@
       "export_sha256": "0ce56e9ce44f82dcfbd059eca57bd4d32e23b023932ef717da71e8f448ebf33e",
       "bytes": 17483,
       "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-discovery-outcomes.log",
+      "path": "archive/isolated/native-argmax-review/model-discovery-outcomes.log",
+      "source_sha256": "863e91b50d025a23c083fee2d444d54eaa82af252574d73ac2d8b77587612396",
+      "export_sha256": "863e91b50d025a23c083fee2d444d54eaa82af252574d73ac2d8b77587612396",
+      "bytes": 8879,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/00-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/00-stock100-telemetry.json",
+      "source_sha256": "2adaa98eab2ba92ab2ea3d7eb2b7234f66b0580468a81487cbd7872ba57e9b45",
+      "export_sha256": "2adaa98eab2ba92ab2ea3d7eb2b7234f66b0580468a81487cbd7872ba57e9b45",
+      "bytes": 144630,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/00-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/00-stock100.log",
+      "source_sha256": "88d4218bb1c7a5adab72e1cc6a630aef62a73c650b9b711a4a7eae4f745d6bc4",
+      "export_sha256": "31dbdb15295c2835700badb5aa88efbf6f947d3767c02e2f27098ff21f4219bf",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/01-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/01-private_off-telemetry.json",
+      "source_sha256": "b08a1e3d5f210b13e9fc5079242bfb1ee804fce9a9241362dcf5696f4f0b8690",
+      "export_sha256": "b08a1e3d5f210b13e9fc5079242bfb1ee804fce9a9241362dcf5696f4f0b8690",
+      "bytes": 93822,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/01-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/01-private_off.log",
+      "source_sha256": "adb7beb4ea3933dde0a39b7e391e721862311b8811feda90f95eee9447032de1",
+      "export_sha256": "f55855db19f53c1ba472644256a70d59ac609fdec89d0ae61765740efcaa892a",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/02-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/02-private_wide-telemetry.json",
+      "source_sha256": "d368d5d7da371b413dfb8ca992a51bdda3e78df39b73c818dafefc0ad32610cf",
+      "export_sha256": "d368d5d7da371b413dfb8ca992a51bdda3e78df39b73c818dafefc0ad32610cf",
+      "bytes": 90415,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/02-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/02-private_wide.log",
+      "source_sha256": "344897667b805262af773e85f188adc1233f1f52bd486267488b9e0a816adc6d",
+      "export_sha256": "91781c5ea608f2893902890f5576fa81bf1dc1ef59342e599f511dfa449aff1d",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/03-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/03-private_wide-telemetry.json",
+      "source_sha256": "ba7f5396e63052d7d8d54c4c20d793405905fdcc8aeb87ed19566f2f46d0e89c",
+      "export_sha256": "ba7f5396e63052d7d8d54c4c20d793405905fdcc8aeb87ed19566f2f46d0e89c",
+      "bytes": 84615,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/03-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/03-private_wide.log",
+      "source_sha256": "8123550f07825bbcb6acab99d6d6a10aa2eaa75ee34c56ef38d1a13fce47e326",
+      "export_sha256": "6e4c6d0787389ca8126d291f728b93a9e63895125bb09a839ac14174e1668395",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/04-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/04-private_off-telemetry.json",
+      "source_sha256": "1fdcb6246b2e7542dd79fd14cd7ccdbb5477a80c35632655e7b5662c2071c3b1",
+      "export_sha256": "1fdcb6246b2e7542dd79fd14cd7ccdbb5477a80c35632655e7b5662c2071c3b1",
+      "bytes": 87372,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/04-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/04-private_off.log",
+      "source_sha256": "496b8d3fc2b1d1d5a51ef2144f09c29e43871bb24da26c02b78c381916146800",
+      "export_sha256": "2d0a626cdf5e775e08b89f7e1cea0b29c144e04360e00b99c5e44e73f834769f",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/05-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/05-stock100-telemetry.json",
+      "source_sha256": "a2e9debc868a21aa59796faff66717d2456d77f0707185bf02923187320e826d",
+      "export_sha256": "a2e9debc868a21aa59796faff66717d2456d77f0707185bf02923187320e826d",
+      "bytes": 90132,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/05-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/05-stock100.log",
+      "source_sha256": "cd29d8104e2226696b744ce2b0cc4d4359b9d0c3fcaec176937797c6132dd7d0",
+      "export_sha256": "606ce0acd0572d840a67854898e2c0a8f14d7716952258b9794c4d69fbf1db47",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/06-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/06-private_off-telemetry.json",
+      "source_sha256": "f66e4cb6a17ca0c6cb0b7eb35208b80ded273f9d099f20f7319d24ba3d7f8096",
+      "export_sha256": "f66e4cb6a17ca0c6cb0b7eb35208b80ded273f9d099f20f7319d24ba3d7f8096",
+      "bytes": 84982,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/06-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/06-private_off.log",
+      "source_sha256": "c12e8fcb1664b26eed1c97eca9aa2d9677969c510b3bef1df48696b59c061924",
+      "export_sha256": "25cf9ed9ffd95d14e4ebe1bab561242f4b1e1f88c617b5bf0479603cb6f39e2d",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/07-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/07-private_wide-telemetry.json",
+      "source_sha256": "1d9723a043c3bda5eed5c9ecbe404743ea2057345e7cfd2a588f22450abde533",
+      "export_sha256": "1d9723a043c3bda5eed5c9ecbe404743ea2057345e7cfd2a588f22450abde533",
+      "bytes": 84598,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/07-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/07-private_wide.log",
+      "source_sha256": "c65d37966b96d5309af023757a737dd00e4b716a38cac999337d2a9c7430721e",
+      "export_sha256": "5ac7247be4b2b648aa206b727d6dd90c1c1eb891798f2c842e33df0c131792a0",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/08-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/08-stock100-telemetry.json",
+      "source_sha256": "53f27b88429912f01677d0e4f7d0cab81f02d6821b2c1f15bbf51627f40a86af",
+      "export_sha256": "53f27b88429912f01677d0e4f7d0cab81f02d6821b2c1f15bbf51627f40a86af",
+      "bytes": 84637,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/08-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/08-stock100.log",
+      "source_sha256": "13cb84eb031a2e4c14dcb6ce4bd7bc2874b28382d99190ead86408f3e9ae61a5",
+      "export_sha256": "fdf490f0ffbe9f7e1c19863e373ce56862df706f15f243a8c42a2c96f3ca2f6d",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/09-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/09-stock100-telemetry.json",
+      "source_sha256": "d63dd8336ee05f4dbf8dd06b08746818d3cd9ca819d5adbed4e855fff9a77e08",
+      "export_sha256": "d63dd8336ee05f4dbf8dd06b08746818d3cd9ca819d5adbed4e855fff9a77e08",
+      "bytes": 88092,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/09-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/09-stock100.log",
+      "source_sha256": "2379f3ececb5fe5043b60362e2ac47b877a383cf0476eb153423270745b68bb8",
+      "export_sha256": "16cbdbb04b8defaa934943b8e66a4d5bd90285d1d6ce74fcba530a52603357fe",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/10-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/10-private_wide-telemetry.json",
+      "source_sha256": "10041df1d5d028f24c7a27a7a31f6e33c37a3a8f1303364fd96cb21c7f7da5a7",
+      "export_sha256": "10041df1d5d028f24c7a27a7a31f6e33c37a3a8f1303364fd96cb21c7f7da5a7",
+      "bytes": 82632,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/10-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/10-private_wide.log",
+      "source_sha256": "74ed0965600b8c454efa94e60cb71a3c02519cb1d99d6b3394a66b92f7a4a0be",
+      "export_sha256": "7ac29e21d619caa03d172d3333bc371e9b0106cd2d17368297641c8d94b79855",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/11-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/11-private_off-telemetry.json",
+      "source_sha256": "73713688c0eec0bf0c5d79f3b9adf060e03bede12953d59371631fa0db261e04",
+      "export_sha256": "73713688c0eec0bf0c5d79f3b9adf060e03bede12953d59371631fa0db261e04",
+      "bytes": 85419,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/11-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/11-private_off.log",
+      "source_sha256": "07d7424378d9ab9b3fc60a150160c939284caab690d42158c3b1ef21a9ce6d2e",
+      "export_sha256": "a87c4188c90e46ceddf03b39b799a72fd412f1cd04c50fdf2c203635f00fa7d9",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/12-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/12-private_wide-telemetry.json",
+      "source_sha256": "d10578ec180d1592514f9468b5ed94e6bd03d52f88f0ddd0ba83c89095914a64",
+      "export_sha256": "d10578ec180d1592514f9468b5ed94e6bd03d52f88f0ddd0ba83c89095914a64",
+      "bytes": 84588,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/12-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/12-private_wide.log",
+      "source_sha256": "8df89386f2cb2795e83003131d4f2f2aeb811385d823722836d5b5a42a3d209a",
+      "export_sha256": "01615426c394a6cbd87438245a5b7a24e2bbc0ac012cdfb333649e61fcbe7fc1",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/13-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/13-stock100-telemetry.json",
+      "source_sha256": "0c0f1875ca140b0c28d7a093fef061b4dab4e63186af8545297e33b7fc19a8e1",
+      "export_sha256": "0c0f1875ca140b0c28d7a093fef061b4dab4e63186af8545297e33b7fc19a8e1",
+      "bytes": 85015,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/13-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/13-stock100.log",
+      "source_sha256": "e27311a8e0c1086a4e38693ddf383ce29a00782eac12abdb9eac6abe991141e5",
+      "export_sha256": "ea4f1409bdbc27427893c3e725b643e4f6da665bf218afb5dfa5b7247c4eda1c",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/14-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/14-private_off-telemetry.json",
+      "source_sha256": "1342c815a0a78f9ed297cc23bc6ec174740c839bf0ecb2d5375f85c8f2fa4c33",
+      "export_sha256": "1342c815a0a78f9ed297cc23bc6ec174740c839bf0ecb2d5375f85c8f2fa4c33",
+      "bytes": 86677,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/14-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/14-private_off.log",
+      "source_sha256": "1bb8343d5252f50b06f299bfe66a13c5594565a754eb6f15df11d236f0581b4a",
+      "export_sha256": "b4923b09efabfdd7894cb0a03904d6688e7c25b3fca81b129406347c65baadc1",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/15-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/15-private_off-telemetry.json",
+      "source_sha256": "b406274265f0aaab51e91b983e9dadf08a5fd2df3876dd1de804b9b38dbb4c9e",
+      "export_sha256": "b406274265f0aaab51e91b983e9dadf08a5fd2df3876dd1de804b9b38dbb4c9e",
+      "bytes": 83289,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/15-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/15-private_off.log",
+      "source_sha256": "539ac9a1eddb988c8d30de3ca8091e1594c87f96435c840abcdcb76ed773583b",
+      "export_sha256": "2026888246ccf4d959961f820168a2b146e6dcf7c7f2c9570f6826672603bcaf",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/16-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/16-stock100-telemetry.json",
+      "source_sha256": "226efff2a0f56dc6464f64f1b94fbcff4a7bee2ef5bd683fb8ab7f781956d10d",
+      "export_sha256": "226efff2a0f56dc6464f64f1b94fbcff4a7bee2ef5bd683fb8ab7f781956d10d",
+      "bytes": 86025,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/16-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/16-stock100.log",
+      "source_sha256": "83b8137ce7043edd6bb6a9abe6e473df4a995c0d5f52827fe0c5b2ca195f27bc",
+      "export_sha256": "35b611594fe20cd0d4b52c8a6ff5c39ff9b994ac44ae3ce20b4cd79b5209aed6",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/17-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/17-private_wide-telemetry.json",
+      "source_sha256": "d11f32fa6ac29e11ee7db029eea7f38a073fca2b19c0c27b9664a4a9c5a057aa",
+      "export_sha256": "d11f32fa6ac29e11ee7db029eea7f38a073fca2b19c0c27b9664a4a9c5a057aa",
+      "bytes": 85997,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/17-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/17-private_wide.log",
+      "source_sha256": "4808ad30056f270b7380b7118ffaa37dea3162e1e741d7fe719ff893ee205fa5",
+      "export_sha256": "4afa1af8427bf517f5047eee7e34e49ceb75bac12ca9a52fe62f39d58f67e6c5",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/18-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/18-stock100-telemetry.json",
+      "source_sha256": "19afcbfe868994749dd0b569ac8f4d635fc501e7faa64ad44e29b21aea441c65",
+      "export_sha256": "19afcbfe868994749dd0b569ac8f4d635fc501e7faa64ad44e29b21aea441c65",
+      "bytes": 88734,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/18-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/18-stock100.log",
+      "source_sha256": "f62831b2406e79682574e224a1ff106c73bbb8a3e5fc66e6fbdbb9a509327af9",
+      "export_sha256": "19273bcaa231507afefdd4ce5603a616e073b7beb21814a9316bd2d561b7d353",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/19-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/19-private_wide-telemetry.json",
+      "source_sha256": "7efa0ea7fd2a49aaf8666c2f1e3e53540e0a54180b6910aeaee06fecb20a2511",
+      "export_sha256": "7efa0ea7fd2a49aaf8666c2f1e3e53540e0a54180b6910aeaee06fecb20a2511",
+      "bytes": 82967,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/19-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/19-private_wide.log",
+      "source_sha256": "2ea8048b581f280d11c9859222807690ad55a1e54d553696d4fa1bd5e338e2a2",
+      "export_sha256": "c5bd88f22654a9a9bd22e365ab809491f3afff8368105382a8429c088e7871d4",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/20-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/20-private_off-telemetry.json",
+      "source_sha256": "40f0b54187ea5e6a7042d91647fd57f302b3d06ef46805438679736290aa302e",
+      "export_sha256": "40f0b54187ea5e6a7042d91647fd57f302b3d06ef46805438679736290aa302e",
+      "bytes": 83232,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/20-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/20-private_off.log",
+      "source_sha256": "036f23f42be6d8b60d8e919d61a401eaaa6b4aa1b6a53a80fc45d889be95fde1",
+      "export_sha256": "cbcc286aed02d60dd998f210462f687f63c889975866d535a3d533551a1bc0af",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/21-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/21-private_off-telemetry.json",
+      "source_sha256": "0a358387249b544b4e0b7e3ee843107cedfaed7c6637640726650b56084d880c",
+      "export_sha256": "0a358387249b544b4e0b7e3ee843107cedfaed7c6637640726650b56084d880c",
+      "bytes": 86651,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/21-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/21-private_off.log",
+      "source_sha256": "55fc2c566d361072b484f452144d360babd7dbc9bbb3e44d57fcb3fffe19cd09",
+      "export_sha256": "ccbf360fca7d8eaf70bed7b1219b7e6403a9fe4a3fa75d15e6740c902701de82",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/22-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/22-private_wide-telemetry.json",
+      "source_sha256": "b8c68b91c0730610615b67ef0ab516450b419e1a367396b640b0382eae2cecc9",
+      "export_sha256": "b8c68b91c0730610615b67ef0ab516450b419e1a367396b640b0382eae2cecc9",
+      "bytes": 88142,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/22-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/22-private_wide.log",
+      "source_sha256": "1484b706b1ff34508080f0e23158be1d6c529bc30a514b407e69a3ae92dd6c0a",
+      "export_sha256": "b70e11d376a287eafd36fecbe90bea7f435e843729a89483bfd2c9a483802130",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/23-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/23-stock100-telemetry.json",
+      "source_sha256": "5d8d3994952c578c089af07f3bd2fde9a1b146247087cb36a025724bed32aa0e",
+      "export_sha256": "5d8d3994952c578c089af07f3bd2fde9a1b146247087cb36a025724bed32aa0e",
+      "bytes": 81287,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/23-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/23-stock100.log",
+      "source_sha256": "fd6e89e522d98d261cd7534c6339d4ca050134ca3c40283136e675c8b78f9fee",
+      "export_sha256": "717af474d3b4f71c2f5eac467dbf97a4c8b6b06d1f1c87c81ef45de72a7905e4",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/24-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/24-private_wide-telemetry.json",
+      "source_sha256": "ebae252efe53ceee188ad88fba7b01b9d39c2d5cd02bd5bd1433294b0e237131",
+      "export_sha256": "ebae252efe53ceee188ad88fba7b01b9d39c2d5cd02bd5bd1433294b0e237131",
+      "bytes": 83748,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/24-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/24-private_wide.log",
+      "source_sha256": "74056aef8f97cb487f96022f81db7978ff77860a624c08312021e4a72c507f78",
+      "export_sha256": "743e57343dc17726130536b60aa6bab777d266e133c9905038a1316016cfb700",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/25-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/25-private_off-telemetry.json",
+      "source_sha256": "77f40fc16a26d9d3a7db8846bebae3e6b854361239124b74704de1a591f50449",
+      "export_sha256": "77f40fc16a26d9d3a7db8846bebae3e6b854361239124b74704de1a591f50449",
+      "bytes": 85759,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/25-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/25-private_off.log",
+      "source_sha256": "457e9582ab7978df5ffbed76ecbf4078cc6ae4cb01abdfc3f877d88eedc538c4",
+      "export_sha256": "5762a366cee70a17536730fe37ada4d8401d8b2e463244c0eb76d17c1bf55f0e",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/26-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/26-stock100-telemetry.json",
+      "source_sha256": "bd66ef6f570e9a3fb4cb63554e830bc3c5ede030e7903d1fa21f74313bdf56e7",
+      "export_sha256": "bd66ef6f570e9a3fb4cb63554e830bc3c5ede030e7903d1fa21f74313bdf56e7",
+      "bytes": 87440,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/26-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/26-stock100.log",
+      "source_sha256": "639340587b85c98c5ea18662cb44b10465031d7c22a16041657fb6dc2784bb61",
+      "export_sha256": "c26cc6476e8c1f14eb1d401d822122be79bda22ea0388a94409385b41cba39c5",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/27-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/27-stock100-telemetry.json",
+      "source_sha256": "215f5b4e3562c1b2b760b017031105b26be8cbcd54da77d560858630ed344e73",
+      "export_sha256": "215f5b4e3562c1b2b760b017031105b26be8cbcd54da77d560858630ed344e73",
+      "bytes": 87892,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/27-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/27-stock100.log",
+      "source_sha256": "0c4181739dc4b4e3d5eed633261691617627334728cb83fc6c710927e457eb1f",
+      "export_sha256": "ff3f62e2541e1b3aca64d622a5ff165335ba44e9be414532aa3d0ecf79fbac49",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/28-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/28-private_off-telemetry.json",
+      "source_sha256": "5660ae7c4976134896a7f64ca4c1abdae20983d4f6275bd3698b0bdd7034235e",
+      "export_sha256": "5660ae7c4976134896a7f64ca4c1abdae20983d4f6275bd3698b0bdd7034235e",
+      "bytes": 83796,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/28-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/28-private_off.log",
+      "source_sha256": "53a67c4e8fd679505ff444242f0b98561bee469deebfaa974dc2863daeaf94ee",
+      "export_sha256": "4fa9ba843eb9356ab238faa876af432bea90b20370b71b04958d529f7c1d8b49",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/29-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/29-private_wide-telemetry.json",
+      "source_sha256": "d2298e15f5e31fa40f9236d42547f7bc42cad36b8bb19b53d48b281a0b2a2fc2",
+      "export_sha256": "d2298e15f5e31fa40f9236d42547f7bc42cad36b8bb19b53d48b281a0b2a2fc2",
+      "bytes": 80915,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/29-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/29-private_wide.log",
+      "source_sha256": "074024e5f380ab16ac4ef19e6628ca73cf30f68bae55bb630abd3b040f9edc0e",
+      "export_sha256": "02d98199dae9661f697604985dc25a5083259b75bd3bde4e41223a7b1a0a12a9",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/30-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/30-private_off-telemetry.json",
+      "source_sha256": "b442227ae90d20b734c5db2d83f93021106069c8b70d62fa76a43ec8c9db1b90",
+      "export_sha256": "b442227ae90d20b734c5db2d83f93021106069c8b70d62fa76a43ec8c9db1b90",
+      "bytes": 85023,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/30-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/30-private_off.log",
+      "source_sha256": "812cadaf05d5f1c4ee6a31fea524b621ea549beb7ca50052c04cab182157f813",
+      "export_sha256": "632e07c16fa65c9132206e3f60498f0f7f7742543603abe970b999bfd7f30a10",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/31-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/31-stock100-telemetry.json",
+      "source_sha256": "9516bbda41c9ff07ee8200fe0068299563b3594b084910927016661d57453bb5",
+      "export_sha256": "9516bbda41c9ff07ee8200fe0068299563b3594b084910927016661d57453bb5",
+      "bytes": 86348,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/31-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/31-stock100.log",
+      "source_sha256": "60524b334f9b32eb78f3282f58bb4316480eb9ec2fceaa37736e369cd1bf6aa1",
+      "export_sha256": "f2082685a6e59e1e27eae363817b01417eae06a2056a4f2242d9dbbb9e4515ab",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/32-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/32-private_wide-telemetry.json",
+      "source_sha256": "fb2d64a21ada6f50a336fe8a01b229c6016b6a5a0b0b0fc47238eeee69c510b3",
+      "export_sha256": "fb2d64a21ada6f50a336fe8a01b229c6016b6a5a0b0b0fc47238eeee69c510b3",
+      "bytes": 85750,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/32-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/32-private_wide.log",
+      "source_sha256": "6fa8e0e5c505ef52ef4699ac7fe5faccbe76c814e646ddbe401638fe49913bcb",
+      "export_sha256": "366300ee5714d4a076d62db65c592c46fb3deb27195ee8d941d10fe74d1eb688",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/33-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/33-private_wide-telemetry.json",
+      "source_sha256": "d8cc58e6a221dcd23f59e1e6c8e17d341d6e8ce596919e156563ae74210367c6",
+      "export_sha256": "d8cc58e6a221dcd23f59e1e6c8e17d341d6e8ce596919e156563ae74210367c6",
+      "bytes": 83604,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/33-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/33-private_wide.log",
+      "source_sha256": "77316343ef0fdd195033f0141c7e755ae33f5e6e661090fe505170d48139b9d9",
+      "export_sha256": "a7afeeb1249a195207cb801bde70d4b80cf3cfb539606e6f705c4b70264fbded",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/34-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/34-stock100-telemetry.json",
+      "source_sha256": "9ffa58d1b94ef5807882b0055f076526a5ac25888b28bce32e7a2ebb3d5a6aef",
+      "export_sha256": "9ffa58d1b94ef5807882b0055f076526a5ac25888b28bce32e7a2ebb3d5a6aef",
+      "bytes": 86762,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/34-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/34-stock100.log",
+      "source_sha256": "9017f6da4e1210f10a4af530c7ded52a73edb5b44b0ac5c11ee085ff3d226a4d",
+      "export_sha256": "271d3319d584f5c93ccd243350fec049b3f25da2c5ce7a18174d499f44170e11",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/35-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/35-private_off-telemetry.json",
+      "source_sha256": "be540ab2d1da67f6d1cc978c12478a028b4d09f67cefd5185b94f6c161df3207",
+      "export_sha256": "be540ab2d1da67f6d1cc978c12478a028b4d09f67cefd5185b94f6c161df3207",
+      "bytes": 86127,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/35-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/35-private_off.log",
+      "source_sha256": "b093bc17ec342fd121e966100009ca0ee6e957cdeb769b643567835ac8a1f416",
+      "export_sha256": "9605e542fe48c261e96ac524a939be86669a90794efd8a0f94d334b1e5adfe70",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/36-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/36-stock100-telemetry.json",
+      "source_sha256": "5047d40641d7674d41135f92660b7a2726e9938cf37d234ecb8b6404cb6dfb7e",
+      "export_sha256": "5047d40641d7674d41135f92660b7a2726e9938cf37d234ecb8b6404cb6dfb7e",
+      "bytes": 84237,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/36-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/36-stock100.log",
+      "source_sha256": "86b76a86c47b621642840aa015f208a900e0bf1d4fd8bd96424da27241f2e480",
+      "export_sha256": "f0b0c18934b0b77162d40048ba7f8e70c3e6eb0d240137a133a69057107a0f6f",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/37-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/37-private_off-telemetry.json",
+      "source_sha256": "fed9f543cda2ab6632a8f1e21229e76133087bea5b43f929733ce9f5589215f7",
+      "export_sha256": "fed9f543cda2ab6632a8f1e21229e76133087bea5b43f929733ce9f5589215f7",
+      "bytes": 84696,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/37-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/37-private_off.log",
+      "source_sha256": "c09a1401413b708e78bfc0560a056500dd184c2db1fbd442234be26b74845633",
+      "export_sha256": "187bb50f81c3a60ab6f2e07e0cd5e96e140808ae095b1ca5fe510f11141c35b3",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/38-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/38-private_wide-telemetry.json",
+      "source_sha256": "675312486a0cab619514393545be2c8e9bb5edb108cbf9766e175d19e7db258c",
+      "export_sha256": "675312486a0cab619514393545be2c8e9bb5edb108cbf9766e175d19e7db258c",
+      "bytes": 83928,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/38-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/38-private_wide.log",
+      "source_sha256": "cd08bc7650742e901219902da2603d9ba2b4b44786822c49af7e252eab89126d",
+      "export_sha256": "2c4858c27664e39d9f8d5dade5e7de5e750204401bbcd3aad421d77b035d404c",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/39-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/39-private_wide-telemetry.json",
+      "source_sha256": "e45e59665fe539691f17fc745428bd89c1b259fb834b94f48e6d88912134739a",
+      "export_sha256": "e45e59665fe539691f17fc745428bd89c1b259fb834b94f48e6d88912134739a",
+      "bytes": 82444,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/39-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/39-private_wide.log",
+      "source_sha256": "afd035682486f82d480c50e1d134a40b8b55fa16b87191bcbb46ba41dcc864e3",
+      "export_sha256": "d03dde45c417a3b4376a75db445a10a7b13fcc5c34b7ac762a868963c213b0bf",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/40-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/40-private_off-telemetry.json",
+      "source_sha256": "313f31416e55e3169a6724f3844ebbdfd4fbe957fa8a229ddfd0790f8c6d479f",
+      "export_sha256": "313f31416e55e3169a6724f3844ebbdfd4fbe957fa8a229ddfd0790f8c6d479f",
+      "bytes": 83390,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/40-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/40-private_off.log",
+      "source_sha256": "b644501955330dc982c03128a94be8f21be05d30788966dfd103e5fc765fbf84",
+      "export_sha256": "61243a31bd00bd2e17fb22e28bfdd50d6d1e1284eab7c3426cb62f646863b134",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/41-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/41-stock100-telemetry.json",
+      "source_sha256": "891218b21443334851099e7fc300cd4e11e6b53e2e45c3724b0fc496e2d43e7b",
+      "export_sha256": "891218b21443334851099e7fc300cd4e11e6b53e2e45c3724b0fc496e2d43e7b",
+      "bytes": 90655,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/41-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/41-stock100.log",
+      "source_sha256": "e1b7105294891f50dcb934f194093d70bc11757318ced69aacb109b198042376",
+      "export_sha256": "8a5fad3fe3e52f810b5e9f2c44985ca38f4033648941a05b1d5107f94c15ec02",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/42-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/42-private_off-telemetry.json",
+      "source_sha256": "21aa331bbd71193b893ca944b0972d2a8245243925b5f52e5648477292530034",
+      "export_sha256": "21aa331bbd71193b893ca944b0972d2a8245243925b5f52e5648477292530034",
+      "bytes": 85575,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/42-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/42-private_off.log",
+      "source_sha256": "122314f955d5b6797ba8ffcfdd8ebcc6373107efe1a0b2da8dad0953b3e5916f",
+      "export_sha256": "df57257c0bc238c50182bc1447a4416a2fa568d327210d0953e2fd23d6f4739c",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/43-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/43-private_wide-telemetry.json",
+      "source_sha256": "e2db30cdc859f5c638b8329c88e3b328420bce945c2df0673a5b19f954e4a748",
+      "export_sha256": "e2db30cdc859f5c638b8329c88e3b328420bce945c2df0673a5b19f954e4a748",
+      "bytes": 84474,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/43-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/43-private_wide.log",
+      "source_sha256": "d1132b03eb1718535cb48efafd197c9a95d6b1044ce6511fd6c3cd9d558b0e4c",
+      "export_sha256": "b0ef75e85322fac9c36dfd881004a0faa9f01b99b7b2e04162eb4d78ec5fbeb2",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/44-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/44-stock100-telemetry.json",
+      "source_sha256": "2deeec574afaa81c158c888de780b00890f38d48c134e807a9084f5a7a27c8c7",
+      "export_sha256": "2deeec574afaa81c158c888de780b00890f38d48c134e807a9084f5a7a27c8c7",
+      "bytes": 83168,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/44-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/44-stock100.log",
+      "source_sha256": "88b1fd5502b83d7d7d3db7a34b78348384369758848fbecaa2353b19e842ee14",
+      "export_sha256": "a085be8a0e861fc740a3afd7f8302e5c8ba5b1551c7b5d5ceda3d6d5c4389718",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/45-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/45-stock100-telemetry.json",
+      "source_sha256": "6eef184d75addd73f173b7e1cfd408f4d7d1f347f927254cdb8ea3a843860c61",
+      "export_sha256": "6eef184d75addd73f173b7e1cfd408f4d7d1f347f927254cdb8ea3a843860c61",
+      "bytes": 90580,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/45-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/45-stock100.log",
+      "source_sha256": "647452cdef5eb453594f388a58d18f8d61887371eec85224f720f109d93503da",
+      "export_sha256": "9c2280e3c3d02da47e3c82b1ede4fc9d939a554ce3837de074672d22adfe88e8",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/46-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/46-private_wide-telemetry.json",
+      "source_sha256": "26e982d365a3f5b7e80349ec47f5229908c2b94fce02ba05423c6c27ee531aae",
+      "export_sha256": "26e982d365a3f5b7e80349ec47f5229908c2b94fce02ba05423c6c27ee531aae",
+      "bytes": 88267,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/46-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/46-private_wide.log",
+      "source_sha256": "da43fb0f6a87e2eede0d0d423bd15f8e81cabd0067b761086582e7a8527f87cf",
+      "export_sha256": "705054b5a9e6e040af9319bb7b5a4a0b2cc7bd49c8fe5a68b31e0e22d42653aa",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/47-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/47-private_off-telemetry.json",
+      "source_sha256": "5531a0caee3ea5f2b07ce7a167c49c90b8b50150e2b147718f795acb0d0c35d2",
+      "export_sha256": "5531a0caee3ea5f2b07ce7a167c49c90b8b50150e2b147718f795acb0d0c35d2",
+      "bytes": 87565,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/47-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/47-private_off.log",
+      "source_sha256": "99e55a03b6ef39cb92ca5647c9d5ba0e6cd734659168f7aff1fa4e1c3f53e073",
+      "export_sha256": "68b167c964bbde71db0a38fa71dfdeca218064af56a4b8c5701931d6a1d36b9b",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/48-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/48-private_wide-telemetry.json",
+      "source_sha256": "e0bbdb49e76da03584a63177470b56a2af54577c9979aaf71d8aea02cce4db37",
+      "export_sha256": "e0bbdb49e76da03584a63177470b56a2af54577c9979aaf71d8aea02cce4db37",
+      "bytes": 85170,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/48-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/48-private_wide.log",
+      "source_sha256": "4bc61db26f12ba04f7da4cfa8b35efa305bdaa52e0e0fabe8a0245027d88884b",
+      "export_sha256": "d15ac0ba8ff3af9939e302b792eed64dec23169be6e081fb2b4e77bde5ca8a97",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/49-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/49-stock100-telemetry.json",
+      "source_sha256": "17adf1d3c3b7ff8a67925d6f310748799d9f4299c04e4273b4c112ebb9aa11b7",
+      "export_sha256": "17adf1d3c3b7ff8a67925d6f310748799d9f4299c04e4273b4c112ebb9aa11b7",
+      "bytes": 85685,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/49-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/49-stock100.log",
+      "source_sha256": "74ee190e396683a993e15fd43a0365e1d331e5881dd4d87bae59333260b6972f",
+      "export_sha256": "03407068f657894d070653c03dc86277061d4a2802bd8329d5b0847c733cced2",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/50-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/50-private_off-telemetry.json",
+      "source_sha256": "8f060ecd0e2d427690bd7687e907d0b5306b378bc2ddae5bf1bc2a9ab5fd6190",
+      "export_sha256": "8f060ecd0e2d427690bd7687e907d0b5306b378bc2ddae5bf1bc2a9ab5fd6190",
+      "bytes": 84538,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/50-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/50-private_off.log",
+      "source_sha256": "a2ba10cffc82f5752b40703e6ea010d15f81c0442c1fcde13f3c20d770592c75",
+      "export_sha256": "5276a8abf0b88f682699b8aca890a510d1e2f8a4b082ad073b6b8382c971d74b",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/51-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/51-private_off-telemetry.json",
+      "source_sha256": "0ca762d30ab77ffd96a7592aa8b5333c61a769c55ad19ee5c24969b64ded5347",
+      "export_sha256": "0ca762d30ab77ffd96a7592aa8b5333c61a769c55ad19ee5c24969b64ded5347",
+      "bytes": 86312,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/51-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/51-private_off.log",
+      "source_sha256": "fc1d8fa39193e0f866e38d7f309ba05e976eeb3d40d611f5412f6992b0532be8",
+      "export_sha256": "2bc6775734120e3e8c99fdc8d744bb3c8795ac53b955a55b27bc401766f63dc1",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/52-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/52-stock100-telemetry.json",
+      "source_sha256": "b87c0247400382a8315d99647913396f59388deb4a1afad19305a6334cc305d9",
+      "export_sha256": "b87c0247400382a8315d99647913396f59388deb4a1afad19305a6334cc305d9",
+      "bytes": 85741,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/52-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/52-stock100.log",
+      "source_sha256": "4852c0887290411276602edc9559406d2551a0eb99bc96d7633ce90f19d1f45f",
+      "export_sha256": "8333854bd8b36a6a8cb4ec6849574cf36de7cfc0e6536f5a436ed6da017b7618",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/53-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/53-private_wide-telemetry.json",
+      "source_sha256": "d5a37bbb159b5e9b823ed984dfa0a7cffc79dd47f578163f9fc87487fe1e79b9",
+      "export_sha256": "d5a37bbb159b5e9b823ed984dfa0a7cffc79dd47f578163f9fc87487fe1e79b9",
+      "bytes": 85128,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/53-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/53-private_wide.log",
+      "source_sha256": "fbee8a67529775a0c679802ef9abe309bb955e660135a9ec09564fdfa4632f13",
+      "export_sha256": "c9234b33499e89fbc7025349747d50674a1756b1e06b254eab33ec0634cfe4fc",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/54-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/54-stock100-telemetry.json",
+      "source_sha256": "8cd4deb8f94f45a56e937ec7c542f62f2069de7973aaa27686975ba7298bd62d",
+      "export_sha256": "8cd4deb8f94f45a56e937ec7c542f62f2069de7973aaa27686975ba7298bd62d",
+      "bytes": 85940,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/54-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/54-stock100.log",
+      "source_sha256": "6563a2f7efa0475381dbd28b885cfb44db78f17274e1d86a264fb2276b7e5480",
+      "export_sha256": "9c1cf86d4e673bf2ac6351386ed55a0ea681afbc5e23da7c2f86959033c92bbe",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/55-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/55-private_wide-telemetry.json",
+      "source_sha256": "1aec7465735a156178774852b45575dd88a8bb09e2c53e84f5ca34463a5bcb72",
+      "export_sha256": "1aec7465735a156178774852b45575dd88a8bb09e2c53e84f5ca34463a5bcb72",
+      "bytes": 83064,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/55-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/55-private_wide.log",
+      "source_sha256": "50532f94f9703db862b577af53ce694d638287dacca85894ba4854435dad2db6",
+      "export_sha256": "4d354d7cc9892698fad4de54c5315d54135b983094021f7c9970e2a36897fe18",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/56-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/56-private_off-telemetry.json",
+      "source_sha256": "07d67cdcef415edd8e38392a5bdf858a9a05f14409a923967df6af6eaa70d427",
+      "export_sha256": "07d67cdcef415edd8e38392a5bdf858a9a05f14409a923967df6af6eaa70d427",
+      "bytes": 87393,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/56-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/56-private_off.log",
+      "source_sha256": "dd0b475a0dc7f66c85e55de694feb0bab5343bf9062e4807749470ac7ed3083e",
+      "export_sha256": "30969402f4345751717f4e6b109a3a095d0a9f3fb553c83684002335ce38efa7",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/57-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/57-private_off-telemetry.json",
+      "source_sha256": "1930b45c6e136ac50cf7d3ab16ac16cbd42fa8be339721387db5a1e537e09c63",
+      "export_sha256": "1930b45c6e136ac50cf7d3ab16ac16cbd42fa8be339721387db5a1e537e09c63",
+      "bytes": 91925,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/57-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/57-private_off.log",
+      "source_sha256": "465256bed61dcc1bf098fdc930bde296af015f4124d3bc94766c74c5cb832c5f",
+      "export_sha256": "084f02403e08901548e2490a2b7415fabd4e5f6c99b4dc80062d653e95c8f65c",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/58-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/58-private_wide-telemetry.json",
+      "source_sha256": "6abe6703419698735a6c257da0088230a46bff9ad2e3d8739fc58eca1bc74033",
+      "export_sha256": "6abe6703419698735a6c257da0088230a46bff9ad2e3d8739fc58eca1bc74033",
+      "bytes": 88707,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/58-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/58-private_wide.log",
+      "source_sha256": "b181303fe089be60fbc1760a5efc2ca9c936fd85e19d48c8d03e3349a9d4dfe5",
+      "export_sha256": "56a62efd298f34c117f08e22e2a61cb85131780fca6813314b2982d0da6cc721",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/59-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/59-stock100-telemetry.json",
+      "source_sha256": "0f7967a89389ee0bdc6d17b13dd06e6a1a93e4651d344ba24947f14a78bf431d",
+      "export_sha256": "0f7967a89389ee0bdc6d17b13dd06e6a1a93e4651d344ba24947f14a78bf431d",
+      "bytes": 84747,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/59-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/59-stock100.log",
+      "source_sha256": "1ec0c47e29a92274aca4614637f7ecd2fb9c1b16313ddbf235ddc8b6de17ce7d",
+      "export_sha256": "89a9fd69550a3856e807123dbd8ff4832581c4a47e0ec6b3fdb2fe03e3d3c1bb",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/60-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/60-private_wide-telemetry.json",
+      "source_sha256": "cfcdf735f48de22d9813bff0c03a446c5d805dcc24d1af88a2025a6a56a6b636",
+      "export_sha256": "cfcdf735f48de22d9813bff0c03a446c5d805dcc24d1af88a2025a6a56a6b636",
+      "bytes": 144447,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/60-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/60-private_wide.log",
+      "source_sha256": "c9f1377c4af3923204874ae84f5ac8d5b648a08857574c7b9cf00a1b293ebf6c",
+      "export_sha256": "751f0e790d7325df6e978cdd64404e20092a591f5d788fc8e7c3f8e1bfdd5692",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/61-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/61-private_off-telemetry.json",
+      "source_sha256": "107ae83e3496b946e67d5319e95edb10367381c9b0d10dcd9f5dea32299f4f36",
+      "export_sha256": "107ae83e3496b946e67d5319e95edb10367381c9b0d10dcd9f5dea32299f4f36",
+      "bytes": 91949,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/61-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/61-private_off.log",
+      "source_sha256": "5148e8c548787bb943d015e0fcdbb0774d696969af138577f27de0a045ab2dd3",
+      "export_sha256": "2addb3e07227d11e89b86d5b94c18884c1d781887f05e8a7adb1cda0fffa80d3",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/62-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/62-stock100-telemetry.json",
+      "source_sha256": "576bbdd73070567e82ec2c1f7c4f6a1bc92935b53d114f88ee6e056340de2ed0",
+      "export_sha256": "576bbdd73070567e82ec2c1f7c4f6a1bc92935b53d114f88ee6e056340de2ed0",
+      "bytes": 85421,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/62-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/62-stock100.log",
+      "source_sha256": "9ca202ab44a26a6f1653fbb039cb796f8da412cc00614e4a174c0c31f8516541",
+      "export_sha256": "a90fdcea0db0b2712c664101d2397c381182a170a11c3146abcbf883e53a3bd6",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/63-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/63-stock100-telemetry.json",
+      "source_sha256": "45cf3adb36e193b6f473eeec90359a009620b9fbbe8faed1444f1d1e3cabe2d5",
+      "export_sha256": "45cf3adb36e193b6f473eeec90359a009620b9fbbe8faed1444f1d1e3cabe2d5",
+      "bytes": 82717,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/63-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/63-stock100.log",
+      "source_sha256": "838c92874b63a7ea4a69f072b69da5d7128bf3f90b3de75ab35b567109fc47b9",
+      "export_sha256": "1def1dd169ec1f413baea1c85c4a5305ebfc78ea31aa16d91e389ad916e17fe0",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/64-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/64-private_off-telemetry.json",
+      "source_sha256": "adc3200119aa6a1496da94ebdb1ae50f09e380bd9de597072213ec344550a0e0",
+      "export_sha256": "adc3200119aa6a1496da94ebdb1ae50f09e380bd9de597072213ec344550a0e0",
+      "bytes": 95123,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/64-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/64-private_off.log",
+      "source_sha256": "74ba0ddfcf398eaf814df7a02935bac289485d291c9ed5a7275d873edd484c57",
+      "export_sha256": "84e7628f9e4b870954dd74e429b5ee66c50d63e18c0e94ec449a226d04a31767",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/65-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/65-private_wide-telemetry.json",
+      "source_sha256": "45ffd6b956967e16faa2504952bab7cdb4bc082e21863ba10ad078b32b0afada",
+      "export_sha256": "45ffd6b956967e16faa2504952bab7cdb4bc082e21863ba10ad078b32b0afada",
+      "bytes": 86363,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/65-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/65-private_wide.log",
+      "source_sha256": "bcfea6ce0c70b6100cf7395999ef4f4b995ebf91886050a9f57ccc6fed1b531e",
+      "export_sha256": "44faec7e5924b09806c629b9d290642a951a329920c9bd885e39b4ef82ba7eda",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/66-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/66-private_off-telemetry.json",
+      "source_sha256": "189c5e58e9db98a6830073771b43d4c816f654df8813bc17ba453a3f87877770",
+      "export_sha256": "189c5e58e9db98a6830073771b43d4c816f654df8813bc17ba453a3f87877770",
+      "bytes": 90798,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/66-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/66-private_off.log",
+      "source_sha256": "df512c7844fba82187a98d69ff8eda236bc7fe78d8ac0f03ce751f89a1412f4d",
+      "export_sha256": "a7e709a0cfc487950f3d1e01e11fca60d69c0ac3cdd42ad1c43eedd44f87b15a",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/67-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/67-stock100-telemetry.json",
+      "source_sha256": "c4badcad070b54697bc16f92be896f3185efd03c06749bd75cdfd89bae48a1bc",
+      "export_sha256": "c4badcad070b54697bc16f92be896f3185efd03c06749bd75cdfd89bae48a1bc",
+      "bytes": 85423,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/67-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/67-stock100.log",
+      "source_sha256": "c0671928c94e7808c2b768d4450f3c4af54855c71dacee829ad4993c8c2216b8",
+      "export_sha256": "363f0b60c4cf472b2155ae1d67adceaf53e9c0cb8d701a9e91a5d7747d8a2b39",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/68-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/68-private_wide-telemetry.json",
+      "source_sha256": "e8f8bfb9aa2be31c9e32ad76121e6c4b7821a4d313feb02ce11c8472cb249ade",
+      "export_sha256": "e8f8bfb9aa2be31c9e32ad76121e6c4b7821a4d313feb02ce11c8472cb249ade",
+      "bytes": 85514,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/68-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/68-private_wide.log",
+      "source_sha256": "15c5a714efee39ee86ac4e2a7876e356ce1b9a169f018897cead40bdbae449d0",
+      "export_sha256": "d2313aa97cd90baf859e61ed96d44a32c4f8654831f7d9c7ad665e0f21e297ff",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/69-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/69-private_wide-telemetry.json",
+      "source_sha256": "fc09895b7d7ad93006cec9415d9671723bb61826ffc781ff3b1800a1007efcf2",
+      "export_sha256": "fc09895b7d7ad93006cec9415d9671723bb61826ffc781ff3b1800a1007efcf2",
+      "bytes": 86527,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/69-private_wide.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/69-private_wide.log",
+      "source_sha256": "5b06f472389f8d47b54ed86154b9d308297f709397ae72029b6922eaf57aa285",
+      "export_sha256": "724bc340f7272a20b21418b52e715fb675ea72a736feafdfefe2013eb8169950",
+      "bytes": 15144,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/70-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/70-stock100-telemetry.json",
+      "source_sha256": "ce1a5f423d1acf96520a6fb2fbdb471f59f5200b55245d9dbc933b34edba24fe",
+      "export_sha256": "ce1a5f423d1acf96520a6fb2fbdb471f59f5200b55245d9dbc933b34edba24fe",
+      "bytes": 87173,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/70-stock100.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/70-stock100.log",
+      "source_sha256": "b526392e46cbc77eb3e2aeb1398073016137ee24e81a1303a51af0e09fe10303",
+      "export_sha256": "e6e8cb3e3455b968cd655a9861952459f1cc88ba5ef9fef023abfca56303f267",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/71-private_off-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/71-private_off-telemetry.json",
+      "source_sha256": "76c1e3c50be4f1c733b3ca3f7f0eb3cf7f26de12442d2f83dbba11c1f93ecd6a",
+      "export_sha256": "76c1e3c50be4f1c733b3ca3f7f0eb3cf7f26de12442d2f83dbba11c1f93ecd6a",
+      "bytes": 85776,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/71-private_off.log",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/71-private_off.log",
+      "source_sha256": "de48a300493b9f3dbb3da7055f9019c2c3bedb069fe80566508c830ed045cefd",
+      "export_sha256": "681bc2ff010e677b5052fc47bd48f0d5d8060da0122b25a9efc1452b78fc8c8d",
+      "bytes": 15114,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/assets.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/assets.json",
+      "source_sha256": "4f6ea4b53e537ec5593349360df4f3bfa50f82610c761ff324eab70943a6c080",
+      "export_sha256": "10f4913a390e1c56cb717f48a382f4c6544f1af8a7976bc420a53918d0340f7d",
+      "bytes": 2981,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/confirmation-analysis.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/confirmation-analysis.json",
+      "source_sha256": "acc5f7881a37aa8008a85ddd838d4552c96ae02341d75462e7122bb17f1a1964",
+      "export_sha256": "acc5f7881a37aa8008a85ddd838d4552c96ae02341d75462e7122bb17f1a1964",
+      "bytes": 40424,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/outcomes-summary.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/outcomes-summary.json",
+      "source_sha256": "863e91b50d025a23c083fee2d444d54eaa82af252574d73ac2d8b77587612396",
+      "export_sha256": "863e91b50d025a23c083fee2d444d54eaa82af252574d73ac2d8b77587612396",
+      "bytes": 8879,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/protocol.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/protocol.json",
+      "source_sha256": "3756bab173dd202f1fe07a7734c16db697af197670be66357cb8d9879d8e3f1e",
+      "export_sha256": "3756bab173dd202f1fe07a7734c16db697af197670be66357cb8d9879d8e3f1e",
+      "bytes": 3732,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/results.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/results.json",
+      "source_sha256": "9ec8a5b4435cfe13958b8d5a6199c796142831df20fc65f4dfb23e8260278dfa",
+      "export_sha256": "9ec8a5b4435cfe13958b8d5a6199c796142831df20fc65f4dfb23e8260278dfa",
+      "bytes": 590296,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/model-timing512/20261030T133105Z/runtime-baseline.json",
+      "path": "archive/isolated/native-argmax-review/model-timing512/20261030T133105Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-30T13:33:00.942057+00:00"
+  "updated_utc": "2026-10-30T14:05:36.091853+00:00"
 }
