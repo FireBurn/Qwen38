@@ -1,0 +1,77 @@
+{
+  "combined": {
+    "all12": {
+      "full_generation_speed": {
+        "blocks": 12,
+        "geometric_change_percent": 1.6530701043727634,
+        "descriptive_t95_percent": [
+          0.7765410393002604,
+          2.5372229992968713
+        ]
+      },
+      "mode_means": {
+        "stock100": {
+          "steady_tokens_per_second": 35.05760019365392,
+          "total_generation_tokens_per_second": 34.90668490018548,
+          "encode_seconds": 0.28608333333333336,
+          "process_wall_seconds": 27.291425770915037,
+          "phase_cpu_busy_mean": 0.9995674786630679,
+          "phase_build_process_mean": 16.658227237178536,
+          "phase_runnable_mean": 30.01050879626595,
+          "steady_clock_median_mhz": 1674.4791666666667,
+          "phase_power_w_mean": 122.89484008217936,
+          "phase_vram_bytes_mean": 16808225792
+        },
+        "q3_100": {
+          "steady_tokens_per_second": 35.656316031174214,
+          "total_generation_tokens_per_second": 35.48625319703823,
+          "encode_seconds": 0.30575,
+          "process_wall_seconds": 26.754032301711657,
+          "phase_cpu_busy_mean": 0.9994265095250493,
+          "phase_build_process_mean": 16.593965534478208,
+          "phase_runnable_mean": 30.395284307792277,
+          "steady_clock_median_mhz": 1672.3333333333333,
+          "phase_power_w_mean": 121.5847939437374,
+          "phase_vram_bytes_mean": 20029461718.29574
+        }
+      }
+    },
+    "matched": {
+      "full_generation_speed": {
+        "blocks": 11,
+        "geometric_change_percent": 1.8270876819387973,
+        "descriptive_t95_percent": [
+          0.9501948082071597,
+          2.711597590124526
+        ]
+      },
+      "mode_means": {
+        "stock100": {
+          "steady_tokens_per_second": 35.07360080075565,
+          "total_generation_tokens_per_second": 34.92172745645432,
+          "encode_seconds": 0.2869090909090909,
+          "process_wall_seconds": 27.339271189679327,
+          "phase_cpu_busy_mean": 0.999557297781265,
+          "phase_build_process_mean": 16.64122008481457,
+          "phase_runnable_mean": 30.203937755268573,
+          "steady_clock_median_mhz": 1674.1136363636363,
+          "phase_power_w_mean": 122.9092166179732,
+          "phase_vram_bytes_mean": 16808232401.454546
+        },
+        "q3_100": {
+          "steady_tokens_per_second": 35.72902737258071,
+          "total_generation_tokens_per_second": 35.56172089429418,
+          "encode_seconds": 0.30822727272727274,
+          "process_wall_seconds": 26.717479215184788,
+          "phase_cpu_busy_mean": 0.9994401449792529,
+          "phase_build_process_mean": 16.570621831371074,
+          "phase_runnable_mean": 30.109389581989863,
+          "steady_clock_median_mhz": 1672.590909090909,
+          "phase_power_w_mean": 121.66708238179139,
+          "phase_vram_bytes_mean": 20029468533.413532
+        }
+      }
+    }
+  },
+  "scope": "Secondary descriptive outcomes using original pair-specific matched blocks. No new exclusions, pooling, independent confirmation, or equal-clock claim."
+}
