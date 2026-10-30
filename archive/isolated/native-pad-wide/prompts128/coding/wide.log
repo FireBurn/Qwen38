@@ -1,0 +1,723 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+NATIVE_SHADER_MODULES quant=0 q3=0,0,0
+ARGMAX_WIDE_MODULE words=1487
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+0.07.542.014 I cmn          init: llama threadpool init, n_threads = 1
+NQ_PLAN_EXACT nodes=4202 pairs=0
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+BACKEND_PATH_OK ${WORKSPACE}/isolated/native-pad-wide/host/bin/libggml-vulkan.so.0.27.0
+DRIVER_PATH_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+CORE_PATH_OK ${WORKSPACE}/isolated/production-baseline-aa8/bin/libllama.so.0.7.0
+0.08.490.327 I common_speculative_init_result: creating MTP draft context against the target model '${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf'
+NQ_PLAN_EXACT nodes=61 pairs=0
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+
+
+Write a Python function that merges overlapping integer intervals. Include complete code, tests for unsorted input, empty input, nesting and adjacent non-overlapping intervals, and a detailed explanation of every design choice and its complexity.NQ_PLAN_EXACT nodes=4182 pairs=0
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=42 rows=0 vocab=248320
+NQ_PLAN_EXACT nodes=67 pairs=0
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+NQ_PLAN_EXACT nodes=67 pairs=0
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+NQ_PLAN_EXACT nodes=4182 pairs=0
+ARGMAX_WIDE_SELECT native_block=64 enabled=1
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=271 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=727 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 271
+ACCEPTED_TOKEN 727
+
+
+defNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=10562 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=87682 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 10562
+ACCEPTED_TOKEN 87682
+ merge_intervalsNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1494 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=40798 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1494
+ACCEPTED_TOKEN 40798
+(intervalsNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1590 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1590
+ACCEPTED_TOKEN 198
+):
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=4071 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 4071
+    """NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=50346 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=262 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 50346
+NQ_PLAN_EXACT nodes=67 pairs=0
+MergeNQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=48142 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=7308 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 48142
+ACCEPTED_TOKEN 7308
+ overlapping integerNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=13 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 26126
+ intervalsACCEPTED_TOKEN 13
+.NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=271 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=262 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 271
+ACCEPTED_TOKEN 262
+
+
+   NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=17167 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 17167
+ ArgsACCEPTED_TOKEN 25
+:NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=198 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=285 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 285
+
+       NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 26126
+ACCEPTED_TOKEN 25
+ intervals:NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1103 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=314 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1103
+ACCEPTED_TOKEN 314
+NQ_PLAN_EXACT nodes=67 pairs=0
+ list ofNQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=498 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=2388 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 498
+ [NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=2388 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 2388
+ACCEPTED_TOKEN 11
+start,NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=60 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 809
+ACCEPTED_TOKEN 60
+NQ_PLAN_EXACT nodes=67 pairs=0
+ end]NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=13139 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=318 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 13139
+ACCEPTED_TOKEN 318
+ pairs (NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=94964 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=65313 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 94964
+inclusiveNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=553 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=271 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 553
+).ACCEPTED_TOKEN 271
+
+
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=5019 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 5019
+    ReturnsNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=25 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 25
+ACCEPTED_TOKEN 198
+:
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=285 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=1103 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 285
+ACCEPTED_TOKEN 1103
+NQ_PLAN_EXACT nodes=67 pairs=0
+        listNQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=314 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25170 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 25170
+ of mergedNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=498 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=2397 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 498
+ [NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=2388 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 2388
+ACCEPTED_TOKEN 11
+NQ_PLAN_EXACT nodes=67 pairs=0
+start,NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=60 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 809
+ACCEPTED_TOKEN 60
+ end]NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=13139 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 13139
+ACCEPTED_TOKEN 11
+ pairs,NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=10300 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=539 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 10300
+ACCEPTED_TOKEN 539
+ sorted byNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1151 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=13 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1151
+ACCEPTED_TOKEN 13
+ start.NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=198 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=262 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 262
+
+   NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4071 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 4071
+ACCEPTED_TOKEN 198
+ """
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=413 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 413
+    ifNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=524 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 524
+ACCEPTED_TOKEN 26126
+ not intervalsNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=25 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 25
+ACCEPTED_TOKEN 198
+:
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=285 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=460 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 285
+ACCEPTED_TOKEN 460
+        returnNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=2958 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=271 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 2958
+ACCEPTED_TOKEN 271
+ []
+
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=653 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 653
+    #NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=15495 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=539 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 15495
+ACCEPTED_TOKEN 539
+ Sort byNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1151 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=318 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1151
+ACCEPTED_TOKEN 318
+ start (NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=3282 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=809 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 3282
+thenNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=8 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 809
+ACCEPTED_TOKEN 8
+ end)NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=748 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=421 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 748
+ACCEPTED_TOKEN 421
+ so thatNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=48142 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 48142
+ACCEPTED_TOKEN 26126
+NQ_PLAN_EXACT nodes=67 pairs=0
+ overlapping intervalsNQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=513 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=23194 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 513
+ACCEPTED_TOKEN 23194
+ are adjacentNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=13 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 26126
+NQ_PLAN_EXACT nodes=67 pairs=0
+    intervalsNQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=10299 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=10300 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 10299
+.sortNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4702 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26612 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 4702
+ACCEPTED_TOKEN 26612
+(key=lambdaNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=830 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 830
+ACCEPTED_TOKEN 25
+NQ_PLAN_EXACT nodes=67 pairs=0
+ x:NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=318 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=87 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 318
+ACCEPTED_TOKEN 87
+ (xNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=58 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=15 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 58
+ACCEPTED_TOKEN 15
+NQ_PLAN_EXACT nodes=67 pairs=0
+[0NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1089 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=830 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1089
+ACCEPTED_TOKEN 830
+], xNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=58 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=16 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 58
+ACCEPTED_TOKEN 16
+NQ_PLAN_EXACT nodes=67 pairs=0
+[1NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=9087 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=271 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 9087
+ACCEPTED_TOKEN 271
+]))
+
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25170 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 262
+   ACCEPTED_TOKEN 25170
+ mergedNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=283 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=498 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 283
+ACCEPTED_TOKEN 498
+ = [NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=390 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=40798 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 390
+ACCEPTED_TOKEN 40798
+intervalsNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=58 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=15 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 58
+[ACCEPTED_TOKEN 15
+0NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4891 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 4891
+ACCEPTED_TOKEN 198
+]]
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=364 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 364
+    forNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1151 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1151
+ACCEPTED_TOKEN 11
+NQ_PLAN_EXACT nodes=67 pairs=0
+ start,NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=303 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 809
+ACCEPTED_TOKEN 303
+ end inNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=58 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 26126
+ACCEPTED_TOKEN 58
+ intervals[NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=16 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 16
+ACCEPTED_TOKEN 25
+1:NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=5491 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 5491
+ACCEPTED_TOKEN 198
+]:
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=285 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=1483 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 285
+ACCEPTED_TOKEN 1483
+        lastNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4747 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 4747
+ACCEPTED_TOKEN 11
+_start,NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=19 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1483 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=6018 logits=1 candidates=1 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1483
+ACCEPTED_TOKEN 6018
+ last_end
+
+0.12.319.293 I encoded   43 tokens in    0.606 seconds, speed:   71.003 t/s
+0.12.319.294 I decoded  130 tokens in    3.147 seconds, speed:   41.307 t/s
+0.12.319.294 I 
+0.12.319.295 I n_draft   = 1
+0.12.319.295 I n_predict = 130
+0.12.319.295 I n_drafted = 68
+0.12.319.296 I n_accept  = 62
+0.12.319.296 I accept    = 91.176%
+0.12.319.297 I 
+0.12.319.297 I draft:
+
+0.12.319.308 I 
+0.12.319.308 I target:
+
+0.12.319.309 I common_perf_print:    sampling time =       0.92 ms
+0.12.319.310 I common_perf_print:    samplers time =       0.06 ms /   130 tokens
+0.12.319.311 I common_perf_print:        load time =    6563.35 ms
+0.12.319.313 I common_perf_print: prompt eval time =    2577.86 ms /   178 tokens (   14.48 ms per token,    69.05 tokens per second)
+0.12.319.315 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.12.319.315 I common_perf_print:       total time =    3829.81 ms /   179 tokens
+0.12.319.317 I common_perf_print: unaccounted time =    1251.03 ms /  32.7 %      (total - sampling - prompt eval - eval) / (total)
+0.12.319.317 I common_perf_print:    graphs reused =         67
+0.12.319.318 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+
+

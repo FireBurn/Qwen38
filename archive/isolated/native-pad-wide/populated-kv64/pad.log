@@ -1,0 +1,422 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+NATIVE_SHADER_MODULES quant=0 q3=0,0,0
+Q3_PAD112_FINAL entries=0 bytes=0 calls=0
+Q3_PAD112_FINAL entries=0 bytes=0 calls=0
+0.10.488.792 I cmn          init: llama threadpool init, n_threads = 1
+NQ_PLAN_EXACT nodes=4183 pairs=0
+Q3_PAD112_CACHE blk.7.ffn_gate.weight native=38297600 padded=38993920 total=38993920
+Q3_PAD112_CACHE blk.7.ffn_up.weight native=38297600 padded=38993920 total=77987840
+Q3_PAD112_CACHE blk.8.ffn_gate.weight native=38297600 padded=38993920 total=116981760
+Q3_PAD112_CACHE blk.8.ffn_up.weight native=38297600 padded=38993920 total=155975680
+Q3_PAD112_CACHE blk.9.ffn_gate.weight native=38297600 padded=38993920 total=194969600
+Q3_PAD112_CACHE blk.9.ffn_up.weight native=38297600 padded=38993920 total=233963520
+Q3_PAD112_CACHE blk.10.ffn_gate.weight native=38297600 padded=38993920 total=272957440
+Q3_PAD112_CACHE blk.10.ffn_up.weight native=38297600 padded=38993920 total=311951360
+Q3_PAD112_CACHE blk.11.ffn_gate.weight native=38297600 padded=38993920 total=350945280
+Q3_PAD112_CACHE blk.11.ffn_up.weight native=38297600 padded=38993920 total=389939200
+Q3_PAD112_CACHE blk.12.ffn_gate.weight native=38297600 padded=38993920 total=428933120
+Q3_PAD112_CACHE blk.12.ffn_up.weight native=38297600 padded=38993920 total=467927040
+Q3_PAD112_CACHE blk.13.ffn_gate.weight native=38297600 padded=38993920 total=506920960
+Q3_PAD112_CACHE blk.13.ffn_up.weight native=38297600 padded=38993920 total=545914880
+Q3_PAD112_CACHE blk.14.ffn_gate.weight native=38297600 padded=38993920 total=584908800
+Q3_PAD112_CACHE blk.14.ffn_up.weight native=38297600 padded=38993920 total=623902720
+Q3_PAD112_CACHE blk.15.ffn_gate.weight native=38297600 padded=38993920 total=662896640
+Q3_PAD112_CACHE blk.15.ffn_up.weight native=38297600 padded=38993920 total=701890560
+Q3_PAD112_CACHE blk.16.ffn_gate.weight native=38297600 padded=38993920 total=740884480
+Q3_PAD112_CACHE blk.16.ffn_up.weight native=38297600 padded=38993920 total=779878400
+Q3_PAD112_CACHE blk.17.ffn_gate.weight native=38297600 padded=38993920 total=818872320
+Q3_PAD112_CACHE blk.17.ffn_up.weight native=38297600 padded=38993920 total=857866240
+Q3_PAD112_CACHE blk.18.ffn_gate.weight native=38297600 padded=38993920 total=896860160
+Q3_PAD112_CACHE blk.18.ffn_up.weight native=38297600 padded=38993920 total=935854080
+Q3_PAD112_CACHE blk.19.ffn_gate.weight native=38297600 padded=38993920 total=974848000
+Q3_PAD112_CACHE blk.19.ffn_up.weight native=38297600 padded=38993920 total=1013841920
+Q3_PAD112_CACHE blk.20.ffn_gate.weight native=38297600 padded=38993920 total=1052835840
+Q3_PAD112_CACHE blk.20.ffn_up.weight native=38297600 padded=38993920 total=1091829760
+Q3_PAD112_CACHE blk.22.ffn_gate.weight native=38297600 padded=38993920 total=1130823680
+Q3_PAD112_CACHE blk.22.ffn_up.weight native=38297600 padded=38993920 total=1169817600
+Q3_PAD112_CACHE blk.23.ffn_gate.weight native=38297600 padded=38993920 total=1208811520
+Q3_PAD112_CACHE blk.23.ffn_up.weight native=38297600 padded=38993920 total=1247805440
+Q3_PAD112_CACHE blk.24.ffn_gate.weight native=38297600 padded=38993920 total=1286799360
+Q3_PAD112_CACHE blk.24.ffn_up.weight native=38297600 padded=38993920 total=1325793280
+Q3_PAD112_CACHE blk.25.ffn_gate.weight native=38297600 padded=38993920 total=1364787200
+Q3_PAD112_CACHE blk.25.ffn_up.weight native=38297600 padded=38993920 total=1403781120
+Q3_PAD112_CACHE blk.26.ffn_gate.weight native=38297600 padded=38993920 total=1442775040
+Q3_PAD112_CACHE blk.26.ffn_up.weight native=38297600 padded=38993920 total=1481768960
+Q3_PAD112_CACHE blk.27.ffn_gate.weight native=38297600 padded=38993920 total=1520762880
+Q3_PAD112_CACHE blk.27.ffn_up.weight native=38297600 padded=38993920 total=1559756800
+Q3_PAD112_CACHE blk.28.ffn_gate.weight native=38297600 padded=38993920 total=1598750720
+Q3_PAD112_CACHE blk.28.ffn_up.weight native=38297600 padded=38993920 total=1637744640
+Q3_PAD112_CACHE blk.29.ffn_gate.weight native=38297600 padded=38993920 total=1676738560
+Q3_PAD112_CACHE blk.29.ffn_up.weight native=38297600 padded=38993920 total=1715732480
+Q3_PAD112_CACHE blk.30.ffn_gate.weight native=38297600 padded=38993920 total=1754726400
+Q3_PAD112_CACHE blk.30.ffn_up.weight native=38297600 padded=38993920 total=1793720320
+Q3_PAD112_CACHE blk.31.ffn_gate.weight native=38297600 padded=38993920 total=1832714240
+Q3_PAD112_CACHE blk.31.ffn_up.weight native=38297600 padded=38993920 total=1871708160
+Q3_PAD112_CACHE blk.32.ffn_gate.weight native=38297600 padded=38993920 total=1910702080
+Q3_PAD112_CACHE blk.32.ffn_up.weight native=38297600 padded=38993920 total=1949696000
+Q3_PAD112_CACHE blk.33.ffn_gate.weight native=38297600 padded=38993920 total=1988689920
+Q3_PAD112_CACHE blk.33.ffn_up.weight native=38297600 padded=38993920 total=2027683840
+Q3_PAD112_CACHE blk.34.ffn_gate.weight native=38297600 padded=38993920 total=2066677760
+Q3_PAD112_CACHE blk.34.ffn_up.weight native=38297600 padded=38993920 total=2105671680
+Q3_PAD112_CACHE blk.35.ffn_gate.weight native=38297600 padded=38993920 total=2144665600
+Q3_PAD112_CACHE blk.35.ffn_up.weight native=38297600 padded=38993920 total=2183659520
+Q3_PAD112_CACHE blk.36.ffn_gate.weight native=38297600 padded=38993920 total=2222653440
+Q3_PAD112_CACHE blk.36.ffn_up.weight native=38297600 padded=38993920 total=2261647360
+Q3_PAD112_CACHE blk.37.ffn_gate.weight native=38297600 padded=38993920 total=2300641280
+Q3_PAD112_CACHE blk.37.ffn_up.weight native=38297600 padded=38993920 total=2339635200
+Q3_PAD112_CACHE blk.38.ffn_gate.weight native=38297600 padded=38993920 total=2378629120
+Q3_PAD112_CACHE blk.38.ffn_up.weight native=38297600 padded=38993920 total=2417623040
+Q3_PAD112_CACHE blk.39.ffn_gate.weight native=38297600 padded=38993920 total=2456616960
+Q3_PAD112_CACHE blk.39.ffn_up.weight native=38297600 padded=38993920 total=2495610880
+Q3_PAD112_CACHE blk.40.ffn_gate.weight native=38297600 padded=38993920 total=2534604800
+Q3_PAD112_CACHE blk.40.ffn_up.weight native=38297600 padded=38993920 total=2573598720
+Q3_PAD112_CACHE blk.41.ffn_gate.weight native=38297600 padded=38993920 total=2612592640
+Q3_PAD112_CACHE blk.41.ffn_up.weight native=38297600 padded=38993920 total=2651586560
+Q3_PAD112_CACHE blk.43.ffn_gate.weight native=38297600 padded=38993920 total=2690580480
+Q3_PAD112_CACHE blk.43.ffn_up.weight native=38297600 padded=38993920 total=2729574400
+Q3_PAD112_CACHE blk.45.ffn_gate.weight native=38297600 padded=38993920 total=2768568320
+Q3_PAD112_CACHE blk.45.ffn_up.weight native=38297600 padded=38993920 total=2807562240
+Q3_PAD112_CACHE blk.47.ffn_gate.weight native=38297600 padded=38993920 total=2846556160
+Q3_PAD112_CACHE blk.47.ffn_up.weight native=38297600 padded=38993920 total=2885550080
+Q3_PAD112_CACHE blk.51.ffn_gate.weight native=38297600 padded=38993920 total=2924544000
+Q3_PAD112_CACHE blk.51.ffn_up.weight native=38297600 padded=38993920 total=2963537920
+Q3_PAD112_CACHE blk.55.ffn_gate.weight native=38297600 padded=38993920 total=3002531840
+Q3_PAD112_CACHE blk.55.ffn_up.weight native=38297600 padded=38993920 total=3041525760
+BACKEND_PATH_OK ${WORKSPACE}/isolated/native-pad-wide/host/bin/libggml-vulkan.so.0.27.0
+DRIVER_PATH_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+CORE_PATH_OK ${WORKSPACE}/isolated/production-baseline-aa8/bin/libllama.so.0.7.0
+0.12.258.116 I common_speculative_init_result: creating MTP draft context against the target model '${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf'
+NQ_PLAN_EXACT nodes=61 pairs=0
+
+
+The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. 
+Write a detailed explanation of how cache locality and instruction scheduling affect GPU performance. Begin with an example:NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2580 rows=0 vocab=248320
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 264
+ aNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 9705
+ kernelNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 15339
+ that readsNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 220
+NQ_PLAN_EXACT nodes=67 pairs=0
+ a NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 16
+NQ_PLAN_EXACT nodes=67 pairs=0
+1NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 15
+ACCEPTED_TOKEN 17
+02NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 19
+ACCEPTED_TOKEN 27522
+4-elementNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 2153
+NQ_PLAN_EXACT nodes=67 pairs=0
+ floatNQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1287
+ACCEPTED_TOKEN 321
+NQ_PLAN_EXACT nodes=67 pairs=0
+ array andNQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 55288
+ computesNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 2542
+NQ_PLAN_EXACT nodes=67 pairs=0
+ the sumNQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 13
+.NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 271
+ACCEPTED_TOKEN 248068
+
+
+<think>NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 760
+
+TheNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1156
+ACCEPTED_TOKEN 6587
+ user wantsNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 11346
+ a detailedNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 15673
+ACCEPTED_TOKEN 314
+ explanation ofNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1204
+ howACCEPTED_TOKEN 6297
+ cacheNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 65789
+ACCEPTED_TOKEN 321
+ locality andNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 7359
+ACCEPTED_TOKEN 36602
+ instruction schedulingNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 7556
+ACCEPTED_TOKEN 21966
+ affect GPUNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 4906
+ACCEPTED_TOKEN 11
+ performance,NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 5732
+ACCEPTED_TOKEN 440
+ starting withNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 3050
+ a specificNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 3010
+ACCEPTED_TOKEN 314
+ example ofNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 9705
+NQ_PLAN_EXACT nodes=67 pairs=0
+ a kernelNQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 15339
+ that readsNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 220
+NQ_PLAN_EXACT nodes=67 pairs=0
+ a NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 16
+ACCEPTED_TOKEN 15
+10NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 17
+ACCEPTED_TOKEN 19
+24NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 27522
+ACCEPTED_TOKEN 2153
+-element floatNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 1287
+ACCEPTED_TOKEN 321
+ array andNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 55288
+ACCEPTED_TOKEN 279
+ computes theNQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 2542
+ACCEPTED_TOKEN 13
+ sum.NQ_PLAN_EXACT nodes=67 pairs=0
+NQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 2302
+NQ_PLAN_EXACT nodes=67 pairs=0
+ TheyNQ_PLAN_EXACT nodes=4182 pairs=0
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=0 sampled=-1 logits=248320 candidates=0 probs=0
+NQ_PLAN_EXACT nodes=67 pairs=0
+ACCEPTED_TOKEN 2908
+ACCEPTED_TOKEN 78685
+'ve prefixed
+
+0.19.141.589 I encoded 2581 tokens in    4.906 seconds, speed:  526.102 t/s
+0.19.141.591 I decoded   65 tokens in    1.843 seconds, speed:   35.269 t/s
+0.19.141.591 I 
+0.19.141.591 I n_draft   = 1
+0.19.141.592 I n_predict = 65
+0.19.141.592 I n_drafted = 36
+0.19.141.592 I n_accept  = 29
+0.19.141.593 I accept    = 80.556%
+0.19.141.593 I 
+0.19.141.594 I draft:
+
+0.19.141.608 I 
+0.19.141.608 I target:
+
+0.19.141.610 I common_perf_print:    sampling time =      27.13 ms
+0.19.141.611 I common_perf_print:    samplers time =       7.33 ms /    65 tokens
+0.19.141.612 I common_perf_print:        load time =    9151.27 ms
+0.19.141.613 I common_perf_print: prompt eval time =    1372.64 ms /  2652 tokens (    0.52 ms per token,  1932.04 tokens per second)
+0.19.141.615 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.19.141.616 I common_perf_print:       total time =    6884.74 ms /  2653 tokens
+0.19.141.618 I common_perf_print: unaccounted time =    5484.96 ms /  79.7 %      (total - sampling - prompt eval - eval) / (total)
+0.19.141.618 I common_perf_print:    graphs reused =         35
+0.19.141.618 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+
+
+Q3_PAD112_FINAL entries=0 bytes=0 calls=0
+Q3_PAD112_FINAL entries=78 bytes=3041525760 calls=2886

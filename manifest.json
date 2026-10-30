@@ -28007,9 +28007,9 @@
     {
       "source": "isolated/native-pad-wide/MODEL-TIMING-PLAN.md",
       "path": "archive/isolated/native-pad-wide/MODEL-TIMING-PLAN.md",
-      "source_sha256": "398a15af5b60b44f9b98bd550ef7c0d79c1d246deb95eb2161162a8996a7afff",
-      "export_sha256": "398a15af5b60b44f9b98bd550ef7c0d79c1d246deb95eb2161162a8996a7afff",
-      "bytes": 2417,
+      "source_sha256": "0b722de0bf0d6a871abf0aac6283d001bffc9bae9213a8d74fb7f6ad233c5209",
+      "export_sha256": "0b722de0bf0d6a871abf0aac6283d001bffc9bae9213a8d74fb7f6ad233c5209",
+      "bytes": 3153,
       "sanitized": false
     },
     {
@@ -28039,9 +28039,9 @@
     {
       "source": "isolated/native-pad-wide/broad-run.log",
       "path": "archive/isolated/native-pad-wide/broad-run.log",
-      "source_sha256": "1efaf0870237eb060bceb5dcf89766792e71a07921420fbd27a9fcdec3bc472d",
-      "export_sha256": "1efaf0870237eb060bceb5dcf89766792e71a07921420fbd27a9fcdec3bc472d",
-      "bytes": 1974,
+      "source_sha256": "93ea7f1d9b83a09a361d7713d0da0b72dd97831054bd4dabe9a14cf60a87698a",
+      "export_sha256": "93ea7f1d9b83a09a361d7713d0da0b72dd97831054bd4dabe9a14cf60a87698a",
+      "bytes": 15640,
       "sanitized": false
     },
     {
@@ -28231,18 +28231,18 @@
     {
       "source": "isolated/native-pad-wide/prompts128/checks.json",
       "path": "archive/isolated/native-pad-wide/prompts128/checks.json",
-      "source_sha256": "6a86762038c6874e49850fddd236482189d3668fd6fe2319447f5c94d0ccdac7",
-      "export_sha256": "6a86762038c6874e49850fddd236482189d3668fd6fe2319447f5c94d0ccdac7",
-      "bytes": 4914,
+      "source_sha256": "49e248b967444b607934e907aeed1cc3e0bf7cde7c1e5ca85eda3a02b4bfe965",
+      "export_sha256": "49e248b967444b607934e907aeed1cc3e0bf7cde7c1e5ca85eda3a02b4bfe965",
+      "bytes": 24461,
       "sanitized": false
     },
     {
       "source": "isolated/native-pad-wide/prompts128/coding/pad.log",
       "path": "archive/isolated/native-pad-wide/prompts128/coding/pad.log",
-      "source_sha256": "e4bd727eda8e1384de9bc87f9feb08649250f5934a36cf24332371c3c5317da9",
-      "export_sha256": "e4bd727eda8e1384de9bc87f9feb08649250f5934a36cf24332371c3c5317da9",
-      "bytes": 544,
-      "sanitized": false
+      "source_sha256": "e9e5cd81382ce5c09770fd851ccf64dbfd6162576f73ee135590650a0b8a19f3",
+      "export_sha256": "43a1b6a978bbd7252c1e08f24244a9536a9ca7b7b2fa61c2c0cc731bd8282b99",
+      "bytes": 34595,
+      "sanitized": true
     },
     {
       "source": "isolated/native-pad-wide/prompts128/coding/private_off.log",
@@ -28323,7 +28323,255 @@
       "export_sha256": "3b6df149137bbedd4b62cf7fe1accffe835518497f6a863bb2b16b88249b2a2b",
       "bytes": 9970,
       "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/MODEL-TIMING-PLAN-v1.md",
+      "path": "archive/isolated/native-pad-wide/MODEL-TIMING-PLAN-v1.md",
+      "source_sha256": "398a15af5b60b44f9b98bd550ef7c0d79c1d246deb95eb2161162a8996a7afff",
+      "export_sha256": "398a15af5b60b44f9b98bd550ef7c0d79c1d246deb95eb2161162a8996a7afff",
+      "bytes": 2417,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/boundary128/assets.json",
+      "path": "archive/isolated/native-pad-wide/boundary128/assets.json",
+      "source_sha256": "a2e9dff024c17f4a940136d6b449393d8b6d5a8b98d91788616a86999440688a",
+      "export_sha256": "aa18b37667f6f1388350562f959197b04fc900a1dfb59e2b66a05e51f35e076f",
+      "bytes": 3422,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/boundary128/checks.json",
+      "path": "archive/isolated/native-pad-wide/boundary128/checks.json",
+      "source_sha256": "cd7a0a535b50e246a1f0a3080ca438333f112659d71bdabc8ac19b39d0b56ef3",
+      "export_sha256": "cd7a0a535b50e246a1f0a3080ca438333f112659d71bdabc8ac19b39d0b56ef3",
+      "bytes": 4990,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/boundary128/pad.log",
+      "path": "archive/isolated/native-pad-wide/boundary128/pad.log",
+      "source_sha256": "e4bd727eda8e1384de9bc87f9feb08649250f5934a36cf24332371c3c5317da9",
+      "export_sha256": "e4bd727eda8e1384de9bc87f9feb08649250f5934a36cf24332371c3c5317da9",
+      "bytes": 544,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/boundary128/private_off.log",
+      "path": "archive/isolated/native-pad-wide/boundary128/private_off.log",
+      "source_sha256": "78d641147e1aff16f9466e9a681256aac52dd29435efb1ce0319f04323fb7474",
+      "export_sha256": "1d2406c38e7a7f829e44b0467d6034ff1e6a5879d47236cb361c0ff5a1064f4d",
+      "bytes": 29958,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/boundary128/stock100.log",
+      "path": "archive/isolated/native-pad-wide/boundary128/stock100.log",
+      "source_sha256": "ac0bab95391bd3efaf384136a63dc1b7a98005a3cf6d23abeca4fe9c1f999f31",
+      "export_sha256": "66b8e9280c3ba0d077e316228a93def88dcbed8ea894b27e552d12fe95fca966",
+      "bytes": 22859,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/populated-kv64/assets.json",
+      "path": "archive/isolated/native-pad-wide/populated-kv64/assets.json",
+      "source_sha256": "06d7fd76d8b7d9eb07b44f24cf089ebc8b4bbe59483e31729fab190ba093d324",
+      "export_sha256": "1896270051d06489410d5689ffe98183e28ee50eec207c792043e1728fa1125d",
+      "bytes": 3415,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/populated-kv64/audit-archive.json",
+      "path": "archive/isolated/native-pad-wide/populated-kv64/audit-archive.json",
+      "source_sha256": "6285ed537001fe2277b06dce1d861db1cfe51ec6fbe81e38c167c8e292217c99",
+      "export_sha256": "6285ed537001fe2277b06dce1d861db1cfe51ec6fbe81e38c167c8e292217c99",
+      "bytes": 264,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/populated-kv64/both.log",
+      "path": "archive/isolated/native-pad-wide/populated-kv64/both.log",
+      "source_sha256": "a89c465cebb31598a06d8ee3a6eada063f5e3d1d99de7abeb3b18f8e154626c4",
+      "export_sha256": "b7c78361bbf6d5abd1588a8c29368ccac9cde13ea62a870a454fd10fd5a3c513",
+      "bytes": 38387,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/populated-kv64/checks.json",
+      "path": "archive/isolated/native-pad-wide/populated-kv64/checks.json",
+      "source_sha256": "cbd748fcaeda26f10438331b0f0a3bd50a350aa1456545aaf5daf86eb726c054",
+      "export_sha256": "cbd748fcaeda26f10438331b0f0a3bd50a350aa1456545aaf5daf86eb726c054",
+      "bytes": 8857,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/populated-kv64/comparison.json",
+      "path": "archive/isolated/native-pad-wide/populated-kv64/comparison.json",
+      "source_sha256": "6fe16f5eb9fa74b3712cdd05e6c1f624138fbecd82f7c999b45907711af71d83",
+      "export_sha256": "6fe16f5eb9fa74b3712cdd05e6c1f624138fbecd82f7c999b45907711af71d83",
+      "bytes": 745,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/populated-kv64/pad.log",
+      "path": "archive/isolated/native-pad-wide/populated-kv64/pad.log",
+      "source_sha256": "1cad9acca52c71d9f95e548c02e50147b8e21eb32eea4b57a97bdf7716f74691",
+      "export_sha256": "681de1ef874e4c6ca54853beb728bb0bb112ce07d32444d3617daab806afc504",
+      "bytes": 34559,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/populated-kv64/private_off.log",
+      "path": "archive/isolated/native-pad-wide/populated-kv64/private_off.log",
+      "source_sha256": "e48664692214626de63497448a5e444fec445be20c6532ca2b542bf6f9e4fb3d",
+      "export_sha256": "1409b721ca21d28d64b1b3ce368a66607ab9dc38b827a1fd4dcd3c0c6dc4e6d9",
+      "bytes": 27625,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/populated-kv64/stock100.log",
+      "path": "archive/isolated/native-pad-wide/populated-kv64/stock100.log",
+      "source_sha256": "4620feba5c6f8ab26ebedccbdac80f956740d3ff8f29fffdb886177051956d4e",
+      "export_sha256": "99ef591f242919e73b78b8e0731e775098cf067ea67cc5e1aa61e930545e8a56",
+      "bytes": 23721,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/populated-kv64/wide.log",
+      "path": "archive/isolated/native-pad-wide/populated-kv64/wide.log",
+      "source_sha256": "d84d85f15bf5be43d64933ac27273cea66719174b01d78e615ab31e566c3c3b4",
+      "export_sha256": "21e6aab796c7cce8381fa8f7e35b1d5a01d55ec8a7a0a3d8a2450aafe8f3b488",
+      "bytes": 31498,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/prepare_timing.py",
+      "path": "archive/isolated/native-pad-wide/prepare_timing.py",
+      "source_sha256": "6e016282be1cb493b988181c2d4a6f8046b8e9a931a8b692ca99282bb5fae2d2",
+      "export_sha256": "6e016282be1cb493b988181c2d4a6f8046b8e9a931a8b692ca99282bb5fae2d2",
+      "bytes": 11361,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/native-pad-wide/prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/coding/both.log",
+      "path": "archive/isolated/native-pad-wide/prompts128/coding/both.log",
+      "source_sha256": "a1ec3d0ccd6a6d65442e27c22936c3c608fb228b0213d38de43d883613b60314",
+      "export_sha256": "294398fb5e70b0e5c14909e08fe8f75ea0a39cecfaaf5b8f6bb11cbfa2cba265",
+      "bytes": 38521,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/coding/wide.log",
+      "path": "archive/isolated/native-pad-wide/prompts128/coding/wide.log",
+      "source_sha256": "e9345d7c37d997b71dc616c2ac84296b8199409ccc85086565a8606aef672b14",
+      "export_sha256": "210d26344b16cbbdddd7970118f1526b3150229de987a3c08fda989ce589d856",
+      "bytes": 31632,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/comparison.json",
+      "path": "archive/isolated/native-pad-wide/prompts128/comparison.json",
+      "source_sha256": "bd6a308c3e31e4a7fe9361b94522d2226fb5f036991fa309bad8c80526288f26",
+      "export_sha256": "bd6a308c3e31e4a7fe9361b94522d2226fb5f036991fa309bad8c80526288f26",
+      "bytes": 409,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/math/audit-archive.json",
+      "path": "archive/isolated/native-pad-wide/prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/math/both.log",
+      "path": "archive/isolated/native-pad-wide/prompts128/math/both.log",
+      "source_sha256": "26229c8e3f4db453e4fa6821af96cf66d06650dc8a234365d9fdae6c270b4fb4",
+      "export_sha256": "e256c891b34b2e8defa76f75037a0d8cb4f80b21a85428c8dbf88ebb63b0a092",
+      "bytes": 38772,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/math/pad.log",
+      "path": "archive/isolated/native-pad-wide/prompts128/math/pad.log",
+      "source_sha256": "b8f68197f88b09db12e506386c1a4375412c9a2fae3a704fc34bad6c32dfc335",
+      "export_sha256": "42abea7011fdc7e8f3d1cc495bad3c41f13eaf2bde592abe1aee49a65b2ea99c",
+      "bytes": 34826,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/math/private_off.log",
+      "path": "archive/isolated/native-pad-wide/prompts128/math/private_off.log",
+      "source_sha256": "c18dcb5e9ff485c7f3393abe52ea42453eb1802afc0e04b9c83f3ce1f225839b",
+      "export_sha256": "7b13ff19a1f90d030b28dfb2718310e3c637dc7f91fd80f9db7e91f566a2979f",
+      "bytes": 27892,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/math/stock100.log",
+      "path": "archive/isolated/native-pad-wide/prompts128/math/stock100.log",
+      "source_sha256": "75f05d88886b56c41a3b767823dacb0aac685a7f0145efe9cff776b8f4589086",
+      "export_sha256": "1c4b5a7c601c469edfe47249f94ce2432462d3e58678b9c479269a7fc3a1fb82",
+      "bytes": 21173,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/prompts128/math/wide.log",
+      "path": "archive/isolated/native-pad-wide/prompts128/math/wide.log",
+      "source_sha256": "cbe764ce82111bb4063575f8d3f37c3f89310c8d11e2b5e9eadf211ce085b735",
+      "export_sha256": "6812c1d4736474eddccd980e15a238da2f03aca62e0fc21c250f5f55d71a7372",
+      "bytes": 31883,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/summarise_checks.py",
+      "path": "archive/isolated/native-pad-wide/summarise_checks.py",
+      "source_sha256": "468ce524ddc228c191213382612731dd55f1a69be4f57147d4bead648da23911",
+      "export_sha256": "468ce524ddc228c191213382612731dd55f1a69be4f57147d4bead648da23911",
+      "bytes": 2766,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/timing-plan-revision.json",
+      "path": "archive/isolated/native-pad-wide/timing-plan-revision.json",
+      "source_sha256": "6483a19f817c15df4e5366ef7f416a38064c89738353b2c6942b6b4168a993f0",
+      "export_sha256": "6483a19f817c15df4e5366ef7f416a38064c89738353b2c6942b6b4168a993f0",
+      "bytes": 679,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/timing-preflight.json",
+      "path": "archive/isolated/native-pad-wide/timing-preflight.json",
+      "source_sha256": "63de31e50c0ee08af65c0940add11f0637cfff6e8207a746e8726e262b8e8ae4",
+      "export_sha256": "63de31e50c0ee08af65c0940add11f0637cfff6e8207a746e8726e262b8e8ae4",
+      "bytes": 1573,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_pad_wide_confirm.py",
+      "path": "archive/isolated/run_native_pad_wide_confirm.py",
+      "source_sha256": "b0be95133658e2482b2fa1fe3a5455e245bba0f976a4a11517b59fa54a75fb7a",
+      "export_sha256": "cbf2c61204e141f10b3059fc2338283be9927fc4aa6f3755a9221063000c82ac",
+      "bytes": 18593,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/run_native_pad_wide_timing.py",
+      "path": "archive/isolated/run_native_pad_wide_timing.py",
+      "source_sha256": "3cacd3ce2d6f0f95f2ac4199182ecbfc7ea5d5162138e5d8f476783ffe7e749c",
+      "export_sha256": "d24f4c3918dfa21f74c01baa0a82c3d4b14e81261877ddb41d314b6468e25c79",
+      "bytes": 20133,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-30T18:47:22.452527+00:00"
+  "updated_utc": "2026-10-30T18:51:51.137148+00:00"
 }
