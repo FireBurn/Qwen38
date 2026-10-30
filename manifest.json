@@ -24759,9 +24759,9 @@
     {
       "source": "isolated/native-argmax-review/STATUS.md",
       "path": "archive/isolated/native-argmax-review/STATUS.md",
-      "source_sha256": "da475dbd5a457bb14abafff584048963301c4b75ffcc3ee6f1a1d228fa5462fd",
-      "export_sha256": "da475dbd5a457bb14abafff584048963301c4b75ffcc3ee6f1a1d228fa5462fd",
-      "bytes": 1259,
+      "source_sha256": "085d756ed11e63e9097fbaab1261e67d8f4a2a87ecbe9aed2ec13fe7fba39838",
+      "export_sha256": "085d756ed11e63e9097fbaab1261e67d8f4a2a87ecbe9aed2ec13fe7fba39838",
+      "bytes": 1475,
       "sanitized": false
     },
     {
@@ -24911,9 +24911,9 @@
     {
       "source": "isolated/native-argmax-review/publish.py",
       "path": "archive/isolated/native-argmax-review/publish.py",
-      "source_sha256": "5d7a329b418147255942d8618220705fcb04752946f0121f2aefd628ec61c067",
-      "export_sha256": "53fd4cd7bd92f53980b57215e162da244c62d02e0840ea162fe60f95f74be9f7",
-      "bytes": 1515,
+      "source_sha256": "36445715e4fa570bf703b21e92af57309c0a884a8dcb88905f363766016c266e",
+      "export_sha256": "4b5c0f480605051c4ff70fbe9d744d730a8a8eb2cb2821d37cf5aafdc9773589",
+      "bytes": 1720,
       "sanitized": true
     },
     {
@@ -24931,7 +24931,703 @@
       "export_sha256": "cbf5dcdcfa5863c481077e209413e20881e24913f7cdfb231f2d8905b3acd2d4",
       "bytes": 5790,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/WIDE-MICRO-PLAN-v2.md",
+      "path": "archive/isolated/native-argmax-review/WIDE-MICRO-PLAN-v2.md",
+      "source_sha256": "cbaa409de188b6e59d397744e383b830ca6c64f726eec7006b36bd178b098fa5",
+      "export_sha256": "cbaa409de188b6e59d397744e383b830ca6c64f726eec7006b36bd178b098fa5",
+      "bytes": 1721,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/WIDE-MICRO-PLAN.md",
+      "path": "archive/isolated/native-argmax-review/WIDE-MICRO-PLAN.md",
+      "source_sha256": "428b8628c0385cfb3dac8b8e4905ab9105b18abef9e9bdf7f28691dc3661a7fb",
+      "export_sha256": "428b8628c0385cfb3dac8b8e4905ab9105b18abef9e9bdf7f28691dc3661a7fb",
+      "bytes": 1195,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/argmax-check.cpp",
+      "path": "archive/isolated/native-argmax-review/argmax-check.cpp",
+      "source_sha256": "e9b8121b2b42dfa64d0ecf3fc3a94208b7b7f2dc1ec887ca24e158cc892f72b2",
+      "export_sha256": "e9b8121b2b42dfa64d0ecf3fc3a94208b7b7f2dc1ec887ca24e158cc892f72b2",
+      "bytes": 3354,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/argmax-wide.comp",
+      "path": "archive/isolated/native-argmax-review/argmax-wide.comp",
+      "source_sha256": "b3c0638efe991564bd31ee8ebec437782dcd3ec5a9e4650cba7ba10f03377b94",
+      "export_sha256": "b3c0638efe991564bd31ee8ebec437782dcd3ec5a9e4650cba7ba10f03377b94",
+      "bytes": 2014,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/build_wide_host-attempt1.py",
+      "path": "archive/isolated/native-argmax-review/build_wide_host-attempt1.py",
+      "source_sha256": "1b301441bf53f39e604b9be011c5446ad9e0d309e4e00edc696edd5fb8f1286c",
+      "export_sha256": "35f02c3e80c9ca2626dc0574b13f892ab92b3e7172aafd11b54b5a7b9a7d258c",
+      "bytes": 3707,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/build_wide_host.py",
+      "path": "archive/isolated/native-argmax-review/build_wide_host.py",
+      "source_sha256": "8b05605b5693da2d503791d6b8e44e226ed48dcf4eb8bce5422ae926427d6436",
+      "export_sha256": "c9e14e95ed1dd088b249fda56fbc665586b461cbb1585fc5cbe85c577f16cf33",
+      "bytes": 3893,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/check-build.json",
+      "path": "archive/isolated/native-argmax-review/check-build.json",
+      "source_sha256": "ac31b31223762bff4a6056237bd1df2926f9d9b21454f6110614fd6d368ce41e",
+      "export_sha256": "d57c511b796f22fc14b2a18f03d64b119da600a8846fa55d9c99f6055472a1b5",
+      "bytes": 859,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-build-attempt1-type-error.log",
+      "path": "archive/isolated/native-argmax-review/wide-build-attempt1-type-error.log",
+      "source_sha256": "f38457d662913aa210136e8b104b268be47662c6f69a0d12b087e8fac233d6b7",
+      "export_sha256": "68d6ed2ddb913a52f9fbfe9aa545b6cd4d1e8b41b1c42d749f1b47888b820e3d",
+      "bytes": 4137,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-build-inputs.json",
+      "path": "archive/isolated/native-argmax-review/wide-build-inputs.json",
+      "source_sha256": "d63f3c127e4dac651c5940d95651ecd9483b0d396caaa06ad829e2cd81ae06d3",
+      "export_sha256": "cb9070630d8e6948ad7eaf07d408453702a1536d4ee8584b2c2dfa6594295e21",
+      "bytes": 73016,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-build.json",
+      "path": "archive/isolated/native-argmax-review/wide-build.json",
+      "source_sha256": "bd7aaaf1e3c6ba7e3ed7dce7b1c21254347aef6f820674dd8c38e5456f71daa3",
+      "export_sha256": "bd7aaaf1e3c6ba7e3ed7dce7b1c21254347aef6f820674dd8c38e5456f71daa3",
+      "bytes": 637,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-build.log",
+      "path": "archive/isolated/native-argmax-review/wide-build.log",
+      "source_sha256": "446773475f51d82140c80e5950a3634985708f7e428322183e714c9279debd9b",
+      "export_sha256": "1141dba145bcf833400492e87fe1691635c12406e104e3eeb0a82fc124066213",
+      "bytes": 1453,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-checks/20261030T092907Z/assets.json",
+      "path": "archive/isolated/native-argmax-review/wide-checks/20261030T092907Z/assets.json",
+      "source_sha256": "e32ea04b3c9095cab2e196020847fcd4736bf17723635782c4b721e1ca686364",
+      "export_sha256": "601029dbc8db4e2f57b1c312132cba0f9884176142f5b60e91a9c4c7e577abd9",
+      "bytes": 1490,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-checks/20261030T092907Z/comparison.json",
+      "path": "archive/isolated/native-argmax-review/wide-checks/20261030T092907Z/comparison.json",
+      "source_sha256": "a059a03b5069e347b7fa895e0112dfbd176412b1ce95bcdaa186a9e31d565c97",
+      "export_sha256": "a059a03b5069e347b7fa895e0112dfbd176412b1ce95bcdaa186a9e31d565c97",
+      "bytes": 260,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-checks/20261030T092907Z/private_off.log",
+      "path": "archive/isolated/native-argmax-review/wide-checks/20261030T092907Z/private_off.log",
+      "source_sha256": "08d577b00280c209c0aa897f95ddc4cab6e1a21f1a0d52e04030d8f69772d2e8",
+      "export_sha256": "6dbb3ed7c1ee5fbc8363fbe743ce522180e4e224e39c4406ce6f239d38861e92",
+      "bytes": 989,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-checks/20261030T092907Z/private_wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-checks/20261030T092907Z/private_wide.log",
+      "source_sha256": "a71710ea9853172412145697c2b498086e59e86a27e68fdf37cc661ece1ecde7",
+      "export_sha256": "2b7b863f6eaa964d861f224a7a470463cac671342c925e0f1539134569a375e5",
+      "bytes": 1019,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-checks/20261030T092907Z/results.json",
+      "path": "archive/isolated/native-argmax-review/wide-checks/20261030T092907Z/results.json",
+      "source_sha256": "b0f1beb35b04df6b5662b8321197e218daa5e577e3ddd937e07ac7b829bf7aaf",
+      "export_sha256": "b0f1beb35b04df6b5662b8321197e218daa5e577e3ddd937e07ac7b829bf7aaf",
+      "bytes": 559,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-checks/20261030T092907Z/stock.log",
+      "path": "archive/isolated/native-argmax-review/wide-checks/20261030T092907Z/stock.log",
+      "source_sha256": "a7b6aa3721978b9a0b29d846ec5a1bbbda32f0d94cfd4dce2a00b52693341f7a",
+      "export_sha256": "629000ba978e45de228951b6e8ec436e5729be8d1114f7ea639122d3b9e4a4b9",
+      "bytes": 853,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-checks-run.log",
+      "path": "archive/isolated/native-argmax-review/wide-checks-run.log",
+      "source_sha256": "fad75132714aca36cdad8c1067c17fde39cbfee5199032dc3d32199c7bddf91a",
+      "export_sha256": "9c21e1243a1abe7d5028ca0e5b629f5b337b602e6075d866bc5e0f805227a53e",
+      "bytes": 713,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-host.patch",
+      "path": "archive/isolated/native-argmax-review/wide-host.patch",
+      "source_sha256": "34f5a7e24265430a44ceb6735100a84a862d2c12d975e858e275419ed0dbfc50",
+      "export_sha256": "34f5a7e24265430a44ceb6735100a84a862d2c12d975e858e275419ed0dbfc50",
+      "bytes": 2187,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro/20261030T093047Z/00-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro/20261030T093047Z/00-native.log",
+      "source_sha256": "9d42e8b056f1eeb44c71aa965a7714d81a5134b168b0cc04a4b65dc303e5a16e",
+      "export_sha256": "c700f8a97b23b95a7fada8df788a9d57f09eecf416ffd6aec8889e01a9544dcf",
+      "bytes": 974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro/20261030T093047Z/assets.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro/20261030T093047Z/assets.json",
+      "source_sha256": "7637ddf41258049beae5e57b8807dec0c7e4b208bb241fa4169e274d6942e0ac",
+      "export_sha256": "152cdf43a217f5bf99423446724d8fdeac8d3941aa7f4f91c0a7c820bde65ff7",
+      "bytes": 1087,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro/20261030T093047Z/protocol.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro/20261030T093047Z/protocol.json",
+      "source_sha256": "6e1937c20e38cb13269c3677c6f764e3697428ce313137487e29b21a4523dba8",
+      "export_sha256": "6e1937c20e38cb13269c3677c6f764e3697428ce313137487e29b21a4523dba8",
+      "bytes": 1549,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-attempt1.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-attempt1.json",
+      "source_sha256": "09ff4b11653943d8e13e56f3b18e0358d7ef47a32e1891a9b8034bf85791e0f3",
+      "export_sha256": "09ff4b11653943d8e13e56f3b18e0358d7ef47a32e1891a9b8034bf85791e0f3",
+      "bytes": 513,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-run.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-run.log",
+      "source_sha256": "89550123f9aed5b11bc0dbe62b33e6fc0ccfbbd313366c1c1a3f98f3996f6149",
+      "export_sha256": "51da97cbb04901ba35924897cc110e14fec9ce96d370f0c2d680042a6293859e",
+      "bytes": 1030,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/00-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/00-native.log",
+      "source_sha256": "ce46f460c3ccdfac054c4cb9eefb91f121a339c3a7c9e38cecd594f34c29731e",
+      "export_sha256": "5da295b3fd05036e3373634c82206179d5a4309059103cd2b1167ba0c36dbf5c",
+      "bytes": 973,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/00-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/00-telemetry.json",
+      "source_sha256": "f30781db3024a085dd1c614ef1d79d165e75c8846316a01c7acc44aa67cbea8e",
+      "export_sha256": "f30781db3024a085dd1c614ef1d79d165e75c8846316a01c7acc44aa67cbea8e",
+      "bytes": 4552,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/01-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/01-telemetry.json",
+      "source_sha256": "2d6b19c5ddc772bbcadade812304bc214645be474c410c4d883cde2fcc6f42ec",
+      "export_sha256": "2d6b19c5ddc772bbcadade812304bc214645be474c410c4d883cde2fcc6f42ec",
+      "bytes": 1396,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/01-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/01-wide.log",
+      "source_sha256": "0f3abf22b09888a079414d9f3d6c9fe5be088dedad343f11e8a069263c7c0d73",
+      "export_sha256": "8e47aa09405e034ba959e691eb5af0c359b6ebe894af535a2f05a43b599c4f93",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/02-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/02-telemetry.json",
+      "source_sha256": "2f111909d500ce465765c8e92605119688639957c98639518f1b479f0ce5ebc2",
+      "export_sha256": "2f111909d500ce465765c8e92605119688639957c98639518f1b479f0ce5ebc2",
+      "bytes": 1533,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/02-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/02-wide.log",
+      "source_sha256": "eb6ff785de638e25e325e462c0141a2557075a38fa53e9f6add9873692b45d4c",
+      "export_sha256": "1e10a026745523080a2db4a30c8380154f356d31d90714bc6b276d3bd09ecfb3",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/03-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/03-native.log",
+      "source_sha256": "17187b02ccb43a9a0052834ef4f13af2dfcaeca24cba6d83990ded3f0390a203",
+      "export_sha256": "aae87faa938a943f2148adcc7904e4e161d599bf17eee60456f6626efb3e3ae2",
+      "bytes": 974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/03-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/03-telemetry.json",
+      "source_sha256": "109e44dfffd0c9a67691ed3d8924047d1d51f262e48d371e6de8eb501557c317",
+      "export_sha256": "109e44dfffd0c9a67691ed3d8924047d1d51f262e48d371e6de8eb501557c317",
+      "bytes": 3326,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/04-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/04-telemetry.json",
+      "source_sha256": "413b3c8f788e6bc7bdf7a749e8f7d6d1ed5970da069fbfe0dbdf1cb3d4d50202",
+      "export_sha256": "413b3c8f788e6bc7bdf7a749e8f7d6d1ed5970da069fbfe0dbdf1cb3d4d50202",
+      "bytes": 1660,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/04-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/04-wide.log",
+      "source_sha256": "a1de2289dd7240f4965eaa4413eb0ed86d7c44785251678476777b66a466c16c",
+      "export_sha256": "ed54b3eb9fc312979f7800bbf61f00d8339155268b0c173ca0ca057ab7fe900e",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/05-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/05-native.log",
+      "source_sha256": "9905c4b3be792ab3082621fce93c75086b8f8d87f34db53a4539feb9bd9cbec9",
+      "export_sha256": "7256a6c514e59fe8977ab06435acda43a511f8e291341daa101c3a30dd4a5b79",
+      "bytes": 974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/05-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/05-telemetry.json",
+      "source_sha256": "ebc1ff38c7d121cacbf071a93a9980c3f78f7524fd22e99768ce8c1aa249b03c",
+      "export_sha256": "ebc1ff38c7d121cacbf071a93a9980c3f78f7524fd22e99768ce8c1aa249b03c",
+      "bytes": 3471,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/06-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/06-native.log",
+      "source_sha256": "1aeed3eafb4cf5bfb8c17057ae435b0dbadc06c745b29d45f16522b2d1f9ad7c",
+      "export_sha256": "e8583bd3dd9656d17eb9adda2e2f82383580f6d2996963cb29d686a57e50b5ca",
+      "bytes": 974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/06-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/06-telemetry.json",
+      "source_sha256": "547b5f3686420685c8241e18f72569471adbaf2304e253fc7145cabe7284c430",
+      "export_sha256": "547b5f3686420685c8241e18f72569471adbaf2304e253fc7145cabe7284c430",
+      "bytes": 3196,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/07-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/07-telemetry.json",
+      "source_sha256": "20ab98fd8fc96ce7ae63fa93b079e713650ff5297210f3ac064d3a2116277459",
+      "export_sha256": "20ab98fd8fc96ce7ae63fa93b079e713650ff5297210f3ac064d3a2116277459",
+      "bytes": 1521,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/07-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/07-wide.log",
+      "source_sha256": "50a803b020b24e34e9bb8589eed5fe33338b4464b0b4cb686d998a971a11147e",
+      "export_sha256": "5af7a1c4193f901683ac11458c11e1190ed8fb54380392c80d0b90af1a1a8f7b",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/08-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/08-native.log",
+      "source_sha256": "8f162946dcacfeda213eefaf1310b8234977d5e3939c813730be947aecfd0967",
+      "export_sha256": "3ac591e06edbc8eb70efbc8c43ce20bc67c21daf1e5756fbf532b91361783768",
+      "bytes": 974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/08-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/08-telemetry.json",
+      "source_sha256": "5eb9442dcd3a09218865890d1acca3fa8a06b0b534ad90cc95ddcbb8cee0f0d2",
+      "export_sha256": "5eb9442dcd3a09218865890d1acca3fa8a06b0b534ad90cc95ddcbb8cee0f0d2",
+      "bytes": 3891,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/09-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/09-telemetry.json",
+      "source_sha256": "aa6cd157830857cc4a3f6d01f6a1c37e64b986a8a5f9a0dc38c2e54e5442200e",
+      "export_sha256": "aa6cd157830857cc4a3f6d01f6a1c37e64b986a8a5f9a0dc38c2e54e5442200e",
+      "bytes": 1519,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/09-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/09-wide.log",
+      "source_sha256": "56b0f36994f3435a8fa4a443aff7090d2468cb5f6af7037641dd5112b1170357",
+      "export_sha256": "d3f09720a2ee8dde4f9dd28989931407765bfe9741b8d893dbeedbe720e2d85c",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/10-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/10-telemetry.json",
+      "source_sha256": "96e7e96a3e19102b57fcdf1973f4622a3284a4f8c9c6c66d498b1c465dde50fd",
+      "export_sha256": "96e7e96a3e19102b57fcdf1973f4622a3284a4f8c9c6c66d498b1c465dde50fd",
+      "bytes": 1381,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/10-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/10-wide.log",
+      "source_sha256": "7eee12ea5a14099625ba522e2580cb3a2dc8c49fc5b4d0953421b43b0cf26786",
+      "export_sha256": "066deff305288b07bc8aedce876824a98ee34952f6f446068adff409f6a125e5",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/11-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/11-native.log",
+      "source_sha256": "c72f9f1dbe6701716d33caf41efbd41e09b1c00131d50f47376d20d983fd9d0b",
+      "export_sha256": "956ba877146f9a3cfc202a26849476b0c5223855ffd52e5ef574f00021705f8d",
+      "bytes": 974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/11-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/11-telemetry.json",
+      "source_sha256": "f155fe40c04a1413784d240114cbe50200d40643ab29a126c31383c920ed6e6f",
+      "export_sha256": "f155fe40c04a1413784d240114cbe50200d40643ab29a126c31383c920ed6e6f",
+      "bytes": 3772,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/12-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/12-telemetry.json",
+      "source_sha256": "5d19d16913db59be743f02392454edd5ecac2423bf4d0841f150c358d56f6a24",
+      "export_sha256": "5d19d16913db59be743f02392454edd5ecac2423bf4d0841f150c358d56f6a24",
+      "bytes": 1519,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/12-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/12-wide.log",
+      "source_sha256": "d6f8d98dddb569ad2326721a222aabbcc56dec35ee0b90b955fcf23ae3673e1c",
+      "export_sha256": "53f9ce91a43144bc7b553a4318c152740f487a03356dd86a0b58e5b497de4ee4",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/13-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/13-native.log",
+      "source_sha256": "44d9ce961f54eb46209c84d15d24a5ad4e49d1e49ebf9c07687ff55ff43600c4",
+      "export_sha256": "44dd11561b16ec2e9a3d3c9858ec3094905c55d5095d32505e3e7d24474027fe",
+      "bytes": 974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/13-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/13-telemetry.json",
+      "source_sha256": "a7b966eb846eb15e4e7578d815a4c54237a30fdfaae7a6afa14c853a4610de4b",
+      "export_sha256": "a7b966eb846eb15e4e7578d815a4c54237a30fdfaae7a6afa14c853a4610de4b",
+      "bytes": 3588,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/14-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/14-native.log",
+      "source_sha256": "5189ea1c993d6edae8e345f511fbe550a7a953e3d93f628b5728b2c0e20c8ede",
+      "export_sha256": "1f6a046b42c5b4aeb159d0672ef4c7816abc854eaff0f92e76fd0694eba026da",
+      "bytes": 974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/14-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/14-telemetry.json",
+      "source_sha256": "efece86d8bc75062d79487abb14b4ba093f5882869223da71392aac156966b6f",
+      "export_sha256": "efece86d8bc75062d79487abb14b4ba093f5882869223da71392aac156966b6f",
+      "bytes": 3450,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/15-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/15-telemetry.json",
+      "source_sha256": "b325c827904fe80d6d10f5f7b5d67190ce1a4bd5a468d5f4d7cb56516d6b3f99",
+      "export_sha256": "b325c827904fe80d6d10f5f7b5d67190ce1a4bd5a468d5f4d7cb56516d6b3f99",
+      "bytes": 1825,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/15-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/15-wide.log",
+      "source_sha256": "b930fab1be0944da4bbb132e43a603faddb2a7df253698c69a9dd27132b56205",
+      "export_sha256": "b57e442c3b07b9d9c8ceb09e437f056f2c5fa5db31c0473378ac7e72fdf263dd",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/16-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/16-native.log",
+      "source_sha256": "7eb3d900d824604e17084d6012a6fc2286e644ce314dd64a27069c25f5549584",
+      "export_sha256": "afed9f3dfaa321182f92d57149106c73e1f82fba682d61425a67d72cc7fb399e",
+      "bytes": 974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/16-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/16-telemetry.json",
+      "source_sha256": "ded7533d72e8dad5fb223966bc0867509c7249e771d871383ef5e8759f051479",
+      "export_sha256": "ded7533d72e8dad5fb223966bc0867509c7249e771d871383ef5e8759f051479",
+      "bytes": 4155,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/17-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/17-telemetry.json",
+      "source_sha256": "4798391846e76d484db3e7e7a2de150783c1b7e9b8e9b64746570c8d5972d5da",
+      "export_sha256": "4798391846e76d484db3e7e7a2de150783c1b7e9b8e9b64746570c8d5972d5da",
+      "bytes": 1518,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/17-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/17-wide.log",
+      "source_sha256": "668c9a9334e97a4d00d9663f98c53d1fe009acad0fed01213cb1cc4eb86c0d5c",
+      "export_sha256": "613b4f531ef3e911b52ef77523142c04fd8225164e1d4510785814623386c12b",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/18-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/18-telemetry.json",
+      "source_sha256": "f6d2aff534c98741766f25563900f7362fefdf5ae6a69ab96ca97e10900af647",
+      "export_sha256": "f6d2aff534c98741766f25563900f7362fefdf5ae6a69ab96ca97e10900af647",
+      "bytes": 1517,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/18-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/18-wide.log",
+      "source_sha256": "db705b53983a3fae045ce7b7b6d7d19788cc256647bbedbcffd222dde4d7c543",
+      "export_sha256": "310e0c1d21e13845ad0809ea6870077a900d71c511e19462ce5de98bafe8eebd",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/19-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/19-native.log",
+      "source_sha256": "4948bdc9f51722d75eb26f380b965c5ccf7c3fc28c450016e8b186ede188b22d",
+      "export_sha256": "f6f18f58ed7b2d508ce3b25c6937d861a4859ff076e5c8258f3554bbfb03b649",
+      "bytes": 974,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/19-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/19-telemetry.json",
+      "source_sha256": "7cd3b113eb425c442a856a59746f813cf0f52366a8b1ba7d658c0c9a931feefb",
+      "export_sha256": "7cd3b113eb425c442a856a59746f813cf0f52366a8b1ba7d658c0c9a931feefb",
+      "bytes": 3451,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/20-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/20-telemetry.json",
+      "source_sha256": "3efbffdf01e9045c41989f9c7f0709467fab33fced89b388a9782ea6d9431928",
+      "export_sha256": "3efbffdf01e9045c41989f9c7f0709467fab33fced89b388a9782ea6d9431928",
+      "bytes": 1534,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/20-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/20-wide.log",
+      "source_sha256": "0ab296211594d0f3a3955a9c6d61857ea5e8016f59f1b4c43f11de6665c2318a",
+      "export_sha256": "dec66261862ef8b43a010a3190e99caaaba1f5991f5e934596f6bf1c173e77ac",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/21-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/21-native.log",
+      "source_sha256": "346c42d92838f6d8e25f457f684352d352549e68dde984875d99493a08b0500b",
+      "export_sha256": "ca4d8aa3787ba5dd888fd686c67e005fad74e7c0e1d106021d256aa8f1022665",
+      "bytes": 973,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/21-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/21-telemetry.json",
+      "source_sha256": "f9f4a8f32999e7fed3f863c32dca01ccc20979b110baa1d651c8ffc34c42d929",
+      "export_sha256": "f9f4a8f32999e7fed3f863c32dca01ccc20979b110baa1d651c8ffc34c42d929",
+      "bytes": 3312,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/22-native.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/22-native.log",
+      "source_sha256": "1e6ac4824a60bd2bdc8bf65143bffd42bfff130a25db9cbb7f7c5175364c80cf",
+      "export_sha256": "1c91561632fb878ca8948a1c431333d0eee7c68fb601729bebc0bc79efb9988e",
+      "bytes": 973,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/22-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/22-telemetry.json",
+      "source_sha256": "4c1e8509dd2a8059179e51991542eeebe71be917c57739b352df6cfbc7357e8e",
+      "export_sha256": "4c1e8509dd2a8059179e51991542eeebe71be917c57739b352df6cfbc7357e8e",
+      "bytes": 3328,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/23-telemetry.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/23-telemetry.json",
+      "source_sha256": "74269541df15f4b12bc0163c72b507b8cbde3535a6f6340e2f2374d869046d48",
+      "export_sha256": "74269541df15f4b12bc0163c72b507b8cbde3535a6f6340e2f2374d869046d48",
+      "bytes": 1672,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/23-wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/23-wide.log",
+      "source_sha256": "3be4642be7e380f2e551568602598bd443b5502ec9ba945db95bb8d3e6ba7e75",
+      "export_sha256": "3e278a194da903a377802a80ea827aea76d65faf82df37b255a9df93d28fc1b7",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/analysis.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/analysis.json",
+      "source_sha256": "aff1d2e857b50384f9b65cf1f3309954a2f305ac7ddb4fee5bf6ba6731791570",
+      "export_sha256": "aff1d2e857b50384f9b65cf1f3309954a2f305ac7ddb4fee5bf6ba6731791570",
+      "bytes": 2658,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/assets.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/assets.json",
+      "source_sha256": "ad9fc8fa25b6dd0647265d311cd2bcd41e3452965d012c911303ffac513634b7",
+      "export_sha256": "f55d43fdf75daf61833a2b5647c47f6b3bea53210785335d18991714eb4c7535",
+      "bytes": 1093,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/protocol.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/protocol.json",
+      "source_sha256": "56ab77cf78280c320f02c5b8f6e07b35547e792333d6ad66618be4a3a75f8b6d",
+      "export_sha256": "56ab77cf78280c320f02c5b8f6e07b35547e792333d6ad66618be4a3a75f8b6d",
+      "bytes": 2078,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/results.json",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2/20261030T093239Z/results.json",
+      "source_sha256": "a21d7025c96d141b1919ebf3d0a62b661a39a23d3493851b910cbe0552ea59dd",
+      "export_sha256": "a21d7025c96d141b1919ebf3d0a62b661a39a23d3493851b910cbe0552ea59dd",
+      "bytes": 7637,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-micro-v2-run.log",
+      "path": "archive/isolated/native-argmax-review/wide-micro-v2-run.log",
+      "source_sha256": "37a27575f5a9d6f4ca4f90abf08b2cca47692a14a7c6567a0d887f29a7b6882e",
+      "export_sha256": "37a27575f5a9d6f4ca4f90abf08b2cca47692a14a7c6567a0d887f29a7b6882e",
+      "bytes": 8358,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-model32/assets.json",
+      "path": "archive/isolated/native-argmax-review/wide-model32/assets.json",
+      "source_sha256": "80d2e2610c03a784ced4003331fe13eb1c298eec83ab70f33013ef9d5dc52a9e",
+      "export_sha256": "0e78a6d9257f3fba7c02d8003b376d4fbe9fc9e72d8b4fe487146fce6433a24d",
+      "bytes": 3125,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-model32/checks.json",
+      "path": "archive/isolated/native-argmax-review/wide-model32/checks.json",
+      "source_sha256": "23c9ce3aff47fbbad601139394721a5b38831884b90868894511078e516595d5",
+      "export_sha256": "23c9ce3aff47fbbad601139394721a5b38831884b90868894511078e516595d5",
+      "bytes": 2620,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-model32/private_off.log",
+      "path": "archive/isolated/native-argmax-review/wide-model32/private_off.log",
+      "source_sha256": "ad0e40fc801cb959cb714452a3bed12fc6bc6fa2970145fac4393d8fecdbbb69",
+      "export_sha256": "11abcf61f45cf308c5a45cb7aec6c3cbebca5b0cf8c4308c8aa211d7053d83dd",
+      "bytes": 7548,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-model32/private_wide.log",
+      "path": "archive/isolated/native-argmax-review/wide-model32/private_wide.log",
+      "source_sha256": "e4da3d9a85a05c1af68a551445786229a605bb78586e4b3ba9aeb5795571aa26",
+      "export_sha256": "3936addcc7c426e6adc9fd1eed682a42adfbcf03f2e3e1de173488f0130eda66",
+      "bytes": 3146,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-model32/stock100.log",
+      "path": "archive/isolated/native-argmax-review/wide-model32/stock100.log",
+      "source_sha256": "033b5de00e9400edd5a689d94367d4fe632716b56e60a17b707b6d4fbb9a5fce",
+      "export_sha256": "bf846ff65e0b1e469a589b9cb336bf39d88073bdc144b786cb0e4c897ea8007a",
+      "bytes": 7633,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-review/wide-model32-run.log",
+      "path": "archive/isolated/native-argmax-review/wide-model32-run.log",
+      "source_sha256": "d33fb04979c3c5211dc98f58f7b348d4c84a5a396a02a75881cc44a22fdc4cd9",
+      "export_sha256": "d33fb04979c3c5211dc98f58f7b348d4c84a5a396a02a75881cc44a22fdc4cd9",
+      "bytes": 1828,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_argmax_wide_checks.py",
+      "path": "archive/isolated/run_native_argmax_wide_checks.py",
+      "source_sha256": "9771caaa14f6e5fd2f0a9889e7b99b7881534069813e08c530cbb98c793adfa5",
+      "export_sha256": "9771caaa14f6e5fd2f0a9889e7b99b7881534069813e08c530cbb98c793adfa5",
+      "bytes": 3434,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_argmax_wide_micro.py",
+      "path": "archive/isolated/run_native_argmax_wide_micro.py",
+      "source_sha256": "229a471f797ede0c734d95b3ea5c1960ec7904bad096e9e6c5e25186bbe183df",
+      "export_sha256": "229a471f797ede0c734d95b3ea5c1960ec7904bad096e9e6c5e25186bbe183df",
+      "bytes": 5772,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_argmax_wide_micro_v2.py",
+      "path": "archive/isolated/run_native_argmax_wide_micro_v2.py",
+      "source_sha256": "8eddb096b3dbb8abf24199fa230c5c2dfc4ff6c241f553e12558f6d8b2a729c3",
+      "export_sha256": "8eddb096b3dbb8abf24199fa230c5c2dfc4ff6c241f553e12558f6d8b2a729c3",
+      "bytes": 6187,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_argmax_wide_model32.py",
+      "path": "archive/isolated/run_native_argmax_wide_model32.py",
+      "source_sha256": "fd8c3e02d040f09aa6cfd129dee2b92c88af3a3b15bf055eaf14b6f2c36ed09f",
+      "export_sha256": "d89e703caaacfcebe693a84fc538f1b3088b2fcd9b45ed79ad3a579a2b78c720",
+      "bytes": 10805,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-10-30T09:21:53.423688+00:00"
+  "updated_utc": "2026-10-30T09:35:03.648772+00:00"
 }

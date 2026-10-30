@@ -1,0 +1,26 @@
+${WORKSPACE}/isolated/native-argmax-review/wide-host/ggml-vulkan.cpp:1380:22: warning: no previous prototype for function 'get_fa_pipeline_state' [-Wmissing-prototypes]
+ 1380 | vk_fa_pipeline_state get_fa_pipeline_state(const vk_device& device, const vk_fa_tuning_params& params, uint32_t hsk, uint32_t hsv, bool aligned, bool f32acc,
+      |                      ^
+${WORKSPACE}/isolated/native-argmax-review/wide-host/ggml-vulkan.cpp:1380:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+ 1380 | vk_fa_pipeline_state get_fa_pipeline_state(const vk_device& device, const vk_fa_tuning_params& params, uint32_t hsk, uint32_t hsv, bool aligned, bool f32acc,
+      | ^
+      | static 
+${WORKSPACE}/isolated/native-argmax-review/wide-host/ggml-vulkan.cpp:3617:175: error: incompatible operand types ('const value_type *' (aka 'const unsigned int *') and 'const unsigned char *')
+ 3617 |     ggml_vk_create_pipeline(device, device->pipeline_argmax_f32, wide_argmax?"argmax_wide_f32":"argmax_f32", wide_argmax?wide_argmax_code.size()*4:argmax_f32_len, wide_argmax?wide_argmax_code.data():argmax_f32_data, "main", 2, sizeof(vk_op_push_constants), {1, 1, 1}, { device->subgroup_size }, 1);
+      |                                                                                                                                                                               ^~~~~~~~~~~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~
+${WORKSPACE}/isolated/native-argmax-review/wide-host/ggml-vulkan.cpp:10408:6: warning: no previous prototype for function 'ggml_vk_gated_delta_net' [-Wmissing-prototypes]
+ 10408 | void ggml_vk_gated_delta_net(ggml_backend_vk_context * ctx, vk_context& subctx, ggml_tensor * dst, const ggml_tensor * state_dst) {
+       |      ^
+${WORKSPACE}/isolated/native-argmax-review/wide-host/ggml-vulkan.cpp:10408:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+ 10408 | void ggml_vk_gated_delta_net(ggml_backend_vk_context * ctx, vk_context& subctx, ggml_tensor * dst, const ggml_tensor * state_dst) {
+       | ^
+       | static 
+2 warnings and 1 error generated.
+Traceback (most recent call last):
+  File "${WORKSPACE}/isolated/native-argmax-review/build_wide_host.py", line 26, in <module>
+    for cmd in commands:subprocess.run(cmd,check=True,cwd=h)
+                        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['/usr/lib/llvm/23/bin/clang++', '-I${WORKSPACE}/isolated/native-argmax-review/pinned-headers/ggml/src/ggml-vulkan', '-DGGML_BACKEND_BUILD', '-DGGML_BACKEND_SHARED', '-DGGML_SCHED_MAX_COPIES=4', '-DGGML_SHARED', '-DGGML_VULKAN_BFLOAT16_GLSLC_SUPPORT', '-DGGML_VULKAN_COOPMAT2_DECODE_VECTOR_GLSLC_SUPPORT', '-DGGML_VULKAN_COOPMAT2_GLSLC_SUPPORT', '-DGGML_VULKAN_COOPMAT_GLSLC_SUPPORT', '-DGGML_VULKAN_FLOAT_E2M1_GLSLC_SUPPORT', '-DGGML_VULKAN_FLOAT_E4M3_GLSLC_SUPPORT', '-DGGML_VULKAN_INTEGER_DOT_GLSLC_SUPPORT', '-D_GNU_SOURCE', '-D_XOPEN_SOURCE=600', '-Dggml_vulkan_EXPORTS', '-I${WORKSPACE}/isolated/native-argmax-review/pinned-headers/ggml/src/ggml-vulkan/..', '-I${WORKSPACE}/isolated/native-argmax-review/generated-headers', '-I${WORKSPACE}/isolated/native-argmax-review/pinned-headers/ggml/src/../include', '-stdlib=libc++', '-O3', '-DNDEBUG', '-std=gnu++17', '-fPIC', '-fvisibility=hidden', '-fvisibility-inlines-hidden', '-Xclang', '-fno-pch-timestamp', '-Wmissing-declarations', '-Wmissing-noreturn', '-Wall', '-Wextra', '-Wpedantic', '-Wcast-qual', '-Wno-unused-function', '-Wunreachable-code-break', '-Wunreachable-code-return', '-Wmissing-prototypes', '-Wextra-semi', '-MD', '-MT', '${WORKSPACE}/isolated/native-argmax-review/wide-host/host.o', '-MF', '${WORKSPACE}/isolated/native-argmax-review/wide-host/host.o.d', '-o', '${WORKSPACE}/isolated/native-argmax-review/wide-host/host.o', '-c', '${WORKSPACE}/isolated/native-argmax-review/wide-host/ggml-vulkan.cpp']' returned non-zero exit status 1.

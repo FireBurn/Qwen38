@@ -1,0 +1,9 @@
+{
+  "dataset": "wide-micro/20261030T093047Z",
+  "status": "telemetry_setup_failure_after_first_native_process",
+  "reason": "GPUclock/powersysfsreturnsEBUSYduringruntime-suspendtransition; sampler rejectedentirewindow before anycandidateprocess. NoGPUfault/outputfailure; no usableA/B or favorable-data rejection.",
+  "observed_runtime_status": "suspended",
+  "first_native_us_per_argmax": 1143.348958,
+  "script_sha256": "229a471f797ede0c734d95b3ea5c1960ec7904bad096e9e6c5e25186bbe183df",
+  "no_pooling": true
+}

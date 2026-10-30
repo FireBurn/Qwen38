@@ -1,0 +1,33 @@
+#version 450
+layout(local_size_x=256,local_size_y=1,local_size_z=1)in;
+// Host's existing specialization remains the ORIGINAL native lane count.
+layout(constant_id=0)const uint NATIVE_BLOCK=32;
+layout(push_constant)uniform parameter{uint KX;uint KY;float p1;float p2;float p3;float p4;}p;
+layout(binding=0)readonly buffer A{float data_a[];};
+layout(binding=1)writeonly buffer D{int data_d[];};
+shared float maxima[256];shared uint indices[256];shared uint has_nan;
+const uint INVALID=0xffffffffu;
+bool better(float a,uint ai,float b,uint bi){
+ if(ai==INVALID)return false;if(bi==INVALID)return true;
+ if(a>b)return true;if(a!=b)return false;
+ uint ar=bitfieldReverse(ai%NATIVE_BLOCK),br=bitfieldReverse(bi%NATIVE_BLOCK);
+ return ar<br||(ar==br&&ai<bi);
+}
+void main(){
+ uint row=gl_WorkGroupID.z*262144+gl_WorkGroupID.y*512+gl_WorkGroupID.x;
+ uint lane=gl_LocalInvocationID.x;
+ if(row>=p.KY)return;
+ if(lane==0)has_nan=0;barrier();
+ float best=uintBitsToFloat(0xff800000u);uint chosen=INVALID;bool nan_seen=false;
+ for(uint i=lane;i<p.KX;i+=256){float v=data_a[row*p.KX+i];nan_seen=nan_seen||isnan(v);if(better(v,i,best,chosen)){best=v;chosen=i;}}
+ maxima[lane]=best;indices[lane]=chosen;if(nan_seen)atomicOr(has_nan,1);barrier();
+ // NaN comparison order is not associative: exactly emulate the old shader.
+ if(has_nan!=0){
+  if(lane<NATIVE_BLOCK){float v=-3.402823466e+38;uint idx=lane;if(lane<p.KX)v=data_a[row*p.KX+lane];for(uint i=lane+NATIVE_BLOCK;i<p.KX;i+=NATIVE_BLOCK){float a=data_a[row*p.KX+i];if(a>v){v=a;idx=i;}}maxima[lane]=v;indices[lane]=idx;}
+  barrier();
+  for(uint step=NATIVE_BLOCK/2;step>0;step>>=1){if(lane<step&&lane+step<p.KX&&maxima[lane]<maxima[lane+step]){maxima[lane]=maxima[lane+step];indices[lane]=indices[lane+step];}barrier();}
+ }else{
+  for(uint step=128;step>0;step>>=1){if(lane<step&&better(maxima[lane+step],indices[lane+step],maxima[lane],indices[lane])){maxima[lane]=maxima[lane+step];indices[lane]=indices[lane+step];}barrier();}
+ }
+ if(lane==0)data_d[row]=int(indices[0]);
+}

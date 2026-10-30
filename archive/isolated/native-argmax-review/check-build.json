@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/native-argmax-review/argmax-check.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/native-argmax-review/argmax-check"
+  ],
+  "source_sha256": "e9b8121b2b42dfa64d0ecf3fc3a94208b7b7f2dc1ec887ca24e158cc892f72b2",
+  "binary_sha256": "1e177ebba6e14a0544c8b488e0f040eb7f7ca1281f419ebf565911d32b9639e8",
+  "scope": "Native/candidate capturedindices across630shape/patterncases and1680rows, no performance inference."
+}

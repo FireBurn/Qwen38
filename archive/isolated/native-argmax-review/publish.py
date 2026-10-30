@@ -5,9 +5,11 @@ p=Path(__file__).resolve().parent;b=p.parent;root=b.parent;pub=root/'public/Qwen
 m=json.loads((pub/'manifest.json').read_text());entries={e['source']:e for e in m['files']};files=[]
 for folder in [p]:
  for f in folder.rglob('*'):
-  if not f.is_file()or f.suffix not in ['.py','.cpp','.h','.md','.json','.comp','.log']:continue
+  if not f.is_file()or f.suffix not in ['.py','.cpp','.h','.md','.json','.comp','.log','.patch']:continue
   if 'build-inputs'in f.relative_to(folder).parts:continue
+  if f.relative_to(folder).parts[0]in ['pinned-headers','generated-headers','wide-host']:continue
   parts=f.relative_to(folder).parts
+  if parts[0]=='wide-micro-v2'and not(folder/parts[0]/parts[1]/'analysis.json').exists():continue
   if parts[0]in ['model-timing512','model-confirmation512']and not(folder/parts[0]/parts[1]/'confirmation-analysis.json').exists():continue
   files.append(f)
 files+=list(b.glob('run_native_argmax_*.py'))

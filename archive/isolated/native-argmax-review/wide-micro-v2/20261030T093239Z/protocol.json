@@ -1,0 +1,29 @@
+{
+  "sequence": [
+    "native",
+    "wide",
+    "wide",
+    "native",
+    "wide",
+    "native",
+    "native",
+    "wide",
+    "native",
+    "wide",
+    "wide",
+    "native",
+    "wide",
+    "native",
+    "native",
+    "wide",
+    "native",
+    "wide",
+    "wide",
+    "native",
+    "wide",
+    "native",
+    "native",
+    "wide"
+  ],
+  "plan": "# Fixed24 native/wide argmax micro comparison\n\nPrerequisite630adversarialcases/1680indices per arm identical tostock, privateoffcontrol and wide path positivelyselected,noGPUerrors. Sameprivatebackendbinary/client/driver; only wideSPIRVenvoption differs, audit/profiler OFF. K248320,copies16,60iterations,argmax+selectedvaluegather graph,16warmgraphs. Fixed24freshprocesses, sixalternatingABBA/BAABblocks(Aprivate-native,Bwide), no retry/extension/quietgate/pooling. Primary per-argmax synchronousgraphwalltime, includes host scheduling/submit/wait costs. Operator-only, not modelTPS.\n\nRecord whole-childprocessCPUbusy, backgroundbuildcount andrunnable samples (50mstick), naturalGPUclock/power. Wholeprocess external-load comparability (not precisebenchmarkphase) requires mode meansCPUbusy difference<=5pp,builds<=2,runnable<=max(4,15%blockmode mean), validtelemetry. Reportallsix andmatched blockgeometric timeeffects with t95df=n-1, >=4matchedblocks before scopedperformanceinference. No owncompile/otherGPUwork. ExactpeakID/value output, pinnedassets/mappings/noGPUerrors eachprocess. Nonfinite/widerdimensioncorrectness alreadyseparate; freshmodelrawaudit andmodel A/Bneeded for adoption.\n\n\nVersion2 instrumentation correction after firstnative-only telemetryfailure: CPU/build/runqueue reads remainrequired. GPUclock/power sysfs can returnEBUSY during normal runtime-suspend/resume and are optional, recordedwitherrors/nulls without rejectingCPUload samples. All clock/power gaps remain visible; they never enter loadmatching. Firstattempt retained, no usableA/Bcomparison, no pooling/reusing its one native measurement. Newfixed24wholeprocessCPU/build/runqueuerules unchanged. No manual power/runtime management.\n"
+}

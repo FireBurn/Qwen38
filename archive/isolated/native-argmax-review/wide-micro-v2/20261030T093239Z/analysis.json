@@ -1,0 +1,123 @@
+{
+  "blocks": [
+    {
+      "block": 0,
+      "matched": true,
+      "log_time_effect": -0.9040829916841426,
+      "cpu": {
+        "native": 0.999738082765846,
+        "wide": 0.998720899859601
+      },
+      "builds": {
+        "native": 16.82758620689655,
+        "wide": 17
+      },
+      "runnable": {
+        "native": 28.140179910044978,
+        "wide": 29
+      }
+    },
+    {
+      "block": 1,
+      "matched": true,
+      "log_time_effect": -0.9406248057687172,
+      "cpu": {
+        "native": 0.999069372000196,
+        "wide": 1.0
+      },
+      "builds": {
+        "native": 16.8125,
+        "wide": 16.590909090909093
+      },
+      "runnable": {
+        "native": 28.78219696969697,
+        "wide": 27.836363636363636
+      }
+    },
+    {
+      "block": 2,
+      "matched": true,
+      "log_time_effect": -1.0308405802102145,
+      "cpu": {
+        "native": 0.998936384528754,
+        "wide": 1.0
+      },
+      "builds": {
+        "native": 16.678774928774928,
+        "wide": 16.55
+      },
+      "runnable": {
+        "native": 30.280626780626783,
+        "wide": 30.772222222222222
+      }
+    },
+    {
+      "block": 3,
+      "matched": true,
+      "log_time_effect": -0.8574773026194027,
+      "cpu": {
+        "native": 1.0,
+        "wide": 0.9989895649617873
+      },
+      "builds": {
+        "native": 17,
+        "wide": 17
+      },
+      "runnable": {
+        "native": 28.415,
+        "wide": 30.483333333333334
+      }
+    },
+    {
+      "block": 4,
+      "matched": true,
+      "log_time_effect": -1.0633516528203089,
+      "cpu": {
+        "native": 0.9997971602434077,
+        "wide": 1.0
+      },
+      "builds": {
+        "native": 17,
+        "wide": 17
+      },
+      "runnable": {
+        "native": 28.299568965517242,
+        "wide": 30.8
+      }
+    },
+    {
+      "block": 5,
+      "matched": true,
+      "log_time_effect": -0.8377527680981443,
+      "cpu": {
+        "native": 0.9997316156736447,
+        "wide": 0.9989799530687381
+      },
+      "builds": {
+        "native": 17,
+        "wide": 16.85909090909091
+      },
+      "runnable": {
+        "native": 27.891304347826086,
+        "wide": 28.53636363636364
+      }
+    }
+  ],
+  "all6": {
+    "blocks": 6,
+    "geometric_time_change_percent": -60.89898200013365,
+    "descriptive_t95_percent": [
+      -64.48529314054173,
+      -56.95052152123567
+    ]
+  },
+  "matched": {
+    "blocks": 6,
+    "geometric_time_change_percent": -60.89898200013365,
+    "descriptive_t95_percent": [
+      -64.48529314054173,
+      -56.95052152123567
+    ]
+  },
+  "scope": "Fixed24operatorwalltime only, wholeprocessloadmatching, no model/speedup/equalclock/adoption claim."
+}
