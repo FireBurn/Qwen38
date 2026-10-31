@@ -1,0 +1,1206 @@
+{
+  "contrasts": {
+    "cache_effect": {
+      "baseline": "private_off",
+      "candidate": "cache",
+      "blocks": [
+        {
+          "block": 0,
+          "indices": [
+            1,
+            4,
+            2,
+            3
+          ],
+          "comparable": true,
+          "log_effect": 0.016123756210556728,
+          "cpu": {
+            "private_off": 0.9995071993589733,
+            "cache": 0.9997544282262879
+          },
+          "build": {
+            "private_off": 16.90168168512885,
+            "cache": 16.809093045112782
+          },
+          "runnable": {
+            "private_off": 27.873586638351604,
+            "cache": 29.515507518796994
+          }
+        },
+        {
+          "block": 1,
+          "indices": [
+            6,
+            11,
+            7,
+            10
+          ],
+          "comparable": true,
+          "log_effect": 0.03581805737062371,
+          "cpu": {
+            "private_off": 0.9997461219045038,
+            "cache": 0.9998923011732138
+          },
+          "build": {
+            "private_off": 16.924238076106295,
+            "cache": 16.96124031007752
+          },
+          "runnable": {
+            "private_off": 28.30778281581817,
+            "cache": 28.61872062503815
+          }
+        },
+        {
+          "block": 2,
+          "indices": [
+            14,
+            15,
+            12,
+            17
+          ],
+          "comparable": true,
+          "log_effect": 0.00623175579521229,
+          "cpu": {
+            "private_off": 0.9998146423533951,
+            "cache": 0.9999297757953673
+          },
+          "build": {
+            "private_off": 16.96124031007752,
+            "cache": 16.8446445610687
+          },
+          "runnable": {
+            "private_off": 28.23840190816935,
+            "cache": 28.30954794847328
+          }
+        },
+        {
+          "block": 3,
+          "indices": [
+            19,
+            22,
+            20,
+            21
+          ],
+          "comparable": true,
+          "log_effect": 0.02033663806017838,
+          "cpu": {
+            "private_off": 0.9999159471098757,
+            "cache": 0.9995392861405151
+          },
+          "build": {
+            "private_off": 17.352941176470587,
+            "cache": 16.745684210526317
+          },
+          "runnable": {
+            "private_off": 35.64682904411765,
+            "cache": 36.26111278195489
+          }
+        },
+        {
+          "block": 4,
+          "indices": [
+            24,
+            29,
+            25,
+            28
+          ],
+          "comparable": true,
+          "log_effect": -0.011956194374081797,
+          "cpu": {
+            "private_off": 0.999812711381759,
+            "cache": 0.9996980197606848
+          },
+          "build": {
+            "private_off": 12.424242424242424,
+            "cache": 12.28169014084507
+          },
+          "runnable": {
+            "private_off": 50.752056277056276,
+            "cache": 48.15802390098165
+          }
+        },
+        {
+          "block": 5,
+          "indices": [
+            32,
+            33,
+            30,
+            35
+          ],
+          "comparable": false,
+          "log_effect": 0.0325767061098059,
+          "cpu": {
+            "private_off": 0.9987418500083057,
+            "cache": 0.9853283891685056
+          },
+          "build": {
+            "private_off": 5,
+            "cache": 7.118518518518519
+          },
+          "runnable": {
+            "private_off": 43.805961070559604,
+            "cache": 38.862557447958906
+          }
+        },
+        {
+          "block": 6,
+          "indices": [
+            37,
+            40,
+            38,
+            39
+          ],
+          "comparable": false,
+          "log_effect": 0.08897944948205527,
+          "cpu": {
+            "private_off": 0.6854020982406304,
+            "cache": 0.5666027193928151
+          },
+          "build": {
+            "private_off": 3.1050420168067228,
+            "cache": 1.2352941176470589
+          },
+          "runnable": {
+            "private_off": 14.034381060116354,
+            "cache": 9.367647058823529
+          }
+        },
+        {
+          "block": 7,
+          "indices": [
+            42,
+            47,
+            43,
+            46
+          ],
+          "comparable": true,
+          "log_effect": 0.0054666905894498186,
+          "cpu": {
+            "private_off": 0.9994066148542762,
+            "cache": 0.9992857640051146
+          },
+          "build": {
+            "private_off": 17.8429242513212,
+            "cache": 17.7692036645525
+          },
+          "runnable": {
+            "private_off": 28.774809160305345,
+            "cache": 29.500176180408737
+          }
+        },
+        {
+          "block": 8,
+          "indices": [
+            50,
+            51,
+            48,
+            53
+          ],
+          "comparable": true,
+          "log_effect": -0.004791455156555102,
+          "cpu": {
+            "private_off": 0.999723808930349,
+            "cache": 0.9996042223425662
+          },
+          "build": {
+            "private_off": 17.885202583675866,
+            "cache": 17.87593984962406
+          },
+          "runnable": {
+            "private_off": 28.310305343511452,
+            "cache": 28.133863504916135
+          }
+        },
+        {
+          "block": 9,
+          "indices": [
+            55,
+            58,
+            56,
+            57
+          ],
+          "comparable": true,
+          "log_effect": 0.008060145026276722,
+          "cpu": {
+            "private_off": 0.9996601402269383,
+            "cache": 0.9998320616542852
+          },
+          "build": {
+            "private_off": 17.960317460317462,
+            "cache": 17.91935483870968
+          },
+          "runnable": {
+            "private_off": 27.22811059907834,
+            "cache": 27.35293548387097
+          }
+        },
+        {
+          "block": 10,
+          "indices": [
+            60,
+            65,
+            61,
+            64
+          ],
+          "comparable": true,
+          "log_effect": 0.015434345124493376,
+          "cpu": {
+            "private_off": 0.9996776717647178,
+            "cache": 0.9998208967633145
+          },
+          "build": {
+            "private_off": 18.39327116935484,
+            "cache": 18.459349593495936
+          },
+          "runnable": {
+            "private_off": 34.85811491935484,
+            "cache": 35.33155487804878
+          }
+        },
+        {
+          "block": 11,
+          "indices": [
+            68,
+            69,
+            66,
+            71
+          ],
+          "comparable": true,
+          "log_effect": 0.03307514754076735,
+          "cpu": {
+            "private_off": 0.9998824174285394,
+            "cache": 0.9997674420007491
+          },
+          "build": {
+            "private_off": 19,
+            "cache": 19
+          },
+          "runnable": {
+            "private_off": 42.217984962406014,
+            "cache": 42.28755323267518
+          }
+        }
+      ],
+      "all12": {
+        "blocks": 12,
+        "geometric_speed_change_percent": 2.065671002430671,
+        "descriptive_t95_percent": [
+          0.38074382115271715,
+          3.7788802973704585
+        ],
+        "lower_bound_positive": true
+      },
+      "matched": {
+        "blocks": 10,
+        "geometric_speed_change_percent": 1.245683664794985,
+        "descriptive_t95_percent": [
+          0.15698657038346947,
+          2.346214794993381
+        ],
+        "lower_bound_positive": true
+      }
+    },
+    "cache_vs_stock": {
+      "baseline": "stock100",
+      "candidate": "cache",
+      "blocks": [
+        {
+          "block": 0,
+          "indices": [
+            0,
+            5,
+            2,
+            3
+          ],
+          "comparable": true,
+          "log_effect": 0.008165123355013737,
+          "cpu": {
+            "stock100": 0.9996695096629407,
+            "cache": 0.9997544282262879
+          },
+          "build": {
+            "stock100": 16.810027758501043,
+            "cache": 16.809093045112782
+          },
+          "runnable": {
+            "stock100": 28.988780939162616,
+            "cache": 29.515507518796994
+          }
+        },
+        {
+          "block": 1,
+          "indices": [
+            8,
+            9,
+            7,
+            10
+          ],
+          "comparable": true,
+          "log_effect": 0.02636820170673282,
+          "cpu": {
+            "stock100": 0.9997103642911231,
+            "cache": 0.9998923011732138
+          },
+          "build": {
+            "stock100": 16.92774115197779,
+            "cache": 16.96124031007752
+          },
+          "runnable": {
+            "stock100": 28.58289960675457,
+            "cache": 28.61872062503815
+          }
+        },
+        {
+          "block": 2,
+          "indices": [
+            13,
+            16,
+            12,
+            17
+          ],
+          "comparable": true,
+          "log_effect": 0.017927140222465443,
+          "cpu": {
+            "stock100": 0.9997792738513895,
+            "cache": 0.9999297757953673
+          },
+          "build": {
+            "stock100": 17,
+            "cache": 16.8446445610687
+          },
+          "runnable": {
+            "stock100": 28.63358778625954,
+            "cache": 28.30954794847328
+          }
+        },
+        {
+          "block": 3,
+          "indices": [
+            18,
+            23,
+            20,
+            21
+          ],
+          "comparable": true,
+          "log_effect": 0.04114081882798759,
+          "cpu": {
+            "stock100": 0.999740243533884,
+            "cache": 0.9995392861405151
+          },
+          "build": {
+            "stock100": 17.352111897390536,
+            "cache": 16.745684210526317
+          },
+          "runnable": {
+            "stock100": 35.35139318885449,
+            "cache": 36.26111278195489
+          }
+        },
+        {
+          "block": 4,
+          "indices": [
+            26,
+            27,
+            25,
+            28
+          ],
+          "comparable": false,
+          "log_effect": -0.014167701506583086,
+          "cpu": {
+            "stock100": 0.999753775042223,
+            "cache": 0.9996980197606848
+          },
+          "build": {
+            "stock100": 14.738500663423263,
+            "cache": 12.28169014084507
+          },
+          "runnable": {
+            "stock100": 52.56766917293233,
+            "cache": 48.15802390098165
+          }
+        },
+        {
+          "block": 5,
+          "indices": [
+            31,
+            34,
+            30,
+            35
+          ],
+          "comparable": false,
+          "log_effect": 0.040958627896427124,
+          "cpu": {
+            "stock100": 0.9958035201794408,
+            "cache": 0.9853283891685056
+          },
+          "build": {
+            "stock100": 4,
+            "cache": 7.118518518518519
+          },
+          "runnable": {
+            "stock100": 37.60643115942029,
+            "cache": 38.862557447958906
+          }
+        },
+        {
+          "block": 6,
+          "indices": [
+            36,
+            41,
+            38,
+            39
+          ],
+          "comparable": false,
+          "log_effect": 0.16719224197390758,
+          "cpu": {
+            "stock100": 0.7858737173264314,
+            "cache": 0.5666027193928151
+          },
+          "build": {
+            "stock100": 10.298507462686567,
+            "cache": 1.2352941176470589
+          },
+          "runnable": {
+            "stock100": 20.800157864523534,
+            "cache": 9.367647058823529
+          }
+        },
+        {
+          "block": 7,
+          "indices": [
+            44,
+            45,
+            43,
+            46
+          ],
+          "comparable": true,
+          "log_effect": -0.011567536057423222,
+          "cpu": {
+            "stock100": 0.9998429899742758,
+            "cache": 0.9992857640051146
+          },
+          "build": {
+            "stock100": 17.883720930232556,
+            "cache": 17.7692036645525
+          },
+          "runnable": {
+            "stock100": 27.5,
+            "cache": 29.500176180408737
+          }
+        },
+        {
+          "block": 8,
+          "indices": [
+            49,
+            52,
+            48,
+            53
+          ],
+          "comparable": true,
+          "log_effect": -0.022992296567459825,
+          "cpu": {
+            "stock100": 0.9999293579923041,
+            "cache": 0.9996042223425662
+          },
+          "build": {
+            "stock100": 17.921875,
+            "cache": 17.87593984962406
+          },
+          "runnable": {
+            "stock100": 28.63671875,
+            "cache": 28.133863504916135
+          }
+        },
+        {
+          "block": 9,
+          "indices": [
+            54,
+            59,
+            56,
+            57
+          ],
+          "comparable": true,
+          "log_effect": 0.03401292325982341,
+          "cpu": {
+            "stock100": 0.9998824859483022,
+            "cache": 0.9998320616542852
+          },
+          "build": {
+            "stock100": 17.880291167115246,
+            "cache": 17.91935483870968
+          },
+          "runnable": {
+            "stock100": 27.515598238316613,
+            "cache": 27.35293548387097
+          }
+        },
+        {
+          "block": 10,
+          "indices": [
+            62,
+            63,
+            61,
+            64
+          ],
+          "comparable": false,
+          "log_effect": 0.03248625934108995,
+          "cpu": {
+            "stock100": 0.9996558100627304,
+            "cache": 0.9998208967633145
+          },
+          "build": {
+            "stock100": 17.956490384615385,
+            "cache": 18.459349593495936
+          },
+          "runnable": {
+            "stock100": 29.234314903846155,
+            "cache": 35.33155487804878
+          }
+        },
+        {
+          "block": 11,
+          "indices": [
+            67,
+            70,
+            66,
+            71
+          ],
+          "comparable": true,
+          "log_effect": 0.009720713496526034,
+          "cpu": {
+            "stock100": 0.9997990266582941,
+            "cache": 0.9997674420007491
+          },
+          "build": {
+            "stock100": 18.92578125,
+            "cache": 19
+          },
+          "runnable": {
+            "stock100": 41.46875,
+            "cache": 42.28755323267518
+          }
+        }
+      ],
+      "all12": {
+        "blocks": 12,
+        "geometric_speed_change_percent": 2.7816904797004685,
+        "descriptive_t95_percent": [
+          -0.3766760157570365,
+          6.040186929878278
+        ],
+        "lower_bound_positive": false
+      },
+      "matched": {
+        "blocks": 8,
+        "geometric_speed_change_percent": 1.2929761789002865,
+        "descriptive_t95_percent": [
+          -0.5479908801908894,
+          3.168021581331675
+        ],
+        "lower_bound_positive": false
+      }
+    },
+    "private_control": {
+      "baseline": "stock100",
+      "candidate": "private_off",
+      "blocks": [
+        {
+          "block": 0,
+          "indices": [
+            0,
+            5,
+            1,
+            4
+          ],
+          "comparable": true,
+          "log_effect": -0.00795863285554299,
+          "cpu": {
+            "stock100": 0.9996695096629407,
+            "private_off": 0.9995071993589733
+          },
+          "build": {
+            "stock100": 16.810027758501043,
+            "private_off": 16.90168168512885
+          },
+          "runnable": {
+            "stock100": 28.988780939162616,
+            "private_off": 27.873586638351604
+          }
+        },
+        {
+          "block": 1,
+          "indices": [
+            8,
+            9,
+            6,
+            11
+          ],
+          "comparable": true,
+          "log_effect": -0.009449855663890894,
+          "cpu": {
+            "stock100": 0.9997103642911231,
+            "private_off": 0.9997461219045038
+          },
+          "build": {
+            "stock100": 16.92774115197779,
+            "private_off": 16.924238076106295
+          },
+          "runnable": {
+            "stock100": 28.58289960675457,
+            "private_off": 28.30778281581817
+          }
+        },
+        {
+          "block": 2,
+          "indices": [
+            13,
+            16,
+            14,
+            15
+          ],
+          "comparable": true,
+          "log_effect": 0.011695384427253153,
+          "cpu": {
+            "stock100": 0.9997792738513895,
+            "private_off": 0.9998146423533951
+          },
+          "build": {
+            "stock100": 17,
+            "private_off": 16.96124031007752
+          },
+          "runnable": {
+            "stock100": 28.63358778625954,
+            "private_off": 28.23840190816935
+          }
+        },
+        {
+          "block": 3,
+          "indices": [
+            18,
+            23,
+            19,
+            22
+          ],
+          "comparable": true,
+          "log_effect": 0.02080418076780921,
+          "cpu": {
+            "stock100": 0.999740243533884,
+            "private_off": 0.9999159471098757
+          },
+          "build": {
+            "stock100": 17.352111897390536,
+            "private_off": 17.352941176470587
+          },
+          "runnable": {
+            "stock100": 35.35139318885449,
+            "private_off": 35.64682904411765
+          }
+        },
+        {
+          "block": 4,
+          "indices": [
+            26,
+            27,
+            24,
+            29
+          ],
+          "comparable": false,
+          "log_effect": -0.002211507132501289,
+          "cpu": {
+            "stock100": 0.999753775042223,
+            "private_off": 0.999812711381759
+          },
+          "build": {
+            "stock100": 14.738500663423263,
+            "private_off": 12.424242424242424
+          },
+          "runnable": {
+            "stock100": 52.56766917293233,
+            "private_off": 50.752056277056276
+          }
+        },
+        {
+          "block": 5,
+          "indices": [
+            31,
+            34,
+            32,
+            33
+          ],
+          "comparable": false,
+          "log_effect": 0.008381921786621227,
+          "cpu": {
+            "stock100": 0.9958035201794408,
+            "private_off": 0.9987418500083057
+          },
+          "build": {
+            "stock100": 4,
+            "private_off": 5
+          },
+          "runnable": {
+            "stock100": 37.60643115942029,
+            "private_off": 43.805961070559604
+          }
+        },
+        {
+          "block": 6,
+          "indices": [
+            36,
+            41,
+            37,
+            40
+          ],
+          "comparable": false,
+          "log_effect": 0.07821279249185231,
+          "cpu": {
+            "stock100": 0.7858737173264314,
+            "private_off": 0.6854020982406304
+          },
+          "build": {
+            "stock100": 10.298507462686567,
+            "private_off": 3.1050420168067228
+          },
+          "runnable": {
+            "stock100": 20.800157864523534,
+            "private_off": 14.034381060116354
+          }
+        },
+        {
+          "block": 7,
+          "indices": [
+            44,
+            45,
+            42,
+            47
+          ],
+          "comparable": true,
+          "log_effect": -0.01703422664687304,
+          "cpu": {
+            "stock100": 0.9998429899742758,
+            "private_off": 0.9994066148542762
+          },
+          "build": {
+            "stock100": 17.883720930232556,
+            "private_off": 17.8429242513212
+          },
+          "runnable": {
+            "stock100": 27.5,
+            "private_off": 28.774809160305345
+          }
+        },
+        {
+          "block": 8,
+          "indices": [
+            49,
+            52,
+            50,
+            51
+          ],
+          "comparable": true,
+          "log_effect": -0.018200841410904722,
+          "cpu": {
+            "stock100": 0.9999293579923041,
+            "private_off": 0.999723808930349
+          },
+          "build": {
+            "stock100": 17.921875,
+            "private_off": 17.885202583675866
+          },
+          "runnable": {
+            "stock100": 28.63671875,
+            "private_off": 28.310305343511452
+          }
+        },
+        {
+          "block": 9,
+          "indices": [
+            54,
+            59,
+            55,
+            58
+          ],
+          "comparable": true,
+          "log_effect": 0.02595277823354669,
+          "cpu": {
+            "stock100": 0.9998824859483022,
+            "private_off": 0.9996601402269383
+          },
+          "build": {
+            "stock100": 17.880291167115246,
+            "private_off": 17.960317460317462
+          },
+          "runnable": {
+            "stock100": 27.515598238316613,
+            "private_off": 27.22811059907834
+          }
+        },
+        {
+          "block": 10,
+          "indices": [
+            62,
+            63,
+            60,
+            65
+          ],
+          "comparable": false,
+          "log_effect": 0.017051914216596575,
+          "cpu": {
+            "stock100": 0.9996558100627304,
+            "private_off": 0.9996776717647178
+          },
+          "build": {
+            "stock100": 17.956490384615385,
+            "private_off": 18.39327116935484
+          },
+          "runnable": {
+            "stock100": 29.234314903846155,
+            "private_off": 34.85811491935484
+          }
+        },
+        {
+          "block": 11,
+          "indices": [
+            67,
+            70,
+            68,
+            69
+          ],
+          "comparable": true,
+          "log_effect": -0.023354434044241312,
+          "cpu": {
+            "stock100": 0.9997990266582941,
+            "private_off": 0.9998824174285394
+          },
+          "build": {
+            "stock100": 18.92578125,
+            "private_off": 19
+          },
+          "runnable": {
+            "stock100": 41.46875,
+            "private_off": 42.217984962406014
+          }
+        }
+      ],
+      "all12": {
+        "blocks": 12,
+        "geometric_speed_change_percent": 0.7015282124121297,
+        "descriptive_t95_percent": [
+          -1.057262843783449,
+          2.491583271082894
+        ],
+        "lower_bound_positive": false
+      },
+      "matched": {
+        "blocks": 8,
+        "geometric_speed_change_percent": -0.21908025803595763,
+        "descriptive_t95_percent": [
+          -1.7906434159483489,
+          1.3776313261080402
+        ],
+        "lower_bound_positive": false
+      }
+    }
+  },
+  "primary": {
+    "baseline": "private_off",
+    "candidate": "cache",
+    "blocks": [
+      {
+        "block": 0,
+        "indices": [
+          1,
+          4,
+          2,
+          3
+        ],
+        "comparable": true,
+        "log_effect": 0.016123756210556728,
+        "cpu": {
+          "private_off": 0.9995071993589733,
+          "cache": 0.9997544282262879
+        },
+        "build": {
+          "private_off": 16.90168168512885,
+          "cache": 16.809093045112782
+        },
+        "runnable": {
+          "private_off": 27.873586638351604,
+          "cache": 29.515507518796994
+        }
+      },
+      {
+        "block": 1,
+        "indices": [
+          6,
+          11,
+          7,
+          10
+        ],
+        "comparable": true,
+        "log_effect": 0.03581805737062371,
+        "cpu": {
+          "private_off": 0.9997461219045038,
+          "cache": 0.9998923011732138
+        },
+        "build": {
+          "private_off": 16.924238076106295,
+          "cache": 16.96124031007752
+        },
+        "runnable": {
+          "private_off": 28.30778281581817,
+          "cache": 28.61872062503815
+        }
+      },
+      {
+        "block": 2,
+        "indices": [
+          14,
+          15,
+          12,
+          17
+        ],
+        "comparable": true,
+        "log_effect": 0.00623175579521229,
+        "cpu": {
+          "private_off": 0.9998146423533951,
+          "cache": 0.9999297757953673
+        },
+        "build": {
+          "private_off": 16.96124031007752,
+          "cache": 16.8446445610687
+        },
+        "runnable": {
+          "private_off": 28.23840190816935,
+          "cache": 28.30954794847328
+        }
+      },
+      {
+        "block": 3,
+        "indices": [
+          19,
+          22,
+          20,
+          21
+        ],
+        "comparable": true,
+        "log_effect": 0.02033663806017838,
+        "cpu": {
+          "private_off": 0.9999159471098757,
+          "cache": 0.9995392861405151
+        },
+        "build": {
+          "private_off": 17.352941176470587,
+          "cache": 16.745684210526317
+        },
+        "runnable": {
+          "private_off": 35.64682904411765,
+          "cache": 36.26111278195489
+        }
+      },
+      {
+        "block": 4,
+        "indices": [
+          24,
+          29,
+          25,
+          28
+        ],
+        "comparable": true,
+        "log_effect": -0.011956194374081797,
+        "cpu": {
+          "private_off": 0.999812711381759,
+          "cache": 0.9996980197606848
+        },
+        "build": {
+          "private_off": 12.424242424242424,
+          "cache": 12.28169014084507
+        },
+        "runnable": {
+          "private_off": 50.752056277056276,
+          "cache": 48.15802390098165
+        }
+      },
+      {
+        "block": 5,
+        "indices": [
+          32,
+          33,
+          30,
+          35
+        ],
+        "comparable": false,
+        "log_effect": 0.0325767061098059,
+        "cpu": {
+          "private_off": 0.9987418500083057,
+          "cache": 0.9853283891685056
+        },
+        "build": {
+          "private_off": 5,
+          "cache": 7.118518518518519
+        },
+        "runnable": {
+          "private_off": 43.805961070559604,
+          "cache": 38.862557447958906
+        }
+      },
+      {
+        "block": 6,
+        "indices": [
+          37,
+          40,
+          38,
+          39
+        ],
+        "comparable": false,
+        "log_effect": 0.08897944948205527,
+        "cpu": {
+          "private_off": 0.6854020982406304,
+          "cache": 0.5666027193928151
+        },
+        "build": {
+          "private_off": 3.1050420168067228,
+          "cache": 1.2352941176470589
+        },
+        "runnable": {
+          "private_off": 14.034381060116354,
+          "cache": 9.367647058823529
+        }
+      },
+      {
+        "block": 7,
+        "indices": [
+          42,
+          47,
+          43,
+          46
+        ],
+        "comparable": true,
+        "log_effect": 0.0054666905894498186,
+        "cpu": {
+          "private_off": 0.9994066148542762,
+          "cache": 0.9992857640051146
+        },
+        "build": {
+          "private_off": 17.8429242513212,
+          "cache": 17.7692036645525
+        },
+        "runnable": {
+          "private_off": 28.774809160305345,
+          "cache": 29.500176180408737
+        }
+      },
+      {
+        "block": 8,
+        "indices": [
+          50,
+          51,
+          48,
+          53
+        ],
+        "comparable": true,
+        "log_effect": -0.004791455156555102,
+        "cpu": {
+          "private_off": 0.999723808930349,
+          "cache": 0.9996042223425662
+        },
+        "build": {
+          "private_off": 17.885202583675866,
+          "cache": 17.87593984962406
+        },
+        "runnable": {
+          "private_off": 28.310305343511452,
+          "cache": 28.133863504916135
+        }
+      },
+      {
+        "block": 9,
+        "indices": [
+          55,
+          58,
+          56,
+          57
+        ],
+        "comparable": true,
+        "log_effect": 0.008060145026276722,
+        "cpu": {
+          "private_off": 0.9996601402269383,
+          "cache": 0.9998320616542852
+        },
+        "build": {
+          "private_off": 17.960317460317462,
+          "cache": 17.91935483870968
+        },
+        "runnable": {
+          "private_off": 27.22811059907834,
+          "cache": 27.35293548387097
+        }
+      },
+      {
+        "block": 10,
+        "indices": [
+          60,
+          65,
+          61,
+          64
+        ],
+        "comparable": true,
+        "log_effect": 0.015434345124493376,
+        "cpu": {
+          "private_off": 0.9996776717647178,
+          "cache": 0.9998208967633145
+        },
+        "build": {
+          "private_off": 18.39327116935484,
+          "cache": 18.459349593495936
+        },
+        "runnable": {
+          "private_off": 34.85811491935484,
+          "cache": 35.33155487804878
+        }
+      },
+      {
+        "block": 11,
+        "indices": [
+          68,
+          69,
+          66,
+          71
+        ],
+        "comparable": true,
+        "log_effect": 0.03307514754076735,
+        "cpu": {
+          "private_off": 0.9998824174285394,
+          "cache": 0.9997674420007491
+        },
+        "build": {
+          "private_off": 19,
+          "cache": 19
+        },
+        "runnable": {
+          "private_off": 42.217984962406014,
+          "cache": 42.28755323267518
+        }
+      }
+    ],
+    "all12": {
+      "blocks": 12,
+      "geometric_speed_change_percent": 2.065671002430671,
+      "descriptive_t95_percent": [
+        0.38074382115271715,
+        3.7788802973704585
+      ],
+      "lower_bound_positive": true
+    },
+    "matched": {
+      "blocks": 10,
+      "geometric_speed_change_percent": 1.245683664794985,
+      "descriptive_t95_percent": [
+        0.15698657038346947,
+        2.346214794993381
+      ],
+      "lower_bound_positive": true
+    }
+  },
+  "confirmation_eligible": true,
+  "scope": "Native default cache discovery only; no independent confirmation, no equal-clock claim."
+}
