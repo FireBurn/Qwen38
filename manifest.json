@@ -28023,9 +28023,9 @@
     {
       "source": "isolated/native-pad-wide/STATUS.md",
       "path": "archive/isolated/native-pad-wide/STATUS.md",
-      "source_sha256": "38a8eb5209048c241a69e2b2254926995b5221ff4a92f2c33fa89404467840d0",
-      "export_sha256": "38a8eb5209048c241a69e2b2254926995b5221ff4a92f2c33fa89404467840d0",
-      "bytes": 1659,
+      "source_sha256": "f95064834b6f60d965dd4bbf92353cbc5025b103d2f6a0dfa485926b1a929ebe",
+      "export_sha256": "f95064834b6f60d965dd4bbf92353cbc5025b103d2f6a0dfa485926b1a929ebe",
+      "bytes": 2382,
       "sanitized": false
     },
     {
@@ -28611,7 +28611,1671 @@
       "export_sha256": "c7682fdafbc446d8a5e876ab8bed074b8434304f6673c0c03dc4f11189a5ad89",
       "bytes": 8387,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/analyse_model_outcomes.py",
+      "path": "archive/isolated/native-pad-wide/analyse_model_outcomes.py",
+      "source_sha256": "f07556c39538828b08a8d929ebbe29fe452aaf93bcabcc54ba2ad8655d82c67c",
+      "export_sha256": "f07556c39538828b08a8d929ebbe29fe452aaf93bcabcc54ba2ad8655d82c67c",
+      "bytes": 2878,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-discovery-outcomes.log",
+      "path": "archive/isolated/native-pad-wide/model-discovery-outcomes.log",
+      "source_sha256": "dfe86d8636e5fcac284a1fb98d2cceeb1061bb130a6d72f8e8f60725adaf8ea3",
+      "export_sha256": "dfe86d8636e5fcac284a1fb98d2cceeb1061bb130a6d72f8e8f60725adaf8ea3",
+      "bytes": 17082,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/00-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/00-stock100-telemetry.json",
+      "source_sha256": "43bcc47089e17aed572a154550718cc03fb04fa072058340e6c7962c03565678",
+      "export_sha256": "43bcc47089e17aed572a154550718cc03fb04fa072058340e6c7962c03565678",
+      "bytes": 68575,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/00-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/00-stock100.log",
+      "source_sha256": "3a485c1d06517859e3064d6f3c715a49eaea2096338f1a2371c52647ca9e0f77",
+      "export_sha256": "df6eb36e437a328ade4309729f00ea8d4845cf410127e085b7da798b2f2dd599",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/01-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/01-private_off-telemetry.json",
+      "source_sha256": "fbaa8063dfaf04f0ccbbf4230d75b05f01d5d77eb3cb3e6cb0fe483a63900fa7",
+      "export_sha256": "fbaa8063dfaf04f0ccbbf4230d75b05f01d5d77eb3cb3e6cb0fe483a63900fa7",
+      "bytes": 68567,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/01-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/01-private_off.log",
+      "source_sha256": "62ad0ce12c565753d340e4b846061a265fc6a088cbfc600cf915bc1c8c139939",
+      "export_sha256": "f683f448b8a70b828d349072936545555abaabbad6d1562ea5954b7a5f08df08",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/02-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/02-pad-telemetry.json",
+      "source_sha256": "152ef82253493003899a34763c55bcf9d4346bec491066b7a6390a832418c0fa",
+      "export_sha256": "152ef82253493003899a34763c55bcf9d4346bec491066b7a6390a832418c0fa",
+      "bytes": 68413,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/02-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/02-pad.log",
+      "source_sha256": "2b4f5fdf9a7cf802d96d486637bf4a4077e3a6a47ec7a4fe3f9f5e1806fc084f",
+      "export_sha256": "131812b52b65d0c216c9fab8a4283577225d3f6dd857f5310adba5037c201f1c",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/03-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/03-wide-telemetry.json",
+      "source_sha256": "de0ea453c88f85b68b24f3885328802ad46a62952be0d3f16298e32c7da0727e",
+      "export_sha256": "de0ea453c88f85b68b24f3885328802ad46a62952be0d3f16298e32c7da0727e",
+      "bytes": 66690,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/03-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/03-wide.log",
+      "source_sha256": "20c7abb83fafe07a436aae89073fbcdb146bbf6a2343656f1e362219ba0eb1c6",
+      "export_sha256": "712ce3dd4af7929d9dd1b2134bf178b4239f8d88da12cc45ba4d3ae76d3d38db",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/04-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/04-both-telemetry.json",
+      "source_sha256": "8130e71be99068483b6df7e41ea2f2cd139584084cc77bf1cb47731b9543f217",
+      "export_sha256": "8130e71be99068483b6df7e41ea2f2cd139584084cc77bf1cb47731b9543f217",
+      "bytes": 65609,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/04-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/04-both.log",
+      "source_sha256": "f66168d55773ffb06d0bd6a14d40f4fd2fe71acd79e320e1acc675858d52dd9f",
+      "export_sha256": "9435c2de53b34da7c99991ec318847b015fafb3452b1a3864bf36302b6a35c1c",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/05-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/05-both-telemetry.json",
+      "source_sha256": "18aa3afd0cc06b25ecbaf3ab268b8d2876e75931725635d3a63f8b30ccbd6471",
+      "export_sha256": "18aa3afd0cc06b25ecbaf3ab268b8d2876e75931725635d3a63f8b30ccbd6471",
+      "bytes": 66748,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/05-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/05-both.log",
+      "source_sha256": "c4055ab747c040d422f1c4b581a4125b7157a5ca8d31266046474220479b15e1",
+      "export_sha256": "86def719cceb8d82f0898506a30f47fb28e789616221c62cfbf4d0547b6f9a1e",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/06-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/06-wide-telemetry.json",
+      "source_sha256": "5b0a613d70d082c9e7737413da8f411ebc5958e7c2a5b324e63739982d7758e3",
+      "export_sha256": "5b0a613d70d082c9e7737413da8f411ebc5958e7c2a5b324e63739982d7758e3",
+      "bytes": 84448,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/06-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/06-wide.log",
+      "source_sha256": "2e66da7c6f583a6dbfdbff92f5a849d6e80d79d6feae82f0ffed9bba25dfcd16",
+      "export_sha256": "eccb7f884a7e5b120e8756864745f528bf34386ca1817312f00a1618e90628e3",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/07-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/07-pad-telemetry.json",
+      "source_sha256": "0ecaa1bf0b76d2700a3d5517e48980e7b81581407bd3f57bbfa69f78f95721d7",
+      "export_sha256": "0ecaa1bf0b76d2700a3d5517e48980e7b81581407bd3f57bbfa69f78f95721d7",
+      "bytes": 85829,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/07-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/07-pad.log",
+      "source_sha256": "3f9478e272fe55ed12ffb69e27f8152a6a5eb6c99c799703f1fa8726ab7eaf96",
+      "export_sha256": "843d9ad1c6964982d56d266650fd318bd28b2fcd44b77fb403f6642dbf9a9271",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/08-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/08-private_off-telemetry.json",
+      "source_sha256": "5560109523050fbec5772caa052347ead659fcbbbbfa0314f4f75bbc7bb351c6",
+      "export_sha256": "5560109523050fbec5772caa052347ead659fcbbbbfa0314f4f75bbc7bb351c6",
+      "bytes": 83425,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/08-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/08-private_off.log",
+      "source_sha256": "6291e80f44b270fd4a2c973bb3bf882005c6e818abad23937b15a5db73f410ed",
+      "export_sha256": "58907f4a5adcf6ffadaf3f3543a619eddecc1efc961d9402a887fc5dc5dad32b",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/09-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/09-stock100-telemetry.json",
+      "source_sha256": "41ed6e9ad5da0eaa381279818a253304d3d280323d05c1de0a966f92a1c8a208",
+      "export_sha256": "41ed6e9ad5da0eaa381279818a253304d3d280323d05c1de0a966f92a1c8a208",
+      "bytes": 82103,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/09-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/09-stock100.log",
+      "source_sha256": "173c3b245a20ca218f7a755402f248b08b9c8f030acd5c65a569f2baa73d490a",
+      "export_sha256": "e5fd8cf303340f71861db20de531a3dc9d5feb28fc3bc32091e25ddcee1e8947",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/10-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/10-private_off-telemetry.json",
+      "source_sha256": "1bf77c8e235d637d677b969fc33baebd340014c509c6b19021ef8a5894718395",
+      "export_sha256": "1bf77c8e235d637d677b969fc33baebd340014c509c6b19021ef8a5894718395",
+      "bytes": 81567,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/10-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/10-private_off.log",
+      "source_sha256": "596b2eb8994445c483cbd3ffbf895eb4e50b41505c0ca94599036a07e5827787",
+      "export_sha256": "127994e6d2c491f618fd13b65b7c38971d7802ff70b714d8035922f6b8d80a4d",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/11-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/11-pad-telemetry.json",
+      "source_sha256": "e909474fd30bfeac103e869543875107931ed01a411ee57510af9f3bc2203b15",
+      "export_sha256": "e909474fd30bfeac103e869543875107931ed01a411ee57510af9f3bc2203b15",
+      "bytes": 83319,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/11-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/11-pad.log",
+      "source_sha256": "bd34d53929cb8d2e3fba58994b103099eb2cf796a44b46aa16228cab3a10d073",
+      "export_sha256": "ec5b96d1ce2709ccec6e942614ee35bc6a86f257b9c61fdbc1e58c9cf5fa0791",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/12-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/12-wide-telemetry.json",
+      "source_sha256": "a6435208f703549fc87f9d74776fb124e366812ed3bfeb5f10738c3d45b36db3",
+      "export_sha256": "a6435208f703549fc87f9d74776fb124e366812ed3bfeb5f10738c3d45b36db3",
+      "bytes": 81197,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/12-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/12-wide.log",
+      "source_sha256": "83e4d36b964824c1188d1b7bd96146d0135e56b7e2b7bc114f9ba175df468724",
+      "export_sha256": "c1f20b001dd5a088d41ae35785b0019fb093add7a2d5d61882e71d3a81ea2268",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/13-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/13-both-telemetry.json",
+      "source_sha256": "a3b0863342e3da8c3926b7f4c7418a916cfeb97db4f0c1b03bd98b63758a2139",
+      "export_sha256": "a3b0863342e3da8c3926b7f4c7418a916cfeb97db4f0c1b03bd98b63758a2139",
+      "bytes": 84629,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/13-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/13-both.log",
+      "source_sha256": "f0a45b654953e8a1a61ecbcc31c24dec32bf63136c3c70e9ed44c7147c6c1b5b",
+      "export_sha256": "51c06525c36336a0dee037cc4828587f617b4da226b6234e20b7cb7c18dbdf3a",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/14-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/14-stock100-telemetry.json",
+      "source_sha256": "c061b6d6a169ada0bdbbc77633d60c73ea53f9fb98acdc5ead23c719f5765222",
+      "export_sha256": "c061b6d6a169ada0bdbbc77633d60c73ea53f9fb98acdc5ead23c719f5765222",
+      "bytes": 82532,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/14-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/14-stock100.log",
+      "source_sha256": "3f5ab9a04e2f7b0b3dbff7c54120b1e92de7621fce1ff4ab779cfba566bb8486",
+      "export_sha256": "f14ab34fbd6f85711c8074f396a4136512cba6d567df664453b7a1890748b099",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/15-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/15-stock100-telemetry.json",
+      "source_sha256": "280f3e639e4d6337a0ec6533e976f3b1fd80db473aa0b70449711cc67705cd56",
+      "export_sha256": "280f3e639e4d6337a0ec6533e976f3b1fd80db473aa0b70449711cc67705cd56",
+      "bytes": 83756,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/15-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/15-stock100.log",
+      "source_sha256": "989273d7a159178468032fb4a53045d72cf4b3660a9bc89d1d23ffcdac100f45",
+      "export_sha256": "77ae9c862cba037a949013bf35cb80750517cfc422115778cca02bf844546ef8",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/16-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/16-both-telemetry.json",
+      "source_sha256": "e0601013a9fa10076c513487df0d619a02de3e282d7ba16e3c57e834d4b5ecdf",
+      "export_sha256": "e0601013a9fa10076c513487df0d619a02de3e282d7ba16e3c57e834d4b5ecdf",
+      "bytes": 82457,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/16-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/16-both.log",
+      "source_sha256": "d6527ff1fd925ffaa49eeec56f332764336f2a32953953b19f84933d5c44667e",
+      "export_sha256": "81c66b784dad01a5d51a431905c817f8b8f11cc585ff6ec5734681d9876000e7",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/17-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/17-wide-telemetry.json",
+      "source_sha256": "03451dd941899b95af44ae76eeace36d517f657cda9ce13f0861eac20618224f",
+      "export_sha256": "03451dd941899b95af44ae76eeace36d517f657cda9ce13f0861eac20618224f",
+      "bytes": 83244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/17-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/17-wide.log",
+      "source_sha256": "051a1605483954099e9dbb0d9e9e98a0b9a5d6c7353fc3652b5f10560df0b85e",
+      "export_sha256": "1fe6e4670714ad1d6d5dfa314a20adc40f413574b3c5a88b00d87121d62bc340",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/18-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/18-pad-telemetry.json",
+      "source_sha256": "d760a2e17d7fdbf42a93d543947ceed8e739f34f74f164f8349641d6570f03ac",
+      "export_sha256": "d760a2e17d7fdbf42a93d543947ceed8e739f34f74f164f8349641d6570f03ac",
+      "bytes": 90518,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/18-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/18-pad.log",
+      "source_sha256": "95f88bee5c6a9a7a670138bdd251bff814b233324b6cd81af5e7a2bde25475f8",
+      "export_sha256": "1fd0829300dce0aa39adcf24871520ca2cb840ba0888e5e02c12c849ba91da31",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/19-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/19-private_off-telemetry.json",
+      "source_sha256": "af1d63bd3e336ee154d40e1cf8320dc475756fd95616dadb48ac41b51eec4b6c",
+      "export_sha256": "af1d63bd3e336ee154d40e1cf8320dc475756fd95616dadb48ac41b51eec4b6c",
+      "bytes": 95218,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/19-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/19-private_off.log",
+      "source_sha256": "dab757466840fa9c41502e20c241b00aaac22afcda42837f37da62fac8f976e4",
+      "export_sha256": "cc91c5de6efe319bde4e57b1aae8ef311671793a82cfa5fc4b7e5283e498106c",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/20-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/20-pad-telemetry.json",
+      "source_sha256": "0e37929e1d0abce74cbe72d3c2ee25b83b3b2f87648f934a1d88451bc3cb5591",
+      "export_sha256": "0e37929e1d0abce74cbe72d3c2ee25b83b3b2f87648f934a1d88451bc3cb5591",
+      "bytes": 90095,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/20-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/20-pad.log",
+      "source_sha256": "6c3a00b445f072527f9521a61b5e1bc5a764ab862d575b932c135012b922f75c",
+      "export_sha256": "536ed5d878bffcb73b4f5cd4de4eb153e2464d2d4b2bc185bb5aaa3b2ec05606",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/21-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/21-wide-telemetry.json",
+      "source_sha256": "0fbcfbd2ff042fe6de9a83fcb6a49ad03c11673ada688753bb1ce870e5e5d3dc",
+      "export_sha256": "0fbcfbd2ff042fe6de9a83fcb6a49ad03c11673ada688753bb1ce870e5e5d3dc",
+      "bytes": 96919,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/21-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/21-wide.log",
+      "source_sha256": "a8c57350cb186bf822ec298a7c203b27e17d1c8002dcb811659f1f1bcb948c86",
+      "export_sha256": "b99103ee1ed5b85ed1ba5cdb7213a9c818e4485f831bfd9b19ddfecca5791e64",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/22-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/22-both-telemetry.json",
+      "source_sha256": "03159d0d60c36661ad6e2734ffe39e1cef5b0bd6057d24238d0c00f117f71987",
+      "export_sha256": "03159d0d60c36661ad6e2734ffe39e1cef5b0bd6057d24238d0c00f117f71987",
+      "bytes": 90232,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/22-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/22-both.log",
+      "source_sha256": "b37e7bbeb0a93dfb09b9b1100cb4b446fba7905d9ea54b1a6fa09fafd7ccd862",
+      "export_sha256": "2673abf0f60347c5d0e42f12a265d701cff89e4e5661f9bc73cf6dee0853f3da",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/23-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/23-stock100-telemetry.json",
+      "source_sha256": "ce0ae4f4eae4868cad5a8cfcee6626f258562f662a174c2bf11e1f776fb71e2b",
+      "export_sha256": "ce0ae4f4eae4868cad5a8cfcee6626f258562f662a174c2bf11e1f776fb71e2b",
+      "bytes": 89453,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/23-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/23-stock100.log",
+      "source_sha256": "b79cf770230cc8a86ef583775c7c99513d17694f1cc8549f77fd4accef51dd5d",
+      "export_sha256": "4b67e39ac83e814ab1327b4b92d9321551da9194607e13c57631b8ac900a259d",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/24-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/24-private_off-telemetry.json",
+      "source_sha256": "7453da12e69259e282f1d51fffe1664b8bb2dfb63931382c0674a167e32ec76b",
+      "export_sha256": "7453da12e69259e282f1d51fffe1664b8bb2dfb63931382c0674a167e32ec76b",
+      "bytes": 93319,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/24-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/24-private_off.log",
+      "source_sha256": "d415c9ac243246687c93a2e07bc06fc0b0ca920876018965f44abfecb64b92f3",
+      "export_sha256": "5709b10585cabea4b52d64be354782d8cf1dbe8958e440a3efb90516eaa758ef",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/25-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/25-private_off-telemetry.json",
+      "source_sha256": "cd04aa276cf9ae9e468053336f021e5adcd3d283a18e40cc3bd8090776889500",
+      "export_sha256": "cd04aa276cf9ae9e468053336f021e5adcd3d283a18e40cc3bd8090776889500",
+      "bytes": 94335,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/25-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/25-private_off.log",
+      "source_sha256": "cbcc5fa9d5eb9040493d5a818150aac2e757e749fd123aa1f9d1a07ed24336cc",
+      "export_sha256": "e619e5b35e80a9535ec41bef4bfd79c922908623c8bf2c6c04750382b9533c89",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/26-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/26-stock100-telemetry.json",
+      "source_sha256": "dc05b41b6d2c77a6a4cb1976aad8d49d105963a6dfc4bb5b126588875c17752e",
+      "export_sha256": "dc05b41b6d2c77a6a4cb1976aad8d49d105963a6dfc4bb5b126588875c17752e",
+      "bytes": 70247,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/26-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/26-stock100.log",
+      "source_sha256": "1dc7283106ce40218979f79d3c0d177db53c2f5e14655f33b5b3475d5fb3b173",
+      "export_sha256": "5891f7907fc5bbd0b241f37f91217ac8b5afc332551f63cf79b86d8e86ba25d7",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/27-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/27-both-telemetry.json",
+      "source_sha256": "01f66bc25062f0f4b0026752378bad602d4bbc73310f518427e0cbbeb4a08a14",
+      "export_sha256": "01f66bc25062f0f4b0026752378bad602d4bbc73310f518427e0cbbeb4a08a14",
+      "bytes": 66719,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/27-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/27-both.log",
+      "source_sha256": "049c6678787e518f04c7b40a6594afde59c2f21d9f4dfe021f1060e35bbb9855",
+      "export_sha256": "69a13c83098e65423809d08cc824636905543156197f9ebfdd32e9f238f05822",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/28-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/28-wide-telemetry.json",
+      "source_sha256": "c5e8b20463bb4aa4ad55f29477b7b1e43cf8b58d97c5188bdd1ac2a9464f3566",
+      "export_sha256": "c5e8b20463bb4aa4ad55f29477b7b1e43cf8b58d97c5188bdd1ac2a9464f3566",
+      "bytes": 66580,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/28-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/28-wide.log",
+      "source_sha256": "538b0f798116f511e7c02d44fddc5d7c029e25b4e11a8eda565fdd46cca4fbc6",
+      "export_sha256": "9ccfa523cae86d66ab8ed2ce8e121a079e5bfcd4ba4c4d44a7d7059b0fbb6ca0",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/29-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/29-pad-telemetry.json",
+      "source_sha256": "d85cd4ec45f730d25353f407d2e29d528a0ce2cbb6714650fbb89575fb07963f",
+      "export_sha256": "d85cd4ec45f730d25353f407d2e29d528a0ce2cbb6714650fbb89575fb07963f",
+      "bytes": 67363,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/29-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/29-pad.log",
+      "source_sha256": "987af9c130554bc3cdaac33ed848628f72e26a7c81d83451716cfc70555f66fb",
+      "export_sha256": "ff8564189622914d97837d58f02c6a7e0d2b09d0da9e6c39a5e346543ce9cc88",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/30-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/30-wide-telemetry.json",
+      "source_sha256": "e07b7ec15c01cc61fa52e55bd853bdead7401d0f39d1fa19f2931b4b4af20e06",
+      "export_sha256": "e07b7ec15c01cc61fa52e55bd853bdead7401d0f39d1fa19f2931b4b4af20e06",
+      "bytes": 66694,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/30-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/30-wide.log",
+      "source_sha256": "360663e11f7eb4f08c6209941b687f5aecf73f2797c3656d4ce8790f1c6b19ec",
+      "export_sha256": "661665985ddb63c9fa0ae3d2f2a2ee8a9505207190f377115b2535f88ed939c1",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/31-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/31-both-telemetry.json",
+      "source_sha256": "e060149d410bb1a2ee004bfa385698f53ce728add721aa7a4820ee59009d6f38",
+      "export_sha256": "e060149d410bb1a2ee004bfa385698f53ce728add721aa7a4820ee59009d6f38",
+      "bytes": 76872,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/31-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/31-both.log",
+      "source_sha256": "c930c5ab4ea99bc3c4a6fbf6519d486a79a5c61b5f06f5d8d652f0190b7935d1",
+      "export_sha256": "255aee508282949e9b1b9f8f024b12df5288f58d29256388f2b3a262b2acf64d",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/32-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/32-stock100-telemetry.json",
+      "source_sha256": "8c11c5262bb37fd96a536a1687d1be2f8e3ffc03b1f5ff9fbd580f3a907c18a4",
+      "export_sha256": "8c11c5262bb37fd96a536a1687d1be2f8e3ffc03b1f5ff9fbd580f3a907c18a4",
+      "bytes": 88206,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/32-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/32-stock100.log",
+      "source_sha256": "2f506f45d993b470bd3473aa452a030e8ffcbc0c8c8c1d1d3b37e09bf93161c4",
+      "export_sha256": "9d332e5ab72af7b0f6a52c7eb3b1478ed83af6976739a5c92471a51c3a7be306",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/33-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/33-private_off-telemetry.json",
+      "source_sha256": "8414b97fc87651351a4270463461a1fa8ee28575d4651af98fbeea97a430f2c9",
+      "export_sha256": "8414b97fc87651351a4270463461a1fa8ee28575d4651af98fbeea97a430f2c9",
+      "bytes": 82713,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/33-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/33-private_off.log",
+      "source_sha256": "965414756a4be1845c30cf1a24a53c293d034046557a2dce25f22b89c842a7ba",
+      "export_sha256": "4f59ef0ceba95daaa9ed4100024ec21b384f8ce2c4186e4877ddb133299ec77d",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/34-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/34-pad-telemetry.json",
+      "source_sha256": "f00ca80ea1382893c5b507b07c8f6bf17698f85b24dde63569320bbc0910b0aa",
+      "export_sha256": "f00ca80ea1382893c5b507b07c8f6bf17698f85b24dde63569320bbc0910b0aa",
+      "bytes": 83803,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/34-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/34-pad.log",
+      "source_sha256": "a0394df393fb05f8e5e0fb12dbe1d125602631af5aacf559fb5ac1e32dd4a137",
+      "export_sha256": "5892ae0a9e5b791544f5ce1ada6028e3e504cc4b8ce54cb6312281a93b73ac1a",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/35-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/35-pad-telemetry.json",
+      "source_sha256": "2f0894529e697524a176f6c54ef7c2a887bf75b6b467ddf5d53796da38847d33",
+      "export_sha256": "2f0894529e697524a176f6c54ef7c2a887bf75b6b467ddf5d53796da38847d33",
+      "bytes": 78370,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/35-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/35-pad.log",
+      "source_sha256": "c6952fc36a25925143dda1cfd7b0b2259e7cd685c999f3651959469370956ed3",
+      "export_sha256": "89c8396bd1acb6f67df3b1b1179a8c10a70cd20cd6f8e60f7fecc34914c02a2f",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/36-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/36-private_off-telemetry.json",
+      "source_sha256": "6577e41acef3a0dda9121f1fcd0ec4267c4ce56f9ba5c333a6db0c6a11a7735c",
+      "export_sha256": "6577e41acef3a0dda9121f1fcd0ec4267c4ce56f9ba5c333a6db0c6a11a7735c",
+      "bytes": 87281,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/36-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/36-private_off.log",
+      "source_sha256": "dbfbb61feb55dd5bad9a172ccfa9e2e2b392a417901024c4652c9ad64b54ddcf",
+      "export_sha256": "a49f4ee339a147282a6f14f7d065d1d4a1145133b0a4d05796b219e636715979",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/37-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/37-stock100-telemetry.json",
+      "source_sha256": "a6c910f0c7de2575079d71ac9867143a708658fa853c23a421809cad472e9c6e",
+      "export_sha256": "a6c910f0c7de2575079d71ac9867143a708658fa853c23a421809cad472e9c6e",
+      "bytes": 84278,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/37-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/37-stock100.log",
+      "source_sha256": "9fdbdc60c6ed6480cf29417cdcc7e8e8c2820ec7dc30ae46cb8defd93adda651",
+      "export_sha256": "90ef7c62ef682f83218526047f57f64a46c7b673f65d56cb8ac7470d680f7f27",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/38-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/38-both-telemetry.json",
+      "source_sha256": "fa104afa0b117163a9e8dde65ed3816886946e35a76b2754d3ccbc2b0865c008",
+      "export_sha256": "fa104afa0b117163a9e8dde65ed3816886946e35a76b2754d3ccbc2b0865c008",
+      "bytes": 82333,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/38-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/38-both.log",
+      "source_sha256": "7840673a3285db68e269263463603bef688f794e5ce996e98d9a906466bf9f5d",
+      "export_sha256": "aa6e8b3f40da7bca705f31b56bfa9eae460a464da5b2312b252da89abacc9071",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/39-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/39-wide-telemetry.json",
+      "source_sha256": "918471f9e6bd7e3415a15f5411573640b79f4bfd468a61e897d6ad6ac60e8ae6",
+      "export_sha256": "918471f9e6bd7e3415a15f5411573640b79f4bfd468a61e897d6ad6ac60e8ae6",
+      "bytes": 84068,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/39-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/39-wide.log",
+      "source_sha256": "739166b8f5b6ef914ed69f2fe105fc5160fb2e703f5bb122fdcca56013c01a2c",
+      "export_sha256": "ac1e767d75433d0426de7955003916c553d62a6b65c5403cc2c1ba69d2c410c1",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/40-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/40-both-telemetry.json",
+      "source_sha256": "51c9c4563275746fec684fa5c115eaefb8f132a6daa523102111a8f3f028884c",
+      "export_sha256": "51c9c4563275746fec684fa5c115eaefb8f132a6daa523102111a8f3f028884c",
+      "bytes": 81977,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/40-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/40-both.log",
+      "source_sha256": "994ca59847499c49a3ddfd526aea6f794a458b2ea1725039e27b2528f5879bf4",
+      "export_sha256": "b17022df29e33bd8240ccde02c978a41cd7de4fbaeb9316848e525bf00a70061",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/41-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/41-stock100-telemetry.json",
+      "source_sha256": "e0bba8d6fb9ca976c3739db0686efe64cd0151ead1672b3b6b59c918d61cc31f",
+      "export_sha256": "e0bba8d6fb9ca976c3739db0686efe64cd0151ead1672b3b6b59c918d61cc31f",
+      "bytes": 83514,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/41-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/41-stock100.log",
+      "source_sha256": "94e8bf8fb061acf4406791755e8508f86bd1ad300d1099fe471b3a89a571153c",
+      "export_sha256": "c73cbf67f00c928e9c7400a9850ab90206402d2dba3bc2400beb64b584938b5d",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/42-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/42-private_off-telemetry.json",
+      "source_sha256": "ae135fce3d0854cdf8014529d55c2001db25019e1f22f12c2c04983762c30a27",
+      "export_sha256": "ae135fce3d0854cdf8014529d55c2001db25019e1f22f12c2c04983762c30a27",
+      "bytes": 82371,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/42-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/42-private_off.log",
+      "source_sha256": "5632d19a303737a5af69c7fcc7c8680af091db60eae8f2e42b3554c906c4b7d5",
+      "export_sha256": "413f41cfbc6056c13c596cfa808c7d46b39e9f4967a05973ba07e58e6d350511",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/43-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/43-pad-telemetry.json",
+      "source_sha256": "8d7588b84af439b3b505d86cfb5ed23c8282a9bb032bce5f9cc786b6aa61781c",
+      "export_sha256": "8d7588b84af439b3b505d86cfb5ed23c8282a9bb032bce5f9cc786b6aa61781c",
+      "bytes": 84775,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/43-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/43-pad.log",
+      "source_sha256": "904041570c29597e3e5737e920b80011892b9c793ab7e203f6f815eaec746331",
+      "export_sha256": "b3f848a4104a62c59b86033b97b54617411273ea1b4d0b5b96e2dbbe98b9fef1",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/44-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/44-wide-telemetry.json",
+      "source_sha256": "818a88dca11e7665ea0ba004a1d116c08544b0acf064fe9c945cb1e445a0c1d4",
+      "export_sha256": "818a88dca11e7665ea0ba004a1d116c08544b0acf064fe9c945cb1e445a0c1d4",
+      "bytes": 84822,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/44-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/44-wide.log",
+      "source_sha256": "4de671f4d6b331c6cda7dae0d940f1f4dc741a103c87fa1023b39a0a73ad2cbd",
+      "export_sha256": "80515742b908d82586458550f6374a3d620c7c738d94a4fe75beaf56f19052db",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/45-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/45-wide-telemetry.json",
+      "source_sha256": "ff52b024d0112c444686d60ff8c4ab6143d7af0180181a7bc86d03c784869f56",
+      "export_sha256": "ff52b024d0112c444686d60ff8c4ab6143d7af0180181a7bc86d03c784869f56",
+      "bytes": 91085,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/45-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/45-wide.log",
+      "source_sha256": "50ef509969c3a72096aab79129d87e4c9c803d4f882a142e60e8a0efd9e2adbb",
+      "export_sha256": "644c7b7953bd7573f0e0430bd3017b522e590fc12342c42463953b067a0adaac",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/46-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/46-pad-telemetry.json",
+      "source_sha256": "0f306af5220a2832307a143f269ab3415013dff38b98fd4e6a2929d67f3dfdf3",
+      "export_sha256": "0f306af5220a2832307a143f269ab3415013dff38b98fd4e6a2929d67f3dfdf3",
+      "bytes": 99251,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/46-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/46-pad.log",
+      "source_sha256": "6dfc59d88da047a1395dad5c2b8ab911508338f2a3c2724fd9bd82c0fdba4042",
+      "export_sha256": "56a67e5d95d2b511051d462a6e43757da8174c31c6537fbb8f544cf512d512b3",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/47-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/47-private_off-telemetry.json",
+      "source_sha256": "65820f966d27b6e65db85d253a86f07c171d4caa6a2d55ac2ea7998210f7c8a6",
+      "export_sha256": "65820f966d27b6e65db85d253a86f07c171d4caa6a2d55ac2ea7998210f7c8a6",
+      "bytes": 87162,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/47-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/47-private_off.log",
+      "source_sha256": "524e1be40fccd4ef92551b1cefa43e51a8657d2052ad770d58ab85a4a45b5a64",
+      "export_sha256": "2564ceed7a6817298a6c6d43381e3f5981ac631eb5f5608ff9bb5f61f686d29a",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/48-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/48-stock100-telemetry.json",
+      "source_sha256": "2c4f67ffed33701739cd7cd57b8ea3af5e1ff554f56d7b9e007a318ab57aca62",
+      "export_sha256": "2c4f67ffed33701739cd7cd57b8ea3af5e1ff554f56d7b9e007a318ab57aca62",
+      "bytes": 97256,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/48-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/48-stock100.log",
+      "source_sha256": "4640ace293f91ccbfa3aea59518bc1d4e008bb747d89a7ec9b42ae7acd1791ce",
+      "export_sha256": "6c485182a97133da095020371ce59a6939867ee0fd205453760d8c2b9e457c00",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/49-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/49-both-telemetry.json",
+      "source_sha256": "c9258577d9b20fcc40b98202bdccf50478f02ecee3519ec45d6c13317d3dffbb",
+      "export_sha256": "c9258577d9b20fcc40b98202bdccf50478f02ecee3519ec45d6c13317d3dffbb",
+      "bytes": 85097,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/49-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/49-both.log",
+      "source_sha256": "6427632b08182eddc0eb18f13d5a3ff9a02e8725c9a3d463f033ac32742eab39",
+      "export_sha256": "eb8e4d8435f87ace4fd9cb303b8ee83e0080209fded71ce9253698d963fb32d1",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/50-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/50-both-telemetry.json",
+      "source_sha256": "672eb1a5bb48036fa6d22b9529b2155447feb1f8057482da8345ec12c2a003ee",
+      "export_sha256": "672eb1a5bb48036fa6d22b9529b2155447feb1f8057482da8345ec12c2a003ee",
+      "bytes": 89681,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/50-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/50-both.log",
+      "source_sha256": "c7f23e42bc56839788105e4eb09c4aa5be19d2782b201e53fabb090156e2f9e8",
+      "export_sha256": "a8ba73ea9d20097382efd89f3b56d7fbd5900015d4bc60095565b4cb9921deee",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/51-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/51-wide-telemetry.json",
+      "source_sha256": "bdbcd443a066fc8c3d890c78242e0bc0e922def5303f4844ee804698442c6583",
+      "export_sha256": "bdbcd443a066fc8c3d890c78242e0bc0e922def5303f4844ee804698442c6583",
+      "bytes": 84565,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/51-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/51-wide.log",
+      "source_sha256": "b043cdad26e5cd71f76a58241620eafcf7bc2643eb9a839bec0e5414fe3a4e75",
+      "export_sha256": "bc2b35832dd28d3e455533416d778174aa53500e5916a3a9c4c6e46cc865a4a4",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/52-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/52-pad-telemetry.json",
+      "source_sha256": "ea3b78ba240dcdf42a6715edc0449861d140b162d2ca6e75977777e5fdbaa065",
+      "export_sha256": "ea3b78ba240dcdf42a6715edc0449861d140b162d2ca6e75977777e5fdbaa065",
+      "bytes": 68439,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/52-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/52-pad.log",
+      "source_sha256": "6f8d7d41847a58e4eadf073a3fe884fca59dea9ac55b11884fbba8935775bd49",
+      "export_sha256": "9421b4195864fd6098a23b182090312f7607137cdbfd3c4ff970a7d2b566658b",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/53-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/53-private_off-telemetry.json",
+      "source_sha256": "0a039f5addfd0796a110437e8fd4bad1cd531dd73b304408162691602437f045",
+      "export_sha256": "0a039f5addfd0796a110437e8fd4bad1cd531dd73b304408162691602437f045",
+      "bytes": 73098,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/53-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/53-private_off.log",
+      "source_sha256": "9dd83e239e07bc0b40c3799b9fa183e603e628196bfbe66f75a10327a29b9083",
+      "export_sha256": "7091145be834c6d69d05cbf0e0b1ae98d7a7b4cc1b57c4c9880eedc37f33cd4f",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/54-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/54-stock100-telemetry.json",
+      "source_sha256": "6df737890fce5b9a5e088e78d3eb516af1c67d9dc71fc0a1aa6aba20b9cc9d6d",
+      "export_sha256": "6df737890fce5b9a5e088e78d3eb516af1c67d9dc71fc0a1aa6aba20b9cc9d6d",
+      "bytes": 68428,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/54-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/54-stock100.log",
+      "source_sha256": "4ac6f36527577bd671b62718c4c95ed2b3e0eabad1ebb876fc0b38ceab9c6b3b",
+      "export_sha256": "fa89905f40abd3ab549e31639c8d425ef84fcaeeb086b9d80d797a53b8fe4c86",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/55-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/55-stock100-telemetry.json",
+      "source_sha256": "e2687e727d5e367e20321714597a9161a3ebb0b50f1cacbbb1ce7d2115ebe878",
+      "export_sha256": "e2687e727d5e367e20321714597a9161a3ebb0b50f1cacbbb1ce7d2115ebe878",
+      "bytes": 68458,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/55-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/55-stock100.log",
+      "source_sha256": "d5d5af575f1dfce55c8aedd087ebd2ca0aea57029d6de1ba8d371c4c7e84836b",
+      "export_sha256": "109e5a69fb5a014db51955e456c04864a99f692ed2d2a22b4d28d89e8a02ec38",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/56-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/56-private_off-telemetry.json",
+      "source_sha256": "1f4af02897f200926f8dff96d368eb72a5f0534663a9dadb6726fd9a59c16e1d",
+      "export_sha256": "1f4af02897f200926f8dff96d368eb72a5f0534663a9dadb6726fd9a59c16e1d",
+      "bytes": 68448,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/56-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/56-private_off.log",
+      "source_sha256": "f32e7e15d486b2a64c8f59bdeda8ec2dcef47c517dac4ea5ef3d821d049e6e2e",
+      "export_sha256": "db73107c1ef8a20abeae6811f73b69dded3f150734e8832256a82a0523abf063",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/57-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/57-pad-telemetry.json",
+      "source_sha256": "998f066366c070ad425eb4c01437241868638a5edad0f86f632fa80c321cd740",
+      "export_sha256": "998f066366c070ad425eb4c01437241868638a5edad0f86f632fa80c321cd740",
+      "bytes": 67489,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/57-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/57-pad.log",
+      "source_sha256": "5e151cb643c8a04634ff9f470a8ea870112ff218d92f34c47238c4f6d93aaf01",
+      "export_sha256": "15036238bd66da45c3ad482154a1d9fe2260f3f7147d3c07bb9c02a99e79bda9",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/58-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/58-wide-telemetry.json",
+      "source_sha256": "aae3b7fbda444ac7dd1cebbfd3efce87b1d4a4bb5beee1df200c6077870f4793",
+      "export_sha256": "aae3b7fbda444ac7dd1cebbfd3efce87b1d4a4bb5beee1df200c6077870f4793",
+      "bytes": 67709,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/58-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/58-wide.log",
+      "source_sha256": "646bc7993a4c3e98922d67105483278fb0aaee857ef67ace695b6874e76019fb",
+      "export_sha256": "3693097c2846fabb1b60612359231b4caf07372239cd5a53d492d46916a97eb6",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/59-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/59-both-telemetry.json",
+      "source_sha256": "b381286e39e48ec26a8ea153fa5bad30bf01bb7915078607d536e472ea6a6145",
+      "export_sha256": "b381286e39e48ec26a8ea153fa5bad30bf01bb7915078607d536e472ea6a6145",
+      "bytes": 71385,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/59-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/59-both.log",
+      "source_sha256": "211cdac0fe14fe3b61994ba30d01a7a478240647c15bb34fda2be263b5d8e40b",
+      "export_sha256": "8672c5435de42d5229a276e657dd162685db084d3a7cb22a07855013f048b3a1",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/60-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/60-stock100-telemetry.json",
+      "source_sha256": "40ee67d1110cae5236b347e5dce7fec4beb0f79a539f337d05d72227131c27c1",
+      "export_sha256": "40ee67d1110cae5236b347e5dce7fec4beb0f79a539f337d05d72227131c27c1",
+      "bytes": 71074,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/60-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/60-stock100.log",
+      "source_sha256": "32af9d82caa4155b31e9feb7094abe01f7718ace2d64bb9f0ec59e9b7872608c",
+      "export_sha256": "5d067f123897aad5a06c141baf8ded99d592944767b327ec673c50af28e65933",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/61-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/61-both-telemetry.json",
+      "source_sha256": "c3d185e70053c68b36cfbe6fed5dc00c664b2b13aea47ed203bacdfd91d24c56",
+      "export_sha256": "c3d185e70053c68b36cfbe6fed5dc00c664b2b13aea47ed203bacdfd91d24c56",
+      "bytes": 67417,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/61-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/61-both.log",
+      "source_sha256": "e8755ab90cf73f90f7d004c859eda307ec71dd7c85b44916e28f76ffd7032553",
+      "export_sha256": "d969ca7f3bc810ed61de984d04ee55f47de6a787a008692360722f93921064fa",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/62-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/62-wide-telemetry.json",
+      "source_sha256": "d4238762fecc46443398f3a199837d77ebb1674a27d2aacd0903c30d0e7e18f1",
+      "export_sha256": "d4238762fecc46443398f3a199837d77ebb1674a27d2aacd0903c30d0e7e18f1",
+      "bytes": 69078,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/62-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/62-wide.log",
+      "source_sha256": "6f56ab5ea1da7a6e924aeab3981b2eeab2b6cf603b2e81704c8e53d66de5e38b",
+      "export_sha256": "dd521f018ce48dfdfdcec0035ae992961e3099d0d6628c93ed9e694fbc80b056",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/63-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/63-pad-telemetry.json",
+      "source_sha256": "e7cd8c186250018420811ff8eeee8c604777f6bb0387dd0bdb940d6bd1b5cd62",
+      "export_sha256": "e7cd8c186250018420811ff8eeee8c604777f6bb0387dd0bdb940d6bd1b5cd62",
+      "bytes": 70003,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/63-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/63-pad.log",
+      "source_sha256": "c61eedc6a1ef466fe02e726bcb9c0ecdb99a30f7118428f67121d251f0afabff",
+      "export_sha256": "602e0738eb6e3c42199f38ead63cbfa30f66bcfc375526b874e2c24398731bea",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/64-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/64-private_off-telemetry.json",
+      "source_sha256": "397203dffe1cf90d814bd3b4e011a4f1011ca39173094190a221e61ea65ca6f2",
+      "export_sha256": "397203dffe1cf90d814bd3b4e011a4f1011ca39173094190a221e61ea65ca6f2",
+      "bytes": 71218,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/64-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/64-private_off.log",
+      "source_sha256": "cb144e759e8d0f67720b6026410860af8d36de6149187de7689d0c76c521aa59",
+      "export_sha256": "65d1c50fd6e026d734588d0bf30e6e861867dd1e060cb64c4907990843b7ea30",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/65-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/65-private_off-telemetry.json",
+      "source_sha256": "da91eb6c888b738daa7c01bff2b6d8c5352a9147a8a19b21c9958b1d43df48eb",
+      "export_sha256": "da91eb6c888b738daa7c01bff2b6d8c5352a9147a8a19b21c9958b1d43df48eb",
+      "bytes": 74126,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/65-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/65-private_off.log",
+      "source_sha256": "d894c879c4465766716f70e4f89b397f045ba3b2cf4283129b85930d3e144216",
+      "export_sha256": "ecdc2934cb6f190707cef9882d3ab9612c6548a5d7c9e4a9fe636d9b7cc3b221",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/66-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/66-pad-telemetry.json",
+      "source_sha256": "3e674ac3b19720ddbb3c3beb3eeeb3508255e33fc7f7f21ab8fa4f534a60a9c3",
+      "export_sha256": "3e674ac3b19720ddbb3c3beb3eeeb3508255e33fc7f7f21ab8fa4f534a60a9c3",
+      "bytes": 84447,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/66-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/66-pad.log",
+      "source_sha256": "5a02879d28c10dc4386c35f09750d71475c4a6914f3d05dca11785c2b7316431",
+      "export_sha256": "61980e61972afc275340fea06efecd0c9b12736bc73715c752570fd02179a460",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/67-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/67-wide-telemetry.json",
+      "source_sha256": "96784d1d8fd95456858a789c0481f55a67144880bb7a38a5ba44defbbf3af960",
+      "export_sha256": "96784d1d8fd95456858a789c0481f55a67144880bb7a38a5ba44defbbf3af960",
+      "bytes": 83048,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/67-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/67-wide.log",
+      "source_sha256": "3e4df1fd8def94e76cba548939297637e709f9527eb9c6e8a42beb6aff95ef91",
+      "export_sha256": "3c6c7e208e853c98d212b3bc9c0edbcfb2620acf0d3a520bf5dd1091aa7ec67f",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/68-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/68-both-telemetry.json",
+      "source_sha256": "4edfe56c27296c840d99c65ec30d5b1c18570512e6ba1fe8707f05576cb0a1ca",
+      "export_sha256": "4edfe56c27296c840d99c65ec30d5b1c18570512e6ba1fe8707f05576cb0a1ca",
+      "bytes": 82474,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/68-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/68-both.log",
+      "source_sha256": "eaed5301bb19e8c9ae6cdb7d648e6656454985b7ed7a52fa420a2cd4882168b9",
+      "export_sha256": "c98ece9461d5b758aadc3f6e730572d130bc5f630092a9860b8f671dc8f30913",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/69-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/69-stock100-telemetry.json",
+      "source_sha256": "a60a95889022c20844ef91313baa41649641322476d55f137cf70efd5b8c50ba",
+      "export_sha256": "a60a95889022c20844ef91313baa41649641322476d55f137cf70efd5b8c50ba",
+      "bytes": 84943,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/69-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/69-stock100.log",
+      "source_sha256": "e364fa4f302b5e2ba8ee8b39d056a4f81ca1f531045e27ffabad9368cc27728e",
+      "export_sha256": "70cdd820c4b210767c31ab10bf9825f18d65f27baade6aad4d089e7d12645f70",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/70-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/70-private_off-telemetry.json",
+      "source_sha256": "3370060ce5bf5d683e290343a8bd2a1b681ece12270543c7495ab530d957c599",
+      "export_sha256": "3370060ce5bf5d683e290343a8bd2a1b681ece12270543c7495ab530d957c599",
+      "bytes": 86195,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/70-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/70-private_off.log",
+      "source_sha256": "e4224089c2d66634ad11e1efeeb07c6dcfb147a68531813abf875071e0337b74",
+      "export_sha256": "097cafdaad33b5f15fd54126d9ec4057235d17055f3663333f7f8f4cf9bb1c90",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/71-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/71-stock100-telemetry.json",
+      "source_sha256": "73c9d11aa2d19bcb8711c71a7cfd51df82ab70df5f370ad9373e9a60c47a2ac7",
+      "export_sha256": "73c9d11aa2d19bcb8711c71a7cfd51df82ab70df5f370ad9373e9a60c47a2ac7",
+      "bytes": 84383,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/71-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/71-stock100.log",
+      "source_sha256": "7b5ffa1c32cc2b4c1c390187f29fe616ab5791442cf9d6f7e132e0adf7c12ab0",
+      "export_sha256": "2c749c0e5a373c8d821f14620335cd554a660788a25f0b3c10fb4a8702f4f847",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/72-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/72-both-telemetry.json",
+      "source_sha256": "ed961db91711e53513919198b7ca915a24650ae46c69067c07d3c43e128cf6e0",
+      "export_sha256": "ed961db91711e53513919198b7ca915a24650ae46c69067c07d3c43e128cf6e0",
+      "bytes": 87750,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/72-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/72-both.log",
+      "source_sha256": "bfe0fa9892bc35c376c3d1158ee1d3fc7c56ac2130447e9e37c2aae3d6c9b386",
+      "export_sha256": "220c9222980111021761358a3e1a4929c7ca39659062ecb97241e46936c9fd83",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/73-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/73-wide-telemetry.json",
+      "source_sha256": "9ffbcd03da925fbc9bdf547eb03f1d4602abe68ad6b278e9f1e1f40e792b6f1a",
+      "export_sha256": "9ffbcd03da925fbc9bdf547eb03f1d4602abe68ad6b278e9f1e1f40e792b6f1a",
+      "bytes": 88841,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/73-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/73-wide.log",
+      "source_sha256": "1060f68c393473ac4618764b1d5b1b75f8bfbf04c07e2fbca1bfbec2ad81ded0",
+      "export_sha256": "8b451cb819610ec6a9f6ac023869e13949ed06c9f7d3282737b0d5a6297dbb3d",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/74-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/74-pad-telemetry.json",
+      "source_sha256": "6f273d4918c23dd5d2a178df2125d8165d177d7756a443f50e831850a15106e9",
+      "export_sha256": "6f273d4918c23dd5d2a178df2125d8165d177d7756a443f50e831850a15106e9",
+      "bytes": 85721,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/74-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/74-pad.log",
+      "source_sha256": "c0f7f1bfc19c050330dff5841a979744e65a1d61a0ec3af0eaf48b288ff7d514",
+      "export_sha256": "4306bff1177f2c6e28c5b4bb5385c1a59cef35a90cb2705de634dce232900e7e",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/75-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/75-pad-telemetry.json",
+      "source_sha256": "3e059ee106a09638f66b5ed7bd099a20963fb6d3b0f933c3454a1e582747dd95",
+      "export_sha256": "3e059ee106a09638f66b5ed7bd099a20963fb6d3b0f933c3454a1e582747dd95",
+      "bytes": 88262,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/75-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/75-pad.log",
+      "source_sha256": "8963aafb039bea172704889258e61dd6989080f419b70d6322bed51bd89be0bf",
+      "export_sha256": "c697591acb1de868bd8830b4612b6c6c6027b3f3d8ad852f36f88ff18a9b2685",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/76-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/76-wide-telemetry.json",
+      "source_sha256": "f73619f249597518b6d3354249d7fc3adf8965000c745e9f92a305e51bce54ba",
+      "export_sha256": "f73619f249597518b6d3354249d7fc3adf8965000c745e9f92a305e51bce54ba",
+      "bytes": 85128,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/76-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/76-wide.log",
+      "source_sha256": "72dc75bafadaf9462c0435cc6e5f48345468aa7db1e70510e9aa5dfca61ea939",
+      "export_sha256": "502c769284c6569b8b9b59b4c8aa9e7298824223f9ca29f42dda537b21a16727",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/77-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/77-both-telemetry.json",
+      "source_sha256": "8d8e28fa0179c4173504ee4db89cf7eb9a289286f1eb8615308d15c84d865dde",
+      "export_sha256": "8d8e28fa0179c4173504ee4db89cf7eb9a289286f1eb8615308d15c84d865dde",
+      "bytes": 85535,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/77-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/77-both.log",
+      "source_sha256": "fe72dd1dea34b8294bfd7604f8cc0af2154ff26daf73b7e77203a57407f79358",
+      "export_sha256": "f93b8f2a7782811de53001724ea83d2e0636623f4afdbaf08f8bca442d47b992",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/78-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/78-stock100-telemetry.json",
+      "source_sha256": "46975b9ed17818f199f76ae9c60a4f00ef385d117e1249cce06442d7ea7dbf12",
+      "export_sha256": "46975b9ed17818f199f76ae9c60a4f00ef385d117e1249cce06442d7ea7dbf12",
+      "bytes": 87288,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/78-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/78-stock100.log",
+      "source_sha256": "4c1f9b941fe82a0be7ac26f0b81ab9663ef89c7164257b632023ee7ad5b763d9",
+      "export_sha256": "5c24754e5e7994c636e0141b526fb3e8b6df4690835226b5b253914d93e1f3bc",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/79-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/79-private_off-telemetry.json",
+      "source_sha256": "2f95f18d323188a96d0a51a666f3f5264b516fc1b6de7a71ff9a52f34857b7a6",
+      "export_sha256": "2f95f18d323188a96d0a51a666f3f5264b516fc1b6de7a71ff9a52f34857b7a6",
+      "bytes": 85260,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/79-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/79-private_off.log",
+      "source_sha256": "271d0be811c94e3598c3d55e6fa70a7b308ad6b073d54e486aa3e3bf7976a764",
+      "export_sha256": "78886e066cf7f176f5c0e4d02c87bb4a0432adb83ee19c37288010f55dd7bab9",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/80-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/80-pad-telemetry.json",
+      "source_sha256": "f1574c2cec3f6a1aa9d7ab561d26011925c6e2f9b15db4d40fb5590f7a30c017",
+      "export_sha256": "f1574c2cec3f6a1aa9d7ab561d26011925c6e2f9b15db4d40fb5590f7a30c017",
+      "bytes": 82505,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/80-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/80-pad.log",
+      "source_sha256": "8df4edc99286414b568209a308c2943dbe27a3d6693e85677275f365a3d23ba6",
+      "export_sha256": "cc2863793cd6dc6a16936e520769930deb6ee02673413ba5068f0b72814983e2",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/81-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/81-private_off-telemetry.json",
+      "source_sha256": "823c6ebc78d1879bfb57c1205d602ab4ba3f98518acb65b7b91176a5dee96d2b",
+      "export_sha256": "823c6ebc78d1879bfb57c1205d602ab4ba3f98518acb65b7b91176a5dee96d2b",
+      "bytes": 89430,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/81-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/81-private_off.log",
+      "source_sha256": "0befebf2cb9105feb85f1f3673200c994da9698a65e50fa3b317912763d18c37",
+      "export_sha256": "2cfe6d0159dc19f1e221c22f89a80625befdc5a5f057451e1d5c4c075ff7b963",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/82-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/82-stock100-telemetry.json",
+      "source_sha256": "44ae9330ad2168d494094588191eb8f4a043e04856f6f9740e3984d8f47c6db1",
+      "export_sha256": "44ae9330ad2168d494094588191eb8f4a043e04856f6f9740e3984d8f47c6db1",
+      "bytes": 85697,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/82-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/82-stock100.log",
+      "source_sha256": "efcef0c5b3ae4e983a2fecb1e7549aea75330b6952925afc164b28ce9deda271",
+      "export_sha256": "96ef0d579ec94bdc96338fcc222d104dc064fe9c0f3aeeaf15951e30df030c24",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/83-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/83-both-telemetry.json",
+      "source_sha256": "30a16abe215c63451d9f6e9525db4ad04deb53dcba2fc6024ddf8e5f48ef5c78",
+      "export_sha256": "30a16abe215c63451d9f6e9525db4ad04deb53dcba2fc6024ddf8e5f48ef5c78",
+      "bytes": 85695,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/83-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/83-both.log",
+      "source_sha256": "e29fba2958df085a913b1d6dc3c4227307b8315a2904437e9a8dea983f38d144",
+      "export_sha256": "645b4d87f92dd69e983f7f1531b5744c074c1e26db34c4a37880e81f2f5d8157",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/84-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/84-wide-telemetry.json",
+      "source_sha256": "a894dc8b5ee5bcf2b035dd9515e438d2a7e63754a0a8340647e5113fef1c5d83",
+      "export_sha256": "a894dc8b5ee5bcf2b035dd9515e438d2a7e63754a0a8340647e5113fef1c5d83",
+      "bytes": 83645,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/84-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/84-wide.log",
+      "source_sha256": "8d670c614b6a41be6c25b366cc9c0b3712251f468b51da65840be7f2e75fa863",
+      "export_sha256": "5f300d591716aeaa56c26db0f3d4dd2b138e18c1e4ed7b9cfb20a3b8163f6ee0",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/85-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/85-wide-telemetry.json",
+      "source_sha256": "7da5aff064dfa699e2ce5c26433f32e8b7f4f3fedb5605d5552db7f7762a6c0c",
+      "export_sha256": "7da5aff064dfa699e2ce5c26433f32e8b7f4f3fedb5605d5552db7f7762a6c0c",
+      "bytes": 83432,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/85-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/85-wide.log",
+      "source_sha256": "c1f8766fbf1f1e2e45624e7247b004403860a0dbef88bba5678ecc9df146d102",
+      "export_sha256": "3309ed9e6e57505c1630cfbbfe67cb89287f72434ac6d4d8d8f189124a4ff1f1",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/86-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/86-both-telemetry.json",
+      "source_sha256": "1edc2e97689a7bc0b64cc481275c2d8a7356adc4b08c68914a2b9d7c4ca96ea2",
+      "export_sha256": "1edc2e97689a7bc0b64cc481275c2d8a7356adc4b08c68914a2b9d7c4ca96ea2",
+      "bytes": 79057,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/86-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/86-both.log",
+      "source_sha256": "70e7c766574e1881b75014dd48e967e93e6dc1e7fdf46292204e89e1a321ded2",
+      "export_sha256": "2e8dea02d41dd597cab08fb66d3c611d1b93fd329ea793d2fbd0137725b7a6e6",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/87-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/87-stock100-telemetry.json",
+      "source_sha256": "345e195e167c4f3335e3bd8c441de9d2d4b0192e57e65348e67f906496c74abd",
+      "export_sha256": "345e195e167c4f3335e3bd8c441de9d2d4b0192e57e65348e67f906496c74abd",
+      "bytes": 81910,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/87-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/87-stock100.log",
+      "source_sha256": "b263fa487e743960776eebce738b0f39257d926f63003dd1cc80035acedde6ba",
+      "export_sha256": "3d410d9a0062632f5e9b3b544108886489a4249de16f9802626480b429ee3948",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/88-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/88-private_off-telemetry.json",
+      "source_sha256": "7a12fb612646146c4d26336850fe01629c13bbd27c87273fd6bee36eb0bbac84",
+      "export_sha256": "7a12fb612646146c4d26336850fe01629c13bbd27c87273fd6bee36eb0bbac84",
+      "bytes": 82774,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/88-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/88-private_off.log",
+      "source_sha256": "c796cae87b4f86537e33afedd2a77008bfed880edbeff7e28f524945aad0a600",
+      "export_sha256": "f93204da48fb8d479897d31348b6305653a5f79f051983b9778e1b1d8642324c",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/89-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/89-pad-telemetry.json",
+      "source_sha256": "fa66ade81f1603d7463f65c6c93abd4f1a370812be2b6a751a1baa099524f8fa",
+      "export_sha256": "fa66ade81f1603d7463f65c6c93abd4f1a370812be2b6a751a1baa099524f8fa",
+      "bytes": 82255,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/89-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/89-pad.log",
+      "source_sha256": "7bf13b024aba4ef63b907bba2de914f2bbe8da9f0d72127f73f8e10cd52ea6e7",
+      "export_sha256": "eef536db9e0c7c42738edc477233b5fecda24e397646bd94ccac024ef15c9ec8",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/90-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/90-wide-telemetry.json",
+      "source_sha256": "84584aae6949947621503c0f53a73192f800f544582d10a9f4f799bf443de4a9",
+      "export_sha256": "84584aae6949947621503c0f53a73192f800f544582d10a9f4f799bf443de4a9",
+      "bytes": 85689,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/90-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/90-wide.log",
+      "source_sha256": "8a926e20c95089f64239b7407c3a8dede2e14c7848eec7ffd7112f47df639785",
+      "export_sha256": "3ebdddcc264a7b008aef22f11e7527f67395ed5649b592edebf6c058b0869104",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/91-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/91-pad-telemetry.json",
+      "source_sha256": "92014f46bd1319c65e4984899d7f3b47da2fff47d5fe8d23935ef853be79d6d2",
+      "export_sha256": "92014f46bd1319c65e4984899d7f3b47da2fff47d5fe8d23935ef853be79d6d2",
+      "bytes": 82220,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/91-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/91-pad.log",
+      "source_sha256": "86652387e0c536aaacdd3f374e9e1770f6fb4f4b93c60b6839039815d81667d8",
+      "export_sha256": "3f829318cf44b1baa9d8baa8f22b2b784f80b70c8e70c11b22ee91796fa75de2",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/92-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/92-private_off-telemetry.json",
+      "source_sha256": "1e75b3f6e5cf7d482769ace5e2f962f5494795c3c5b3a3b3bd40e16ddac0d2a6",
+      "export_sha256": "1e75b3f6e5cf7d482769ace5e2f962f5494795c3c5b3a3b3bd40e16ddac0d2a6",
+      "bytes": 81877,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/92-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/92-private_off.log",
+      "source_sha256": "b1864c4f216331ec886ae81b64421c19e63fa628aab7c5d6e89043207f76b0b9",
+      "export_sha256": "732040a6a4581970a3f8b125fa3b62e94c7ce33eed9283fee0452f0a358412e5",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/93-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/93-stock100-telemetry.json",
+      "source_sha256": "5d22003ba35e72b5c6b3b3df7a496e07f25b12fde43c3a0c95c65a7bdb265f3d",
+      "export_sha256": "5d22003ba35e72b5c6b3b3df7a496e07f25b12fde43c3a0c95c65a7bdb265f3d",
+      "bytes": 83151,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/93-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/93-stock100.log",
+      "source_sha256": "853767eb11e9cab8a3d8a84bb90de088857918e570ff00020c9cafb58f0d67c9",
+      "export_sha256": "c24f43ae2e7ef1679134893b8d800e7bd3114667c4e32ff61e3b77a1969f4d9c",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/94-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/94-both-telemetry.json",
+      "source_sha256": "fa3b1dbf11d374d4d18ac35d0f8a0d9694a0832954225f3bc1322e3e289e7ada",
+      "export_sha256": "fa3b1dbf11d374d4d18ac35d0f8a0d9694a0832954225f3bc1322e3e289e7ada",
+      "bytes": 80391,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/94-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/94-both.log",
+      "source_sha256": "8c062eb9e9aa9ead4587a84a3e92ea7d93331bf281b751f0916e36594e76a8dc",
+      "export_sha256": "34655ef2f4eddb398fbead8a0c8efed4e52d21078e6f6052b41790e1e4e5b087",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/95-both-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/95-both-telemetry.json",
+      "source_sha256": "6e840a1b01d5eeb34c651da8ff7c94d1a4b3799f38c8ca244ce10daeb1cd17d9",
+      "export_sha256": "6e840a1b01d5eeb34c651da8ff7c94d1a4b3799f38c8ca244ce10daeb1cd17d9",
+      "bytes": 81869,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/95-both.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/95-both.log",
+      "source_sha256": "38c12da5bcc0319421bbef5529b45432659492a83ed64f92df35ec08f05ac943",
+      "export_sha256": "a55f4207cf047c7e8dde5aa39c73aaef34e78a45a66c87b3a58179ac850dcb7e",
+      "bytes": 22069,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/96-stock100-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/96-stock100-telemetry.json",
+      "source_sha256": "618ad4e727fd594bb3769424db014595d0f050d54ea84c1a0f093ef6e5e67ec4",
+      "export_sha256": "618ad4e727fd594bb3769424db014595d0f050d54ea84c1a0f093ef6e5e67ec4",
+      "bytes": 81962,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/96-stock100.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/96-stock100.log",
+      "source_sha256": "ce00f055ec6bc3b876263b2792e3b03b16a3378627aa91e48f81f99753894a45",
+      "export_sha256": "864f346d89f595b7119d9de7cabdb4bcdbc0d878505ab07d8e2f42397cce31dc",
+      "bytes": 15068,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/97-private_off-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/97-private_off-telemetry.json",
+      "source_sha256": "12f723e0cea234aecf0dc14c4413f43b58a64b6b3f6468786baa2053645f71b2",
+      "export_sha256": "12f723e0cea234aecf0dc14c4413f43b58a64b6b3f6468786baa2053645f71b2",
+      "bytes": 80352,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/97-private_off.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/97-private_off.log",
+      "source_sha256": "bdb43cd7036b8e5add0850c93927c2b7b537cdea0737b19d0a1e550abae5a929",
+      "export_sha256": "ec9815bb1be22f1b68e7606119905355d1e45428fdd85c9c7ce304f12cef2954",
+      "bytes": 15104,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/98-pad-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/98-pad-telemetry.json",
+      "source_sha256": "ccf4ab392aa66aa76a839532bac16a3449ce6dfa9d6b13e9e14e7ca0b5691112",
+      "export_sha256": "ccf4ab392aa66aa76a839532bac16a3449ce6dfa9d6b13e9e14e7ca0b5691112",
+      "bytes": 78979,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/98-pad.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/98-pad.log",
+      "source_sha256": "81c26bcce76cda53933f2fa856c7ba28265f5ab62c9db9a1275de1fefc5a207e",
+      "export_sha256": "056653624c27a88dbccda928d65944d59bf7415e79e6afc1cf1c07a05ebd1fda",
+      "bytes": 22039,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/99-wide-telemetry.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/99-wide-telemetry.json",
+      "source_sha256": "701d07283edb30228080f56b0f32468f4beba9f185f5918b6443e6962c8da5cd",
+      "export_sha256": "701d07283edb30228080f56b0f32468f4beba9f185f5918b6443e6962c8da5cd",
+      "bytes": 81216,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/99-wide.log",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/99-wide.log",
+      "source_sha256": "d2ead818b84c8be82994a52bbf7ecb9d695e4bbaa1ee21ee5eb71c578e432122",
+      "export_sha256": "bb6fac8deff95e53e4f60c26f6eadd3005fdcf3213504aa1209e93012051b574",
+      "bytes": 15134,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/assets.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/assets.json",
+      "source_sha256": "127cb8e7b2c8e6669d8656ae3341879cbe6b997e1ffd127d78b825cb35e8de9a",
+      "export_sha256": "cf36b2267c50e2f04aaf74ce95f73e1d8da1841ab6494c860e00273ef7e06165",
+      "bytes": 3386,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/confirmation-analysis.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/confirmation-analysis.json",
+      "source_sha256": "2564e48d8651719214942a1ff9330b08b2a3839af9436f8ebedbc2962599f895",
+      "export_sha256": "2564e48d8651719214942a1ff9330b08b2a3839af9436f8ebedbc2962599f895",
+      "bytes": 67135,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/outcomes-summary.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/outcomes-summary.json",
+      "source_sha256": "dfe86d8636e5fcac284a1fb98d2cceeb1061bb130a6d72f8e8f60725adaf8ea3",
+      "export_sha256": "dfe86d8636e5fcac284a1fb98d2cceeb1061bb130a6d72f8e8f60725adaf8ea3",
+      "bytes": 17082,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/protocol.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/protocol.json",
+      "source_sha256": "e9f780ea09b45b554f2171df2ae8dc6c8bd460a7c271211b9bd510725ee773fd",
+      "export_sha256": "e9f780ea09b45b554f2171df2ae8dc6c8bd460a7c271211b9bd510725ee773fd",
+      "bytes": 4941,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/results.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/results.json",
+      "source_sha256": "518163255bcde0f76f2ef949cb2a0ccdb8eb026f1ffdfcb921f7567fca66569b",
+      "export_sha256": "518163255bcde0f76f2ef949cb2a0ccdb8eb026f1ffdfcb921f7567fca66569b",
+      "bytes": 821654,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-pad-wide/model-timing512/20261030T185248Z/runtime-baseline.json",
+      "path": "archive/isolated/native-pad-wide/model-timing512/20261030T185248Z/runtime-baseline.json",
+      "source_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "export_sha256": "bf175acfdc0edccd215c5511e1b7bd51d9cd2d96dff4a6c41ed95fee55d5e45c",
+      "bytes": 135,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-30T18:52:55.436171+00:00"
+  "updated_utc": "2026-10-31T09:15:37.220091+00:00"
 }
