@@ -1,0 +1,11 @@
+--- discovery/llama-kv-cache.cpp
++++ confirmation/llama-kv-cache.cpp
+@@ -407,7 +407,7 @@
+                 if(const_buf){
+                     ggml_backend_buffer_set_usage(const_buf.get(),GGML_BACKEND_BUFFER_USAGE_WEIGHTS);int32_t tag=1;ggml_backend_tensor_set(marker,&tag,0,sizeof(tag));size_t bytes=0;
+                     for(size_t i=0;i<mats.size();++i){auto*t=mats[i];ggml_backend_tensor_set(t,attn_rot_hadamard.at(sizes[i]).data(),0,ggml_nbytes(t));bytes+=ggml_nbytes(t);}
+-                    if(getenv("LLAMA_VK_CONST_ROT_AUDIT"))fprintf(stderr,"LLAMA_CONST_ROT_CREATED matrices=%zu bytes=%zu\n",mats.size(),bytes);
++                    if(getenv("LLAMA_VK_CONST_ROT_AUDIT")||getenv("LLAMA_VK_CONST_ROT_CREATED"))fprintf(stderr,"LLAMA_CONST_ROT_CREATED matrices=%zu bytes=%zu\n",mats.size(),bytes);
+                     ctxs_bufs.emplace_back(std::move(const_ctx),std::move(const_buf));
+                 }else LLAMA_LOG_WARN("LLAMA_CONST_ROT_FALLBACK allocation\n");
+             }else LLAMA_LOG_WARN("LLAMA_CONST_ROT_FALLBACK context\n");
