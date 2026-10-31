@@ -13,7 +13,7 @@ Research notes and evidence from attempts to accelerate Qwen3.8 inference on an 
 
 - [Direct native-default stock comparison](docs/NATIVE-DEFAULT-BASELINE.md): cap100Q3 independently confirms+1.33%; earlier cap400combination1.69% slower.
 - [Mapped-VRAM path](docs/NATIVE-MAPPED-VRAM.md): restores an existing native default, removes2,442queuecalls; independent48-run confirmation+28.3% versus the old harness; native-default comparison now complete.
-- [Immutable GPU rotation matrices](docs/NATIVE-CONSTANT-ROTATION.md): new private core cache passes530targetrows and repeated KV clears, eliminating444repeated uploads; no model speed claim yet.
+- [Immutable GPU rotation matrices](docs/NATIVE-CONSTANT-ROTATION.md): new private core cache passes 530 target rows and repeated KV clears, eliminating 444 repeated uploads; no model speed claim yet.
 - [Native transfer observer](docs/NATIVE-TRANSFER-OBSERVER.md): identifies1,850 synchronous tensor-set submissions per short decode; ownership-preserving batching is the next target.
 - [Native submission budget](docs/NATIVE-SUBMIT-BUDGET.md): fewer batches and a small discovery gain; independent under-load confirmation remains unqualified.
 - [Native fusion-plan cache](docs/NATIVE-FUSION-PLAN.md): exact cached CPU decisions and mutation tests; fixed under-load A/B establishes no incremental gain.
