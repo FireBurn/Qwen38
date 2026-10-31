@@ -1,4 +1,4 @@
-# Current work — 2026-10-30
+# Current work — 2026-10-31
 
 **Completed, 31 October 2026:** A 72-process matched-load model timing study of the immutable rotation cache finished. Its [predeclared protocol](../archive/isolated/native-constant-rotation-default/MODEL-TIMING-PLAN.md) compares the stock core with the same private core both disabled and enabled, using native defaults. The native-default correctness qualification passed 530 raw target rows per private mode and repeated KV clears. Cache versus private core with cache disabled measured +1.246% [0.157%, 2.346%] across 10 load-matched blocks; cache versus stock was +1.293% [-0.548%, 3.168%] across 8 matched blocks. These are discovery results, not an independently confirmed speedup. Timed runs do not log individual cache bypasses, so activation is supported by the pinned configuration and separate diagnostic witnesses rather than verified for each timed process. [Analysis](../archive/isolated/native-constant-rotation-default/model-timing512/20261031T092519Z/confirmation-analysis.json) and [post-run verification](../archive/isolated/native-constant-rotation-default/model-timing512/20261031T092519Z/postrun-verification.json) are archived. All 72 processes matched tokens and counters; 17 pinned assets remained unchanged and no new GPU errors were recorded.
 
@@ -11,9 +11,7 @@ Five-arm combined-host correctness qualification passed: 530 raw target rows per
 
 ## Next work
 
-Compose widerargmax withQ3padding/native100in a NEWprivatehost, preserving bothqualifiedcomponents. The newcombinedhost buildswiththequalifiedQ3extendedcontext/matchingobjects andonlythetestedargmaxselectionblock. It passes630adversarialcases/1680indices perarm andfive-armshort38rawrows perarm,exactstocktokens/counters,noGPUerrors. Broader 530-raw-row-per-mode audits passed; the predeclared fixed100 stock/private/component/combined throughput comparison completed. No combinedgainyet. Prior gains must not be added.
-
-A two-stagehierarchical reduction, output-head integration, mappedCPUfusionplanreuse andimmutableHadamardcorecache remain distinct follow-ups, not confirmedcombined gains. No fastermega kernel or productiondeployment established.
+Investigate further native shader and small-fusion improvements against the current stock and qualified wider-argmax configurations. A two-stage hierarchical argmax reduction and output-head integration are unvalidated leads; any candidate needs exactness qualification and a separate load-matched model comparison. The combined padded-Q3 and wider-argmax discovery has completed, and the immutable rotation-cache independent confirmation was inconclusive, as documented below. No faster mega kernel or production deployment has been established.
 
 ## What the preceding tests ruled out
 

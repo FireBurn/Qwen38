@@ -62,4 +62,4 @@ This supports a scopednativeconfigurationgain on the pinnedR9700/aa8.27.7/privat
 
 [Independent analysis](../archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/confirmation-analysis.json), [independent full-generation/load/clock/power outcomes](../archive/isolated/native-argmax-review/model-confirmation512/20261030T140423Z/outcomes-summary.json), [confirmation/configuration proof record](../archive/isolated/native-argmax-review/confirmed-wide-native-path.json), [shader build command and input provenance](../archive/isolated/native-argmax-review/SHADER-BUILD.md).
 
-Next: compose with the independentlyconfirmedQ3padding/native100path in a newprivatehost, then repeat rawmodelqualification and measure the interaction against stock/componentcontrols. No composition has been tested yet; the two percentages cannot be added. The existing qualifiedcomponents remain unchanged.
+Subsequent composition with padded Q3 passed the sampled correctness checks but did not meet the predeclared incremental-benefit gate; see [current results](CURRENT-STATUS.md). The separately measured percentages cannot be added.
