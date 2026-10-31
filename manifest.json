@@ -9493,6 +9493,110 @@
       "sanitized": true
     },
     {
+      "source": "isolated/native-argmax-subgroup/argmax-subgroup.comp",
+      "path": "archive/isolated/native-argmax-subgroup/argmax-subgroup.comp",
+      "source_sha256": "28ddd85017f6aedbd9ef1c7232fd653d05504adb35eeca2220cead7bbadca411",
+      "export_sha256": "28ddd85017f6aedbd9ef1c7232fd653d05504adb35eeca2220cead7bbadca411",
+      "bytes": 2850,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/argmax-subgroup.spv",
+      "path": "archive/isolated/native-argmax-subgroup/argmax-subgroup.spv",
+      "source_sha256": "cdb6afa4ba6df0a6442a3e533bc57f5af5075521b6cc21536140a9fcacacbd7a",
+      "export_sha256": "cdb6afa4ba6df0a6442a3e533bc57f5af5075521b6cc21536140a9fcacacbd7a",
+      "bytes": 7808,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/assets.json",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/assets.json",
+      "source_sha256": "4de8ff8fdc4de122adb684aac20cd39b27c12af1d5f3b01c62e53481e6e80faa",
+      "export_sha256": "1c76e722d69adbd258a778a3e9f45e28c0b0b3f25da0e3ba86c5921ec66ce93a",
+      "bytes": 1771,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/comparison.json",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/comparison.json",
+      "source_sha256": "a059a03b5069e347b7fa895e0112dfbd176412b1ce95bcdaa186a9e31d565c97",
+      "export_sha256": "a059a03b5069e347b7fa895e0112dfbd176412b1ce95bcdaa186a9e31d565c97",
+      "bytes": 260,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/private_off.bin",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/private_off.bin",
+      "source_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "export_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "bytes": 16800,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/private_off.log",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/private_off.log",
+      "source_sha256": "08d577b00280c209c0aa897f95ddc4cab6e1a21f1a0d52e04030d8f69772d2e8",
+      "export_sha256": "6dbb3ed7c1ee5fbc8363fbe743ce522180e4e224e39c4406ce6f239d38861e92",
+      "bytes": 989,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/private_subgroup.bin",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/private_subgroup.bin",
+      "source_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "export_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "bytes": 16800,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/private_subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/private_subgroup.log",
+      "source_sha256": "9a06ab1852ec102fabbb096eddb578ca1336de3a279bb3385b2f019e3e1a1b35",
+      "export_sha256": "fdb59600731ea96c30e469788c4278275f19c585807ff1651ad8cc07f97988cd",
+      "bytes": 1019,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/private_wide.bin",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/private_wide.bin",
+      "source_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "export_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "bytes": 16800,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/private_wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/private_wide.log",
+      "source_sha256": "a71710ea9853172412145697c2b498086e59e86a27e68fdf37cc661ece1ecde7",
+      "export_sha256": "2b7b863f6eaa964d861f224a7a470463cac671342c925e0f1539134569a375e5",
+      "bytes": 1019,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/results.json",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/results.json",
+      "source_sha256": "1ec86f3fc19280a570c8bdd60e0908abe61cbac42f142c4be5be747945b8a217",
+      "export_sha256": "1ec86f3fc19280a570c8bdd60e0908abe61cbac42f142c4be5be747945b8a217",
+      "bytes": 751,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/stock.bin",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/stock.bin",
+      "source_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "export_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "bytes": 16800,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/checks/20261031T150638Z/stock.log",
+      "path": "archive/isolated/native-argmax-subgroup/checks/20261031T150638Z/stock.log",
+      "source_sha256": "a7b6aa3721978b9a0b29d846ec5a1bbbda32f0d94cfd4dce2a00b52693341f7a",
+      "export_sha256": "629000ba978e45de228951b6e8ec436e5729be8d1114f7ea639122d3b9e4a4b9",
+      "bytes": 853,
+      "sanitized": true
+    },
+    {
       "source": "isolated/native-combined/STATUS.md",
       "path": "archive/isolated/native-combined/STATUS.md",
       "source_sha256": "2e111ee27a488e7db399f347dc434e231cc6b21fa77319d3a1d0923c96c02481",
@@ -31509,6 +31613,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_native_argmax_subgroup_checks.py",
+      "path": "archive/isolated/run_native_argmax_subgroup_checks.py",
+      "source_sha256": "289a5917f0fe8b54d51909263fe1eb40ddc716cdc52f7967f7b3d6a584846a9e",
+      "export_sha256": "289a5917f0fe8b54d51909263fe1eb40ddc716cdc52f7967f7b3d6a584846a9e",
+      "bytes": 3629,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_native_argmax_wide_boundary128.py",
       "path": "archive/isolated/run_native_argmax_wide_boundary128.py",
       "source_sha256": "3d1e6caeae82757a1f9d64e2fd8af76841c83dd50cc15ccdcea0ae69a329fe85",
@@ -32829,5 +32941,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-31T15:05:11.939432+00:00"
+  "updated_utc": "2026-10-31T15:06:53.664685+00:00"
 }
