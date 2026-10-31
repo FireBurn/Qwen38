@@ -1,0 +1,13 @@
+{
+  "all_requested_target_logit_bits_identical": true,
+  "all_tokens_and_counters_identical": true,
+  "padded_cache_dispatch_verified": false,
+  "matches_fresh_unmodified_stock_target_logits": true,
+  "arms": 3,
+  "requested_tokens": 64,
+  "target_logit_rows_per_arm": 72,
+  "target_logit_audit_sha256": "36d4469aa2ba81bc3cf6566bb73ee4312ecfe4b9673b12206ef0c197924669a5",
+  "minimum_target_audit_position": 2580,
+  "maximum_target_audit_position": 2644,
+  "scope": "Freshstock400 versusnativeversusprivateimmutabledeviceHadamardcache comparisons after >=2048 populated KV positions,4kctx,64requestedtokens. Allrequested targetlogits/tokens/counters;not every internal drafttensor,allcontexts or performance qualification."
+}

@@ -1,0 +1,243 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+0.10.185.830 I cmn          init: llama threadpool init, n_threads = 1
+BACKEND_PATH_OK ${WORKSPACE}/isolated/production-baseline-aa8/bin/libggml-vulkan.so.0.27.0
+DRIVER_PATH_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+CORE_PATH_OK ${WORKSPACE}/isolated/production-baseline-aa8/bin/libllama.so.0.7.0
+0.11.799.734 I common_speculative_init_result: creating MTP draft context against the target model '${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf'
+
+
+The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. 
+Write a detailed explanation with several examples of how GPU matrix multiplication and attention work together. Start by describing a memory access:TARGET_LOGIT_AUDIT batch_tokens=174 rows=0 vocab=248320
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 264
+ aTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 220
+ACCEPTED_TOKEN 16
+ 1TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 17
+ACCEPTED_TOKEN 23
+28TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 87
+ACCEPTED_TOKEN 16
+x1TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 17
+ACCEPTED_TOKEN 23
+28TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 5979
+ACCEPTED_TOKEN 314
+ matrix ofTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 46303
+ floatsTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 369
+ACCEPTED_TOKEN 6452
+ is loadedTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 494
+ fromTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 3521
+ globalTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 4779
+ACCEPTED_TOKEN 1083
+ memory intoTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 5904
+ sharedTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 4779
+ACCEPTED_TOKEN 13
+ memory.TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 4844
+ ThenTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 7276
+ describeTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 33303
+ the computationTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 25
+ACCEPTED_TOKEN 1754
+: eachTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 4368
+ threadTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 303
+ inTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 220
+ a TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 16
+ACCEPTED_TOKEN 21
+16TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 87
+ACCEPTED_TOKEN 16
+x1TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 21
+6ACCEPTED_TOKEN 4368
+ threadTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 2424
+ACCEPTED_TOKEN 55288
+ block computesTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 799
+ oneTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 2315
+ elementACCEPTED_TOKEN 314
+ ofTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 2468
+ outputTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 5979
+ matrixACCEPTED_TOKEN 539
+ byTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 15899
+ performingTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 264
+ACCEPTED_TOKEN 12391
+ a dotTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 1918
+ACCEPTED_TOKEN 314
+ product ofTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 264
+ aTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 2713
+ rowACCEPTED_TOKEN 321
+ andTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 3145
+ columnTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 4844
+. ThenTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 7276
+ describeACCEPTED_TOKEN 279
+ theTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 6326
+ attentionACCEPTED_TOKEN 16456
+ mechanismTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 25
+:ACCEPTED_TOKEN 279
+ theTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 3134
+ queryACCEPTED_TOKEN 11
+,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 1328
+ keyACCEPTED_TOKEN 11
+,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 869
+ valueTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 34030
+ matricesACCEPTED_TOKEN 513
+ areTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 53070
+ACCEPTED_TOKEN 11
+ multiplied,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 279
+ theTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 1067
+ resultACCEPTED_TOKEN 369
+ isTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 29689
+ scaledACCEPTED_TOKEN 539
+ byTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 9057
+ squareTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 3578
+ rootACCEPTED_TOKEN 314
+ ofTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 1328
+ keyTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 12502
+ dimensionACCEPTED_TOKEN 11
+,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 264
+ aTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 73756
+ACCEPTED_TOKEN 369
+ softmax isTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 8977
+ appliedACCEPTED_TOKEN 11
+,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 321
+ andACCEPTED_TOKEN 279
+ theTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 1067
+ resultACCEPTED_TOKEN 369
+ isTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 53070
+ACCEPTED_TOKEN 539
+ multiplied byTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 279
+ACCEPTED_TOKEN 869
+ the valueTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 5979
+ matrixACCEPTED_TOKEN 13
+.TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 4844
+ ThenTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 7276
+ describeACCEPTED_TOKEN 1204
+ howTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 279
+ theTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 21966
+ GPUACCEPTED_TOKEN 579
+'sTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 4779
+ memoryTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 27980
+ hierarchyACCEPTED_TOKEN 318
+ (TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 9461
+globalACCEPTED_TOKEN 4779
+ memoryTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 11
+,ACCEPTED_TOKEN 5904
+ sharedTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 4779
+ memoryACCEPTED_TOKEN 11
+,TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 23959
+ registersACCEPTED_TOKEN 8
+)TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 369
+ isACCEPTED_TOKEN 1429
+ usedTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 310
+ toACCEPTED_TOKEN 28476
+ optimizeTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 411
+ thisACCEPTED_TOKEN 33303
+ computationTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 13
+.ACCEPTED_TOKEN 4844
+ ThenTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 7276
+ describeACCEPTED_TOKEN 1204
+ how
+
+0.17.818.122 I encoded  175 tokens in    1.457 seconds, speed:  120.142 t/s
+0.17.818.135 I decoded  129 tokens in    4.372 seconds, speed:   29.504 t/s
+0.17.818.145 I 
+0.17.818.404 I n_draft   = 1
+0.17.818.681 I n_predict = 129
+0.17.818.835 I n_drafted = 73
+0.17.818.844 I n_accept  = 56
+0.17.818.855 I accept    = 76.712%
+0.17.818.870 I 
+0.17.819.104 I draft:
+
+0.17.819.137 I 
+0.17.819.146 I target:
+
+0.17.819.158 I common_perf_print:    sampling time =      79.36 ms
+0.17.819.168 I common_perf_print:    samplers time =      28.87 ms /   129 tokens
+0.17.819.179 I common_perf_print:        load time =    9149.96 ms
+0.17.819.189 I common_perf_print: prompt eval time =    3050.74 ms /   320 tokens (    9.53 ms per token,   104.89 tokens per second)
+0.17.819.199 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.17.819.209 I common_perf_print:       total time =    6020.71 ms /   321 tokens
+0.17.819.219 I common_perf_print: unaccounted time =    2890.61 ms /  48.0 %      (total - sampling - prompt eval - eval) / (total)
+0.17.819.227 I common_perf_print:    graphs reused =         71
+0.17.822.048 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+
+
