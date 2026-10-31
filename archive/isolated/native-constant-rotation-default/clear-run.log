@@ -1,0 +1,16 @@
+Original quiet portfolio waiter is absent; checking competing GPU executables before each job
+Starting run_native_const_rot_default_clear_profile.py
+INPROCESS_CHILD 1621111 ${WORKSPACE}/isolated/native-constant-rotation-default/clear-profile/20261031T092234Z
+Traceback (most recent call last):
+  File "${WORKSPACE}/isolated/run_native_const_rot_default_clear_profile.py", line 63, in <module>
+    assert child.returncode==0 and not bad and failure is None
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Traceback (most recent call last):
+  File "${WORKSPACE}/isolated/run_private_guarded_batch.py", line 27, in <module>
+    subprocess.run(['python3','-u',str(base/task)],cwd=base.parent,check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['python3', '-u', '${WORKSPACE}/isolated/run_native_const_rot_default_clear_profile.py']' returned non-zero exit status 1.
