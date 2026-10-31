@@ -1,0 +1,94 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+0.11.050.874 I cmn          init: llama threadpool init, n_threads = 1
+BACKEND_PATH_OK ${WORKSPACE}/isolated/production-baseline-aa8/bin/libggml-vulkan.so.0.27.0
+DRIVER_PATH_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+CORE_PATH_OK ${WORKSPACE}/isolated/native-constant-rotation/bin/libllama.so.0.7.0
+0.12.608.547 I common_speculative_init_result: creating MTP draft context against the target model '${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf'
+
+
+The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examineTARGET_LOGIT_AUDIT batch_tokens=36 rows=0 vocab=248320
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 279
+ theACCEPTED_TOKEN 4216
+ eventsTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 421
+ACCEPTED_TOKEN 5879
+ that ledTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 310
+ACCEPTED_TOKEN 279
+ to theTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 20616
+ establishmentTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 279
+ of theTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 12386
+ RomanACCEPTED_TOKEN 19825
+ EmpireTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 1172
+ underTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 5963
+ AugustACCEPTED_TOKEN 350
+usTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 13
+.TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 198
+
+ACCEPTED_TOKEN 760
+TheTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 46706
+ assassinationTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 66900
+ of JuliusTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 51852
+ACCEPTED_TOKEN 303
+ Caesar inTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 220
+ ACCEPTED_TOKEN 19
+4TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 19
+4ACCEPTED_TOKEN 17501
+ BCTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 12495
+ markedACCEPTED_TOKEN 279
+ theTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 6941
+ACCEPTED_TOKEN 314
+ beginning ofTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 264
+ aACCEPTED_TOKEN 4031
+ periodTARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+ACCEPTED_TOKEN 314
+ ofACCEPTED_TOKEN 4788
+ political
+
+0.15.373.981 I encoded   37 tokens in    1.260 seconds, speed:   29.362 t/s
+0.15.373.993 I decoded   34 tokens in    1.275 seconds, speed:   26.662 t/s
+0.15.374.002 I 
+0.15.374.011 I n_draft   = 1
+0.15.374.021 I n_predict = 34
+0.15.374.030 I n_drafted = 19
+0.15.374.039 I n_accept  = 15
+0.15.374.050 I accept    = 78.947%
+0.15.374.059 I 
+0.15.374.067 I draft:
+
+0.15.374.088 I 
+0.15.374.097 I target:
+
+0.15.374.107 I common_perf_print:    sampling time =      18.10 ms
+0.15.374.116 I common_perf_print:    samplers time =       5.75 ms /    34 tokens
+0.15.374.125 I common_perf_print:        load time =    9946.58 ms
+0.15.374.135 I common_perf_print: prompt eval time =     886.87 ms /    74 tokens (   11.98 ms per token,    83.44 tokens per second)
+0.15.374.146 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.15.374.155 I common_perf_print:       total time =    2767.75 ms /    75 tokens
+0.15.374.174 I common_perf_print: unaccounted time =    1862.78 ms /  67.3 %      (total - sampling - prompt eval - eval) / (total)
+0.15.374.184 I common_perf_print:    graphs reused =         18
+0.15.374.193 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+
+
