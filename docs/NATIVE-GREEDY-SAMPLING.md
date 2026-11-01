@@ -28,7 +28,7 @@ A separately predeclared fixed72fresh512-request-token experiment completed:12sy
 
 Temperature-only filtering can preserve the unique greedy maximum, but default top-k uses unstable tie ordering. NativeGPUargmax also has its own bit-reversed-lane tie precedence. General replacement must preserve ties, nonfinite logits, bias/suppression and stateful sampling or fall back explicitly. No blanket simplification is proposed from these limited cases.
 
-Nativeargmax uses one subgroup-sized workgroup per row; hierarchical reduction is a later measured hypothesis, with no shader implemented yet. [Source review and tie-order requirements](../archive/isolated/native-greedy-sampling/ARGMAX-TRIAGE.md). Prior independentQ3cap100gain belongs to a separate configuration and is not added to this unmeasured sampling effect. No faster mega/equalclock/generaldeployment claim.
+Native argmax uses one subgroup-sized workgroup per row. A later two-stage hierarchical prototype has been implemented and tested; see [current results](CURRENT-STATUS.md) for its qualified scope and inconclusive incremental comparison against wide. [Source review and tie-order requirements](../archive/isolated/native-greedy-sampling/ARGMAX-TRIAGE.md). Prior independentQ3cap100gain belongs to a separate configuration and is not added to this unmeasured sampling effect. No faster mega/equalclock/generaldeployment claim.
 
 ### Fixed72 result
 
@@ -44,4 +44,4 @@ Source-level explanation to investigate: defaulttopk reduces subsequent CPUtempe
 
 [Complete analysis](../archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/confirmation-analysis.json), [full-generation and telemetry outcomes](../archive/isolated/native-greedy-sampling/model-timing512/20261030T084002Z/outcomes-summary.json).
 
-The subsequent [widerargmax prototype](NATIVE-ARGMAX.md) nowpasses adversarial/modelaudits and improves isolatedoperatorgraphwalltime; its full-model comparison isrunning. A two-stagehierarchical reduction remains a separate unimplemented lead.
+The subsequent [wider argmax prototype](NATIVE-ARGMAX.md) passed its scoped model confirmation. A later hierarchical prototype and its model comparison are recorded in [current results](CURRENT-STATUS.md); it did not establish an independent advantage over wide.
