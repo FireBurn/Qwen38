@@ -1,0 +1,532 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+NATIVE_SHADER_MODULES quant=0 q3=0,0,0
+HIER_ARGMAX_MODULES partial=595 final=817
+0.06.854.149 I cmn          init: llama threadpool init, n_threads = 1
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+BACKEND_PATH_OK ${WORKSPACE}/isolated/native-argmax-hierarchical/host-safe-bounds/bin/libggml-vulkan.so.0.27.0
+DRIVER_PATH_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+CORE_PATH_OK ${WORKSPACE}/isolated/production-baseline-aa8/bin/libllama.so.0.7.0
+0.07.777.269 I common_speculative_init_result: creating MTP draft context against the target model '${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf'
+
+
+Write a Python function that merges overlapping integer intervals. Include complete code, tests for unsorted input, empty input, nesting and adjacent non-overlapping intervals, and a detailed explanation of every design choice and its complexity.TARGET_LOGIT_AUDIT batch_tokens=42 rows=0 vocab=248320
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=271 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=727 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 271
+
+
+ACCEPTED_TOKEN 727
+defHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=10562 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=87682 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 10562
+ mergeACCEPTED_TOKEN 87682
+_intervalsHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1494 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=40798 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1494
+(intACCEPTED_TOKEN 40798
+ervalsHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1590 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1590
+ACCEPTED_TOKEN 198
+):
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=4071 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 4071
+    """HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=50346 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=262 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 50346
+MergeHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=48142 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=7308 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 48142
+ACCEPTED_TOKEN 7308
+ overlapping integerHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=13 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 26126
+ACCEPTED_TOKEN 13
+ intervals.HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=271 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=262 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 271
+ACCEPTED_TOKEN 262
+
+
+   HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=17167 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 17167
+ACCEPTED_TOKEN 25
+ Args:HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=198 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=285 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 285
+
+       HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 26126
+ACCEPTED_TOKEN 25
+ intervals:HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1103 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=314 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1103
+ACCEPTED_TOKEN 314
+ list ofHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=498 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=2388 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 498
+ [HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=2388 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 2388
+ACCEPTED_TOKEN 11
+start,HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=60 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 809
+ACCEPTED_TOKEN 60
+ end]HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=13139 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=318 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 13139
+ACCEPTED_TOKEN 318
+ pairs (HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=94964 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=65313 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 94964
+inclusiveHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=553 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=271 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 553
+ACCEPTED_TOKEN 271
+).
+
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=5019 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 5019
+    ReturnsHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=25 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 25
+ACCEPTED_TOKEN 198
+:
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=285 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=1103 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 285
+ACCEPTED_TOKEN 1103
+        listHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=314 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25170 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 314
+ACCEPTED_TOKEN 25170
+ of mergedHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=498 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=2397 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 498
+ [HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=2388 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 2388
+ACCEPTED_TOKEN 11
+start,HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=60 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 809
+ACCEPTED_TOKEN 60
+ end]HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=13139 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 13139
+ACCEPTED_TOKEN 11
+ pairs,HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=10300 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=539 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 10300
+ACCEPTED_TOKEN 539
+ sorted byHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1151 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=13 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1151
+ACCEPTED_TOKEN 13
+ start.HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=198 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=262 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 198
+ACCEPTED_TOKEN 262
+
+   HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4071 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 4071
+ACCEPTED_TOKEN 198
+ """
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=413 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 413
+    ifHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=524 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 524
+ACCEPTED_TOKEN 26126
+ not intervalsHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=25 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 25
+ACCEPTED_TOKEN 198
+:
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=285 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=460 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 285
+ACCEPTED_TOKEN 460
+        returnHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=2958 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=271 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 2958
+ACCEPTED_TOKEN 271
+ []
+
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=653 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 653
+    #HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=15495 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=539 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 15495
+ACCEPTED_TOKEN 539
+ Sort byHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1151 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=318 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1151
+ACCEPTED_TOKEN 318
+ start (HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=3282 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=809 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 3282
+thenHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=8 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 809
+ACCEPTED_TOKEN 8
+ end)HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=748 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=421 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 748
+ACCEPTED_TOKEN 421
+ so thatHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=48142 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 48142
+ACCEPTED_TOKEN 26126
+ overlapping intervalsHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=513 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=23194 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 513
+ACCEPTED_TOKEN 23194
+ are adjacentHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=13 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 13
+ACCEPTED_TOKEN 198
+.
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 26126
+    intervalsHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=10299 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=10300 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 10299
+.sortHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4702 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=26612 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 4702
+ACCEPTED_TOKEN 26612
+(key=lambdaHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=830 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 830
+ACCEPTED_TOKEN 25
+ x:HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=318 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=87 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 318
+ACCEPTED_TOKEN 87
+ (xHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=58 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=15 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 58
+ACCEPTED_TOKEN 15
+[0HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1089 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=830 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1089
+ACCEPTED_TOKEN 830
+], xHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=58 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=16 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 58
+ACCEPTED_TOKEN 16
+[1HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=9087 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=271 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 9087
+ACCEPTED_TOKEN 271
+]))
+
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25170 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 25170
+    mergedHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=283 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=498 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 283
+ACCEPTED_TOKEN 498
+ = [HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=390 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=40798 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 390
+ACCEPTED_TOKEN 40798
+intervalsHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=58 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=15 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 58
+ACCEPTED_TOKEN 15
+[0HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4891 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 4891
+ACCEPTED_TOKEN 198
+]]
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=262 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=364 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 262
+ACCEPTED_TOKEN 364
+    forHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1151 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1151
+ACCEPTED_TOKEN 11
+ start,HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=809 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=303 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 809
+ACCEPTED_TOKEN 303
+ end inHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=26126 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=58 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 26126
+ACCEPTED_TOKEN 58
+ intervals[HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=16 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=25 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 16
+ACCEPTED_TOKEN 25
+1:HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=5491 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=198 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 5491
+ACCEPTED_TOKEN 198
+]:
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=285 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=1483 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 285
+ACCEPTED_TOKEN 1483
+        lastHIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=4747 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=11 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 4747
+ACCEPTED_TOKEN 11
+_start,HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+HIER_ARGMAX_DISPATCH k=248320 rows=1 chunks=122
+TARGET_LOGIT_AUDIT batch_tokens=2 rows=2 vocab=248320
+TARGET_SAMPLING_ACTIVITY row=0 backend=1 sampled=1483 logits=1 candidates=1 probs=0
+TARGET_SAMPLING_ACTIVITY row=1 backend=1 sampled=6018 logits=1 candidates=1 probs=0
+ACCEPTED_TOKEN 1483
+ACCEPTED_TOKEN 6018
+ last_end
+
+0.11.408.205 I encoded   43 tokens in    0.655 seconds, speed:   65.603 t/s
+0.11.408.206 I decoded  130 tokens in    2.850 seconds, speed:   45.614 t/s
+0.11.408.207 I 
+0.11.408.208 I n_draft   = 1
+0.11.408.209 I n_predict = 130
+0.11.408.209 I n_drafted = 68
+0.11.408.209 I n_accept  = 62
+0.11.408.210 I accept    = 91.176%
+0.11.408.211 I 
+0.11.408.211 I draft:
+
+0.11.408.222 I 
+0.11.408.223 I target:
+
+0.11.408.224 I common_perf_print:    sampling time =       0.96 ms
+0.11.408.225 I common_perf_print:    samplers time =       0.04 ms /   130 tokens
+0.11.408.226 I common_perf_print:        load time =    5933.69 ms
+0.11.408.228 I common_perf_print: prompt eval time =    2368.31 ms /   178 tokens (   13.31 ms per token,    75.16 tokens per second)
+0.11.408.230 I common_perf_print:        eval time =       0.00 ms /     1 runs   (    0.00 ms per token,      inf tokens per second)
+0.11.408.231 I common_perf_print:       total time =    3632.17 ms /   179 tokens
+0.11.408.232 I common_perf_print: unaccounted time =    1262.89 ms /  34.8 %      (total - sampling - prompt eval - eval) / (total)
+0.11.408.232 I common_perf_print:    graphs reused =         67
+0.11.408.233 I common_perf_print:   graph reallocs =          0    /     0        (same size) / (changed size)
+
+

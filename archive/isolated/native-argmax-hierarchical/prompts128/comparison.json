@@ -1,0 +1,11 @@
+{
+  "all_requested_target_logit_bits_identical": true,
+  "all_tokens_and_counters_identical": true,
+  "cases": [
+    "coding",
+    "math"
+  ],
+  "arms": 6,
+  "requested_tokens_per_arm": 128,
+  "scope": "Stock, wide and hierarchical two-prompt target-logit audit. No hidden/draftscore,longKVcontext or performance qualification."
+}

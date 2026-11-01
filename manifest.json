@@ -6509,6 +6509,62 @@
       "sanitized": false
     },
     {
+      "source": "isolated/native-argmax-hierarchical/boundary128/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary128/assets.json",
+      "source_sha256": "2d2dfd6ab37d89fb964869e3555202e34d5973ff577a09db257f2d75d4e79a35",
+      "export_sha256": "9b364bcef5bf5e62b267eaefe45f3ddfa86d29274ded3e9c9025a46662008386",
+      "bytes": 4037,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary128/audit-archive.json",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary128/audit-archive.json",
+      "source_sha256": "0d952508e538ee28758872f0144270c0bd97a0d657a78c40148650fdb4d070a5",
+      "export_sha256": "0d952508e538ee28758872f0144270c0bd97a0d657a78c40148650fdb4d070a5",
+      "bytes": 242,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary128/checks.json",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary128/checks.json",
+      "source_sha256": "234ea654bd678f45ae8fc325d654d70513b60277c150cb9aef358341b49a8ef8",
+      "export_sha256": "234ea654bd678f45ae8fc325d654d70513b60277c150cb9aef358341b49a8ef8",
+      "bytes": 7483,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary128/comparison.json",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary128/comparison.json",
+      "source_sha256": "f3823be9f38efed6aabc122f9703b99d182b05b4d2aab2e75529991dea9d7d98",
+      "export_sha256": "f3823be9f38efed6aabc122f9703b99d182b05b4d2aab2e75529991dea9d7d98",
+      "bytes": 754,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary128/private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary128/private_hier.log",
+      "source_sha256": "9cbd6078b6267ff6ae746edb71940625fb109ef88ccd1adfe2505002de66ad8a",
+      "export_sha256": "d7a7427b9144ad9c49ae85a2ba7ddfc84f731fae00ee43ab9b49fea30ed28ad6",
+      "bytes": 29490,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary128/private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary128/private_wide.log",
+      "source_sha256": "a7902236dae6139e2997ce02ffc840298dd8b1bbec8a5ad44d98326149988995",
+      "export_sha256": "7e345cc69d273c026d5d1d99d0e175090dff4f70a1c21129a15bad311a6b2043",
+      "bytes": 24852,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary128/stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary128/stock100.log",
+      "source_sha256": "d0814a75831a807a8a4e69a8de2197f97113d8e7adca14436bbac5ee0d9a3e99",
+      "export_sha256": "f37bbd6e517d2a3e3103665578e75a2bf6ec345fe4f7c3a6123bd3aea7a074e4",
+      "bytes": 22859,
+      "sanitized": true
+    },
+    {
       "source": "isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/assets.json",
       "path": "archive/isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/assets.json",
       "source_sha256": "fff8c1c3e52df328df781c9d9225594bdad25565c27a9ee059fc8c22311ccd86",
@@ -6786,6 +6842,62 @@
       "source_sha256": "8a5f118ae94f14ad7f3092c5642445635b41810eea80b6937c7242c3006701ca",
       "export_sha256": "e47c9450d241083fdfdec28d655237078dc3afcf96be8619fb09274e306a394e",
       "bytes": 1434,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/kv64/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/kv64/assets.json",
+      "source_sha256": "bbd878ce003d48d79f615164cd8f074882d31c286104f440a2ff3b2d8b29e204",
+      "export_sha256": "c4401c5378544cf01f36d0f4a26c534f4e39b928e1cbf6d80e381624d610c37f",
+      "bytes": 4030,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/kv64/audit-archive.json",
+      "path": "archive/isolated/native-argmax-hierarchical/kv64/audit-archive.json",
+      "source_sha256": "66d17e3f38516fd5e956e13acc2bdd020489659bf160e92e56b8b116a8447171",
+      "export_sha256": "66d17e3f38516fd5e956e13acc2bdd020489659bf160e92e56b8b116a8447171",
+      "bytes": 242,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/kv64/checks.json",
+      "path": "archive/isolated/native-argmax-hierarchical/kv64/checks.json",
+      "source_sha256": "31b6b286cb6d19ee664d18c4b75eb8cd46b865f0344478db0c9a99204ac9c872",
+      "export_sha256": "31b6b286cb6d19ee664d18c4b75eb8cd46b865f0344478db0c9a99204ac9c872",
+      "bytes": 5326,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/kv64/comparison.json",
+      "path": "archive/isolated/native-argmax-hierarchical/kv64/comparison.json",
+      "source_sha256": "6c3216415d133eebce7b6faf1b7e940f3350ed867121e105d73919dbce4fcbcd",
+      "export_sha256": "6c3216415d133eebce7b6faf1b7e940f3350ed867121e105d73919dbce4fcbcd",
+      "bytes": 752,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/kv64/private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/kv64/private_hier.log",
+      "source_sha256": "448e65a46773ab2abd669e8a2b201fe7fbf07cc31c08aadb5d32ce9f47db4fbd",
+      "export_sha256": "a5254f0fa6674e6fa20f2d214efaeb68b0d1153ee187e4bb3f0754525025ee85",
+      "bytes": 27077,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/kv64/private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/kv64/private_wide.log",
+      "source_sha256": "f57ade864462bcd403fdc2fe94543c707e7673317c7d95d100d407186fbd5ff8",
+      "export_sha256": "4b33a7867b285f1874fc6eeec18431e6a1ab2627f896760189adeb0b60dbbd56",
+      "bytes": 26351,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/kv64/stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/kv64/stock100.log",
+      "source_sha256": "66046818f275a3f1f95cdece4f51229fd5705d6ad2643b9bfad78ad98c3a86b9",
+      "export_sha256": "b4d6c05cc8e043635218fa765dfbefecc0490b8ebfa08098aedc28c03f9601f7",
+      "bytes": 23721,
       "sanitized": true
     },
     {
@@ -7213,6 +7325,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/native-argmax-hierarchical/model-qualification.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-qualification.json",
+      "source_sha256": "b4fd81c7364f130ff26c3d62f1c29dd364977bd45ca1d34f16356ef9731ad720",
+      "export_sha256": "b4fd81c7364f130ff26c3d62f1c29dd364977bd45ca1d34f16356ef9731ad720",
+      "bytes": 1319,
+      "sanitized": false
+    },
+    {
       "source": "isolated/native-argmax-hierarchical/model32/assets.json",
       "path": "archive/isolated/native-argmax-hierarchical/model32/assets.json",
       "source_sha256": "e05ddd62ca01595259fb07e56b9442078e2348e2b5bb58a3fc1f70fbe1cb4441",
@@ -7291,6 +7411,94 @@
       "export_sha256": "de301b3fd14d9db8976cdda29d0421248cfeb956388dec1794388cea3c5ab625",
       "bytes": 2380,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/assets.json",
+      "source_sha256": "8b923e3373e4ad226aaa475c8c17a7cc5f72417c246fb03bf43b12461994a855",
+      "export_sha256": "ea175d97cfb4f318f400b802ecacfdbe90e6b46ec10ca90fc4ec868dbf6a8451",
+      "bytes": 4036,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/checks.json",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/checks.json",
+      "source_sha256": "ce98978f5beae386683b6db1dc9eee87da9b3fbc4fa3621821a202ce5528c9da",
+      "export_sha256": "ce98978f5beae386683b6db1dc9eee87da9b3fbc4fa3621821a202ce5528c9da",
+      "bytes": 14699,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/coding/audit-archive.json",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/coding/audit-archive.json",
+      "source_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "export_sha256": "9e1be8614a6fa0f24a1be9931fb493197b9a034e406d8727d767a2bb760d332d",
+      "bytes": 228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/coding/private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/coding/private_hier.log",
+      "source_sha256": "3099f9556be6c92ba421145cc21bda9ece9372bd95ad54a59855448a9032394e",
+      "export_sha256": "724f72d3f85c17153f599c656efed53085b8908e3211f3d869e5a6b394edd3a3",
+      "bytes": 27221,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/coding/private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/coding/private_wide.log",
+      "source_sha256": "37ecc4b37ac5513fc3310412c5c33f6a50f28265c89304569fb6d1e151a5df82",
+      "export_sha256": "8adcebecc3043b3699578ce845815f0c7f071439ddc5f9a2d8c178e9d8d96cbc",
+      "bytes": 22928,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/coding/stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/coding/stock100.log",
+      "source_sha256": "fcf18e1f096d941c1c6e6c283ffcdec768bf84c9164a43759382c5b0678d8829",
+      "export_sha256": "ed7fda47d80e1e1954a3152da55d5fd74c602796d3238e8fb5442f45432a0831",
+      "bytes": 21037,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/comparison.json",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/comparison.json",
+      "source_sha256": "21aded70e80f5eb0da660a6c836aa65b700facb73967874d39b5dd1f6f9bfe45",
+      "export_sha256": "21aded70e80f5eb0da660a6c836aa65b700facb73967874d39b5dd1f6f9bfe45",
+      "bytes": 331,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/math/audit-archive.json",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/math/audit-archive.json",
+      "source_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "export_sha256": "83de748a8378ed073db66f6abecd8a955299eb870896af962251459c47c374df",
+      "bytes": 226,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/math/private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/math/private_hier.log",
+      "source_sha256": "45194af38db19f04f7d67f5970d01b8d4bd8fd63dc4c65e2b61b1b0b750dd58f",
+      "export_sha256": "ba272d89c8992af517f7426bc420a8991ca3a11b3052a608dd3378aa24a1f1e3",
+      "bytes": 27442,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/math/private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/math/private_wide.log",
+      "source_sha256": "f4a56cc259840e5e331d80438c7431e09ca4aa5fa22f3ae5b1caae39623788f6",
+      "export_sha256": "bfbf7c07247f813b23717f2351a63fd0b08053349ad8e343475b3c58eb3a4cc8",
+      "bytes": 23053,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/prompts128/math/stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/prompts128/math/stock100.log",
+      "source_sha256": "d7062308cb07caa0bb8d1704cab0209747deac7cd312868a4db85cf22428d606",
+      "export_sha256": "4f088aecca78ebbcc0991d946565c08c49033dd028bfb07be2bbb623c08ec5f8",
+      "bytes": 21173,
+      "sanitized": true
     },
     {
       "source": "isolated/native-argmax-hierarchical/proposed-safe-bounds.patch",
@@ -7578,6 +7786,14 @@
       "source_sha256": "f3a7941b11a0f0d460491174442a20beb63271723e4990b7c32b7ae4bba435fd",
       "export_sha256": "f3a7941b11a0f0d460491174442a20beb63271723e4990b7c32b7ae4bba435fd",
       "bytes": 900,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/summarise_qualification.py",
+      "path": "archive/isolated/native-argmax-hierarchical/summarise_qualification.py",
+      "source_sha256": "a95820f313ae127865823ab759d5781a7c3023e8a6d4712e5dd9ca4fcc11055b",
+      "export_sha256": "a95820f313ae127865823ab759d5781a7c3023e8a6d4712e5dd9ca4fcc11055b",
+      "bytes": 1764,
       "sanitized": false
     },
     {
@@ -34503,9 +34719,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "bd43b0419d48000409a565faa507abb65db5cdbcdac8756111b9033ba5861feb",
-      "export_sha256": "bd43b0419d48000409a565faa507abb65db5cdbcdac8756111b9033ba5861feb",
-      "bytes": 30534,
+      "source_sha256": "0b881b5af2f349f83da2e2fed45b19be6e45b84b7ab6b7464ee56ce0460a430c",
+      "export_sha256": "0b881b5af2f349f83da2e2fed45b19be6e45b84b7ab6b7464ee56ce0460a430c",
+      "bytes": 30603,
       "sanitized": false
     },
     {
@@ -35125,5 +35341,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T19:43:00.309174+00:00"
+  "updated_utc": "2026-11-01T19:44:07.900136+00:00"
 }

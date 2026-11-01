@@ -1,0 +1,54 @@
+{
+  "all_native_raw_bits_tokens_counters_identical": true,
+  "target_rows_per_mode": 530,
+  "rows_by_mode": {
+    "private_hier": 530,
+    "stock100": 530,
+    "private_wide": 530
+  },
+  "records": [
+    {
+      "folder": "model32",
+      "runs": 3,
+      "rows_by_mode": {
+        "private_hier": 38,
+        "stock100": 38,
+        "private_wide": 38
+      },
+      "hierarchical_dispatch_logs": 1
+    },
+    {
+      "folder": "prompts128",
+      "runs": 6,
+      "rows_by_mode": {
+        "private_hier": 274,
+        "stock100": 274,
+        "private_wide": 274
+      },
+      "hierarchical_dispatch_logs": 2
+    },
+    {
+      "folder": "kv64",
+      "runs": 3,
+      "rows_by_mode": {
+        "private_hier": 72,
+        "stock100": 72,
+        "private_wide": 72
+      },
+      "hierarchical_dispatch_logs": 1
+    },
+    {
+      "folder": "boundary128",
+      "runs": 3,
+      "rows_by_mode": {
+        "private_hier": 146,
+        "stock100": 146,
+        "private_wide": 146
+      },
+      "hierarchical_dispatch_logs": 1
+    }
+  ],
+  "pinned_assets_unchanged": true,
+  "new_gpu_errors": [],
+  "scope": "Stock/wide/hier in tested short, coding, maths, populated-KV and 256-position boundary workloads, one-dword-copy private driver. Not universal model, sampling or context equivalence; not a speed result."
+}
