@@ -1,0 +1,93 @@
+{
+  "assumptions": "4-byte aligned source, destination aligned to thread width, non-sparse raw-address compute copy, 4096-byte pages; simplified NIR source-load geometry only.",
+  "results": [
+    {
+      "bytes": 4,
+      "dwords_per_thread": 1,
+      "source_offsets_checked": 1024,
+      "loads_beyond_requested_range": 0,
+      "page_crossing_vector_loads": 0,
+      "page_cross_offsets": []
+    },
+    {
+      "bytes": 4,
+      "dwords_per_thread": 2,
+      "source_offsets_checked": 1024,
+      "loads_beyond_requested_range": 1024,
+      "page_crossing_vector_loads": 1,
+      "page_cross_offsets": [
+        4092
+      ]
+    },
+    {
+      "bytes": 4,
+      "dwords_per_thread": 4,
+      "source_offsets_checked": 1024,
+      "loads_beyond_requested_range": 1024,
+      "page_crossing_vector_loads": 3,
+      "page_cross_offsets": [
+        4084,
+        4088,
+        4092
+      ]
+    },
+    {
+      "bytes": 8,
+      "dwords_per_thread": 1,
+      "source_offsets_checked": 1024,
+      "loads_beyond_requested_range": 0,
+      "page_crossing_vector_loads": 0,
+      "page_cross_offsets": []
+    },
+    {
+      "bytes": 8,
+      "dwords_per_thread": 2,
+      "source_offsets_checked": 1024,
+      "loads_beyond_requested_range": 0,
+      "page_crossing_vector_loads": 0,
+      "page_cross_offsets": []
+    },
+    {
+      "bytes": 8,
+      "dwords_per_thread": 4,
+      "source_offsets_checked": 1024,
+      "loads_beyond_requested_range": 1024,
+      "page_crossing_vector_loads": 2,
+      "page_cross_offsets": [
+        4084,
+        4088
+      ]
+    },
+    {
+      "bytes": 20,
+      "dwords_per_thread": 1,
+      "source_offsets_checked": 1024,
+      "loads_beyond_requested_range": 0,
+      "page_crossing_vector_loads": 0,
+      "page_cross_offsets": []
+    },
+    {
+      "bytes": 20,
+      "dwords_per_thread": 2,
+      "source_offsets_checked": 1024,
+      "loads_beyond_requested_range": 1024,
+      "page_crossing_vector_loads": 1,
+      "page_cross_offsets": [
+        4076
+      ]
+    },
+    {
+      "bytes": 20,
+      "dwords_per_thread": 4,
+      "source_offsets_checked": 1024,
+      "loads_beyond_requested_range": 1024,
+      "page_crossing_vector_loads": 3,
+      "page_cross_offsets": [
+        4068,
+        4072,
+        4076
+      ]
+    }
+  ],
+  "scope": "CPU arithmetic example; no GPU addresses, actual dispatch or compiled ISA captured; does not establish cause of observed fault."
+}
