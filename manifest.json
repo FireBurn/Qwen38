@@ -69,6 +69,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/GPU-FAULT-HOLD",
+      "path": "archive/isolated/GPU-FAULT-HOLD",
+      "source_sha256": "f8c69f7f85038cdec47160e8710723eebfd66e78057dc0b110176acb2bf7d20e",
+      "export_sha256": "f8c69f7f85038cdec47160e8710723eebfd66e78057dc0b110176acb2bf7d20e",
+      "bytes": 213,
+      "sanitized": false
+    },
+    {
       "source": "isolated/MUTABLE-ALIASES.md",
       "path": "archive/isolated/MUTABLE-ALIASES.md",
       "source_sha256": "1cd9a5ed1eb26d032b09137ccea8b750cbe693d20e3f95ec815f1bb89d4b9dfe",
@@ -6338,6 +6346,14 @@
       "source_sha256": "431f43500897ab14a529136c57b6edb9180cc1cd3136cf46dc4cf07ddbb72ed4",
       "export_sha256": "431f43500897ab14a529136c57b6edb9180cc1cd3136cf46dc4cf07ddbb72ed4",
       "bytes": 2793,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/FAULT-REVIEW.md",
+      "path": "archive/isolated/native-argmax-hierarchical/FAULT-REVIEW.md",
+      "source_sha256": "9e20b85a4b19959e5d9a06e8d4f7e17ae051d9f66bac4ee24db5cfe6d820b572",
+      "export_sha256": "9e20b85a4b19959e5d9a06e8d4f7e17ae051d9f66bac4ee24db5cfe6d820b572",
+      "bytes": 2230,
       "sanitized": false
     },
     {
@@ -33407,9 +33423,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "fe99f8039f07914b494b87a2608420d960e7953b04b5cac7db2bdcfd906d2e5b",
-      "export_sha256": "fe99f8039f07914b494b87a2608420d960e7953b04b5cac7db2bdcfd906d2e5b",
-      "bytes": 29826,
+      "source_sha256": "1acc11022caa74da3149ffb434770c15925b30377ecb85d95a978dd65e10d7de",
+      "export_sha256": "1acc11022caa74da3149ffb434770c15925b30377ecb85d95a978dd65e10d7de",
+      "bytes": 29928,
       "sanitized": false
     },
     {
@@ -34029,5 +34045,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T18:56:59.745196+00:00"
+  "updated_utc": "2026-11-01T18:57:40.419242+00:00"
 }
