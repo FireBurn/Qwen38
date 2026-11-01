@@ -6335,10 +6335,58 @@
     {
       "source": "isolated/native-argmax-hierarchical/DESIGN.md",
       "path": "archive/isolated/native-argmax-hierarchical/DESIGN.md",
-      "source_sha256": "5446b43d6b4afab930e580aa77a6ab220a416e544309f8166d30eae6b1f57653",
-      "export_sha256": "5446b43d6b4afab930e580aa77a6ab220a416e544309f8166d30eae6b1f57653",
-      "bytes": 2260,
+      "source_sha256": "431f43500897ab14a529136c57b6edb9180cc1cd3136cf46dc4cf07ddbb72ed4",
+      "export_sha256": "431f43500897ab14a529136c57b6edb9180cc1cd3136cf46dc4cf07ddbb72ed4",
+      "bytes": 2793,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary-check-build.json",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary-check-build.json",
+      "source_sha256": "a5aa7f95a84de6ce6f3330de7bb516e5c41a5621d2035564b65dcb44310ffd2f",
+      "export_sha256": "a951e309d5fd94177a953dd0a564a70df4f23a9a1ef6bf61d6f290464890c0fb",
+      "bytes": 761,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary-check.cpp",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary-check.cpp",
+      "source_sha256": "deba1143efb57a97b2a406a2d89186bf05f36d61c861d6ee4d005e9378980f68",
+      "export_sha256": "deba1143efb57a97b2a406a2d89186bf05f36d61c861d6ee4d005e9378980f68",
+      "bytes": 3384,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary-checks/20261101T185628Z/FAILURE.md",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary-checks/20261101T185628Z/FAILURE.md",
+      "source_sha256": "0fd8e029b36d4e1081057a1b5e6da9d2682f50fb097b36f884a4b660082e2631",
+      "export_sha256": "0fd8e029b36d4e1081057a1b5e6da9d2682f50fb097b36f884a4b660082e2631",
+      "bytes": 684,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary-checks/20261101T185628Z/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary-checks/20261101T185628Z/assets.json",
+      "source_sha256": "34cecac78fb14f08e2e9eedb6d190975080d49ca1bb01070cd9f2124422426fd",
+      "export_sha256": "9313cb0d680fc13e09f819383b6606585f57c8f8fb66ca243c3ff3f513da690a",
+      "bytes": 2213,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary-checks/20261101T185628Z/stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary-checks/20261101T185628Z/stock.bin",
+      "source_sha256": "457990ed2699af1edaa55b7303e6adac645d535c46885fe17daf6ea1763a6149",
+      "export_sha256": "457990ed2699af1edaa55b7303e6adac645d535c46885fe17daf6ea1763a6149",
+      "bytes": 15360,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary-checks/20261101T185628Z/stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary-checks/20261101T185628Z/stock.log",
+      "source_sha256": "29236677770df6a100b256e233d460954a2c84e798af329bd2c2a0b3814c5419",
+      "export_sha256": "a2120af71a2a47fb744ccda0d065071a5af5ea400962e50126d0cee79287b2c0",
+      "bytes": 5791,
+      "sanitized": true
     },
     {
       "source": "isolated/native-argmax-hierarchical/check_source_model.py",
@@ -6347,6 +6395,94 @@
       "export_sha256": "b36310bd1283db5c0196ced3ed078a1163adb15527efa1d4f0e002b4ebe16275",
       "bytes": 2776,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/assets.json",
+      "source_sha256": "b0da9bb3c5f8480b325739a3d9b0323d40a3b8f25e491dc49223d8b1b4d8b831",
+      "export_sha256": "86d628b472759f24baaf7f850f7a1d0a95eb95fc7eeb38983685418fd61200b1",
+      "bytes": 2180,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/comparison.json",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/comparison.json",
+      "source_sha256": "a059a03b5069e347b7fa895e0112dfbd176412b1ce95bcdaa186a9e31d565c97",
+      "export_sha256": "a059a03b5069e347b7fa895e0112dfbd176412b1ce95bcdaa186a9e31d565c97",
+      "bytes": 260,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_hier.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_hier.bin",
+      "source_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "export_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "bytes": 16800,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_hier.log",
+      "source_sha256": "0f4a31f2562cb97d99abfadd5016a55fe6b6e3ed4ca6198af70d96aac8c37427",
+      "export_sha256": "b7d826534ee75e9a759bd6f13d475046a76a065ad85201cb0b704977c5a431c4",
+      "bytes": 3138,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_off.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_off.bin",
+      "source_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "export_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "bytes": 16800,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_off.log",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_off.log",
+      "source_sha256": "aad01ddb05ff8c90ac6784e88246b096ad2ba3e080888b429c1921143c5ac6ce",
+      "export_sha256": "572e65a65bf88a76b646f79a58eb12229421ec72bbd739b07a54822e56ee4916",
+      "bytes": 990,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_wide.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_wide.bin",
+      "source_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "export_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "bytes": 16800,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/private_wide.log",
+      "source_sha256": "8829ffb59222a2dc61f00943d5537a4a13cb9250385aa4a77a25e98c90a7381c",
+      "export_sha256": "3bba47a1f894146cc6cf4d57acd34e8b524d073ab79e8d68607565a0019884cc",
+      "bytes": 1020,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/results.json",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/results.json",
+      "source_sha256": "c20e2dc48cb4641f0ee1e73cb9d817d09cf6aa67d7aa89f5d62607f28b1641b2",
+      "export_sha256": "c20e2dc48cb4641f0ee1e73cb9d817d09cf6aa67d7aa89f5d62607f28b1641b2",
+      "bytes": 747,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/stock.bin",
+      "source_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "export_sha256": "8e3ebc9bdc7892bbdb620d5b92ca203ac67447e1e9c81d6761c82ec11b5d6ebb",
+      "bytes": 16800,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/checks/20261101T185614Z/stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/checks/20261101T185614Z/stock.log",
+      "source_sha256": "a7b6aa3721978b9a0b29d846ec5a1bbbda32f0d94cfd4dce2a00b52693341f7a",
+      "export_sha256": "629000ba978e45de228951b6e8ec436e5729be8d1114f7ea639122d3b9e4a4b9",
+      "bytes": 853,
+      "sanitized": true
     },
     {
       "source": "isolated/native-argmax-hierarchical/final.comp",
@@ -6363,6 +6499,38 @@
       "export_sha256": "e61b95bf1dd5a1492a95a84edef07b5f8329bcbfc99f304f4696fbe7d1fae137",
       "bytes": 3268,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/host-build.json",
+      "path": "archive/isolated/native-argmax-hierarchical/host-build.json",
+      "source_sha256": "8c6dbf69f018f96163dd0f9d9a15fd429a97dfadff9d2f833d70508fd9840f4c",
+      "export_sha256": "8c6dbf69f018f96163dd0f9d9a15fd429a97dfadff9d2f833d70508fd9840f4c",
+      "bytes": 595,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/host.patch",
+      "path": "archive/isolated/native-argmax-hierarchical/host.patch",
+      "source_sha256": "c1945c7f79862ba0048e6a4ec135c84856b5be3f7225d8df3628bb57eac2a18a",
+      "export_sha256": "c1945c7f79862ba0048e6a4ec135c84856b5be3f7225d8df3628bb57eac2a18a",
+      "bytes": 5691,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/host/build-argv.json",
+      "path": "archive/isolated/native-argmax-hierarchical/host/build-argv.json",
+      "source_sha256": "590a544c905ef4f9514858b03a96e0081301c3f9be0041df6c6dc93435043736",
+      "export_sha256": "58aff7828fa218067814f7937eb0ce86eb360df45858c9212ad995b542b80670",
+      "bytes": 16518,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/host/build.log",
+      "path": "archive/isolated/native-argmax-hierarchical/host/build.log",
+      "source_sha256": "8a5f118ae94f14ad7f3092c5642445635b41810eea80b6937c7242c3006701ca",
+      "export_sha256": "e47c9450d241083fdfdec28d655237078dc3afcf96be8619fb09274e306a394e",
+      "bytes": 1434,
+      "sanitized": true
     },
     {
       "source": "isolated/native-argmax-hierarchical/partial.comp",
@@ -32485,6 +32653,22 @@
       "sanitized": true
     },
     {
+      "source": "isolated/run_native_argmax_hier_boundary.py",
+      "path": "archive/isolated/run_native_argmax_hier_boundary.py",
+      "source_sha256": "8ca13f95188cd35fe9aa8ed1450d198a00b9de7ef72ed72506628a222173fe1f",
+      "export_sha256": "8ca13f95188cd35fe9aa8ed1450d198a00b9de7ef72ed72506628a222173fe1f",
+      "bytes": 3811,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_argmax_hier_checks.py",
+      "path": "archive/isolated/run_native_argmax_hier_checks.py",
+      "source_sha256": "3ade13f272c68273ad73897b6fa4690d6b320514d82fee6c81d43ea6534d1b91",
+      "export_sha256": "3ade13f272c68273ad73897b6fa4690d6b320514d82fee6c81d43ea6534d1b91",
+      "bytes": 3776,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_native_argmax_micro.py",
       "path": "archive/isolated/run_native_argmax_micro.py",
       "source_sha256": "3e876f3d418cbeb86fc10d0b1630336312a5461e6ffb1c8205f5f8eacb274f2f",
@@ -33223,9 +33407,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "4ca3b2246bec35a4396ef6782b3b34009bcc367b68061a95d3c9bcf0afb79778",
-      "export_sha256": "4ca3b2246bec35a4396ef6782b3b34009bcc367b68061a95d3c9bcf0afb79778",
-      "bytes": 29717,
+      "source_sha256": "fe99f8039f07914b494b87a2608420d960e7953b04b5cac7db2bdcfd906d2e5b",
+      "export_sha256": "fe99f8039f07914b494b87a2608420d960e7953b04b5cac7db2bdcfd906d2e5b",
+      "bytes": 29826,
       "sanitized": false
     },
     {
@@ -33845,5 +34029,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T18:55:15.956956+00:00"
+  "updated_utc": "2026-11-01T18:56:59.745196+00:00"
 }

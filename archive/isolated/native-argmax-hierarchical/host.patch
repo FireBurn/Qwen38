@@ -1,0 +1,82 @@
+--- wide-host/ggml-vulkan.cpp
++++ hier-host/ggml-vulkan.cpp
+@@ -1682,6 +1682,27 @@
+ }
+ 
+ 
++// Private experiment: per-device pipeline state; no shared-header ABI changes.
++struct hier_argmax_state { vk_pipeline partial, final; std::vector<uint32_t> partial_code, final_code; };
++static std::mutex hier_argmax_mutex;
++static std::map<const void*, hier_argmax_state> hier_argmax_states;
++static hier_argmax_state& hier_argmax_get(vk_device& device) {
++    std::lock_guard<std::mutex> lock(hier_argmax_mutex);
++    auto it=hier_argmax_states.find(device.get());
++    if(it!=hier_argmax_states.end()) return it->second;
++    auto& state=hier_argmax_states[device.get()];
++    const char *dir=getenv("GGML_VK_HIER_ARGMAX_DIR");
++    if(!dir || device->vendor_id!=VK_VENDOR_ID_AMD || device->properties.deviceID!=0x7551 || device->subgroup_size!=64) return state;
++    auto load=[](const std::string& path) {
++        std::vector<uint32_t> code; std::ifstream f(path,std::ios::binary|std::ios::ate);
++        if(f) { auto n=f.tellg(); if(n>=20 && uint64_t(n)%4==0) {code.resize(size_t(n)/4); f.seekg(0); f.read((char*)code.data(),n); if(!f || code[0]!=0x07230203u)code.clear();} }
++        return code;
++    };
++    state.partial_code=load(std::string(dir)+"/partial.spv"); state.final_code=load(std::string(dir)+"/final.spv");
++    GGML_ASSERT(!state.partial_code.empty() && !state.final_code.empty());
++    fprintf(stderr,"HIER_ARGMAX_MODULES partial=%zu final=%zu\n",state.partial_code.size(),state.final_code.size());
++    return state;
++}
+ struct native_shader_modules {
+     std::vector<uint32_t> quant;
+     std::vector<uint32_t> q3[3];
+@@ -3616,6 +3637,11 @@
+     const bool wide_argmax=!wide_argmax_code.empty()&&device->vendor_id==VK_VENDOR_ID_AMD&&device->properties.deviceID==0x7551&&device->subgroup_size<=256&&device->max_workgroup_size_log2>=8;
+     if(getenv("GGML_VK_ARGMAX_WIDE_AUDIT"))fprintf(stderr,"ARGMAX_WIDE_SELECT native_block=%u enabled=%d\n",device->subgroup_size,int(wide_argmax));
+     ggml_vk_create_pipeline(device, device->pipeline_argmax_f32, wide_argmax?"argmax_wide_f32":"argmax_f32", wide_argmax?wide_argmax_code.size()*4:argmax_f32_len, wide_argmax?(const unsigned char*)wide_argmax_code.data():argmax_f32_data, "main", 2, sizeof(vk_op_push_constants), {1, 1, 1}, { device->subgroup_size }, 1);
++    auto& hier=hier_argmax_get(device);
++    if(!hier.partial_code.empty()) {
++        ggml_vk_create_pipeline(device,hier.partial,"hier_argmax_partial",hier.partial_code.size()*4,hier.partial_code.data(),"main",2,12,{1,1,1},{},1);
++        ggml_vk_create_pipeline(device,hier.final,"hier_argmax_final",hier.final_code.size()*4,hier.final_code.data(),"main",3,12,{1,1,1},{},1);
++    }
+ 
+     ggml_vk_create_pipeline(device, device->pipeline_sum_rows_f32, "sum_rows_f32", sum_rows_f32_len, sum_rows_f32_data, "main", 2, sizeof(vk_op_sum_rows_push_constants), {1, 1, 1}, { device->subgroup_size }, 1);
+     ggml_vk_create_pipeline(device, device->pipeline_cross_entropy_loss_f32, "cross_entropy_loss_f32", cross_entropy_loss_f32_len, cross_entropy_loss_f32_data, "main", 3, sizeof(vk_op_push_constants), {1, 1, 1}, { device->subgroup_size }, 1);
+@@ -11864,6 +11890,31 @@
+ }
+ 
+ void ggml_vk_argmax(ggml_backend_vk_context * ctx, vk_context& subctx, const ggml_tensor * src0, ggml_tensor * dst) {
++    auto& hier=hier_argmax_get(ctx->device);
++    const uint64_t k=src0->ne[0], rows=ggml_nrows(src0), chunks=(k+2047)/2048;
++    const auto& lim=ctx->device->properties.limits;
++    const uint64_t scratch_bytes=rows*chunks*64*8;
++    if(hier.partial && hier.final && src0->type==GGML_TYPE_F32 && dst->type==GGML_TYPE_I32 &&
++       ggml_is_contiguous(src0) && ggml_is_contiguous(dst) && src0->ne[2]==1 && src0->ne[3]==1 &&
++       k>=2048 && k*rows<=UINT32_MAX && rows>0 && chunks<=lim.maxComputeWorkGroupCount[0] &&
++       rows<=lim.maxComputeWorkGroupCount[0] && rows<=lim.maxComputeWorkGroupCount[1] &&
++       scratch_bytes<=lim.maxStorageBufferRange && scratch_bytes<=64u*1024u*1024u &&
++       get_misalign_bytes(ctx,src0)==0 && get_misalign_bytes(ctx,dst)==0) {
++        ggml_pipeline_request_descriptor_sets(ctx,hier.partial,1);
++        ggml_pipeline_request_descriptor_sets(ctx,hier.final,1);
++        if(ctx->prealloc_size_split_k<scratch_bytes) {ctx->prealloc_size_split_k=scratch_bytes;ggml_vk_preallocate_buffers(ctx,subctx);}
++        if(ctx->prealloc_split_k_need_sync)ggml_vk_sync_buffers(ctx,subctx);
++        vk_subbuffer input=ggml_vk_tensor_subbuffer(ctx,src0);
++        vk_subbuffer output=ggml_vk_tensor_subbuffer(ctx,dst);
++        vk_subbuffer temp={ctx->prealloc_split_k,0,scratch_bytes};
++        struct {uint32_t k,rows,chunks;} pc={(uint32_t)k,(uint32_t)rows,(uint32_t)chunks};
++        ggml_vk_dispatch_pipeline(ctx,subctx,hier.partial,{input,temp},pc,{(uint32_t)chunks,(uint32_t)rows,1});
++        ggml_vk_sync_buffers(ctx,subctx);
++        ggml_vk_dispatch_pipeline(ctx,subctx,hier.final,{input,temp,output},pc,{(uint32_t)rows,1,1});
++        ctx->prealloc_split_k_need_sync=true;
++        if(getenv("GGML_VK_HIER_ARGMAX_AUDIT"))fprintf(stderr,"HIER_ARGMAX_DISPATCH k=%llu rows=%llu chunks=%llu\n",(unsigned long long)k,(unsigned long long)rows,(unsigned long long)chunks);
++        return;
++    }
+     ggml_vk_op_f32<vk_op_push_constants>(ctx, subctx, src0, nullptr, nullptr, nullptr, dst, GGML_OP_ARGMAX, { (uint32_t)src0->ne[0], (uint32_t)src0->ne[1], 0.0f, 0.0f, 0.0f, 0.0f });
+ }
+ 
+@@ -16721,6 +16772,7 @@
+         ggml_vk_destroy_pipeline(device, pl);
+     }
+     all_pipelines.clear();
++    { std::lock_guard<std::mutex> lock(hier_argmax_mutex); hier_argmax_states.erase(this); }
+ 
+     device.destroyDescriptorSetLayout(dsl);
+ 

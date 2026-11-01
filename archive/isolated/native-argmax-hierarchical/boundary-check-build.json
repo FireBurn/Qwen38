@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/native-argmax-hierarchical/boundary-check.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/native-argmax-hierarchical/boundary-check"
+  ],
+  "source_sha256": "deba1143efb57a97b2a406a2d89186bf05f36d61c861d6ee4d005e9378980f68",
+  "binary_sha256": "f019415b7435fdbf403f14cc91bbb7a74c8e6b2c39b06d43277af75dd91c19d6"
+}

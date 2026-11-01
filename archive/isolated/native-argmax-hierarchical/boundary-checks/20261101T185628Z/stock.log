@@ -1,0 +1,58 @@
+(lldb) process attach --pid 3890099
+Process 3890099 stopped
+* thread #1, name = 'boundary-check', stop reason = signal SIGSTOP
+       frame #0: 0x00007f44ce80f4b8 libc.so.1`__llvm_libc_24_0_0_git::cpp::expected<int, int> __llvm_libc_24_0_0_git::linux_syscalls::syscall_checked<int, int, int*, int, rusage*>(__number=61, ts=3890118, ts=<unavailable>, ts=0, ts=0x0000000000000000) at syscall.h:54:11 [inlined]
+  thread #2, name = 'boundar:disk$0', stop reason = signal SIGSTOP
+       frame #0: 0x00007f44ce78cfa7 libc.so.1`__llvm_libc_24_0_0_git::Futex::wait(this=0x00007f17c9ca6ce8, expected=2, timeout=<unavailable>, is_shared=<unavailable>, restart_on_signal=true) at futex_utils.h:96:15
+  thread #3, name = 'boundar:disk$0', stop reason = signal SIGSTOP
+       frame #0: 0x00007f44ce78cfa7 libc.so.1`__llvm_libc_24_0_0_git::Futex::wait(this=0x00007f17c9290ce8, expected=2, timeout=<unavailable>, is_shared=<unavailable>, restart_on_signal=true) at futex_utils.h:96:15
+  thread #4, name = 'boundar:disk$0', stop reason = signal SIGSTOP
+       frame #0: 0x00007f44ce78cfa7 libc.so.1`__llvm_libc_24_0_0_git::Futex::wait(this=0x00007f17c887ace8, expected=2, timeout=<unavailable>, is_shared=<unavailable>, restart_on_signal=true) at futex_utils.h:96:15
+  thread #5, name = 'boundar:disk$0', stop reason = signal SIGSTOP
+       frame #0: 0x00007f44ce78cfa7 libc.so.1`__llvm_libc_24_0_0_git::Futex::wait(this=0x00007f17c7e64ce8, expected=2, timeout=<unavailable>, is_shared=<unavailable>, restart_on_signal=true) at futex_utils.h:96:15
+Executable binary set to "${WORKSPACE}/isolated/native-argmax-hierarchical/boundary-check".
+Architecture set to: x86_64-pc-linux-gnu.
+(lldb) bt
+* thread #1, name = 'boundary-check', stop reason = signal SIGSTOP
+   * frame #0: 0x00007f44ce80f4b8 libc.so.1`__llvm_libc_24_0_0_git::cpp::expected<int, int> __llvm_libc_24_0_0_git::linux_syscalls::syscall_checked<int, int, int*, int, rusage*>(__number=61, ts=3890118, ts=<unavailable>, ts=0, ts=0x0000000000000000) at syscall.h:54:11 [inlined]
+     frame #1: 0x00007f44ce80f4a8 libc.so.1`__llvm_libc_24_0_0_git::linux_syscalls::wait4(pid=3890118, wstatus=<unavailable>, options=0, rusage=0x0000000000000000) at wait4.h:34:10 [inlined]
+     frame #2: 0x00007f44ce80f4a8 libc.so.1`__llvm_libc_24_0_0_git::__waitpid_impl__(int, int*, int)::$_0::operator()(this=<unavailable>) const at waitpid.cpp:22:12 [inlined]
+     frame #3: 0x00007f44ce80f4a8 libc.so.1`decltype(fp()) __llvm_libc_24_0_0_git::internal::cancellable<__llvm_libc_24_0_0_git::__waitpid_impl__(int, int*, int)::$_0>(call=<unavailable>) at cancel.h:59:17 [inlined]
+     frame #4: 0x00007f44ce80f48e libc.so.1`__waitpid_impl__(pid=3890118, wait_status=<unavailable>, options=0) at waitpid.cpp:21:17
+     frame #5: 0x00007f44ceafdce2 libggml-base.so.0`ggml_print_backtrace + 338
+     frame #6: 0x00007f44ceb16ada libggml-base.so.0`ggml_uncaught_exception() + 10
+     frame #7: 0x00007f44ce992e27 libc++abi.so.1`___lldb_unnamed_symbol_3de20 + 7
+     frame #8: 0x00007f44ce995e2d libc++abi.so.1`__cxa_rethrow + 189
+     frame #9: 0x00007f44ce3623be libggml-vulkan.so.0`vk_queue_handle_unsynchronized::submit(vk::ArrayProxy<vk::SubmitInfo const>, vk::Fence) + 2478
+     frame #10: 0x00007f44ce2f60f1 libggml-vulkan.so.0`ggml_vk_submit(std::__1::shared_ptr<vk_context_struct>&, vk::Fence) + 6641
+     frame #11: 0x00007f44ce3ab866 libggml-vulkan.so.0`ggml_vk_buffer_read_2d(std::__1::shared_ptr<vk_buffer_struct>&, unsigned long, void*, unsigned long, unsigned long, unsigned long, unsigned long) + 310
+     frame #12: 0x00007f44ce3af2a8 libggml-vulkan.so.0`ggml_vk_buffer_read(std::__1::shared_ptr<vk_buffer_struct>&, unsigned long, void*, unsigned long) + 24
+     frame #13: 0x00007f44ce357fd7 libggml-vulkan.so.0`ggml_backend_vk_buffer_get_tensor(ggml_backend_buffer*, ggml_tensor const*, void*, unsigned long, unsigned long) + 103
+     frame #14: 0x000055c579230503 boundary-check`main + 4019
+     frame #15: 0x000055c57922e6eb boundary-check`__llvm_libc_24_0_0_git::do_start() at do_start.cpp:293:16
+     frame #16: 0x000055c57922d527 boundary-check`::_start() at start.cpp:32:3
+(lldb) quit
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+ggml_vulkan: Found 1 Vulkan devices:
+ggml_vulkan: 0 = AMD Radeon AI Pro R9700 (RADV GFX1201) (radv) | uma: 0 | fp16: dot2 | bf16: 1 | fp4: 0 | warp size: 64 | shared memory: 65536 | int dot: 1 | matrix cores: KHR_coopmat
+MAPPING_OK ${WORKSPACE}/isolated/production-baseline-aa8/bin/libggml-vulkan.so.0.27.0
+MAPPING_OK ${WORKSPACE}/isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so
+radv/amdgpu: The CS has been cancelled because the context is lost. This context is guilty of a hard recovery.
+radv: GPUVM fault detected at address 0x800100182000.
+GCVM_L2_PROTECTION_FAULT_STATUS: 0x601030
+	 CLIENT_ID: (TCP) 0x8
+	 MORE_FAULTS: 0
+	 WALKER_ERROR: 0
+	 PERMISSION_FAULTS: 3
+	 MAPPING_ERROR: 0
+	 RW: 0
+ggml_vulkan: device fault on Vulkan0: A GPUVM fault has been detected
+  address fault 0: type=1 address=0xffff800100182000 precision=0x1000
+ggml_vulkan: device lost on Vulkan0
+warning: syscall.h: source file checksum mismatch between line table (83b2078c306e0eb827c2b23eb9407a5b) and file on disk ()
+warning: futex_utils.h: source file checksum mismatch between line table (d97ca259dbf8708076f11643b85ce812) and file on disk ()
+libc++abi: terminating due to uncaught exception of type vk::DeviceLostError: vk::Queue::submit: ErrorDeviceLost
