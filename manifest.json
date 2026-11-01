@@ -6405,6 +6405,22 @@
       "sanitized": false
     },
     {
+      "source": "isolated/native-argmax-hierarchical/MODEL-BROAD-PLAN.md",
+      "path": "archive/isolated/native-argmax-hierarchical/MODEL-BROAD-PLAN.md",
+      "source_sha256": "8e5b88d2221984278fa4a3536f31f1a9fcd5bce09d4095b330ebc6ff53581bc1",
+      "export_sha256": "8e5b88d2221984278fa4a3536f31f1a9fcd5bce09d4095b330ebc6ff53581bc1",
+      "bytes": 969,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/MODEL-TIMING-PLAN.md",
+      "path": "archive/isolated/native-argmax-hierarchical/MODEL-TIMING-PLAN.md",
+      "source_sha256": "f2a10bad9f107827120e50ec6ec41dbe03fc8aa10a6a7ddd4575141ee0ca4af7",
+      "export_sha256": "f2a10bad9f107827120e50ec6ec41dbe03fc8aa10a6a7ddd4575141ee0ca4af7",
+      "bytes": 2202,
+      "sanitized": false
+    },
+    {
       "source": "isolated/native-argmax-hierarchical/SELECTED-PLAN.md",
       "path": "archive/isolated/native-argmax-hierarchical/SELECTED-PLAN.md",
       "source_sha256": "d59d35423a4fe4a9cc1763fca0225163fd4025521e1b6a88c920e4ad69071a87",
@@ -33677,6 +33693,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_native_argmax_hier_boundary128.py",
+      "path": "archive/isolated/run_native_argmax_hier_boundary128.py",
+      "source_sha256": "f442e520ca34400929d569c56accd35ce45bde7be0e165ca33f76efda0f1fc82",
+      "export_sha256": "05763fd15260f28f0b5077e0fdb245beeda6c6aab5779996c618fd4116c6fa32",
+      "bytes": 12060,
+      "sanitized": true
+    },
+    {
       "source": "isolated/run_native_argmax_hier_bounded.py",
       "path": "archive/isolated/run_native_argmax_hier_bounded.py",
       "source_sha256": "265922752212f5f0d5b2a5df58c798557d77eb92aab95c0c2744b68d27831d66",
@@ -33691,6 +33715,14 @@
       "export_sha256": "3ade13f272c68273ad73897b6fa4690d6b320514d82fee6c81d43ea6534d1b91",
       "bytes": 3776,
       "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_argmax_hier_kv64.py",
+      "path": "archive/isolated/run_native_argmax_hier_kv64.py",
+      "source_sha256": "beddaa261593d64126c33ec1005ffe1814f3e75b2d83e1839e3efea10391a9e8",
+      "export_sha256": "addc840b9e4263bc62c4431db7c12a69f95aec471fb485da9bad71a1896a4b53",
+      "bytes": 22859,
+      "sanitized": true
     },
     {
       "source": "isolated/run_native_argmax_hier_micro.py",
@@ -33709,12 +33741,28 @@
       "sanitized": true
     },
     {
+      "source": "isolated/run_native_argmax_hier_prompts128.py",
+      "path": "archive/isolated/run_native_argmax_hier_prompts128.py",
+      "source_sha256": "bd8a6d37fcb654c7efccaf03f131298eb41274bf95dfb5d2ee0ee1e8a7ea340d",
+      "export_sha256": "4d4afe9fb35cfd7d134895f3210c76ef0bafcff40e9b86c9be0f9fcd003a07c0",
+      "bytes": 10568,
+      "sanitized": true
+    },
+    {
       "source": "isolated/run_native_argmax_hier_selected.py",
       "path": "archive/isolated/run_native_argmax_hier_selected.py",
       "source_sha256": "fe9d83118561ca894ba42d09b4b9c30829f4e846d256c0d0a7d111c773fc6ec3",
       "export_sha256": "fe9d83118561ca894ba42d09b4b9c30829f4e846d256c0d0a7d111c773fc6ec3",
       "bytes": 3983,
       "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_argmax_hier_timing.py",
+      "path": "archive/isolated/run_native_argmax_hier_timing.py",
+      "source_sha256": "a3329bf08c952e7be4b092f9ea505166f7fd1845ef76aa2d138e0a47a2fc66df",
+      "export_sha256": "15d640098271614b2b4d03f289881f238ae4ee9465c97b12b2ed7897aa102302",
+      "bytes": 17775,
+      "sanitized": true
     },
     {
       "source": "isolated/run_native_argmax_micro.py",
@@ -34455,9 +34503,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "224433915751dfb5278c496aa9e47c57f8adb8438449fbb928a5185cff49bb3c",
-      "export_sha256": "224433915751dfb5278c496aa9e47c57f8adb8438449fbb928a5185cff49bb3c",
-      "bytes": 30308,
+      "source_sha256": "bd43b0419d48000409a565faa507abb65db5cdbcdac8756111b9033ba5861feb",
+      "export_sha256": "bd43b0419d48000409a565faa507abb65db5cdbcdac8756111b9033ba5861feb",
+      "bytes": 30534,
       "sanitized": false
     },
     {
@@ -35077,5 +35125,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T19:40:19.619476+00:00"
+  "updated_utc": "2026-11-01T19:42:04.390033+00:00"
 }
