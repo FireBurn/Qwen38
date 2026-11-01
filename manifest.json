@@ -6349,6 +6349,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/native-argmax-hierarchical/BOUNDED-PLAN.md",
+      "path": "archive/isolated/native-argmax-hierarchical/BOUNDED-PLAN.md",
+      "source_sha256": "a51b1ae7a49cdb0bec3948f39ad4d1c8641feece933932e3c307c039a5cf9416",
+      "export_sha256": "a51b1ae7a49cdb0bec3948f39ad4d1c8641feece933932e3c307c039a5cf9416",
+      "bytes": 814,
+      "sanitized": false
+    },
+    {
       "source": "isolated/native-argmax-hierarchical/BUFFER-REVIEW.md",
       "path": "archive/isolated/native-argmax-hierarchical/BUFFER-REVIEW.md",
       "source_sha256": "18a705c586ad3e515b3e69ebde375de8f07da07465040fde130254c77e967e66",
@@ -6375,9 +6383,17 @@
     {
       "source": "isolated/native-argmax-hierarchical/FAULT-REVIEW.md",
       "path": "archive/isolated/native-argmax-hierarchical/FAULT-REVIEW.md",
-      "source_sha256": "9953c6214befede767cbc7dc7c47589fe076f6e08e04eb2ecb047f64eeb203b0",
-      "export_sha256": "9953c6214befede767cbc7dc7c47589fe076f6e08e04eb2ecb047f64eeb203b0",
-      "bytes": 4005,
+      "source_sha256": "d635dcd7c6f072d731fb19acc540bc35fb95cb905057a1f8164ebe2d7ad071a0",
+      "export_sha256": "d635dcd7c6f072d731fb19acc540bc35fb95cb905057a1f8164ebe2d7ad071a0",
+      "bytes": 4693,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/HEALTH-PLAN.md",
+      "path": "archive/isolated/native-argmax-hierarchical/HEALTH-PLAN.md",
+      "source_sha256": "dcd6e94cee379377211abaf2b95ac75ee3ff54731c8480aa72cffac4a6123f76",
+      "export_sha256": "dcd6e94cee379377211abaf2b95ac75ee3ff54731c8480aa72cffac4a6123f76",
+      "bytes": 926,
       "sanitized": false
     },
     {
@@ -6459,6 +6475,62 @@
       "export_sha256": "16bbc1cc222e7c546941b360992f1e8f90a8c67299997a9969cc59f63b1856c8",
       "bytes": 4149,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/assets.json",
+      "source_sha256": "fff8c1c3e52df328df781c9d9225594bdad25565c27a9ee059fc8c22311ccd86",
+      "export_sha256": "8e52d373387f5997cdb1a481bbc3c769f63321157705d63f8ffd6a79d84a0c3d",
+      "bytes": 1583,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/comparison.json",
+      "path": "archive/isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/comparison.json",
+      "source_sha256": "f21c6357d519420489f76d744a0efc7025bd04b4c9cbe92e536d56d7af2b8ec0",
+      "export_sha256": "f21c6357d519420489f76d744a0efc7025bd04b4c9cbe92e536d56d7af2b8ec0",
+      "bytes": 128,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/hier.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/hier.bin",
+      "source_sha256": "6034195ee5c95cc173d156d855766c28bd7a94d2a7817bb9d1671e6dac218b20",
+      "export_sha256": "6034195ee5c95cc173d156d855766c28bd7a94d2a7817bb9d1671e6dac218b20",
+      "bytes": 20,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/hier.log",
+      "source_sha256": "fb8f5cbd846ce46aaeb4d169187b358008f8c56630287a0908e977521a5aba41",
+      "export_sha256": "8752491dcb26ba1ed11565c35fe6a1c0e2269f9a25d68da96b85048afa92b8b2",
+      "bytes": 1070,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/results.json",
+      "path": "archive/isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/results.json",
+      "source_sha256": "802d454f8f61bf2ccc53ebd89e340fc912f28fbb068eef0a63d57e44b8e38f40",
+      "export_sha256": "802d454f8f61bf2ccc53ebd89e340fc912f28fbb068eef0a63d57e44b8e38f40",
+      "bytes": 252,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/stock.bin",
+      "source_sha256": "6034195ee5c95cc173d156d855766c28bd7a94d2a7817bb9d1671e6dac218b20",
+      "export_sha256": "6034195ee5c95cc173d156d855766c28bd7a94d2a7817bb9d1671e6dac218b20",
+      "bytes": 20,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/bounded-check/20261101T193753Z/stock.log",
+      "source_sha256": "3ca6e2f2119cce9dc62629895daac9944fd06c20a79cc3a94f539df180982d13",
+      "export_sha256": "a619fae6fbe347f513ac0ab5e1e0c6b412d8a7e26704cf3c59c3c35ba60e5e12",
+      "bytes": 921,
+      "sanitized": true
     },
     {
       "source": "isolated/native-argmax-hierarchical/check_safe_bounds.py",
@@ -6595,6 +6667,38 @@
       "export_sha256": "e61b95bf1dd5a1492a95a84edef07b5f8329bcbfc99f304f4696fbe7d1fae137",
       "bytes": 3268,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/health-check/20261101T193737Z/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/health-check/20261101T193737Z/assets.json",
+      "source_sha256": "d5b48d940478b334e62cdf7a581f63f97344729611531afd8b7b8028e0468d2e",
+      "export_sha256": "4ac368f0b0d90f67dc78a49446fcb12e95816ad761e121d7f87e72b0cfc72802",
+      "bytes": 997,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/health-check/20261101T193737Z/result.json",
+      "path": "archive/isolated/native-argmax-hierarchical/health-check/20261101T193737Z/result.json",
+      "source_sha256": "6d2df895946ba68bdff539f71b4d48a780b87f78289df45f4ce58bacf9a46e3c",
+      "export_sha256": "6d2df895946ba68bdff539f71b4d48a780b87f78289df45f4ce58bacf9a46e3c",
+      "bytes": 294,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/health-check/20261101T193737Z/stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/health-check/20261101T193737Z/stock.bin",
+      "source_sha256": "23dc5eacfbd1eca658e5ecca47ffe8a6e5029efe6b7bdbceac7cfdd553b3b48a",
+      "export_sha256": "23dc5eacfbd1eca658e5ecca47ffe8a6e5029efe6b7bdbceac7cfdd553b3b48a",
+      "bytes": 20,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/health-check/20261101T193737Z/stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/health-check/20261101T193737Z/stock.log",
+      "source_sha256": "ff3449226a0f7678e87b111eca082cc29e2d49bbbe85f113ca58c85f8f58ede8",
+      "export_sha256": "3219a948a5c81cd397e35e7944a5a0ccc27cd578a233cd8fd636cd0efcd32469",
+      "bytes": 917,
+      "sanitized": true
     },
     {
       "source": "isolated/native-argmax-hierarchical/host-build.json",
@@ -32805,11 +32909,27 @@
       "sanitized": true
     },
     {
+      "source": "isolated/run_native_argmax_health_once.py",
+      "path": "archive/isolated/run_native_argmax_health_once.py",
+      "source_sha256": "e71a1945c6721ca12fc0f89892389213f57209f971315d5e00417602b261ffa0",
+      "export_sha256": "e71a1945c6721ca12fc0f89892389213f57209f971315d5e00417602b261ffa0",
+      "bytes": 3388,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_native_argmax_hier_boundary.py",
       "path": "archive/isolated/run_native_argmax_hier_boundary.py",
       "source_sha256": "8ca13f95188cd35fe9aa8ed1450d198a00b9de7ef72ed72506628a222173fe1f",
       "export_sha256": "8ca13f95188cd35fe9aa8ed1450d198a00b9de7ef72ed72506628a222173fe1f",
       "bytes": 3811,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_argmax_hier_bounded.py",
+      "path": "archive/isolated/run_native_argmax_hier_bounded.py",
+      "source_sha256": "265922752212f5f0d5b2a5df58c798557d77eb92aab95c0c2744b68d27831d66",
+      "export_sha256": "265922752212f5f0d5b2a5df58c798557d77eb92aab95c0c2744b68d27831d66",
+      "bytes": 3931,
       "sanitized": false
     },
     {
@@ -33559,9 +33679,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "1acc11022caa74da3149ffb434770c15925b30377ecb85d95a978dd65e10d7de",
-      "export_sha256": "1acc11022caa74da3149ffb434770c15925b30377ecb85d95a978dd65e10d7de",
-      "bytes": 29928,
+      "source_sha256": "aea6d329c0deeaa048ffc30198c8df76751e14f5e9860e225e97b5358bf3f75c",
+      "export_sha256": "aea6d329c0deeaa048ffc30198c8df76751e14f5e9860e225e97b5358bf3f75c",
+      "bytes": 30088,
       "sanitized": false
     },
     {
@@ -34181,5 +34301,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T19:15:11.309822+00:00"
+  "updated_utc": "2026-11-01T19:38:06.677429+00:00"
 }
