@@ -1,0 +1,22 @@
+{
+  "command": [
+    "/usr/lib/llvm/23/bin/clang++",
+    "-O2",
+    "-std=c++17",
+    "-stdlib=libc++",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/include",
+    "-I${WORKSPACE}/isolated/production-baseline-aa8/ggml-include",
+    "${WORKSPACE}/isolated/native-argmax-hierarchical/boundary-probe.cpp",
+    "-L${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-Wl,-rpath,${WORKSPACE}/isolated/production-baseline-aa8/bin",
+    "-lllama",
+    "-lggml",
+    "-lggml-base",
+    "-pthread",
+    "-o",
+    "${WORKSPACE}/isolated/native-argmax-hierarchical/boundary-probe"
+  ],
+  "source_sha256": "16bbc1cc222e7c546941b360992f1e8f90a8c67299997a9969cc59f63b1856c8",
+  "binary_sha256": "b8a58ca88e97cc41060146018e0009a79f026615bd5393a73eaf47c970fde3ca",
+  "scope": "Compiled diagnostic only; no GPU invocation."
+}

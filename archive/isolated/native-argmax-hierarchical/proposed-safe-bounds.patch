@@ -1,0 +1,21 @@
+--- hier-host/ggml-vulkan.cpp
++++ proposed-safe-bounds/ggml-vulkan.cpp
+@@ -11891,12 +11891,15 @@
+ 
+ void ggml_vk_argmax(ggml_backend_vk_context * ctx, vk_context& subctx, const ggml_tensor * src0, ggml_tensor * dst) {
+     auto& hier=hier_argmax_get(ctx->device);
+-    const uint64_t k=src0->ne[0], rows=ggml_nrows(src0), chunks=(k+2047)/2048;
++    const uint64_t k=src0->ne[0], rows=ggml_nrows(src0);
+     const auto& lim=ctx->device->properties.limits;
+-    const uint64_t scratch_bytes=rows*chunks*64*8;
++    // Avoid wrap in shader's chunk end and in row/index calculations.
++    const bool size_ok = k>=2048 && k<=uint64_t(UINT32_MAX)-2047 && rows>0 && rows<=uint64_t(UINT32_MAX)/k;
++    const uint64_t chunks=size_ok ? (k+2047)/2048 : 0;
++    const uint64_t scratch_bytes=size_ok ? rows*chunks*64*8 : 0;
+     if(hier.partial && hier.final && src0->type==GGML_TYPE_F32 && dst->type==GGML_TYPE_I32 &&
+        ggml_is_contiguous(src0) && ggml_is_contiguous(dst) && src0->ne[2]==1 && src0->ne[3]==1 &&
+-       k>=2048 && k*rows<=UINT32_MAX && rows>0 && chunks<=lim.maxComputeWorkGroupCount[0] &&
++       size_ok && chunks<=lim.maxComputeWorkGroupCount[0] &&
+        rows<=lim.maxComputeWorkGroupCount[0] && rows<=lim.maxComputeWorkGroupCount[1] &&
+        scratch_bytes<=lim.maxStorageBufferRange && scratch_bytes<=64u*1024u*1024u &&
+        get_misalign_bytes(ctx,src0)==0 && get_misalign_bytes(ctx,dst)==0) {

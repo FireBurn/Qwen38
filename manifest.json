@@ -6351,9 +6351,9 @@
     {
       "source": "isolated/native-argmax-hierarchical/FAULT-REVIEW.md",
       "path": "archive/isolated/native-argmax-hierarchical/FAULT-REVIEW.md",
-      "source_sha256": "9e20b85a4b19959e5d9a06e8d4f7e17ae051d9f66bac4ee24db5cfe6d820b572",
-      "export_sha256": "9e20b85a4b19959e5d9a06e8d4f7e17ae051d9f66bac4ee24db5cfe6d820b572",
-      "bytes": 2230,
+      "source_sha256": "79332ac58639fb92a9cc7870052fdb5745a1aba20868ee4b0798689f83042342",
+      "export_sha256": "79332ac58639fb92a9cc7870052fdb5745a1aba20868ee4b0798689f83042342",
+      "bytes": 3158,
       "sanitized": false
     },
     {
@@ -6403,6 +6403,30 @@
       "export_sha256": "a2120af71a2a47fb744ccda0d065071a5af5ea400962e50126d0cee79287b2c0",
       "bytes": 5791,
       "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary-probe-build.json",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary-probe-build.json",
+      "source_sha256": "b9b670fc97103ed1c3cb220375f6490402cb82b9e47aee1623f530077d3c91ef",
+      "export_sha256": "421eb3428c81b265d8fe96798f28c5926a66f4d49387b1a080e3c2de5870532b",
+      "bytes": 820,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/boundary-probe.cpp",
+      "path": "archive/isolated/native-argmax-hierarchical/boundary-probe.cpp",
+      "source_sha256": "16bbc1cc222e7c546941b360992f1e8f90a8c67299997a9969cc59f63b1856c8",
+      "export_sha256": "16bbc1cc222e7c546941b360992f1e8f90a8c67299997a9969cc59f63b1856c8",
+      "bytes": 4149,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/check_safe_bounds.py",
+      "path": "archive/isolated/native-argmax-hierarchical/check_safe_bounds.py",
+      "source_sha256": "55589655f95f15f7499536efd14b56a6baf5cf0b98327c1b1327e7395b5a04ac",
+      "export_sha256": "55589655f95f15f7499536efd14b56a6baf5cf0b98327c1b1327e7395b5a04ac",
+      "bytes": 1113,
+      "sanitized": false
     },
     {
       "source": "isolated/native-argmax-hierarchical/check_source_model.py",
@@ -6562,6 +6586,22 @@
       "source_sha256": "de301b3fd14d9db8976cdda29d0421248cfeb956388dec1794388cea3c5ab625",
       "export_sha256": "de301b3fd14d9db8976cdda29d0421248cfeb956388dec1794388cea3c5ab625",
       "bytes": 2380,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/proposed-safe-bounds.patch",
+      "path": "archive/isolated/native-argmax-hierarchical/proposed-safe-bounds.patch",
+      "source_sha256": "026b23a8fd4b5aaee0488f51646a3c5492c81ef115fef53e6ad43c522e303b75",
+      "export_sha256": "026b23a8fd4b5aaee0488f51646a3c5492c81ef115fef53e6ad43c522e303b75",
+      "bytes": 1413,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/safe-bounds-result.json",
+      "path": "archive/isolated/native-argmax-hierarchical/safe-bounds-result.json",
+      "source_sha256": "5449efe852c097c8601a7595e96300d6d3319fc5732e88be3af814e8562e30d0",
+      "export_sha256": "5449efe852c097c8601a7595e96300d6d3319fc5732e88be3af814e8562e30d0",
+      "bytes": 186,
       "sanitized": false
     },
     {
@@ -34045,5 +34085,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T18:57:40.419242+00:00"
+  "updated_utc": "2026-11-01T18:58:34.916962+00:00"
 }
