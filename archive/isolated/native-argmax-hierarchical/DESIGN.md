@@ -1,0 +1,9 @@
+# Exact parallel argmax design
+
+A global finite max comparator cannot simply be extended to NaNs: native scans separately by original lane and a NaN in a lane's first position blocks every later comparison in that lane; its final comparison tree also has order-dependent NaN behavior. Preserve those semantics directly.
+
+Split each row into contiguous chunks. For each chunk and each original native lane, summarize only positions after that lane's initial element: take the highest non-NaN value and its earliest index. A final workgroup initializes each lane from the original element, visits its chunk summaries in increasing chunk order using the native strict greater-than comparison, then executes the original tree including its bounds check. Empty summaries need an explicit validity bit; negative infinity cannot serve as an empty sentinel. Multiple rows need separate scratch ranges and a device memory dependency between dispatches.
+
+For the observed 248,320-element vocabulary and 2,048-element chunks, 122 chunks times 32 lanes times an illustrative 8-byte value/index summary uses 31,232 bytes per row; a packed invalid index could carry validity. This is a storage estimate: actual layout, subgroup size, dispatch geometry, lifetime and barriers require host integration. The second dispatch and scratch traffic may outweigh parallelism; compare against the qualified 256-lane shader. Do not replace model output-head arithmetic or claim a model gain from this design.
+
+The accompanying CPU source model passed 1,260,304 exhaustive small and fixed-seed randomized comparisons, including signed zero, infinities, NaN positions and ties, against a transcription of the pinned native shader. It is not a GPU, compiler, memory-ordering or full-model proof. GPU operator checks across multiple sizes and rows, captured raw model logits, and independently load-matched timing remain required.
