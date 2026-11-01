@@ -6413,6 +6413,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/native-argmax-hierarchical/MODEL-CONFIRMATION-PLAN.md",
+      "path": "archive/isolated/native-argmax-hierarchical/MODEL-CONFIRMATION-PLAN.md",
+      "source_sha256": "ab2f04d6a3218166543ef15fcbcab3ea67836a66c06914f6da68f0872183aa53",
+      "export_sha256": "ab2f04d6a3218166543ef15fcbcab3ea67836a66c06914f6da68f0872183aa53",
+      "bytes": 1450,
+      "sanitized": false
+    },
+    {
       "source": "isolated/native-argmax-hierarchical/MODEL-TIMING-PLAN.md",
       "path": "archive/isolated/native-argmax-hierarchical/MODEL-TIMING-PLAN.md",
       "source_sha256": "f2a10bad9f107827120e50ec6ec41dbe03fc8aa10a6a7ddd4575141ee0ca4af7",
@@ -7330,6 +7338,1230 @@
       "source_sha256": "b4fd81c7364f130ff26c3d62f1c29dd364977bd45ca1d34f16356ef9731ad720",
       "export_sha256": "b4fd81c7364f130ff26c3d62f1c29dd364977bd45ca1d34f16356ef9731ad720",
       "bytes": 1319,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/00-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/00-stock100-telemetry.json",
+      "source_sha256": "bf4a65c03bf8756d98c1c38171fce23b20590bdc24b313cd271a31d84061af14",
+      "export_sha256": "bf4a65c03bf8756d98c1c38171fce23b20590bdc24b313cd271a31d84061af14",
+      "bytes": 62992,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/00-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/00-stock100.log",
+      "source_sha256": "13fac127acdde6866c9a023729c657b3a803821b93842611d3de447082065c2b",
+      "export_sha256": "c01bd6e06f2cf5f42e0a9f3f97a6a114646f73f9dfa2d94c5ed35e49d08fd749",
+      "bytes": 15067,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/01-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/01-private_wide-telemetry.json",
+      "source_sha256": "de79cb4d2eca0eb4fc0e30e67b9a30fbe39b56e67c6b93de45a3daae7365dae4",
+      "export_sha256": "de79cb4d2eca0eb4fc0e30e67b9a30fbe39b56e67c6b93de45a3daae7365dae4",
+      "bytes": 60314,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/01-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/01-private_wide.log",
+      "source_sha256": "8d77a37d0e78f5cdb934a30a5d1f645415df7780193b517d66e2973dfe9fee4f",
+      "export_sha256": "bfe2c3d62e3b065bb370334b698d0d3ecc27c635ccb6b5abab476b96e9cb3a74",
+      "bytes": 15156,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/02-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/02-private_hier-telemetry.json",
+      "source_sha256": "e9211e2f72e8ad5f2c71e8f4c166894c9e551b5e9febe0e8fd9ddc4cc0b87ec8",
+      "export_sha256": "e9211e2f72e8ad5f2c71e8f4c166894c9e551b5e9febe0e8fd9ddc4cc0b87ec8",
+      "bytes": 61309,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/02-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/02-private_hier.log",
+      "source_sha256": "9b1769f2426ac1bebe424b647bdbddf5baedfe9c25513905f782a1616758b8fe",
+      "export_sha256": "48bdea9e23f636feabb61158a2fcf689bc73fe4d37339b855ef39b66075396da",
+      "bytes": 15168,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/03-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/03-private_hier-telemetry.json",
+      "source_sha256": "a058ad36ec993f9d8826efecc96c69f2354e7601a0161722a8379881b048262c",
+      "export_sha256": "a058ad36ec993f9d8826efecc96c69f2354e7601a0161722a8379881b048262c",
+      "bytes": 60994,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/03-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/03-private_hier.log",
+      "source_sha256": "463e2ecfd4836333504e7f732cff17ffd90142ffe53697181d58f45418bcf052",
+      "export_sha256": "445c437addcb776e0877d11c8aa9408b45715877bdddb614ed93a5841e638eda",
+      "bytes": 15168,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/04-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/04-private_wide-telemetry.json",
+      "source_sha256": "e01c1a886cc6f783a5b94fe52f3652735729cbe4a2cb1c11dbc8e2a069621e10",
+      "export_sha256": "e01c1a886cc6f783a5b94fe52f3652735729cbe4a2cb1c11dbc8e2a069621e10",
+      "bytes": 56462,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/04-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/04-private_wide.log",
+      "source_sha256": "ded827c80e41f064bae4c5107b0d4d735cacaada9004dfbdfec61daec532414c",
+      "export_sha256": "0f634c4045df70ff117e0aa570702b76c7b98ff9f8f68c339989d2f81026a79c",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/05-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/05-stock100-telemetry.json",
+      "source_sha256": "07a5f8708fab87a43c8a89cb15e82786f2d9335ed38aed4d093d0348298df658",
+      "export_sha256": "07a5f8708fab87a43c8a89cb15e82786f2d9335ed38aed4d093d0348298df658",
+      "bytes": 55446,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/05-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/05-stock100.log",
+      "source_sha256": "0d07783be1099968bf31446272296efd98a8ac31f68929eac96ffe2578cc3844",
+      "export_sha256": "c841b69f1acdbb0f5a4d889918025c3b5058dea26b27e733d5996c1633636c02",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/06-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/06-private_wide-telemetry.json",
+      "source_sha256": "25fc33ce6bddd20f90d5223ebd2766a991d4c507c9bd22eb009ece1e5966cb82",
+      "export_sha256": "25fc33ce6bddd20f90d5223ebd2766a991d4c507c9bd22eb009ece1e5966cb82",
+      "bytes": 55457,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/06-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/06-private_wide.log",
+      "source_sha256": "867a4faa63d5c76a6e6136c31db0f7ac1ff4eae8759940ba828d3b9717fb4005",
+      "export_sha256": "8e07eea788670d79868f987a042411e10e6ba17bf23aaaa265dd7184fe6d6288",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/07-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/07-private_hier-telemetry.json",
+      "source_sha256": "926f08b85ef91b05e342148c9f7346e90e9bac1289cc6a26bd9c8e9a29622bca",
+      "export_sha256": "926f08b85ef91b05e342148c9f7346e90e9bac1289cc6a26bd9c8e9a29622bca",
+      "bytes": 54403,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/07-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/07-private_hier.log",
+      "source_sha256": "2ab1789130105c9cb586f420f0270675c069126c46987324702c9b7db4476f44",
+      "export_sha256": "91ac260e216c6c4bb5f0273c801cb7fa8138e6a7ad27656bd0ec47b34c77e237",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/08-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/08-stock100-telemetry.json",
+      "source_sha256": "bbdbfdd4a75f4119e4628680665600d0859d722ac9afc6e484a0189604e14402",
+      "export_sha256": "bbdbfdd4a75f4119e4628680665600d0859d722ac9afc6e484a0189604e14402",
+      "bytes": 55405,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/08-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/08-stock100.log",
+      "source_sha256": "dada364ecbbe733b24880207c4a395226102bb507885c5bef4591f77d3278345",
+      "export_sha256": "0265490d0d693949bdebf03138acbdf254a0d0111037c4cc4509fdc0df06d800",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/09-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/09-stock100-telemetry.json",
+      "source_sha256": "08b2f2014051e101ea83d47a0d56685f9ee8d491301cd73227b09744a3fd66dd",
+      "export_sha256": "08b2f2014051e101ea83d47a0d56685f9ee8d491301cd73227b09744a3fd66dd",
+      "bytes": 55439,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/09-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/09-stock100.log",
+      "source_sha256": "db31e2d6a7d163705b2b6b895391aa5fb73df05aca38581752d2d4860bef9a0c",
+      "export_sha256": "91851b528cc2aa6b8555b5a1417075c6a63806f6a51a9c07127491742044f599",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/10-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/10-private_hier-telemetry.json",
+      "source_sha256": "23775ce63707137f5d269166c851969e55760bd1ba6d981acb3e7c7f2a29789a",
+      "export_sha256": "23775ce63707137f5d269166c851969e55760bd1ba6d981acb3e7c7f2a29789a",
+      "bytes": 54709,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/10-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/10-private_hier.log",
+      "source_sha256": "c4302614ff1d7e21f9dd5da8b37cc651fa8c339389f50bb3df541df4c432548f",
+      "export_sha256": "c27f7f1bebe0217e7ca597fa04c61a75b78c9be150c865e4137494e1ae1f7501",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/11-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/11-private_wide-telemetry.json",
+      "source_sha256": "a253bcdbb018055c68a2a6ec28178c030a3b12cb3b4bb2ea68903b211830d144",
+      "export_sha256": "a253bcdbb018055c68a2a6ec28178c030a3b12cb3b4bb2ea68903b211830d144",
+      "bytes": 55470,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/11-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/11-private_wide.log",
+      "source_sha256": "8fde6ac843241a3ba668265e8e3046c6b6282dae53f3bb9690637f206ee55060",
+      "export_sha256": "4a1fc36484326606d5696ef0c96d67b554ee96eb8a8c351db7ecc7438da32623",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/12-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/12-private_hier-telemetry.json",
+      "source_sha256": "c43b7498e798a42d26eff8d2ed9696bb39216aca738570e694b3f1313bfd3b94",
+      "export_sha256": "c43b7498e798a42d26eff8d2ed9696bb39216aca738570e694b3f1313bfd3b94",
+      "bytes": 54435,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/12-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/12-private_hier.log",
+      "source_sha256": "9afe53eb3f8f6b67a5ccfd6c5c19fdef7512b25563caa8afbcfe6a4c0682a2c5",
+      "export_sha256": "57e6f1d30e533cd3fda2ede15e95a92b48c8895b437b3acaf6eb9ffd98810c85",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/13-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/13-stock100-telemetry.json",
+      "source_sha256": "a7ea9ea7010643bb42911b91c718d98b60250382033857df7ae270608da32b0b",
+      "export_sha256": "a7ea9ea7010643bb42911b91c718d98b60250382033857df7ae270608da32b0b",
+      "bytes": 55409,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/13-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/13-stock100.log",
+      "source_sha256": "b5ac90f51ba065762b639c766dc3540299abda4814723a5000f40c1b77d72bb4",
+      "export_sha256": "13b199c03d9716980e093ff7facc576789a908d5491f7b58e1e93262cd297f26",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/14-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/14-private_wide-telemetry.json",
+      "source_sha256": "6d9602c474e384e75e94440f5ae0bf7673dba156d5bca79a9a908c2e54c96963",
+      "export_sha256": "6d9602c474e384e75e94440f5ae0bf7673dba156d5bca79a9a908c2e54c96963",
+      "bytes": 54662,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/14-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/14-private_wide.log",
+      "source_sha256": "74c91e2e265ff653f8ee9dbf4e4c2ee2c9b3d7ddb95e2cba3b54c0089db176f1",
+      "export_sha256": "b95cf41bc30fe4016db405980faae47fcb576151dfd3947e9fb916496ca26931",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/15-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/15-private_wide-telemetry.json",
+      "source_sha256": "abfc5b27e122fca78289ea7969cfa16ee41d9cd318079c71bbaa96872b8bdeb4",
+      "export_sha256": "abfc5b27e122fca78289ea7969cfa16ee41d9cd318079c71bbaa96872b8bdeb4",
+      "bytes": 55499,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/15-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/15-private_wide.log",
+      "source_sha256": "e34039cca1ee742b772dcc553b878a7aa3bebe2bc7e4e5ed2d90af831c52c5c9",
+      "export_sha256": "224c77d33f133b2985ec6c4a964162a461365f71ffa5e861e09efd0ebe24b3aa",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/16-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/16-stock100-telemetry.json",
+      "source_sha256": "afc562407273afdc9140f69f13c1d9b830d9d882f20faea4091039fbc525dcf3",
+      "export_sha256": "afc562407273afdc9140f69f13c1d9b830d9d882f20faea4091039fbc525dcf3",
+      "bytes": 55395,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/16-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/16-stock100.log",
+      "source_sha256": "deca1fe9f9fce72237cdb17f66667da6d161aec42d721ef970396613f19e1338",
+      "export_sha256": "d922a0a31004b84f6722538c949b85ff42738f9fd18f93ed56ed1df909121bc7",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/17-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/17-private_hier-telemetry.json",
+      "source_sha256": "9eb932575b63faf1cad85bf59cb83ce0d3db60220c44998f45d6fc5187e4c713",
+      "export_sha256": "9eb932575b63faf1cad85bf59cb83ce0d3db60220c44998f45d6fc5187e4c713",
+      "bytes": 54673,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/17-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/17-private_hier.log",
+      "source_sha256": "8e66f25fae9f1587fbe3d7f869a10083e63c348e2a246c0e27c9159cdddcfd7c",
+      "export_sha256": "1fccae0b614d1b6798767eb9b7100758c2f85952af9fb5041744bc62f8cbb76c",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/18-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/18-stock100-telemetry.json",
+      "source_sha256": "11b9a56839540ae657b5738ff778b56103d4f1dcffa6b177a835b0ec8a03db87",
+      "export_sha256": "11b9a56839540ae657b5738ff778b56103d4f1dcffa6b177a835b0ec8a03db87",
+      "bytes": 55387,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/18-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/18-stock100.log",
+      "source_sha256": "47ac399226f31a926315922b346cd243ec78967bdb947ce4aff4d9c55ddd9494",
+      "export_sha256": "7055adc986130cb1796c8d1e805641a029790010aa57819e7544e807c25673df",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/19-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/19-private_hier-telemetry.json",
+      "source_sha256": "524e7b83116bbc4de5717b48d03dd5980ac0e873296ffad5df8e30c2d2fcab4a",
+      "export_sha256": "524e7b83116bbc4de5717b48d03dd5980ac0e873296ffad5df8e30c2d2fcab4a",
+      "bytes": 54340,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/19-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/19-private_hier.log",
+      "source_sha256": "0bc84c04be1117b86bcc31d620ed0fef15fac2d64ca021022105bbfefd5f6a87",
+      "export_sha256": "6acba6d6c9053c8df0cc9b864bb62663a85fe2f0bf8ca39d2e7a2feeb2a8ac30",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/20-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/20-private_wide-telemetry.json",
+      "source_sha256": "e0e103015cd2dcd8c0d4b3a64a257d7c3742257dabdc20edd6882c18f91f5ce8",
+      "export_sha256": "e0e103015cd2dcd8c0d4b3a64a257d7c3742257dabdc20edd6882c18f91f5ce8",
+      "bytes": 54720,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/20-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/20-private_wide.log",
+      "source_sha256": "a999bc1d64dbeff7fc0dbe6560210140027e9babfb966174a60f3cad13288b2f",
+      "export_sha256": "569c73f1a7d5fb4b331edd29ab8fac9e8fa3c329a06570413678c85b4c794ee2",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/21-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/21-private_wide-telemetry.json",
+      "source_sha256": "e454cd676f4aec2ce9d40b223b4995130bc08ddaeba4d3516b365b6afede5217",
+      "export_sha256": "e454cd676f4aec2ce9d40b223b4995130bc08ddaeba4d3516b365b6afede5217",
+      "bytes": 55433,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/21-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/21-private_wide.log",
+      "source_sha256": "e8b944af2654bde9135c5fd4cc5b29ca5a3bf67eec4b988d6aedd89723d0ab17",
+      "export_sha256": "3b2ba1cbc06a60ac006bdec35eaec926ce3f31f66ff5846a281cdda844d3e024",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/22-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/22-private_hier-telemetry.json",
+      "source_sha256": "6806d7cbcac0bd82a4cbdf5b41a6a5d889cb12a1b38166cf3a7f3235045638d8",
+      "export_sha256": "6806d7cbcac0bd82a4cbdf5b41a6a5d889cb12a1b38166cf3a7f3235045638d8",
+      "bytes": 54455,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/22-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/22-private_hier.log",
+      "source_sha256": "7370f21043141300c9d1a306ff6debc1c2043487c07b166af35094e953d88ce3",
+      "export_sha256": "f5f920233584de6af155e40c331704681e0601a824a1d68128b089df3d6bf015",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/23-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/23-stock100-telemetry.json",
+      "source_sha256": "6216fa549568854b4fcae7ac6e72df7b37ed9adf820a2b473a0434af8eca57f9",
+      "export_sha256": "6216fa549568854b4fcae7ac6e72df7b37ed9adf820a2b473a0434af8eca57f9",
+      "bytes": 55465,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/23-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/23-stock100.log",
+      "source_sha256": "9f5612223e8744d9aa469f4384a55034f724bfc59cc9c2e5a178ae561b54564f",
+      "export_sha256": "98dfe5559b8102c2afd592f2f2ae943a4eebdae43a06f5f5e4ce57e596a683b0",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/24-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/24-private_hier-telemetry.json",
+      "source_sha256": "fda0a72d68ffd3f7a29642f73cfecbcaf8a06755f02266ed99b9f694153761f3",
+      "export_sha256": "fda0a72d68ffd3f7a29642f73cfecbcaf8a06755f02266ed99b9f694153761f3",
+      "bytes": 54529,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/24-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/24-private_hier.log",
+      "source_sha256": "a13eb648d86e5071bcd54047a8ae13f5c1cdaf69a9f5906648e35417405d2fb1",
+      "export_sha256": "6659940838a38d23545ac53d8f924d23ded90a7494fae6804bd7de10fc232ca4",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/25-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/25-private_wide-telemetry.json",
+      "source_sha256": "657bf81b2709584b587a7a34060f5ca7589f1c6638df83d71b766cf13793663a",
+      "export_sha256": "657bf81b2709584b587a7a34060f5ca7589f1c6638df83d71b766cf13793663a",
+      "bytes": 55444,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/25-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/25-private_wide.log",
+      "source_sha256": "1397182eac64f30e0f0c42fe98ddcee45906dc1005140bf07298b00a5f4e87d5",
+      "export_sha256": "1699d848b3274e8d4e5984d66261ea1258fbfa9b9ed8d826b148cd9432eb7185",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/26-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/26-stock100-telemetry.json",
+      "source_sha256": "999d9e5645f6cab0d5fec3a346fc0e5d9a98f62a22297cf72f2131f46f8cb2b6",
+      "export_sha256": "999d9e5645f6cab0d5fec3a346fc0e5d9a98f62a22297cf72f2131f46f8cb2b6",
+      "bytes": 55394,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/26-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/26-stock100.log",
+      "source_sha256": "e29fce2f6f5a40d06ed873f10bd8d5da6ea6296cc9a6f1ff22a470e1100de13f",
+      "export_sha256": "b52a048cdb98a560a814d4820cbd45271c6e9bd1bbf741b8f1310d51a0c4ff66",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/27-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/27-stock100-telemetry.json",
+      "source_sha256": "2946c32b663cd83044cdbe9124a6862c2aff28481d7a2d12381db7879e9af393",
+      "export_sha256": "2946c32b663cd83044cdbe9124a6862c2aff28481d7a2d12381db7879e9af393",
+      "bytes": 55529,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/27-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/27-stock100.log",
+      "source_sha256": "884009b3241935ee5f0da1e63c99b6ab9743b0c99c54804f65449102029b7aca",
+      "export_sha256": "8f96ef71c2544cec15c3b958f5d6672526dbd58803dcf4cedef42e4dba9cabf7",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/28-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/28-private_wide-telemetry.json",
+      "source_sha256": "5417d5d47e9097cabc8c66ebca4cc660ef5d9105d284ef5c27c4234cd74ce8fb",
+      "export_sha256": "5417d5d47e9097cabc8c66ebca4cc660ef5d9105d284ef5c27c4234cd74ce8fb",
+      "bytes": 54336,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/28-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/28-private_wide.log",
+      "source_sha256": "e86d67e31550c9490370b88307631c7319d34e9bef7dfbdb29c4b48172528499",
+      "export_sha256": "2cc3fd1cbdd956170265eea2323a6cd141112c75a9de65fac3e014f33c97d5e5",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/29-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/29-private_hier-telemetry.json",
+      "source_sha256": "84cc60ad45112e4ec86e59fcab504b51cbb396baef5f14fe6e97644b3b2f23bf",
+      "export_sha256": "84cc60ad45112e4ec86e59fcab504b51cbb396baef5f14fe6e97644b3b2f23bf",
+      "bytes": 54456,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/29-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/29-private_hier.log",
+      "source_sha256": "5e25a2a4089189b0cf1d801f30a6bb84b35f076761e1bea8f2958ddb29d0b71e",
+      "export_sha256": "aa64e292b1a84be0dd122edd77005c15e19d0093cedac681f5deb7da5bae3891",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/30-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/30-private_wide-telemetry.json",
+      "source_sha256": "0fc5eaf79ed6266018c491be5476517404245271cb0ffefb93160f5a4936bf4a",
+      "export_sha256": "0fc5eaf79ed6266018c491be5476517404245271cb0ffefb93160f5a4936bf4a",
+      "bytes": 54789,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/30-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/30-private_wide.log",
+      "source_sha256": "0098297026a323a5caedd913d9fd00808c7810cdcf328dcd29af73cd78d9b96f",
+      "export_sha256": "a930b7710ecd1d7110b8827d4f0c8084b371faa4b94af3feb4e4eb9801b6ec2c",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/31-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/31-stock100-telemetry.json",
+      "source_sha256": "5db9c4f7022b6c03f23c9996dad7a3ba195859aca96529fab30d23ae6c9e158f",
+      "export_sha256": "5db9c4f7022b6c03f23c9996dad7a3ba195859aca96529fab30d23ae6c9e158f",
+      "bytes": 55494,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/31-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/31-stock100.log",
+      "source_sha256": "bfb6e6b3a4df54573949c3263622b33afc8ead2a45c1a6a2169304ccba3b8c00",
+      "export_sha256": "d6ba27f726dec35695a73258c173a6b51b6136016fc38ce1f89c49bf9666e757",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/32-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/32-private_hier-telemetry.json",
+      "source_sha256": "5ff6baa50d369e40912ac4e3ef4e4ba65eff947a06a37b263a0b439f6252627d",
+      "export_sha256": "5ff6baa50d369e40912ac4e3ef4e4ba65eff947a06a37b263a0b439f6252627d",
+      "bytes": 54379,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/32-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/32-private_hier.log",
+      "source_sha256": "e73d923ce3ce0e0d63715f98190f0af2c035ad065bc358365a8ff4549f2a3aae",
+      "export_sha256": "e178f556d81b5e879136bf9d73221eff0715ee55ba45122a68f37d7dc82bb18d",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/33-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/33-private_hier-telemetry.json",
+      "source_sha256": "b578f113e5543d30b6942cdedd1d4ebe30835a7033f2aba5e722bbb1247bd056",
+      "export_sha256": "b578f113e5543d30b6942cdedd1d4ebe30835a7033f2aba5e722bbb1247bd056",
+      "bytes": 54484,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/33-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/33-private_hier.log",
+      "source_sha256": "84d2a083bccde5f5684d674c8f25872bf0a7fd35f7eb1a556d1eab36b1e933a9",
+      "export_sha256": "5e954eed88a91e56b48038f38b6b1cde0020ce2357c0339265c6e50863daa43d",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/34-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/34-stock100-telemetry.json",
+      "source_sha256": "b90e09d6462e20cae21938c032f3e36372ce1e60045d4ecf8d9e1d6f45840d25",
+      "export_sha256": "b90e09d6462e20cae21938c032f3e36372ce1e60045d4ecf8d9e1d6f45840d25",
+      "bytes": 55505,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/34-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/34-stock100.log",
+      "source_sha256": "ef319b05cd48d4779285580d14383e6737ea98dd167825f30b3b5e72b0a8997f",
+      "export_sha256": "4fedda74331659239e939e7b492fe6890c70c4ede0d9148262a5eed2c14e249e",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/35-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/35-private_wide-telemetry.json",
+      "source_sha256": "85d7115b9a9c1539e7b914a81b9d1e27bc945031ac8e6a5b00c14644b1e41ebe",
+      "export_sha256": "85d7115b9a9c1539e7b914a81b9d1e27bc945031ac8e6a5b00c14644b1e41ebe",
+      "bytes": 54444,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/35-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/35-private_wide.log",
+      "source_sha256": "e19b1ab3df9015ebf76d4692c78ebc392b00bc84d7a9e89e65c3904329de8028",
+      "export_sha256": "cc53b0445aed0c35f63dee243cc6282d3d9cc2ddc2e3f49281212d503a51283d",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/36-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/36-stock100-telemetry.json",
+      "source_sha256": "e4bf293bd77680e1111a1047aad86ed8ee697b40ee893a8e97bee9c3aa8023eb",
+      "export_sha256": "e4bf293bd77680e1111a1047aad86ed8ee697b40ee893a8e97bee9c3aa8023eb",
+      "bytes": 55410,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/36-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/36-stock100.log",
+      "source_sha256": "5e0ff4c47e2c37403f18334c99e1a43ff2b58e9fcd88198ac976cd770af89570",
+      "export_sha256": "5be2d9e87249ab914472f2021b5d1e0c4dc23778ecb098577689b5a42acf3557",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/37-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/37-private_wide-telemetry.json",
+      "source_sha256": "2963b11f70cf5f7c4ed7630d541ed29a0ae080ce48e86595aac0cdfa869ca318",
+      "export_sha256": "2963b11f70cf5f7c4ed7630d541ed29a0ae080ce48e86595aac0cdfa869ca318",
+      "bytes": 55375,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/37-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/37-private_wide.log",
+      "source_sha256": "51541cf42e4990358cb7dc54dcda72c644529e2e6edb1632c1c6bbfb8bfd5a9e",
+      "export_sha256": "71603c1ac47cb45af832a8710994653679deed710bd22701293b5eb41622c78f",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/38-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/38-private_hier-telemetry.json",
+      "source_sha256": "66493d5861536ac22f77327ca282cf769f3d5aa8fca550e4fe084d6f22f686d6",
+      "export_sha256": "66493d5861536ac22f77327ca282cf769f3d5aa8fca550e4fe084d6f22f686d6",
+      "bytes": 55390,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/38-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/38-private_hier.log",
+      "source_sha256": "9b7481a3bc967110d3f2eef28e389924941a49766412573610a8fb81a29be7b2",
+      "export_sha256": "9cead1751935ebbbb564bd217604e672d0fb2e38891af66f8db9f38316560fbe",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/39-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/39-private_hier-telemetry.json",
+      "source_sha256": "7bde2108c0dd34c577c95e3c5614670a2cd0187e14da08170dcc4196b28f2aa0",
+      "export_sha256": "7bde2108c0dd34c577c95e3c5614670a2cd0187e14da08170dcc4196b28f2aa0",
+      "bytes": 56471,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/39-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/39-private_hier.log",
+      "source_sha256": "55301e1a2d18e06b4a6896c31180ca3f1d19f86ed3941c4a74eb4ca7856ed088",
+      "export_sha256": "4ab7e7e2c3374286418785cee9c641a60aa898ae90ecaccaa4443953f49b6c16",
+      "bytes": 15168,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/40-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/40-private_wide-telemetry.json",
+      "source_sha256": "69260b02e51395bc454ba78d2ad443563793d17d46e8fe829ea2e53d5ee35cf4",
+      "export_sha256": "69260b02e51395bc454ba78d2ad443563793d17d46e8fe829ea2e53d5ee35cf4",
+      "bytes": 57103,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/40-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/40-private_wide.log",
+      "source_sha256": "18a07ebd663fe84d261a6260b124ebb2e14d4bdca48fab8032c00fa873ea1c4a",
+      "export_sha256": "1af99c3ed29a597f80c043253d54accc138956aa8b35f70f2ed78da2327eb9f8",
+      "bytes": 15156,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/41-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/41-stock100-telemetry.json",
+      "source_sha256": "90a41a17bac4ccfa29ce257017156d4485495fe8fd21b9cfe2c4db25ed969667",
+      "export_sha256": "90a41a17bac4ccfa29ce257017156d4485495fe8fd21b9cfe2c4db25ed969667",
+      "bytes": 55430,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/41-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/41-stock100.log",
+      "source_sha256": "98daff196698df8e298d109c17764bb3732ba8547275c10657a4057dd29a4957",
+      "export_sha256": "f50b13f07f369e56f7d2b77229f8354fe7699814a4368b2a1ac3cf9d0e4df90e",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/42-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/42-private_wide-telemetry.json",
+      "source_sha256": "b49032ed8b35add8b0e755c6f95a833fc3e7ac6836f28189ec553f2b30978e52",
+      "export_sha256": "b49032ed8b35add8b0e755c6f95a833fc3e7ac6836f28189ec553f2b30978e52",
+      "bytes": 55407,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/42-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/42-private_wide.log",
+      "source_sha256": "48c5b00072f1ef8545b62114cb0cd68b91e623bf7d34851d72413fa345fd9fb2",
+      "export_sha256": "289fa732d270c708f1dbd4040f6385eabf4d1d3d8cf0b486d7b16af424d0d6e3",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/43-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/43-private_hier-telemetry.json",
+      "source_sha256": "a031cad3423022c83c2a58eb114f424592580dea0a76bd8a8047151f6330a9aa",
+      "export_sha256": "a031cad3423022c83c2a58eb114f424592580dea0a76bd8a8047151f6330a9aa",
+      "bytes": 56498,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/43-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/43-private_hier.log",
+      "source_sha256": "f1934135be2ce472907f0e4e83668fec07b0b11eefc410788b4fe9b30ac53aaa",
+      "export_sha256": "bc143bdb08ee5412105228eea116c5ccdd084328ec7667c1a445d6e9754628c8",
+      "bytes": 15168,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/44-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/44-stock100-telemetry.json",
+      "source_sha256": "01336197ad52a8b4fdba3487af4f04444ab22266752f7dc7ba813b36859b58c4",
+      "export_sha256": "01336197ad52a8b4fdba3487af4f04444ab22266752f7dc7ba813b36859b58c4",
+      "bytes": 55407,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/44-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/44-stock100.log",
+      "source_sha256": "da545824b8410e27032f524e3f3965548108718a9286001f06f31172386da0b1",
+      "export_sha256": "279cce03fd8f920dd341a22e4d596d3b631f225abe4eb071ce127b3e3589cf41",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/45-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/45-stock100-telemetry.json",
+      "source_sha256": "65e6ba66878905295277e27d6f0994ba4194b2f492de8acef8f648ee310a4d52",
+      "export_sha256": "65e6ba66878905295277e27d6f0994ba4194b2f492de8acef8f648ee310a4d52",
+      "bytes": 55424,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/45-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/45-stock100.log",
+      "source_sha256": "bf7ec7eb36d194de43aa986f8cdb6819ca2ed861fa17737fda1524b01e5cc431",
+      "export_sha256": "efbd707b8b3de79f58b8cbaae686290c01933553e56c92c2f93544401518a04b",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/46-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/46-private_hier-telemetry.json",
+      "source_sha256": "57bbfd7855c99519c79d44ca8ac0bdece60a4b040aa771b7a7faef1add00a168",
+      "export_sha256": "57bbfd7855c99519c79d44ca8ac0bdece60a4b040aa771b7a7faef1add00a168",
+      "bytes": 55396,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/46-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/46-private_hier.log",
+      "source_sha256": "27a8c44b43dd76dd15d2b945c247f6bc6e0885b8e080d9cc8d3dd59a80743c55",
+      "export_sha256": "53ffb5f54e699dcda3da2c6b84a353a0553703f8ffb328f2ab41fa763162316d",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/47-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/47-private_wide-telemetry.json",
+      "source_sha256": "3bec80988d85cfef1c89f89a408ee76e77db9507dd9bf1c205658b24fcb7c5fc",
+      "export_sha256": "3bec80988d85cfef1c89f89a408ee76e77db9507dd9bf1c205658b24fcb7c5fc",
+      "bytes": 56490,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/47-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/47-private_wide.log",
+      "source_sha256": "e484bbf92121b42330ec5707eac8f96555f358ad3e0ae440fb2f26f28be2ee72",
+      "export_sha256": "40b3c2ec7dbaee877c351b81c05fb0969388f0ee22c3418d51a89d7e8ed75095",
+      "bytes": 15156,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/48-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/48-private_hier-telemetry.json",
+      "source_sha256": "31e5d3dc7411f1c5902fc5a4053bd39dc4aa07e80e84c44e427257b399a21b38",
+      "export_sha256": "31e5d3dc7411f1c5902fc5a4053bd39dc4aa07e80e84c44e427257b399a21b38",
+      "bytes": 56144,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/48-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/48-private_hier.log",
+      "source_sha256": "0c93a9d593879d5d36c0ba75d0d494275fe657740e4f81b860f52d8ec540bd1d",
+      "export_sha256": "3e16912cd6b5bef71195c200c84a57e949deedfec6f9ac6217ca523a5c5749a1",
+      "bytes": 15168,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/49-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/49-stock100-telemetry.json",
+      "source_sha256": "5a56f9cd7840a77386ba87151dfbc63646ff6e7ef2dd47fcaf1db33ad1982c68",
+      "export_sha256": "5a56f9cd7840a77386ba87151dfbc63646ff6e7ef2dd47fcaf1db33ad1982c68",
+      "bytes": 55349,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/49-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/49-stock100.log",
+      "source_sha256": "4294c5ec1084535ae335492e70bbc3d5d97949ecfbc477d1fd2af6a2196bd41c",
+      "export_sha256": "7fba2baf872cef470a0249f718dd879d1c2df7dbc771987cb8a040fdde2ee9f8",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/50-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/50-private_wide-telemetry.json",
+      "source_sha256": "6f4bac272fb7927eb0d30f70f57ad2c22dda0c1dd4bd807b88c1481940d4bbe1",
+      "export_sha256": "6f4bac272fb7927eb0d30f70f57ad2c22dda0c1dd4bd807b88c1481940d4bbe1",
+      "bytes": 55383,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/50-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/50-private_wide.log",
+      "source_sha256": "be07c3659192af111bd50fe75dda2d9d93ab5172a8618084ca7c78a22d06b25b",
+      "export_sha256": "326ccb78ee76d78e0bb2a5ad5728572423d46f036cd86e4203a4ccb1fa530b48",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/51-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/51-private_wide-telemetry.json",
+      "source_sha256": "2539c2a7a63c9ed4e757111c1301fd6635380a45cff5068eea0bd42bea1193ab",
+      "export_sha256": "2539c2a7a63c9ed4e757111c1301fd6635380a45cff5068eea0bd42bea1193ab",
+      "bytes": 54247,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/51-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/51-private_wide.log",
+      "source_sha256": "f68790465be315ba302f90ca955476e2f3099e78fb5f42980a3f8b27b393dc80",
+      "export_sha256": "803d489793ede02a802101f958f2ed22eaf6d40086fa10381d7c2aeb767e1c1b",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/52-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/52-stock100-telemetry.json",
+      "source_sha256": "5995c2371db262068cb7ca5a3bdab1ecbfc3acc6e81b38066c4ca23584096b65",
+      "export_sha256": "5995c2371db262068cb7ca5a3bdab1ecbfc3acc6e81b38066c4ca23584096b65",
+      "bytes": 55335,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/52-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/52-stock100.log",
+      "source_sha256": "75df88d51cd0523111b0d40ff626559295634cac3b643ced36ef4194c725e217",
+      "export_sha256": "2a8ea507c497866b4b7f5b8ddf494180b8d67846679b68cba4eed25577208c5e",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/53-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/53-private_hier-telemetry.json",
+      "source_sha256": "a2347edfe282e62b99447a298e5cd3298a3b74e96cf56300c44dc4ee85953e9b",
+      "export_sha256": "a2347edfe282e62b99447a298e5cd3298a3b74e96cf56300c44dc4ee85953e9b",
+      "bytes": 54292,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/53-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/53-private_hier.log",
+      "source_sha256": "ea0a3941702551779ce04d236b8dc2821bed140e2d74cdc8fc63792203b4a632",
+      "export_sha256": "1a2ccd22f3ca7259a8ac622b369193d8ae66f83400309d54356d3c890968d2d0",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/54-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/54-stock100-telemetry.json",
+      "source_sha256": "fd89f7b90928ac4e88ab7ee6f0f298f464d60c4b04d01a3a4df00afbafb38f06",
+      "export_sha256": "fd89f7b90928ac4e88ab7ee6f0f298f464d60c4b04d01a3a4df00afbafb38f06",
+      "bytes": 55377,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/54-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/54-stock100.log",
+      "source_sha256": "a84c5cfc70f4b3857bfc8bcd9bb50c0bd4d43127bc75f4a59cc61b81035e7eb2",
+      "export_sha256": "03fbcb548a6fb9f00a1c9e2b7f846b1ab64f364248099be0ceecb87de976b11f",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/55-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/55-private_hier-telemetry.json",
+      "source_sha256": "36f483b5a79afb9cb453d31861449e3675649a7de0e6787cff185aaa9545c92b",
+      "export_sha256": "36f483b5a79afb9cb453d31861449e3675649a7de0e6787cff185aaa9545c92b",
+      "bytes": 54314,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/55-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/55-private_hier.log",
+      "source_sha256": "d813a2015b0363e34590b9eb55d536969f7660b38fce89b11c568babfa9b783c",
+      "export_sha256": "18c974271633b42e94eae2a4bac3dd935752e93cc13a2074b8a5c813a6625fe7",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/56-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/56-private_wide-telemetry.json",
+      "source_sha256": "49b81d7be766e87e17ed418263a7e17b8e4de47f819cc4f9a036ef3ee163ed91",
+      "export_sha256": "49b81d7be766e87e17ed418263a7e17b8e4de47f819cc4f9a036ef3ee163ed91",
+      "bytes": 54267,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/56-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/56-private_wide.log",
+      "source_sha256": "d960580747d641be6a1b2b493517265ba3f68e2a644cc7b42b9b7469b68b11a2",
+      "export_sha256": "d3db30b725f4d32aad2a4e772d678e687ef5c484580d8ff70264e943cc6ee9db",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/57-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/57-private_wide-telemetry.json",
+      "source_sha256": "00d7bf9b22edf58f451ce5c9c6ee12b1b4626a1775b2b0dfec13eb004923b7b2",
+      "export_sha256": "00d7bf9b22edf58f451ce5c9c6ee12b1b4626a1775b2b0dfec13eb004923b7b2",
+      "bytes": 55362,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/57-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/57-private_wide.log",
+      "source_sha256": "0b1d446bac595587cb6441e825377c1ed7c5ba4050122b659b4ad7f4a09ce6d6",
+      "export_sha256": "db61dde0fb87abf0d1fe6f4739494f0ef1aa488fe970d34eeec3f7fd6d2c69fa",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/58-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/58-private_hier-telemetry.json",
+      "source_sha256": "eab06cc97f50ebd095558f430fb4459d128a28ad1cc7864951d15b0c3ad57695",
+      "export_sha256": "eab06cc97f50ebd095558f430fb4459d128a28ad1cc7864951d15b0c3ad57695",
+      "bytes": 55441,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/58-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/58-private_hier.log",
+      "source_sha256": "11c9e7100a167d5bd16405bfbaacd8b847c3966fbf64c4f15a5116c1f48da2a1",
+      "export_sha256": "1e833e0485bc669daab97cfda1e8705ac186cf877538a10cd8c49ed59c73f46a",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/59-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/59-stock100-telemetry.json",
+      "source_sha256": "39eebff266fd0b7d392a0e53377d3c97fa6a04511374135cc81c81a69fd1a8a2",
+      "export_sha256": "39eebff266fd0b7d392a0e53377d3c97fa6a04511374135cc81c81a69fd1a8a2",
+      "bytes": 55412,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/59-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/59-stock100.log",
+      "source_sha256": "fbe2dd7d724ef2798559f9354ce0063500c6fc923ac6b8da6615638f73af1308",
+      "export_sha256": "e9193faabe81710fe93d1839aa3bf6caaa27e916f434a050fe920e41e5765056",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/60-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/60-private_hier-telemetry.json",
+      "source_sha256": "5b7e1d5ac7b3864ab9a4dcaa57b129c5d9e687f3a86a2fe5ae906bfeb24984b1",
+      "export_sha256": "5b7e1d5ac7b3864ab9a4dcaa57b129c5d9e687f3a86a2fe5ae906bfeb24984b1",
+      "bytes": 54644,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/60-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/60-private_hier.log",
+      "source_sha256": "0198455f322f88b14efe3490b334c151afc339fc542327c8ea8532bfffbc5ed0",
+      "export_sha256": "da493aaa1cc4109345da4a56a5350de8094699fda9a1a064ec3361e572f7938d",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/61-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/61-private_wide-telemetry.json",
+      "source_sha256": "5ef1f2526afc2e79df3848666f274ccb3c81bd676992d07b6c681e8a04851962",
+      "export_sha256": "5ef1f2526afc2e79df3848666f274ccb3c81bd676992d07b6c681e8a04851962",
+      "bytes": 55388,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/61-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/61-private_wide.log",
+      "source_sha256": "7c51c10319d3fdca7ec75ce96e9cac66a12126114636aa4c3c29a0e6feaeb311",
+      "export_sha256": "d6f6646abc0e808b6a168cf0a3b1e26280b717406023855cdde5877b3f45c9f5",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/62-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/62-stock100-telemetry.json",
+      "source_sha256": "205a1cbbef9a4c43ea0b26947c7bd50776f6ea247388bb16ab051609033f2a37",
+      "export_sha256": "205a1cbbef9a4c43ea0b26947c7bd50776f6ea247388bb16ab051609033f2a37",
+      "bytes": 55396,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/62-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/62-stock100.log",
+      "source_sha256": "ee5e9bba461dcbd6f1ee0ac964615719cf879d90fcbd995a1a68e6efee0ab0d5",
+      "export_sha256": "0776be684f9edeb0b2f5c0dafbc6f14400d249e0cc213a1a992d23c313fb6f7e",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/63-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/63-stock100-telemetry.json",
+      "source_sha256": "4cc77f6d738dfe542d459f5295c1c04cf1327866e63b76ff1b062e8a6dc95909",
+      "export_sha256": "4cc77f6d738dfe542d459f5295c1c04cf1327866e63b76ff1b062e8a6dc95909",
+      "bytes": 56047,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/63-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/63-stock100.log",
+      "source_sha256": "e3cefe80c7d6b524f3edb6d9a8afbe1fe2e23555737db3921f4cf077c25b4044",
+      "export_sha256": "f581ace83c48bc319886a5d0fce86cf59b39f67fb5f66e07aba874e4f75e9837",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/64-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/64-private_wide-telemetry.json",
+      "source_sha256": "9176fe5c616344958618f96e9d35c443ca151e30670fd74508bf0575c04a8071",
+      "export_sha256": "9176fe5c616344958618f96e9d35c443ca151e30670fd74508bf0575c04a8071",
+      "bytes": 56459,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/64-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/64-private_wide.log",
+      "source_sha256": "bfcf461fd20ad7679d299627b468041848c58ada45202f79eaccbf4f066cc351",
+      "export_sha256": "b7104f7919a1dfb6fefd6c3ac6c3809dcf03432186085341c08c80c7bc29269b",
+      "bytes": 15156,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/65-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/65-private_hier-telemetry.json",
+      "source_sha256": "b03837f283cdf1c56927aeefe5ce238604aa5094782e028162c3ade84c6bdcde",
+      "export_sha256": "b03837f283cdf1c56927aeefe5ce238604aa5094782e028162c3ade84c6bdcde",
+      "bytes": 55456,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/65-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/65-private_hier.log",
+      "source_sha256": "7f7398afdf14371175032099241875c4ff9b5ffe6cd3241f21ccf00287387a0c",
+      "export_sha256": "b8309838cf4033ce8117a934ecc19ca5434e62e43eef0927e8a3fd65bb8ba98a",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/66-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/66-private_wide-telemetry.json",
+      "source_sha256": "16f776e88f9cee573a5d7fe7622f4bdd8e3cfd9d95378d8d873ec07edb3fe4d1",
+      "export_sha256": "16f776e88f9cee573a5d7fe7622f4bdd8e3cfd9d95378d8d873ec07edb3fe4d1",
+      "bytes": 57244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/66-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/66-private_wide.log",
+      "source_sha256": "05f87f77b2fc81f32da277e38a833fc16403a1e1da3174d150f20e1dacce9428",
+      "export_sha256": "544b838f0ebb3e286c3c2a9daea2944d7f155a6a8745d43d33e4892c258be3cc",
+      "bytes": 15156,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/67-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/67-stock100-telemetry.json",
+      "source_sha256": "989ba431b8a28020a46ef606df91c9e5f14b5bd5a68d6e2475a7a4554f35b6c6",
+      "export_sha256": "989ba431b8a28020a46ef606df91c9e5f14b5bd5a68d6e2475a7a4554f35b6c6",
+      "bytes": 57141,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/67-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/67-stock100.log",
+      "source_sha256": "d60cae58ec127fb77c1ca7760eb4bdd9f5adba1f709a0ecce3e5ce73bfb3abea",
+      "export_sha256": "4cbc5c16a9c7bc92b989ea7074a319821fefd2428695064e80c0d53c18e554ec",
+      "bytes": 15067,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/68-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/68-private_hier-telemetry.json",
+      "source_sha256": "de9f7a1a54d50ecec454db830363805756104c04678144a83ee8318ec06741ed",
+      "export_sha256": "de9f7a1a54d50ecec454db830363805756104c04678144a83ee8318ec06741ed",
+      "bytes": 56394,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/68-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/68-private_hier.log",
+      "source_sha256": "c856f59c66ca9c81c0f7f1ec5e26b24c6f0b906deb3332e43805599118f0c86b",
+      "export_sha256": "8b7fc590c3d8104cc2fdf0d7f9e4bd71d24edaba9459841ec10df20190a1e704",
+      "bytes": 15168,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/69-private_hier-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/69-private_hier-telemetry.json",
+      "source_sha256": "1e92c1d73a742eaadcfb0bda4a93da35f58b8e09dedd4e48a2b5276c9e72dd76",
+      "export_sha256": "1e92c1d73a742eaadcfb0bda4a93da35f58b8e09dedd4e48a2b5276c9e72dd76",
+      "bytes": 54267,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/69-private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/69-private_hier.log",
+      "source_sha256": "5e78153f7923d9a6f0527887c25c7e50d62ca1b8d0d184a48a65c8c2ebeb2fc0",
+      "export_sha256": "a56e552230794e9a320423d1e1b066d87006c75836c6a49b02a6a394c32b805b",
+      "bytes": 15167,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/70-stock100-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/70-stock100-telemetry.json",
+      "source_sha256": "63a880dc66594bd88f92683f63f6626203ff03ae3afe7289b08eb09dbe1c0ee6",
+      "export_sha256": "63a880dc66594bd88f92683f63f6626203ff03ae3afe7289b08eb09dbe1c0ee6",
+      "bytes": 55401,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/70-stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/70-stock100.log",
+      "source_sha256": "fa8b5e9f1f8f4cf0c3379c99000e70d035bf567a96a60efcc4a52966151b6f25",
+      "export_sha256": "ac33ff47f1e8d336072d8d02b0ce6f3722ab5a4e114a61408b4c8cbec2ae8855",
+      "bytes": 15066,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/71-private_wide-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/71-private_wide-telemetry.json",
+      "source_sha256": "1c4c961e76f9ff5b491c6d3938ab3790c35959c428c182b819996f224cfc942b",
+      "export_sha256": "1c4c961e76f9ff5b491c6d3938ab3790c35959c428c182b819996f224cfc942b",
+      "bytes": 54305,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/71-private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/71-private_wide.log",
+      "source_sha256": "280fde61fea39aac103756e72abab3ece112767dfd79c62019e94af724258486",
+      "export_sha256": "9b422606ce65847a1a4d4de41cd8f14b56c6ccf5a9c5f0ac61a9455918283ddc",
+      "bytes": 15155,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/assets.json",
+      "source_sha256": "e6514811cf225ba767142bc618fefddc15b6ae5815e0b3afa5209e2648507db7",
+      "export_sha256": "1e4acb9250486053dc781d030989099a89f1cd17d9830f378631738d0c0fe745",
+      "bytes": 3417,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/confirmation-analysis.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/confirmation-analysis.json",
+      "source_sha256": "dc1adfde8427f95d0ebcf226b5b5669214e385bef8015cb859ddfef032555d94",
+      "export_sha256": "dc1adfde8427f95d0ebcf226b5b5669214e385bef8015cb859ddfef032555d94",
+      "bytes": 50228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/full-generation-analysis.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/full-generation-analysis.json",
+      "source_sha256": "bdd757d70bbe6bcc4f003f5258a3098f806ac50ef18072446c1198d486c66aa8",
+      "export_sha256": "bdd757d70bbe6bcc4f003f5258a3098f806ac50ef18072446c1198d486c66aa8",
+      "bytes": 384,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/metadata-correction.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/metadata-correction.json",
+      "source_sha256": "13b2c4237ebe08c87daf70b167205153e6b892538e3e65e98b05d803a2571e55",
+      "export_sha256": "13b2c4237ebe08c87daf70b167205153e6b892538e3e65e98b05d803a2571e55",
+      "bytes": 479,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/model-identity.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/model-identity.json",
+      "source_sha256": "482c5ce7b995e51f607a789d9662d18500f6ffb13005d0ec6d64cc34ba5cb35c",
+      "export_sha256": "482c5ce7b995e51f607a789d9662d18500f6ffb13005d0ec6d64cc34ba5cb35c",
+      "bytes": 151,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/postrun-verification.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/postrun-verification.json",
+      "source_sha256": "1a16a10ad7106859cbbce389f55f6ce593a083bf0f2666e4619cc8cefb891dec",
+      "export_sha256": "1a16a10ad7106859cbbce389f55f6ce593a083bf0f2666e4619cc8cefb891dec",
+      "bytes": 197,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/protocol.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/protocol.json",
+      "source_sha256": "9bf7248e53b72d6079f38525df8b61507ba5784283ddf8fcccd4bb80e329e33a",
+      "export_sha256": "9bf7248e53b72d6079f38525df8b61507ba5784283ddf8fcccd4bb80e329e33a",
+      "bytes": 3866,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/results.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/results.json",
+      "source_sha256": "8fb3ea7bd4bc01640d213c683d3f6ab7c544ffe374b622ca30b944c0c912c867",
+      "export_sha256": "8fb3ea7bd4bc01640d213c683d3f6ab7c544ffe374b622ca30b944c0c912c867",
+      "bytes": 590335,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/runtime-baseline.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model-timing512/20261101T194416Z/runtime-baseline.json",
+      "source_sha256": "03262e08ba10dbec0d5c56c4525ed1bbc2c05eeb4d7db64964029d94656f6e15",
+      "export_sha256": "03262e08ba10dbec0d5c56c4525ed1bbc2c05eeb4d7db64964029d94656f6e15",
+      "bytes": 135,
       "sanitized": false
     },
     {
@@ -33933,6 +35165,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_native_argmax_hier_confirm.py",
+      "path": "archive/isolated/run_native_argmax_hier_confirm.py",
+      "source_sha256": "09b391630ba676290442ecdf636bfe004dfb9a4e9acad996367c36ca133c56c3",
+      "export_sha256": "be4901ac937a5e401397c75157bdfaf87fb8b57446341533425a0e0fd29c6133",
+      "bytes": 18778,
+      "sanitized": true
+    },
+    {
       "source": "isolated/run_native_argmax_hier_kv64.py",
       "path": "archive/isolated/run_native_argmax_hier_kv64.py",
       "source_sha256": "beddaa261593d64126c33ec1005ffe1814f3e75b2d83e1839e3efea10391a9e8",
@@ -34719,9 +35959,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "0b881b5af2f349f83da2e2fed45b19be6e45b84b7ab6b7464ee56ce0460a430c",
-      "export_sha256": "0b881b5af2f349f83da2e2fed45b19be6e45b84b7ab6b7464ee56ce0460a430c",
-      "bytes": 30603,
+      "source_sha256": "291d47590cc103f43ec1f7b212e6ea591a87a839a8eec4eda855973eb6871012",
+      "export_sha256": "291d47590cc103f43ec1f7b212e6ea591a87a839a8eec4eda855973eb6871012",
+      "bytes": 30677,
       "sanitized": false
     },
     {
@@ -35341,5 +36581,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T19:44:07.900136+00:00"
+  "updated_utc": "2026-11-01T20:03:47.076000+00:00"
 }
