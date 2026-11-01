@@ -1,0 +1,123 @@
+{
+  "blocks": [
+    {
+      "block": 0,
+      "matched": true,
+      "log_time_effect": -0.009041943946154873,
+      "cpu": {
+        "wide": 0.02061230855167786,
+        "subgroup": 0.01812716755775739
+      },
+      "builds": {
+        "wide": 0,
+        "subgroup": 0
+      },
+      "runnable": {
+        "wide": 1.1923076923076923,
+        "subgroup": 1.2833333333333332
+      }
+    },
+    {
+      "block": 1,
+      "matched": true,
+      "log_time_effect": -0.020847079245692512,
+      "cpu": {
+        "wide": 0.0188870211508834,
+        "subgroup": 0.015974137877289813
+      },
+      "builds": {
+        "wide": 0,
+        "subgroup": 0
+      },
+      "runnable": {
+        "wide": 1.2999999999999998,
+        "subgroup": 1.75
+      }
+    },
+    {
+      "block": 2,
+      "matched": true,
+      "log_time_effect": -0.00824587907114882,
+      "cpu": {
+        "wide": 0.014293682078234948,
+        "subgroup": 0.02258674628615387
+      },
+      "builds": {
+        "wide": 0,
+        "subgroup": 0
+      },
+      "runnable": {
+        "wide": 1.2,
+        "subgroup": 1.2666666666666666
+      }
+    },
+    {
+      "block": 3,
+      "matched": true,
+      "log_time_effect": -0.02552484532888233,
+      "cpu": {
+        "wide": 0.016724989433802226,
+        "subgroup": 0.01602574411686878
+      },
+      "builds": {
+        "wide": 0,
+        "subgroup": 0
+      },
+      "runnable": {
+        "wide": 1.2666666666666666,
+        "subgroup": 1.1833333333333333
+      }
+    },
+    {
+      "block": 4,
+      "matched": true,
+      "log_time_effect": -0.024995019767406923,
+      "cpu": {
+        "wide": 0.017773297269867882,
+        "subgroup": 0.015584927280388
+      },
+      "builds": {
+        "wide": 0,
+        "subgroup": 0
+      },
+      "runnable": {
+        "wide": 1.3333333333333333,
+        "subgroup": 1.5
+      }
+    },
+    {
+      "block": 5,
+      "matched": true,
+      "log_time_effect": 0.02264462893727881,
+      "cpu": {
+        "wide": 0.036643136344269,
+        "subgroup": 0.018289167730020595
+      },
+      "builds": {
+        "wide": 0,
+        "subgroup": 0
+      },
+      "runnable": {
+        "wide": 1.7833333333333332,
+        "subgroup": 1.5666666666666667
+      }
+    }
+  ],
+  "all6": {
+    "blocks": 6,
+    "geometric_time_change_percent": -1.0941392474968687,
+    "descriptive_t95_percent": [
+      -2.9602326548473794,
+      0.8078394953220498
+    ]
+  },
+  "matched": {
+    "blocks": 6,
+    "geometric_time_change_percent": -1.0941392474968687,
+    "descriptive_t95_percent": [
+      -2.9602326548473794,
+      0.8078394953220498
+    ]
+  },
+  "scope": "Fixed24operatorwalltime only, wholeprocessloadmatching, no model/speedup/equalclock/adoption claim."
+}

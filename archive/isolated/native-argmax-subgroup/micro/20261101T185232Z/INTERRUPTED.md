@@ -1,0 +1,1 @@
+The first comparison overlapped a separate llama server, which the existing process guard did not detect. The comparison was interrupted after 23 complete samples when the server was stopped; these data are excluded entirely from the fresh study. The guard now checks for the `llama server` command as well.

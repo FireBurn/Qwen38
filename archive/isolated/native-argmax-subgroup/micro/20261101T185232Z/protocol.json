@@ -1,0 +1,29 @@
+{
+  "sequence": [
+    "wide",
+    "subgroup",
+    "subgroup",
+    "wide",
+    "subgroup",
+    "wide",
+    "wide",
+    "subgroup",
+    "wide",
+    "subgroup",
+    "subgroup",
+    "wide",
+    "subgroup",
+    "wide",
+    "wide",
+    "subgroup",
+    "wide",
+    "subgroup",
+    "subgroup",
+    "wide",
+    "subgroup",
+    "wide",
+    "wide",
+    "subgroup"
+  ],
+  "plan": "# Subgroup reduction operator comparison\n\nCompare the previously qualified 256-lane wide shader with the new subgroup-shuffle shader, using the same private backend, K=248320, 16 argmax-plus-gather copies, 60 synchronous iterations and 16 warm graphs. Run 24 fresh processes in six alternating ABBA/BAAB blocks; use the same driver, environment, bench and input for both arms. Check exact selected indices and values and no new GPU errors. Record whole-process CPU busy, background build count, runnable threads and optional natural GPU clock/power. A block matches when CPU busy differs by at most 5 percentage points, build count by at most 2, and runnable count by at most the greater of 4 or 15% of the arm mean. Analyze per-block log candidate/baseline time ratios and descriptive t intervals; no extension or pooling. A negative upper bound in at least four matched blocks warrants broader model qualification and a separate model A/B; a positive or inconclusive result does not establish model performance. This diagnostic includes host submission and waits, and does not control clock, measure isolated shader time, or establish model speed.\n"
+}

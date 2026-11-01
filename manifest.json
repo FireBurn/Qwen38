@@ -1773,6 +1773,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/mtp-boundary-dedup-20261101.json",
+      "path": "archive/isolated/mtp-boundary-dedup-20261101.json",
+      "source_sha256": "86f58b961e2f732af646f2ba6207b5a04e051884948043cdb7f36277883bcaad",
+      "export_sha256": "86f58b961e2f732af646f2ba6207b5a04e051884948043cdb7f36277883bcaad",
+      "bytes": 6917,
+      "sanitized": false
+    },
+    {
       "source": "isolated/mtp-broadcast/STATUS.md",
       "path": "archive/isolated/mtp-broadcast/STATUS.md",
       "source_sha256": "c69acebb62dd0f49375f9cb4d558a0eac05d9417ce40931966d34a36b55ba2a2",
@@ -9493,6 +9501,14 @@
       "sanitized": true
     },
     {
+      "source": "isolated/native-argmax-subgroup/MICRO-PLAN.md",
+      "path": "archive/isolated/native-argmax-subgroup/MICRO-PLAN.md",
+      "source_sha256": "75271b3e3eeb33e68b624a896809990d6759b1c2c9b267112903f7c04a8b77a6",
+      "export_sha256": "75271b3e3eeb33e68b624a896809990d6759b1c2c9b267112903f7c04a8b77a6",
+      "bytes": 1150,
+      "sanitized": false
+    },
+    {
       "source": "isolated/native-argmax-subgroup/argmax-subgroup.comp",
       "path": "archive/isolated/native-argmax-subgroup/argmax-subgroup.comp",
       "source_sha256": "28ddd85017f6aedbd9ef1c7232fd653d05504adb35eeca2220cead7bbadca411",
@@ -9595,6 +9611,822 @@
       "export_sha256": "629000ba978e45de228951b6e8ec436e5729be8d1114f7ea639122d3b9e4a4b9",
       "bytes": 853,
       "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/00-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/00-telemetry.json",
+      "source_sha256": "082ee3e8cb10994eafc1bbd76389965fc1b00edbec777a12e1d0b73e3b0941e9",
+      "export_sha256": "082ee3e8cb10994eafc1bbd76389965fc1b00edbec777a12e1d0b73e3b0941e9",
+      "bytes": 1343,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/00-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/00-wide.log",
+      "source_sha256": "4a6c0a7f534cbb727f7bb915862df0458c8b06ec412ad6e08c742b1cb7b55e96",
+      "export_sha256": "5f149ce74d325565305fa3fb5ecb9ca4f400153494f1ba4545ebd15945bb7412",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/01-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/01-subgroup.log",
+      "source_sha256": "cb7e8f49047399f1cf830e82088e3fd7010f6b81318c29bf113af669abf9e5f0",
+      "export_sha256": "5d661fdf14e62845a683bc3d341c0e15ec98e3133fa0d187b6d5ca65e9fe265e",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/01-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/01-telemetry.json",
+      "source_sha256": "5b384a1b3a0d2c9ca86bfae07db23b369e67c40a2a472a30b6363f1cd105ee57",
+      "export_sha256": "5b384a1b3a0d2c9ca86bfae07db23b369e67c40a2a472a30b6363f1cd105ee57",
+      "bytes": 1210,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/02-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/02-subgroup.log",
+      "source_sha256": "d618e9bf94e45cbbfbda6c71ef2754ccef084009b817d69cd9df454cc19c1067",
+      "export_sha256": "f46045b96cd91914d3caa81c61848db5c6825eed76cda6296871355e13c7a0a8",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/02-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/02-telemetry.json",
+      "source_sha256": "5e086f95ad5937a8b3694a0e04c9532976c0be6dfda6938377bcfb9c60adb16b",
+      "export_sha256": "5e086f95ad5937a8b3694a0e04c9532976c0be6dfda6938377bcfb9c60adb16b",
+      "bytes": 1040,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/03-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/03-telemetry.json",
+      "source_sha256": "faa77494df1efd5c30b8629f7a94fe88ee713ea159282c528f880fc4fdb1b46c",
+      "export_sha256": "faa77494df1efd5c30b8629f7a94fe88ee713ea159282c528f880fc4fdb1b46c",
+      "bytes": 886,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/03-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/03-wide.log",
+      "source_sha256": "848c0f58ec31107b10edbdda594f0763bf53d5ae13c26dfb5aa029fe46cc32df",
+      "export_sha256": "dc6edfb4aed971d01879abf7e8518f2465432d323031bc19dbba1c5fb805e2fa",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/04-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/04-subgroup.log",
+      "source_sha256": "944656ea93c4532434afd3e4849abd4e231cafc26f2874db98d48e8b4618cf3e",
+      "export_sha256": "bfbfc111cd69343de4646c045aaaf7a70482b0735c2dfd9d6800d2e227df5049",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/04-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/04-telemetry.json",
+      "source_sha256": "c3915a92a77635ff475f6f4e7d85c0bd384565d1bb2728d065f35adf5dbc233d",
+      "export_sha256": "c3915a92a77635ff475f6f4e7d85c0bd384565d1bb2728d065f35adf5dbc233d",
+      "bytes": 887,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/05-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/05-telemetry.json",
+      "source_sha256": "17fec61cf6394e91050021b05e3b80f154d001af06692e551e1fdece0c7cb897",
+      "export_sha256": "17fec61cf6394e91050021b05e3b80f154d001af06692e551e1fdece0c7cb897",
+      "bytes": 888,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/05-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/05-wide.log",
+      "source_sha256": "a3c8e0907550fcc838bcdda2006be770380cd2ac7b274848a20c405dd23c9e7e",
+      "export_sha256": "53c982ccd42d7d46faa6e784cb75d8879466aa7e568601e4397f0476b461b660",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/06-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/06-telemetry.json",
+      "source_sha256": "ad5f21d62acc203298d2cb07fe984758cc9f1c206a843b60d66d840d2e33e075",
+      "export_sha256": "ad5f21d62acc203298d2cb07fe984758cc9f1c206a843b60d66d840d2e33e075",
+      "bytes": 886,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/06-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/06-wide.log",
+      "source_sha256": "e0830714edf0d5d62a2ceee54a062d4d7b7d6ac134aad1e4751f03c0e0c4449d",
+      "export_sha256": "f6076bf742d8685a08b781f8f2a8f7b1e7bbe0653807de224a7fa57f63bc1cf8",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/07-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/07-subgroup.log",
+      "source_sha256": "a4d2f216a7ba474a4e0dffc202b17ac1109eb6b569b768e7de51967b5b6f5fac",
+      "export_sha256": "44fe548c30d1bbc64cf989148f4edb1853123ca66e6a2ea5e17bc117e10f6200",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/07-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/07-telemetry.json",
+      "source_sha256": "8eb5c37521db456f1314b2b162b25f509c6b228cda3d36fdb9b3df14a17afcb5",
+      "export_sha256": "8eb5c37521db456f1314b2b162b25f509c6b228cda3d36fdb9b3df14a17afcb5",
+      "bytes": 887,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/08-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/08-telemetry.json",
+      "source_sha256": "9486383615e46351154d7b6d601a5bf09f35012ad20dd40df409bebae9f30f76",
+      "export_sha256": "9486383615e46351154d7b6d601a5bf09f35012ad20dd40df409bebae9f30f76",
+      "bytes": 887,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/08-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/08-wide.log",
+      "source_sha256": "79233e6a09d1a28d7470c6276976269f44c15602dcb4df359f6301e7902a3046",
+      "export_sha256": "ab663804082718f4fba20ae6f22c43019231e626f807be656001a53fca0c8f45",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/09-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/09-subgroup.log",
+      "source_sha256": "23382286ba95dee9f8af25f1016984d919cec65265d1290230b4cf276ca17553",
+      "export_sha256": "38d157b53f45deefa7f16938aa13c9d22400dc2f74de5595803191bd2208d0fc",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/09-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/09-telemetry.json",
+      "source_sha256": "39efecfd92ace66e718d9e18111e6d83f9508947b93e0828b04263d6f93827d7",
+      "export_sha256": "39efecfd92ace66e718d9e18111e6d83f9508947b93e0828b04263d6f93827d7",
+      "bytes": 888,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/10-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/10-subgroup.log",
+      "source_sha256": "26752770959ce65074656ae44611bdb4dd4ee3bf024d333b15b086732686a96a",
+      "export_sha256": "1d39f408d078413ab1cb1ce187cc49eba69d1eb0235462246f224b6db0ea96e8",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/10-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/10-telemetry.json",
+      "source_sha256": "c2b24f22913cb61d8720e8218c49848c2bf4fbb77e4f51e7dafacc4284f17048",
+      "export_sha256": "c2b24f22913cb61d8720e8218c49848c2bf4fbb77e4f51e7dafacc4284f17048",
+      "bytes": 904,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/11-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/11-telemetry.json",
+      "source_sha256": "f5a9ac8935109b5ca9cfde0924e9f55aae39f8581a8f9068b03d7af72110ce1e",
+      "export_sha256": "f5a9ac8935109b5ca9cfde0924e9f55aae39f8581a8f9068b03d7af72110ce1e",
+      "bytes": 887,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/11-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/11-wide.log",
+      "source_sha256": "5b9002e5826cc4374131b4e6c1eb3b29063932916c14878c4291eeb802a22059",
+      "export_sha256": "43ec9623d69ca68b0c4cd2382c9cdca691ca8708c021c6a3f5ed5c3fcde4e909",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/12-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/12-subgroup.log",
+      "source_sha256": "f1b2109aff009cc739c1e385634ea27da41384710ba31f0744a436131288d40f",
+      "export_sha256": "b863485ae267f4cc4dc378b3f6a580701aa7447ab68ff917cbcb548218e9c0cf",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/12-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/12-telemetry.json",
+      "source_sha256": "2bebaca5aa80a8af12730a12fc8350bd97b18ff9abef42158fe1b899bf200bcc",
+      "export_sha256": "2bebaca5aa80a8af12730a12fc8350bd97b18ff9abef42158fe1b899bf200bcc",
+      "bytes": 886,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/13-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/13-telemetry.json",
+      "source_sha256": "8c8feff93ae3a92022565ea078739620649497aad47163ee3303aadf4696150c",
+      "export_sha256": "8c8feff93ae3a92022565ea078739620649497aad47163ee3303aadf4696150c",
+      "bytes": 884,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/13-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/13-wide.log",
+      "source_sha256": "620996b367a21fbb28df3bae27a0995307a4812e6bb8eca0c6cab0ac1aa3bf33",
+      "export_sha256": "c2ca86c89473f0ebfa090f73d1e69d98aa89e50b004c10d906c73239e73531de",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/14-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/14-telemetry.json",
+      "source_sha256": "3c87d019da955594e50d7a803410d2bd6a5329d8e17c433dd284c64c1051f939",
+      "export_sha256": "3c87d019da955594e50d7a803410d2bd6a5329d8e17c433dd284c64c1051f939",
+      "bytes": 903,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/14-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/14-wide.log",
+      "source_sha256": "2e8e071d34735502ec1d1109245c9426153a6d88cc606e30e93e5e23523e6289",
+      "export_sha256": "02ef1854a4cbbc2ea8c5f217c845b9fb41f7642a77bc168c1bfb3834bc1411e8",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/15-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/15-subgroup.log",
+      "source_sha256": "e38390561e5fd1a5ed98593d533f4cb0bdecda5dd5db2e8f4e50f1f91976df09",
+      "export_sha256": "03311cb31a5b8b0256d652e3fae16da23f24cadb2c38170518d5fded4e3093f4",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/15-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/15-telemetry.json",
+      "source_sha256": "7516f0c9d9a95b48b4532436154a1454d523b903dab3c0f813b93f0c770dbb55",
+      "export_sha256": "7516f0c9d9a95b48b4532436154a1454d523b903dab3c0f813b93f0c770dbb55",
+      "bytes": 904,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/16-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/16-telemetry.json",
+      "source_sha256": "965af9d16caf924e1aba32aeffea649c7581448a275eb15babb6e8b449e2e655",
+      "export_sha256": "965af9d16caf924e1aba32aeffea649c7581448a275eb15babb6e8b449e2e655",
+      "bytes": 887,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/16-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/16-wide.log",
+      "source_sha256": "3bb61b812f2e07a0f9f76b3ab84706e2ab1b21892898ebbcbdcfc6f9c961f56a",
+      "export_sha256": "f6a0f36daadc6ec336aa947023dd4669ae19022e006dffca12a3eadaa2eb570f",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/17-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/17-subgroup.log",
+      "source_sha256": "e409304a29f78d96ddbfcc7f65fa3331befa1643c37634dc7e34a120d4be27de",
+      "export_sha256": "fa67f55b9d1913b8d1c1a88d73d1780e106ef1652c2ec891a886ed8aacdd9601",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/17-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/17-telemetry.json",
+      "source_sha256": "c3209627ff13257abaac9809a4c17542ccc58d992a113374971e1209a4f1c3af",
+      "export_sha256": "c3209627ff13257abaac9809a4c17542ccc58d992a113374971e1209a4f1c3af",
+      "bytes": 887,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/18-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/18-subgroup.log",
+      "source_sha256": "67a3a81da5730ba66c4aefff05b1e92a02dabd4935e9b139082a4f7558755feb",
+      "export_sha256": "217932b9050eec34d409f6167fa331da91d9225dd6ccb44ce69d70b032e4deed",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/18-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/18-telemetry.json",
+      "source_sha256": "6d99dc3f9653eb9663b60bb72e43410b1a9dee513ebeafff33ee935568dc0323",
+      "export_sha256": "6d99dc3f9653eb9663b60bb72e43410b1a9dee513ebeafff33ee935568dc0323",
+      "bytes": 1039,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/19-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/19-telemetry.json",
+      "source_sha256": "f4bfe39238344721196802bd7ce081bf7c22abfceb130e50343d251437958fb0",
+      "export_sha256": "f4bfe39238344721196802bd7ce081bf7c22abfceb130e50343d251437958fb0",
+      "bytes": 869,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/19-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/19-wide.log",
+      "source_sha256": "5aadb78acb5a813a0267d2402dd6fbd8dc929e478911a14c745ba08da95c0049",
+      "export_sha256": "8f4f41fb4a446aef9286786f44b0f82b731d2cc9fe616f70c6f814492b3f2d32",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/20-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/20-subgroup.log",
+      "source_sha256": "8998753d94b90e21a132aadc2ace9808b822734737d2283930e40c9efb6cf309",
+      "export_sha256": "9125bdc2a96b7f10e543d9c1f469a44571c5e3de1808d7dae0990d8c94d8405b",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/20-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/20-telemetry.json",
+      "source_sha256": "720fb57c682ebec0a2875a5a55425f97414b078713cf5b91748d40871ef5367f",
+      "export_sha256": "720fb57c682ebec0a2875a5a55425f97414b078713cf5b91748d40871ef5367f",
+      "bytes": 869,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/21-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/21-telemetry.json",
+      "source_sha256": "ac1d20915f9a77f8ec43422d8d655496245e5c3ef7564b7847f0d0d88823a729",
+      "export_sha256": "ac1d20915f9a77f8ec43422d8d655496245e5c3ef7564b7847f0d0d88823a729",
+      "bytes": 905,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/21-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/21-wide.log",
+      "source_sha256": "a6357bd1c7e6566a698b06e4cfc54b447d75c0d3f30a67452fbf99f00fbbe002",
+      "export_sha256": "673a0927f512e27339f9900c743b98146dc29ad0dbd709e7450f627066abfe18",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/22-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/22-telemetry.json",
+      "source_sha256": "f8dcc933bc631fa317a7e17f2f93174876ef8d616e1d3599ede22a337c472e9c",
+      "export_sha256": "f8dcc933bc631fa317a7e17f2f93174876ef8d616e1d3599ede22a337c472e9c",
+      "bytes": 887,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/22-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/22-wide.log",
+      "source_sha256": "f0d524781d821763c18f4498747d0c5a3d9571826f3e85e3e2a945dc247249b6",
+      "export_sha256": "e0607477135cbdcd565722b640537a5e0fb464e15034a8b8415323b41416bc08",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/INTERRUPTED.md",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/INTERRUPTED.md",
+      "source_sha256": "6b2858068c123a741d79c75f324ca7d33558e79f5bc2c8f424b47c29f089c9f3",
+      "export_sha256": "6b2858068c123a741d79c75f324ca7d33558e79f5bc2c8f424b47c29f089c9f3",
+      "bytes": 308,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/assets.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/assets.json",
+      "source_sha256": "56eabc17b093e104c28a267356bc4cf6f54f0f9387ca1b3ae65d64882d5ea795",
+      "export_sha256": "55ff82a89eebc317166b20f7616821830135aace19922fb3ab4b79d7815969d2",
+      "bytes": 1365,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/protocol.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/protocol.json",
+      "source_sha256": "bfacd29ec91e467b1e395e2e48a624c445803e5027dd7e57bd77e2cf6989a277",
+      "export_sha256": "bfacd29ec91e467b1e395e2e48a624c445803e5027dd7e57bd77e2cf6989a277",
+      "bytes": 1526,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185232Z/results.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185232Z/results.json",
+      "source_sha256": "94251b7dec1c5ae21ca247e2e03ca49229d933eebc7d9bc5333034dd6d99d107",
+      "export_sha256": "94251b7dec1c5ae21ca247e2e03ca49229d933eebc7d9bc5333034dd6d99d107",
+      "bytes": 6458,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/00-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/00-telemetry.json",
+      "source_sha256": "9c1ddeb9b29e3717b0be2d20072d4e1622fdf38a5b036eb7472e5612e711cc00",
+      "export_sha256": "9c1ddeb9b29e3717b0be2d20072d4e1622fdf38a5b036eb7472e5612e711cc00",
+      "bytes": 2367,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/00-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/00-wide.log",
+      "source_sha256": "55e473d68680829ebab2e5b15a52128cbe3564b0d685f631a0887dedd667b8b9",
+      "export_sha256": "db99c93416716990ed913efcc654658f4e491f2a10cc462f63033f4da011fcf0",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/01-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/01-subgroup.log",
+      "source_sha256": "516b7f417cec5dcbacefd48fa02b753f7552a35f045c9ac2e161d3c6660e41fc",
+      "export_sha256": "d3d70553e99d649453582401ebb4863a6c1b298401a8b887b14b061222616948",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/01-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/01-telemetry.json",
+      "source_sha256": "6f06a043625ccfad52bc16f78c7605c52a93a803490ac3b0c9da672b72f59316",
+      "export_sha256": "6f06a043625ccfad52bc16f78c7605c52a93a803490ac3b0c9da672b72f59316",
+      "bytes": 888,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/02-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/02-subgroup.log",
+      "source_sha256": "cec730788cfb5705c1735482942970f0eba83afae9adb7d420b7ae70d27f26bb",
+      "export_sha256": "ac08ae69423173e8880162f8fb7d0523857ba87fc0c767197305a6b7549415e9",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/02-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/02-telemetry.json",
+      "source_sha256": "65ae38dd21543b985a224bcdfba678b3d15037783e3e2f7cb266ef12b2061d7a",
+      "export_sha256": "65ae38dd21543b985a224bcdfba678b3d15037783e3e2f7cb266ef12b2061d7a",
+      "bytes": 1054,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/03-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/03-telemetry.json",
+      "source_sha256": "1f05fc86087f03dcc7daed9b6f1dd830556972882266b44195d226fff2cb8eb3",
+      "export_sha256": "1f05fc86087f03dcc7daed9b6f1dd830556972882266b44195d226fff2cb8eb3",
+      "bytes": 1038,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/03-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/03-wide.log",
+      "source_sha256": "5d2858646b1fcaafac52798f2446d9ebdbf0c87afed17ed36e052ba6d63df9a1",
+      "export_sha256": "1225c25f8043fe7f4082f4fe0b11618be93d1b66058d81ab0fdcc562d71a428c",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/04-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/04-subgroup.log",
+      "source_sha256": "83c6759e766e12d9f7f9c7a08a57aa3ad123ee3fb30ed47b23a36df45ca193ee",
+      "export_sha256": "594840c632f2bb8f3a374d707a9d8984aa69185c65818e89a677d5065fd6b467",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/04-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/04-telemetry.json",
+      "source_sha256": "44b299784b26db12b2edefa5258579b4dc78f5343204cf14a9526951fb8d2839",
+      "export_sha256": "44b299784b26db12b2edefa5258579b4dc78f5343204cf14a9526951fb8d2839",
+      "bytes": 1039,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/05-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/05-telemetry.json",
+      "source_sha256": "b9c63f381615c1e210bc73b8be6fc683d55fb8de882ecf6d76c44dd963aa0090",
+      "export_sha256": "b9c63f381615c1e210bc73b8be6fc683d55fb8de882ecf6d76c44dd963aa0090",
+      "bytes": 885,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/05-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/05-wide.log",
+      "source_sha256": "324f8d65ab913252373f2833ef1d45c03d8077d83fcbaeb17a0896edb230bc11",
+      "export_sha256": "a6b96a1eee11dcb408f91e8263ed3fc06f900502a177e6e76f8910e7e6390e96",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/06-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/06-telemetry.json",
+      "source_sha256": "39815921b18cdc22eb26c9f900b49681e5d998c35a27988905a44d3a047eafcb",
+      "export_sha256": "39815921b18cdc22eb26c9f900b49681e5d998c35a27988905a44d3a047eafcb",
+      "bytes": 888,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/06-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/06-wide.log",
+      "source_sha256": "106fdaaa4615eddf0ab6fb031f391de90978e303d0c38002ac93337fc9233498",
+      "export_sha256": "eebda3f0f086e0e5cbc994c9beaec386cda97bdfa929792ab749701c27ff7777",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/07-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/07-subgroup.log",
+      "source_sha256": "42a2fef1dfbc6af42ab97d9ac09ea53c73f63dbef87dd086a2b3d1f8898845f2",
+      "export_sha256": "0d3ce16b3b4d6923c4b48993ca489b2975a29e30fee5d67ffce5df39ef13f133",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/07-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/07-telemetry.json",
+      "source_sha256": "f624192c2cfd06a7bb85fe4498a1e68345a0d126f4262a9f9a2329a68a55f481",
+      "export_sha256": "f624192c2cfd06a7bb85fe4498a1e68345a0d126f4262a9f9a2329a68a55f481",
+      "bytes": 1021,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/08-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/08-telemetry.json",
+      "source_sha256": "f4fa8506eeb7df1c830303a520e1bd585192cb662a8dfcedf86753a5497786cc",
+      "export_sha256": "f4fa8506eeb7df1c830303a520e1bd585192cb662a8dfcedf86753a5497786cc",
+      "bytes": 888,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/08-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/08-wide.log",
+      "source_sha256": "f68ada7ac2f466c236ab14670306e99a2e24435db391e93b957d8949ee275a1f",
+      "export_sha256": "66e1c553051ed5d29aaf0bd36470dca7120d93e13abdbe47036427ca187c30e4",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/09-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/09-subgroup.log",
+      "source_sha256": "019939a08b3b66f99d81c3584235b0155e4b21ea7129900c3238240a2bc1c0f1",
+      "export_sha256": "1d16d741a74ecbcc4547f121fb2e3367d050f1513478ea154567ed8af294274c",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/09-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/09-telemetry.json",
+      "source_sha256": "ec8ad0613629de4a5f626702a6abddf8b1b3bde34d4d398bc24bc5fd740948cf",
+      "export_sha256": "ec8ad0613629de4a5f626702a6abddf8b1b3bde34d4d398bc24bc5fd740948cf",
+      "bytes": 1035,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/10-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/10-subgroup.log",
+      "source_sha256": "87933209420cf6c5f77bcfe5025a66fa944cac87c489352ca4fcf3aefbd537f2",
+      "export_sha256": "69197e637650f804bd0e3b733e137fe6c9fc2854ea8177638a90c375615ac3aa",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/10-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/10-telemetry.json",
+      "source_sha256": "c5d5c7f8aab8b0631a9aaa58ce4a94e6b11509e0a20e1bca06755ac7934c081e",
+      "export_sha256": "c5d5c7f8aab8b0631a9aaa58ce4a94e6b11509e0a20e1bca06755ac7934c081e",
+      "bytes": 903,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/11-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/11-telemetry.json",
+      "source_sha256": "bb7356fb4ba04f123e3d868aad9926084d8b77d47fa8febccf04d9b5ef3f1700",
+      "export_sha256": "bb7356fb4ba04f123e3d868aad9926084d8b77d47fa8febccf04d9b5ef3f1700",
+      "bytes": 904,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/11-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/11-wide.log",
+      "source_sha256": "c3c3a66074b6873096be6d033c013080b259da5942342709d6a6ad828afd9a63",
+      "export_sha256": "62139ca582725924e0f8117fb1c78a77e402e19634a44500a71b0c0b49fadd86",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/12-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/12-subgroup.log",
+      "source_sha256": "13ae14fdc2f88b1e1617153f9e07597e5b3e1e8235a8bb2bde8ed893d45f7a82",
+      "export_sha256": "e9fcbc8bb535e732b837e46ec6efc9e3364d295eab83aaf7a515f8d615adbc76",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/12-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/12-telemetry.json",
+      "source_sha256": "5d067320adaf6a3c9c1eef59257ced9a7ae89359573eee106bb4ac030d057d06",
+      "export_sha256": "5d067320adaf6a3c9c1eef59257ced9a7ae89359573eee106bb4ac030d057d06",
+      "bytes": 888,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/13-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/13-telemetry.json",
+      "source_sha256": "e9cb8342edf37d6221120d99c824c42f216103a0755c3b50e613b33b8316be76",
+      "export_sha256": "e9cb8342edf37d6221120d99c824c42f216103a0755c3b50e613b33b8316be76",
+      "bytes": 869,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/13-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/13-wide.log",
+      "source_sha256": "c5d02ece3ac848a588cbcb260eb9ed391e9446e95c8dd40e45e6fcd6d6037d5a",
+      "export_sha256": "96ccd6c4d6e4558f103bab8ac5eeba26194f6d0b3c4611863a1c249285103667",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/14-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/14-telemetry.json",
+      "source_sha256": "7da5d4475288c55bea79fadc5032f6153bc587105652c4247094d97ebf8c249a",
+      "export_sha256": "7da5d4475288c55bea79fadc5032f6153bc587105652c4247094d97ebf8c249a",
+      "bytes": 1039,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/14-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/14-wide.log",
+      "source_sha256": "00cf4077d303e4237c6fa94ac363ce52558cdc2bb701ce3b3c41c13c2452847c",
+      "export_sha256": "b0aceb1495250cc4e1a955c14e6748a38709b37ade267b6cac649ac034e5b4be",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/15-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/15-subgroup.log",
+      "source_sha256": "e3df14e4c66b69ee6e439a6e6dd1023d9b2f2bcfe7e70c206e14acd9e6620d4b",
+      "export_sha256": "3708c0f8c8fac685f576059be622125153a02fa755eea57011b2474aafe498c0",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/15-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/15-telemetry.json",
+      "source_sha256": "c93f5f0ee1137a95ebc7aeb80c00f4cd122ab4536478818f63a98902292afed0",
+      "export_sha256": "c93f5f0ee1137a95ebc7aeb80c00f4cd122ab4536478818f63a98902292afed0",
+      "bytes": 1039,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/16-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/16-telemetry.json",
+      "source_sha256": "7abce545e163c97e7bbf07cbbf4e24c285a017a8e78634c0fdd253acbddb2284",
+      "export_sha256": "7abce545e163c97e7bbf07cbbf4e24c285a017a8e78634c0fdd253acbddb2284",
+      "bytes": 1023,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/16-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/16-wide.log",
+      "source_sha256": "1793ad68b69020870733da6defd3f729b17ba1779cae67f39ed41f643da05b6b",
+      "export_sha256": "c2b878e78ec4c8a4d16389f86ae6a15d5796fc2dc1889851f5dea5f7ed3456fa",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/17-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/17-subgroup.log",
+      "source_sha256": "515639a6b0cb452a060e899e89857144b2b21c3cfb2cd5d4ba7ddf0decc40044",
+      "export_sha256": "0a57c9d7f55bcfa14f46a0ea0d836fa1be4c6e1931a6bb5144b37c82e7dd728a",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/17-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/17-telemetry.json",
+      "source_sha256": "e190d482bf461938805cebbfd1c6ff20fec24a398157daef207070ab084ff239",
+      "export_sha256": "e190d482bf461938805cebbfd1c6ff20fec24a398157daef207070ab084ff239",
+      "bytes": 1040,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/18-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/18-subgroup.log",
+      "source_sha256": "9449d2ffe05efabeae9770f2c575a408fc4981960fa060d814cc4bfcf58e1615",
+      "export_sha256": "0da845a0cc801a77515bb79169b0031fa67c4d491b1ec4bc28f09b63716823a9",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/18-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/18-telemetry.json",
+      "source_sha256": "14f4b5191564f97d348b2f6f2d34f58352c2cc67fb1232d5614e18f1ba36b4dc",
+      "export_sha256": "14f4b5191564f97d348b2f6f2d34f58352c2cc67fb1232d5614e18f1ba36b4dc",
+      "bytes": 1022,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/19-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/19-telemetry.json",
+      "source_sha256": "c1e7bd73567ff23e4e5ab121609df15a343c9e808693f0be96f19311170e5c63",
+      "export_sha256": "c1e7bd73567ff23e4e5ab121609df15a343c9e808693f0be96f19311170e5c63",
+      "bytes": 1039,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/19-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/19-wide.log",
+      "source_sha256": "00208f58d6c1d0b27573a163e4ef66a8d246a38d24a9e5a0a512d3ae3ea0e964",
+      "export_sha256": "6e480012574445d1eee4671cc1f5496225f173074c88322248870956799d1004",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/20-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/20-subgroup.log",
+      "source_sha256": "ab0df3560d5f7d6abcf2a1b0002a7a7fb810291b786c02a1559017b605b99f1a",
+      "export_sha256": "029f33f59664c9e632c0de5ff4b346977b6108afeec3d4702907dbad05a72207",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/20-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/20-telemetry.json",
+      "source_sha256": "ce07f3b1e42c2b6af8ce129952fecc0585d894af56d087b870672768ad78ae26",
+      "export_sha256": "ce07f3b1e42c2b6af8ce129952fecc0585d894af56d087b870672768ad78ae26",
+      "bytes": 1039,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/21-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/21-telemetry.json",
+      "source_sha256": "c3802a56c4570af76a9c56e104618fc774f4d04b35bcf017d540f0914d21561a",
+      "export_sha256": "c3802a56c4570af76a9c56e104618fc774f4d04b35bcf017d540f0914d21561a",
+      "bytes": 1037,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/21-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/21-wide.log",
+      "source_sha256": "5909b1c157804a867b293b9b2541a65833f8f405050fe18582c21f3b985d2493",
+      "export_sha256": "0de6678310dce2fad2dd5381e695c2c0d9859327baa81397f61be1d43c67770c",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/22-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/22-telemetry.json",
+      "source_sha256": "98cef2bb578e8beb84a884adf89aff529ca95ab3279ca46a164cc59b54a3ac39",
+      "export_sha256": "98cef2bb578e8beb84a884adf89aff529ca95ab3279ca46a164cc59b54a3ac39",
+      "bytes": 886,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/22-wide.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/22-wide.log",
+      "source_sha256": "4a6b7c66eacc09885bf2b2fbf8dac54f345194b6a6ddf229ed20a55b13ec386e",
+      "export_sha256": "33b83b2d47d9449b86c57d21e7a43d95baf122a100ce5f415492c8f8d2b4f167",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/23-subgroup.log",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/23-subgroup.log",
+      "source_sha256": "399342123d2b699449bad470ec697e315d8cd4a2d8ac112ec0677990633e28b9",
+      "export_sha256": "587b9465f9106a60676bd951e9b90d3b843f2c17bb990ca4dab2d980bfa49803",
+      "bytes": 1002,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/23-telemetry.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/23-telemetry.json",
+      "source_sha256": "c10c447d7c63278388af37b9db181aaf837c7bd9f5e0122fb206df5d36dc189f",
+      "export_sha256": "c10c447d7c63278388af37b9db181aaf837c7bd9f5e0122fb206df5d36dc189f",
+      "bytes": 905,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/analysis.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/analysis.json",
+      "source_sha256": "7ba4f8925068b72ee2ea4487130a8df42cf6c30a1209038290677e9533e924e4",
+      "export_sha256": "7ba4f8925068b72ee2ea4487130a8df42cf6c30a1209038290677e9533e924e4",
+      "bytes": 2700,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/assets.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/assets.json",
+      "source_sha256": "56eabc17b093e104c28a267356bc4cf6f54f0f9387ca1b3ae65d64882d5ea795",
+      "export_sha256": "55ff82a89eebc317166b20f7616821830135aace19922fb3ab4b79d7815969d2",
+      "bytes": 1365,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/protocol.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/protocol.json",
+      "source_sha256": "bfacd29ec91e467b1e395e2e48a624c445803e5027dd7e57bd77e2cf6989a277",
+      "export_sha256": "bfacd29ec91e467b1e395e2e48a624c445803e5027dd7e57bd77e2cf6989a277",
+      "bytes": 1526,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-subgroup/micro/20261101T185246Z/results.json",
+      "path": "archive/isolated/native-argmax-subgroup/micro/20261101T185246Z/results.json",
+      "source_sha256": "1e9220e8d65128bda1b6d1852ec3dfe0a296e8aa4f31a162135d11676ba16a93",
+      "export_sha256": "1e9220e8d65128bda1b6d1852ec3dfe0a296e8aa4f31a162135d11676ba16a93",
+      "bytes": 7453,
+      "sanitized": false
     },
     {
       "source": "isolated/native-combined/STATUS.md",
@@ -31621,6 +32453,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_native_argmax_subgroup_micro.py",
+      "path": "archive/isolated/run_native_argmax_subgroup_micro.py",
+      "source_sha256": "143124e4df30be04b533e5922ef9532b041955bd9c8c53b83e137c68f091d971",
+      "export_sha256": "143124e4df30be04b533e5922ef9532b041955bd9c8c53b83e137c68f091d971",
+      "bytes": 6276,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_native_argmax_wide_boundary128.py",
       "path": "archive/isolated/run_native_argmax_wide_boundary128.py",
       "source_sha256": "3d1e6caeae82757a1f9d64e2fd8af76841c83dd50cc15ccdcea0ae69a329fe85",
@@ -32325,6 +33165,14 @@
       "sanitized": true
     },
     {
+      "source": "isolated/run_private_guarded_batch.py",
+      "path": "archive/isolated/run_private_guarded_batch.py",
+      "source_sha256": "4ca3b2246bec35a4396ef6782b3b34009bcc367b68061a95d3c9bcf0afb79778",
+      "export_sha256": "4ca3b2246bec35a4396ef6782b3b34009bcc367b68061a95d3c9bcf0afb79778",
+      "bytes": 29717,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_q3_column_reuse_boundary128.py",
       "path": "archive/isolated/run_q3_column_reuse_boundary128.py",
       "source_sha256": "a0facd097f2889466eda2afe436508d4d1d1ee888d182cb598289b466362d19e",
@@ -32941,5 +33789,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-10-31T15:06:53.664685+00:00"
+  "updated_utc": "2026-11-01T18:53:19.447412+00:00"
 }
