@@ -7197,6 +7197,70 @@
       "sanitized": false
     },
     {
+      "source": "isolated/native-argmax-hierarchical/model32/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model32/assets.json",
+      "source_sha256": "e05ddd62ca01595259fb07e56b9442078e2348e2b5bb58a3fc1f70fbe1cb4441",
+      "export_sha256": "267aefca4fe6d7bf721dcf926a9f1c7db67fd3b715037b79abd3f7adca15d147",
+      "bytes": 3559,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model32/audit-archive.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model32/audit-archive.json",
+      "source_sha256": "04b4aa002fa1d87c8363b4090f30e6b52da6e6ca22a71765c2d7693a719f3e62",
+      "export_sha256": "04b4aa002fa1d87c8363b4090f30e6b52da6e6ca22a71765c2d7693a719f3e62",
+      "bytes": 242,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model32/checks.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model32/checks.json",
+      "source_sha256": "3ced93a893a34fd1bd36658fdfb5259583bbbca678badb2fee9fc719b2ed61f5",
+      "export_sha256": "3ced93a893a34fd1bd36658fdfb5259583bbbca678badb2fee9fc719b2ed61f5",
+      "bytes": 3935,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model32/comparison.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model32/comparison.json",
+      "source_sha256": "169803836b1507c5ed250b4dce4ff1e36511e868c2cb05782e6672695e063517",
+      "export_sha256": "169803836b1507c5ed250b4dce4ff1e36511e868c2cb05782e6672695e063517",
+      "bytes": 547,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model32/postrun-verification.json",
+      "path": "archive/isolated/native-argmax-hierarchical/model32/postrun-verification.json",
+      "source_sha256": "6ef6706e4b0de89b68afb3266b64ef6c54d50cc6e53d7939aa3a64f0507d64f9",
+      "export_sha256": "6ef6706e4b0de89b68afb3266b64ef6c54d50cc6e53d7939aa3a64f0507d64f9",
+      "bytes": 114,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model32/private_hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model32/private_hier.log",
+      "source_sha256": "804cf935f61135947d89ac8579359938ace61dd44d5241537813502b40096d1b",
+      "export_sha256": "b7617eaf6f7691fb1e5e926dcc7a7f4f8875c9c8c4bcd7b0ea25277cfad71e88",
+      "bytes": 9475,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model32/private_wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model32/private_wide.log",
+      "source_sha256": "e1966b4fc81dfb0c98bea027b07c4ff7c86aba39bf31c9305ecd3337d7d1b263",
+      "export_sha256": "634a773a3811b8bb9d7959298003e5c3e30578b5a87771a84e02b167f4899344",
+      "bytes": 9886,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/model32/stock100.log",
+      "path": "archive/isolated/native-argmax-hierarchical/model32/stock100.log",
+      "source_sha256": "23510f8b857fac0ed7d1ca30a86c8cfed5b77ed90fd825ad0764c2f4463679a0",
+      "export_sha256": "f35e61ec802b099a10b54b4b06508632c4894579188bdc5c51453f07d60551e2",
+      "bytes": 7633,
+      "sanitized": true
+    },
+    {
       "source": "isolated/native-argmax-hierarchical/partial.comp",
       "path": "archive/isolated/native-argmax-hierarchical/partial.comp",
       "source_sha256": "4fe0c3e733baaa42a76cf28d1d7348cad9e2b933ec945271d9724e2f5bad7e7d",
@@ -33637,6 +33701,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_native_argmax_hier_model32.py",
+      "path": "archive/isolated/run_native_argmax_hier_model32.py",
+      "source_sha256": "eeed3dea477ad7de4c8fbde697505c0d15ac772fadf313efd74afdf2003b10ac",
+      "export_sha256": "f789e06eb42eaa4e6228b7ae895656c85374d4d4c65e7d9b17af9906f3599b42",
+      "bytes": 11308,
+      "sanitized": true
+    },
+    {
       "source": "isolated/run_native_argmax_hier_selected.py",
       "path": "archive/isolated/run_native_argmax_hier_selected.py",
       "source_sha256": "fe9d83118561ca894ba42d09b4b9c30829f4e846d256c0d0a7d111c773fc6ec3",
@@ -35005,5 +35077,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T19:39:44.229359+00:00"
+  "updated_utc": "2026-11-01T19:40:19.619476+00:00"
 }
