@@ -1,0 +1,123 @@
+{
+  "blocks": [
+    {
+      "block": 0,
+      "matched": true,
+      "log_time_effect": -1.6847123687452346,
+      "cpu": {
+        "wide": 0.7709974744410679,
+        "hier": 0.8006739732930209
+      },
+      "builds": {
+        "wide": 12.5,
+        "hier": 13
+      },
+      "runnable": {
+        "wide": 13.25,
+        "hier": 14
+      }
+    },
+    {
+      "block": 1,
+      "matched": true,
+      "log_time_effect": -1.7036890075800608,
+      "cpu": {
+        "wide": 0.7716020475246572,
+        "hier": 0.7927417624333746
+      },
+      "builds": {
+        "wide": 13,
+        "hier": 13
+      },
+      "runnable": {
+        "wide": 13.743055555555555,
+        "hier": 13.75
+      }
+    },
+    {
+      "block": 2,
+      "matched": true,
+      "log_time_effect": -1.7219025348553476,
+      "cpu": {
+        "wide": 0.7694640097814719,
+        "hier": 0.8078896436811074
+      },
+      "builds": {
+        "wide": 13,
+        "hier": 13
+      },
+      "runnable": {
+        "wide": 13.23611111111111,
+        "hier": 15.25
+      }
+    },
+    {
+      "block": 3,
+      "matched": true,
+      "log_time_effect": -1.8471435522815352,
+      "cpu": {
+        "wide": 0.7737572681280591,
+        "hier": 0.7925471607082549
+      },
+      "builds": {
+        "wide": 13,
+        "hier": 12.5
+      },
+      "runnable": {
+        "wide": 13.232954545454547,
+        "hier": 13.5
+      }
+    },
+    {
+      "block": 4,
+      "matched": true,
+      "log_time_effect": -1.7226833866536122,
+      "cpu": {
+        "wide": 0.7686142580578248,
+        "hier": 0.7834390325445414
+      },
+      "builds": {
+        "wide": 13,
+        "hier": 13
+      },
+      "runnable": {
+        "wide": 13.27840909090909,
+        "hier": 14
+      }
+    },
+    {
+      "block": 5,
+      "matched": true,
+      "log_time_effect": -1.5836474135077392,
+      "cpu": {
+        "wide": 0.7746732384552703,
+        "hier": 0.7866711353283746
+      },
+      "builds": {
+        "wide": 13,
+        "hier": 13
+      },
+      "runnable": {
+        "wide": 13.365079365079366,
+        "hier": 14.416666666666668
+      }
+    }
+  ],
+  "all6": {
+    "blocks": 6,
+    "geometric_time_change_percent": -81.92480646380528,
+    "descriptive_t95_percent": [
+      -83.45971059067627,
+      -80.24746645686089
+    ]
+  },
+  "matched": {
+    "blocks": 6,
+    "geometric_time_change_percent": -81.92480646380528,
+    "descriptive_t95_percent": [
+      -83.45971059067627,
+      -80.24746645686089
+    ]
+  },
+  "scope": "Fixed24operatorwalltime only, wholeprocessloadmatching, no model/speedup/equalclock/adoption claim."
+}

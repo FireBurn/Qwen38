@@ -6397,6 +6397,22 @@
       "sanitized": false
     },
     {
+      "source": "isolated/native-argmax-hierarchical/MICRO-PLAN.md",
+      "path": "archive/isolated/native-argmax-hierarchical/MICRO-PLAN.md",
+      "source_sha256": "4cc83af246ed58cfd90a30135a957c8edba5eb7b3c929adaf3ac93b0ab6603d0",
+      "export_sha256": "4cc83af246ed58cfd90a30135a957c8edba5eb7b3c929adaf3ac93b0ab6603d0",
+      "bytes": 1284,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/SELECTED-PLAN.md",
+      "path": "archive/isolated/native-argmax-hierarchical/SELECTED-PLAN.md",
+      "source_sha256": "d59d35423a4fe4a9cc1763fca0225163fd4025521e1b6a88c920e4ad69071a87",
+      "export_sha256": "d59d35423a4fe4a9cc1763fca0225163fd4025521e1b6a88c920e4ad69071a87",
+      "bytes": 869,
+      "sanitized": false
+    },
+    {
       "source": "isolated/native-argmax-hierarchical/allocator-tail-model.json",
       "path": "archive/isolated/native-argmax-hierarchical/allocator-tail-model.json",
       "source_sha256": "fab20bbb8bfb0cd24e20b1f000d52eb99f989916db322077c2fc9800428a4646",
@@ -6757,6 +6773,430 @@
       "sanitized": true
     },
     {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/00-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/00-telemetry.json",
+      "source_sha256": "b4713bae6a5a0ce98390395fe8aa907309c2c578a01b399651eda2b67b18a10a",
+      "export_sha256": "b4713bae6a5a0ce98390395fe8aa907309c2c578a01b399651eda2b67b18a10a",
+      "bytes": 2849,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/00-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/00-wide.log",
+      "source_sha256": "76054587f930d7e917d333eb1ff9bac5cd5cb3c7fccdedd0e829d800518c3a95",
+      "export_sha256": "90ebdc05217679dbff1902a19824852a2e9ad3a84c7fb721694b3ae417248b80",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/01-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/01-hier.log",
+      "source_sha256": "254bc3a9bced23793d607242b00dbbc96923daf09dbf0dd851e6163f8c879ecb",
+      "export_sha256": "d58733629e1dc82919cda0923fe5cabe50d5cebbf83dc1a27c50a4dff128184b",
+      "bytes": 1025,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/01-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/01-telemetry.json",
+      "source_sha256": "f562b3ecae5f16b8050b884eccd1e4391e2a08e37b7edf5af1aff4d25b58d09d",
+      "export_sha256": "f562b3ecae5f16b8050b884eccd1e4391e2a08e37b7edf5af1aff4d25b58d09d",
+      "bytes": 446,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/02-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/02-hier.log",
+      "source_sha256": "11a364dfe8a266f9d91decbddab44bbf19b1c4c5651fc2c5a9556604b17eac24",
+      "export_sha256": "5bf40e5c33827713a68a9c8aa5e50cee245c48fa57d53c7cab3f42e577b69f28",
+      "bytes": 1025,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/02-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/02-telemetry.json",
+      "source_sha256": "eaebd71d1a9076ee6cbc2ebda991bb7875d280c245648a8d92086ad69fe76868",
+      "export_sha256": "eaebd71d1a9076ee6cbc2ebda991bb7875d280c245648a8d92086ad69fe76868",
+      "bytes": 446,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/03-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/03-telemetry.json",
+      "source_sha256": "a5741d4fa6a73f9a84186c00073099cfdab64eb9a2f2e98d23ff9e079f918b86",
+      "export_sha256": "a5741d4fa6a73f9a84186c00073099cfdab64eb9a2f2e98d23ff9e079f918b86",
+      "bytes": 1491,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/03-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/03-wide.log",
+      "source_sha256": "a9a8694cc3ecd83b5b8d9ae714c92615bf14d147ebdd788cd3e586e7338adce1",
+      "export_sha256": "f18418958e153e45b892afa92ec9a93ab76982f631236576083927c1adcade60",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/04-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/04-hier.log",
+      "source_sha256": "26d40cc930600948c1028c0767165100b4ab39094566a49b67bde74725b047bd",
+      "export_sha256": "f27db0511a4996bb130a6ee935db7526f2fc3fcc2b994e52b114177bcb78a515",
+      "bytes": 1025,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/04-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/04-telemetry.json",
+      "source_sha256": "97c63da3891ccb761c82b0a639849052f83a4327d13fd35c60b95ae9c4df6239",
+      "export_sha256": "97c63da3891ccb761c82b0a639849052f83a4327d13fd35c60b95ae9c4df6239",
+      "bytes": 447,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/05-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/05-telemetry.json",
+      "source_sha256": "676b9feae7911fcb858b0faaa45a96d9fb4f002bb56c42e1ca8ee7eb8b513195",
+      "export_sha256": "676b9feae7911fcb858b0faaa45a96d9fb4f002bb56c42e1ca8ee7eb8b513195",
+      "bytes": 1500,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/05-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/05-wide.log",
+      "source_sha256": "ca527710bf0834ac33ecba7712da1b81ed42876a004310550c6a2c92b2b8c8df",
+      "export_sha256": "e801188a98ec50435c8b7efb33800610c0819ab775d6f1ee867dc2dc6bcda5af",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/06-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/06-telemetry.json",
+      "source_sha256": "0e30b44a633b3f388d5491189e09987e3238836a9861c52d718ebae754f6d1c5",
+      "export_sha256": "0e30b44a633b3f388d5491189e09987e3238836a9861c52d718ebae754f6d1c5",
+      "bytes": 1365,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/06-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/06-wide.log",
+      "source_sha256": "85a2e9efeb8bd53a174bd98304da5e6bbe58904079c838036b05ecc59f5a526a",
+      "export_sha256": "774e78af85eae3e8d00fd230db906c3fc4abaadac27b256598eb53b96d07f20f",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/07-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/07-hier.log",
+      "source_sha256": "2be11e1b71530055ca8b39d9cb3ce87367e499efdd920b1bffbca427e96b1425",
+      "export_sha256": "ff5b6af6eb59231bbc83caf18971bebecac9e7913d8b31f0385e083177b84504",
+      "bytes": 1025,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/07-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/07-telemetry.json",
+      "source_sha256": "bb21946dbe453bafdab739df1b39c4456bf17d4c1aa437711e97ff92e4577000",
+      "export_sha256": "bb21946dbe453bafdab739df1b39c4456bf17d4c1aa437711e97ff92e4577000",
+      "bytes": 434,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/08-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/08-telemetry.json",
+      "source_sha256": "f31288d64c56ff1cd8515e21e73285aabe138e76118ec5a5a995f5d624f911de",
+      "export_sha256": "f31288d64c56ff1cd8515e21e73285aabe138e76118ec5a5a995f5d624f911de",
+      "bytes": 1353,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/08-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/08-wide.log",
+      "source_sha256": "5aaae60b23be3ee34865cd3c288d803441aa1c71da5f4c5ee63b377ec7ef136b",
+      "export_sha256": "d12b7d605fd361f5e8a169a4084ae0fd4028ec0d97aef694c2f365a34def4478",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/09-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/09-hier.log",
+      "source_sha256": "d8d0d2dd9cb6ceb09442473490e43886c10d0999da798563e34dc70c0193096e",
+      "export_sha256": "742c4bf6b3fa0cd896255149875f89479f5b2d56e10e79706e1247d0b8b7871a",
+      "bytes": 1025,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/09-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/09-telemetry.json",
+      "source_sha256": "ed2bcb9358820e72e99cbfb4c02dd4902e53fb59e9b9662528a7a63c6dd84593",
+      "export_sha256": "ed2bcb9358820e72e99cbfb4c02dd4902e53fb59e9b9662528a7a63c6dd84593",
+      "bytes": 434,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/10-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/10-hier.log",
+      "source_sha256": "808aa7f14e6e8d9f061d6859456d2f920db9030e4cfc376734d3ef4586df558e",
+      "export_sha256": "8d790b3dac11fca8a56ed391e18cb1dabbfc6fb9b4a6edf7205a4dca2d500995",
+      "bytes": 1025,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/10-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/10-telemetry.json",
+      "source_sha256": "65b23f5d2f60bc8beb9cb287d45a9c3a065e5e7a751957c93217f40f50b28b1a",
+      "export_sha256": "65b23f5d2f60bc8beb9cb287d45a9c3a065e5e7a751957c93217f40f50b28b1a",
+      "bytes": 447,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/11-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/11-telemetry.json",
+      "source_sha256": "5bd10e99e6259b136bcb6b927693fe4216757a142cd0235be3e71ddc779660f5",
+      "export_sha256": "5bd10e99e6259b136bcb6b927693fe4216757a142cd0235be3e71ddc779660f5",
+      "bytes": 1492,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/11-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/11-wide.log",
+      "source_sha256": "b2c148c85694c1a009a296444ca41dc35f3273bb228cf5ccc9236bb7db3b85f4",
+      "export_sha256": "c2e9cf36330d2ca8f47539e7808b12c145721304387832a2189c7511ae47bd81",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/12-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/12-hier.log",
+      "source_sha256": "1c87b80af239629004cd40bb2b403f9adba560becafc5215f1365a729bb1bba3",
+      "export_sha256": "7e4c64e26546bd723f2f2b12ec945c36b0a759c93d8c9d975b16365fe63571ba",
+      "bytes": 1025,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/12-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/12-telemetry.json",
+      "source_sha256": "adefa29c1fa681a7c7704c4f8f30f0932411eca2397f5fdac9c91d8eda355b68",
+      "export_sha256": "adefa29c1fa681a7c7704c4f8f30f0932411eca2397f5fdac9c91d8eda355b68",
+      "bytes": 447,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/13-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/13-telemetry.json",
+      "source_sha256": "dfc2bcbe29cd29a2e0e0a8fc6b10aa88ceecbf319849b2c36da3d04982801f5a",
+      "export_sha256": "dfc2bcbe29cd29a2e0e0a8fc6b10aa88ceecbf319849b2c36da3d04982801f5a",
+      "bytes": 1812,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/13-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/13-wide.log",
+      "source_sha256": "a438e13a48c80f4fa975f890a90ba1bcaf2a8a4ab31b41947b78fb0f1ac574bb",
+      "export_sha256": "9faa9e842405212b985c93a4958cdb5ffa57f15c8b74c1a6241e71906ad1ceb1",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/14-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/14-telemetry.json",
+      "source_sha256": "d931aae02b278376eaddb2be7386bb2e060d3a4b11554cc78554f94ee742c22e",
+      "export_sha256": "d931aae02b278376eaddb2be7386bb2e060d3a4b11554cc78554f94ee742c22e",
+      "bytes": 1365,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/14-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/14-wide.log",
+      "source_sha256": "099f57c631d5689140a51603e9f9dce5f5904c18df54ca6c2898d609085c2f5e",
+      "export_sha256": "b83110cafbfb7df1c2692d3c47d741b4442ffb474ec0ee8d740a2162b7a49eac",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/15-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/15-hier.log",
+      "source_sha256": "381978a0c0047457bdbba1bfb3455cd26989fb9cba800aa9432dcd69759ea638",
+      "export_sha256": "28904c5dac968e381b81ab9a2d9e22510784bbfb551714416ec1425cf48a2bb1",
+      "bytes": 1025,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/15-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/15-telemetry.json",
+      "source_sha256": "71af1812acf52628b5b09a76ef34d1d84200e1ebeb60eb3defe5cf59a0f4fb88",
+      "export_sha256": "71af1812acf52628b5b09a76ef34d1d84200e1ebeb60eb3defe5cf59a0f4fb88",
+      "bytes": 447,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/16-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/16-telemetry.json",
+      "source_sha256": "622f438227c4322238b2de91e1a5d7a2428ce3c16b77a3d246e2d6e689a6f5d5",
+      "export_sha256": "622f438227c4322238b2de91e1a5d7a2428ce3c16b77a3d246e2d6e689a6f5d5",
+      "bytes": 1353,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/16-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/16-wide.log",
+      "source_sha256": "75b7a4685499f49b6da61c8b0a972d1687a4fa2de82f220e847a65f77f5defdc",
+      "export_sha256": "72b45ac9e7afaa56c9131a9150d8e201da9809f13ef6a4209a41e0194efc61d1",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/17-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/17-hier.log",
+      "source_sha256": "70dc867eff0a9e9079e4bdcd248fd23e8568139ebf96888d9b333f166c7cda54",
+      "export_sha256": "575abb822668b66fa991b150a4699f0f241b8246fa60882ad7cb9b0ab3d3523f",
+      "bytes": 1025,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/17-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/17-telemetry.json",
+      "source_sha256": "8385fc38be963228c876b28791a43b644a79a4151af5abaa76a60ff39e92a899",
+      "export_sha256": "8385fc38be963228c876b28791a43b644a79a4151af5abaa76a60ff39e92a899",
+      "bytes": 434,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/18-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/18-hier.log",
+      "source_sha256": "8b5844a2608bf3b001335ac9b0d7c6f5ce31bd0b320dc0276df6ec66fed0336a",
+      "export_sha256": "30253d90650c47669f7359b5752e16e6f2d670bfe9438ba92dac6cd5325605ae",
+      "bytes": 1026,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/18-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/18-telemetry.json",
+      "source_sha256": "3446771d15e79e340d8d5db0973515c87fba5af47fc1882b863b51aeb296e366",
+      "export_sha256": "3446771d15e79e340d8d5db0973515c87fba5af47fc1882b863b51aeb296e366",
+      "bytes": 599,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/19-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/19-telemetry.json",
+      "source_sha256": "609605a867818c4b123860b1111ca334998180b8f600bdf38431ed973741edbf",
+      "export_sha256": "609605a867818c4b123860b1111ca334998180b8f600bdf38431ed973741edbf",
+      "bytes": 1786,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/19-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/19-wide.log",
+      "source_sha256": "f5f6d8ad2a441e416cc35d6f3d388cd6d014616db508487fea69c752cfb846bd",
+      "export_sha256": "424ceeab0de488cbbcdb39c23dd1fbb8bea6bc145785adb1541aa791b5518e93",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/20-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/20-hier.log",
+      "source_sha256": "68106f9d7eefc1ee98127ae1d843c51f845714ad8391020313164cd0fe6abe93",
+      "export_sha256": "87a75e2f7701dcd77c3d69bd728b54eaef6723ec7605ab0cd90fc4c8f2e6a89c",
+      "bytes": 1026,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/20-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/20-telemetry.json",
+      "source_sha256": "3bafef295c118ef83fb056d22f481e469921a28aeb38d70f772cbb1cddbd2d33",
+      "export_sha256": "3bafef295c118ef83fb056d22f481e469921a28aeb38d70f772cbb1cddbd2d33",
+      "bytes": 586,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/21-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/21-telemetry.json",
+      "source_sha256": "bd3248bf00f0c2323e29597668752d5833233c1ea0de6051e80edd4afb760ea8",
+      "export_sha256": "bd3248bf00f0c2323e29597668752d5833233c1ea0de6051e80edd4afb760ea8",
+      "bytes": 1479,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/21-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/21-wide.log",
+      "source_sha256": "42f2592258b895f0836efbaaee47ea4ff5f25bf6d288637c8ddbe9c9c421a1fd",
+      "export_sha256": "f466039dda34692fff463120b9550ce0a3fecb1eb7b83248dc901a295848694d",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/22-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/22-telemetry.json",
+      "source_sha256": "29366dedc7fd7ca5cc8a673198a3356e2769badc5517078eba7f9f2df5ecb3a3",
+      "export_sha256": "29366dedc7fd7ca5cc8a673198a3356e2769badc5517078eba7f9f2df5ecb3a3",
+      "bytes": 1211,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/22-wide.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/22-wide.log",
+      "source_sha256": "409826cf0bf9987c5d5cb616a2590fa53f90e512a3cd79732cc13147c88390a7",
+      "export_sha256": "a5e4822cc94a64de50ca63bfd935391306da9291d953a769ef11a777f6f5f27b",
+      "bytes": 1015,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/23-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/23-hier.log",
+      "source_sha256": "744d51a75ec088d7f1dbf1b46ac534416d870736fc588b86e283d2474717a7be",
+      "export_sha256": "ada6e897a1cb86077c7a18c136f8f9f38c4dd56d38f6928f324b9d77f9c72791",
+      "bytes": 1025,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/23-telemetry.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/23-telemetry.json",
+      "source_sha256": "1a865ab67bee2b01a2a080556baf3d456ad0496d9d158f8e9469d2a48defc32b",
+      "export_sha256": "1a865ab67bee2b01a2a080556baf3d456ad0496d9d158f8e9469d2a48defc32b",
+      "bytes": 432,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/analysis.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/analysis.json",
+      "source_sha256": "7ab19727174f5f7c799a7f2d22d8d0d307ff2ecf959fc84839fc0bd43ad26e0e",
+      "export_sha256": "7ab19727174f5f7c799a7f2d22d8d0d307ff2ecf959fc84839fc0bd43ad26e0e",
+      "bytes": 2577,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/assets.json",
+      "source_sha256": "7ae582097c33738ef907b031c49710cfc25cd1e0fdd21ff93dda4de3f946dc02",
+      "export_sha256": "95a23f49c90e880be142a1c3149146271656819fd08a2897789114419d5ceb60",
+      "bytes": 1517,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/postrun-verification.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/postrun-verification.json",
+      "source_sha256": "21fde6c998b79de4f18162d5b6ea3aa5931f42f3a93ef0da4bfc31efd7908fa8",
+      "export_sha256": "21fde6c998b79de4f18162d5b6ea3aa5931f42f3a93ef0da4bfc31efd7908fa8",
+      "bytes": 114,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/protocol.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/protocol.json",
+      "source_sha256": "d0e9477590b187582acd56cd392c2bb26c4585a7a1cbfef990280b10ec186f7c",
+      "export_sha256": "d0e9477590b187582acd56cd392c2bb26c4585a7a1cbfef990280b10ec186f7c",
+      "bytes": 1612,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/micro/20261101T193845Z/results.json",
+      "path": "archive/isolated/native-argmax-hierarchical/micro/20261101T193845Z/results.json",
+      "source_sha256": "3d819ec6010fc94ee331274f2750220c82940dc0526950b736da2833a86d5be8",
+      "export_sha256": "3d819ec6010fc94ee331274f2750220c82940dc0526950b736da2833a86d5be8",
+      "bytes": 7282,
+      "sanitized": false
+    },
+    {
       "source": "isolated/native-argmax-hierarchical/partial.comp",
       "path": "archive/isolated/native-argmax-hierarchical/partial.comp",
       "source_sha256": "4fe0c3e733baaa42a76cf28d1d7348cad9e2b933ec945271d9724e2f5bad7e7d",
@@ -6786,6 +7226,254 @@
       "source_sha256": "5449efe852c097c8601a7595e96300d6d3319fc5732e88be3af814e8562e30d0",
       "export_sha256": "5449efe852c097c8601a7595e96300d6d3319fc5732e88be3af814e8562e30d0",
       "bytes": 186,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2047-1-0-hier.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2047-1-0-hier.bin",
+      "source_sha256": "86e2e70921f1cc5f603810aa8ceeda7595910a6b2c33cc8faa86d7cfd90edde5",
+      "export_sha256": "86e2e70921f1cc5f603810aa8ceeda7595910a6b2c33cc8faa86d7cfd90edde5",
+      "bytes": 20,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2047-1-0-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2047-1-0-hier.log",
+      "source_sha256": "c7849af720572821c7f2fd654eee871482a64fdbaef42d74e36cad953736e47d",
+      "export_sha256": "01e9f2f4855789e8e8b2cb409d4386cc9d76532a47e47025aedf12c3711f5a54",
+      "bytes": 1018,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2047-1-0-stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2047-1-0-stock.bin",
+      "source_sha256": "86e2e70921f1cc5f603810aa8ceeda7595910a6b2c33cc8faa86d7cfd90edde5",
+      "export_sha256": "86e2e70921f1cc5f603810aa8ceeda7595910a6b2c33cc8faa86d7cfd90edde5",
+      "bytes": 20,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2047-1-0-stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2047-1-0-stock.log",
+      "source_sha256": "0d81dfda976e392bfff3022d09b1483094d3a661a173fd0bc71da60e98ce665b",
+      "export_sha256": "aa4a58c6942174cce5b036af97ebd00c9751aa881e06452a27dd8ff52422f99e",
+      "bytes": 917,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2048-1-6-hier.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2048-1-6-hier.bin",
+      "source_sha256": "efd9723ab10f64fe4d7ca8a137b292098dca169f2fda313a0a2f4702c4c1dd04",
+      "export_sha256": "efd9723ab10f64fe4d7ca8a137b292098dca169f2fda313a0a2f4702c4c1dd04",
+      "bytes": 20,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2048-1-6-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2048-1-6-hier.log",
+      "source_sha256": "733e431072e9620976e8262585c0a9b329187ff11371cc01351f0fd821c8b42d",
+      "export_sha256": "33d4bb3c2805c5aa7754442a162cff7c0fbf6df8cf87036e92d751a52f947292",
+      "bytes": 1062,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2048-1-6-stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2048-1-6-stock.bin",
+      "source_sha256": "efd9723ab10f64fe4d7ca8a137b292098dca169f2fda313a0a2f4702c4c1dd04",
+      "export_sha256": "efd9723ab10f64fe4d7ca8a137b292098dca169f2fda313a0a2f4702c4c1dd04",
+      "bytes": 20,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2048-1-6-stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2048-1-6-stock.log",
+      "source_sha256": "b8f3c6d28ca32444e22796fbdea99031b2b91914cbd949342a8c1509869b78c9",
+      "export_sha256": "1cdefbb79e1b32a7e8ee52abeb43a8cefb72286bd170c964d82ae914407e9fce",
+      "bytes": 917,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2049-2-2-hier.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2049-2-2-hier.bin",
+      "source_sha256": "064abf097b714ac9e43bd5baaf9d12bf0a3983c9cdc9645829c78f5baa22907c",
+      "export_sha256": "064abf097b714ac9e43bd5baaf9d12bf0a3983c9cdc9645829c78f5baa22907c",
+      "bytes": 24,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2049-2-2-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2049-2-2-hier.log",
+      "source_sha256": "d4e40f0d69aba00e42080e4c3d3ee982dc13e6b1f2d94d79b40e900db982d51f",
+      "export_sha256": "c64610dcda7f98730a9adbbc51b056e44432a54c9838e682c7268375f24c9fcd",
+      "bytes": 1062,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2049-2-2-stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2049-2-2-stock.bin",
+      "source_sha256": "064abf097b714ac9e43bd5baaf9d12bf0a3983c9cdc9645829c78f5baa22907c",
+      "export_sha256": "064abf097b714ac9e43bd5baaf9d12bf0a3983c9cdc9645829c78f5baa22907c",
+      "bytes": 24,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2049-2-2-stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/2049-2-2-stock.log",
+      "source_sha256": "713c0d9fdc7bfabdee8638e95f6fb7fa955ad207dfd8b2e785704adbbd0ebddb",
+      "export_sha256": "44e1fe46107470998f38b594eceda51c0dace428205dc81a402f95498a197d20",
+      "bytes": 917,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/248320-5-3-hier.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/248320-5-3-hier.bin",
+      "source_sha256": "66880a1ed7f0e46132054186ca50c2fdfc18f7bc2ea2ce328181241512512137",
+      "export_sha256": "66880a1ed7f0e46132054186ca50c2fdfc18f7bc2ea2ce328181241512512137",
+      "bytes": 36,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/248320-5-3-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/248320-5-3-hier.log",
+      "source_sha256": "3f32a9e70883035f2326ee0dff672def3f8c8bded5b92add7e544c3a4735a519",
+      "export_sha256": "2670ac9b608d932db36d9038188597353c22150c6766a15b01e2fc54ea77f388",
+      "bytes": 1070,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/248320-5-3-stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/248320-5-3-stock.bin",
+      "source_sha256": "66880a1ed7f0e46132054186ca50c2fdfc18f7bc2ea2ce328181241512512137",
+      "export_sha256": "66880a1ed7f0e46132054186ca50c2fdfc18f7bc2ea2ce328181241512512137",
+      "bytes": 36,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/248320-5-3-stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/248320-5-3-stock.log",
+      "source_sha256": "643d6e10eeefdb167a0aa4b9fe4de0dc9e61bb1c5ff98e336d448757dc536528",
+      "export_sha256": "e1a5b3e4f480ad96642260cbda3950c7c564eef59828ff2dc463c65b0677e623",
+      "bytes": 921,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4095-5-9-hier.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4095-5-9-hier.bin",
+      "source_sha256": "39488379325db9d6d05a901e35c3baccf802adf2faa64b7faff07c6fb4ce10c9",
+      "export_sha256": "39488379325db9d6d05a901e35c3baccf802adf2faa64b7faff07c6fb4ce10c9",
+      "bytes": 36,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4095-5-9-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4095-5-9-hier.log",
+      "source_sha256": "b5d2ca6dacf535958ffdf9e0402eae65fa9aae4bd5c42bbf79f6f4324698a502",
+      "export_sha256": "d774c39e102336509d55700dc55388d5d71603ebff994b0db3f6faaacb2c5b52",
+      "bytes": 1062,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4095-5-9-stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4095-5-9-stock.bin",
+      "source_sha256": "39488379325db9d6d05a901e35c3baccf802adf2faa64b7faff07c6fb4ce10c9",
+      "export_sha256": "39488379325db9d6d05a901e35c3baccf802adf2faa64b7faff07c6fb4ce10c9",
+      "bytes": 36,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4095-5-9-stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4095-5-9-stock.log",
+      "source_sha256": "47c87e5b343232cb375ba9b6e9b337e7fa214cc35f4d2b6f0fc35622e020daf9",
+      "export_sha256": "b5454d8859f2136ef258a9f89b6337ff220678bb8732635774e4ca70b9adda02",
+      "bytes": 917,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4096-1-13-hier.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4096-1-13-hier.bin",
+      "source_sha256": "20ad3eef0b6a7a8cfa1a670ba6a9ca07b64c0dce7cc873d988ec2a928631db53",
+      "export_sha256": "20ad3eef0b6a7a8cfa1a670ba6a9ca07b64c0dce7cc873d988ec2a928631db53",
+      "bytes": 20,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4096-1-13-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4096-1-13-hier.log",
+      "source_sha256": "167787c261987184d09df83c55d5747ceb2f30ff767eb6c6782d910304ba60db",
+      "export_sha256": "65f3b9636fd0613ac25241be9058851c9c086c4a5e9ce181e2a7037d6803d716",
+      "bytes": 1064,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4096-1-13-stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4096-1-13-stock.bin",
+      "source_sha256": "20ad3eef0b6a7a8cfa1a670ba6a9ca07b64c0dce7cc873d988ec2a928631db53",
+      "export_sha256": "20ad3eef0b6a7a8cfa1a670ba6a9ca07b64c0dce7cc873d988ec2a928631db53",
+      "bytes": 20,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4096-1-13-stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4096-1-13-stock.log",
+      "source_sha256": "a2eef35fa5bea1773e2e6d415970b8408d07405e213eec0aa4f2e126a4210bd7",
+      "export_sha256": "77420e7bbb44e6fe0317fc6638b3967b2d41613b0d8b28234a015e80ac870fec",
+      "bytes": 919,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4097-5-0-hier.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4097-5-0-hier.bin",
+      "source_sha256": "05188512b85072ce79529eadddda6d7c868c2671b261709ca18cc26b9be4dd1f",
+      "export_sha256": "05188512b85072ce79529eadddda6d7c868c2671b261709ca18cc26b9be4dd1f",
+      "bytes": 36,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4097-5-0-hier.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4097-5-0-hier.log",
+      "source_sha256": "306c2efd147b1d3b26b41f84d68235e233d2ddd2fba7317d79b9255609798c97",
+      "export_sha256": "484518d996bc45b0470f8a57cedbc00d3f437c14dae2090380523ca4022f13c0",
+      "bytes": 1062,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4097-5-0-stock.bin",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4097-5-0-stock.bin",
+      "source_sha256": "05188512b85072ce79529eadddda6d7c868c2671b261709ca18cc26b9be4dd1f",
+      "export_sha256": "05188512b85072ce79529eadddda6d7c868c2671b261709ca18cc26b9be4dd1f",
+      "bytes": 36,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4097-5-0-stock.log",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/4097-5-0-stock.log",
+      "source_sha256": "716a784d5a0a67fa896947e23844cdae79b6640aaf3ea705b23c03fb9244f051",
+      "export_sha256": "b6006822908f7f0d9fcf28119c8a82a46e7f69b70677123770c0b4e9ef2a6f6b",
+      "bytes": 917,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/assets.json",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/assets.json",
+      "source_sha256": "6ee5924f3cb992add3552af145edd9d0a79e33d3860ef13921180a0ef462776a",
+      "export_sha256": "4d31cae39f92334e7546e95e0fb1f3ce0d2d0e269271f95e0d947193c3f904fc",
+      "bytes": 1585,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/comparison.json",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/comparison.json",
+      "source_sha256": "f49c1a56d5ec2ab4ff5ae09e7377f2f3142616fa467ee6fb7eefddb75a366118",
+      "export_sha256": "f49c1a56d5ec2ab4ff5ae09e7377f2f3142616fa467ee6fb7eefddb75a366118",
+      "bytes": 124,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/results.json",
+      "path": "archive/isolated/native-argmax-hierarchical/selected-check/20261101T193830Z/results.json",
+      "source_sha256": "04dffb1384a11c22165f91e686f3dfba0f86e8d13f38472fe27c0325e9caf71d",
+      "export_sha256": "04dffb1384a11c22165f91e686f3dfba0f86e8d13f38472fe27c0325e9caf71d",
+      "bytes": 2452,
       "sanitized": false
     },
     {
@@ -32941,6 +33629,22 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_native_argmax_hier_micro.py",
+      "path": "archive/isolated/run_native_argmax_hier_micro.py",
+      "source_sha256": "b058734325fdf123094a44c39892595cc36bb0391c32fc49834718d91b19ad1e",
+      "export_sha256": "b058734325fdf123094a44c39892595cc36bb0391c32fc49834718d91b19ad1e",
+      "bytes": 6340,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_native_argmax_hier_selected.py",
+      "path": "archive/isolated/run_native_argmax_hier_selected.py",
+      "source_sha256": "fe9d83118561ca894ba42d09b4b9c30829f4e846d256c0d0a7d111c773fc6ec3",
+      "export_sha256": "fe9d83118561ca894ba42d09b4b9c30829f4e846d256c0d0a7d111c773fc6ec3",
+      "bytes": 3983,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_native_argmax_micro.py",
       "path": "archive/isolated/run_native_argmax_micro.py",
       "source_sha256": "3e876f3d418cbeb86fc10d0b1630336312a5461e6ffb1c8205f5f8eacb274f2f",
@@ -33679,9 +34383,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "aea6d329c0deeaa048ffc30198c8df76751e14f5e9860e225e97b5358bf3f75c",
-      "export_sha256": "aea6d329c0deeaa048ffc30198c8df76751e14f5e9860e225e97b5358bf3f75c",
-      "bytes": 30088,
+      "source_sha256": "224433915751dfb5278c496aa9e47c57f8adb8438449fbb928a5185cff49bb3c",
+      "export_sha256": "224433915751dfb5278c496aa9e47c57f8adb8438449fbb928a5185cff49bb3c",
+      "bytes": 30308,
       "sanitized": false
     },
     {
@@ -34301,5 +35005,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T19:38:06.677429+00:00"
+  "updated_utc": "2026-11-01T19:39:44.229359+00:00"
 }
