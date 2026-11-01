@@ -43,3 +43,8 @@ No contribution was made to Mesa GitLab. The private experiments are not upstrea
 
 - [llama.cpp OpenCL Q3_K support, PR31172](https://github.com/ggml-org/llama.cpp/pull/31172), merged October27, includes a [Q3 structure-of-arrays matrix-vector/tiled-matrix implementation](https://github.com/ggml-org/llama.cpp/commit/d04eb29e8b87328cfb4463bc75796a26e880b8e0). Its conversion/restore and separated quant/high-bit/scale streams offer concrete layout ideas. Portability or speed on this Vulkan/R9700 stack is untested; a small tiled layout could potentially preserve aligned word access without padding every block. That is a proposed experiment, not a result.
 - [Vulkan MTP buffer-residency report, issue30688](https://github.com/ggml-org/llama.cpp/issues/30688), reports target compute buffers becoming nonresident near full VRAM on R9700. This is a user-reported different workload, not a diagnosis of these experiments. It motivates checking requested/resident VRAM when adding repacked copies, in addition to checking numerical equivalence and timestamps.
+
+## Speculation and long-context leads checked 1 November
+
+- [GPU-resident speculative decoding for WebGPU](https://arxiv.org/abs/2610.39761): device-side draft/verify/accept loop and adaptive speculation; browser/greedy/small-model evidence, not an R9700 Vulkan or DFlash measurement.
+- [SpecStream](https://arxiv.org/abs/2609.33184): streams committed KV and overlaps verification with drafting for offloaded long-context serving; requires careful local assessment of residency, rollback, bandwidth and scheduling.

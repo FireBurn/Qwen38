@@ -15,6 +15,8 @@ Five-arm combined-host correctness qualification passed: 530 raw target rows per
 
 **Workspace cleanup:** 82 paths to completed, byte-identical compressed target-logit audits were consolidated as hard links, reclaiming 4,421,696,136 bytes. All paths remain available and post-cleanup inode and source-hash checks passed. These historical audit files must be treated as immutable. [Cleanup record](../archive/isolated/canonical-audit-dedup-20261101.json).
 
+The observed server workload used DFlash and non-greedy sampling at a much larger context limit than the frozen MTP/greedy experiments. These measured gains do not establish a speedup for that server configuration. [Workload scope and research leads](WORKLOAD-SCOPE.md).
+
 ## Next work
 
 Investigate further native shader and small-fusion improvements against the current stock and qualified wider-argmax configurations. A two-stage hierarchical argmax reduction and output-head integration are unvalidated leads; any candidate needs exactness qualification and a separate load-matched model comparison. The combined padded-Q3 and wider-argmax discovery has completed, and the immutable rotation-cache independent confirmation was inconclusive, as documented below. No faster mega kernel or production deployment has been established.
