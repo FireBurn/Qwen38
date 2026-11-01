@@ -6351,9 +6351,9 @@
     {
       "source": "isolated/native-argmax-hierarchical/FAULT-REVIEW.md",
       "path": "archive/isolated/native-argmax-hierarchical/FAULT-REVIEW.md",
-      "source_sha256": "79332ac58639fb92a9cc7870052fdb5745a1aba20868ee4b0798689f83042342",
-      "export_sha256": "79332ac58639fb92a9cc7870052fdb5745a1aba20868ee4b0798689f83042342",
-      "bytes": 3158,
+      "source_sha256": "9953c6214befede767cbc7dc7c47589fe076f6e08e04eb2ecb047f64eeb203b0",
+      "export_sha256": "9953c6214befede767cbc7dc7c47589fe076f6e08e04eb2ecb047f64eeb203b0",
+      "bytes": 4005,
       "sanitized": false
     },
     {
@@ -6547,6 +6547,30 @@
       "export_sha256": "8c6dbf69f018f96163dd0f9d9a15fd429a97dfadff9d2f833d70508fd9840f4c",
       "bytes": 595,
       "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/host-safe-bounds/build-argv.json",
+      "path": "archive/isolated/native-argmax-hierarchical/host-safe-bounds/build-argv.json",
+      "source_sha256": "43b9f46f61165bdd3572e8f16b7bf3e0d56733e3d5d0248067a34d2258642183",
+      "export_sha256": "d776e38ab5a46a422c12b9fdc058405e4296fd241275285a2c5c80323088972a",
+      "bytes": 16590,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/host-safe-bounds/build.json",
+      "path": "archive/isolated/native-argmax-hierarchical/host-safe-bounds/build.json",
+      "source_sha256": "c043f42d4eec4b86603d206118811397392f69c4d1cd802f3628777cd54ebcb0",
+      "export_sha256": "c043f42d4eec4b86603d206118811397392f69c4d1cd802f3628777cd54ebcb0",
+      "bytes": 263,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/host-safe-bounds/build.log",
+      "path": "archive/isolated/native-argmax-hierarchical/host-safe-bounds/build.log",
+      "source_sha256": "0250a51a213259f95fa7a398f81b29a1f74b7824421f6defad9d7e507e9c0695",
+      "export_sha256": "b3fc48bd33dbb5edee8e96dcfd0d7fc25dc1da8c96b33d48f1f97957c66984e2",
+      "bytes": 1482,
+      "sanitized": true
     },
     {
       "source": "isolated/native-argmax-hierarchical/host.patch",
@@ -34085,5 +34109,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T18:58:34.916962+00:00"
+  "updated_utc": "2026-11-01T18:59:19.939631+00:00"
 }
