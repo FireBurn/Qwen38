@@ -1,0 +1,28 @@
+#version 450
+layout(local_size_x=64) in;
+layout(push_constant) uniform Params { uint k; uint rows; uint chunks; } p;
+layout(binding=0) readonly buffer Input { float values[]; } src;
+layout(binding=1) readonly buffer Scratch { uvec2 pairs[]; } scratch;
+layout(binding=2) writeonly buffer Output { int indices[]; } dst;
+shared float maxima[64];
+shared uint chosen[64];
+const uint INVALID=0xffffffffu;
+void main() {
+    uint row=gl_WorkGroupID.x, lane=gl_LocalInvocationID.x;
+    if (row>=p.rows) return;
+    float best=lane<p.k ? src.values[row*p.k+lane] : -3.402823466e38;
+    uint index=lane;
+    for (uint chunk=0;chunk<p.chunks;++chunk) {
+        uvec2 pair=scratch.pairs[(row*p.chunks+chunk)*64u+lane];
+        float value=uintBitsToFloat(pair.x);
+        if(pair.y!=INVALID && value>best){best=value;index=pair.y;}
+    }
+    maxima[lane]=best; chosen[lane]=index; barrier();
+    for(uint step=32u;step>0;step>>=1u){
+        if(lane<step && lane+step<p.k && maxima[lane]<maxima[lane+step]){
+            maxima[lane]=maxima[lane+step];chosen[lane]=chosen[lane+step];
+        }
+        barrier();
+    }
+    if(lane==0u)dst.indices[row]=int(chosen[0]);
+}

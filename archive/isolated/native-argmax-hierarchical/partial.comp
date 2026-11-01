@@ -1,0 +1,19 @@
+#version 450
+// Dedicated prototype for the observed native 64-lane R9700 path.
+layout(local_size_x=64) in;
+layout(push_constant) uniform Params { uint k; uint rows; uint chunks; } p;
+layout(binding=0) readonly buffer Input { float values[]; } src;
+layout(binding=1) writeonly buffer Scratch { uvec2 pairs[]; } scratch;
+const uint CHUNK=2048u, INVALID=0xffffffffu;
+void main() {
+    uint chunk=gl_WorkGroupID.x, row=gl_WorkGroupID.y, lane=gl_LocalInvocationID.x;
+    if (chunk>=p.chunks || row>=p.rows) return;
+    uint start=chunk*CHUNK, end=min(start+CHUNK,p.k), chosen=INVALID;
+    float best=0.0;
+    for (uint i=start+lane; i<end; i+=64u) {
+        if (i<64u) continue;
+        float v=src.values[row*p.k+i];
+        if (!isnan(v) && (chosen==INVALID || v>best)) { best=v; chosen=i; }
+    }
+    scratch.pairs[(row*p.chunks+chunk)*64u+lane]=uvec2(floatBitsToUint(best),chosen);
+}

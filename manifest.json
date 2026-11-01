@@ -6335,24 +6335,56 @@
     {
       "source": "isolated/native-argmax-hierarchical/DESIGN.md",
       "path": "archive/isolated/native-argmax-hierarchical/DESIGN.md",
-      "source_sha256": "827b06dfc34cecc160ce6523e15b5c65132e4a876df383097728796cddb0c782",
-      "export_sha256": "827b06dfc34cecc160ce6523e15b5c65132e4a876df383097728796cddb0c782",
-      "bytes": 1902,
+      "source_sha256": "5446b43d6b4afab930e580aa77a6ab220a416e544309f8166d30eae6b1f57653",
+      "export_sha256": "5446b43d6b4afab930e580aa77a6ab220a416e544309f8166d30eae6b1f57653",
+      "bytes": 2260,
       "sanitized": false
     },
     {
       "source": "isolated/native-argmax-hierarchical/check_source_model.py",
       "path": "archive/isolated/native-argmax-hierarchical/check_source_model.py",
-      "source_sha256": "984def8b646abc857e21590543a610f0f783d9ff48910032db6cae33ea7434ff",
-      "export_sha256": "984def8b646abc857e21590543a610f0f783d9ff48910032db6cae33ea7434ff",
-      "bytes": 2290,
+      "source_sha256": "b36310bd1283db5c0196ced3ed078a1163adb15527efa1d4f0e002b4ebe16275",
+      "export_sha256": "b36310bd1283db5c0196ced3ed078a1163adb15527efa1d4f0e002b4ebe16275",
+      "bytes": 2776,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/final.comp",
+      "path": "archive/isolated/native-argmax-hierarchical/final.comp",
+      "source_sha256": "89b130d13ac4205f4e2defc0da213e22d897f721ac695bc852e0acb617bde763",
+      "export_sha256": "89b130d13ac4205f4e2defc0da213e22d897f721ac695bc852e0acb617bde763",
+      "bytes": 1155,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/final.spv",
+      "path": "archive/isolated/native-argmax-hierarchical/final.spv",
+      "source_sha256": "e61b95bf1dd5a1492a95a84edef07b5f8329bcbfc99f304f4696fbe7d1fae137",
+      "export_sha256": "e61b95bf1dd5a1492a95a84edef07b5f8329bcbfc99f304f4696fbe7d1fae137",
+      "bytes": 3268,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/partial.comp",
+      "path": "archive/isolated/native-argmax-hierarchical/partial.comp",
+      "source_sha256": "4fe0c3e733baaa42a76cf28d1d7348cad9e2b933ec945271d9724e2f5bad7e7d",
+      "export_sha256": "4fe0c3e733baaa42a76cf28d1d7348cad9e2b933ec945271d9724e2f5bad7e7d",
+      "bytes": 884,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/partial.spv",
+      "path": "archive/isolated/native-argmax-hierarchical/partial.spv",
+      "source_sha256": "de301b3fd14d9db8976cdda29d0421248cfeb956388dec1794388cea3c5ab625",
+      "export_sha256": "de301b3fd14d9db8976cdda29d0421248cfeb956388dec1794388cea3c5ab625",
+      "bytes": 2380,
       "sanitized": false
     },
     {
       "source": "isolated/native-argmax-hierarchical/source-model-result.json",
       "path": "archive/isolated/native-argmax-hierarchical/source-model-result.json",
-      "source_sha256": "cd86783ba39f784a914159dd86c43012abae29d33e7a66d7db9c2e604efb3b99",
-      "export_sha256": "cd86783ba39f784a914159dd86c43012abae29d33e7a66d7db9c2e604efb3b99",
+      "source_sha256": "bbd1d752cbc4adbcf15447290d1014bbe72da61f11b3e0560ebbd74d75f1fd61",
+      "export_sha256": "bbd1d752cbc4adbcf15447290d1014bbe72da61f11b3e0560ebbd74d75f1fd61",
       "bytes": 290,
       "sanitized": false
     },
@@ -33813,5 +33845,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T18:54:18.272098+00:00"
+  "updated_utc": "2026-11-01T18:55:15.956956+00:00"
 }

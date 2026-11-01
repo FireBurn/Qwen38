@@ -52,5 +52,18 @@ for _ in range(5000):
  for c in (1,7,31,64,257):
   assert chunked(a,b,c)==expected
   checks+=1
+# Exercise the prototype's actual 64-lane/2048-element chunk geometry.
+for n in (63,64,65,2047,2048,2049,4095,4096,4097,248320):
+ for scenario in range(8):
+  a=[rng.choice(vals) for _ in range(n)]
+  if scenario==0:a=[-math.inf]*n
+  if scenario==1:a=[math.nan]*n
+  if scenario==2:a=[-0.0]*n
+  if scenario==3:a[0]=math.nan
+  if scenario==4:a[-1]=math.nan
+  if scenario==5:a[-1]=math.inf
+  if scenario==6:a[n//2]=math.inf
+  assert chunked(a,64,2048)==native(a,64),(n,scenario)
+  checks+=1
 out={'all_pass':True,'checks':checks,'scope':'CPU transcription only; ordered per-native-lane chunk maxima with native scan initializer and native reduction tree, including NaNs, infinities, signed zeros and ties. No GPU implementation, model correctness, or performance claim.'}
 Path(__file__).with_name('source-model-result.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out))
