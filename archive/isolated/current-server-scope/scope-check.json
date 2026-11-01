@@ -1,0 +1,32 @@
+{
+  "observed_installed_server_version": "",
+  "observed_historical_server_configuration": {
+    "context_limit": 327680,
+    "draft_mode": "ngram-mod,draft-dflash",
+    "max_draft_tokens": 4,
+    "temperature": 0.6,
+    "top_k": 20,
+    "top_p": 0.95,
+    "min_p": 0,
+    "kv": "q8_0",
+    "flash_attention": true
+  },
+  "historical_observation_scope": "Process command observed 2026-11-01 turn context before user-authorized shutdown. Not current live server or evidence of actual populated context.",
+  "available_local_files": {
+    "${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf": {
+      "bytes": 17303770432,
+      "device": 66307,
+      "inode": 45220043,
+      "mtime_ns": 1792373594642609469,
+      "scope": "filesystem stat only, not a content hash"
+    },
+    "${CLAUDE_WORKSPACE}/models/Qwen3.8-27B-DFlash2-Q4_K_M.gguf": {
+      "bytes": 1143006816,
+      "device": 66307,
+      "inode": 45502621,
+      "mtime_ns": 1789562447585156796,
+      "scope": "filesystem stat only, not a content hash"
+    }
+  },
+  "conclusion": "Frozen greedy MTP1 performance does not qualify stochastic DFlash server or installed 0.8.0-dev stack. No GPU task launched."
+}
