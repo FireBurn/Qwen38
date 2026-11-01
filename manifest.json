@@ -317,6 +317,22 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/BASELINE-PLAN.md",
+      "path": "archive/isolated/current-server-scope/BASELINE-PLAN.md",
+      "source_sha256": "728d0d0102e3b89842da489ad3ccfb24c7f7d445513381994b476ed1c630a2a1",
+      "export_sha256": "728d0d0102e3b89842da489ad3ccfb24c7f7d445513381994b476ed1c630a2a1",
+      "bytes": 1321,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/preflight.json",
+      "path": "archive/isolated/current-server-scope/preflight.json",
+      "source_sha256": "3038f65be076228c9cffe632fc3efc15adbf2d6e3453e63c32d0a9b41f5a3bd4",
+      "export_sha256": "de01162fe8d4b55cee40d8be8869a9fb6e1a0559837f1990d6397002091b52ab",
+      "bytes": 1023,
+      "sanitized": true
+    },
+    {
       "source": "isolated/current-server-scope/scope-check.json",
       "path": "archive/isolated/current-server-scope/scope-check.json",
       "source_sha256": "6ca094adc9c0373dc83538e57032a783584788d8bb076e6eb3d8b5f726b76340",
@@ -36301,6 +36317,14 @@
       "sanitized": true
     },
     {
+      "source": "isolated/run_current_server_baseline.py",
+      "path": "archive/isolated/run_current_server_baseline.py",
+      "source_sha256": "0fadf7e86cd883dd561d0a76a05710b794a2e70cdefa8c81dd4b1b14c1fa7fbf",
+      "export_sha256": "cdc8e46f845ff271f8632e0a36a419e7b6c7a625bec394ad2ddec64dfb59c79b",
+      "bytes": 7325,
+      "sanitized": true
+    },
+    {
       "source": "isolated/run_gdn_gpu_profile32.py",
       "path": "archive/isolated/run_gdn_gpu_profile32.py",
       "source_sha256": "a9eadef480077e3e08b10a2d14d81b2d541d639638bc5f23d7200bedd9cea84b",
@@ -37191,9 +37215,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "291d47590cc103f43ec1f7b212e6ea591a87a839a8eec4eda855973eb6871012",
-      "export_sha256": "291d47590cc103f43ec1f7b212e6ea591a87a839a8eec4eda855973eb6871012",
-      "bytes": 30677,
+      "source_sha256": "1512926039c39dbdee9f91a9a62ddaba97491d26495f514ea024fb58d7e57bfe",
+      "export_sha256": "1512926039c39dbdee9f91a9a62ddaba97491d26495f514ea024fb58d7e57bfe",
+      "bytes": 30745,
       "sanitized": false
     },
     {
@@ -37813,5 +37837,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T20:25:22.918042+00:00"
+  "updated_utc": "2026-11-01T20:26:45.347578+00:00"
 }
