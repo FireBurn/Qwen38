@@ -10,6 +10,10 @@ The next actionable baseline should reproduce the observed target/draft, sampler
 
 Prior DFlash benchmark JSON in the separate worktree uses a different Q4 target and varying settings; its reported rates are historical leads, not a direct comparison with the observed Q3 server or a basis for claiming an improvement. Preserve the user's original production settings unless a separately validated change is adopted.
 
+## Initial current-server smoke run
+
+One isolated installed-server run completed a short synthetic request at the observed context allocation and DFlash settings with no new GPU errors. Device-wide observed VRAM peaked at about 29.46 GiB, which is not isolated per-process accounting; the prompt was short despite the large allocation. Two telemetry reads returned `EBUSY` without phase tags, so the runner failed its telemetry gate and the timing is **not qualified**. The `passed` field in the raw result means the HTTP request completed; [qualification](../archive/isolated/current-server-scope/baseline/20261101T202654Z/qualification.json) records the failed gate. This was not an A/B test or a quality check. The one-dword copy override and disabled transfer queue were explicitly applied to this private process and were not confirmed as the settings of the historical server.
+
 ## Research leads
 
 - [GPU-resident speculative decoding for WebGPU](https://arxiv.org/abs/2610.39761) explores keeping draft, verification, acceptance and KV maintenance on device, alongside adaptive speculation. Its reported results use browser runtimes, small models and greedy decoding; they do not establish an R9700/Vulkan/DFlash speedup. The local question is whether CPU/GPU synchronization and speculative control are exposed on the actual configuration, and whether exact stochastic sampling and rollback can be preserved.

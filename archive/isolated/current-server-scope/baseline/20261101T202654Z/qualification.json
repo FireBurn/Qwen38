@@ -1,0 +1,8 @@
+{
+  "request_completed": true,
+  "runner_exit_code": 1,
+  "timing_qualified": false,
+  "reason": "Two GPU telemetry reads returned EBUSY; the runner did not record their phases, and its final telemetry assertion failed. The result.json passed field means the HTTP request completed, not that the timing passed qualification.",
+  "new_gpu_errors": [],
+  "scope": "Single short synthetic prompt, installed server, one-dword copy override; not an A/B comparison, representative long context or quality test. Device-wide VRAM telemetry is not per-process accounting."
+}

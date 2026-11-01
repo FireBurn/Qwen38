@@ -325,6 +325,46 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/baseline/20261101T202654Z/identity.json",
+      "path": "archive/isolated/current-server-scope/baseline/20261101T202654Z/identity.json",
+      "source_sha256": "7d29d49183e5ae01961ac3ca9379ab051ca0f749c262373b38b3a20f5a12fbe1",
+      "export_sha256": "58b7d6c636b664261839914e13b1020e58d2e2413dcae4bf8ce4fd02b2307a47",
+      "bytes": 2732,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/baseline/20261101T202654Z/qualification.json",
+      "path": "archive/isolated/current-server-scope/baseline/20261101T202654Z/qualification.json",
+      "source_sha256": "361c47804009da19acedd904d5dca01a02fe8e5141ec220510e1ac4e0861cd4b",
+      "export_sha256": "361c47804009da19acedd904d5dca01a02fe8e5141ec220510e1ac4e0861cd4b",
+      "bytes": 566,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/baseline/20261101T202654Z/result.json",
+      "path": "archive/isolated/current-server-scope/baseline/20261101T202654Z/result.json",
+      "source_sha256": "f314abed5756d9f732345e239c690f9d0e0302f1592d58d787698f29c6cbf507",
+      "export_sha256": "f314abed5756d9f732345e239c690f9d0e0302f1592d58d787698f29c6cbf507",
+      "bytes": 1764,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/baseline/20261101T202654Z/server.log",
+      "path": "archive/isolated/current-server-scope/baseline/20261101T202654Z/server.log",
+      "source_sha256": "81e3c99a0629e5e0f6f08583c984a70c376f7c6aa357e980a2c9a0022d498cd3",
+      "export_sha256": "016f76020839b6207377cb97df8b65add2d1d6d1cd3849ef9778b81eab22d06f",
+      "bytes": 5718,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/baseline/20261101T202654Z/telemetry.json",
+      "path": "archive/isolated/current-server-scope/baseline/20261101T202654Z/telemetry.json",
+      "source_sha256": "53c42cd3429422421995941ee2771c3d24282d7ec8cb9ba948bfb978352827ec",
+      "export_sha256": "53c42cd3429422421995941ee2771c3d24282d7ec8cb9ba948bfb978352827ec",
+      "bytes": 24755,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/preflight.json",
       "path": "archive/isolated/current-server-scope/preflight.json",
       "source_sha256": "3038f65be076228c9cffe632fc3efc15adbf2d6e3453e63c32d0a9b41f5a3bd4",
@@ -37837,5 +37877,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T20:26:45.347578+00:00"
+  "updated_utc": "2026-11-01T20:27:53.244024+00:00"
 }
