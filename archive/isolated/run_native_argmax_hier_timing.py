@@ -30,6 +30,8 @@ assets=[*stock_libraries,Path(__file__),project/'MODEL-TIMING-PLAN.md',project/'
 assert hashlib.sha256((base/'native-fusion-plan/sync-bin/model-bench').read_bytes()).hexdigest()==json.loads((base/'native-fusion-plan/sync-build.json').read_text())['binary_sha256']
 (out/'assets.json').write_text(json.dumps({str(x):hashlib.sha256(x.read_bytes()).hexdigest()for x in assets},indent=2)+'\n')
 model='${CLAUDE_WORKSPACE}/eval/models/nerkyor/GGUF/Qwen3.8-27B-Coder390-EfficientThink-Q3LynnStyle-MTP.gguf'
+model_stat=Path(model).stat();model_identity=(model_stat.st_dev,model_stat.st_ino,model_stat.st_size,model_stat.st_mtime_ns)
+(out/'model-identity.json').write_text(json.dumps({'device':model_identity[0],'inode':model_identity[1],'bytes':model_identity[2],'mtime_ns':model_identity[3],'scope':'Stat identity, not a content hash.'},indent=2)+'\n')
 prompt='The history of the Roman Empire begins with the rise of Augustus. After the death of Julius Caesar, a power struggle erupted among his heirs and generals. In this essay we will examine'
 pci=Path('/sys/bus/pci/devices/0000:07:00.0');freq=next((pci/'hwmon').glob('hwmon*/freq1_input'))
 from quiet_builds import build_processes
@@ -38,6 +40,7 @@ rows=[]
 runtime_lib=Path('/usr/lib64/libc.so.1').resolve();runtime_inode=runtime_lib.stat().st_ino
 (out/'runtime-baseline.json').write_text(json.dumps({'path':str(runtime_lib),'inode':runtime_inode,'sha256':hashlib.sha256(runtime_lib.read_bytes()).hexdigest()},indent=2)+chr(10))
 for index,mode in enumerate(sequence):
+ current_model=Path(model).stat();assert (current_model.st_dev,current_model.st_ino,current_model.st_size,current_model.st_mtime_ns)==model_identity,'Model identity changed'
  assert runtime_lib.stat().st_ino==runtime_inode,'Runtime replaced during test'
  assert not competition(),competition();trial=env.copy();bounded=False
  for key in ['GGML_VK_TAPE','GGML_VK_PIPELINE_STATS','MTP_LOGITS_AUDIT_OUT','LLAMA_HEAD_BOUND_CACHE','ACO_DEBUG','RADV_DEBUG','MESA_SHADER_CACHE_DISABLE','GGML_VK_NATIVE_GLUQ_FUSE','GGML_VK_NATIVE_GLUQ_EXPAND_VIEWS','GGML_VK_NATIVE_GLUQ_AUDIT','GGML_VK_SYNC_LOGGER','GGML_VK_NATIVE_GLUQ_CHECK_PLAN','GGML_VK_NATIVE_GLUQ_COALESCE','GGML_VK_NATIVE_GLUQ_SUBGROUP32']:trial.pop(key,None)
@@ -112,6 +115,7 @@ for index,mode in enumerate(sequence):
  assert row['under_load_measurement_valid'],'Missing/failed timed telemetry; stop rather than claim a result'
 
 assert len(rows)==72
+current_model=Path(model).stat();assert (current_model.st_dev,current_model.st_ino,current_model.st_size,current_model.st_mtime_ns)==model_identity,'Model identity changed'
 import math
 critical={4:3.182446305284263,5:2.776445105197799,6:2.570581835636305,7:2.44691185114497,8:2.3646242515927844,9:2.306004135204166,10:2.2621571628540993,11:2.2281388519649385,12:2.200985160082949}
 def estimate(values):
