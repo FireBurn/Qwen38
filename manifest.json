@@ -6359,9 +6359,9 @@
     {
       "source": "isolated/native-argmax-hierarchical/COPY-TAIL-LEAD.md",
       "path": "archive/isolated/native-argmax-hierarchical/COPY-TAIL-LEAD.md",
-      "source_sha256": "899a710c4b3ac89a6bfb47a275d9370ddf79c21314d45740226e699345ce9766",
-      "export_sha256": "899a710c4b3ac89a6bfb47a275d9370ddf79c21314d45740226e699345ce9766",
-      "bytes": 2729,
+      "source_sha256": "a904f2bb9bc0b20a6b6f92a7674bc4516ace400d3aa2887c51c410a8dc04df83",
+      "export_sha256": "a904f2bb9bc0b20a6b6f92a7674bc4516ace400d3aa2887c51c410a8dc04df83",
+      "bytes": 4036,
       "sanitized": false
     },
     {
@@ -6378,6 +6378,22 @@
       "source_sha256": "9953c6214befede767cbc7dc7c47589fe076f6e08e04eb2ecb047f64eeb203b0",
       "export_sha256": "9953c6214befede767cbc7dc7c47589fe076f6e08e04eb2ecb047f64eeb203b0",
       "bytes": 4005,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/allocator-tail-model.json",
+      "path": "archive/isolated/native-argmax-hierarchical/allocator-tail-model.json",
+      "source_sha256": "fab20bbb8bfb0cd24e20b1f000d52eb99f989916db322077c2fc9800428a4646",
+      "export_sha256": "fab20bbb8bfb0cd24e20b1f000d52eb99f989916db322077c2fc9800428a4646",
+      "bytes": 3912,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/native-argmax-hierarchical/allocator_tail_model.py",
+      "path": "archive/isolated/native-argmax-hierarchical/allocator_tail_model.py",
+      "source_sha256": "e9540a266bbf991597f64f9d6891e364bb3462cfd5c8e386347302dd2679e589",
+      "export_sha256": "e9540a266bbf991597f64f9d6891e364bb3462cfd5c8e386347302dd2679e589",
+      "bytes": 1230,
       "sanitized": false
     },
     {
@@ -34165,5 +34181,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T19:14:39.357500+00:00"
+  "updated_utc": "2026-11-01T19:15:11.309822+00:00"
 }

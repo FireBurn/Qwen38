@@ -1,0 +1,153 @@
+{
+  "assumptions": "Tensor start aligned to listed power-of-two backend alignment, destination 8-byte aligned, 2DW raw-address copy, allocation plan pads each tensor to that alignment and mapped buffer covers the planned size. Actual device alignment, addresses and generated copy instructions not captured.",
+  "results": [
+    {
+      "alignment": 4,
+      "readback_bytes": 4,
+      "padded_bytes": 4,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": false
+    },
+    {
+      "alignment": 4,
+      "readback_bytes": 8,
+      "padded_bytes": 8,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 4,
+      "readback_bytes": 20,
+      "padded_bytes": 20,
+      "modeled_load_bytes": 24,
+      "load_within_tensor_allocation": false
+    },
+    {
+      "alignment": 8,
+      "readback_bytes": 4,
+      "padded_bytes": 8,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 8,
+      "readback_bytes": 8,
+      "padded_bytes": 8,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 8,
+      "readback_bytes": 20,
+      "padded_bytes": 24,
+      "modeled_load_bytes": 24,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 16,
+      "readback_bytes": 4,
+      "padded_bytes": 16,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 16,
+      "readback_bytes": 8,
+      "padded_bytes": 16,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 16,
+      "readback_bytes": 20,
+      "padded_bytes": 32,
+      "modeled_load_bytes": 24,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 32,
+      "readback_bytes": 4,
+      "padded_bytes": 32,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 32,
+      "readback_bytes": 8,
+      "padded_bytes": 32,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 32,
+      "readback_bytes": 20,
+      "padded_bytes": 32,
+      "modeled_load_bytes": 24,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 64,
+      "readback_bytes": 4,
+      "padded_bytes": 64,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 64,
+      "readback_bytes": 8,
+      "padded_bytes": 64,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 64,
+      "readback_bytes": 20,
+      "padded_bytes": 64,
+      "modeled_load_bytes": 24,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 128,
+      "readback_bytes": 4,
+      "padded_bytes": 128,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 128,
+      "readback_bytes": 8,
+      "padded_bytes": 128,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 128,
+      "readback_bytes": 20,
+      "padded_bytes": 128,
+      "modeled_load_bytes": 24,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 256,
+      "readback_bytes": 4,
+      "padded_bytes": 256,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 256,
+      "readback_bytes": 8,
+      "padded_bytes": 256,
+      "modeled_load_bytes": 8,
+      "load_within_tensor_allocation": true
+    },
+    {
+      "alignment": 256,
+      "readback_bytes": 20,
+      "padded_bytes": 256,
+      "modeled_load_bytes": 24,
+      "load_within_tensor_allocation": true
+    }
+  ],
+  "scope": "CPU arithmetic on inspected allocator and copy-source rules, not GPU observation or proof of fault cause."
+}
