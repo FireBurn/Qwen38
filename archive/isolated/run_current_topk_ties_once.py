@@ -10,7 +10,7 @@ report={'scope':'one row finite tied scores only; no speed or sampling qualifica
 try:
  for arm,p in arms.items():
   out=run/(arm+'.bin');r=subprocess.run([str(probe),str(p),'1','1',str(out)],env=env,capture_output=True,text=True,timeout=30);(run/(arm+'.stdout')).write_text(r.stdout);(run/(arm+'.stderr')).write_text(r.stderr);errors=faults(before);assert not errors,errors;assert r.returncode==0,(arm,r.returncode);assert str(p) in r.stderr and 'vulkan_radeon' in r.stderr,(arm,'mapping missing');raw=out.read_bytes();assert len(raw)==80;idx=struct.unpack('<20i',raw);assert all(((i*17)%248320)%31==30 for i in idx) and len(set(idx))==20,(arm,'oracle mismatch',idx);report['results'][arm]={'indices':idx,'oracle_match':True,'new_gpu_errors':errors};print(arm,'oracle passed',flush=True)
- report['same_order']=report['results']['baseline']['indices']==report['results']['candidate']['indices'];report['passed']=True
+ report['same_order']=report['results']['baseline']['indices']==report['results']['candidate']['indices'];assert report['same_order'],'baseline/candidate index order differs';report['passed']=True
 except BaseException as e:
  report['error']=repr(e);raise
 finally:(run/'result.json').write_text(json.dumps(report,indent=2)+'\n');print('results',run,flush=True)
