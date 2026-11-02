@@ -1,0 +1,7 @@
+--- a/ggml/src/ggml-vulkan/ggml-vulkan.cpp
++++ b/ggml/src/ggml-vulkan/ggml-vulkan.cpp
+@@ -1,1 +1,4 @@
+         uint32_t preferred_pipeline = std::max(num_topk_pipelines - 3, (uint32_t)log2f(float(k)) + 2);
++        if (ncols == 248320 && k == 20) {
++            preferred_pipeline = std::max(preferred_pipeline, 9u);
++        }

@@ -1,0 +1,3 @@
+# One-row finite-ties qualification
+
+Following successful unique finite baseline and candidate control, use the same safeguards for exactly one row of 248320 finite, tied values per arm. Both results must contain 20 distinct indices with maximum input value. Capture and compare the exact index order and identity, which can affect the backend sampler. Different ties or order are a qualification failure for the conservative compatibility gate, even if both sets satisfy top-k's mathematical contract. Stop on any new GPU error, timeout or invalid result; do not retry. No NaN, infinity or multiple-row tests are authorized by this plan. The general hold remains.

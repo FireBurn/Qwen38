@@ -1,0 +1,24 @@
+[0/2] Re-checking globbed directories...
+[1/7] Performing build step for 'vulkan-shaders-gen'
+ninja: no work to do.
+[2/7] Performing install step for 'vulkan-shaders-gen'
+-- Up-to-date: ${WORKSPACE}/isolated/current-server-scope/installed-build/Release/./vulkan-shaders-gen
+[3/7] Completed 'vulkan-shaders-gen'
+[4/7] Building CXX object ggml/src/ggml-vulkan/CMakeFiles/ggml-vulkan.dir/ggml-vulkan.cpp.o
+${WORKSPACE}/isolated/current-server-scope/installed-source/ggml/src/ggml-vulkan/ggml-vulkan.cpp:1378:22: warning: no previous prototype for function 'get_fa_pipeline_state' [-Wmissing-prototypes]
+ 1378 | vk_fa_pipeline_state get_fa_pipeline_state(const vk_device& device, const vk_fa_tuning_params& params, uint32_t hsk, uint32_t hsv, bool aligned, bool f32acc,
+      |                      ^
+${WORKSPACE}/isolated/current-server-scope/installed-source/ggml/src/ggml-vulkan/ggml-vulkan.cpp:1378:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+ 1378 | vk_fa_pipeline_state get_fa_pipeline_state(const vk_device& device, const vk_fa_tuning_params& params, uint32_t hsk, uint32_t hsv, bool aligned, bool f32acc,
+      | ^
+      | static
+${WORKSPACE}/isolated/current-server-scope/installed-source/ggml/src/ggml-vulkan/ggml-vulkan.cpp:10441:6: warning: no previous prototype for function 'ggml_vk_gated_delta_net' [-Wmissing-prototypes]
+ 10441 | void ggml_vk_gated_delta_net(ggml_backend_vk_context * ctx, vk_context& subctx, ggml_tensor * dst, const ggml_tensor * state_dst) {
+       |      ^
+${WORKSPACE}/isolated/current-server-scope/installed-source/ggml/src/ggml-vulkan/ggml-vulkan.cpp:10441:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+ 10441 | void ggml_vk_gated_delta_net(ggml_backend_vk_context * ctx, vk_context& subctx, ggml_tensor * dst, const ggml_tensor * state_dst) {
+       | ^
+       | static
+2 warnings generated.
+[5/7] Linking CXX shared library bin/libggml-vulkan.so.0.28.0
+[6/7] Creating library symlink bin/libggml-vulkan.so.0 bin/libggml-vulkan.so
