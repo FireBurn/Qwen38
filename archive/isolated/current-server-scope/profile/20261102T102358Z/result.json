@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "warmup": {
+    "elapsed_seconds": 1.7710626919870265,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 55,
+      "prompt_ms": 1367.974,
+      "prompt_per_token_ms": 24.872254545454545,
+      "prompt_per_second": 40.20544250110017,
+      "predicted_n": 16,
+      "predicted_ms": 395.08,
+      "predicted_per_token_ms": 26.338666666666665,
+      "predicted_per_second": 37.96699402652627,
+      "draft_n": 12,
+      "draft_n_accepted": 12
+    },
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 55,
+      "total_tokens": 71,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+    "choice_count": 1
+  },
+  "request": {
+    "elapsed_seconds": 1.919176666997373,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 71,
+      "prompt_ms": 1014.171,
+      "prompt_per_token_ms": 14.284098591549297,
+      "prompt_per_second": 70.00791779690013,
+      "predicted_n": 32,
+      "predicted_ms": 893.69,
+      "predicted_per_token_ms": 28.828709677419358,
+      "predicted_per_second": 34.68764336626794,
+      "draft_n": 32,
+      "draft_n_accepted": 22
+    },
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 71,
+      "total_tokens": 103,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "response_sha256": "922821bdb05a16c6faed264e46b9c8228b34553a7cc24421dad71f8d4cb75813",
+    "choice_count": 1
+  },
+  "new_gpu_errors": [],
+  "scope": "Intrusive Vulkan operator profile including warmup, prefill, draft and target. Not a timing, A/B, long-context or quality result.",
+  "monitor_errors": [],
+  "sensor_gaps": [
+    {
+      "time_ns": 480454354151806,
+      "error": "OSError(16, 'Device or resource busy')"
+    },
+    {
+      "time_ns": 480454635678160,
+      "error": "OSError(16, 'Device or resource busy')"
+    },
+    {
+      "time_ns": 480454931301316,
+      "error": "OSError(16, 'Device or resource busy')"
+    }
+  ],
+  "profile_tables_detected": true
+}

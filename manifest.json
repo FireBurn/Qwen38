@@ -1005,6 +1005,38 @@
       "sanitized": true
     },
     {
+      "source": "isolated/current-server-scope/profile/20261102T102358Z/identity.json",
+      "path": "archive/isolated/current-server-scope/profile/20261102T102358Z/identity.json",
+      "source_sha256": "739fa2f38d67e56f4b85e6bf31dd38421bc01cbdb17879bc07ff4ee2ca1fa254",
+      "export_sha256": "121c562d1a47d91eac9f5218cb3097fedc519dbd6c8ed78408199290a74c3958",
+      "bytes": 2812,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/profile/20261102T102358Z/result.json",
+      "path": "archive/isolated/current-server-scope/profile/20261102T102358Z/result.json",
+      "source_sha256": "7f5c02e202651e1c0f678abd4eaf31416b406e4d0b05082da779b300a02071de",
+      "export_sha256": "7f5c02e202651e1c0f678abd4eaf31416b406e4d0b05082da779b300a02071de",
+      "bytes": 2071,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/profile/20261102T102358Z/server.log",
+      "path": "archive/isolated/current-server-scope/profile/20261102T102358Z/server.log",
+      "source_sha256": "450ab68c8a8bbdfd17606ef633030c3323547f42448ee3eb8cbd5c3d1c309594",
+      "export_sha256": "94c177b2d66967d815237cc228f8259f5cd21d814cbcc6d96fd3197f8f7c87cf",
+      "bytes": 28219,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/profile/20261102T102358Z/telemetry.json",
+      "path": "archive/isolated/current-server-scope/profile/20261102T102358Z/telemetry.json",
+      "source_sha256": "007fd3a3965f53095fc9ea8a15087cb320d67c6a5dc1c719a30dd4db240897eb",
+      "export_sha256": "007fd3a3965f53095fc9ea8a15087cb320d67c6a5dc1c719a30dd4db240897eb",
+      "bytes": 17112,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/scope-check.json",
       "path": "archive/isolated/current-server-scope/scope-check.json",
       "source_sha256": "6ca094adc9c0373dc83538e57032a783584788d8bb076e6eb3d8b5f726b76340",
@@ -38501,14 +38533,6 @@
       "sanitized": false
     },
     {
-      "source": "production/llama.cpp/LICENSE",
-      "path": "archive/third-party/llama.cpp-LICENSE",
-      "source_sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
-      "export_sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
-      "bytes": 1078,
-      "sanitized": false
-    },
-    {
       "source": "research.md",
       "path": "archive/research.md",
       "source_sha256": "064809aa0b030789cd998e94d5c5cc36ed8d1c2c97c9074a7c172183e380647b",
@@ -38523,7 +38547,15 @@
       "export_sha256": "ffc205ac938c8e24eee3be6f4107556a96aea2747bd2718d27357a2e75f4746e",
       "bytes": 8440,
       "sanitized": false
+    },
+    {
+      "source": "production/llama.cpp/LICENSE",
+      "path": "archive/third-party/llama.cpp-LICENSE",
+      "source_sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+      "export_sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d",
+      "bytes": 1078,
+      "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-02T10:23:47.172464+00:00"
+  "updated_utc": "2026-11-02T10:25:32.986879+00:00"
 }
