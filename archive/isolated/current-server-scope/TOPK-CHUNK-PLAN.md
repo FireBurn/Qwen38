@@ -1,0 +1,9 @@
+# Current-stack vocabulary top-k chunk experiment
+
+Status: preparing private baseline build; no candidate GPU execution authorized by this document alone. The GPU fault hold remains in force. A separately reviewed, bounded guard exception is needed before any GPU run.
+
+The installed-server intrusive profile observed TOP_K K=20 over 248,320 values. Source reconstructed from upstream 785322d17 and 25 recorded overlay patches selects a multi-pass top-k; subgroup-capable devices may use N-ary selection and others bitonic sort. Confirm the actual device pipeline rather than assuming one.
+
+Hypothesis: raising the preferred workgroup index from 8 (256 elements) to 9 (512) only for exactly K=20 and 248,320 input columns could reduce the count of intermediate pairs and passes. The per-block selection cost and occupancy may erase or reverse any benefit. Source code, patch-application fuzz, compiler, loaded libraries and build flags must be recorded. Compare privately rebuilt baseline and candidate from the same sources, as well as the installed binary if ABI and other build differences can be accounted for. Never install or replace system files.
+
+Before end-to-end timing, qualify outputs against baseline and a CPU oracle, including random finite values, real model logits, duplicate values at the cutoff, signed zeros, infinities, NaNs, and tails/boundaries. Equal sets may not imply equal sampler outcomes: explicitly check order and seeded stochastic behavior and reject changed semantics. Test only bounded cases with 1DW copy, current safety controls and fault monitoring; stop on faults. Then use a predeclared balanced, load-matched A/B on the current DFlash configuration and multiple realistic populated contexts, and independent confirmation if discovery passes. Do not claim model speed from operator timing or intrusive profiling.
