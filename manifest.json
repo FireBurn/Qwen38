@@ -1069,6 +1069,22 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/topk-chunk/MICRO-PLAN.md",
+      "path": "archive/isolated/current-server-scope/topk-chunk/MICRO-PLAN.md",
+      "source_sha256": "9e21d1955256c03624e3fa7450e1e32273d5314f435c7b5f73e926a7845875c9",
+      "export_sha256": "9e21d1955256c03624e3fa7450e1e32273d5314f435c7b5f73e926a7845875c9",
+      "bytes": 1263,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/MODEL-LOGITS-PLAN.md",
+      "path": "archive/isolated/current-server-scope/topk-chunk/MODEL-LOGITS-PLAN.md",
+      "source_sha256": "6230e6c1d86ef34e31c8da4bd5b799721f0b3ba6955eef73b4b25a71ace1d39c",
+      "export_sha256": "6230e6c1d86ef34e31c8da4bd5b799721f0b3ba6955eef73b4b25a71ace1d39c",
+      "bytes": 736,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/topk-chunk/TIES-HEALTH-PLAN.md",
       "path": "archive/isolated/current-server-scope/topk-chunk/TIES-HEALTH-PLAN.md",
       "source_sha256": "b19bc5f59b400aae0706ccfecf97df47003be4372468d501ee16bfc40045bd91",
@@ -1149,6 +1165,134 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/00-baseline.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/00-baseline.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/00-baseline.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/00-baseline.log",
+      "source_sha256": "956aa7fc361b97e06044763cad856af2d151934f9fd7386b939e9a4e0d758341",
+      "export_sha256": "988849575ad84fdbf6e6dd5f460269dc00d66423dc802e1458e82df9cc80201c",
+      "bytes": 1781,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/00-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/00-telemetry.json",
+      "source_sha256": "4165810b6b07c6f7be0d53d6eca610cfe29dc5e768905552cced0dd36c158ffb",
+      "export_sha256": "4165810b6b07c6f7be0d53d6eca610cfe29dc5e768905552cced0dd36c158ffb",
+      "bytes": 631,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/01-candidate.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/01-candidate.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/01-candidate.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/01-candidate.log",
+      "source_sha256": "c102732f9013acd24a52ab5b41afde89bdfce6d57fc1209edfdf61f2376c28d9",
+      "export_sha256": "a96cbc86b413793031d4c2b5113c6fccb3720598d12a5c9fd3986680301bcc3b",
+      "bytes": 1785,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/assets.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/assets.json",
+      "source_sha256": "f620cbbcec7781873d2ce7ff488d5d44385f295de9a8f864eae5b3582f76c339",
+      "export_sha256": "65a244e6c344908fe8d2a63f0018162119de51d98ae92608b8f08f00c268aa9b",
+      "bytes": 1146,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/protocol.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/protocol.json",
+      "source_sha256": "da6471278f9f778b1e88a8b31fb78fc7cebbd231c72ad1b294ed68eb0f9ff3ef",
+      "export_sha256": "da6471278f9f778b1e88a8b31fb78fc7cebbd231c72ad1b294ed68eb0f9ff3ef",
+      "bytes": 1569,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/results.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro/20261102T103404Z/results.json",
+      "source_sha256": "8238b2fc94e515e6a44ea1d9282f06191bfc01f47f0b186ceb55c295362d6fd9",
+      "export_sha256": "8238b2fc94e515e6a44ea1d9282f06191bfc01f47f0b186ceb55c295362d6fd9",
+      "bytes": 173,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/baseline.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/baseline.bin",
+      "source_sha256": "3005fd97f10adca367368e4ee7e2c5f049e4586919240da56c00d342a585b656",
+      "export_sha256": "3005fd97f10adca367368e4ee7e2c5f049e4586919240da56c00d342a585b656",
+      "bytes": 400,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/baseline.stderr",
+      "path": "archive/isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/baseline.stderr",
+      "source_sha256": "aead9a3a956f932eb34a0d3ab858d6188ce260bfc036ea3f0961813fabe3997d",
+      "export_sha256": "c38d22167759f06dfb296b159a235a33561c2d332516b585ff203ad58e88e046",
+      "bytes": 1726,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/baseline.stdout",
+      "path": "archive/isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/baseline.stdout",
+      "source_sha256": "9418e6e195623ba1bb1cfcb555583f64b0a13ee504ebb79a3cfe2e025bb4bf16",
+      "export_sha256": "9418e6e195623ba1bb1cfcb555583f64b0a13ee504ebb79a3cfe2e025bb4bf16",
+      "bytes": 27,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/candidate.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/candidate.bin",
+      "source_sha256": "3005fd97f10adca367368e4ee7e2c5f049e4586919240da56c00d342a585b656",
+      "export_sha256": "3005fd97f10adca367368e4ee7e2c5f049e4586919240da56c00d342a585b656",
+      "bytes": 400,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/candidate.stderr",
+      "path": "archive/isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/candidate.stderr",
+      "source_sha256": "5394f2149bc7df8209262d12d5e685da16636ee9e45cc8bb8fe63c002858e649",
+      "export_sha256": "e04544a585aaa2b166de25cce0001bca017ac76fcbeee66138244dab8baad7b4",
+      "bytes": 1730,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/candidate.stdout",
+      "path": "archive/isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/candidate.stdout",
+      "source_sha256": "9418e6e195623ba1bb1cfcb555583f64b0a13ee504ebb79a3cfe2e025bb4bf16",
+      "export_sha256": "9418e6e195623ba1bb1cfcb555583f64b0a13ee504ebb79a3cfe2e025bb4bf16",
+      "bytes": 27,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/result.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/model-check/20261102T103328Z/result.json",
+      "source_sha256": "2fbe3925e4f22802819f96957276d70b9495b63be0c95c818b07623c05f3bfd3",
+      "export_sha256": "2fbe3925e4f22802819f96957276d70b9495b63be0c95c818b07623c05f3bfd3",
+      "bytes": 3574,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/model-logits-5rows.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/model-logits-5rows.json",
+      "source_sha256": "7526306a6cfa4dc7857dea76909e31b868b07847565df6e4c658a6abb60bf288",
+      "export_sha256": "7526306a6cfa4dc7857dea76909e31b868b07847565df6e4c658a6abb60bf288",
+      "bytes": 783,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/topk-chunk/ties-health/20261102T103157Z/baseline.bin",
       "path": "archive/isolated/current-server-scope/topk-chunk/ties-health/20261102T103157Z/baseline.bin",
       "source_sha256": "439a535dffd28d879e80579307dfc85c81ebf71300c3dc8aa5748220d6ef1b87",
@@ -1207,9 +1351,9 @@
     {
       "source": "isolated/current-server-scope/topk-chunk/topk-probe.cpp",
       "path": "archive/isolated/current-server-scope/topk-chunk/topk-probe.cpp",
-      "source_sha256": "82c5a427da9a8dca498175b21c029cb4c7a90f14b45d39bbffe63f4524a12153",
-      "export_sha256": "82c5a427da9a8dca498175b21c029cb4c7a90f14b45d39bbffe63f4524a12153",
-      "bytes": 2566,
+      "source_sha256": "6b6bcfb4cda9263b2a24bfae266f63e78c770564b43f320c66ae82aaad7e5960",
+      "export_sha256": "6b6bcfb4cda9263b2a24bfae266f63e78c770564b43f320c66ae82aaad7e5960",
+      "bytes": 3321,
       "sanitized": false
     },
     {
@@ -37229,6 +37373,22 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_current_topk_micro.py",
+      "path": "archive/isolated/run_current_topk_micro.py",
+      "source_sha256": "5f3173abd920dc7cb0315481ee3f3b673c3011c9aad0b34dc3aef22519694729",
+      "export_sha256": "5f3173abd920dc7cb0315481ee3f3b673c3011c9aad0b34dc3aef22519694729",
+      "bytes": 4659,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_current_topk_model_once.py",
+      "path": "archive/isolated/run_current_topk_model_once.py",
+      "source_sha256": "f07e7f67467cf03c47c243e86728bbe0249b7174be9b73c8403f1698f2b38f71",
+      "export_sha256": "f07e7f67467cf03c47c243e86728bbe0249b7174be9b73c8403f1698f2b38f71",
+      "bytes": 2664,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_current_topk_ties_once.py",
       "path": "archive/isolated/run_current_topk_ties_once.py",
       "source_sha256": "e7823c52fce1b31383ce937b2f7f91914a6083b7b5b609b89d6bb4fa6ca46cdb",
@@ -38127,9 +38287,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "67c2c4a3cdbd6a44b8d3a65bd04ab48d20b34f23f4f00f35d9face36972d973d",
-      "export_sha256": "67c2c4a3cdbd6a44b8d3a65bd04ab48d20b34f23f4f00f35d9face36972d973d",
-      "bytes": 31022,
+      "source_sha256": "d548580180df87c8a1a75b4dc902504237546611daebf77d9f5ea3bb0e81a3f1",
+      "export_sha256": "d548580180df87c8a1a75b4dc902504237546611daebf77d9f5ea3bb0e81a3f1",
+      "bytes": 31148,
       "sanitized": false
     },
     {
@@ -38749,5 +38909,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-02T10:32:37.377190+00:00"
+  "updated_utc": "2026-11-02T10:34:38.497536+00:00"
 }

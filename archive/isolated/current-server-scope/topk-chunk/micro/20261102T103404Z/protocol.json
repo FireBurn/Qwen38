@@ -1,0 +1,21 @@
+{
+  "sequence": [
+    "baseline",
+    "candidate",
+    "candidate",
+    "baseline",
+    "candidate",
+    "baseline",
+    "baseline",
+    "candidate",
+    "baseline",
+    "candidate",
+    "candidate",
+    "baseline",
+    "candidate",
+    "baseline",
+    "baseline",
+    "candidate"
+  ],
+  "plan": "# Fixed 16-process top-k operator discovery\n\nCompare privately rebuilt baseline and 512-chunk candidate on the first previously qualified historical coding target-logit row (248320 floats, K=20), one row per graph. Run eight warmups followed by 60 synchronous graph executions per fresh process. Use four alternating ABBA/BAAB blocks, 16 processes total, same one-dword-copy and disabled-transfer-queue process overrides. Capture full process logs, backend/driver hashes and mappings, CPU busy, build process count, runnable threads, and new GPU errors. Require the exact previously checked 20 indices every run; stop on any error, timeout, asset change or output mismatch without retry. Do not overlap other inference and retain the GPU fault hold otherwise.\n\nFor each block, compare geometric mean time candidate/baseline; a matched block requires mean CPU busy within 5 percentage points, build count within 2, and runnable threads within max(4, 15% of their mean). At least four matching blocks and a 95% descriptive t interval wholly below zero are required to advance this operator lead. This measures host-observed synchronous graph time, not server or model speed. No claim of independent confirmation, clock matching or general workload benefit follows.\n"
+}

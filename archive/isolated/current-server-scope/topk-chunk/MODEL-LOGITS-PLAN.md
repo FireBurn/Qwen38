@@ -1,0 +1,3 @@
+# Five captured target-logit rows
+
+Run the reconstructed baseline and 512-chunk candidate once each, serially, on the same five captured 248320-value rows from a previous frozen aa8 greedy coding workload. The capture is not from the current DFlash server. Check all values finite, validate every top-20 index set against a CPU oracle, and compare exact baseline and candidate index order per row. Use one-dword copy and disabled transfer queue, record backend mappings and new GPU errors, timeout after 30 seconds per arm, and abort on any failure without retry. The five-row test represents backend operation shapes only; it does not establish current DFlash numerical equivalence or performance. The hold otherwise remains in force.
