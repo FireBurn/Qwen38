@@ -1,0 +1,9 @@
+{
+  "candidate_library_sha256": "501c6f0fb375478656709bf25b0a31925e0e0476eaefee6c7eca5fa95a947f34",
+  "baseline_library_sha256": "e10edd95fc85d5cc751f687adb361c7e533a1c8bc181c9b06f7d576aaaeecc03",
+  "common_vulkan_library_sha256": "5ad567826190fae52153fb51896ed4eeca398381c01cd66e10d1ee4d7eca61d3",
+  "build": "same private CMake build tree, source switch between arms; not installed; system server ABI compatibility untested",
+  "candidate_build_exit": 0,
+  "baseline_build_exit": 0,
+  "scope": "compilation only; no model correctness or speed testing"
+}

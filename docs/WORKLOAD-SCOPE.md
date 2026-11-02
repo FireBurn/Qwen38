@@ -44,3 +44,5 @@ The separately predeclared replacement operator comparison completed 16 processe
 ## DFlash2 anchor selector lead
 
 The installed draft GGUF reports DFlash2 selector top-k 16 and rank 256. In reconstructed source, the selector computes candidate and gate data for the anchor even though lattice scoring starts at the following position. A private source candidate removes that anchor work only for a single sequence while retaining full logits and the multi-sequence path. A 512-case CPU index-mapping audit passes, but it does not test floating-point behavior, tensor safety, model output, or speed. Changing matrix width could change rounding. [Candidate and qualification plan](../archive/isolated/current-server-scope/dflash-selector-anchor/PLAN.md).
+
+The private baseline and anchor-selector candidate libraries both compiled successfully in the same build tree. This establishes buildability only; no model execution has yet qualified either library, and compatibility with the installed server remains untested. [Build hashes](../archive/isolated/current-server-scope/dflash-selector-anchor/build-summary.json).
