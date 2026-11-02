@@ -1,0 +1,16 @@
+{
+  "source": "GGUF metadata from the installed draft path recorded in current-server profile identity",
+  "general.architecture": "dflash",
+  "dflash.block_size": 8,
+  "dflash.selector_rank": 256,
+  "dflash.selector_top_k": 16,
+  "selector_tensor_count": 3,
+  "cpu_index_audit": {
+    "cases": 512,
+    "skipped_anchor_cases": 105,
+    "result": "all selector current and predecessor positions match",
+    "limits": "index mapping only; no tensor math, memory alias or model outputs"
+  },
+  "profile_observation": "TOP_K K=16 (248320,5,1,1) appears in intrusive aggregate trace",
+  "caveat": "metadata and index audit do not establish numerical correctness or speed"
+}
