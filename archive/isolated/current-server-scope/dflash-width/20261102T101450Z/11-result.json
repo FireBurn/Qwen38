@@ -1,0 +1,52 @@
+{
+  "index": 11,
+  "width": 4,
+  "passed": true,
+  "pid": 218966,
+  "verified_mappings": [
+    "/usr/lib/libc.so.1",
+    "/usr/lib/libvulkan_radeon.so",
+    "/usr/lib/llama.cpp/libggml-base.so.0.28.0",
+    "/usr/lib/llama.cpp/libggml-vulkan.so.0.28.0",
+    "/usr/lib/llama.cpp/libggml.so.0.28.0",
+    "/usr/lib/llama.cpp/libllama-common.so.0.8.0",
+    "/usr/lib/llama.cpp/libllama-server-impl.so",
+    "/usr/lib/llama.cpp/libllama.so.0.8.0"
+  ],
+  "request": {
+    "elapsed_seconds": 10.009902233025059,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 71,
+      "prompt_ms": 674.073,
+      "prompt_per_token_ms": 9.493985915492958,
+      "prompt_per_second": 105.32983816292894,
+      "predicted_n": 512,
+      "predicted_ms": 9331.347,
+      "predicted_per_token_ms": 18.260953033268102,
+      "predicted_per_second": 54.76165445353174,
+      "draft_n": 642,
+      "draft_n_accepted": 350
+    },
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 71,
+      "total_tokens": 583,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "choices": 1,
+    "output_sha256": "be7e2229e859d9e74d558a082ac96686042f23c568c17d9a2ef6d859f7e0cdaa"
+  },
+  "phase_cpu": 0.9682228768094602,
+  "phase_builds": 14.347826086956522,
+  "phase_runnable": 21.17391304347826,
+  "gpu_samples": 46,
+  "gpu_busy": 78.04347826086956,
+  "vram_peak": 31636045824,
+  "new_gpu_errors": [],
+  "monitor_errors": [],
+  "gpu_sensor_errors": [],
+  "wall_seconds": 19.88435330899665
+}
