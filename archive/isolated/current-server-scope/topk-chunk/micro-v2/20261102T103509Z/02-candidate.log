@@ -1,0 +1,17 @@
+us_per_graph=77.350 iters=60
+rows=1 pattern=4 count=20
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+ggml_vulkan: Found 1 Vulkan devices:
+ggml_vulkan: 0 = AMD Radeon AI Pro R9700 (RADV GFX1201) (radv) | uma: 0 | fp16: dot2 | bf16: 1 | fp4: 0 | warp size: 64 | shared memory: 65536 | int dot: 1 | matrix cores: KHR_coopmat
+MAP 7f1bae6bb000-7f1baf111000 r--p 00000000 103:02 5513248                   /usr/lib/libvulkan_radeon.so
+MAP 7f1baf111000-7f1bafbc4000 r-xp 00a55000 103:02 5513248                   /usr/lib/libvulkan_radeon.so
+MAP 7f1bafbc4000-7f1bafc32000 rw-p 01507000 103:02 5513248                   /usr/lib/libvulkan_radeon.so
+MAP 7f1bafc32000-7f1bafc3c000 rw-p 01574000 103:02 5513248                   /usr/lib/libvulkan_radeon.so
+MAP 7f1bafcf9000-7f1bb24e1000 r--p 00000000 103:03 50242949                  ${WORKSPACE}/isolated/current-server-scope/topk-chunk/candidate/libggml-vulkan.so.0.28.0
+MAP 7f1bb24e1000-7f1bb25f6000 r-xp 027e7000 103:03 50242949                  ${WORKSPACE}/isolated/current-server-scope/topk-chunk/candidate/libggml-vulkan.so.0.28.0
+MAP 7f1bb25f6000-7f1bb25fa000 rw-p 028fb000 103:03 50242949                  ${WORKSPACE}/isolated/current-server-scope/topk-chunk/candidate/libggml-vulkan.so.0.28.0
+MAP 7f1bb25fa000-7f1bb25fc000 rw-p 028fe000 103:03 50242949                  ${WORKSPACE}/isolated/current-server-scope/topk-chunk/candidate/libggml-vulkan.so.0.28.0

@@ -1,0 +1,85 @@
+{
+  "blocks": [
+    {
+      "block": 0,
+      "matched": true,
+      "log_time_effect": -0.04643682938532656,
+      "cpu": {
+        "baseline": 0.11236522911051211,
+        "candidate": 0.12662337662337664
+      },
+      "builds": {
+        "baseline": 4.0,
+        "candidate": 4.0
+      },
+      "runnable": {
+        "baseline": 2.0,
+        "candidate": 2.25
+      }
+    },
+    {
+      "block": 1,
+      "matched": true,
+      "log_time_effect": -0.009689445497396143,
+      "cpu": {
+        "baseline": 0.10790082963534636,
+        "candidate": 0.1375
+      },
+      "builds": {
+        "baseline": 4.0,
+        "candidate": 4.0
+      },
+      "runnable": {
+        "baseline": 2.0,
+        "candidate": 2.5
+      }
+    },
+    {
+      "block": 2,
+      "matched": true,
+      "log_time_effect": 0.18425079344581263,
+      "cpu": {
+        "baseline": 0.11818181818181817,
+        "candidate": 0.10045632333767923
+      },
+      "builds": {
+        "baseline": 4.0,
+        "candidate": 4.0
+      },
+      "runnable": {
+        "baseline": 2.0,
+        "candidate": 2.0
+      }
+    },
+    {
+      "block": 3,
+      "matched": false,
+      "log_time_effect": 0.05843833358181261,
+      "cpu": {
+        "baseline": 0.1548641745994892,
+        "candidate": 0.10092113768584354
+      },
+      "builds": {
+        "baseline": 4.0,
+        "candidate": 4.0
+      },
+      "runnable": {
+        "baseline": 2.25,
+        "candidate": 2.25
+      }
+    }
+  ],
+  "all4": {
+    "blocks": 4,
+    "geometric_time_change_percent": 4.774550014677419,
+    "descriptive_t95_percent": [
+      -10.852935021258768,
+      23.141533974180497
+    ]
+  },
+  "matched": {
+    "blocks": 3,
+    "geometric_time_change_percent": 4.363328988269728
+  },
+  "scope": "Operator wall time only, not model or server throughput"
+}

@@ -1077,6 +1077,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/topk-chunk/MICRO-V2-PLAN.md",
+      "path": "archive/isolated/current-server-scope/topk-chunk/MICRO-V2-PLAN.md",
+      "source_sha256": "dc26011ba998b8814ca3c404710dba0dcbe164f024bb424061cb9570d4cbac89",
+      "export_sha256": "dc26011ba998b8814ca3c404710dba0dcbe164f024bb424061cb9570d4cbac89",
+      "bytes": 900,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/topk-chunk/MODEL-LOGITS-PLAN.md",
       "path": "archive/isolated/current-server-scope/topk-chunk/MODEL-LOGITS-PLAN.md",
       "source_sha256": "6230e6c1d86ef34e31c8da4bd5b799721f0b3ba6955eef73b4b25a71ace1d39c",
@@ -1162,6 +1170,422 @@
       "source_sha256": "bbd340dbaeadd91e713ba9eaccb4f626a0493e09a03d8bf3384bf3987888aeef",
       "export_sha256": "bbd340dbaeadd91e713ba9eaccb4f626a0493e09a03d8bf3384bf3987888aeef",
       "bytes": 1257,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/00-baseline.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/00-baseline.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/00-baseline.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/00-baseline.log",
+      "source_sha256": "e7fb9c919c4cd56aed0f402d481001794b214af2ffc29300d589de6483ca2e75",
+      "export_sha256": "d0b6ea15e538863c91b4fff706047ef1e54f596984a71302d55792e008173497",
+      "bytes": 1781,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/00-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/00-telemetry.json",
+      "source_sha256": "926817e6fad919f87d842e20d21ee6c6134a096e9e17abe219ae6bcb696993cf",
+      "export_sha256": "926817e6fad919f87d842e20d21ee6c6134a096e9e17abe219ae6bcb696993cf",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/01-candidate.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/01-candidate.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/01-candidate.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/01-candidate.log",
+      "source_sha256": "7f8da9dff0b1af2db6c4d1aaf846867bd7b7022eae26c18493c65100dc382cce",
+      "export_sha256": "30515e889e7ed036b08ec309618de2a615f7123f326e556b4264856f15cbe3a0",
+      "bytes": 1785,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/01-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/01-telemetry.json",
+      "source_sha256": "69430b04cda60da5e19870386cec1de48d8f3d530358131d4ccc18a5bd76d5b6",
+      "export_sha256": "69430b04cda60da5e19870386cec1de48d8f3d530358131d4ccc18a5bd76d5b6",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/02-candidate.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/02-candidate.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/02-candidate.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/02-candidate.log",
+      "source_sha256": "8a37b905d513d8100d87b85b48b8af2c8ed31269ed3e5a0f6b432090bb5a6f84",
+      "export_sha256": "2ebc71d771e134512e598d184eedb66f0f6861430847eac690d17ce9b8b251d9",
+      "bytes": 1785,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/02-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/02-telemetry.json",
+      "source_sha256": "b127bd4f0e76d06d17f9a6e24c44d7ae48897acf84690ab045a26ad93ac3cf6c",
+      "export_sha256": "b127bd4f0e76d06d17f9a6e24c44d7ae48897acf84690ab045a26ad93ac3cf6c",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/03-baseline.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/03-baseline.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/03-baseline.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/03-baseline.log",
+      "source_sha256": "e1bd329eb94f47a023ffd395836bff0a3710a2f20d7bdaf7948694a06a99ef36",
+      "export_sha256": "960bbea6af554b06390149a914c7b819fc02265e4e188d8c311f789943ccc9e8",
+      "bytes": 1781,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/03-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/03-telemetry.json",
+      "source_sha256": "7d25b60d8ff92c749532bb58b9f9e8c99efec1d2d77f583a7608240f51ed1463",
+      "export_sha256": "7d25b60d8ff92c749532bb58b9f9e8c99efec1d2d77f583a7608240f51ed1463",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/04-candidate.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/04-candidate.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/04-candidate.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/04-candidate.log",
+      "source_sha256": "03fb53ea99af5eeb563e41c1576a26af80ac93a4d622dd494cdcdaac89975e4a",
+      "export_sha256": "fc29acfd1e81829aa50dbf556232d1ad03936035a0a0b349652749f2caeb109c",
+      "bytes": 1785,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/04-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/04-telemetry.json",
+      "source_sha256": "88f148beb5f5c699e8c76704a10befc147b2567bc42b1f467f18d911d0f15c10",
+      "export_sha256": "88f148beb5f5c699e8c76704a10befc147b2567bc42b1f467f18d911d0f15c10",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/05-baseline.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/05-baseline.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/05-baseline.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/05-baseline.log",
+      "source_sha256": "7518708cf925b0c35c1930aa6d9e35cc9772c364df1cc50817b1cd1745959923",
+      "export_sha256": "48d0039ed108e2d0215ffacf2424e6700329710e4faea7535759dff046a27ff9",
+      "bytes": 1781,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/05-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/05-telemetry.json",
+      "source_sha256": "f192a974943f12622d65c654ae448f56687053d5ab69c5e277dbc9f382091f24",
+      "export_sha256": "f192a974943f12622d65c654ae448f56687053d5ab69c5e277dbc9f382091f24",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/06-baseline.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/06-baseline.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/06-baseline.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/06-baseline.log",
+      "source_sha256": "53d2d421113c7824070ae5191356fdf4789cf060c1a3313e43e470f24580b33a",
+      "export_sha256": "f2325ff418b184d120716e89c0aebde83084b6ceb157e51dbff6bdb961bf541a",
+      "bytes": 1781,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/06-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/06-telemetry.json",
+      "source_sha256": "8845b997cd823a6c86ad6410a7cdf0d4b561cf2e51a3751be824891cb8127f1b",
+      "export_sha256": "8845b997cd823a6c86ad6410a7cdf0d4b561cf2e51a3751be824891cb8127f1b",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/07-candidate.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/07-candidate.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/07-candidate.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/07-candidate.log",
+      "source_sha256": "964cd913625c7520477d29b6c82437dbc8009c78c4cab52cd91656bc505fb3b7",
+      "export_sha256": "7dc5b1f1e7d577172c7917e946af3c10c04219a4c3145f293d956877d25f8ec4",
+      "bytes": 1785,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/07-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/07-telemetry.json",
+      "source_sha256": "a93ead76d92e09c5d22e52ecc8e66a97ac011a709975aab5c5ce78e810286caa",
+      "export_sha256": "a93ead76d92e09c5d22e52ecc8e66a97ac011a709975aab5c5ce78e810286caa",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/08-baseline.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/08-baseline.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/08-baseline.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/08-baseline.log",
+      "source_sha256": "689df6773fc0d203d149120a267048200215f9b5db0fb93ccf702ed385402b03",
+      "export_sha256": "27d3b4a90b075662144501a34c3ec843dc82915ee13f938ee93cbb9504e42987",
+      "bytes": 1781,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/08-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/08-telemetry.json",
+      "source_sha256": "1c3131ade2ddc2e343cad494347ba8f6482c61cbc8b03692b4cf8eef8f501c23",
+      "export_sha256": "1c3131ade2ddc2e343cad494347ba8f6482c61cbc8b03692b4cf8eef8f501c23",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/09-candidate.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/09-candidate.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/09-candidate.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/09-candidate.log",
+      "source_sha256": "6eda62b0dbbc47fffc0d2fbc74e6ee918cf416a2bab7490d78215d9656176636",
+      "export_sha256": "ce1c7779a3b416685c7eafd66a0cda8b2c2aa59e38ff0adbc01b20d0c57c4356",
+      "bytes": 1785,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/09-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/09-telemetry.json",
+      "source_sha256": "bb556b48c45af1b036f295f986b6011d9618de874f2f75a971b11c0c6f005730",
+      "export_sha256": "bb556b48c45af1b036f295f986b6011d9618de874f2f75a971b11c0c6f005730",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/10-candidate.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/10-candidate.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/10-candidate.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/10-candidate.log",
+      "source_sha256": "27b959ed98bda6cb6b774e680c9a0271a340663a3ec65c6567c227ed108a84c9",
+      "export_sha256": "821ce6571e7ccb3ed21576dcfadafc68d424060eebf1987778d89dc737eddab3",
+      "bytes": 1785,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/10-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/10-telemetry.json",
+      "source_sha256": "585205334a5bcda06e2a1fdc801d1a6d59d12b57ecbbc64cac53709f2b123d2f",
+      "export_sha256": "585205334a5bcda06e2a1fdc801d1a6d59d12b57ecbbc64cac53709f2b123d2f",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/11-baseline.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/11-baseline.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/11-baseline.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/11-baseline.log",
+      "source_sha256": "c9ffd8af7d9f254b20caf7a6badec6996cf0f2bc325ad6664c5580709553e0f1",
+      "export_sha256": "a717587f549742aa8ba84e7fda6329cc210e7d44edbaebc5ad1bb5e1e19cb9bc",
+      "bytes": 1781,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/11-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/11-telemetry.json",
+      "source_sha256": "02e0e4b38bdef282eaac818ad6b0c4a009ba62af329e428435d89f559c4939c8",
+      "export_sha256": "02e0e4b38bdef282eaac818ad6b0c4a009ba62af329e428435d89f559c4939c8",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/12-candidate.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/12-candidate.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/12-candidate.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/12-candidate.log",
+      "source_sha256": "6039593c95ca94c46fd7cf6396e54aeacf83213495faf6e046b03a186cf16731",
+      "export_sha256": "29460b5d14c2a37c3289864182e58c76842ba354780b247a7bfa348c3faf8888",
+      "bytes": 1785,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/12-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/12-telemetry.json",
+      "source_sha256": "a375eb293dcaf2b17ffcf79b348b630bd9fcd3cf7440710344f2c79327d35075",
+      "export_sha256": "a375eb293dcaf2b17ffcf79b348b630bd9fcd3cf7440710344f2c79327d35075",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/13-baseline.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/13-baseline.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/13-baseline.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/13-baseline.log",
+      "source_sha256": "d6d455378dd0aae2fecd6797e02ed4befc24e9423b15d9d0393482c5c13e329e",
+      "export_sha256": "1b16fa6d6994e7a588f7412f570d3b67cdd96520a97aaa05a6b617643b4d6c33",
+      "bytes": 1781,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/13-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/13-telemetry.json",
+      "source_sha256": "6a7b6ccc65dece38c2793f8262c22fb0c4a0fa19cd64540790378bc6101c2321",
+      "export_sha256": "6a7b6ccc65dece38c2793f8262c22fb0c4a0fa19cd64540790378bc6101c2321",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/14-baseline.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/14-baseline.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/14-baseline.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/14-baseline.log",
+      "source_sha256": "c5f806ca8f71f09e907dbee8b991a042e45be8099865d65ec6aef8fbe284dafe",
+      "export_sha256": "bcbd8300ffae5d32d1fb34fa03a2f3f603428a221fa840f91d97bd2277c50937",
+      "bytes": 1781,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/14-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/14-telemetry.json",
+      "source_sha256": "d8c96761d0daf45c2776cc82f9cc69f7fcadaf89293a64437f0b37517db48544",
+      "export_sha256": "d8c96761d0daf45c2776cc82f9cc69f7fcadaf89293a64437f0b37517db48544",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/15-candidate.bin",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/15-candidate.bin",
+      "source_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "export_sha256": "a25e56cfae00636e543666cdc9e58853eb55c8a8ff997122e527b61b43875c70",
+      "bytes": 80,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/15-candidate.log",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/15-candidate.log",
+      "source_sha256": "f91f890080105ca5e587b57113369b07b5ac855ea428a674893b859fab16ba28",
+      "export_sha256": "0d1e51919a9635e01f4693062ea31dc3ee03cfd96053081f5ce55ff8b54f7447",
+      "bytes": 1785,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/15-telemetry.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/15-telemetry.json",
+      "source_sha256": "04e32b82bda59130feb13df88ab52fc534ac0efafd0d92d651d041d74d38559c",
+      "export_sha256": "04e32b82bda59130feb13df88ab52fc534ac0efafd0d92d651d041d74d38559c",
+      "bytes": 244,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/analysis.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/analysis.json",
+      "source_sha256": "d418ed1b4ebc2dd3d6d986db3a559b59eb7ce3ef14a1b445d932b70cabc827a0",
+      "export_sha256": "d418ed1b4ebc2dd3d6d986db3a559b59eb7ce3ef14a1b445d932b70cabc827a0",
+      "bytes": 1801,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/assets.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/assets.json",
+      "source_sha256": "225e70744a34902885fd735b4d12e6e83a8404da12bd231700e720f904d7d804",
+      "export_sha256": "a96341781ed5b9d6d919409c264884e7eea4d17a6a68bec57bf101961c630348",
+      "bytes": 1152,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/protocol.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/protocol.json",
+      "source_sha256": "6ecf740ce0bc44f85df7d8d4484f0f4adb3a48446357ce92807e99f3f4305369",
+      "export_sha256": "6ecf740ce0bc44f85df7d8d4484f0f4adb3a48446357ce92807e99f3f4305369",
+      "bytes": 1204,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/results.json",
+      "path": "archive/isolated/current-server-scope/topk-chunk/micro-v2/20261102T103509Z/results.json",
+      "source_sha256": "1aad8a4a0cf644d83f40c0755840f81a64a34a4aa0a1e2258264ed564d9ea3ea",
+      "export_sha256": "1aad8a4a0cf644d83f40c0755840f81a64a34a4aa0a1e2258264ed564d9ea3ea",
+      "bytes": 2750,
       "sanitized": false
     },
     {
@@ -37381,6 +37805,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_current_topk_micro_v2.py",
+      "path": "archive/isolated/run_current_topk_micro_v2.py",
+      "source_sha256": "8c6f1691d9c18345cb6ba433408e4181666cb7d2e61015dd0227c798d899547b",
+      "export_sha256": "8c6f1691d9c18345cb6ba433408e4181666cb7d2e61015dd0227c798d899547b",
+      "bytes": 4738,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_current_topk_model_once.py",
       "path": "archive/isolated/run_current_topk_model_once.py",
       "source_sha256": "f07e7f67467cf03c47c243e86728bbe0249b7174be9b73c8403f1698f2b38f71",
@@ -38287,9 +38719,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "d548580180df87c8a1a75b4dc902504237546611daebf77d9f5ea3bb0e81a3f1",
-      "export_sha256": "d548580180df87c8a1a75b4dc902504237546611daebf77d9f5ea3bb0e81a3f1",
-      "bytes": 31148,
+      "source_sha256": "640733f33714ed94f13c7fb5cecdb6a3fd8e5b44ec454e8d9c6ab5c03a7cf3cd",
+      "export_sha256": "640733f33714ed94f13c7fb5cecdb6a3fd8e5b44ec454e8d9c6ab5c03a7cf3cd",
+      "bytes": 31212,
       "sanitized": false
     },
     {
@@ -38909,5 +39341,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-02T10:34:38.497536+00:00"
+  "updated_utc": "2026-11-02T10:35:25.328232+00:00"
 }
