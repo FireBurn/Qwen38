@@ -325,6 +325,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/DFLASH-WIDTH-PLAN.md",
+      "path": "archive/isolated/current-server-scope/DFLASH-WIDTH-PLAN.md",
+      "source_sha256": "3926aaff08473966a0e171c0d14d6da4ad19d37c95973315c0d7d45659c600cf",
+      "export_sha256": "3926aaff08473966a0e171c0d14d6da4ad19d37c95973315c0d7d45659c600cf",
+      "bytes": 1945,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/baseline/20261101T202654Z/identity.json",
       "path": "archive/isolated/current-server-scope/baseline/20261101T202654Z/identity.json",
       "source_sha256": "7d29d49183e5ae01961ac3ca9379ab051ca0f749c262373b38b3a20f5a12fbe1",
@@ -363,6 +371,14 @@
       "export_sha256": "53c42cd3429422421995941ee2771c3d24282d7ec8cb9ba948bfb978352827ec",
       "bytes": 24755,
       "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-width-preflight.json",
+      "path": "archive/isolated/current-server-scope/dflash-width-preflight.json",
+      "source_sha256": "50707c1bfb412d3d1fdd1af0b14ef5d75179a390e1766009edad7491a8608c6b",
+      "export_sha256": "6e5a663747cefcb6f012e267e1137a89d6298c853f3c9179ea90f15858c413fc",
+      "bytes": 1197,
+      "sanitized": true
     },
     {
       "source": "isolated/current-server-scope/preflight.json",
@@ -36357,6 +36373,14 @@
       "sanitized": true
     },
     {
+      "source": "isolated/run_current_dflash_width.py",
+      "path": "archive/isolated/run_current_dflash_width.py",
+      "source_sha256": "832b57118d4b90dabae09c7495ec557cfa54b35ed2db8fdc8ceb23cd3ecca6b9",
+      "export_sha256": "d85d6e42a3359c71cda381ca90057d7037d4994a85cdbe1cd4c9a38639efe6e2",
+      "bytes": 11915,
+      "sanitized": true
+    },
+    {
       "source": "isolated/run_current_server_baseline.py",
       "path": "archive/isolated/run_current_server_baseline.py",
       "source_sha256": "0fadf7e86cd883dd561d0a76a05710b794a2e70cdefa8c81dd4b1b14c1fa7fbf",
@@ -37255,9 +37279,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "1512926039c39dbdee9f91a9a62ddaba97491d26495f514ea024fb58d7e57bfe",
-      "export_sha256": "1512926039c39dbdee9f91a9a62ddaba97491d26495f514ea024fb58d7e57bfe",
-      "bytes": 30745,
+      "source_sha256": "58de6bf6afe73e06e2d59335cc56d3b37ad830312931061ebf3151e7e36566d2",
+      "export_sha256": "58de6bf6afe73e06e2d59335cc56d3b37ad830312931061ebf3151e7e36566d2",
+      "bytes": 30807,
       "sanitized": false
     },
     {
@@ -37877,5 +37901,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-01T20:27:53.244024+00:00"
+  "updated_utc": "2026-11-02T10:14:38.898048+00:00"
 }
