@@ -1,0 +1,183 @@
+{
+  "upstream_commit": "785322d17f2d51e5185cf996a1f4e46d87640841",
+  "overlay_commit": "decf1a5239a4d0ee525b7198b4f013d118c4147f",
+  "patches": [
+    {
+      "name": "0001-vulkan-handle-IQ4_XS-mat-vec-with-more-than-2-column.patch",
+      "sha256": "1f640fefe58e87a9efc952b64ab95f1eef9188ffef79461596c513b0e6b374a9",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/vulkan-shaders/mul_mat_vec_iq4_xs.comp\n",
+      "error": ""
+    },
+    {
+      "name": "0002-vulkan-share-the-K-V-pass-between-query-rows-in-coop.patch",
+      "sha256": "0e8675d4a061152ba984886f67689fec5caeefdc4c7fe80db0630166478fb4d9",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 1376 (offset -5 lines).\nHunk #2 succeeded at 1385 (offset -5 lines).\nHunk #3 succeeded at 8231 (offset 84 lines).\nHunk #4 succeeded at 8268 (offset 70 lines).\nHunk #5 succeeded at 8308 (offset 88 lines).\nHunk #6 succeeded at 8357 (offset 88 lines).\nHunk #7 succeeded at 16787 (offset 73 lines).\npatching file ggml/src/ggml-vulkan/vulkan-shaders/flash_attn_base.glsl\npatching file ggml/src/ggml-vulkan/vulkan-shaders/flash_attn_cm1.comp\nHunk #2 succeeded at 186 (offset -10 lines).\nHunk #3 succeeded at 550 (offset -14 lines).\nHunk #4 succeeded at 658 (offset -14 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0003-qwen35-optional-reduced-vocab-LM-head-for-MTP-drafti.patch",
+      "sha256": "4bedba662439f098b21e8282ab94731e45441257504c40d51f965e5a392a7e20",
+      "applied": true,
+      "output": "patching file src/models/qwen35.cpp\nHunk #1 succeeded at 656 (offset 20 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0004-vulkan-use-4-rows-for-legacy-quant-mat-vec-from-2-co.patch",
+      "sha256": "109f473fb2c30be5b1515ff7bf237dce873b732b701b5a93cb834fd27df05047",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 2883 (offset -15 lines).\nHunk #2 succeeded at 2996 (offset -9 lines).\nHunk #3 succeeded at 3082 (offset -9 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0006-server-keep-speculative-checkpoints-on-device.patch",
+      "sha256": "1b8b4fd78d8014a9d0606b77cc31acc42abca8ed2f213594bd6ab3f50f2391fc",
+      "applied": true,
+      "output": "patching file tools/server/server-context.cpp\nHunk #1 succeeded at 299 (offset 35 lines).\nHunk #2 succeeded at 3885 (offset 505 lines).\nHunk #3 succeeded at 3929 (offset 505 lines).\nHunk #4 succeeded at 3948 (offset 505 lines).\nHunk #5 succeeded at 3960 (offset 505 lines).\nHunk #6 succeeded at 4980 (offset 524 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0007-hip-keep-MMQ-WMMA-k-loops-rolled-to-avoid-VGPR-spill.patch",
+      "sha256": "4a5c43744158ff321b01ccd5e5e62502a169794baf803124d641d7abf60b578e",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-cuda/mmq-vec-dot.cuh\n",
+      "error": ""
+    },
+    {
+      "name": "0009-hip-share-the-FA-vec-K-V-pass-between-the-Q-heads-of.patch",
+      "sha256": "d9e5d3dbc895ebeebb5922645265c31dc15d97ad893b25994c4eec72fc0ea720",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-cuda/fattn-vec.cuh\nHunk #9 succeeded at 385 (offset 2 lines).\nHunk #10 succeeded at 393 (offset 2 lines).\nHunk #11 succeeded at 439 (offset 2 lines).\nHunk #12 succeeded at 506 (offset 2 lines).\nHunk #13 succeeded at 516 (offset 2 lines).\nHunk #14 succeeded at 536 (offset 2 lines).\nHunk #15 succeeded at 594 (offset 2 lines).\npatching file tests/test-backend-ops.cpp\nHunk #1 succeeded at 12238 (offset 1268 lines).\nHunk #2 succeeded at 12638 with fuzz 2 (offset 1366 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0010-vulkan-write-gated-delta-net-state-straight-into-the.patch",
+      "sha256": "1bf8094c1ef2069eaf281db7f9a1442c4cdd76d386ee43fe9aba4738d2e32279",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan-push-constants.h\nHunk #1 succeeded at 705 (offset 6 lines).\npatching file ggml/src/ggml-vulkan/ggml-vulkan-types.h\nHunk #1 succeeded at 61 with fuzz 1 (offset -1 lines).\nHunk #2 succeeded at 1276 (offset -1 lines).\npatching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 3747 (offset 27 lines).\nHunk #2 succeeded at 10396 with fuzz 1 (offset 220 lines).\nHunk #3 succeeded at 10412 (offset 220 lines).\nHunk #4 succeeded at 10421 (offset 220 lines).\nHunk #5 succeeded at 10453 (offset 220 lines).\nHunk #6 succeeded at 12400 (offset 235 lines).\nHunk #7 succeeded at 12917 (offset 240 lines).\nHunk #8 succeeded at 14217 (offset 254 lines).\nHunk #9 succeeded at 14485 (offset 254 lines).\nHunk #10 succeeded at 14630 with fuzz 1 (offset 255 lines).\npatching file ggml/src/ggml-vulkan/vulkan-shaders/gated_delta_net.comp\n",
+      "error": ""
+    },
+    {
+      "name": "0011-vulkan-keep-the-rms_norm-row-in-registers-for-the-.patch",
+      "sha256": "98d27a5942669856c362252b35b3dfead59b969cfac8e5e6526e7333f63b24dc",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/vulkan-shaders/rms_norm.comp\n",
+      "error": ""
+    },
+    {
+      "name": "0012-vulkan-dual-issue-friendly-int8-epilogue-in-cm1-mmq-.patch",
+      "sha256": "52913bb2d891bee8c76ccf99cf9437fc169b2a6b4734b51c912e2e69c80b69e1",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/vulkan-shaders/mul_mmq_cm1.comp\nHunk #3 succeeded at 332 (offset -22 lines).\nHunk #4 succeeded at 383 (offset -22 lines).\nHunk #5 succeeded at 431 (offset -22 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0013-vulkan-keep-Q-fragments-in-registers-in-coopmat1-fla.patch",
+      "sha256": "7b1bc46efb58f546c7198fa34effa1aa053b307a0efe002b4dc256fcd65dc8d9",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/vulkan-shaders/flash_attn_cm1.comp\n",
+      "error": ""
+    },
+    {
+      "name": "0014-vulkan-store-the-flash-attention-quantized-K-V-scrat.patch",
+      "sha256": "f70d8338ff9a5680dc7ed9e797ea7d19795104090d2d6a756995010d814481ef",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan-types.h\nHunk #1 succeeded at 793 (offset -20 lines).\npatching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 1377 (offset -5 lines).\nHunk #2 succeeded at 1386 (offset -5 lines).\nHunk #3 succeeded at 3098 (offset -9 lines).\nHunk #4 succeeded at 8316 (offset 88 lines).\nHunk #5 succeeded at 8557 (offset 51 lines).\npatching file ggml/src/ggml-vulkan/vulkan-shaders/dequant_q8_0.comp\npatching file ggml/src/ggml-vulkan/vulkan-shaders/flash_attn_base.glsl\npatching file ggml/src/ggml-vulkan/vulkan-shaders/flash_attn_cm1.comp\npatching file ggml/src/ggml-vulkan/vulkan-shaders/vulkan-shaders-gen.cpp\nHunk #1 succeeded at 832 (offset 1 line).\npatching file tests/test-backend-ops.cpp\nHunk #1 succeeded at 12249 (offset 931 lines).\nHunk #2 succeeded at 12285 (offset 931 lines).\nHunk #3 succeeded at 12649 with fuzz 2 (offset 1011 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0015-vulkan-concat-with-a-transposed-src1-through-shared-.patch",
+      "sha256": "80597b9f28275099012684935a9969aef80abd8219fce283beb37ddc9044a24b",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan-types.h\nHunk #1 succeeded at 829 (offset -7 lines).\npatching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 3400 (offset 14 lines).\nHunk #2 succeeded at 8888 (offset 207 lines).\nHunk #3 succeeded at 9862 (offset 214 lines).\npatching file ggml/src/ggml-vulkan/vulkan-shaders/concat_transpose.comp\npatching file ggml/src/ggml-vulkan/vulkan-shaders/vulkan-shaders-gen.cpp\nHunk #1 succeeded at 970 (offset 6 lines).\npatching file tests/test-backend-ops.cpp\nHunk #1 succeeded at 7181 (offset 574 lines).\nHunk #2 succeeded at 11909 (offset 1226 lines).\nHunk #3 succeeded at 12659 with fuzz 2 (offset 1362 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0016-vulkan-load-16-values-per-thread-for-q4_K-q5_K-q6_K-.patch",
+      "sha256": "8d8893badaf94ddd43a62bdc7a74f91b7266f5abc22f3fd586a999a0ccb42569",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\npatching file ggml/src/ggml-vulkan/vulkan-shaders/mul_mm.comp\npatching file ggml/src/ggml-vulkan/vulkan-shaders/mul_mm_funcs.glsl\n",
+      "error": ""
+    },
+    {
+      "name": "0017-vulkan-stage-large-writes-to-host-visible-VRAM-throu.patch",
+      "sha256": "8e4f310d50c19bd34d535273b99eb06f7bc3ac3ef14b25e4905d6857d145188c",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan-buffers.cpp\nHunk #1 succeeded at 576 (offset 80 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0018-vulkan-index-iq4-mxfp4-codebooks-as-a-constant-array.patch",
+      "sha256": "033053d3b081f050880ddde6006f5a1ddb29a7b38b2f954a47b433da3449cb5d",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\npatching file ggml/src/ggml-vulkan/vulkan-shaders/mul_mmq_cm1.comp\nHunk #2 succeeded at 167 with fuzz 2 (offset 9 lines).\npatching file ggml/src/ggml-vulkan/vulkan-shaders/mul_mmq_cm1_funcs.glsl\nHunk #2 succeeded at 170 with fuzz 1.\nHunk #3 succeeded at 206 with fuzz 1.\nHunk #4 succeeded at 238 with fuzz 1.\nHunk #5 succeeded at 500 with fuzz 1.\n",
+      "error": ""
+    },
+    {
+      "name": "0019-vulkan-use-the-float-mat-vec-for-single-tokens-with-.patch",
+      "sha256": "6dd3b097d8a65dd8f4bcfcc005bed7b6d7d75a995eb825a19ca2f651c2b0713e",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 6711 (offset 130 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0020-vulkan-hoist-loop-invariants-in-the-Q4_K-and-Q5_K-in.patch",
+      "sha256": "95cc1073ecb81fae6ef469e3936ea863bf0d818d7f4fc792c7ad991e9523db05",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/vulkan-shaders/mul_mat_vecq.comp\n",
+      "error": ""
+    },
+    {
+      "name": "0021-vulkan-keep-P-transposed-in-shared-memory-for-the-co.patch",
+      "sha256": "4882a6d12da105b47bfb22dd00aa65b329d4e3736417537c9ae6703b5ceb4495",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 1381 (offset 5 lines).\npatching file ggml/src/ggml-vulkan/vulkan-shaders/flash_attn_base.glsl\npatching file ggml/src/ggml-vulkan/vulkan-shaders/flash_attn_cm1.comp\n",
+      "error": ""
+    },
+    {
+      "name": "0022-hip-allow-host-constexpr-use-of-physical-warp-size.patch",
+      "sha256": "e0eece0e08ebe84259ff5ba54082a83788b7db120fa8a5e0afbd12249576957e",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-cuda/common.cuh\nHunk #1 succeeded at 398 (offset 11 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0023-vulkan-split-k-for-32-64-column-mat-mat-on-AMD.patch",
+      "sha256": "9c9b8df09cc87c2271e437afaaa04ce4e864d796a0d74060525fb080d1379070",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 5939 (offset 9 lines).\nHunk #2 succeeded at 5952 (offset 9 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0024-vulkan-use-the-integer-mat-vec-for-q6_K-with-three-o.patch",
+      "sha256": "957e14849533b0344b976bc8acf8b3f6a9aed0d0aae8a78f18bb0e5086996455",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 6685 (offset 38 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0025-vulkan-compute-two-rows-per-workgroup-in-the-integer.patch",
+      "sha256": "d5c8510ee7abfba0978eefb70dbb6da777cc1b380119f53264f071d2912cecb3",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 2892 (offset 2 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0026-vulkan-fuse-the-bias-add-into-the-mat-vec-for-small-.patch",
+      "sha256": "03fd1676f76072b4ad7afa84e4948ac5b898283f46ecf65ef62629e0413b9a8d",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 13818 (offset 73 lines).\n",
+      "error": ""
+    },
+    {
+      "name": "0027-vulkan-split-the-K-V-range-of-multi-row-flash-attent.patch",
+      "sha256": "4171a4594d73499e2f61c28e9292b35e02c761ed871fa7c5d7e7a4928850753f",
+      "applied": true,
+      "output": "patching file ggml/src/ggml-vulkan/ggml-vulkan.cpp\nHunk #1 succeeded at 8413 (offset 42 lines).\n",
+      "error": ""
+    }
+  ],
+  "all_applied": true,
+  "note": "Reconstructed source is not proof of binary identity. Patch offsets and fuzz are recorded."
+}
