@@ -1,0 +1,47 @@
+{
+  "nodes": {
+    "inp_noise_embd": {
+      "count": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "l_out-0": {
+      "count": 51200,
+      "bitwise_differences": 51199,
+      "max_abs": 4364309.0,
+      "mean_abs": 232.0450439453125,
+      "nonfinite_mismatch": 0
+    },
+    "l_out-1": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 5280298.5,
+      "mean_abs": 701.8597412109375,
+      "nonfinite_mismatch": 0
+    },
+    "result_norm": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 12.081063270568848,
+      "mean_abs": 0.2532314956188202,
+      "nonfinite_mismatch": 0
+    },
+    "result_output": {
+      "count": 2483200,
+      "bitwise_differences": 2483197,
+      "max_abs": 8.19150447845459,
+      "mean_abs": 0.390487402677536,
+      "nonfinite_mismatch": 0
+    },
+    "dflash2_lattice": {
+      "count": 51200,
+      "bitwise_differences": 2118,
+      "max_abs": 236303.0,
+      "mean_abs": 67.93695068359375,
+      "nonfinite_mismatch": 0
+    }
+  },
+  "scope": "F32 contiguous captures only; callback perturbation; lattice includes token IDs and scores"
+}
