@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "warmup": {
+    "elapsed_seconds": 0.859228549990803,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 55,
+      "prompt_ms": 618.047,
+      "prompt_per_token_ms": 11.237218181818182,
+      "prompt_per_second": 88.9899959064602,
+      "predicted_n": 16,
+      "predicted_ms": 236.014,
+      "predicted_per_token_ms": 15.734266666666667,
+      "predicted_per_second": 63.55555178930062,
+      "draft_n": 12,
+      "draft_n_accepted": 12
+    },
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 55,
+      "total_tokens": 71,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+    "choice_count": 1
+  },
+  "request": {
+    "elapsed_seconds": 0.9577686319826171,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 71,
+      "prompt_ms": 499.281,
+      "prompt_per_token_ms": 7.03212676056338,
+      "prompt_per_second": 142.20449005670153,
+      "predicted_n": 32,
+      "predicted_ms": 454.71,
+      "predicted_per_token_ms": 14.668064516129032,
+      "predicted_per_second": 68.17532053396671,
+      "draft_n": 32,
+      "draft_n_accepted": 22
+    },
+    "usage": {
+      "completion_tokens": 32,
+      "prompt_tokens": 71,
+      "total_tokens": 103,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "response_sha256": "922821bdb05a16c6faed264e46b9c8228b34553a7cc24421dad71f8d4cb75813",
+    "choice_count": 1
+  },
+  "new_gpu_errors": [],
+  "scope": "Instrumented short-context lattice correctness capture, not a speed result.",
+  "monitor_errors": [],
+  "sensor_gaps": [
+    {
+      "time_ns": 927715218560523,
+      "error": "OSError(16, 'Device or resource busy')"
+    },
+    {
+      "time_ns": 927715435840937,
+      "error": "OSError(16, 'Device or resource busy')"
+    },
+    {
+      "time_ns": 927715651239765,
+      "error": "OSError(16, 'Device or resource busy')"
+    }
+  ]
+}

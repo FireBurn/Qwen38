@@ -1,0 +1,17 @@
+--- a/common/speculative.cpp
++++ b/common/speculative.cpp
+@@ -1347,6 +1347,14 @@
+                 // Both DFlash and LiliCorr greedily walk the candidate lattice.
+                 const float * lattice = llama_get_embeddings_nextn(ctx_dft);
+                 GGML_ASSERT(lattice && "DFlash2 selector produced no lattice");
++                if (const char * audit = std::getenv("DFLASH_LATTICE_AUDIT")) {
++                    FILE * f = std::fopen(audit, "ab");
++                    GGML_ASSERT(f != nullptr);
++                    const uint32_t header[] = { 0x44464c54u, (uint32_t) n_block_tokens, (uint32_t) n_embd_dec };
++                    GGML_ASSERT(std::fwrite(header, sizeof(header), 1, f) == 1);
++                    GGML_ASSERT(std::fwrite(lattice + (size_t) beg * n_embd_dec, sizeof(float), (size_t) n_block_tokens * n_embd_dec, f) == (size_t) n_block_tokens * n_embd_dec);
++                    GGML_ASSERT(std::fclose(f) == 0);
++                }
+ 
+                 // DFlash2 can instead sample each step and hand q to the verifier for rejection sampling
+                 const bool sample = is_dflash2 && params.probabilistic && dp.result_q;

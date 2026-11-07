@@ -1,0 +1,246 @@
+{
+  "passed": true,
+  "scope": "one seeded prompt plus warmup, single-sequence short-context lattice check; no speed qualification",
+  "lattice_sha256": {
+    "baseline": "2bf35c3b515745d5f68a0cf5dcf64579fa4692b2d35efba5a0b6d40f6bc44d5f",
+    "candidate": "2bf35c3b515745d5f68a0cf5dcf64579fa4692b2d35efba5a0b6d40f6bc44d5f"
+  },
+  "lattice_rows": {
+    "baseline": [
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ]
+    ],
+    "candidate": [
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ]
+    ]
+  },
+  "lattice_exact": true,
+  "response_hashes_match": true,
+  "model_identities_match": true,
+  "results": {
+    "baseline": {
+      "passed": true,
+      "warmup": {
+        "elapsed_seconds": 0.859228549990803,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 55,
+          "prompt_ms": 618.047,
+          "prompt_per_token_ms": 11.237218181818182,
+          "prompt_per_second": 88.9899959064602,
+          "predicted_n": 16,
+          "predicted_ms": 236.014,
+          "predicted_per_token_ms": 15.734266666666667,
+          "predicted_per_second": 63.55555178930062,
+          "draft_n": 12,
+          "draft_n_accepted": 12
+        },
+        "usage": {
+          "completion_tokens": 16,
+          "prompt_tokens": 55,
+          "total_tokens": 71,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+        "choice_count": 1
+      },
+      "request": {
+        "elapsed_seconds": 0.9577686319826171,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 71,
+          "prompt_ms": 499.281,
+          "prompt_per_token_ms": 7.03212676056338,
+          "prompt_per_second": 142.20449005670153,
+          "predicted_n": 32,
+          "predicted_ms": 454.71,
+          "predicted_per_token_ms": 14.668064516129032,
+          "predicted_per_second": 68.17532053396671,
+          "draft_n": 32,
+          "draft_n_accepted": 22
+        },
+        "usage": {
+          "completion_tokens": 32,
+          "prompt_tokens": 71,
+          "total_tokens": 103,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "response_sha256": "922821bdb05a16c6faed264e46b9c8228b34553a7cc24421dad71f8d4cb75813",
+        "choice_count": 1
+      },
+      "new_gpu_errors": [],
+      "scope": "Instrumented short-context lattice correctness capture, not a speed result.",
+      "monitor_errors": [],
+      "sensor_gaps": [
+        {
+          "time_ns": 927715218560523,
+          "error": "OSError(16, 'Device or resource busy')"
+        },
+        {
+          "time_ns": 927715435840937,
+          "error": "OSError(16, 'Device or resource busy')"
+        },
+        {
+          "time_ns": 927715651239765,
+          "error": "OSError(16, 'Device or resource busy')"
+        }
+      ]
+    },
+    "candidate": {
+      "passed": true,
+      "warmup": {
+        "elapsed_seconds": 0.7342325850622728,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 55,
+          "prompt_ms": 477.577,
+          "prompt_per_token_ms": 8.683218181818182,
+          "prompt_per_second": 115.16467501575661,
+          "predicted_n": 16,
+          "predicted_ms": 253.598,
+          "predicted_per_token_ms": 16.906533333333336,
+          "predicted_per_second": 59.14873145687268,
+          "draft_n": 12,
+          "draft_n_accepted": 12
+        },
+        "usage": {
+          "completion_tokens": 16,
+          "prompt_tokens": 55,
+          "total_tokens": 71,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+        "choice_count": 1
+      },
+      "request": {
+        "elapsed_seconds": 0.8842566299717873,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 71,
+          "prompt_ms": 449.4,
+          "prompt_per_token_ms": 6.329577464788732,
+          "prompt_per_second": 157.98842901646643,
+          "predicted_n": 32,
+          "predicted_ms": 431.599,
+          "predicted_per_token_ms": 13.922548387096773,
+          "predicted_per_second": 71.82593101466871,
+          "draft_n": 32,
+          "draft_n_accepted": 22
+        },
+        "usage": {
+          "completion_tokens": 32,
+          "prompt_tokens": 71,
+          "total_tokens": 103,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "response_sha256": "922821bdb05a16c6faed264e46b9c8228b34553a7cc24421dad71f8d4cb75813",
+        "choice_count": 1
+      },
+      "new_gpu_errors": [],
+      "scope": "Instrumented short-context lattice correctness capture, not a speed result.",
+      "monitor_errors": [],
+      "sensor_gaps": []
+    }
+  }
+}
