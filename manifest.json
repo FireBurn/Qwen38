@@ -1045,6 +1045,62 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/dflash-two-seq/attn-output/PLAN.md",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/attn-output/PLAN.md",
+      "source_sha256": "f4a39088228a14a9e47c509b028bc6ee46faac7dfd23628726b60aeedd1592a1",
+      "export_sha256": "f4a39088228a14a9e47c509b028bc6ee46faac7dfd23628726b60aeedd1592a1",
+      "bytes": 817,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/attn-output/diagnostic/20261107T152345Z/assets.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/attn-output/diagnostic/20261107T152345Z/assets.json",
+      "source_sha256": "3d48b203f8c4d7cf59ece7ab1806e1b4eb70b7f9c11e8a2c9151d9ca3edcdb59",
+      "export_sha256": "b28df5d8c7b65fd2fb8e8e4ab8448a4acf627bb506c064a1a763ad75ad87aa39",
+      "bytes": 1028,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/attn-output/diagnostic/20261107T152345Z/baseline.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/attn-output/diagnostic/20261107T152345Z/baseline.log",
+      "source_sha256": "0934cc04ca37f274ed5d33879d328404cbfe6539fa6e8c1364c629ae5d2122fd",
+      "export_sha256": "ce0b711bf2fad4bcd982498dce2f204e49450ae348b8101421325559d0e5840a",
+      "bytes": 373599,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/attn-output/diagnostic/20261107T152345Z/candidate.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/attn-output/diagnostic/20261107T152345Z/candidate.log",
+      "source_sha256": "71ece61ed7e59ff6c0ba84165d8736ec6df245572ae2a00c7587915873e9136a",
+      "export_sha256": "590e8b7eef7f19dd10b0b5e24ab2591729074b874f746c16f275b69bd2ed0a10",
+      "bytes": 372779,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/attn-output/diagnostic/20261107T152345Z/comparison.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/attn-output/diagnostic/20261107T152345Z/comparison.json",
+      "source_sha256": "cf054e2ddb165d991274e538c749149a93f70872a91811cf834a6d9efb5ed1ac",
+      "export_sha256": "cf054e2ddb165d991274e538c749149a93f70872a91811cf834a6d9efb5ed1ac",
+      "bytes": 634,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/attn-output/diagnostic/20261107T152345Z/node-analysis.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/attn-output/diagnostic/20261107T152345Z/node-analysis.json",
+      "source_sha256": "3a17073b52f48adf62e506ebd622a52f19ff45f9c879c401b7c5b9a19f711877",
+      "export_sha256": "3a17073b52f48adf62e506ebd622a52f19ff45f9c879c401b7c5b9a19f711877",
+      "bytes": 3052,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/attn-output/probe.cpp",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/attn-output/probe.cpp",
+      "source_sha256": "219220d3bcfcc9aabab2378854d43600cb1b9b6df703567591529a03c6e3ae69",
+      "export_sha256": "219220d3bcfcc9aabab2378854d43600cb1b9b6df703567591529a03c6e3ae69",
+      "bytes": 4394,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/dflash-two-seq/build-summary.json",
       "path": "archive/isolated/current-server-scope/dflash-two-seq/build-summary.json",
       "source_sha256": "2c5d000ae9f15ed735309e674497cd3d55e0ae6d0095695ee91be4825c13630d",
@@ -39493,6 +39549,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_dflash_attn_output.py",
+      "path": "archive/isolated/run_dflash_attn_output.py",
+      "source_sha256": "bce7a478eb34772a8f938ead020a8378ee8d671dca01a138a2076939cb3462e7",
+      "export_sha256": "bce7a478eb34772a8f938ead020a8378ee8d671dca01a138a2076939cb3462e7",
+      "bytes": 4402,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_dflash_conv_nodes.py",
       "path": "archive/isolated/run_dflash_conv_nodes.py",
       "source_sha256": "20534ee0ce3ca438ac0f6fdb75fe4b9f577fb9197eb242725a83edc2c1351832",
@@ -40479,9 +40543,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "8d6458375ce376c2cf3660a50631efd608b2d3f66ca251dc3854f8350b8c7547",
-      "export_sha256": "8d6458375ce376c2cf3660a50631efd608b2d3f66ca251dc3854f8350b8c7547",
-      "bytes": 32770,
+      "source_sha256": "df410f8bbbcd7beb08ba49e2d556104995f12197f0ecc803f2363c677dfea203",
+      "export_sha256": "df410f8bbbcd7beb08ba49e2d556104995f12197f0ecc803f2363c677dfea203",
+      "bytes": 32828,
       "sanitized": false
     },
     {
@@ -41101,5 +41165,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-07T15:22:18.651473+00:00"
+  "updated_utc": "2026-11-07T15:24:45.170094+00:00"
 }
