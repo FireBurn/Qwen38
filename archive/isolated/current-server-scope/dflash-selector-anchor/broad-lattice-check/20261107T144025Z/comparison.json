@@ -1,0 +1,1049 @@
+{
+  "passed": true,
+  "scope": "two seeded single-sequence workloads, not a speed qualification",
+  "cases": {
+    "math3": {
+      "lattice_sha256": {
+        "baseline": "49271217eccff0576d1cd7fdf3abd9d2c80efacd449a7f54b2e8e31766e18b84",
+        "candidate": "49271217eccff0576d1cd7fdf3abd9d2c80efacd449a7f54b2e8e31766e18b84"
+      },
+      "lattice_rows": {
+        "baseline": [
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ]
+        ],
+        "candidate": [
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ],
+          [
+            4,
+            5120
+          ]
+        ]
+      },
+      "lattice_exact": true,
+      "response_hashes_match": true,
+      "model_identities_match": true,
+      "results": {
+        "baseline": {
+          "passed": true,
+          "warmup": {
+            "elapsed_seconds": 0.7175002219155431,
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 55,
+              "prompt_ms": 485.063,
+              "prompt_per_token_ms": 8.819327272727273,
+              "prompt_per_second": 113.38733319177096,
+              "predicted_n": 16,
+              "predicted_ms": 228.63,
+              "predicted_per_token_ms": 15.241999999999999,
+              "predicted_per_second": 65.60818790185016,
+              "draft_n": 11,
+              "draft_n_accepted": 11
+            },
+            "usage": {
+              "completion_tokens": 16,
+              "prompt_tokens": 55,
+              "total_tokens": 71,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              }
+            },
+            "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+            "choice_count": 1
+          },
+          "request": {
+            "elapsed_seconds": 3.2141841270495206,
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 905,
+              "prompt_ms": 1343.869,
+              "prompt_per_token_ms": 1.4849381215469613,
+              "prompt_per_second": 673.4287344971868,
+              "predicted_n": 128,
+              "predicted_ms": 1751.402,
+              "predicted_per_token_ms": 13.790566929133858,
+              "predicted_per_second": 72.51333503102086,
+              "draft_n": 128,
+              "draft_n_accepted": 84
+            },
+            "usage": {
+              "completion_tokens": 128,
+              "prompt_tokens": 905,
+              "total_tokens": 1033,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              }
+            },
+            "response_sha256": "188e53a9dfd935781bccaeb468822ea550dc652bb991f4bcfcdb2602bb135e0c",
+            "choice_count": 1
+          },
+          "new_gpu_errors": [],
+          "scope": "Instrumented broader single-sequence lattice correctness capture, not a speed result.",
+          "monitor_errors": [],
+          "sensor_gaps": [
+            {
+              "time_ns": 927841415601074,
+              "error": "OSError(16, 'Device or resource busy')"
+            },
+            {
+              "time_ns": 927841633621477,
+              "error": "OSError(16, 'Device or resource busy')"
+            },
+            {
+              "time_ns": 927841848266739,
+              "error": "OSError(16, 'Device or resource busy')"
+            }
+          ]
+        },
+        "candidate": {
+          "passed": true,
+          "warmup": {
+            "elapsed_seconds": 0.7112476750044152,
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 55,
+              "prompt_ms": 484.245,
+              "prompt_per_token_ms": 8.804454545454545,
+              "prompt_per_second": 113.57887020000206,
+              "predicted_n": 16,
+              "predicted_ms": 224.412,
+              "predicted_per_token_ms": 14.9608,
+              "predicted_per_second": 66.84134538259985,
+              "draft_n": 11,
+              "draft_n_accepted": 11
+            },
+            "usage": {
+              "completion_tokens": 16,
+              "prompt_tokens": 55,
+              "total_tokens": 71,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              }
+            },
+            "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+            "choice_count": 1
+          },
+          "request": {
+            "elapsed_seconds": 3.2063231270294636,
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 905,
+              "prompt_ms": 1336.454,
+              "prompt_per_token_ms": 1.4767447513812155,
+              "prompt_per_second": 677.1650950949304,
+              "predicted_n": 128,
+              "predicted_ms": 1752.937,
+              "predicted_per_token_ms": 13.802653543307086,
+              "predicted_per_second": 72.44983704491378,
+              "draft_n": 128,
+              "draft_n_accepted": 84
+            },
+            "usage": {
+              "completion_tokens": 128,
+              "prompt_tokens": 905,
+              "total_tokens": 1033,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              }
+            },
+            "response_sha256": "188e53a9dfd935781bccaeb468822ea550dc652bb991f4bcfcdb2602bb135e0c",
+            "choice_count": 1
+          },
+          "new_gpu_errors": [],
+          "scope": "Instrumented broader single-sequence lattice correctness capture, not a speed result.",
+          "monitor_errors": [],
+          "sensor_gaps": []
+        }
+      }
+    },
+    "code4": {
+      "lattice_sha256": {
+        "baseline": "4bd96594807e3b1745eac5132382aa747481cbabfe21e8d1fbdf8af1cd5e17ff",
+        "candidate": "4bd96594807e3b1745eac5132382aa747481cbabfe21e8d1fbdf8af1cd5e17ff"
+      },
+      "lattice_rows": {
+        "baseline": [
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ]
+        ],
+        "candidate": [
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ],
+          [
+            5,
+            5120
+          ]
+        ]
+      },
+      "lattice_exact": true,
+      "response_hashes_match": true,
+      "model_identities_match": true,
+      "results": {
+        "baseline": {
+          "passed": true,
+          "warmup": {
+            "elapsed_seconds": 0.6682644439861178,
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 55,
+              "prompt_ms": 485.975,
+              "prompt_per_token_ms": 8.835909090909091,
+              "prompt_per_second": 113.17454601574154,
+              "predicted_n": 16,
+              "predicted_ms": 179.68,
+              "predicted_per_token_ms": 11.978666666666667,
+              "predicted_per_second": 83.48174532502226,
+              "draft_n": 12,
+              "draft_n_accepted": 12
+            },
+            "usage": {
+              "completion_tokens": 16,
+              "prompt_tokens": 55,
+              "total_tokens": 71,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              }
+            },
+            "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+            "choice_count": 1
+          },
+          "request": {
+            "elapsed_seconds": 2.756433478090912,
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 79,
+              "prompt_ms": 467.565,
+              "prompt_per_token_ms": 5.918544303797469,
+              "prompt_per_second": 168.96046538983882,
+              "predicted_n": 128,
+              "predicted_ms": 2284.368,
+              "predicted_per_token_ms": 17.987149606299212,
+              "predicted_per_second": 55.5952455996582,
+              "draft_n": 241,
+              "draft_n_accepted": 80
+            },
+            "usage": {
+              "completion_tokens": 128,
+              "prompt_tokens": 79,
+              "total_tokens": 207,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              }
+            },
+            "response_sha256": "413f2c88079a34510bbf8b665da67a95199b6a634bd785bc83e56092e589155c",
+            "choice_count": 1
+          },
+          "new_gpu_errors": [],
+          "scope": "Instrumented broader single-sequence lattice correctness capture, not a speed result.",
+          "monitor_errors": [],
+          "sensor_gaps": []
+        },
+        "candidate": {
+          "passed": true,
+          "warmup": {
+            "elapsed_seconds": 0.6706960709998384,
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 55,
+              "prompt_ms": 486.86,
+              "prompt_per_token_ms": 8.852,
+              "prompt_per_second": 112.96882060551287,
+              "predicted_n": 16,
+              "predicted_ms": 180.546,
+              "predicted_per_token_ms": 12.036399999999999,
+              "predicted_per_second": 83.0813199960121,
+              "draft_n": 12,
+              "draft_n_accepted": 12
+            },
+            "usage": {
+              "completion_tokens": 16,
+              "prompt_tokens": 55,
+              "total_tokens": 71,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              }
+            },
+            "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+            "choice_count": 1
+          },
+          "request": {
+            "elapsed_seconds": 2.7709340639412403,
+            "timings": {
+              "cache_n": 0,
+              "prompt_n": 79,
+              "prompt_ms": 468.991,
+              "prompt_per_token_ms": 5.93659493670886,
+              "prompt_per_second": 168.44672925493242,
+              "predicted_n": 128,
+              "predicted_ms": 2299.3,
+              "predicted_per_token_ms": 18.10472440944882,
+              "predicted_per_second": 55.234201713565,
+              "draft_n": 241,
+              "draft_n_accepted": 80
+            },
+            "usage": {
+              "completion_tokens": 128,
+              "prompt_tokens": 79,
+              "total_tokens": 207,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              }
+            },
+            "response_sha256": "413f2c88079a34510bbf8b665da67a95199b6a634bd785bc83e56092e589155c",
+            "choice_count": 1
+          },
+          "new_gpu_errors": [],
+          "scope": "Instrumented broader single-sequence lattice correctness capture, not a speed result.",
+          "monitor_errors": [],
+          "sensor_gaps": []
+        }
+      }
+    }
+  }
+}

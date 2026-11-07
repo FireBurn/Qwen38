@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "warmup": {
+    "elapsed_seconds": 0.7112476750044152,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 55,
+      "prompt_ms": 484.245,
+      "prompt_per_token_ms": 8.804454545454545,
+      "prompt_per_second": 113.57887020000206,
+      "predicted_n": 16,
+      "predicted_ms": 224.412,
+      "predicted_per_token_ms": 14.9608,
+      "predicted_per_second": 66.84134538259985,
+      "draft_n": 11,
+      "draft_n_accepted": 11
+    },
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 55,
+      "total_tokens": 71,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+    "choice_count": 1
+  },
+  "request": {
+    "elapsed_seconds": 3.2063231270294636,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 905,
+      "prompt_ms": 1336.454,
+      "prompt_per_token_ms": 1.4767447513812155,
+      "prompt_per_second": 677.1650950949304,
+      "predicted_n": 128,
+      "predicted_ms": 1752.937,
+      "predicted_per_token_ms": 13.802653543307086,
+      "predicted_per_second": 72.44983704491378,
+      "draft_n": 128,
+      "draft_n_accepted": 84
+    },
+    "usage": {
+      "completion_tokens": 128,
+      "prompt_tokens": 905,
+      "total_tokens": 1033,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "response_sha256": "188e53a9dfd935781bccaeb468822ea550dc652bb991f4bcfcdb2602bb135e0c",
+    "choice_count": 1
+  },
+  "new_gpu_errors": [],
+  "scope": "Instrumented broader single-sequence lattice correctness capture, not a speed result.",
+  "monitor_errors": [],
+  "sensor_gaps": []
+}
