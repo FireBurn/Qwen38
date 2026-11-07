@@ -1,0 +1,3 @@
+# Flash Attention with F16 value-cache control
+
+The non-FA diagnostic with F16 V produced bit-identical pre-projection attention outputs after Q/K/V were matched. This separately planned fixed-input comparison enables Flash Attention while retaining the same F16 V and Q8 K cache, baseline/candidate libraries, split-width projections and intrusive node capture. It tests whether the split/merged difference reappears with FA at the same cache types, not full model behavior or performance. Require the existing mapping checks, graph shape, fault/competition monitoring and process-local copy/queue safety controls; stop on error or timeout without retry.

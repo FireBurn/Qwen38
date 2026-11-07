@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "scope": "one synthetic fixed input, intrusive intermediate captures, no timing",
+  "baseline": {
+    "lattice_sha256": "9d9e631946013978175995f0a19f9a7e0d6dbd9cd1d9cc2e33d4acb63e1e7eaf",
+    "nodes_sha256": "0787b8fd7dced79457cf65caa4a21a8f60c2234af676b68fb856a6e4d8056ec7",
+    "node_bytes": 2461520,
+    "new_gpu_errors": []
+  },
+  "candidate": {
+    "lattice_sha256": "d5cbb43cb647638433e8acd8dd76597117c459177672f788c21fde7e2f627387",
+    "nodes_sha256": "c486181887627ead319fd09d49e36db76ab4030575efbf9fa247fda5f270dc4d",
+    "node_bytes": 2459560,
+    "new_gpu_errors": []
+  },
+  "lattice_exact": false
+}
