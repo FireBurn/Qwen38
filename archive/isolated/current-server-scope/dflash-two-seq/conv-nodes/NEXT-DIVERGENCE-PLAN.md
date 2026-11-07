@@ -1,0 +1,3 @@
+# Next divergence after matching dynamic projection
+
+Compare the prior split baseline with the merged iswa graph that calculates the attention-side dynamic projections as two five-column operations. Capture the detailed first-layer tensor set used in the previous mapped diagnostic and find the first observed difference after the now-matched convolution input. Use the same fixed synthetic two-sequence, empty-draft-KV inputs and intrusive callback, exact in-process private-library/driver mapping checks, GPU fault and competition monitoring, one-dword copy, disabled transfer queue, and a bounded timeout. Stop on errors or missing data, without retry. This is a causal diagnostic only; it does not qualify output, model behavior, or performance.

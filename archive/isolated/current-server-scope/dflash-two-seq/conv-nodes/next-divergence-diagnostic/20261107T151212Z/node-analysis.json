@@ -1,0 +1,111 @@
+{
+  "execution_order": [
+    "inp_noise_embd",
+    "noise_norm-0",
+    "attn_conv_in-0",
+    "Vcur-0",
+    "Qcur-0",
+    "Kcur-0",
+    "attn_conv_out-0",
+    "ffn_inp-0",
+    "ffn_norm-0",
+    "ffn_conv_in-0",
+    "ffn_out-0",
+    "ffn_conv_out-0",
+    "l_out-0"
+  ],
+  "nodes": {
+    "inp_noise_embd": {
+      "count": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "noise_norm-0": {
+      "count": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "attn_conv_in-0": {
+      "count": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "Vcur-0": {
+      "count": 10240,
+      "bitwise_differences": 10240,
+      "max_abs": 0.4789772033691406,
+      "mean_abs": 0.030339514836668968,
+      "nonfinite_mismatch": 0
+    },
+    "Qcur-0": {
+      "count": 40960,
+      "bitwise_differences": 40958,
+      "max_abs": 0.07210588455200195,
+      "mean_abs": 0.004216239787638187,
+      "nonfinite_mismatch": 0
+    },
+    "Kcur-0": {
+      "count": 10240,
+      "bitwise_differences": 10240,
+      "max_abs": 0.05957603454589844,
+      "mean_abs": 0.004784802440553904,
+      "nonfinite_mismatch": 0
+    },
+    "attn_conv_out-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 119.636962890625,
+      "mean_abs": 0.7132048010826111,
+      "nonfinite_mismatch": 0
+    },
+    "ffn_inp-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 119.636962890625,
+      "mean_abs": 0.7132048010826111,
+      "nonfinite_mismatch": 0
+    },
+    "ffn_norm-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 0.13628041744232178,
+      "mean_abs": 0.002989802975207567,
+      "nonfinite_mismatch": 0
+    },
+    "ffn_conv_in-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 0.2801847457885742,
+      "mean_abs": 0.010510415770113468,
+      "nonfinite_mismatch": 0
+    },
+    "ffn_out-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 290990.15625,
+      "mean_abs": 50.45038986206055,
+      "nonfinite_mismatch": 0
+    },
+    "ffn_conv_out-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 4373644.0,
+      "mean_abs": 211.44415283203125,
+      "nonfinite_mismatch": 0
+    },
+    "l_out-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 4373562.0,
+      "mean_abs": 211.48765563964844,
+      "nonfinite_mismatch": 0
+    }
+  },
+  "scope": "F32 contiguous captures only; baseline concatenated in callback order; no performance claim"
+}

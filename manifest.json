@@ -1061,6 +1061,22 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/ATTENTION-PLAN.md",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/ATTENTION-PLAN.md",
+      "source_sha256": "9479200bd1a5c1ff7fd5239552196d32435512ca8570423090b97f394558ab0a",
+      "export_sha256": "9479200bd1a5c1ff7fd5239552196d32435512ca8570423090b97f394558ab0a",
+      "bytes": 815,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/NEXT-DIVERGENCE-PLAN.md",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/NEXT-DIVERGENCE-PLAN.md",
+      "source_sha256": "4632db4572749b60497f926f0a0663417a4bf04be7a086d12da1fae495aa1ae0",
+      "export_sha256": "4632db4572749b60497f926f0a0663417a4bf04be7a086d12da1fae495aa1ae0",
+      "bytes": 750,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/PLAN.md",
       "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/PLAN.md",
       "source_sha256": "278af67bdedc17002a7988b4eb3d02cd6bbc6ce763dba44129ca6f5d6e1f23e2",
@@ -1077,11 +1093,67 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/SPLIT-QKV-PLAN.md",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/SPLIT-QKV-PLAN.md",
+      "source_sha256": "6def9cedcac582b6e38429d99812076e66e646238fc462f3790a3f1fc6ad5180",
+      "export_sha256": "6def9cedcac582b6e38429d99812076e66e646238fc462f3790a3f1fc6ad5180",
+      "bytes": 815,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/analyze.py",
       "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/analyze.py",
       "source_sha256": "fff857a8db4c5bbd1c35eaea25df201030bd4ef24a7528021b2fbb01e3fb3305",
       "export_sha256": "fff857a8db4c5bbd1c35eaea25df201030bd4ef24a7528021b2fbb01e3fb3305",
       "bytes": 1228,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-diagnostic/20261107T151414Z/assets.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-diagnostic/20261107T151414Z/assets.json",
+      "source_sha256": "f29557d939fdb4b2a16f8624cf4c55bce4cefff5c42bc4254769e724fb2a88ed",
+      "export_sha256": "583933bef0c6645285be60d5671cc9e604a1093368582d1aac257c7cc5e73b6a",
+      "bytes": 1048,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-diagnostic/20261107T151414Z/baseline.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-diagnostic/20261107T151414Z/baseline.log",
+      "source_sha256": "c5ab4d6cdad4f035d99dd081c0cb09620504f912a9ce7aa70ee02f3ccf091085",
+      "export_sha256": "d4de586ca858b939cc430a8e64f1c90c76cd69b7477cf85174f93bed48bdc70f",
+      "bytes": 371986,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-diagnostic/20261107T151414Z/candidate.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-diagnostic/20261107T151414Z/candidate.log",
+      "source_sha256": "c59401fe8ea0a536239366360db8b64fcc331d29062328263fa9c518b4726ead",
+      "export_sha256": "036e49073e2d429738d964fe8b27accb5fb1bf64ff95355b773d7568c323e50d",
+      "bytes": 371976,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-diagnostic/20261107T151414Z/comparison.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-diagnostic/20261107T151414Z/comparison.json",
+      "source_sha256": "c5eb7a57c6d517d0557bf4ae58cedb9b5856dcdc7cfbbc795bc9104a0292cda2",
+      "export_sha256": "c5eb7a57c6d517d0557bf4ae58cedb9b5856dcdc7cfbbc795bc9104a0292cda2",
+      "bytes": 634,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-diagnostic/20261107T151414Z/node-analysis.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-diagnostic/20261107T151414Z/node-analysis.json",
+      "source_sha256": "910613904e38c924b99b36a2967f76c30d74664f60878d34ad9de4aae8a59f7e",
+      "export_sha256": "910613904e38c924b99b36a2967f76c30d74664f60878d34ad9de4aae8a59f7e",
+      "bytes": 2852,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-probe.cpp",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/attention-probe.cpp",
+      "source_sha256": "208d3920156fc5a5f33d2b852c601420a271f057ddc686c216a658db31fba3a7",
+      "export_sha256": "208d3920156fc5a5f33d2b852c601420a271f057ddc686c216a658db31fba3a7",
+      "bytes": 4348,
       "sanitized": false
     },
     {
@@ -1133,6 +1205,46 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/next-divergence-diagnostic/20261107T151212Z/assets.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/next-divergence-diagnostic/20261107T151212Z/assets.json",
+      "source_sha256": "d9333dd5eec6ac450da8c3f00e9481e42742622c2f5ed754a8e8531336646ddc",
+      "export_sha256": "712088a2c43bd48092ccff9789e8748184d5db49963713720cbc46bcea5535ef",
+      "bytes": 1053,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/next-divergence-diagnostic/20261107T151212Z/baseline.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/next-divergence-diagnostic/20261107T151212Z/baseline.log",
+      "source_sha256": "63b1c766be42b61a00dae3b0d36751ce03a786bc2175a55c24770614d3485892",
+      "export_sha256": "75ce2c6a7b112a986dc9d9f864c6495a44a7fc6324f5f795b593223c8399f6ee",
+      "bytes": 371986,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/next-divergence-diagnostic/20261107T151212Z/candidate.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/next-divergence-diagnostic/20261107T151212Z/candidate.log",
+      "source_sha256": "d5870ec47619105e4b385a385c0ebdc4beeb18f31f08741564fbd11779d1cecc",
+      "export_sha256": "64f6c91b08ee9abbd6f7266dd51759447ce01b6c7bad3d2b62c30a1560ef5022",
+      "bytes": 372004,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/next-divergence-diagnostic/20261107T151212Z/comparison.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/next-divergence-diagnostic/20261107T151212Z/comparison.json",
+      "source_sha256": "5662049b6603915bbcfc4f4eb36f1004d8d6b0ae8e9bb6a4319fbc3ab5397ab2",
+      "export_sha256": "5662049b6603915bbcfc4f4eb36f1004d8d6b0ae8e9bb6a4319fbc3ab5397ab2",
+      "bytes": 634,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/next-divergence-diagnostic/20261107T151212Z/node-analysis.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/next-divergence-diagnostic/20261107T151212Z/node-analysis.json",
+      "source_sha256": "a584c4c938e9004845e9ebad7edaf71ca4e520702ca2fc2d8bef46c2c235de70",
+      "export_sha256": "a584c4c938e9004845e9ebad7edaf71ca4e520702ca2fc2d8bef46c2c235de70",
+      "bytes": 2749,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/probe.cpp",
       "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/probe.cpp",
       "source_sha256": "a8fe790352517f386b33a9abc76d6dbdf3af87559f609116735ec53851a28d6a",
@@ -1178,6 +1290,54 @@
       "source_sha256": "8de4ca3232f4a2b0ffa400147aca862acc03ed3091d7a04be83c9dfb4ff76a84",
       "export_sha256": "8de4ca3232f4a2b0ffa400147aca862acc03ed3091d7a04be83c9dfb4ff76a84",
       "bytes": 636,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv-diagnostic/20261107T151318Z/assets.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv-diagnostic/20261107T151318Z/assets.json",
+      "source_sha256": "de35716b06746d8f7ca17a0787eb30dbc217a9e1f8f5711f732e2305c6048586",
+      "export_sha256": "d0cfa12e6e82d3946425cec01db718aa312d455327c2e66d85ad546f99bc063a",
+      "bytes": 1034,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv-diagnostic/20261107T151318Z/baseline.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv-diagnostic/20261107T151318Z/baseline.log",
+      "source_sha256": "e9645c117e0119882429e9302dfcb9759e797d2a49630ab25030212df171fe9e",
+      "export_sha256": "ac6235cafe65d6a47e1ae95a04da050b165b65534686ce4675a29104a4ec0440",
+      "bytes": 371986,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv-diagnostic/20261107T151318Z/candidate.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv-diagnostic/20261107T151318Z/candidate.log",
+      "source_sha256": "67c9135e52d029a08f919f605988a6298125fc6d9e8318d665b93830bfdcea2f",
+      "export_sha256": "664c3545910ab07a2a38bee2351e822b9c7365cd1f5bcd0a9c21e078071a1cf3",
+      "bytes": 371976,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv-diagnostic/20261107T151318Z/comparison.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv-diagnostic/20261107T151318Z/comparison.json",
+      "source_sha256": "9369863b4f1a6b44bf13783c068fd2a1268b65e851214a7e1f7252271c1cf99d",
+      "export_sha256": "9369863b4f1a6b44bf13783c068fd2a1268b65e851214a7e1f7252271c1cf99d",
+      "bytes": 634,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv-diagnostic/20261107T151318Z/node-analysis.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv-diagnostic/20261107T151318Z/node-analysis.json",
+      "source_sha256": "de06640e7589d9c9a7c093b1445be2b5e53a624c71763d1c497cb2dcb15d3e3d",
+      "export_sha256": "de06640e7589d9c9a7c093b1445be2b5e53a624c71763d1c497cb2dcb15d3e3d",
+      "bytes": 2642,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv.patch",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/conv-nodes/split-qkv.patch",
+      "source_sha256": "38058ed2228a139999c94028f67588f73df312532d2b9b32599dcd6f9b14213b",
+      "export_sha256": "38058ed2228a139999c94028f67588f73df312532d2b9b32599dcd6f9b14213b",
+      "bytes": 1414,
       "sanitized": false
     },
     {
@@ -38989,6 +39149,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_dflash_attention_nodes.py",
+      "path": "archive/isolated/run_dflash_attention_nodes.py",
+      "source_sha256": "b986576968f4e8593159504ab6f4cf3911032102d5c4ea93f9099d8830fb140f",
+      "export_sha256": "b986576968f4e8593159504ab6f4cf3911032102d5c4ea93f9099d8830fb140f",
+      "bytes": 4346,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_dflash_conv_nodes.py",
       "path": "archive/isolated/run_dflash_conv_nodes.py",
       "source_sha256": "20534ee0ce3ca438ac0f6fdb75fe4b9f577fb9197eb242725a83edc2c1351832",
@@ -39021,11 +39189,27 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_dflash_next_divergence.py",
+      "path": "archive/isolated/run_dflash_next_divergence.py",
+      "source_sha256": "97b8c390526a01ae47d3329ccd78f65d85bf27be7079c9ea256ce7f9eb91cbd5",
+      "export_sha256": "97b8c390526a01ae47d3329ccd78f65d85bf27be7079c9ea256ce7f9eb91cbd5",
+      "bytes": 4357,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_dflash_split_projection_nodes.py",
       "path": "archive/isolated/run_dflash_split_projection_nodes.py",
       "source_sha256": "238dfb9aab43919bed63eadb005fb7403861296b05804b9f71c7db7ab5e4fe03",
       "export_sha256": "238dfb9aab43919bed63eadb005fb7403861296b05804b9f71c7db7ab5e4fe03",
       "bytes": 4357,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_dflash_split_qkv.py",
+      "path": "archive/isolated/run_dflash_split_qkv.py",
+      "source_sha256": "198205620bf845465b8fba779d7e50a61f5b6d7f10fdc898fae1e2175202177b",
+      "export_sha256": "198205620bf845465b8fba779d7e50a61f5b6d7f10fdc898fae1e2175202177b",
+      "bytes": 4338,
       "sanitized": false
     },
     {
@@ -39935,9 +40119,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "4f6bee15c46851ecb74f99a773d7057f9fec4b81e4fecee424ec42439fa856ab",
-      "export_sha256": "4f6bee15c46851ecb74f99a773d7057f9fec4b81e4fecee424ec42439fa856ab",
-      "bytes": 32113,
+      "source_sha256": "cd964ccaf7905aa1e9f56d21908d956b8d4bbd5d3a6c83614f9a5dc0b19b2c88",
+      "export_sha256": "cd964ccaf7905aa1e9f56d21908d956b8d4bbd5d3a6c83614f9a5dc0b19b2c88",
+      "bytes": 32317,
       "sanitized": false
     },
     {
@@ -40557,5 +40741,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-07T15:11:36.057061+00:00"
+  "updated_utc": "2026-11-07T15:14:59.008571+00:00"
 }

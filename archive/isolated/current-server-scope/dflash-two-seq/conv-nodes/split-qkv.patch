@@ -1,0 +1,24 @@
+--- a/src/models/dflash.cpp
++++ b/src/models/dflash.cpp
+@@ -1073,10 +1073,18 @@
+             cb(noise_norm, "attn_conv_in", il);
+         }
+ 
+-        ggml_tensor * Qcur = build_lora_mm(layer.wq, noise_norm, layer.wq_s);
+-        ggml_tensor * Kcur = build_lora_mm(layer.wk, noise_norm, layer.wk_s);
++        auto diagnostic_project = [&](ggml_tensor * w, ggml_tensor * scale) {
++            if (ubatch.n_seqs_unq == 2 && n_tokens == 10) {
++                ggml_tensor * a = ggml_view_2d(ctx0, noise_norm, noise_norm->ne[0], 5, noise_norm->nb[1], 0);
++                ggml_tensor * b = ggml_view_2d(ctx0, noise_norm, noise_norm->ne[0], 5, noise_norm->nb[1], 5 * noise_norm->nb[1]);
++                return ggml_concat(ctx0, build_lora_mm(w, a, scale), build_lora_mm(w, b, scale), 1);
++            }
++            return build_lora_mm(w, noise_norm, scale);
++        };
++        ggml_tensor * Qcur = diagnostic_project(layer.wq, layer.wq_s);
++        ggml_tensor * Kcur = diagnostic_project(layer.wk, layer.wk_s);
+         const bool shared_kv = layer.wv == nullptr;
+-        ggml_tensor * Vcur = shared_kv ? Kcur : build_lora_mm(layer.wv, noise_norm, layer.wv_s);
++        ggml_tensor * Vcur = shared_kv ? Kcur : diagnostic_project(layer.wv, layer.wv_s);
+ 
+         Qcur = ggml_reshape_3d(ctx0, Qcur, n_embd_head, n_head,    n_tokens);
+         Kcur = ggml_reshape_3d(ctx0, Kcur, n_embd_head, n_head_kv, n_tokens);
