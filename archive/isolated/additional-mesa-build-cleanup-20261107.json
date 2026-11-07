@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-07T15:32:27.807284+00:00",
+  "scope": "deleted inactive rebuildable Mesa build trees; source, logs, configuration and copied drivers remain",
+  "removed": [
+    {
+      "path": "isolated/mtp-sched-keep-7k/build",
+      "logical_bytes_before": 161892467,
+      "files": 864,
+      "preserved_driver": "isolated/mtp-sched-keep-7k/driver/libvulkan_radeon.so",
+      "preserved_driver_sha256": "972e6f16c97b73d04c697199200c28ab5dace217e73646ce68a9173e14fb4422",
+      "preserved_source": "isolated/mtp-sched-keep-7k/source"
+    },
+    {
+      "path": "isolated/mtp-sched-keep-occupancy/build",
+      "logical_bytes_before": 161925598,
+      "files": 864,
+      "preserved_driver": "isolated/mtp-sched-keep-occupancy/driver/libvulkan_radeon.so",
+      "preserved_driver_sha256": "b571d072f9250e33a237c9b0744ee9f2aa7c72fe90e77099fad0421cedb4e375",
+      "preserved_source": "isolated/mtp-sched-keep-occupancy/source"
+    },
+    {
+      "path": "isolated/mtp-presched-only/build",
+      "logical_bytes_before": 161891663,
+      "files": 864,
+      "preserved_driver": "isolated/mtp-presched-only/driver/libvulkan_radeon.so",
+      "preserved_driver_sha256": "397f5e42d89c749f5275727008a166fdd85faaf6754421ed9843f9d8a2a714a3",
+      "preserved_source": "isolated/mtp-presched-only/source"
+    },
+    {
+      "path": "isolated/aco-cross-descriptor/build",
+      "logical_bytes_before": 161907627,
+      "files": 864,
+      "preserved_driver": "isolated/aco-cross-descriptor/driver/libvulkan_radeon.so",
+      "preserved_driver_sha256": "abb4efb084228b87fbd944db441b16b70f74358bcc14489708d226e2d1fff5fd",
+      "preserved_source": "isolated/aco-cross-descriptor/source"
+    }
+  ],
+  "logical_bytes_before": 647617355
+}

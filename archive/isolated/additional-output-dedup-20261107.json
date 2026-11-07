@@ -1,0 +1,47 @@
+{
+  "utc": "2026-11-07T15:31:47.364920+00:00",
+  "scope": "historical immutable experiment outputs; SHA-256 verified, paths retained as hardlinks; writing any linked path changes its peers",
+  "groups": [
+    {
+      "sha256": "b1c82a6323b01596cc8fceeb2a64fa52de043a08af10e710ef34a30afebe3531",
+      "bytes_each": 141322488,
+      "canonical": "isolated/native-swiglu-q8/coalesce-prompts/math/coalesced.bin",
+      "linked_paths": [
+        "isolated/native-swiglu-q8/coalesce-prompts/math/coalesced_bounded.bin",
+        "isolated/native-swiglu-q8/coalesce-prompts/math/off.bin"
+      ],
+      "reclaimed_bytes": 282644976
+    },
+    {
+      "sha256": "49d423240d96ed9240c6d16907a1c1c199bca1204da54be3eead22391c8d0928",
+      "bytes_each": 139274336,
+      "canonical": "isolated/native-swiglu-q8/coalesce-prompts/coding/coalesced.bin",
+      "linked_paths": [
+        "isolated/native-swiglu-q8/coalesce-prompts/coding/coalesced_bounded.bin",
+        "isolated/native-swiglu-q8/coalesce-prompts/coding/off.bin"
+      ],
+      "reclaimed_bytes": 278548672
+    },
+    {
+      "sha256": "17b0dc11c3d97090787528febcff75862b2bddd974c6d9c057ffb282f3df6d78",
+      "bytes_each": 100270080,
+      "canonical": "isolated/mtp-sharded-barrier/dependent-fresh16/16-5120-17-candidate.bin",
+      "linked_paths": [
+        "isolated/mtp-sharded-barrier/dependent-fresh16/16-5120-17-native.bin",
+        "isolated/mtp-sharded-barrier/dependent-fresh16/16-5120-17-parent.bin"
+      ],
+      "reclaimed_bytes": 200540160
+    },
+    {
+      "sha256": "cb7e7dcfe8451dd609144c5a9087ad7f35d559ddcb92834d5bf0c9bbd6df1bdf",
+      "bytes_each": 71327744,
+      "canonical": "isolated/glu-quant/operator-audit.bin",
+      "linked_paths": [
+        "isolated/glu-quant/operator-fused.bin",
+        "isolated/glu-quant/operator-shader-off.bin"
+      ],
+      "reclaimed_bytes": 142655488
+    }
+  ],
+  "reclaimed_bytes": 904389296
+}

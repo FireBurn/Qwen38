@@ -149,6 +149,22 @@
       "sanitized": true
     },
     {
+      "source": "isolated/additional-mesa-build-cleanup-20261107.json",
+      "path": "archive/isolated/additional-mesa-build-cleanup-20261107.json",
+      "source_sha256": "449a0eb4e92c94bd39c2d3fea3657d7d6847d1a5829074a3e142b39e7af5e788",
+      "export_sha256": "449a0eb4e92c94bd39c2d3fea3657d7d6847d1a5829074a3e142b39e7af5e788",
+      "bytes": 1729,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/additional-output-dedup-20261107.json",
+      "path": "archive/isolated/additional-output-dedup-20261107.json",
+      "source_sha256": "d073ecc8e5b28a33e97d5d4f82d692f493991f5e395c2f04a5c1867a870a0eb2",
+      "export_sha256": "d073ecc8e5b28a33e97d5d4f82d692f493991f5e395c2f04a5c1867a870a0eb2",
+      "bytes": 1908,
+      "sanitized": false
+    },
+    {
       "source": "isolated/aiter-flydsl-audit/STATUS.md",
       "path": "archive/isolated/aiter-flydsl-audit/STATUS.md",
       "source_sha256": "02d0be424d0effe60c14c39b8c1efc5078660b5ddd490171db9bf59b90eb1b0f",
@@ -4490,6 +4506,14 @@
       "source_sha256": "0fcaa11e80a5db56b966719e24090ef08c99fb42a0f0cbc260552038f5cd389b",
       "export_sha256": "0fcaa11e80a5db56b966719e24090ef08c99fb42a0f0cbc260552038f5cd389b",
       "bytes": 1990,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/mesa-build-cleanup-20261107.json",
+      "path": "archive/isolated/mesa-build-cleanup-20261107.json",
+      "source_sha256": "2e7d720a805d01e2bf06821db17f99b7d17fb6b0de9a3d225aed27df809b9ac7",
+      "export_sha256": "2e7d720a805d01e2bf06821db17f99b7d17fb6b0de9a3d225aed27df809b9ac7",
+      "bytes": 618,
       "sanitized": false
     },
     {
@@ -41589,5 +41613,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-07T15:30:31.463335+00:00"
+  "updated_utc": "2026-11-07T15:32:54.981649+00:00"
 }
