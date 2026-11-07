@@ -1,0 +1,3 @@
+# DFlash batching guard diagnostic
+
+The fixed-input isolation study passed baseline isolation but the candidate produced no merged graph. Run a separately instrumented candidate once with the same four bounded empty-KV fixed-token cases, logging guard inputs and eligibility for ten-token batches. This is a diagnostic, not a retry or qualification of the original comparison. Require successful cases, baseline-equivalent capture and sequence isolation, pinned mappings and no new GPU errors. Stop on fault, timeout, competing inference or invalid output. Keep process-local one-dword copy and disabled transfer queue. The trace may include startup/reserve batches; distinguish those from records after the case markers. The general GPU hold remains in place.

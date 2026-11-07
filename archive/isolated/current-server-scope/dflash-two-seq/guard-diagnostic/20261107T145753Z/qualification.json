@@ -1,0 +1,12 @@
+{
+  "result": "candidate_guard_not_reached",
+  "evidence": [
+    "No DFLASH_TWOSEQ_GUARD trace was emitted for any of four successful 10-token cases.",
+    "Draft log reports llama_kv_cache_iswa creation for both base and SWA caches.",
+    "llama_model.cpp selects llama_kv_cache_iswa for this DFlash configuration.",
+    "llama_kv_cache_iswa::init_batch owns the embd_all split and does not invoke the modified llama_kv_cache::init_batch."
+  ],
+  "interpretation": "The original candidate changed the wrong cache implementation for this draft. Its lattice equality demonstrates the unchanged path only.",
+  "new_gpu_errors": [],
+  "no_speed_claim": true
+}

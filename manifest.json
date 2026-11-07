@@ -981,6 +981,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/dflash-two-seq/GUARD-DIAGNOSTIC-PLAN.md",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/GUARD-DIAGNOSTIC-PLAN.md",
+      "source_sha256": "27586c19bc49a3a8b76a43191f66f6fcd0b3e040b1b0de1ad247a309627682a0",
+      "export_sha256": "27586c19bc49a3a8b76a43191f66f6fcd0b3e040b1b0de1ad247a309627682a0",
+      "bytes": 761,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/dflash-two-seq/ISOLATION-PLAN.md",
       "path": "archive/isolated/current-server-scope/dflash-two-seq/ISOLATION-PLAN.md",
       "source_sha256": "1bc18d26285712b0351426b0529c9268e9c42dcd2f2e8853eaf632fc210c6f3f",
@@ -1034,6 +1042,46 @@
       "source_sha256": "421351b1709bd5e624900c642ec5630c59c7e21177adcd7adba9d3b4f0ca4d55",
       "export_sha256": "421351b1709bd5e624900c642ec5630c59c7e21177adcd7adba9d3b4f0ca4d55",
       "bytes": 2430,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/guard-diagnostic/20261107T145753Z/assets.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/guard-diagnostic/20261107T145753Z/assets.json",
+      "source_sha256": "e56a49d581a006f2812a6a663f40ed896981bcecd409be1c88299174a13dc60a",
+      "export_sha256": "b30c14f323ccfed9a76ea2c270a14553567c82941f5e50302cf01045768a89bd",
+      "bytes": 863,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/guard-diagnostic/20261107T145753Z/comparison.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/guard-diagnostic/20261107T145753Z/comparison.json",
+      "source_sha256": "1861e8251981933203a424a83e710b62cacc75864975b5b0c622217d92173b58",
+      "export_sha256": "6fde4d82f3dab4dccdd068b8de1f881db3f9cf5370af0ab5d5bb81bf6961167d",
+      "bytes": 2193,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/guard-diagnostic/20261107T145753Z/diagnostic-maps.txt",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/guard-diagnostic/20261107T145753Z/diagnostic-maps.txt",
+      "source_sha256": "ea62f4d768a4bcae117dce9d1b6b99581178090cbb8a86ae3b0e4cc8914790f2",
+      "export_sha256": "b365ce32fc44caa560e7b4086a99412028d8ac8d98cf10696308b784e6e0c819",
+      "bytes": 1692,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/guard-diagnostic/20261107T145753Z/diagnostic.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/guard-diagnostic/20261107T145753Z/diagnostic.log",
+      "source_sha256": "18407d3cf92e84d5798272917080815f324958e91265263f54674e3b2643088a",
+      "export_sha256": "4a0e6817cce4ec9f5f55e5ecafb41e144894df717adf55d6e7c53a900382463a",
+      "bytes": 371285,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/guard-diagnostic/20261107T145753Z/qualification.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/guard-diagnostic/20261107T145753Z/qualification.json",
+      "source_sha256": "a892382ce79da921a417a46198525de24f9480a980f3094b14c8b6094194698a",
+      "export_sha256": "a892382ce79da921a417a46198525de24f9480a980f3094b14c8b6094194698a",
+      "bytes": 657,
       "sanitized": false
     },
     {
@@ -38613,6 +38661,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_dflash_two_seq_guard_diagnostic.py",
+      "path": "archive/isolated/run_dflash_two_seq_guard_diagnostic.py",
+      "source_sha256": "70dfca66254275903942567ad903a5e60a10d88d229da0616cb570a05cbb9af9",
+      "export_sha256": "70dfca66254275903942567ad903a5e60a10d88d229da0616cb570a05cbb9af9",
+      "bytes": 5606,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_dflash_two_seq_isolation.py",
       "path": "archive/isolated/run_dflash_two_seq_isolation.py",
       "source_sha256": "ccbc8ef2776168e9437135673f38d9a4fdba9cfe738cc38a67b99ec0fd5f5247",
@@ -39511,9 +39567,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "515a924fd39da5d31d4d28efc999e1afeac79d643ec4b1e75036058e30622a7a",
-      "export_sha256": "515a924fd39da5d31d4d28efc999e1afeac79d643ec4b1e75036058e30622a7a",
-      "bytes": 31660,
+      "source_sha256": "88cee95006c13f81465d7b609fdd9d7ec08bfcd78351649d54253f3e178b0a90",
+      "export_sha256": "88cee95006c13f81465d7b609fdd9d7ec08bfcd78351649d54253f3e178b0a90",
+      "bytes": 31744,
       "sanitized": false
     },
     {
@@ -40133,5 +40189,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-07T14:57:08.663648+00:00"
+  "updated_utc": "2026-11-07T14:58:56.866596+00:00"
 }
