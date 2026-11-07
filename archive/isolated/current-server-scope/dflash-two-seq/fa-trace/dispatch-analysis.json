@@ -1,0 +1,40 @@
+{
+  "original": {
+    "baseline": {
+      "FA_CASE_TRACE q=128,5,32,1 k=128,256,8,1 v=128,256,8,1 N=20 KV=256 Br=16 Bc=64 path=1 gqa=4 gqa_nq=5 wg=2,8,1 split_k=4 split_kv=64 sparse=0 mask_opt=0 dequant=0": 10
+    },
+    "candidate": {
+      "FA_CASE_TRACE q=128,5,32,2 k=128,256,8,2 v=128,256,8,2 N=4 KV=256 Br=16 Bc=64 path=1 gqa=4 gqa_nq=1 wg=5,8,2 split_k=1 split_kv=256 sparse=0 mask_opt=0 dequant=0": 5
+    }
+  },
+  "no_mq": {
+    "baseline": {
+      "FA_CASE_TRACE q=128,5,32,1 k=128,256,8,1 v=128,256,8,1 N=4 KV=256 Br=16 Bc=64 path=1 gqa=4 gqa_nq=1 wg=5,8,1 split_k=2 split_kv=128 sparse=0 mask_opt=0 dequant=0": 10
+    },
+    "candidate": {
+      "FA_CASE_TRACE q=128,5,32,2 k=128,256,8,2 v=128,256,8,2 N=4 KV=256 Br=16 Bc=64 path=1 gqa=4 gqa_nq=1 wg=5,8,2 split_k=1 split_kv=256 sparse=0 mask_opt=0 dequant=0": 5
+    },
+    "attention_comparison": {
+      "count": 40960,
+      "bitwise_differences": 40953,
+      "max_abs": 0.024906158447265625,
+      "mean_abs": 0.0007578813238069415,
+      "nonfinite_mismatch": 0
+    }
+  },
+  "no_mq_no_split": {
+    "baseline": {
+      "FA_CASE_TRACE q=128,5,32,1 k=128,256,8,1 v=128,256,8,1 N=4 KV=256 Br=16 Bc=64 path=1 gqa=4 gqa_nq=1 wg=5,8,1 split_k=1 split_kv=256 sparse=0 mask_opt=0 dequant=0": 10
+    },
+    "candidate": {
+      "FA_CASE_TRACE q=128,5,32,2 k=128,256,8,2 v=128,256,8,2 N=4 KV=256 Br=16 Bc=64 path=1 gqa=4 gqa_nq=1 wg=5,8,2 split_k=1 split_kv=256 sparse=0 mask_opt=0 dequant=0": 5
+    },
+    "attention_comparison": {
+      "count": 40960,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    }
+  }
+}

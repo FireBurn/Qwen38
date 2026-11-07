@@ -1,0 +1,3 @@
+# FA grouped-query folding control
+
+The mapped FA trace on the fixed synthetic two-sequence input showed baseline gqa_nq=5 and split_k=4, versus candidate gqa_nq=1 and split_k=1. Run the same private trace-enabled baseline and candidate with GGML_VK_FA_DISABLE_MQ=1 in both processes, leaving other controls and inputs unchanged. Capture host dispatch choices and pre-output-projection attention tensors. This tests whether eliminating multi-query folding aligns results, but split-K or other differences may remain. Capture is intrusive and not a performance comparison. Require mappings, graph shape, no competing inference and no new GPU errors; stop on error and keep general hold.

@@ -1,0 +1,26 @@
+--- a/ggml/src/ggml-vulkan/ggml-vulkan.cpp
++++ b/ggml/src/ggml-vulkan/ggml-vulkan.cpp
+@@ -8422,6 +8422,8 @@
+         }
+     }
+ 
++    if (getenv("GGML_VK_FA_DIAG_NO_SPLIT")) { split_k = 1; split_kv = KV; }
++
+     if (!use_sparse && split_k > 1) {
+         // Try to evenly split KV into split_k chunks, but it needs to be a multiple
+         // of "align", so recompute split_k based on that.
+@@ -8466,6 +8468,14 @@
+         use_mask_opt = false;
+     }
+ 
++    if (getenv("GGML_VK_FA_TRACE_CASE")) {
++        fprintf(stderr, "FA_CASE_TRACE q=%llu,%llu,%llu,%llu k=%llu,%llu,%llu,%llu v=%llu,%llu,%llu,%llu N=%u KV=%u Br=%u Bc=%u path=%d gqa=%u gqa_nq=%u wg=%u,%u,%u split_k=%u split_kv=%u sparse=%d mask_opt=%d dequant=%d\n",
++            (unsigned long long) neq0, (unsigned long long) neq1, (unsigned long long) neq2, (unsigned long long) neq3,
++            (unsigned long long) nek0, (unsigned long long) nek1, (unsigned long long) nek2, (unsigned long long) nek3,
++            (unsigned long long) nev0, (unsigned long long) nev1, (unsigned long long) nev2, (unsigned long long) nev3,
++            N, KV, Br, Bc, (int) fa_pipeline_state.path, gqa_ratio, gqa_nq, workgroups_x, workgroups_y, workgroups_z, split_k, split_kv, (int) use_sparse, (int) use_mask_opt, (int) use_dequant_kv);
++    }
++
+     // Reserve space for split_k temporaries. For each split x batch, we need to store the O matrix (D x ne1)
+     // and the per-row m and L values (ne1 rows). We store all the matrices first, followed by the rows.
+     // For matrices, the order is (inner to outer) [HSV, ne1, k, ne2, ne3].

@@ -1,0 +1,119 @@
+{
+  "execution_order": [
+    "inp_noise_embd",
+    "noise_norm-0",
+    "attn_conv_in-0",
+    "Vcur-0",
+    "Qcur-0",
+    "Kcur-0",
+    "kqv_out-0",
+    "attn_conv_out-0",
+    "ffn_inp-0",
+    "ffn_norm-0",
+    "ffn_conv_in-0",
+    "ffn_out-0",
+    "ffn_conv_out-0",
+    "l_out-0"
+  ],
+  "nodes": {
+    "inp_noise_embd": {
+      "count": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "noise_norm-0": {
+      "count": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "attn_conv_in-0": {
+      "count": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "Vcur-0": {
+      "count": 10240,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "Qcur-0": {
+      "count": 40960,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "Kcur-0": {
+      "count": 10240,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "kqv_out-0": {
+      "count": 40960,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    "attn_conv_out-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 95.8251953125,
+      "mean_abs": 0.3143369257450104,
+      "nonfinite_mismatch": 0
+    },
+    "ffn_inp-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 95.8251953125,
+      "mean_abs": 0.3143369257450104,
+      "nonfinite_mismatch": 0
+    },
+    "ffn_norm-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 0.06715118885040283,
+      "mean_abs": 0.0012679020874202251,
+      "nonfinite_mismatch": 0
+    },
+    "ffn_conv_in-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 0.18942642211914062,
+      "mean_abs": 0.0045068832114338875,
+      "nonfinite_mismatch": 0
+    },
+    "ffn_out-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 291681.59375,
+      "mean_abs": 31.88857650756836,
+      "nonfinite_mismatch": 0
+    },
+    "ffn_conv_out-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 4273334.0,
+      "mean_abs": 172.08546447753906,
+      "nonfinite_mismatch": 0
+    },
+    "l_out-0": {
+      "count": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 4273352.5,
+      "mean_abs": 172.08941650390625,
+      "nonfinite_mismatch": 0
+    }
+  },
+  "scope": "F32 contiguous captures only; baseline concatenated in callback order; no performance claim"
+}
