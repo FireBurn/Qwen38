@@ -1,0 +1,16 @@
+from pathlib import Path
+import subprocess,json,hashlib,time,struct,traceback,re,collections
+base=Path(__file__).resolve().parent;root=base/'current-server-scope/dflash-selector-anchor';out=root/'multiseq-check'/time.strftime('%Y%m%dT%H%M%SZ',time.gmtime());out.mkdir(parents=True);sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();assets=[root/'trace-baseline/libllama.so.0.8.0',root/'trace-candidate/libllama.so.0.8.0',base/'current-server-scope/installed-build/bin/libllama-common.so.0.8.0',base/'current-server-scope/installed-build/bin/libggml-vulkan.so.0.28.0',base/'run_current_selector_multiseq_arm.py',Path(__file__),root/'MULTISEQ-PLAN.md'];hashes={str(p):sha(p) for p in assets};(out/'assets.json').write_text(json.dumps(hashes,indent=2)+'\n');report={'passed':False,'scope':'two concurrent synthetic seeded requests, not timing or general quality'}
+try:
+ for arm in ('trace-baseline','trace-candidate'):
+  assert all(sha(p)==hashes[str(p)] for p in assets),'asset changed';print('starting',arm,flush=True);subprocess.run(['python3','-u',str(base/'run_current_selector_multiseq_arm.py'),arm,str(out)],check=True,timeout=900)
+ def read(arm):
+  d=out/arm;data=(d/'lattice.bin').read_bytes();off=0;records=[]
+  while off<len(data):
+   assert off+12<=len(data),'partial header';magic,n,w=struct.unpack_from('<III',data,off);assert magic==0x44464c54 and 1<=n<=5 and 1<=w<=16384,(magic,n,w);size=12+n*w*4;assert off+size<=len(data),'partial lattice';records.append(hashlib.sha256(data[off:off+size]).hexdigest());off+=size
+  assert records,'empty lattice';log=(d/'server.log').read_text();trace=[tuple(map(int,m)) for m in re.findall(r'DFLASH_SELECTOR_TRACE blocks=(\d+) tokens=(\d+) block=(\d+)',log)];return records,trace,json.loads((d/'result.json').read_text()),json.loads((d/'identity.json').read_text())
+ a,ta,ra,ia=read('trace-baseline');b,tb,rb,ib=read('trace-candidate');summ=lambda r:sorted((x['response_sha256'],x['timings'].get('draft_n'),x['timings'].get('draft_n_accepted')) for x in r['requests']);report.update({'records':{'baseline':len(a),'candidate':len(b)},'lattice_multiset_match':collections.Counter(a)==collections.Counter(b),'responses_and_counters_match':summ(ra)==summ(rb),'warmup_response_match':ra['warmup']['response_sha256']==rb['warmup']['response_sha256'],'model_identities_match':ia['models']==ib['models'],'trace':{'baseline':ta,'candidate':tb},'multi_graph_seen':{'baseline':any(x[0]>1 for x in ta),'candidate':any(x[0]>1 for x in tb)},'results':{'baseline':ra,'candidate':rb}});assert report['lattice_multiset_match'],'lattice record multiset differs';assert report['responses_and_counters_match'],'responses/counters differ';assert report['warmup_response_match'],'warmup differs';assert report['model_identities_match'],'model identities changed';report['passed']=all(report['multi_graph_seen'].values());report['outcome']='qualified_two_sequence_graph' if report['passed'] else 'inconclusive_no_two_sequence_graph'
+except BaseException:
+ report['failure']=traceback.format_exc();raise
+finally:
+ (out/'comparison.json').write_text(json.dumps(report,indent=2)+'\n');print('MULTISEQ_RESULT',out,'passed',report['passed'],'outcome',report.get('outcome'),flush=True)

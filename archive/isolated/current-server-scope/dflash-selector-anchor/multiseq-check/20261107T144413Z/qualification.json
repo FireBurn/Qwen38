@@ -1,0 +1,29 @@
+{
+  "qualification": "inconclusive for multi-sequence selector execution",
+  "reason": "Original comparison mistook graphs built during startup reservation for executed graphs. All post-listening selector construction traces were single-sequence. Construction itself does not prove execution.",
+  "original_passed_field_is_not_a_multi_sequence_qualification": true,
+  "lattice_multiset_and_responses_matched": true,
+  "new_gpu_errors": [],
+  "traces": {
+    "trace-baseline": {
+      "before_listening": {
+        "2-2-1": 5,
+        "2-1024-8": 4,
+        "1-2-2": 1
+      },
+      "after_listening": {
+        "1-5-5": 103
+      }
+    },
+    "trace-candidate": {
+      "before_listening": {
+        "2-2-1": 5,
+        "2-1024-8": 4,
+        "1-2-2": 1
+      },
+      "after_listening": {
+        "1-5-5": 103
+      }
+    }
+  }
+}

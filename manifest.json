@@ -405,6 +405,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/MULTISEQ-PLAN.md",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/MULTISEQ-PLAN.md",
+      "source_sha256": "6ac20e072fb31846388d96301a079069d77956eaea977623b90a68bf22c4d3fe",
+      "export_sha256": "6ac20e072fb31846388d96301a079069d77956eaea977623b90a68bf22c4d3fe",
+      "bytes": 1089,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/dflash-selector-anchor/PLAN.md",
       "path": "archive/isolated/current-server-scope/dflash-selector-anchor/PLAN.md",
       "source_sha256": "5af3ef3095050b8fbe4f3acbc2e87bd55b193ead501c141d8852d1699b8c9912",
@@ -698,6 +706,94 @@
       "source_sha256": "652ab7821309351cf663973644810d1c9cdfc7e5e65b90cb2958484fc649b3cb",
       "export_sha256": "652ab7821309351cf663973644810d1c9cdfc7e5e65b90cb2958484fc649b3cb",
       "bytes": 423,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/assets.json",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/assets.json",
+      "source_sha256": "4cf70c569a3e9572b1ba7d3c4f9538b5ed465b6182119866f9f3cab830de3a8f",
+      "export_sha256": "8ce94b84b69ea5f5a127717ffb35635bb5c76c6ec9a5e757385c8a5eb1da34a4",
+      "bytes": 1086,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/comparison.json",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/comparison.json",
+      "source_sha256": "dc0db5d95ce82881d081871a70f93f7ce0266ffa6b471fbd5c2c9da23a4bae40",
+      "export_sha256": "dc0db5d95ce82881d081871a70f93f7ce0266ffa6b471fbd5c2c9da23a4bae40",
+      "bytes": 17697,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/qualification.json",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/qualification.json",
+      "source_sha256": "25846901c0743b784b9d1e67c1c9d6c6b73b85e948a02d19e70bbf038eed584d",
+      "export_sha256": "25846901c0743b784b9d1e67c1c9d6c6b73b85e948a02d19e70bbf038eed584d",
+      "bytes": 832,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-baseline/identity.json",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-baseline/identity.json",
+      "source_sha256": "dc21e5ba222629fb5c4b3d557402e659ecf15a934d248f584b20528711db8f38",
+      "export_sha256": "63178020e79c76ba9134d0c4590bf92d9f505d129766c50fc448b1ddabe37c4f",
+      "bytes": 2801,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-baseline/result.json",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-baseline/result.json",
+      "source_sha256": "388e7283888ffb28f679875d6d958cdfe1d832bf9e84c7618556311d9780467f",
+      "export_sha256": "388e7283888ffb28f679875d6d958cdfe1d832bf9e84c7618556311d9780467f",
+      "bytes": 2807,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-baseline/server.log",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-baseline/server.log",
+      "source_sha256": "3f2cf98caa89d2b40b4e954704241311ea4899a7a45df5c3651e336cf7977f5f",
+      "export_sha256": "db4e3512353d03cc3b2789aa8d8f9578657a3221c03c35fb78db993c02b1abad",
+      "bytes": 12160,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-baseline/telemetry.json",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-baseline/telemetry.json",
+      "source_sha256": "fe6316b908a0d017135874df69c9308e3374f102b0cb0a30097c488d7a11ba1d",
+      "export_sha256": "fe6316b908a0d017135874df69c9308e3374f102b0cb0a30097c488d7a11ba1d",
+      "bytes": 9157,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-candidate/identity.json",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-candidate/identity.json",
+      "source_sha256": "3e15487de7e71e06d713ea93e89d2a8a8730afb361670b064e112a55ea849fab",
+      "export_sha256": "79b7467f97ce6e284208ea828fd7e4e5b6cbf70334b32c519a269f768b707b50",
+      "bytes": 2802,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-candidate/result.json",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-candidate/result.json",
+      "source_sha256": "b22be064266096d2ebf698a979a4636d543038f4b4586e5dce7b4f5564e41823",
+      "export_sha256": "b22be064266096d2ebf698a979a4636d543038f4b4586e5dce7b4f5564e41823",
+      "bytes": 2504,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-candidate/server.log",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-candidate/server.log",
+      "source_sha256": "6ee888e12fb1e047c45716317b364fed25afd86c13669dd47cb921871d4e9728",
+      "export_sha256": "166d05c553d32a67e369d007f4183aa97164a2ea765d2e724afd87c9752edf3a",
+      "bytes": 12160,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-candidate/telemetry.json",
+      "path": "archive/isolated/current-server-scope/dflash-selector-anchor/multiseq-check/20261107T144413Z/trace-candidate/telemetry.json",
+      "source_sha256": "e58476b5ddf37b7ed3a0f7fb620a4a15ceb245df9efb91f3a3dda7c98b966d2a",
+      "export_sha256": "e58476b5ddf37b7ed3a0f7fb620a4a15ceb245df9efb91f3a3dda7c98b966d2a",
+      "bytes": 8790,
       "sanitized": false
     },
     {
@@ -38125,6 +38221,22 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_current_selector_multiseq.py",
+      "path": "archive/isolated/run_current_selector_multiseq.py",
+      "source_sha256": "631c78279e7ba69521bd3134adb99940b3d24c0e32866b07eb879667a2064ffd",
+      "export_sha256": "631c78279e7ba69521bd3134adb99940b3d24c0e32866b07eb879667a2064ffd",
+      "bytes": 3212,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/run_current_selector_multiseq_arm.py",
+      "path": "archive/isolated/run_current_selector_multiseq_arm.py",
+      "source_sha256": "6c9a53d631ffa2716a0e29a91148fe46f06348c0100b00041ce670509217092b",
+      "export_sha256": "a44708f69b2cc99dff12299b15186b86fe4838188f8823c4d0e22ebee399bd4d",
+      "bytes": 8513,
+      "sanitized": true
+    },
+    {
       "source": "isolated/run_current_server_baseline.py",
       "path": "archive/isolated/run_current_server_baseline.py",
       "source_sha256": "0fadf7e86cd883dd561d0a76a05710b794a2e70cdefa8c81dd4b1b14c1fa7fbf",
@@ -39063,9 +39175,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "f187abf1823879ba8e9e3dad71ed46d5a38a0733737282f09e620508720f13f2",
-      "export_sha256": "f187abf1823879ba8e9e3dad71ed46d5a38a0733737282f09e620508720f13f2",
-      "bytes": 31348,
+      "source_sha256": "4cbff5f20d00a39080298494af1a754e05ae0f31f2f71cbd3002fa0fc6016936",
+      "export_sha256": "4cbff5f20d00a39080298494af1a754e05ae0f31f2f71cbd3002fa0fc6016936",
+      "bytes": 31420,
       "sanitized": false
     },
     {
@@ -39685,5 +39797,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-07T14:41:29.463596+00:00"
+  "updated_utc": "2026-11-07T14:45:21.713461+00:00"
 }

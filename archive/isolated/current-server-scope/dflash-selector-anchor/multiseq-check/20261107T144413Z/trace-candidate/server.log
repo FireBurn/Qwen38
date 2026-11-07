@@ -1,0 +1,176 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+0.00.066.763 I srv  llama_server: initializing ...
+0.00.066.768 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.066.972 W srv  server_setup: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.068.329 I srv    load_model: loading model '${HF_CACHE}/models--nerkyor--Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2/blobs/9985b3d41fc7dc0bb5d493f7523d4515504912a3a7fc830f66e0fd2f90f9fd95'
+0.00.299.281 W model has unused tensor blk.64.attn_norm.weight (size = 20480 bytes) -- ignoring
+0.00.299.293 W model has unused tensor blk.64.post_attention_norm.weight (size = 20480 bytes) -- ignoring
+0.00.299.305 W model has unused tensor blk.64.attn_q.weight (size = 35389440 bytes) -- ignoring
+0.00.299.309 W model has unused tensor blk.64.attn_k.weight (size = 2949120 bytes) -- ignoring
+0.00.299.313 W model has unused tensor blk.64.attn_v.weight (size = 2949120 bytes) -- ignoring
+0.00.299.330 W model has unused tensor blk.64.attn_output.weight (size = 17694720 bytes) -- ignoring
+0.00.299.334 W model has unused tensor blk.64.attn_q_norm.weight (size = 1024 bytes) -- ignoring
+0.00.299.339 W model has unused tensor blk.64.attn_k_norm.weight (size = 1024 bytes) -- ignoring
+0.00.299.343 W model has unused tensor blk.64.ffn_gate.weight (size = 50135040 bytes) -- ignoring
+0.00.299.348 W model has unused tensor blk.64.ffn_down.weight (size = 50135040 bytes) -- ignoring
+0.00.299.352 W model has unused tensor blk.64.ffn_up.weight (size = 50135040 bytes) -- ignoring
+0.00.299.357 W model has unused tensor blk.64.nextn.eh_proj.weight (size = 29491200 bytes) -- ignoring
+0.00.299.363 W model has unused tensor blk.64.nextn.enorm.weight (size = 20480 bytes) -- ignoring
+0.00.299.368 W model has unused tensor blk.64.nextn.hnorm.weight (size = 20480 bytes) -- ignoring
+0.00.299.385 W model has unused tensor blk.64.nextn.shared_head_norm.weight (size = 20480 bytes) -- ignoring
+0.04.267.701 I cmn          init: llama threadpool init, n_threads = 8
+0.04.354.149 I common_speculative_init_result: loading draft model '${HF_CACHE}/models--incoai--Qwen3.8-27B-DFlash2-GGUF/blobs/d169ad335929adc0d77e10e2523f968f3e75f547637ad739b0a137ccde111b5f'
+DFLASH_SELECTOR_TRACE blocks=2 tokens=2 block=1
+DFLASH_SELECTOR_TRACE blocks=2 tokens=2 block=1
+DFLASH_SELECTOR_TRACE blocks=2 tokens=2 block=1
+DFLASH_SELECTOR_TRACE blocks=2 tokens=1024 block=8
+DFLASH_SELECTOR_TRACE blocks=2 tokens=2 block=1
+DFLASH_SELECTOR_TRACE blocks=2 tokens=1024 block=8
+0.04.871.636 W srv    load_model: cache_reuse is not supported by this context, it will be disabled
+0.04.871.641 I srv    load_model: initializing, n_slots = 2, n_ctx_slot = 163840, kv_unified = 'false'
+0.04.873.096 I common_speculative_impl_draft_dflash: adding speculative implementation 'draft-dflash'
+0.04.873.100 I common_speculative_impl_draft_dflash: - n_max=4, n_min=0, p_min=0.00
+0.04.873.100 I common_speculative_impl_draft_dflash: - block_size=8, mask_token_id=248070, n_extract=5, sample_from_anchor=true
+DFLASH_SELECTOR_TRACE blocks=2 tokens=1024 block=8
+DFLASH_SELECTOR_TRACE blocks=2 tokens=2 block=1
+DFLASH_SELECTOR_TRACE blocks=2 tokens=1024 block=8
+DFLASH_SELECTOR_TRACE blocks=1 tokens=2 block=2
+0.04.918.145 I srv  server_run_i: model loaded
+0.04.918.149 I srv  server_on_li: listening on http://127.0.0.1:47689
+0.05.144.974 I slot get_availabl: id  0 | task -1 | selected slot by LRU, n_tokens = 0, t_last = -1
+0.05.145.093 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+0.05.782.266 I slot print_timing: id  0 | task 0 | prompt eval time =     452.10 ms /    55 tokens (    8.22 ms per token,   121.65 tokens per second)
+0.05.782.269 I slot print_timing: id  0 | task 0 |        eval time =     184.88 ms /    16 tokens (   12.33 ms per token,    81.13 tokens per second)
+0.05.782.270 I slot print_timing: id  0 | task 0 |       total time =     636.99 ms /    71 tokens
+0.05.782.273 I slot print_timing: id  0 | task 0 |    graphs reused =          2
+0.05.782.274 I slot print_timing: id  0 | task 0 |   graph reallocs =          0    /     0        (same size) / (changed size)
+0.05.782.305 I slot print_timing: id  0 | task 0 | draft acceptance = 1.00000 (   12 accepted /    12 generated), mean len =  5.00
+0.05.782.326 I slot      release: id  0 | task 0 | stop processing: n_tokens = 70, truncated = 0
+0.05.788.370 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.643 (> 0.100 thold), f_keep = 0.643
+0.05.788.597 I slot launch_slot_: id  0 | task 7 | processing task, is_child = 0
+0.05.788.601 I slot get_availabl: id  1 | task -1 | selected slot by LRU, n_tokens = 0, t_last = -1
+0.05.788.737 I slot launch_slot_: id  1 | task 8 | processing task, is_child = 0
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+0.09.850.470 I slot print_timing: id  0 | task 7 | n_gen =    100, tg =  29.27 t/s, tg_3s =  29.56 t/s
+0.09.850.659 I slot print_timing: id  1 | task 8 | n_gen =    100, tg =  29.26 t/s, tg_3s =  29.56 t/s
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+DFLASH_SELECTOR_TRACE blocks=1 tokens=5 block=5
+0.11.146.020 I slot print_timing: id  0 | task 7 | prompt eval time =     678.75 ms /    70 tokens (    9.70 ms per token,   103.13 tokens per second)
+0.11.146.024 I slot print_timing: id  0 | task 7 |        eval time =    4678.34 ms /   128 tokens (   36.84 ms per token,    27.15 tokens per second)
+0.11.146.024 I slot print_timing: id  0 | task 7 |       total time =    5357.09 ms /   198 tokens
+0.11.146.025 I slot print_timing: id  0 | task 7 |    graphs reused =         50
+0.11.146.026 I slot print_timing: id  0 | task 7 |   graph reallocs =          0    /     0        (same size) / (changed size)
+0.11.146.056 I slot print_timing: id  0 | task 7 | draft acceptance = 0.38889 (   77 accepted /   198 generated), mean len =  2.54
+0.11.146.079 I slot      release: id  0 | task 7 | stop processing: n_tokens = 197, truncated = 0
+0.11.146.275 I slot print_timing: id  1 | task 8 | prompt eval time =     674.65 ms /    70 tokens (    9.64 ms per token,   103.76 tokens per second)
+0.11.146.277 I slot print_timing: id  1 | task 8 |        eval time =    4678.60 ms /   128 tokens (   36.84 ms per token,    27.14 tokens per second)
+0.11.146.277 I slot print_timing: id  1 | task 8 |       total time =    5353.26 ms /   198 tokens
+0.11.146.278 I slot print_timing: id  1 | task 8 |    graphs reused =         50
+0.11.146.278 I slot print_timing: id  1 | task 8 |   graph reallocs =          0    /     0        (same size) / (changed size)
+0.11.146.306 I slot print_timing: id  1 | task 8 | draft acceptance = 0.38889 (   77 accepted /   198 generated), mean len =  2.54
+0.11.146.318 I slot      release: id  1 | task 8 | stop processing: n_tokens = 197, truncated = 0
+0.11.149.829 I srv    operator(): operator(): cleaning up before exit...

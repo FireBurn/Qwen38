@@ -1,0 +1,1342 @@
+{
+  "passed": true,
+  "scope": "two concurrent synthetic seeded requests, not timing or general quality",
+  "records": {
+    "baseline": 103,
+    "candidate": 103
+  },
+  "lattice_multiset_match": true,
+  "responses_and_counters_match": true,
+  "warmup_response_match": true,
+  "model_identities_match": true,
+  "trace": {
+    "baseline": [
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        1024,
+        8
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        1024,
+        8
+      ],
+      [
+        2,
+        1024,
+        8
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        1024,
+        8
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ]
+    ],
+    "candidate": [
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        1024,
+        8
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        1024,
+        8
+      ],
+      [
+        2,
+        1024,
+        8
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        1024,
+        8
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ],
+      [
+        1,
+        5,
+        5
+      ]
+    ]
+  },
+  "multi_graph_seen": {
+    "baseline": true,
+    "candidate": true
+  },
+  "results": {
+    "baseline": {
+      "passed": true,
+      "warmup": {
+        "elapsed_seconds": 0.6514254589565098,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 55,
+          "prompt_ms": 459.365,
+          "prompt_per_token_ms": 8.35209090909091,
+          "prompt_per_second": 119.73049753464022,
+          "predicted_n": 16,
+          "predicted_ms": 188.898,
+          "predicted_per_token_ms": 12.5932,
+          "predicted_per_second": 79.40793444080933,
+          "draft_n": 12,
+          "draft_n_accepted": 12
+        },
+        "usage": {
+          "completion_tokens": 16,
+          "prompt_tokens": 55,
+          "total_tokens": 71,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+        "choice_count": 1
+      },
+      "requests": [
+        {
+          "elapsed_seconds": 5.363666029996239,
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 70,
+            "prompt_ms": 676.328,
+            "prompt_per_token_ms": 9.661828571428572,
+            "prompt_per_second": 103.5000768857714,
+            "predicted_n": 128,
+            "predicted_ms": 4678.579,
+            "predicted_per_token_ms": 36.83920472440945,
+            "predicted_per_second": 27.144994238635277,
+            "draft_n": 198,
+            "draft_n_accepted": 77
+          },
+          "usage": {
+            "completion_tokens": 128,
+            "prompt_tokens": 70,
+            "total_tokens": 198,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "response_sha256": "fb0ef8f781ac609f3d652788720449351307d5374901969527e808725ec5f0dd",
+          "choice_count": 1
+        },
+        {
+          "elapsed_seconds": 5.363631156040356,
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 70,
+            "prompt_ms": 681.174,
+            "prompt_per_token_ms": 9.731057142857143,
+            "prompt_per_second": 102.76375786509762,
+            "predicted_n": 128,
+            "predicted_ms": 4678.32,
+            "predicted_per_token_ms": 36.83716535433071,
+            "predicted_per_second": 27.146497033123005,
+            "draft_n": 198,
+            "draft_n_accepted": 77
+          },
+          "usage": {
+            "completion_tokens": 128,
+            "prompt_tokens": 70,
+            "total_tokens": 198,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "response_sha256": "fb0ef8f781ac609f3d652788720449351307d5374901969527e808725ec5f0dd",
+          "choice_count": 1
+        }
+      ],
+      "new_gpu_errors": [],
+      "scope": "Instrumented two-slot lattice capture, not a speed result.",
+      "monitor_errors": [],
+      "sensor_gaps": [
+        {
+          "time_ns": 928068807380174,
+          "error": "OSError(16, 'Device or resource busy')"
+        },
+        {
+          "time_ns": 928069024925546,
+          "error": "OSError(16, 'Device or resource busy')"
+        },
+        {
+          "time_ns": 928069239458192,
+          "error": "OSError(16, 'Device or resource busy')"
+        }
+      ]
+    },
+    "candidate": {
+      "passed": true,
+      "warmup": {
+        "elapsed_seconds": 0.6394670299487188,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 55,
+          "prompt_ms": 452.103,
+          "prompt_per_token_ms": 8.220054545454545,
+          "prompt_per_second": 121.65369395911993,
+          "predicted_n": 16,
+          "predicted_ms": 184.883,
+          "predicted_per_token_ms": 12.325533333333334,
+          "predicted_per_second": 81.13239183699962,
+          "draft_n": 12,
+          "draft_n_accepted": 12
+        },
+        "usage": {
+          "completion_tokens": 16,
+          "prompt_tokens": 55,
+          "total_tokens": 71,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+        "choice_count": 1
+      },
+      "requests": [
+        {
+          "elapsed_seconds": 5.36044752295129,
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 70,
+            "prompt_ms": 678.753,
+            "prompt_per_token_ms": 9.69647142857143,
+            "prompt_per_second": 103.13029923992968,
+            "predicted_n": 128,
+            "predicted_ms": 4678.337,
+            "predicted_per_token_ms": 36.83729921259843,
+            "predicted_per_second": 27.14639838900019,
+            "draft_n": 198,
+            "draft_n_accepted": 77
+          },
+          "usage": {
+            "completion_tokens": 128,
+            "prompt_tokens": 70,
+            "total_tokens": 198,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "response_sha256": "fb0ef8f781ac609f3d652788720449351307d5374901969527e808725ec5f0dd",
+          "choice_count": 1
+        },
+        {
+          "elapsed_seconds": 5.360945389023982,
+          "timings": {
+            "cache_n": 0,
+            "prompt_n": 70,
+            "prompt_ms": 674.655,
+            "prompt_per_token_ms": 9.63792857142857,
+            "prompt_per_second": 103.75673492377585,
+            "predicted_n": 128,
+            "predicted_ms": 4678.601,
+            "predicted_per_token_ms": 36.8393779527559,
+            "predicted_per_second": 27.14486659580503,
+            "draft_n": 198,
+            "draft_n_accepted": 77
+          },
+          "usage": {
+            "completion_tokens": 128,
+            "prompt_tokens": 70,
+            "total_tokens": 198,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "response_sha256": "fb0ef8f781ac609f3d652788720449351307d5374901969527e808725ec5f0dd",
+          "choice_count": 1
+        }
+      ],
+      "new_gpu_errors": [],
+      "scope": "Instrumented two-slot lattice capture, not a speed result.",
+      "monitor_errors": [],
+      "sensor_gaps": []
+    }
+  },
+  "outcome": "qualified_two_sequence_graph"
+}
