@@ -1,0 +1,28 @@
+--- a/src/models/dflash.cpp
++++ b/src/models/dflash.cpp
+@@ -639,7 +639,9 @@
+                         weight_all->nb[1], weight_all->nb[2], weight_all->nb[3], tap * weight_all->nb[2])),
+                 hidden_size, n_tokens);
+ 
++        if (side == 0) { g.cb(values, "audit_conv_values", tap); g.cb(weight, "audit_conv_weight", tap); }
+         ggml_tensor * term = ggml_mul(ctx0, weight, values);
++        if (side == 0) { g.cb(term, "audit_conv_term", tap); }
+         result = result ? ggml_add(ctx0, result, term) : term;
+     }
+     return result;
+@@ -1059,7 +1061,14 @@
+ 
+         ggml_tensor * attn_dynamic = nullptr;
+         if (layer.dflash_attn_conv_proj) {
+-            attn_dynamic = build_lora_mm(layer.dflash_attn_conv_proj, noise_norm);
++            if (ubatch.n_seqs_unq == 2 && n_tokens == 10) {
++                ggml_tensor * a = ggml_view_2d(ctx0, noise_norm, noise_norm->ne[0], 5, noise_norm->nb[1], 0);
++                ggml_tensor * b = ggml_view_2d(ctx0, noise_norm, noise_norm->ne[0], 5, noise_norm->nb[1], 5 * noise_norm->nb[1]);
++                attn_dynamic = ggml_concat(ctx0, build_lora_mm(layer.dflash_attn_conv_proj, a), build_lora_mm(layer.dflash_attn_conv_proj, b), 1);
++            } else {
++                attn_dynamic = build_lora_mm(layer.dflash_attn_conv_proj, noise_norm);
++            }
++            cb(attn_dynamic, "audit_attn_dynamic", il);
+             noise_norm = build_dflash2_conv(*this, noise_norm, attn_dynamic, layer.dflash_attn_conv_base, 0);
+             cb(noise_norm, "attn_conv_in", il);
+         }

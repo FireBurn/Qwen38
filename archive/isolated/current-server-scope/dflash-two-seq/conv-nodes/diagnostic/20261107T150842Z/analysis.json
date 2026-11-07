@@ -1,0 +1,85 @@
+{
+  "first_layer": [
+    {
+      "node": "inp_noise_embd",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "noise_norm-0",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_values-0",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_attn_dynamic-0",
+      "elements": 12800,
+      "bitwise_differences": 12800,
+      "max_abs": 0.10904979705810547,
+      "mean_abs": 0.003968287259340286,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_values-1",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_weight-0",
+      "elements": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 0.053592681884765625,
+      "mean_abs": 0.00821053609251976,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_weight-1",
+      "elements": 51200,
+      "bitwise_differences": 51200,
+      "max_abs": 0.016576647758483887,
+      "mean_abs": 0.0009956263238564134,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_term-0",
+      "elements": 51200,
+      "bitwise_differences": 50818,
+      "max_abs": 0.07033133506774902,
+      "mean_abs": 0.0032605170272290707,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_term-1",
+      "elements": 51200,
+      "bitwise_differences": 40662,
+      "max_abs": 0.017064452171325684,
+      "mean_abs": 0.0003886187041644007,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "attn_conv_in-0",
+      "elements": 51200,
+      "bitwise_differences": 50890,
+      "max_abs": 0.07033133506774902,
+      "mean_abs": 0.003312084125354886,
+      "nonfinite_mismatch": 0
+    }
+  ],
+  "scope": "F32 contiguous captures paired by callback order; intrusive synthetic empty-KV graph"
+}

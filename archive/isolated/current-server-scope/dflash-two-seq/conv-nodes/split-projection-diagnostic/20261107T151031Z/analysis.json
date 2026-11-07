@@ -1,0 +1,85 @@
+{
+  "first_layer": [
+    {
+      "node": "inp_noise_embd",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "noise_norm-0",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_values-0",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_attn_dynamic-0",
+      "elements": 12800,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_values-1",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_weight-0",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_weight-1",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_term-0",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "audit_conv_term-1",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    },
+    {
+      "node": "attn_conv_in-0",
+      "elements": 51200,
+      "bitwise_differences": 0,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "nonfinite_mismatch": 0
+    }
+  ],
+  "scope": "F32 contiguous captures paired by callback order; intrusive synthetic empty-KV graph"
+}
