@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "warmup": {
+    "elapsed_seconds": 0.6226286919554695,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 55,
+      "prompt_ms": 440.733,
+      "prompt_per_token_ms": 8.013327272727272,
+      "prompt_per_second": 124.79210769332,
+      "predicted_n": 16,
+      "predicted_ms": 179.192,
+      "predicted_per_token_ms": 11.946133333333334,
+      "predicted_per_second": 83.7090941559891,
+      "draft_n": 12,
+      "draft_n_accepted": 12
+    },
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 55,
+      "total_tokens": 71,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+    "choice_count": 1
+  },
+  "requests": [
+    {
+      "elapsed_seconds": 5.282666701008566,
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 70,
+        "prompt_ms": 637.826,
+        "prompt_per_token_ms": 9.1118,
+        "prompt_per_second": 109.74779955661889,
+        "predicted_n": 128,
+        "predicted_ms": 4642.143,
+        "predicted_per_token_ms": 36.55230708661417,
+        "predicted_per_second": 27.35805424348194,
+        "draft_n": 198,
+        "draft_n_accepted": 77
+      },
+      "usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 70,
+        "total_tokens": 198,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "response_sha256": "fb0ef8f781ac609f3d652788720449351307d5374901969527e808725ec5f0dd",
+      "choice_count": 1
+    },
+    {
+      "elapsed_seconds": 5.283054342027754,
+      "timings": {
+        "cache_n": 0,
+        "prompt_n": 70,
+        "prompt_ms": 635.152,
+        "prompt_per_token_ms": 9.0736,
+        "prompt_per_second": 110.20983953447363,
+        "predicted_n": 128,
+        "predicted_ms": 4642.36,
+        "predicted_per_token_ms": 36.554015748031496,
+        "predicted_per_second": 27.356775433184847,
+        "draft_n": 198,
+        "draft_n_accepted": 77
+      },
+      "usage": {
+        "completion_tokens": 128,
+        "prompt_tokens": 70,
+        "total_tokens": 198,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "response_sha256": "fb0ef8f781ac609f3d652788720449351307d5374901969527e808725ec5f0dd",
+      "choice_count": 1
+    }
+  ],
+  "new_gpu_errors": [],
+  "scope": "Instrumented two-slot lattice capture, not a speed result.",
+  "monitor_errors": [],
+  "sensor_gaps": []
+}
