@@ -997,6 +997,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/dflash-two-seq/ISWA-ISOLATION-PLAN.md",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/ISWA-ISOLATION-PLAN.md",
+      "source_sha256": "fe4fda8f0f043ff66a6fdf23a4efc1dd149a725d74a26d83368956cc67107bda",
+      "export_sha256": "fe4fda8f0f043ff66a6fdf23a4efc1dd149a725d74a26d83368956cc67107bda",
+      "bytes": 1267,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/dflash-two-seq/PLAN.md",
       "path": "archive/isolated/current-server-scope/dflash-two-seq/PLAN.md",
       "source_sha256": "0f77350b1d7ec67c96844d66843bd6177f739fb2b9520f4844b082c149f6fb2e",
@@ -1146,6 +1154,86 @@
       "source_sha256": "97ac05ab711408434914b5ca42b663c3e32d144e33590e481512f2bfc653ad19",
       "export_sha256": "97ac05ab711408434914b5ca42b663c3e32d144e33590e481512f2bfc653ad19",
       "bytes": 757,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/iswa-guard-audit.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/iswa-guard-audit.json",
+      "source_sha256": "5ffb7433cc11580b92575fbeac0d0f20e5ef819f529159c1c8a72a066fe29776",
+      "export_sha256": "5ffb7433cc11580b92575fbeac0d0f20e5ef819f529159c1c8a72a066fe29776",
+      "bytes": 191,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/iswa-guard-audit.py",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/iswa-guard-audit.py",
+      "source_sha256": "cd9f747792e7c5025acda25321e3349a6f63ad8993abb49648ff1159ed56d501",
+      "export_sha256": "cd9f747792e7c5025acda25321e3349a6f63ad8993abb49648ff1159ed56d501",
+      "bytes": 2587,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/assets.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/assets.json",
+      "source_sha256": "04f45eeccbe6106ea989d38fe02b978d2e255643bfaccd3981c7cc585a1efeb6",
+      "export_sha256": "d4d76a2eb58d6f4b92db231aad9e3ed84d297867871b8a61880b27225d16d0e8",
+      "bytes": 1027,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/baseline-maps.txt",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/baseline-maps.txt",
+      "source_sha256": "ccf6ea0982391e6458764e183ee47acc94d7278a808228a5256d058691c19686",
+      "export_sha256": "acd2fd587dfb4c9fc8c0b01ed25cf4135ac5b2f749be41a2257b63c3ea0d2988",
+      "bytes": 1740,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/baseline.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/baseline.log",
+      "source_sha256": "567186712d5a9f497e6bf9e21cb77e0d1a191a40f51c0289e783a9175a31c4d1",
+      "export_sha256": "89b6fb68eb4c74931b2b1e3046b6bb0942ba1d5e3bdc01b47b21c625deb4ccde",
+      "bytes": 371285,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/candidate-maps.txt",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/candidate-maps.txt",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "export_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/candidate.log",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/candidate.log",
+      "source_sha256": "24d35f602f70bc2432ba7354778c2a098b16834c0cb76a0f73623363f0d6d3af",
+      "export_sha256": "4e8a13db5c52da84976a57034ed9259aca63690b8cd6e3a02168c9b7611ef5c0",
+      "bytes": 371082,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/comparison.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/comparison.json",
+      "source_sha256": "ebed82198d1ad5a846879cdee1a7a9ce8d8486cb151f2f2f23b4aa20b6e8b80b",
+      "export_sha256": "f5e7c06e6aea9c8157d9fe37bf30990a5896c4f0201bfdea32303c78d094f811",
+      "bytes": 3007,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/qualification.json",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/iswa-isolation/20261107T150037Z/qualification.json",
+      "source_sha256": "2fcbcd781a9cd512f255ba6aef72b3307eb345e3bd9ed8836674567e6d351ad8",
+      "export_sha256": "2fcbcd781a9cd512f255ba6aef72b3307eb345e3bd9ed8836674567e6d351ad8",
+      "bytes": 1298,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/dflash-two-seq/iswa/candidate.patch",
+      "path": "archive/isolated/current-server-scope/dflash-two-seq/iswa/candidate.patch",
+      "source_sha256": "b050383dcf33cff97f7417bc4dbd90d9e1f19be7edbeb6ba4cafe155aa2b6da4",
+      "export_sha256": "b050383dcf33cff97f7417bc4dbd90d9e1f19be7edbeb6ba4cafe155aa2b6da4",
+      "bytes": 2521,
       "sanitized": false
     },
     {
@@ -38661,6 +38749,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/run_dflash_iswa_isolation.py",
+      "path": "archive/isolated/run_dflash_iswa_isolation.py",
+      "source_sha256": "5352413f156da8b24ac34cf3e3901246ee5a255fe3d9276cb0e67cb08bfd8b39",
+      "export_sha256": "5352413f156da8b24ac34cf3e3901246ee5a255fe3d9276cb0e67cb08bfd8b39",
+      "bytes": 5680,
+      "sanitized": false
+    },
+    {
       "source": "isolated/run_dflash_two_seq_guard_diagnostic.py",
       "path": "archive/isolated/run_dflash_two_seq_guard_diagnostic.py",
       "source_sha256": "70dfca66254275903942567ad903a5e60a10d88d229da0616cb570a05cbb9af9",
@@ -39567,9 +39663,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "88cee95006c13f81465d7b609fdd9d7ec08bfcd78351649d54253f3e178b0a90",
-      "export_sha256": "88cee95006c13f81465d7b609fdd9d7ec08bfcd78351649d54253f3e178b0a90",
-      "bytes": 31744,
+      "source_sha256": "0b2563aa550eecba68e7ebf93337f826dd5a0647ec4ae2ece29ca1ad337ceb8b",
+      "export_sha256": "0b2563aa550eecba68e7ebf93337f826dd5a0647ec4ae2ece29ca1ad337ceb8b",
+      "bytes": 31808,
       "sanitized": false
     },
     {
@@ -40189,5 +40285,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-07T14:58:56.866596+00:00"
+  "updated_utc": "2026-11-07T15:02:25.298070+00:00"
 }

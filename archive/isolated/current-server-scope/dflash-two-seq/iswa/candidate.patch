@@ -1,0 +1,61 @@
+--- a/src/llama-kv-cache-iswa.cpp
++++ b/src/llama-kv-cache-iswa.cpp
+@@ -6,6 +6,8 @@
+ 
+ #include <algorithm>
+ #include <cassert>
++#include <cstdio>
++#include <cstdlib>
+ 
+ //
+ // llama_kv_cache_iswa
+@@ -47,7 +49,7 @@
+            llama_memory_t   mem_other,
+     const layer_filter_cb & filter,
+     const  layer_reuse_cb & reuse,
+-    const  layer_share_cb & share) : unified(unified) {
++    const  layer_share_cb & share) : unified(unified), dflash2_selector(model.arch == LLM_ARCH_DFLASH && model.dflash_selector_hidden != nullptr) {
+ 
+     // chain filters
+     const layer_filter_cb filter_base = [&](int32_t il) {
+@@ -204,7 +206,29 @@
+ 
+         std::vector<llama_ubatch> ubatches;
+         while (true) {
+-            auto ubatch = embd_all ? balloc.split_seq(n_ubatch) : balloc.split_equal(n_ubatch, !unified, 0);
++            // Only combine two complete equal DFlash2 blocks; never split a non-causal sequence.
++            bool two_full_dflash_blocks = false;
++            const auto & batch = balloc.get_batch();
++            if (!unified && embd_all && dflash2_selector && n_ubatch >= 10 &&
++                balloc.get_n_used() == 0 && batch.n_tokens == 10 && batch.n_seq_id && batch.seq_id) {
++                bool valid = true;
++                for (int i = 0; i < 10; ++i) {
++                    valid = valid && batch.n_seq_id[i] == 1 && batch.seq_id[i] != nullptr;
++                }
++                if (valid) {
++                    const llama_seq_id first = batch.seq_id[0][0];
++                    const llama_seq_id second = batch.seq_id[5][0];
++                    valid = first >= 0 && int64_t(second) == int64_t(first) + 1;
++                    for (int i = 0; valid && i < 10; ++i) {
++                        valid = batch.seq_id[i][0] == (i < 5 ? first : second);
++                    }
++                }
++                two_full_dflash_blocks = valid;
++            }
++            if (two_full_dflash_blocks && std::getenv("DFLASH_SELECTOR_TRACE")) {
++                std::fprintf(stderr, "DFLASH_TWOSEQ_ISWA_HIT tokens=10\n");
++            }
++            auto ubatch = embd_all && !two_full_dflash_blocks ? balloc.split_seq(n_ubatch) : balloc.split_equal(n_ubatch, !unified, 0);
+ 
+             if (ubatch.n_tokens == 0) {
+                 break;
+--- a/src/llama-kv-cache-iswa.h
++++ b/src/llama-kv-cache-iswa.h
+@@ -92,6 +92,7 @@
+ 
+ private:
+     const bool unified;
++    const bool dflash2_selector;
+ 
+     std::unique_ptr<llama_kv_cache> kv_base;
+     std::unique_ptr<llama_kv_cache> kv_swa;

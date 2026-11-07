@@ -1,0 +1,81 @@
+{
+  "passed": false,
+  "scope": "four fixed empty-draft-KV synthetic two-sequence blocks, not model-server or performance qualification",
+  "baseline": {
+    "checks": {
+      "base_repeat_exact": true,
+      "sequence1_unchanged_when_sequence0_perturbed": true,
+      "sequence0_unchanged_when_sequence1_perturbed": true,
+      "changed_sequence0": true,
+      "changed_sequence1": true
+    },
+    "sha256": "85b5f2b5fa077d3fd9ef38295f82c8889e2aef2297ebe554ff2023dce95dab84",
+    "graphs": [
+      [
+        [
+          "2",
+          "64",
+          "8"
+        ],
+        [
+          "2",
+          "2",
+          "1"
+        ],
+        [
+          "2",
+          "64",
+          "8"
+        ],
+        [
+          "1",
+          "5",
+          "5"
+        ],
+        [
+          "1",
+          "5",
+          "5"
+        ]
+      ],
+      [
+        [
+          "1",
+          "5",
+          "5"
+        ],
+        [
+          "1",
+          "5",
+          "5"
+        ]
+      ],
+      [
+        [
+          "1",
+          "5",
+          "5"
+        ],
+        [
+          "1",
+          "5",
+          "5"
+        ]
+      ],
+      [
+        [
+          "1",
+          "5",
+          "5"
+        ],
+        [
+          "1",
+          "5",
+          "5"
+        ]
+      ]
+    ],
+    "new_gpu_errors": []
+  },
+  "failure": "Traceback (most recent call last):\n  File \"${WORKSPACE}/isolated/run_dflash_iswa_isolation.py\", line 36, in <module>\n    (out/(arm+'-maps.txt')).write_text('\\n'.join(maps)+'\\n');bad=faults(before);text=log.read_text(errors='replace');assert rc==0 and not bad and not errors,(arm,'exit/fault',rc,bad,errors);assert str(path/'libllama.so.0.8.0') in '\\n'.join(maps),(arm,'wrong llama mapping');assert 'libvulkan_radeon' in '\\n'.join(maps),(arm,'missing RADV mapping');assert all(f'ISOLATION_CASE_PASS {i}' in text for i in range(4)),(arm,'case markers');sections=text.split('ISOLATION_CASE_BEGIN ');assert len(sections)==5,(arm,'case starts',len(sections));graphs=[re.findall(r'DFLASH_SELECTOR_TRACE blocks=(\\d+) tokens=(\\d+) block=(\\d+)',x) for x in sections[1:]];required=('2','10','5') if arm=='candidate' else ('1','5','5');assert all(required in g for g in graphs),(arm,'graph marker missing',graphs);assert arm!='candidate' or all('DFLASH_TWOSEQ_ISWA_HIT tokens=10' in x for x in sections[1:]),(arm,'guard hit missing');records=parse(capture);checks=validate(records);report[arm]={'checks':checks,'sha256':sha(capture),'graphs':graphs,'new_gpu_errors':bad};(out/'comparison.json').write_text(json.dumps(report,indent=2)+'\\n');assert all(checks.values()),(arm,'isolation checks',checks);captures[arm]=capture.read_bytes();print(arm,'isolation passed',flush=True)\n                                                                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('candidate', 'wrong llama mapping')\n"
+}

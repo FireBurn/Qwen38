@@ -1,0 +1,38 @@
+{
+  "qualification": "failed_mapping_gate_and_baseline_exactness",
+  "baseline_checks": {
+    "base_repeat_exact": true,
+    "sequence1_unchanged_when_sequence0_perturbed": true,
+    "sequence0_unchanged_when_sequence1_perturbed": true,
+    "changed_sequence0": true,
+    "changed_sequence1": true
+  },
+  "candidate_exploratory_isolation_checks": {
+    "base_repeat_exact": true,
+    "sequence1_unchanged_when_sequence0_perturbed": true,
+    "sequence0_unchanged_when_sequence1_perturbed": true
+  },
+  "candidate_guard_and_2x5_graph_trace_seen": true,
+  "candidate_process_maps_captured": false,
+  "captures_match": false,
+  "differences": [
+    {
+      "different_finite_float_values": 2118,
+      "max_abs_mixed_indices_and_scores": 236303.0
+    },
+    {
+      "different_finite_float_values": 2105,
+      "max_abs_mixed_indices_and_scores": 8337.0
+    },
+    {
+      "different_finite_float_values": 2155,
+      "max_abs_mixed_indices_and_scores": 236303.0
+    },
+    {
+      "different_finite_float_values": 2118,
+      "max_abs_mixed_indices_and_scores": 236303.0
+    }
+  ],
+  "note": "Values mix token IDs and scores; max absolute difference is not a numeric error measure. The candidate process library mapping was not captured, so attribution remains unverified.",
+  "new_gpu_errors": []
+}
