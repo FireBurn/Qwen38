@@ -1,0 +1,9 @@
+# Two-sequence source review
+
+The DFlash2 decoder reshapes Q/K/V over n_tokens and its dynamic convolution explicitly reshapes hidden rows as [hidden, tokens-per-block, n_blocks]; the selector similarly uses n_seqs_unq. This indicates intended multi-block structure, but does not prove numerical equivalence or support for every backend operation.
+
+The KV attention-mask implementation selects cache cells by the query's seq_id and seq_to_stream, and checks cell sequence membership. That is evidence of an intended sequence-isolation mechanism, not a substitute for an actual cross-sequence perturbation test. The context extracts unmasked nextn rows per ubatch and records original batch indices; output_reorder later restores batch order. Both mechanisms need to be checked with actual values under this candidate, including two different prompts, cache positions and rollback.
+
+The candidate guard selects split_equal only after checking two consecutive IDs in two complete five-token runs, one ID per token, ten or more ubatch slots, no tokens yet consumed, non-unified streams, non-causal/all-embedding processing and the DFlash2 selector model. Its split_equal selection should consume all ten rows for this shape. The extracted guard passed a 50,000-case CPU check against a structural oracle, including capacity, count, ID, missing-pointer and ordering cases. This does not exercise the allocator or GPU. Baseline and candidate compiled separately; no model or GPU comparison has been run.
+
+Outstanding: confirm n_stream/cache positions and actual graph shape, compare per-sequence data under fixed phase-matched inputs, and perturb each sequence independently to detect cross-attention/cache leakage. Concurrent seeded server requests are not deterministic enough to serve as a sole exact oracle. Do not treat source reading, compilation or guard checks as proof of model correctness or speed.
