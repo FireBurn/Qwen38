@@ -1,0 +1,16 @@
+{
+  "qualification": "inconclusive_candidate_guard_did_not_activate",
+  "baseline_isolation_checks": {
+    "base_repeat_exact": true,
+    "sequence1_unchanged_when_sequence0_perturbed": true,
+    "sequence0_unchanged_when_sequence1_perturbed": true,
+    "changed_sequence0": true,
+    "changed_sequence1": true
+  },
+  "baseline_candidate_captures_identical": true,
+  "baseline_sha256": "85b5f2b5fa077d3fd9ef38295f82c8889e2aef2297ebe554ff2023dce95dab84",
+  "candidate_sha256": "85b5f2b5fa077d3fd9ef38295f82c8889e2aef2297ebe554ff2023dce95dab84",
+  "candidate_graphs_after_case_markers": "single-sequence only; intended two-sequence marker absent",
+  "new_gpu_errors": [],
+  "limits": "empty-draft-KV synthetic inputs; no merged graph, no performance claim"
+}
