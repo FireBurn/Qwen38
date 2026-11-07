@@ -1,0 +1,69 @@
+{
+  "index": 0,
+  "width": "baseline",
+  "passed": true,
+  "pid": 2776066,
+  "verified_mappings": [
+    "${WORKSPACE}/isolated/current-server-scope/dflash-selector-anchor/baseline/libllama.so.0.8.0",
+    "${WORKSPACE}/isolated/current-server-scope/dflash-selector-anchor/runtime/libggml-vulkan.so.0.28.0",
+    "${WORKSPACE}/isolated/current-server-scope/installed-build/bin/libggml-base.so.0.28.0",
+    "${WORKSPACE}/isolated/current-server-scope/installed-build/bin/libggml-cpu.so.0.28.0",
+    "${WORKSPACE}/isolated/current-server-scope/installed-build/bin/libggml.so.0.28.0",
+    "${WORKSPACE}/isolated/current-server-scope/installed-build/bin/libllama-common.so.0.8.0",
+    "/usr/lib/libc.so.1",
+    "/usr/lib/libvulkan_radeon.so",
+    "/usr/lib/llama.cpp/libllama-server-impl.so"
+  ],
+  "request": {
+    "elapsed_seconds": 7.274783979984932,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 71,
+      "prompt_ms": 472.541,
+      "prompt_per_token_ms": 6.655507042253521,
+      "prompt_per_second": 150.2515125671635,
+      "predicted_n": 512,
+      "predicted_ms": 6799.257,
+      "predicted_per_token_ms": 13.305786692759295,
+      "predicted_per_second": 75.15527064207163,
+      "draft_n": 642,
+      "draft_n_accepted": 350
+    },
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 71,
+      "total_tokens": 583,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "choices": 1,
+    "output_sha256": "be7e2229e859d9e74d558a082ac96686042f23c568c17d9a2ef6d859f7e0cdaa"
+  },
+  "phase_cpu": 0.06388119520683788,
+  "phase_builds": 1,
+  "phase_runnable": 2.1142857142857143,
+  "gpu_samples": 35,
+  "gpu_busy": 92.91428571428571,
+  "vram_peak": 31636156416,
+  "new_gpu_errors": [],
+  "monitor_errors": [],
+  "gpu_sensor_errors": [
+    {
+      "phase": "startup",
+      "time_ns": 930599045166156,
+      "error": "OSError(16, 'Device or resource busy')"
+    },
+    {
+      "phase": "startup",
+      "time_ns": 930599245821681,
+      "error": "OSError(16, 'Device or resource busy')"
+    },
+    {
+      "phase": "startup",
+      "time_ns": 930599446483967,
+      "error": "OSError(16, 'Device or resource busy')"
+    }
+  ],
+  "wall_seconds": 14.248996202019043
+}

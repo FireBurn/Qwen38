@@ -1,0 +1,92 @@
+{
+  "blocks": [
+    {
+      "block": 0,
+      "matched": true,
+      "log_effect": 4.707403635606511e-05,
+      "cpu": {
+        "baseline": 0.06458909941062221,
+        "candidate": 0.06485384515934378
+      },
+      "builds": {
+        "baseline": 1,
+        "candidate": 1
+      },
+      "runnable": {
+        "baseline": 2.0857142857142854,
+        "candidate": 2.0428571428571427
+      }
+    },
+    {
+      "block": 1,
+      "matched": true,
+      "log_effect": 0.0003383370904543881,
+      "cpu": {
+        "baseline": 0.06532136906762295,
+        "candidate": 0.06566113437436047
+      },
+      "builds": {
+        "baseline": 1,
+        "candidate": 1
+      },
+      "runnable": {
+        "baseline": 2.071428571428571,
+        "candidate": 1.9714285714285715
+      }
+    },
+    {
+      "block": 2,
+      "matched": true,
+      "log_effect": -0.0011216698281177884,
+      "cpu": {
+        "baseline": 0.06503549980795617,
+        "candidate": 0.06574966691161263
+      },
+      "builds": {
+        "baseline": 1,
+        "candidate": 1
+      },
+      "runnable": {
+        "baseline": 2.0428571428571427,
+        "candidate": 2.1142857142857143
+      }
+    },
+    {
+      "block": 3,
+      "matched": true,
+      "log_effect": 0.001403420474888506,
+      "cpu": {
+        "baseline": 0.06676907221719125,
+        "candidate": 0.06483493125796974
+      },
+      "builds": {
+        "baseline": 1,
+        "candidate": 1
+      },
+      "runnable": {
+        "baseline": 1.9861111111111112,
+        "candidate": 2.111111111111111
+      }
+    }
+  ],
+  "all4": {
+    "blocks": 4,
+    "geometric_speed_change_percent": 0.01668043536946543,
+    "descriptive_t95_percent": [
+      -0.14840044067948244,
+      0.18203423339219596
+    ],
+    "lower_bound_positive": false
+  },
+  "matched": {
+    "blocks": 4,
+    "geometric_speed_change_percent": 0.01668043536946543,
+    "descriptive_t95_percent": [
+      -0.14840044067948244,
+      0.18203423339219596
+    ],
+    "lower_bound_positive": false
+  },
+  "scope": "One short stochastic prompt; anchor candidate vs private baseline discovery, no quality, long-context or deployment claim.",
+  "confirmation_eligible": false
+}
