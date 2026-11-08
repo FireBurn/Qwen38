@@ -9,6 +9,13 @@ for key,repo in repos.items():
  d=hub/repo;revision=(d/'refs/main').read_text().strip();f=(d/'snapshots'/revision/names[key]).resolve(strict=True);st=f.stat();models[key]={'path':str(f),'revision':revision,'bytes':st.st_size,'inode':st.st_ino,'device':st.st_dev,'mtime_ns':st.st_mtime_ns}
 library_paths=[Path(x).resolve(strict=True) for x in ['/usr/lib64/llama.cpp/libggml-vulkan.so.0','/usr/lib64/llama.cpp/libggml-base.so.0','/usr/lib64/llama.cpp/libggml.so.0','/usr/lib64/llama.cpp/libllama.so.0','/usr/lib64/llama.cpp/libllama-common.so.0','/usr/lib64/llama.cpp/libllama-server-impl.so','/usr/lib64/libvulkan_radeon.so','/usr/lib64/libc.so.1']]
 lib_hashes={str(f):sha(f) for f in library_paths};lib_stats={str(f):(f.stat().st_dev,f.stat().st_ino,f.stat().st_size,f.stat().st_mtime_ns) for f in library_paths}
+def installing_llama():
+ for p in Path('/proc').glob('[0-9]*'):
+  try:
+   args=(p/'cmdline').read_bytes().split(b'\0')
+   if any(Path(os.fsdecode(a)).name == 'emerge' for a in args) and any(b'llama-cpp' in a for a in args):return int(p.name)
+  except (OSError,ValueError):pass
+ return None
 def same_libraries():
  for path,identity in lib_stats.items():
   st=Path(path).stat()
@@ -18,7 +25,7 @@ ver=subprocess.run([str(server),'--version'],capture_output=True,text=True,check
 sequence=[x for b in range(6) for x in ([4,5,5,4] if b%2==0 else [5,4,4,5])];assert len(sequence)==24
 if sys.argv[1:]==['--preflight']:
  print(json.dumps({'version':version,'sequence':sequence,'models':models,'prompt_sha256':hashlib.sha256(prompt.encode()).hexdigest(),'scope':'CPU-only; no GPU initialized.'},indent=2));sys.exit(0)
-assert not sys.argv[1:] and not competition(),competition();out=q/'dflash-width-five'/time.strftime('%Y%m%dT%H%M%SZ',time.gmtime());out.mkdir(parents=True)
+assert not sys.argv[1:] and not competition() and not installing_llama(), {'competition':competition(),'llama_install_pid':installing_llama()};out=q/'dflash-width-five'/time.strftime('%Y%m%dT%H%M%SZ',time.gmtime());out.mkdir(parents=True)
 identity={'server_version':version,'server_sha256':server_hash,'library_sha256':lib_hashes,'models':models,'plan_sha256':sha(q/'DFLASH-WIDTH-FIVE-PLAN.md'),'runner_sha256':sha(Path(__file__)),'sequence':sequence,'prompt':prompt,'child_overrides':{'GGML_VK_VISIBLE_DEVICES':'1','radv_buffer_meta_path':'1','radv_enable_transfer_queue':'false'}};(out/'protocol.json').write_text(json.dumps(identity,indent=2)+'\n')
 def kernel():return set(subprocess.run(['dmesg','--level=err,warn'],capture_output=True,text=True,check=True).stdout.splitlines())
 def other_server(exclude=None):
@@ -36,7 +43,7 @@ def same_models():
  return True
 pci=Path('/sys/bus/pci/devices/0000:07:00.0');rows=[]
 for index,width in enumerate(sequence):
- assert sha(server)==server_hash and same_models() and same_libraries() and not competition() and not other_server()
+ assert sha(server)==server_hash and same_models() and same_libraries() and not competition() and not other_server() and not installing_llama()
  with socket.socket() as sock:sock.bind(('127.0.0.1',0));port=sock.getsockname()[1]
  cmd=[str(server),'-m',models['target']['path'],'--device','Vulkan0','--n-gpu-layers','all','--ctx-size','327680','--rope-scaling','yarn','--rope-scale','1.25','--yarn-orig-ctx','262144','--no-mmproj','--parallel','1','--flash-attn','on','--cache-type-k','q8_0','--cache-type-v','q8_0','--batch-size','2048','--ubatch-size','1024','--spec-draft-model',models['draft']['path'],'--spec-draft-ngl','all','--spec-draft-device','Vulkan0','--spec-type','ngram-mod,draft-dflash','--spec-ngram-mod-n-max','63','--spec-ngram-mod-n-min','16','--spec-draft-n-max',str(width),'--backend-sampling','--spec-draft-type-k','q8_0','--spec-draft-type-v','q8_0','--ctx-checkpoints','16','--jinja','--reasoning','on','--reasoning-effort','xhigh','--reasoning-preserve','--temp','0.6','--top-p','0.95','--top-k','20','--min-p','0','--repeat-penalty','1.0','--presence-penalty','0','--cache-reuse','256','--fit','off','--poll','0','--host','127.0.0.1','--port',str(port)]
  env={k:v for k,v in os.environ.items() if not k.startswith(('GGML_','ACO_','RADV_','MESA_','VK_','LLAMA_','radv_','LD_LIBRARY_PATH'))};env.update(GGML_VK_VISIBLE_DEVICES='1',radv_buffer_meta_path='1',radv_enable_transfer_queue='false')
@@ -52,7 +59,7 @@ for index,width in enumerate(sequence):
     if tick%5==0:
      builds=len(build_processes())
      if proc is not None and proc.poll() is None:
-      bad=faults();other=competition(proc.pid) or other_server(proc.pid)
+      bad=faults();other=competition(proc.pid) or other_server(proc.pid) or installing_llama()
       if bad or other:errors.append(repr({'faults':bad,'competition':other}));os.killpg(proc.pid,signal.SIGTERM);return
     sample={'time_ns':time.monotonic_ns(),'phase':phase,'cpu_busy':busy,'builds':builds,'runnable':int(Path('/proc/loadavg').read_text().split()[3].split('/')[0]),'gpu_busy':None,'vram':None}
     try:sample.update(gpu_busy=int((pci/'gpu_busy_percent').read_text()),vram=int((pci/'mem_info_vram_used').read_text()))
