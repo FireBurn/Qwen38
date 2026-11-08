@@ -20,7 +20,7 @@ int main(int argc,char **argv){
   check(seen,"Vulkan backend mapping missing");fprintf(stderr,"BACKEND_PATH_OK %s\n",expected);
  }
 if(const char*expected=getenv("EXPECTED_RADV_LIBRARY_PATH")){std::ifstream maps("/proc/self/maps");std::string line;bool seen=false;while(std::getline(maps,line))if(line.find("libvulkan_radeon.so")!=std::string::npos){check(line.find(expected)!=std::string::npos,"unexpected driver");seen=true;}check(seen,"driver missing");fprintf(stderr,"DRIVER_PATH_OK %s\n",expected);}
-const ggml_type types[]={GGML_TYPE_Q3_K,GGML_TYPE_Q4_K,GGML_TYPE_Q5_K,GGML_TYPE_Q6_K};
+const ggml_type base_types[]={GGML_TYPE_Q3_K,GGML_TYPE_Q4_K,GGML_TYPE_Q5_K,GGML_TYPE_Q6_K}; ggml_type types[4]; int order=getenv("GLU_FIRST_TYPE")?atoi(getenv("GLU_FIRST_TYPE")):0; check(order>=0&&order<4,"type order"); for(int t=0;t<4;++t)types[t]=base_types[(t+order)%4]; fprintf(stderr,"FIRST_WEIGHT %s\n",ggml_type_name(types[0]));
  ggml_init_params ip={ggml_tensor_overhead()*512+ggml_graph_overhead_custom(512,false),nullptr,true};auto c=ggml_init(ip);check(c,"context");
  constexpr int copies=4;
  auto gate=ggml_new_tensor_2d(c,GGML_TYPE_F32,K,cols);auto up=ggml_new_tensor_2d(c,GGML_TYPE_F32,K,cols);ggml_tensor *w[4],*x[copies],*y[copies][4];auto g=ggml_new_graph_custom(c,512,false);

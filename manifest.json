@@ -44637,28 +44637,12 @@
       "sanitized": false
     },
     {
-      "source": "isolated/current-server-scope/glu-fusion-port/operator.cpp",
-      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator.cpp",
-      "source_sha256": "4d2315db3be466cab180f4be36e16ab6904e3851f1fcb4769ea7642a7f25df34",
-      "export_sha256": "4d2315db3be466cab180f4be36e16ab6904e3851f1fcb4769ea7642a7f25df34",
-      "bytes": 4640,
-      "sanitized": false
-    },
-    {
       "source": "isolated/current-server-scope/glu-fusion-port/operator-checks.json",
       "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-checks.json",
       "source_sha256": "edd1b23ca1273fc84ad9dbc0cd9532c61ca420389fc1feecca05d4d0751f51e0",
       "export_sha256": "edd1b23ca1273fc84ad9dbc0cd9532c61ca420389fc1feecca05d4d0751f51e0",
       "bytes": 592,
       "sanitized": false
-    },
-    {
-      "source": "isolated/current-server-scope/glu-fusion-port/operator-assets.json",
-      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-assets.json",
-      "source_sha256": "acf837f58e2a2388406ad34c24aee38bb03e55675e9b25c02859ad0628769a6e",
-      "export_sha256": "0599690aad567fb716da682f1bfb8e73ad76a9602e3fb85477ed29cafcb1884f",
-      "bytes": 733,
-      "sanitized": true
     },
     {
       "source": "isolated/current-server-scope/glu-fusion-port/operator-baseline.log",
@@ -44715,7 +44699,103 @@
       "export_sha256": "31a505c2871db5158a5e3281922b440498b9d094c60fd842d32532d75af426ba",
       "bytes": 2082,
       "sanitized": true
+    },
+    {
+      "source": "isolated/run_current_glu_fusion_types.py",
+      "path": "archive/isolated/run_current_glu_fusion_types.py",
+      "source_sha256": "1e471afac06901aaa1380c4a20eee907c94409e2a50ca5063a47f7772d6ca184",
+      "export_sha256": "1e471afac06901aaa1380c4a20eee907c94409e2a50ca5063a47f7772d6ca184",
+      "bytes": 3153,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator.cpp",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator.cpp",
+      "source_sha256": "47dfb2e993d6d889fa93d9c07f05b161ba348d4df315d25d3c8b201f210d7b86",
+      "export_sha256": "47dfb2e993d6d889fa93d9c07f05b161ba348d4df315d25d3c8b201f210d7b86",
+      "bytes": 4889,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-type-checks.json",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-type-checks.json",
+      "source_sha256": "a70e17c2e4b1124e969f2a206cfa85fd500859e518f5ef9cc9b43a57f1389643",
+      "export_sha256": "a70e17c2e4b1124e969f2a206cfa85fd500859e518f5ef9cc9b43a57f1389643",
+      "bytes": 1950,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-assets.json",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-assets.json",
+      "source_sha256": "71974334a6f77251336ac61b84bdaf86aacf518d3d2151e66f5e319a7531c681",
+      "export_sha256": "dfaf972b2cd92b59563d504c7bdce0ed0e63b1134ca343eb513d44ea1db27975",
+      "bytes": 730,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-type0-baseline.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-type0-baseline.log",
+      "source_sha256": "c7d3b9c6ced4d185300ee51dadd99d39e5a1d9d177fc64e92789ca681be5629f",
+      "export_sha256": "4344c656193f7cc82672e29b83daaf3fcd8c4a51c0dd9a7e76bf5b66c396fd0a",
+      "bytes": 1170,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-type0-fusion.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-type0-fusion.log",
+      "source_sha256": "a781e9d47af34ffdf90f04ffeba76b68b4d94a2aa0bc5290c29cc52598ceb947",
+      "export_sha256": "34d84e27584e9aece66ff30cff7e4aeb345956f24524ad382a1202304256aabe",
+      "bytes": 97289,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-type1-baseline.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-type1-baseline.log",
+      "source_sha256": "5e9f37627adae54bed3271224c4fa8287280f4692183914ac505041c06c4dcc2",
+      "export_sha256": "3f0fac0bd3fd4fdc5bd8a22a26e57a78a266f96524a2ca253b1e286e15a013c0",
+      "bytes": 1172,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-type1-fusion.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-type1-fusion.log",
+      "source_sha256": "c738c84b3d1048910458bd344967a27560d1d7d91dded8aa5f5d1b531a46450b",
+      "export_sha256": "b82497e2a17f17e8711abdc6aa9a2aebc1afea16d86e4b7ff8cac62f1d53f4c0",
+      "bytes": 122475,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-type2-baseline.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-type2-baseline.log",
+      "source_sha256": "c7a264ca4c98e6c27a35944e9a744ca2bc7fbded777396bef46e82ee6c13db2c",
+      "export_sha256": "0a91b24ee3b1033151870acdc7e9f1a967443ce131ffe528fa91bfa19dc84b41",
+      "bytes": 1170,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-type2-fusion.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-type2-fusion.log",
+      "source_sha256": "fd6a93c05ced7266d49fbbe17ba439422ac61fee69206ba3562d10d9e2656cfb",
+      "export_sha256": "6f1882efb8e2476f2547c8deea568a9acb47a37a30625f1568dc93521599513d",
+      "bytes": 185182,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-type3-baseline.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-type3-baseline.log",
+      "source_sha256": "d2d70afb577a88b936e5402d7676f8155b8feefcf71aa9ca6561951fbe5916c0",
+      "export_sha256": "3d3510c4ecc1dc646cc7c1d32bfab1ba65603d6c547f08a8f9bb94573d2ea173",
+      "bytes": 1171,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-type3-fusion.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-type3-fusion.log",
+      "source_sha256": "4841335993d6256049dc8e727225e57fd9fea14210ece79fddb3a74aeed705c1",
+      "export_sha256": "5753036578f0720154e8926930c4ac1fe8e5c782eedda2f231b30f57a453a806",
+      "bytes": 202658,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-11-08T05:54:02.897022+00:00"
+  "updated_utc": "2026-11-08T05:55:08.622502+00:00"
 }
