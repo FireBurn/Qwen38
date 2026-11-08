@@ -1,0 +1,57 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+0.00.415.862 I srv  llama_server: initializing ...
+0.00.415.873 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.416.268 W srv  server_setup: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.420.031 I srv    load_model: loading model '${HF_CACHE}/hub/models--nerkyor--Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2/blobs/9985b3d41fc7dc0bb5d493f7523d4515504912a3a7fc830f66e0fd2f90f9fd95'
+0.00.860.046 W model has unused tensor blk.64.attn_norm.weight (size = 20480 bytes) -- ignoring
+0.00.860.072 W model has unused tensor blk.64.post_attention_norm.weight (size = 20480 bytes) -- ignoring
+0.00.860.092 W model has unused tensor blk.64.attn_q.weight (size = 35389440 bytes) -- ignoring
+0.00.860.099 W model has unused tensor blk.64.attn_k.weight (size = 2949120 bytes) -- ignoring
+0.00.860.109 W model has unused tensor blk.64.attn_v.weight (size = 2949120 bytes) -- ignoring
+0.00.860.137 W model has unused tensor blk.64.attn_output.weight (size = 17694720 bytes) -- ignoring
+0.00.860.151 W model has unused tensor blk.64.attn_q_norm.weight (size = 1024 bytes) -- ignoring
+0.00.860.159 W model has unused tensor blk.64.attn_k_norm.weight (size = 1024 bytes) -- ignoring
+0.00.860.168 W model has unused tensor blk.64.ffn_gate.weight (size = 50135040 bytes) -- ignoring
+0.00.860.175 W model has unused tensor blk.64.ffn_down.weight (size = 50135040 bytes) -- ignoring
+0.00.860.184 W model has unused tensor blk.64.ffn_up.weight (size = 50135040 bytes) -- ignoring
+0.00.860.193 W model has unused tensor blk.64.nextn.eh_proj.weight (size = 29491200 bytes) -- ignoring
+0.00.860.202 W model has unused tensor blk.64.nextn.enorm.weight (size = 20480 bytes) -- ignoring
+0.00.860.211 W model has unused tensor blk.64.nextn.hnorm.weight (size = 20480 bytes) -- ignoring
+0.00.860.235 W model has unused tensor blk.64.nextn.shared_head_norm.weight (size = 20480 bytes) -- ignoring
+0.06.494.110 W llama_context: n_ctx_seq (327680) > n_ctx_train (262144) -- possible training context overflow
+0.06.639.741 I cmn          init: llama threadpool init, n_threads = 8
+0.06.750.993 I common_speculative_init_result: loading draft model '${HF_CACHE}/hub/models--incoai--Qwen3.8-27B-DFlash2-GGUF/blobs/d169ad335929adc0d77e10e2523f968f3e75f547637ad739b0a137ccde111b5f'
+0.07.596.567 W llama_context: n_ctx_seq (327680) > n_ctx_train (262144) -- possible training context overflow
+0.07.614.006 W srv    load_model: cache_reuse is not supported by this context, it will be disabled
+0.07.614.047 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 327680, kv_unified = 'false'
+0.07.615.433 I common_speculative_impl_draft_dflash: adding speculative implementation 'draft-dflash'
+0.07.617.191 I common_speculative_impl_draft_dflash: - n_max=4, n_min=0, p_min=0.00
+0.07.617.202 I common_speculative_impl_draft_dflash: - block_size=8, mask_token_id=248070, n_extract=5, sample_from_anchor=true
+0.07.695.762 I srv  server_run_i: model loaded
+0.07.695.775 I srv  server_on_li: listening on http://127.0.0.1:60913
+0.08.147.164 I slot get_availabl: id  0 | task -1 | selected slot by LRU, n_tokens = 0, t_last = -1
+0.08.147.434 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+0.09.204.259 I slot print_timing: id  0 | task 0 | prompt eval time =     802.09 ms /    55 tokens (   14.58 ms per token,    68.57 tokens per second)
+0.09.204.302 I slot print_timing: id  0 | task 0 |        eval time =     251.55 ms /    16 tokens (   16.77 ms per token,    59.63 tokens per second)
+0.09.204.324 I slot print_timing: id  0 | task 0 |       total time =    1053.64 ms /    71 tokens
+0.09.204.334 I slot print_timing: id  0 | task 0 |    graphs reused =          2
+0.09.204.344 I slot print_timing: id  0 | task 0 |   graph reallocs =          0    /     0        (same size) / (changed size)
+0.09.204.403 I slot print_timing: id  0 | task 0 | draft acceptance = 1.00000 (   12 accepted /    12 generated), mean len =  5.00
+0.09.204.451 I slot      release: id  0 | task 0 | stop processing: n_tokens = 70, truncated = 0
+0.09.222.174 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.634 (> 0.100 thold), f_keep = 0.643
+0.09.222.432 I slot launch_slot_: id  0 | task 7 | processing task, is_child = 0
+0.12.943.784 I slot print_timing: id  0 | task 7 | n_gen =    121, tg =  39.62 t/s, tg_3s =  39.94 t/s
+0.15.959.464 I slot print_timing: id  0 | task 7 | n_gen =    268, tg =  44.17 t/s, tg_3s =  48.75 t/s
+0.18.961.578 I slot print_timing: id  0 | task 7 | n_gen =    433, tg =  47.75 t/s, tg_3s =  54.96 t/s
+0.20.263.834 I slot print_timing: id  0 | task 7 | prompt eval time =     691.82 ms /    71 tokens (    9.74 ms per token,   102.63 tokens per second)
+0.20.263.847 I slot print_timing: id  0 | task 7 |        eval time =   10348.98 ms /   512 tokens (   20.25 ms per token,    49.38 tokens per second)
+0.20.263.848 I slot print_timing: id  0 | task 7 |       total time =   11040.79 ms /   583 tokens
+0.20.263.849 I slot print_timing: id  0 | task 7 |    graphs reused =        159
+0.20.263.850 I slot print_timing: id  0 | task 7 |   graph reallocs =          0    /     0        (same size) / (changed size)
+0.20.263.901 I slot print_timing: id  0 | task 7 | draft acceptance = 0.54517 (  350 accepted /   642 generated), mean len =  3.17
+0.20.263.940 I slot      release: id  0 | task 7 | stop processing: n_tokens = 582, truncated = 0
+0.20.284.150 I srv    operator(): operator(): cleaning up before exit...
