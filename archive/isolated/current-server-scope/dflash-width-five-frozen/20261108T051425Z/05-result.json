@@ -1,0 +1,53 @@
+{
+  "index": 5,
+  "width": 4,
+  "passed": true,
+  "pid": 3441919,
+  "dflash_feature_path": "unreported",
+  "verified_mappings": [
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libggml-base.so.0.28.0",
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libggml-vulkan.so.0.28.0",
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libggml.so.0.28.0",
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libllama-common.so.0.8.0",
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libllama-server-impl.so",
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libllama.so.0.8.0",
+    "/usr/lib/libc.so.1",
+    "/usr/lib/libvulkan_radeon.so"
+  ],
+  "request": {
+    "elapsed_seconds": 14.199229585006833,
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 71,
+      "prompt_ms": 1600.598,
+      "prompt_per_token_ms": 22.543633802816903,
+      "prompt_per_second": 44.35842104013625,
+      "predicted_n": 512,
+      "predicted_ms": 12581.939,
+      "predicted_per_token_ms": 24.622189823874756,
+      "predicted_per_second": 40.613771851858445,
+      "draft_n": 642,
+      "draft_n_accepted": 350
+    },
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 71,
+      "total_tokens": 583,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "choices": 1,
+    "output_sha256": "be7e2229e859d9e74d558a082ac96686042f23c568c17d9a2ef6d859f7e0cdaa"
+  },
+  "phase_cpu": 1.0,
+  "phase_builds": 79.75409836065573,
+  "phase_runnable": 36.295081967213115,
+  "gpu_samples": 61,
+  "gpu_busy": 59.98360655737705,
+  "vram_peak": 31640338432,
+  "new_gpu_errors": [],
+  "monitor_errors": [],
+  "gpu_sensor_errors": [],
+  "wall_seconds": 30.888226990937255
+}
