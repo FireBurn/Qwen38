@@ -1,0 +1,357 @@
+{
+  "passed": true,
+  "scope": "one seeded DFlash prompt plus warmup with target-logit audit; not speed or general quality qualification",
+  "lattice_sha256": {
+    "baseline": "70b61a21f25e74e70e8c77779e2544d6516aff0f19795cb13f217c2856f64577",
+    "candidate": "70b61a21f25e74e70e8c77779e2544d6516aff0f19795cb13f217c2856f64577"
+  },
+  "lattice_rows": {
+    "baseline": [
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ]
+    ],
+    "candidate": [
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ],
+      [
+        5,
+        5120
+      ]
+    ]
+  },
+  "lattice_exact": true,
+  "response_hashes_match": true,
+  "model_identities_match": true,
+  "results": {
+    "baseline": {
+      "passed": true,
+      "warmup": {
+        "elapsed_seconds": 0.6296026719501242,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 55,
+          "prompt_ms": 445.584,
+          "prompt_per_token_ms": 8.101527272727273,
+          "prompt_per_second": 123.43351646378684,
+          "predicted_n": 16,
+          "predicted_ms": 180.911,
+          "predicted_per_token_ms": 12.060733333333333,
+          "predicted_per_second": 82.91369789565036,
+          "draft_n": 12,
+          "draft_n_accepted": 12
+        },
+        "usage": {
+          "completion_tokens": 16,
+          "prompt_tokens": 55,
+          "total_tokens": 71,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+        "choice_count": 1
+      },
+      "request": {
+        "elapsed_seconds": 1.508194419904612,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 71,
+          "prompt_ms": 415.782,
+          "prompt_per_token_ms": 5.856084507042254,
+          "prompt_per_second": 170.76256307391856,
+          "predicted_n": 64,
+          "predicted_ms": 1089.613,
+          "predicted_per_token_ms": 17.295444444444446,
+          "predicted_per_second": 57.81869342601455,
+          "draft_n": 81,
+          "draft_n_accepted": 42
+        },
+        "usage": {
+          "completion_tokens": 64,
+          "prompt_tokens": 71,
+          "total_tokens": 135,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "response_sha256": "c84ab8c95bc2baa3729d7ec970a1ceb9bce36eb8674d55df67b874541142fe86",
+        "choice_count": 1
+      },
+      "new_gpu_errors": [],
+      "scope": "Instrumented Q3 current-server lattice and response capture; not timing or target-logit qualification.",
+      "monitor_errors": [],
+      "sensor_gaps": [
+        {
+          "time_ns": 979450612145537,
+          "error": "OSError(16, 'Device or resource busy')"
+        },
+        {
+          "time_ns": 979450830354324,
+          "error": "OSError(16, 'Device or resource busy')"
+        },
+        {
+          "time_ns": 979451044642130,
+          "error": "OSError(16, 'Device or resource busy')"
+        }
+      ]
+    },
+    "candidate": {
+      "passed": true,
+      "warmup": {
+        "elapsed_seconds": 0.6329662210773677,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 55,
+          "prompt_ms": 447.289,
+          "prompt_per_token_ms": 8.132527272727273,
+          "prompt_per_second": 122.96300602071592,
+          "predicted_n": 16,
+          "predicted_ms": 182.774,
+          "predicted_per_token_ms": 12.184933333333333,
+          "predicted_per_second": 82.06856555089892,
+          "draft_n": 12,
+          "draft_n_accepted": 12
+        },
+        "usage": {
+          "completion_tokens": 16,
+          "prompt_tokens": 55,
+          "total_tokens": 71,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "response_sha256": "7f3a35a37e6ec0834b26cb878ddf13e54e1c20e76471753edd1edabe880f6eee",
+        "choice_count": 1
+      },
+      "request": {
+        "elapsed_seconds": 1.59265042305924,
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 71,
+          "prompt_ms": 415.657,
+          "prompt_per_token_ms": 5.854323943661972,
+          "prompt_per_second": 170.81391628193438,
+          "predicted_n": 64,
+          "predicted_ms": 1173.989,
+          "predicted_per_token_ms": 18.634746031746033,
+          "predicted_per_second": 53.663194459232585,
+          "draft_n": 81,
+          "draft_n_accepted": 42
+        },
+        "usage": {
+          "completion_tokens": 64,
+          "prompt_tokens": 71,
+          "total_tokens": 135,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "response_sha256": "c84ab8c95bc2baa3729d7ec970a1ceb9bce36eb8674d55df67b874541142fe86",
+        "choice_count": 1
+      },
+      "new_gpu_errors": [],
+      "scope": "Instrumented Q3 current-server lattice and response capture; not timing or target-logit qualification.",
+      "monitor_errors": [],
+      "sensor_gaps": []
+    }
+  },
+  "target_logits": {
+    "baseline": {
+      "tensors": 27,
+      "rows": 120,
+      "bytes": 119194032,
+      "sha256": "bd66d6bb3d64fcd1154f2b2374b599249a741926a4ccd58bb70f0c1227b5b169"
+    },
+    "candidate": {
+      "tensors": 27,
+      "rows": 120,
+      "bytes": 119194032,
+      "sha256": "bd66d6bb3d64fcd1154f2b2374b599249a741926a4ccd58bb70f0c1227b5b169"
+    }
+  },
+  "target_logits_exact": true
+}
