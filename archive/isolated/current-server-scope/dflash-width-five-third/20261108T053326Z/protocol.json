@@ -1,0 +1,66 @@
+{
+  "server_version": "version: 0.8.0-dev (build 12033, commit 785322d17)\nbuilt with Clang 23.1.4 for Linux x86_64",
+  "server_sha256": "a2eb82f7acfe36ad4963fe244d7df39116ea16946de86587ab7d827b5351d729",
+  "library_sha256": {
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libggml-vulkan.so.0.28.0": "a5487f201d367fdda063904896aecef33ad405f37c353106a8b59b8e8fe59ab3",
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libggml-base.so.0.28.0": "4698688617b3896438e8e94fc5356ebd6ceefac7607b01d7bdb66d9f0d883900",
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libggml.so.0.28.0": "d57c70c960745ad3e3340436303be42e1ee25f5b44b0c8505f719c33ca9cb1ae",
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libllama.so.0.8.0": "6316b6326913c2801aa66b0a0c9bb09ca8b85320065f39bdcaa3d42934a96be7",
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libllama-common.so.0.8.0": "623e686efb3b5ae2cf87925482c0a28f7a05a86007f02899339724e8c2714512",
+    "${WORKSPACE}/isolated/current-server-scope/frozen-installed/lib/libllama-server-impl.so": "72b92b68a25d19bffa72ee0ebac8b1807e7cdfaadaa1f658d5e24d451b4dd218",
+    "/usr/lib/libvulkan_radeon.so": "9a479819dbfbd9bfd398a76902f319946d5c6d7d6555fba7684dc78df6916a22",
+    "/usr/lib/libc.so.1": "194aa00efe7cac5f600639228c70f1a47878e038429077379890c8baa778f4de"
+  },
+  "models": {
+    "target": {
+      "path": "${HF_CACHE}/hub/models--nerkyor--Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2/blobs/9985b3d41fc7dc0bb5d493f7523d4515504912a3a7fc830f66e0fd2f90f9fd95",
+      "revision": "7bb84cd2cb5a3754facb1b1a09bd8e85fa4e152b",
+      "bytes": 17303770432,
+      "inode": 43919954,
+      "device": 66307,
+      "mtime_ns": 1792524608612831475
+    },
+    "draft": {
+      "path": "${HF_CACHE}/hub/models--incoai--Qwen3.8-27B-DFlash2-GGUF/blobs/d169ad335929adc0d77e10e2523f968f3e75f547637ad739b0a137ccde111b5f",
+      "revision": "144eb06583b4fb0b6e54bc814b16a206a240f4d2",
+      "bytes": 1143006816,
+      "inode": 45089044,
+      "device": 66307,
+      "mtime_ns": 1792524318282203469
+    }
+  },
+  "plan_sha256": "1d2a4140fad53bca8ad87c535f7147f82de77508c4b79c6a73d2fe917fcfdbcc",
+  "runner_sha256": "f09732d7a66de9bbc849063d2d2e8f23d534cbc21b1cffa289e6c59bd5654ae2",
+  "sequence": [
+    4,
+    5,
+    5,
+    4,
+    5,
+    4,
+    4,
+    5,
+    4,
+    5,
+    5,
+    4,
+    5,
+    4,
+    4,
+    5,
+    4,
+    5,
+    5,
+    4,
+    5,
+    4,
+    4,
+    5
+  ],
+  "prompt": "Explain how memory bandwidth and cache locality affect a GPU matrix multiplication, with a concise example.",
+  "child_overrides": {
+    "GGML_VK_VISIBLE_DEVICES": "1",
+    "radv_buffer_meta_path": "1",
+    "radv_enable_transfer_queue": "false"
+  }
+}
