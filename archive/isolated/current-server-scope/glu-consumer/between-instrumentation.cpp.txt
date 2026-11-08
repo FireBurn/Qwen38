@@ -1,0 +1,18 @@
+    if (getenv("GGML_VK_GLU_CONSUMER_AUDIT")) {
+        static unsigned audit_graph = 0;
+        if (audit_graph++ < 12) {
+            fprintf(stderr, "GLU_AUDIT_GRAPH %u nodes=%d\n", audit_graph, cgraph->n_nodes);
+            for (int i = 0; i < cgraph->n_nodes; ++i) {
+                const ggml_tensor * t = cgraph->nodes[i];
+                if (t->op != GGML_OP_GLU) continue;
+                fprintf(stderr, "GLU_AUDIT_NODE i=%d name=%s type=%s shape=%lld,%lld,%lld,%lld\n", i, t->name, ggml_type_name(t->type), (long long)t->ne[0], (long long)t->ne[1], (long long)t->ne[2], (long long)t->ne[3]);
+                for (int j = i + 1; j < cgraph->n_nodes; ++j) {
+                    const ggml_tensor * u = cgraph->nodes[j];
+                    for (int k = 0; k < GGML_MAX_SRC; ++k) if (u->src[k] == t) {
+                        fprintf(stderr, "GLU_AUDIT_USE i=%d j=%d src=%d op=%s name=%s shape=%lld,%lld,%lld,%lld\n", i, j, k, ggml_op_name(u->op), u->name, (long long)u->ne[0], (long long)u->ne[1], (long long)u->ne[2], (long long)u->ne[3]);
+                        for (int z=i+1; z<j && z<=i+8; ++z) { const ggml_tensor * mid=cgraph->nodes[z]; fprintf(stderr, "GLU_AUDIT_BETWEEN i=%d j=%d index=%d op=%s name=%s\n", i,j,z,ggml_op_name(mid->op),mid->name); }
+                    }
+                }
+            }
+        }
+    }
