@@ -44419,7 +44419,71 @@
       "export_sha256": "e54dec7f11564a410c30480e41f3bd34e2afe1a5ba99fe043983bf2327464363",
       "bytes": 46175,
       "sanitized": true
+    },
+    {
+      "source": "isolated/run_current_glu_consumer.py",
+      "path": "archive/isolated/run_current_glu_consumer.py",
+      "source_sha256": "aa38bab8b559a3a8c5940b77989fca2c448a86f57a23db2d2d2df5e6a8fe669c",
+      "export_sha256": "7a12eb0d4da28224f276eb828bd03792478744213fa7026b8912925991d263b0",
+      "bytes": 11341,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-consumer/PLAN.md",
+      "path": "archive/isolated/current-server-scope/glu-consumer/PLAN.md",
+      "source_sha256": "55d82fa67b169c1b2a9431a49f8c236e1ccb11170a7f3c3de632eadb7a3b8ea7",
+      "export_sha256": "55d82fa67b169c1b2a9431a49f8c236e1ccb11170a7f3c3de632eadb7a3b8ea7",
+      "bytes": 584,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/glu-consumer/instrumentation.cpp.txt",
+      "path": "archive/isolated/current-server-scope/glu-consumer/instrumentation.cpp.txt",
+      "source_sha256": "9e1914862286a4c5e391034c5dd793de03a35133d3c05ba251a7a7f6c89c3163",
+      "export_sha256": "93a860c4bccb701478f2ee1a53f80d5816b0fa679e91c243e4c143edcbffd0f2",
+      "bytes": 1095,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-consumer/20261108T054203Z/00-n4.log",
+      "path": "archive/isolated/current-server-scope/glu-consumer/20261108T054203Z/00-n4.log",
+      "source_sha256": "cab59efccbbc5e64e51aa47bc8d7dab113fb8b515a12d0fb46a76367964f255f",
+      "export_sha256": "c905d8dd879cd610156164fa68ba58bfcc9bbebb0dc8bc6e73886863d5d4ba7f",
+      "bytes": 54717,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-consumer/20261108T054203Z/00-result.json",
+      "path": "archive/isolated/current-server-scope/glu-consumer/20261108T054203Z/00-result.json",
+      "source_sha256": "b21fcdb913c12e02c8e8083d110cd844cd65753b1a0ad254a894691f8108e2af",
+      "export_sha256": "125e8251c54929d9f61cdc39e93dc57603cec2ccaa8838f364ba219a59965160",
+      "bytes": 2276,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-consumer/20261108T054203Z/00-telemetry.json",
+      "path": "archive/isolated/current-server-scope/glu-consumer/20261108T054203Z/00-telemetry.json",
+      "source_sha256": "b5b0fdc3285e98a073828542d56f3495a225bfe52bbda17aa6e6c70d1098aa4d",
+      "export_sha256": "b5b0fdc3285e98a073828542d56f3495a225bfe52bbda17aa6e6c70d1098aa4d",
+      "bytes": 11987,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/glu-consumer/20261108T054203Z/protocol.json",
+      "path": "archive/isolated/current-server-scope/glu-consumer/20261108T054203Z/protocol.json",
+      "source_sha256": "e2bbc10b509da21865dad41569990e231d40a775b0013bbe487c0fe1387069bf",
+      "export_sha256": "17433a00061ac53487d751a7114e8e545ae1e9d58cb8797758102a244b07607f",
+      "bytes": 2629,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-consumer/20261108T054203Z/results.json",
+      "path": "archive/isolated/current-server-scope/glu-consumer/20261108T054203Z/results.json",
+      "source_sha256": "eee3ec81abf77c03099b2870297c943c63a852b542f859c499050218b9388a02",
+      "export_sha256": "4bbe5f5cb5e88ce4bfea13f225627a04a645e4dfae49015ff091c7822dd8e66e",
+      "bytes": 2428,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-11-08T05:39:38.805681+00:00"
+  "updated_utc": "2026-11-08T05:42:54.312585+00:00"
 }
