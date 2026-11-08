@@ -1,0 +1,3 @@
+    if (getenv("GGML_VK_GLU_CONSUMER_AUDIT") && src1->op == GGML_OP_GLU) {
+        fprintf(stderr, "GLU_MMVQ_AUDIT weight=%s m=%llu n=%llu k=%llu q8_activation=%d\n", ggml_type_name(src0->type), (unsigned long long)ne01, (unsigned long long)ne11, (unsigned long long)ne00, (int)quantize_y);
+    }

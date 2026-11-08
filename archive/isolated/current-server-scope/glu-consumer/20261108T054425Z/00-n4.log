@@ -1,0 +1,2589 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+0.00.682.747 I srv  llama_server: initializing ...
+0.00.682.751 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.682.951 W srv  server_setup: security: no API key is set and CORS allows all origins (see https://github.com/ggml-org/llama.cpp/pull/25655)
+0.00.684.323 I srv    load_model: loading model '${HF_CACHE}/hub/models--nerkyor--Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2/blobs/9985b3d41fc7dc0bb5d493f7523d4515504912a3a7fc830f66e0fd2f90f9fd95'
+0.00.955.315 W model has unused tensor blk.64.attn_norm.weight (size = 20480 bytes) -- ignoring
+0.00.955.328 W model has unused tensor blk.64.post_attention_norm.weight (size = 20480 bytes) -- ignoring
+0.00.955.340 W model has unused tensor blk.64.attn_q.weight (size = 35389440 bytes) -- ignoring
+0.00.955.344 W model has unused tensor blk.64.attn_k.weight (size = 2949120 bytes) -- ignoring
+0.00.955.349 W model has unused tensor blk.64.attn_v.weight (size = 2949120 bytes) -- ignoring
+0.00.955.366 W model has unused tensor blk.64.attn_output.weight (size = 17694720 bytes) -- ignoring
+0.00.955.370 W model has unused tensor blk.64.attn_q_norm.weight (size = 1024 bytes) -- ignoring
+0.00.955.375 W model has unused tensor blk.64.attn_k_norm.weight (size = 1024 bytes) -- ignoring
+0.00.955.379 W model has unused tensor blk.64.ffn_gate.weight (size = 50135040 bytes) -- ignoring
+0.00.955.384 W model has unused tensor blk.64.ffn_down.weight (size = 50135040 bytes) -- ignoring
+0.00.955.389 W model has unused tensor blk.64.ffn_up.weight (size = 50135040 bytes) -- ignoring
+0.00.955.394 W model has unused tensor blk.64.nextn.eh_proj.weight (size = 29491200 bytes) -- ignoring
+0.00.955.399 W model has unused tensor blk.64.nextn.enorm.weight (size = 20480 bytes) -- ignoring
+0.00.955.404 W model has unused tensor blk.64.nextn.hnorm.weight (size = 20480 bytes) -- ignoring
+0.00.955.419 W model has unused tensor blk.64.nextn.shared_head_norm.weight (size = 20480 bytes) -- ignoring
+0.06.299.655 W llama_context: n_ctx_seq (327680) > n_ctx_train (262144) -- possible training context overflow
+0.06.956.788 I cmn          init: llama threadpool init, n_threads = 8
+GLU_AUDIT_GRAPH 1 nodes=6936
+GLU_AUDIT_NODE i=86 name=ffn_swiglu-0 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=86 j=88 src=1 op=MUL_MAT name=ffn_out-0 shape=5120,2,1,1
+GLU_AUDIT_NODE i=164 name=ffn_swiglu-1 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=164 j=166 src=1 op=MUL_MAT name=ffn_out-1 shape=5120,2,1,1
+GLU_AUDIT_NODE i=233 name=ffn_swiglu-2 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=233 j=234 src=1 op=MUL_MAT name=ffn_out-2 shape=5120,2,1,1
+GLU_AUDIT_NODE i=293 name=ffn_swiglu-3 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=293 j=295 src=1 op=MUL_MAT name=ffn_out-3 shape=5120,2,1,1
+GLU_AUDIT_NODE i=371 name=ffn_swiglu-4 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=371 j=373 src=1 op=MUL_MAT name=ffn_out-4 shape=5120,2,1,1
+GLU_AUDIT_NODE i=449 name=ffn_swiglu-5 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=449 j=451 src=1 op=MUL_MAT name=ffn_out-5 shape=5120,2,1,1
+GLU_AUDIT_NODE i=518 name=ffn_swiglu-6 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=518 j=519 src=1 op=MUL_MAT name=ffn_out-6 shape=5120,2,1,1
+GLU_AUDIT_NODE i=578 name=ffn_swiglu-7 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=578 j=580 src=1 op=MUL_MAT name=ffn_out-7 shape=5120,2,1,1
+GLU_AUDIT_NODE i=656 name=ffn_swiglu-8 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=656 j=658 src=1 op=MUL_MAT name=ffn_out-8 shape=5120,2,1,1
+GLU_AUDIT_NODE i=734 name=ffn_swiglu-9 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=734 j=736 src=1 op=MUL_MAT name=ffn_out-9 shape=5120,2,1,1
+GLU_AUDIT_NODE i=803 name=ffn_swiglu-10 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=803 j=804 src=1 op=MUL_MAT name=ffn_out-10 shape=5120,2,1,1
+GLU_AUDIT_NODE i=863 name=ffn_swiglu-11 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=863 j=865 src=1 op=MUL_MAT name=ffn_out-11 shape=5120,2,1,1
+GLU_AUDIT_NODE i=941 name=ffn_swiglu-12 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=941 j=943 src=1 op=MUL_MAT name=ffn_out-12 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1019 name=ffn_swiglu-13 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1019 j=1021 src=1 op=MUL_MAT name=ffn_out-13 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1088 name=ffn_swiglu-14 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1088 j=1089 src=1 op=MUL_MAT name=ffn_out-14 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1148 name=ffn_swiglu-15 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1148 j=1150 src=1 op=MUL_MAT name=ffn_out-15 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1226 name=ffn_swiglu-16 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1226 j=1228 src=1 op=MUL_MAT name=ffn_out-16 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1304 name=ffn_swiglu-17 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1304 j=1306 src=1 op=MUL_MAT name=ffn_out-17 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1373 name=ffn_swiglu-18 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1373 j=1374 src=1 op=MUL_MAT name=ffn_out-18 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1433 name=ffn_swiglu-19 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1433 j=1435 src=1 op=MUL_MAT name=ffn_out-19 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1511 name=ffn_swiglu-20 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1511 j=1513 src=1 op=MUL_MAT name=ffn_out-20 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1589 name=ffn_swiglu-21 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1589 j=1591 src=1 op=MUL_MAT name=ffn_out-21 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1658 name=ffn_swiglu-22 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1658 j=1659 src=1 op=MUL_MAT name=ffn_out-22 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1718 name=ffn_swiglu-23 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1718 j=1720 src=1 op=MUL_MAT name=ffn_out-23 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1796 name=ffn_swiglu-24 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1796 j=1798 src=1 op=MUL_MAT name=ffn_out-24 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1874 name=ffn_swiglu-25 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1874 j=1876 src=1 op=MUL_MAT name=ffn_out-25 shape=5120,2,1,1
+GLU_AUDIT_NODE i=1943 name=ffn_swiglu-26 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=1943 j=1944 src=1 op=MUL_MAT name=ffn_out-26 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2003 name=ffn_swiglu-27 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2003 j=2005 src=1 op=MUL_MAT name=ffn_out-27 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2081 name=ffn_swiglu-28 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2081 j=2083 src=1 op=MUL_MAT name=ffn_out-28 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2159 name=ffn_swiglu-29 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2159 j=2161 src=1 op=MUL_MAT name=ffn_out-29 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2228 name=ffn_swiglu-30 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2228 j=2229 src=1 op=MUL_MAT name=ffn_out-30 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2288 name=ffn_swiglu-31 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2288 j=2290 src=1 op=MUL_MAT name=ffn_out-31 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2366 name=ffn_swiglu-32 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2366 j=2368 src=1 op=MUL_MAT name=ffn_out-32 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2444 name=ffn_swiglu-33 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2444 j=2446 src=1 op=MUL_MAT name=ffn_out-33 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2513 name=ffn_swiglu-34 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2513 j=2514 src=1 op=MUL_MAT name=ffn_out-34 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2573 name=ffn_swiglu-35 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2573 j=2575 src=1 op=MUL_MAT name=ffn_out-35 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2651 name=ffn_swiglu-36 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2651 j=2653 src=1 op=MUL_MAT name=ffn_out-36 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2729 name=ffn_swiglu-37 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2729 j=2731 src=1 op=MUL_MAT name=ffn_out-37 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2798 name=ffn_swiglu-38 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2798 j=2799 src=1 op=MUL_MAT name=ffn_out-38 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2858 name=ffn_swiglu-39 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2858 j=2860 src=1 op=MUL_MAT name=ffn_out-39 shape=5120,2,1,1
+GLU_AUDIT_NODE i=2936 name=ffn_swiglu-40 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=2936 j=2938 src=1 op=MUL_MAT name=ffn_out-40 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3014 name=ffn_swiglu-41 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3014 j=3016 src=1 op=MUL_MAT name=ffn_out-41 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3083 name=ffn_swiglu-42 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3083 j=3084 src=1 op=MUL_MAT name=ffn_out-42 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3143 name=ffn_swiglu-43 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3143 j=3145 src=1 op=MUL_MAT name=ffn_out-43 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3221 name=ffn_swiglu-44 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3221 j=3223 src=1 op=MUL_MAT name=ffn_out-44 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3299 name=ffn_swiglu-45 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3299 j=3301 src=1 op=MUL_MAT name=ffn_out-45 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3368 name=ffn_swiglu-46 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3368 j=3369 src=1 op=MUL_MAT name=ffn_out-46 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3428 name=ffn_swiglu-47 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3428 j=3430 src=1 op=MUL_MAT name=ffn_out-47 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3506 name=ffn_swiglu-48 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3506 j=3508 src=1 op=MUL_MAT name=ffn_out-48 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3584 name=ffn_swiglu-49 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3584 j=3586 src=1 op=MUL_MAT name=ffn_out-49 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3653 name=ffn_swiglu-50 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3653 j=3654 src=1 op=MUL_MAT name=ffn_out-50 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3713 name=ffn_swiglu-51 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3713 j=3715 src=1 op=MUL_MAT name=ffn_out-51 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3791 name=ffn_swiglu-52 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3791 j=3793 src=1 op=MUL_MAT name=ffn_out-52 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3869 name=ffn_swiglu-53 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3869 j=3871 src=1 op=MUL_MAT name=ffn_out-53 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3938 name=ffn_swiglu-54 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3938 j=3939 src=1 op=MUL_MAT name=ffn_out-54 shape=5120,2,1,1
+GLU_AUDIT_NODE i=3998 name=ffn_swiglu-55 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=3998 j=4000 src=1 op=MUL_MAT name=ffn_out-55 shape=5120,2,1,1
+GLU_AUDIT_NODE i=4076 name=ffn_swiglu-56 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=4076 j=4078 src=1 op=MUL_MAT name=ffn_out-56 shape=5120,2,1,1
+GLU_AUDIT_NODE i=4154 name=ffn_swiglu-57 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=4154 j=4156 src=1 op=MUL_MAT name=ffn_out-57 shape=5120,2,1,1
+GLU_AUDIT_NODE i=4223 name=ffn_swiglu-58 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=4223 j=4224 src=1 op=MUL_MAT name=ffn_out-58 shape=5120,2,1,1
+GLU_AUDIT_NODE i=4283 name=ffn_swiglu-59 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=4283 j=4285 src=1 op=MUL_MAT name=ffn_out-59 shape=5120,2,1,1
+GLU_AUDIT_NODE i=4361 name=ffn_swiglu-60 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=4361 j=4363 src=1 op=MUL_MAT name=ffn_out-60 shape=5120,2,1,1
+GLU_AUDIT_NODE i=4439 name=ffn_swiglu-61 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=4439 j=4441 src=1 op=MUL_MAT name=ffn_out-61 shape=5120,2,1,1
+GLU_AUDIT_NODE i=4508 name=ffn_swiglu-62 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=4508 j=4509 src=1 op=MUL_MAT name=ffn_out-62 shape=5120,2,1,1
+GLU_AUDIT_NODE i=4561 name=ffn_swiglu-63 type=f32 shape=17408,1,1,1
+GLU_AUDIT_USE i=4561 j=4562 src=1 op=MUL_MAT name=ffn_out-63 shape=5120,1,1,1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=2 k=17408 q8_activation=0
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=2 k=17408 q8_activation=0
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=2 k=17408 q8_activation=0
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=2 k=17408 q8_activation=0
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=2 k=17408 q8_activation=0
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=2 k=17408 q8_activation=0
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=2 k=17408 q8_activation=0
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=1 k=17408 q8_activation=0
+0.07.256.520 I common_speculative_init_result: loading draft model '${HF_CACHE}/hub/models--incoai--Qwen3.8-27B-DFlash2-GGUF/blobs/d169ad335929adc0d77e10e2523f968f3e75f547637ad739b0a137ccde111b5f'
+0.08.285.256 W llama_context: n_ctx_seq (327680) > n_ctx_train (262144) -- possible training context overflow
+0.08.525.414 W srv    load_model: cache_reuse is not supported by this context, it will be disabled
+0.08.525.426 I srv    load_model: initializing, n_slots = 1, n_ctx_slot = 327680, kv_unified = 'false'
+0.08.538.510 I common_speculative_impl_draft_dflash: adding speculative implementation 'draft-dflash'
+0.08.538.525 I common_speculative_impl_draft_dflash: - n_max=4, n_min=0, p_min=0.00
+0.08.538.526 I common_speculative_impl_draft_dflash: - block_size=8, mask_token_id=248070, n_extract=5, sample_from_anchor=true
+GLU_AUDIT_GRAPH 2 nodes=724
+GLU_AUDIT_NODE i=126 name=ffn_swiglu-0 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=126 j=127 src=1 op=MUL_MAT name=ffn_out-0 shape=5120,2,1,1
+GLU_AUDIT_NODE i=263 name=ffn_swiglu-1 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=263 j=264 src=1 op=MUL_MAT name=ffn_out-1 shape=5120,2,1,1
+GLU_AUDIT_NODE i=400 name=ffn_swiglu-2 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=400 j=401 src=1 op=MUL_MAT name=ffn_out-2 shape=5120,2,1,1
+GLU_AUDIT_NODE i=537 name=ffn_swiglu-3 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=537 j=538 src=1 op=MUL_MAT name=ffn_out-3 shape=5120,2,1,1
+GLU_AUDIT_NODE i=675 name=ffn_swiglu-4 type=f32 shape=17408,2,1,1
+GLU_AUDIT_USE i=675 j=676 src=1 op=MUL_MAT name=ffn_out-4 shape=5120,2,1,1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=2 k=17408 q8_activation=0
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=2 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=2 k=17408 q8_activation=0
+0.08.920.696 I srv  server_run_i: model loaded
+0.08.924.185 I srv  server_on_li: listening on http://127.0.0.1:53505
+0.09.247.943 I slot get_availabl: id  0 | task -1 | selected slot by LRU, n_tokens = 0, t_last = -1
+0.09.248.176 I slot launch_slot_: id  0 | task 0 | processing task, is_child = 0
+GLU_AUDIT_GRAPH 3 nodes=7256
+GLU_AUDIT_NODE i=86 name=ffn_swiglu-0 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=86 j=88 src=1 op=MUL_MAT name=ffn_out-0 shape=5120,42,1,1
+GLU_AUDIT_NODE i=164 name=ffn_swiglu-1 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=164 j=166 src=1 op=MUL_MAT name=ffn_out-1 shape=5120,42,1,1
+GLU_AUDIT_NODE i=233 name=ffn_swiglu-2 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=233 j=234 src=1 op=MUL_MAT name=ffn_out-2 shape=5120,42,1,1
+GLU_AUDIT_NODE i=293 name=ffn_swiglu-3 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=293 j=295 src=1 op=MUL_MAT name=ffn_out-3 shape=5120,42,1,1
+GLU_AUDIT_NODE i=371 name=ffn_swiglu-4 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=371 j=373 src=1 op=MUL_MAT name=ffn_out-4 shape=5120,42,1,1
+GLU_AUDIT_NODE i=449 name=ffn_swiglu-5 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=449 j=451 src=1 op=MUL_MAT name=ffn_out-5 shape=5120,42,1,1
+GLU_AUDIT_NODE i=518 name=ffn_swiglu-6 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=518 j=519 src=1 op=MUL_MAT name=ffn_out-6 shape=5120,42,1,1
+GLU_AUDIT_NODE i=578 name=ffn_swiglu-7 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=578 j=580 src=1 op=MUL_MAT name=ffn_out-7 shape=5120,42,1,1
+GLU_AUDIT_NODE i=656 name=ffn_swiglu-8 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=656 j=658 src=1 op=MUL_MAT name=ffn_out-8 shape=5120,42,1,1
+GLU_AUDIT_NODE i=734 name=ffn_swiglu-9 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=734 j=736 src=1 op=MUL_MAT name=ffn_out-9 shape=5120,42,1,1
+GLU_AUDIT_NODE i=803 name=ffn_swiglu-10 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=803 j=804 src=1 op=MUL_MAT name=ffn_out-10 shape=5120,42,1,1
+GLU_AUDIT_NODE i=863 name=ffn_swiglu-11 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=863 j=865 src=1 op=MUL_MAT name=ffn_out-11 shape=5120,42,1,1
+GLU_AUDIT_NODE i=941 name=ffn_swiglu-12 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=941 j=943 src=1 op=MUL_MAT name=ffn_out-12 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1019 name=ffn_swiglu-13 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1019 j=1021 src=1 op=MUL_MAT name=ffn_out-13 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1088 name=ffn_swiglu-14 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1088 j=1089 src=1 op=MUL_MAT name=ffn_out-14 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1148 name=ffn_swiglu-15 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1148 j=1150 src=1 op=MUL_MAT name=ffn_out-15 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1226 name=ffn_swiglu-16 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1226 j=1228 src=1 op=MUL_MAT name=ffn_out-16 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1304 name=ffn_swiglu-17 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1304 j=1306 src=1 op=MUL_MAT name=ffn_out-17 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1373 name=ffn_swiglu-18 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1373 j=1374 src=1 op=MUL_MAT name=ffn_out-18 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1433 name=ffn_swiglu-19 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1433 j=1435 src=1 op=MUL_MAT name=ffn_out-19 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1511 name=ffn_swiglu-20 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1511 j=1513 src=1 op=MUL_MAT name=ffn_out-20 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1589 name=ffn_swiglu-21 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1589 j=1591 src=1 op=MUL_MAT name=ffn_out-21 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1658 name=ffn_swiglu-22 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1658 j=1659 src=1 op=MUL_MAT name=ffn_out-22 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1718 name=ffn_swiglu-23 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1718 j=1720 src=1 op=MUL_MAT name=ffn_out-23 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1796 name=ffn_swiglu-24 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1796 j=1798 src=1 op=MUL_MAT name=ffn_out-24 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1874 name=ffn_swiglu-25 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1874 j=1876 src=1 op=MUL_MAT name=ffn_out-25 shape=5120,42,1,1
+GLU_AUDIT_NODE i=1943 name=ffn_swiglu-26 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=1943 j=1944 src=1 op=MUL_MAT name=ffn_out-26 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2003 name=ffn_swiglu-27 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2003 j=2005 src=1 op=MUL_MAT name=ffn_out-27 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2081 name=ffn_swiglu-28 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2081 j=2083 src=1 op=MUL_MAT name=ffn_out-28 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2159 name=ffn_swiglu-29 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2159 j=2161 src=1 op=MUL_MAT name=ffn_out-29 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2228 name=ffn_swiglu-30 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2228 j=2229 src=1 op=MUL_MAT name=ffn_out-30 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2288 name=ffn_swiglu-31 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2288 j=2290 src=1 op=MUL_MAT name=ffn_out-31 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2366 name=ffn_swiglu-32 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2366 j=2368 src=1 op=MUL_MAT name=ffn_out-32 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2444 name=ffn_swiglu-33 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2444 j=2446 src=1 op=MUL_MAT name=ffn_out-33 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2513 name=ffn_swiglu-34 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2513 j=2514 src=1 op=MUL_MAT name=ffn_out-34 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2573 name=ffn_swiglu-35 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2573 j=2575 src=1 op=MUL_MAT name=ffn_out-35 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2651 name=ffn_swiglu-36 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2651 j=2653 src=1 op=MUL_MAT name=ffn_out-36 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2729 name=ffn_swiglu-37 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2729 j=2731 src=1 op=MUL_MAT name=ffn_out-37 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2798 name=ffn_swiglu-38 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2798 j=2799 src=1 op=MUL_MAT name=ffn_out-38 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2858 name=ffn_swiglu-39 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2858 j=2860 src=1 op=MUL_MAT name=ffn_out-39 shape=5120,42,1,1
+GLU_AUDIT_NODE i=2936 name=ffn_swiglu-40 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=2936 j=2938 src=1 op=MUL_MAT name=ffn_out-40 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3014 name=ffn_swiglu-41 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3014 j=3016 src=1 op=MUL_MAT name=ffn_out-41 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3083 name=ffn_swiglu-42 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3083 j=3084 src=1 op=MUL_MAT name=ffn_out-42 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3143 name=ffn_swiglu-43 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3143 j=3145 src=1 op=MUL_MAT name=ffn_out-43 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3221 name=ffn_swiglu-44 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3221 j=3223 src=1 op=MUL_MAT name=ffn_out-44 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3299 name=ffn_swiglu-45 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3299 j=3301 src=1 op=MUL_MAT name=ffn_out-45 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3368 name=ffn_swiglu-46 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3368 j=3369 src=1 op=MUL_MAT name=ffn_out-46 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3428 name=ffn_swiglu-47 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3428 j=3430 src=1 op=MUL_MAT name=ffn_out-47 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3506 name=ffn_swiglu-48 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3506 j=3508 src=1 op=MUL_MAT name=ffn_out-48 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3584 name=ffn_swiglu-49 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3584 j=3586 src=1 op=MUL_MAT name=ffn_out-49 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3653 name=ffn_swiglu-50 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3653 j=3654 src=1 op=MUL_MAT name=ffn_out-50 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3713 name=ffn_swiglu-51 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3713 j=3715 src=1 op=MUL_MAT name=ffn_out-51 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3791 name=ffn_swiglu-52 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3791 j=3793 src=1 op=MUL_MAT name=ffn_out-52 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3869 name=ffn_swiglu-53 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3869 j=3871 src=1 op=MUL_MAT name=ffn_out-53 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3938 name=ffn_swiglu-54 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3938 j=3939 src=1 op=MUL_MAT name=ffn_out-54 shape=5120,42,1,1
+GLU_AUDIT_NODE i=3998 name=ffn_swiglu-55 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=3998 j=4000 src=1 op=MUL_MAT name=ffn_out-55 shape=5120,42,1,1
+GLU_AUDIT_NODE i=4076 name=ffn_swiglu-56 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=4076 j=4078 src=1 op=MUL_MAT name=ffn_out-56 shape=5120,42,1,1
+GLU_AUDIT_NODE i=4154 name=ffn_swiglu-57 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=4154 j=4156 src=1 op=MUL_MAT name=ffn_out-57 shape=5120,42,1,1
+GLU_AUDIT_NODE i=4223 name=ffn_swiglu-58 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=4223 j=4224 src=1 op=MUL_MAT name=ffn_out-58 shape=5120,42,1,1
+GLU_AUDIT_NODE i=4283 name=ffn_swiglu-59 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=4283 j=4285 src=1 op=MUL_MAT name=ffn_out-59 shape=5120,42,1,1
+GLU_AUDIT_NODE i=4361 name=ffn_swiglu-60 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=4361 j=4363 src=1 op=MUL_MAT name=ffn_out-60 shape=5120,42,1,1
+GLU_AUDIT_NODE i=4439 name=ffn_swiglu-61 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=4439 j=4441 src=1 op=MUL_MAT name=ffn_out-61 shape=5120,42,1,1
+GLU_AUDIT_NODE i=4508 name=ffn_swiglu-62 type=f32 shape=17408,42,1,1
+GLU_AUDIT_USE i=4508 j=4509 src=1 op=MUL_MAT name=ffn_out-62 shape=5120,42,1,1
+GLU_AUDIT_NODE i=4561 name=ffn_swiglu-63 type=f32 shape=17408,0,1,1
+GLU_AUDIT_USE i=4561 j=4562 src=1 op=MUL_MAT name=ffn_out-63 shape=5120,0,1,1
+GLU_AUDIT_GRAPH 4 nodes=88
+GLU_AUDIT_GRAPH 5 nodes=7256
+GLU_AUDIT_NODE i=86 name=ffn_swiglu-0 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=86 j=88 src=1 op=MUL_MAT name=ffn_out-0 shape=5120,9,1,1
+GLU_AUDIT_NODE i=164 name=ffn_swiglu-1 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=164 j=166 src=1 op=MUL_MAT name=ffn_out-1 shape=5120,9,1,1
+GLU_AUDIT_NODE i=233 name=ffn_swiglu-2 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=233 j=234 src=1 op=MUL_MAT name=ffn_out-2 shape=5120,9,1,1
+GLU_AUDIT_NODE i=293 name=ffn_swiglu-3 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=293 j=295 src=1 op=MUL_MAT name=ffn_out-3 shape=5120,9,1,1
+GLU_AUDIT_NODE i=371 name=ffn_swiglu-4 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=371 j=373 src=1 op=MUL_MAT name=ffn_out-4 shape=5120,9,1,1
+GLU_AUDIT_NODE i=449 name=ffn_swiglu-5 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=449 j=451 src=1 op=MUL_MAT name=ffn_out-5 shape=5120,9,1,1
+GLU_AUDIT_NODE i=518 name=ffn_swiglu-6 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=518 j=519 src=1 op=MUL_MAT name=ffn_out-6 shape=5120,9,1,1
+GLU_AUDIT_NODE i=578 name=ffn_swiglu-7 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=578 j=580 src=1 op=MUL_MAT name=ffn_out-7 shape=5120,9,1,1
+GLU_AUDIT_NODE i=656 name=ffn_swiglu-8 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=656 j=658 src=1 op=MUL_MAT name=ffn_out-8 shape=5120,9,1,1
+GLU_AUDIT_NODE i=734 name=ffn_swiglu-9 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=734 j=736 src=1 op=MUL_MAT name=ffn_out-9 shape=5120,9,1,1
+GLU_AUDIT_NODE i=803 name=ffn_swiglu-10 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=803 j=804 src=1 op=MUL_MAT name=ffn_out-10 shape=5120,9,1,1
+GLU_AUDIT_NODE i=863 name=ffn_swiglu-11 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=863 j=865 src=1 op=MUL_MAT name=ffn_out-11 shape=5120,9,1,1
+GLU_AUDIT_NODE i=941 name=ffn_swiglu-12 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=941 j=943 src=1 op=MUL_MAT name=ffn_out-12 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1019 name=ffn_swiglu-13 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1019 j=1021 src=1 op=MUL_MAT name=ffn_out-13 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1088 name=ffn_swiglu-14 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1088 j=1089 src=1 op=MUL_MAT name=ffn_out-14 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1148 name=ffn_swiglu-15 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1148 j=1150 src=1 op=MUL_MAT name=ffn_out-15 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1226 name=ffn_swiglu-16 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1226 j=1228 src=1 op=MUL_MAT name=ffn_out-16 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1304 name=ffn_swiglu-17 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1304 j=1306 src=1 op=MUL_MAT name=ffn_out-17 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1373 name=ffn_swiglu-18 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1373 j=1374 src=1 op=MUL_MAT name=ffn_out-18 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1433 name=ffn_swiglu-19 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1433 j=1435 src=1 op=MUL_MAT name=ffn_out-19 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1511 name=ffn_swiglu-20 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1511 j=1513 src=1 op=MUL_MAT name=ffn_out-20 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1589 name=ffn_swiglu-21 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1589 j=1591 src=1 op=MUL_MAT name=ffn_out-21 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1658 name=ffn_swiglu-22 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1658 j=1659 src=1 op=MUL_MAT name=ffn_out-22 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1718 name=ffn_swiglu-23 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1718 j=1720 src=1 op=MUL_MAT name=ffn_out-23 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1796 name=ffn_swiglu-24 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1796 j=1798 src=1 op=MUL_MAT name=ffn_out-24 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1874 name=ffn_swiglu-25 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1874 j=1876 src=1 op=MUL_MAT name=ffn_out-25 shape=5120,9,1,1
+GLU_AUDIT_NODE i=1943 name=ffn_swiglu-26 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=1943 j=1944 src=1 op=MUL_MAT name=ffn_out-26 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2003 name=ffn_swiglu-27 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2003 j=2005 src=1 op=MUL_MAT name=ffn_out-27 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2081 name=ffn_swiglu-28 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2081 j=2083 src=1 op=MUL_MAT name=ffn_out-28 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2159 name=ffn_swiglu-29 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2159 j=2161 src=1 op=MUL_MAT name=ffn_out-29 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2228 name=ffn_swiglu-30 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2228 j=2229 src=1 op=MUL_MAT name=ffn_out-30 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2288 name=ffn_swiglu-31 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2288 j=2290 src=1 op=MUL_MAT name=ffn_out-31 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2366 name=ffn_swiglu-32 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2366 j=2368 src=1 op=MUL_MAT name=ffn_out-32 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2444 name=ffn_swiglu-33 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2444 j=2446 src=1 op=MUL_MAT name=ffn_out-33 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2513 name=ffn_swiglu-34 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2513 j=2514 src=1 op=MUL_MAT name=ffn_out-34 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2573 name=ffn_swiglu-35 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2573 j=2575 src=1 op=MUL_MAT name=ffn_out-35 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2651 name=ffn_swiglu-36 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2651 j=2653 src=1 op=MUL_MAT name=ffn_out-36 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2729 name=ffn_swiglu-37 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2729 j=2731 src=1 op=MUL_MAT name=ffn_out-37 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2798 name=ffn_swiglu-38 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2798 j=2799 src=1 op=MUL_MAT name=ffn_out-38 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2858 name=ffn_swiglu-39 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2858 j=2860 src=1 op=MUL_MAT name=ffn_out-39 shape=5120,9,1,1
+GLU_AUDIT_NODE i=2936 name=ffn_swiglu-40 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=2936 j=2938 src=1 op=MUL_MAT name=ffn_out-40 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3014 name=ffn_swiglu-41 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3014 j=3016 src=1 op=MUL_MAT name=ffn_out-41 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3083 name=ffn_swiglu-42 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3083 j=3084 src=1 op=MUL_MAT name=ffn_out-42 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3143 name=ffn_swiglu-43 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3143 j=3145 src=1 op=MUL_MAT name=ffn_out-43 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3221 name=ffn_swiglu-44 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3221 j=3223 src=1 op=MUL_MAT name=ffn_out-44 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3299 name=ffn_swiglu-45 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3299 j=3301 src=1 op=MUL_MAT name=ffn_out-45 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3368 name=ffn_swiglu-46 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3368 j=3369 src=1 op=MUL_MAT name=ffn_out-46 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3428 name=ffn_swiglu-47 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3428 j=3430 src=1 op=MUL_MAT name=ffn_out-47 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3506 name=ffn_swiglu-48 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3506 j=3508 src=1 op=MUL_MAT name=ffn_out-48 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3584 name=ffn_swiglu-49 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3584 j=3586 src=1 op=MUL_MAT name=ffn_out-49 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3653 name=ffn_swiglu-50 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3653 j=3654 src=1 op=MUL_MAT name=ffn_out-50 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3713 name=ffn_swiglu-51 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3713 j=3715 src=1 op=MUL_MAT name=ffn_out-51 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3791 name=ffn_swiglu-52 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3791 j=3793 src=1 op=MUL_MAT name=ffn_out-52 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3869 name=ffn_swiglu-53 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3869 j=3871 src=1 op=MUL_MAT name=ffn_out-53 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3938 name=ffn_swiglu-54 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3938 j=3939 src=1 op=MUL_MAT name=ffn_out-54 shape=5120,9,1,1
+GLU_AUDIT_NODE i=3998 name=ffn_swiglu-55 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=3998 j=4000 src=1 op=MUL_MAT name=ffn_out-55 shape=5120,9,1,1
+GLU_AUDIT_NODE i=4076 name=ffn_swiglu-56 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=4076 j=4078 src=1 op=MUL_MAT name=ffn_out-56 shape=5120,9,1,1
+GLU_AUDIT_NODE i=4154 name=ffn_swiglu-57 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=4154 j=4156 src=1 op=MUL_MAT name=ffn_out-57 shape=5120,9,1,1
+GLU_AUDIT_NODE i=4223 name=ffn_swiglu-58 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=4223 j=4224 src=1 op=MUL_MAT name=ffn_out-58 shape=5120,9,1,1
+GLU_AUDIT_NODE i=4283 name=ffn_swiglu-59 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=4283 j=4285 src=1 op=MUL_MAT name=ffn_out-59 shape=5120,9,1,1
+GLU_AUDIT_NODE i=4361 name=ffn_swiglu-60 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=4361 j=4363 src=1 op=MUL_MAT name=ffn_out-60 shape=5120,9,1,1
+GLU_AUDIT_NODE i=4439 name=ffn_swiglu-61 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=4439 j=4441 src=1 op=MUL_MAT name=ffn_out-61 shape=5120,9,1,1
+GLU_AUDIT_NODE i=4508 name=ffn_swiglu-62 type=f32 shape=17408,9,1,1
+GLU_AUDIT_USE i=4508 j=4509 src=1 op=MUL_MAT name=ffn_out-62 shape=5120,9,1,1
+GLU_AUDIT_NODE i=4561 name=ffn_swiglu-63 type=f32 shape=17408,0,1,1
+GLU_AUDIT_USE i=4561 j=4562 src=1 op=MUL_MAT name=ffn_out-63 shape=5120,0,1,1
+GLU_AUDIT_GRAPH 6 nodes=88
+GLU_AUDIT_GRAPH 7 nodes=7256
+GLU_AUDIT_NODE i=86 name=ffn_swiglu-0 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=86 j=88 src=1 op=MUL_MAT name=ffn_out-0 shape=5120,4,1,1
+GLU_AUDIT_NODE i=164 name=ffn_swiglu-1 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=164 j=166 src=1 op=MUL_MAT name=ffn_out-1 shape=5120,4,1,1
+GLU_AUDIT_NODE i=233 name=ffn_swiglu-2 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=233 j=234 src=1 op=MUL_MAT name=ffn_out-2 shape=5120,4,1,1
+GLU_AUDIT_NODE i=293 name=ffn_swiglu-3 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=293 j=295 src=1 op=MUL_MAT name=ffn_out-3 shape=5120,4,1,1
+GLU_AUDIT_NODE i=371 name=ffn_swiglu-4 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=371 j=373 src=1 op=MUL_MAT name=ffn_out-4 shape=5120,4,1,1
+GLU_AUDIT_NODE i=449 name=ffn_swiglu-5 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=449 j=451 src=1 op=MUL_MAT name=ffn_out-5 shape=5120,4,1,1
+GLU_AUDIT_NODE i=518 name=ffn_swiglu-6 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=518 j=519 src=1 op=MUL_MAT name=ffn_out-6 shape=5120,4,1,1
+GLU_AUDIT_NODE i=578 name=ffn_swiglu-7 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=578 j=580 src=1 op=MUL_MAT name=ffn_out-7 shape=5120,4,1,1
+GLU_AUDIT_NODE i=656 name=ffn_swiglu-8 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=656 j=658 src=1 op=MUL_MAT name=ffn_out-8 shape=5120,4,1,1
+GLU_AUDIT_NODE i=734 name=ffn_swiglu-9 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=734 j=736 src=1 op=MUL_MAT name=ffn_out-9 shape=5120,4,1,1
+GLU_AUDIT_NODE i=803 name=ffn_swiglu-10 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=803 j=804 src=1 op=MUL_MAT name=ffn_out-10 shape=5120,4,1,1
+GLU_AUDIT_NODE i=863 name=ffn_swiglu-11 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=863 j=865 src=1 op=MUL_MAT name=ffn_out-11 shape=5120,4,1,1
+GLU_AUDIT_NODE i=941 name=ffn_swiglu-12 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=941 j=943 src=1 op=MUL_MAT name=ffn_out-12 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1019 name=ffn_swiglu-13 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1019 j=1021 src=1 op=MUL_MAT name=ffn_out-13 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1088 name=ffn_swiglu-14 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1088 j=1089 src=1 op=MUL_MAT name=ffn_out-14 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1148 name=ffn_swiglu-15 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1148 j=1150 src=1 op=MUL_MAT name=ffn_out-15 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1226 name=ffn_swiglu-16 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1226 j=1228 src=1 op=MUL_MAT name=ffn_out-16 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1304 name=ffn_swiglu-17 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1304 j=1306 src=1 op=MUL_MAT name=ffn_out-17 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1373 name=ffn_swiglu-18 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1373 j=1374 src=1 op=MUL_MAT name=ffn_out-18 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1433 name=ffn_swiglu-19 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1433 j=1435 src=1 op=MUL_MAT name=ffn_out-19 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1511 name=ffn_swiglu-20 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1511 j=1513 src=1 op=MUL_MAT name=ffn_out-20 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1589 name=ffn_swiglu-21 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1589 j=1591 src=1 op=MUL_MAT name=ffn_out-21 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1658 name=ffn_swiglu-22 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1658 j=1659 src=1 op=MUL_MAT name=ffn_out-22 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1718 name=ffn_swiglu-23 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1718 j=1720 src=1 op=MUL_MAT name=ffn_out-23 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1796 name=ffn_swiglu-24 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1796 j=1798 src=1 op=MUL_MAT name=ffn_out-24 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1874 name=ffn_swiglu-25 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1874 j=1876 src=1 op=MUL_MAT name=ffn_out-25 shape=5120,4,1,1
+GLU_AUDIT_NODE i=1943 name=ffn_swiglu-26 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=1943 j=1944 src=1 op=MUL_MAT name=ffn_out-26 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2003 name=ffn_swiglu-27 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2003 j=2005 src=1 op=MUL_MAT name=ffn_out-27 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2081 name=ffn_swiglu-28 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2081 j=2083 src=1 op=MUL_MAT name=ffn_out-28 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2159 name=ffn_swiglu-29 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2159 j=2161 src=1 op=MUL_MAT name=ffn_out-29 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2228 name=ffn_swiglu-30 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2228 j=2229 src=1 op=MUL_MAT name=ffn_out-30 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2288 name=ffn_swiglu-31 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2288 j=2290 src=1 op=MUL_MAT name=ffn_out-31 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2366 name=ffn_swiglu-32 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2366 j=2368 src=1 op=MUL_MAT name=ffn_out-32 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2444 name=ffn_swiglu-33 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2444 j=2446 src=1 op=MUL_MAT name=ffn_out-33 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2513 name=ffn_swiglu-34 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2513 j=2514 src=1 op=MUL_MAT name=ffn_out-34 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2573 name=ffn_swiglu-35 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2573 j=2575 src=1 op=MUL_MAT name=ffn_out-35 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2651 name=ffn_swiglu-36 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2651 j=2653 src=1 op=MUL_MAT name=ffn_out-36 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2729 name=ffn_swiglu-37 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2729 j=2731 src=1 op=MUL_MAT name=ffn_out-37 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2798 name=ffn_swiglu-38 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2798 j=2799 src=1 op=MUL_MAT name=ffn_out-38 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2858 name=ffn_swiglu-39 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2858 j=2860 src=1 op=MUL_MAT name=ffn_out-39 shape=5120,4,1,1
+GLU_AUDIT_NODE i=2936 name=ffn_swiglu-40 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=2936 j=2938 src=1 op=MUL_MAT name=ffn_out-40 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3014 name=ffn_swiglu-41 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3014 j=3016 src=1 op=MUL_MAT name=ffn_out-41 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3083 name=ffn_swiglu-42 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3083 j=3084 src=1 op=MUL_MAT name=ffn_out-42 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3143 name=ffn_swiglu-43 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3143 j=3145 src=1 op=MUL_MAT name=ffn_out-43 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3221 name=ffn_swiglu-44 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3221 j=3223 src=1 op=MUL_MAT name=ffn_out-44 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3299 name=ffn_swiglu-45 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3299 j=3301 src=1 op=MUL_MAT name=ffn_out-45 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3368 name=ffn_swiglu-46 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3368 j=3369 src=1 op=MUL_MAT name=ffn_out-46 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3428 name=ffn_swiglu-47 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3428 j=3430 src=1 op=MUL_MAT name=ffn_out-47 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3506 name=ffn_swiglu-48 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3506 j=3508 src=1 op=MUL_MAT name=ffn_out-48 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3584 name=ffn_swiglu-49 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3584 j=3586 src=1 op=MUL_MAT name=ffn_out-49 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3653 name=ffn_swiglu-50 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3653 j=3654 src=1 op=MUL_MAT name=ffn_out-50 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3713 name=ffn_swiglu-51 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3713 j=3715 src=1 op=MUL_MAT name=ffn_out-51 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3791 name=ffn_swiglu-52 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3791 j=3793 src=1 op=MUL_MAT name=ffn_out-52 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3869 name=ffn_swiglu-53 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3869 j=3871 src=1 op=MUL_MAT name=ffn_out-53 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3938 name=ffn_swiglu-54 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3938 j=3939 src=1 op=MUL_MAT name=ffn_out-54 shape=5120,4,1,1
+GLU_AUDIT_NODE i=3998 name=ffn_swiglu-55 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=3998 j=4000 src=1 op=MUL_MAT name=ffn_out-55 shape=5120,4,1,1
+GLU_AUDIT_NODE i=4076 name=ffn_swiglu-56 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=4076 j=4078 src=1 op=MUL_MAT name=ffn_out-56 shape=5120,4,1,1
+GLU_AUDIT_NODE i=4154 name=ffn_swiglu-57 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=4154 j=4156 src=1 op=MUL_MAT name=ffn_out-57 shape=5120,4,1,1
+GLU_AUDIT_NODE i=4223 name=ffn_swiglu-58 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=4223 j=4224 src=1 op=MUL_MAT name=ffn_out-58 shape=5120,4,1,1
+GLU_AUDIT_NODE i=4283 name=ffn_swiglu-59 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=4283 j=4285 src=1 op=MUL_MAT name=ffn_out-59 shape=5120,4,1,1
+GLU_AUDIT_NODE i=4361 name=ffn_swiglu-60 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=4361 j=4363 src=1 op=MUL_MAT name=ffn_out-60 shape=5120,4,1,1
+GLU_AUDIT_NODE i=4439 name=ffn_swiglu-61 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=4439 j=4441 src=1 op=MUL_MAT name=ffn_out-61 shape=5120,4,1,1
+GLU_AUDIT_NODE i=4508 name=ffn_swiglu-62 type=f32 shape=17408,4,1,1
+GLU_AUDIT_USE i=4508 j=4509 src=1 op=MUL_MAT name=ffn_out-62 shape=5120,4,1,1
+GLU_AUDIT_NODE i=4561 name=ffn_swiglu-63 type=f32 shape=17408,1,1,1
+GLU_AUDIT_USE i=4561 j=4562 src=1 op=MUL_MAT name=ffn_out-63 shape=5120,1,1,1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=1 k=17408 q8_activation=0
+GLU_AUDIT_GRAPH 8 nodes=88
+GLU_AUDIT_GRAPH 9 nodes=750
+GLU_AUDIT_NODE i=126 name=ffn_swiglu-0 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=126 j=127 src=1 op=MUL_MAT name=ffn_out-0 shape=5120,5,1,1
+GLU_AUDIT_NODE i=263 name=ffn_swiglu-1 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=263 j=264 src=1 op=MUL_MAT name=ffn_out-1 shape=5120,5,1,1
+GLU_AUDIT_NODE i=400 name=ffn_swiglu-2 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=400 j=401 src=1 op=MUL_MAT name=ffn_out-2 shape=5120,5,1,1
+GLU_AUDIT_NODE i=537 name=ffn_swiglu-3 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=537 j=538 src=1 op=MUL_MAT name=ffn_out-3 shape=5120,5,1,1
+GLU_AUDIT_NODE i=675 name=ffn_swiglu-4 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=675 j=676 src=1 op=MUL_MAT name=ffn_out-4 shape=5120,5,1,1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_AUDIT_GRAPH 10 nodes=7256
+GLU_AUDIT_NODE i=86 name=ffn_swiglu-0 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=86 j=88 src=1 op=MUL_MAT name=ffn_out-0 shape=5120,5,1,1
+GLU_AUDIT_NODE i=164 name=ffn_swiglu-1 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=164 j=166 src=1 op=MUL_MAT name=ffn_out-1 shape=5120,5,1,1
+GLU_AUDIT_NODE i=233 name=ffn_swiglu-2 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=233 j=234 src=1 op=MUL_MAT name=ffn_out-2 shape=5120,5,1,1
+GLU_AUDIT_NODE i=293 name=ffn_swiglu-3 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=293 j=295 src=1 op=MUL_MAT name=ffn_out-3 shape=5120,5,1,1
+GLU_AUDIT_NODE i=371 name=ffn_swiglu-4 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=371 j=373 src=1 op=MUL_MAT name=ffn_out-4 shape=5120,5,1,1
+GLU_AUDIT_NODE i=449 name=ffn_swiglu-5 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=449 j=451 src=1 op=MUL_MAT name=ffn_out-5 shape=5120,5,1,1
+GLU_AUDIT_NODE i=518 name=ffn_swiglu-6 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=518 j=519 src=1 op=MUL_MAT name=ffn_out-6 shape=5120,5,1,1
+GLU_AUDIT_NODE i=578 name=ffn_swiglu-7 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=578 j=580 src=1 op=MUL_MAT name=ffn_out-7 shape=5120,5,1,1
+GLU_AUDIT_NODE i=656 name=ffn_swiglu-8 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=656 j=658 src=1 op=MUL_MAT name=ffn_out-8 shape=5120,5,1,1
+GLU_AUDIT_NODE i=734 name=ffn_swiglu-9 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=734 j=736 src=1 op=MUL_MAT name=ffn_out-9 shape=5120,5,1,1
+GLU_AUDIT_NODE i=803 name=ffn_swiglu-10 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=803 j=804 src=1 op=MUL_MAT name=ffn_out-10 shape=5120,5,1,1
+GLU_AUDIT_NODE i=863 name=ffn_swiglu-11 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=863 j=865 src=1 op=MUL_MAT name=ffn_out-11 shape=5120,5,1,1
+GLU_AUDIT_NODE i=941 name=ffn_swiglu-12 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=941 j=943 src=1 op=MUL_MAT name=ffn_out-12 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1019 name=ffn_swiglu-13 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1019 j=1021 src=1 op=MUL_MAT name=ffn_out-13 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1088 name=ffn_swiglu-14 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1088 j=1089 src=1 op=MUL_MAT name=ffn_out-14 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1148 name=ffn_swiglu-15 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1148 j=1150 src=1 op=MUL_MAT name=ffn_out-15 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1226 name=ffn_swiglu-16 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1226 j=1228 src=1 op=MUL_MAT name=ffn_out-16 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1304 name=ffn_swiglu-17 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1304 j=1306 src=1 op=MUL_MAT name=ffn_out-17 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1373 name=ffn_swiglu-18 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1373 j=1374 src=1 op=MUL_MAT name=ffn_out-18 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1433 name=ffn_swiglu-19 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1433 j=1435 src=1 op=MUL_MAT name=ffn_out-19 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1511 name=ffn_swiglu-20 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1511 j=1513 src=1 op=MUL_MAT name=ffn_out-20 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1589 name=ffn_swiglu-21 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1589 j=1591 src=1 op=MUL_MAT name=ffn_out-21 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1658 name=ffn_swiglu-22 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1658 j=1659 src=1 op=MUL_MAT name=ffn_out-22 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1718 name=ffn_swiglu-23 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1718 j=1720 src=1 op=MUL_MAT name=ffn_out-23 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1796 name=ffn_swiglu-24 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1796 j=1798 src=1 op=MUL_MAT name=ffn_out-24 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1874 name=ffn_swiglu-25 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1874 j=1876 src=1 op=MUL_MAT name=ffn_out-25 shape=5120,5,1,1
+GLU_AUDIT_NODE i=1943 name=ffn_swiglu-26 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=1943 j=1944 src=1 op=MUL_MAT name=ffn_out-26 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2003 name=ffn_swiglu-27 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2003 j=2005 src=1 op=MUL_MAT name=ffn_out-27 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2081 name=ffn_swiglu-28 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2081 j=2083 src=1 op=MUL_MAT name=ffn_out-28 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2159 name=ffn_swiglu-29 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2159 j=2161 src=1 op=MUL_MAT name=ffn_out-29 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2228 name=ffn_swiglu-30 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2228 j=2229 src=1 op=MUL_MAT name=ffn_out-30 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2288 name=ffn_swiglu-31 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2288 j=2290 src=1 op=MUL_MAT name=ffn_out-31 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2366 name=ffn_swiglu-32 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2366 j=2368 src=1 op=MUL_MAT name=ffn_out-32 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2444 name=ffn_swiglu-33 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2444 j=2446 src=1 op=MUL_MAT name=ffn_out-33 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2513 name=ffn_swiglu-34 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2513 j=2514 src=1 op=MUL_MAT name=ffn_out-34 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2573 name=ffn_swiglu-35 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2573 j=2575 src=1 op=MUL_MAT name=ffn_out-35 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2651 name=ffn_swiglu-36 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2651 j=2653 src=1 op=MUL_MAT name=ffn_out-36 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2729 name=ffn_swiglu-37 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2729 j=2731 src=1 op=MUL_MAT name=ffn_out-37 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2798 name=ffn_swiglu-38 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2798 j=2799 src=1 op=MUL_MAT name=ffn_out-38 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2858 name=ffn_swiglu-39 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2858 j=2860 src=1 op=MUL_MAT name=ffn_out-39 shape=5120,5,1,1
+GLU_AUDIT_NODE i=2936 name=ffn_swiglu-40 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=2936 j=2938 src=1 op=MUL_MAT name=ffn_out-40 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3014 name=ffn_swiglu-41 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3014 j=3016 src=1 op=MUL_MAT name=ffn_out-41 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3083 name=ffn_swiglu-42 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3083 j=3084 src=1 op=MUL_MAT name=ffn_out-42 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3143 name=ffn_swiglu-43 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3143 j=3145 src=1 op=MUL_MAT name=ffn_out-43 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3221 name=ffn_swiglu-44 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3221 j=3223 src=1 op=MUL_MAT name=ffn_out-44 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3299 name=ffn_swiglu-45 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3299 j=3301 src=1 op=MUL_MAT name=ffn_out-45 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3368 name=ffn_swiglu-46 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3368 j=3369 src=1 op=MUL_MAT name=ffn_out-46 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3428 name=ffn_swiglu-47 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3428 j=3430 src=1 op=MUL_MAT name=ffn_out-47 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3506 name=ffn_swiglu-48 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3506 j=3508 src=1 op=MUL_MAT name=ffn_out-48 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3584 name=ffn_swiglu-49 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3584 j=3586 src=1 op=MUL_MAT name=ffn_out-49 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3653 name=ffn_swiglu-50 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3653 j=3654 src=1 op=MUL_MAT name=ffn_out-50 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3713 name=ffn_swiglu-51 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3713 j=3715 src=1 op=MUL_MAT name=ffn_out-51 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3791 name=ffn_swiglu-52 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3791 j=3793 src=1 op=MUL_MAT name=ffn_out-52 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3869 name=ffn_swiglu-53 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3869 j=3871 src=1 op=MUL_MAT name=ffn_out-53 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3938 name=ffn_swiglu-54 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3938 j=3939 src=1 op=MUL_MAT name=ffn_out-54 shape=5120,5,1,1
+GLU_AUDIT_NODE i=3998 name=ffn_swiglu-55 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=3998 j=4000 src=1 op=MUL_MAT name=ffn_out-55 shape=5120,5,1,1
+GLU_AUDIT_NODE i=4076 name=ffn_swiglu-56 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=4076 j=4078 src=1 op=MUL_MAT name=ffn_out-56 shape=5120,5,1,1
+GLU_AUDIT_NODE i=4154 name=ffn_swiglu-57 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=4154 j=4156 src=1 op=MUL_MAT name=ffn_out-57 shape=5120,5,1,1
+GLU_AUDIT_NODE i=4223 name=ffn_swiglu-58 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=4223 j=4224 src=1 op=MUL_MAT name=ffn_out-58 shape=5120,5,1,1
+GLU_AUDIT_NODE i=4283 name=ffn_swiglu-59 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=4283 j=4285 src=1 op=MUL_MAT name=ffn_out-59 shape=5120,5,1,1
+GLU_AUDIT_NODE i=4361 name=ffn_swiglu-60 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=4361 j=4363 src=1 op=MUL_MAT name=ffn_out-60 shape=5120,5,1,1
+GLU_AUDIT_NODE i=4439 name=ffn_swiglu-61 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=4439 j=4441 src=1 op=MUL_MAT name=ffn_out-61 shape=5120,5,1,1
+GLU_AUDIT_NODE i=4508 name=ffn_swiglu-62 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=4508 j=4509 src=1 op=MUL_MAT name=ffn_out-62 shape=5120,5,1,1
+GLU_AUDIT_NODE i=4561 name=ffn_swiglu-63 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=4561 j=4562 src=1 op=MUL_MAT name=ffn_out-63 shape=5120,5,1,1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_AUDIT_GRAPH 11 nodes=88
+GLU_AUDIT_GRAPH 12 nodes=750
+GLU_AUDIT_NODE i=126 name=ffn_swiglu-0 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=126 j=127 src=1 op=MUL_MAT name=ffn_out-0 shape=5120,5,1,1
+GLU_AUDIT_NODE i=263 name=ffn_swiglu-1 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=263 j=264 src=1 op=MUL_MAT name=ffn_out-1 shape=5120,5,1,1
+GLU_AUDIT_NODE i=400 name=ffn_swiglu-2 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=400 j=401 src=1 op=MUL_MAT name=ffn_out-2 shape=5120,5,1,1
+GLU_AUDIT_NODE i=537 name=ffn_swiglu-3 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=537 j=538 src=1 op=MUL_MAT name=ffn_out-3 shape=5120,5,1,1
+GLU_AUDIT_NODE i=675 name=ffn_swiglu-4 type=f32 shape=17408,5,1,1
+GLU_AUDIT_USE i=675 j=676 src=1 op=MUL_MAT name=ffn_out-4 shape=5120,5,1,1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+0.10.762.161 I slot print_timing: id  0 | task 0 | prompt eval time =    1197.06 ms /    55 tokens (   21.76 ms per token,    45.95 tokens per second)
+0.10.762.178 I slot print_timing: id  0 | task 0 |        eval time =     316.34 ms /    16 tokens (   21.09 ms per token,    47.42 tokens per second)
+0.10.762.179 I slot print_timing: id  0 | task 0 |       total time =    1513.40 ms /    71 tokens
+0.10.762.180 I slot print_timing: id  0 | task 0 |    graphs reused =          2
+0.10.762.181 I slot print_timing: id  0 | task 0 |   graph reallocs =          0    /     0        (same size) / (changed size)
+0.10.762.229 I slot print_timing: id  0 | task 0 | draft acceptance = 1.00000 (   12 accepted /    12 generated), mean len =  5.00
+0.10.762.271 I slot      release: id  0 | task 0 | stop processing: n_tokens = 70, truncated = 0
+0.10.785.104 I slot get_availabl: id  0 | task -1 | selected slot by LCP similarity, f_sim_best = 0.634 (> 0.100 thold), f_keep = 0.643
+0.10.785.353 I slot launch_slot_: id  0 | task 7 | processing task, is_child = 0
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=1 k=17408 q8_activation=0
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=4 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=5 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q4_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q5_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=3 k=17408 q8_activation=1
+GLU_MMVQ_AUDIT weight=q6_K m=5120 n=3 k=17408 q8_activation=1
+0.13.234.423 I slot print_timing: id  0 | task 7 | prompt eval time =     971.12 ms /    71 tokens (   13.68 ms per token,    73.11 tokens per second)
+0.13.234.433 I slot print_timing: id  0 | task 7 |        eval time =    1477.38 ms /    64 tokens (   23.45 ms per token,    42.64 tokens per second)
+0.13.234.434 I slot print_timing: id  0 | task 7 |       total time =    2448.50 ms /   135 tokens
+0.13.234.435 I slot print_timing: id  0 | task 7 |    graphs reused =         20
+0.13.234.436 I slot print_timing: id  0 | task 7 |   graph reallocs =          0    /     0        (same size) / (changed size)
+0.13.234.485 I slot print_timing: id  0 | task 7 | draft acceptance = 0.51852 (   42 accepted /    81 generated), mean len =  3.00
+0.13.234.525 I slot      release: id  0 | task 7 | stop processing: n_tokens = 134, truncated = 0
+0.13.255.084 I srv    operator(): operator(): cleaning up before exit...
