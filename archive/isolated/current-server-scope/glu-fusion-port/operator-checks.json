@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "arms": [
+    {
+      "mode": "baseline",
+      "sha256": "9d17e84b97894d9327194c12ef95ee3bf9edca432504c88774b8593d919b5970",
+      "bytes": 5574400,
+      "fused_calls": 0,
+      "new_gpu_errors": []
+    },
+    {
+      "mode": "fusion",
+      "sha256": "9d17e84b97894d9327194c12ef95ee3bf9edca432504c88774b8593d919b5970",
+      "bytes": 5574400,
+      "fused_calls": 3224,
+      "new_gpu_errors": []
+    }
+  ],
+  "scope": "4 synthetic patterns, width 5, 4 GLUs and Q3_K/Q4_K/Q5_K/Q6_K consumers; same candidate backend default-off vs on; no model/speed qualification"
+}

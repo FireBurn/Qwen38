@@ -44621,13 +44621,101 @@
       "sanitized": true
     },
     {
+      "source": "isolated/run_current_glu_fusion_operator.py",
+      "path": "archive/isolated/run_current_glu_fusion_operator.py",
+      "source_sha256": "ad058b1177c119a058621081cfbd94ac5448b3592ac247553c3765aa610745f0",
+      "export_sha256": "ad058b1177c119a058621081cfbd94ac5448b3592ac247553c3765aa610745f0",
+      "bytes": 2942,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/glu-fusion-port/make_draft.py",
       "path": "archive/isolated/current-server-scope/glu-fusion-port/make_draft.py",
-      "source_sha256": "345887a5bdf882f27561c3ba3711c2e34df6dbb8f55a35e1227e8cb049c0dfac",
-      "export_sha256": "345887a5bdf882f27561c3ba3711c2e34df6dbb8f55a35e1227e8cb049c0dfac",
-      "bytes": 3343,
+      "source_sha256": "0e9486aa80c5f7f345bbad573de1a269a0b6e471b29c94fcee1a3274f198f1ad",
+      "export_sha256": "0e9486aa80c5f7f345bbad573de1a269a0b6e471b29c94fcee1a3274f198f1ad",
+      "bytes": 3452,
       "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator.cpp",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator.cpp",
+      "source_sha256": "4d2315db3be466cab180f4be36e16ab6904e3851f1fcb4769ea7642a7f25df34",
+      "export_sha256": "4d2315db3be466cab180f4be36e16ab6904e3851f1fcb4769ea7642a7f25df34",
+      "bytes": 4640,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-checks.json",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-checks.json",
+      "source_sha256": "edd1b23ca1273fc84ad9dbc0cd9532c61ca420389fc1feecca05d4d0751f51e0",
+      "export_sha256": "edd1b23ca1273fc84ad9dbc0cd9532c61ca420389fc1feecca05d4d0751f51e0",
+      "bytes": 592,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-assets.json",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-assets.json",
+      "source_sha256": "acf837f58e2a2388406ad34c24aee38bb03e55675e9b25c02859ad0628769a6e",
+      "export_sha256": "0599690aad567fb716da682f1bfb8e73ad76a9602e3fb85477ed29cafcb1884f",
+      "bytes": 733,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-baseline.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-baseline.log",
+      "source_sha256": "9f0254c66365929434a510f991d41911337bf388ad56e61c796387b1b6d27eb3",
+      "export_sha256": "13a442696538479e1f1aa0adfaad5e679772b7f893f008c42dcb66bd7cba077d",
+      "bytes": 1152,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-fusion.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-fusion.log",
+      "source_sha256": "de482f813745aabe08c9dd7e1ddccb69fa78fddd1a0dcb3cdb36a8fd6fa1c056",
+      "export_sha256": "e060dd90de9291a79312827a38d3ab97bffb652d58ce9163e7967fa3cf5b3df0",
+      "bytes": 208294,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-invalid-hip-baseline.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-invalid-hip-baseline.log",
+      "source_sha256": "3bd14ae32a9e259d0b08d6c0dffea549327f8b6c882258dc7dbe7089f0df8ddc",
+      "export_sha256": "fbaabc76748e76b73ea0f0a94ae41f220a0b73c92e08eaf62c570e53902ab100",
+      "bytes": 1127,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-invalid-hip-fusion.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-invalid-hip-fusion.log",
+      "source_sha256": "f7fd1c156b6154503e6b2a4bb80a215358c3036092d540ce96bb5b394a3c942f",
+      "export_sha256": "d9f06bad2a830fb66e2982ad25e66e25344fccc8dd11791d96317e6cc2455211",
+      "bytes": 1127,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/operator-diagnostic-checks.json",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/operator-diagnostic-checks.json",
+      "source_sha256": "000d4ec6040a7dd5c208d538a88ed58d3048ec546cc81e951a6b74ee0e101f9a",
+      "export_sha256": "000d4ec6040a7dd5c208d538a88ed58d3048ec546cc81e951a6b74ee0e101f9a",
+      "bytes": 184,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/build.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/build.log",
+      "source_sha256": "25ac6af1ea881e41239d502be5c588990f7259089c2061af7b868e0f7a5638f6",
+      "export_sha256": "a3777cc04efccac0ff7328f2a44f2c85d2ea919cc74a977f153694d5c30d59db",
+      "bytes": 4024,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/glu-fusion-port/build2.log",
+      "path": "archive/isolated/current-server-scope/glu-fusion-port/build2.log",
+      "source_sha256": "2ce171cb9838b8684a1b080a3d7135de22d5dada35e60827ce8f79789ec263df",
+      "export_sha256": "31a505c2871db5158a5e3281922b440498b9d094c60fd842d32532d75af426ba",
+      "bytes": 2082,
+      "sanitized": true
     }
   ],
-  "updated_utc": "2026-11-08T05:50:37.804165+00:00"
+  "updated_utc": "2026-11-08T05:54:02.897022+00:00"
 }
