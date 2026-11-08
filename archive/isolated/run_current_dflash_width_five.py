@@ -41,7 +41,7 @@ def same_models():
   st=Path(v['path']).stat()
   if (st.st_dev,st.st_ino,st.st_size,st.st_mtime_ns)!=(v['device'],v['inode'],v['bytes'],v['mtime_ns']):return False
  return True
-pci=Path('/sys/bus/pci/devices/0000:07:00.0');rows=[]
+pci=Path('/sys/bus/pci/devices/0000:07:00.0');rows=[];feature_path=None
 for index,width in enumerate(sequence):
  assert sha(server)==server_hash and same_models() and same_libraries() and not competition() and not other_server() and not installing_llama()
  with socket.socket() as sock:sock.bind(('127.0.0.1',0));port=sock.getsockname()[1]
@@ -80,11 +80,15 @@ for index,width in enumerate(sequence):
    else:raise TimeoutError('server readiness')
    maps=(Path('/proc')/str(proc.pid)/'maps').read_text().splitlines();mapped={str(Path(line.split(None,5)[5].removesuffix(' (deleted)')).resolve()) for line in maps if len(line.split(None,5))==6 and line.split(None,5)[5].startswith('/')};assert all(str(f) in mapped for f in library_paths),{'missing_mappings':[str(f) for f in library_paths if str(f) not in mapped]}
    text=log.read_text();assert 'radv_buffer_meta_path overridden' in text and "adding speculative implementation 'draft-dflash'" in text and f'n_max={width},' in text
+   markers=re.findall(r'DFlash target features via (device buffer|host copies)', text);assert len(set(markers))<=1,markers
+   current_feature_path=markers[0] if markers else 'unreported'
+   if feature_path is None:feature_path=current_feature_path
+   assert current_feature_path==feature_path, (feature_path,current_feature_path)
    def request(p,n):
     payload={'messages':[{'role':'user','content':p}],'max_tokens':n,'seed':1234,'temperature':0.6,'top_p':0.95,'top_k':20,'min_p':0.0,'cache_prompt':False,'ignore_eos':True,'stream':False};t=time.monotonic();a=http('/v1/chat/completions',payload,timeout=600);return {'elapsed_seconds':time.monotonic()-t,'timings':a.get('timings',{}),'usage':a.get('usage',{}),'choices':len(a.get('choices',[])),'output_sha256':hashlib.sha256(json.dumps(a.get('choices',[]),sort_keys=True).encode()).hexdigest()}
    phase='warmup';warm=request('Say hello.',16);assert proc.poll() is None and not errors and not faults(),(errors,faults());phase='measured';result=request(prompt,512);phase='after';assert proc.poll() is None and not errors and not faults(),(errors,faults());t=result['timings'];assert result['choices']>0 and t.get('predicted_n')==512 and t.get('draft_n',0)>0 and t.get('predicted_per_second',0)>0,(index,t)
    active=[x for x in samples if x['phase']=='measured' and x['cpu_busy'] is not None];assert len(active)>=5,'missing measured CPU telemetry'
-   report.update(passed=True,pid=proc.pid,verified_mappings=sorted(str(f) for f in library_paths),request=result,phase_cpu=statistics.mean(x['cpu_busy'] for x in active),phase_builds=statistics.mean(x['builds'] for x in active),phase_runnable=statistics.mean(x['runnable'] for x in active),gpu_samples=sum(x['gpu_busy'] is not None for x in active),gpu_busy=statistics.mean(x['gpu_busy'] for x in active if x['gpu_busy'] is not None) if any(x['gpu_busy'] is not None for x in active) else None,vram_peak=max((x['vram'] for x in active if x['vram'] is not None),default=None),new_gpu_errors=faults())
+   report.update(passed=True,pid=proc.pid,dflash_feature_path=current_feature_path,verified_mappings=sorted(str(f) for f in library_paths),request=result,phase_cpu=statistics.mean(x['cpu_busy'] for x in active),phase_builds=statistics.mean(x['builds'] for x in active),phase_runnable=statistics.mean(x['runnable'] for x in active),gpu_samples=sum(x['gpu_busy'] is not None for x in active),gpu_busy=statistics.mean(x['gpu_busy'] for x in active if x['gpu_busy'] is not None) if any(x['gpu_busy'] is not None for x in active) else None,vram_peak=max((x['vram'] for x in active if x['vram'] is not None),default=None),new_gpu_errors=faults())
  finally:
   if proc is not None and proc.poll() is None:
    os.killpg(proc.pid,signal.SIGTERM)
