@@ -1,0 +1,12 @@
+--- a/ggml/src/ggml-vulkan/ggml-vulkan.cpp
++++ b/ggml/src/ggml-vulkan/ggml-vulkan.cpp
+@@ -6837,6 +6837,9 @@
+     if (quantize_y) {
+         to_q8_1 = ggml_vk_get_quantize_pipeline(ctx, GGML_TYPE_Q8_1);
+     }
++    if (getenv("GGML_VK_Q3_TRACE_CASE") && src0->type == GGML_TYPE_Q3_K) {
++        fprintf(stderr, "Q3_SELECTED_TRACE m=%llu n=%llu k=%llu q8_activation=%d\n", (unsigned long long) ne01, (unsigned long long) ne11, (unsigned long long) ne00, (int) quantize_y);
++    }
+ 
+     if (ggml_nbytes(src0) > ctx->device->properties.limits.maxStorageBufferRange) {
+         dmmv = ggml_vk_get_64b_indexing_pipeline(ctx, dmmv);

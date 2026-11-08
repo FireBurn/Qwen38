@@ -1,0 +1,3 @@
+# Confirm Q3 operator shader selection
+
+The prior synthetic comparisons matched at four shapes, and source inspection suggests an integer Q8-activation path for these multi-column matrices. Build baseline and candidate backends with the same environment-gated host selection trace, then rerun only the observed K=5120, M=17408, N=5 synthetic case once per backend. Require traced Q3 selection with q8_activation=1, pinned in-process backend and RADV mappings, bit-identical output and no new GPU errors. This is a narrow operator correctness/path check, not model output or performance evidence. Apply process-local one-dword copy, disable the transfer queue, monitor faults and competition, and stop on failure without retry. General GPU hold remains.

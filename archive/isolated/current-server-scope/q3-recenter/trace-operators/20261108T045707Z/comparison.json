@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "baseline": {
+        "sha256": "13e01cb59d9ad5be61f044538d4abc86e1ba944808597871f36214214ce83804",
+        "new_gpu_errors": []
+      },
+      "candidate": {
+        "sha256": "13e01cb59d9ad5be61f044538d4abc86e1ba944808597871f36214214ce83804",
+        "new_gpu_errors": []
+      },
+      "m": 17408,
+      "n": 5,
+      "exact": true
+    }
+  ],
+  "scope": "synthetic Q3 backend output comparison, not speed or full correctness"
+}

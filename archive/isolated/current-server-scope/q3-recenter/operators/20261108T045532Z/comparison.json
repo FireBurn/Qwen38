@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "baseline": {
+        "sha256": "a0c0646697b4c60d2cbfe9574451b9760018c2d38d4f2f8c9822ff29ce6e3447",
+        "new_gpu_errors": []
+      },
+      "candidate": {
+        "sha256": "a0c0646697b4c60d2cbfe9574451b9760018c2d38d4f2f8c9822ff29ce6e3447",
+        "new_gpu_errors": []
+      },
+      "m": 64,
+      "n": 4,
+      "exact": true
+    },
+    {
+      "baseline": {
+        "sha256": "dc9e3f23110cbb4caa038208db460c5f8000f9b84f5db6329b2c4cb2e973b7e5",
+        "new_gpu_errors": []
+      },
+      "candidate": {
+        "sha256": "dc9e3f23110cbb4caa038208db460c5f8000f9b84f5db6329b2c4cb2e973b7e5",
+        "new_gpu_errors": []
+      },
+      "m": 64,
+      "n": 5,
+      "exact": true
+    },
+    {
+      "baseline": {
+        "sha256": "746d211f3fe5c50903de9f622770ffc3a34352f7d1d43d2903f06934b1c86fb8",
+        "new_gpu_errors": []
+      },
+      "candidate": {
+        "sha256": "746d211f3fe5c50903de9f622770ffc3a34352f7d1d43d2903f06934b1c86fb8",
+        "new_gpu_errors": []
+      },
+      "m": 17408,
+      "n": 4,
+      "exact": true
+    },
+    {
+      "baseline": {
+        "sha256": "13e01cb59d9ad5be61f044538d4abc86e1ba944808597871f36214214ce83804",
+        "new_gpu_errors": []
+      },
+      "candidate": {
+        "sha256": "13e01cb59d9ad5be61f044538d4abc86e1ba944808597871f36214214ce83804",
+        "new_gpu_errors": []
+      },
+      "m": 17408,
+      "n": 5,
+      "exact": true
+    }
+  ],
+  "scope": "synthetic Q3 backend output comparison, not speed or full correctness"
+}

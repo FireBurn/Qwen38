@@ -1,0 +1,17 @@
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+ATTENTION: default value of option radv_enable_transfer_queue overridden by environment.
+ATTENTION: default value of option radv_buffer_meta_path overridden by environment.
+WARNING: radv is not a conformant Vulkan implementation, testing use only.
+ggml_vulkan: Found 1 Vulkan devices:
+ggml_vulkan: 0 = AMD Radeon AI Pro R9700 (RADV GFX1201) (radv) | uma: 0 | fp16: dot2 | bf16: 1 | fp4: 0 | warp size: 64 | shared memory: 65536 | int dot: 1 | matrix cores: KHR_coopmat
+DRIVER_MAP 7f79e26bb000-7f79e3111000 r--p 00000000 103:02 5513248                   /usr/lib/libvulkan_radeon.so
+DRIVER_MAP 7f79e3111000-7f79e3bc4000 r-xp 00a55000 103:02 5513248                   /usr/lib/libvulkan_radeon.so
+DRIVER_MAP 7f79e3bc4000-7f79e3c32000 rw-p 01507000 103:02 5513248                   /usr/lib/libvulkan_radeon.so
+DRIVER_MAP 7f79e3c32000-7f79e3c3c000 rw-p 01574000 103:02 5513248                   /usr/lib/libvulkan_radeon.so
+BACKEND_MAP 7f79e3cf9000-7f79e64e1000 r--p 00000000 103:03 49203735                  ${WORKSPACE}/isolated/current-server-scope/q3-recenter/baseline/libggml-vulkan.so.0.28.0
+BACKEND_MAP 7f79e64e1000-7f79e65f6000 r-xp 027e7000 103:03 49203735                  ${WORKSPACE}/isolated/current-server-scope/q3-recenter/baseline/libggml-vulkan.so.0.28.0
+BACKEND_MAP 7f79e65f6000-7f79e65fa000 rw-p 028fb000 103:03 49203735                  ${WORKSPACE}/isolated/current-server-scope/q3-recenter/baseline/libggml-vulkan.so.0.28.0
+BACKEND_MAP 7f79e65fa000-7f79e65fc000 rw-p 028fe000 103:03 49203735                  ${WORKSPACE}/isolated/current-server-scope/q3-recenter/baseline/libggml-vulkan.so.0.28.0
+Q3_CASE_BEGIN k=5120 m=17408 n=5
+Q3_CASE_PASS k=5120 m=17408 n=5

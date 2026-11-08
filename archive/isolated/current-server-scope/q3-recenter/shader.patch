@@ -1,0 +1,28 @@
+--- a/mul_mat_vecq_funcs.glsl
++++ b/mul_mat_vecq_funcs.glsl
+@@ -277,12 +277,7 @@
+     const uint vals3 = ((    qs.w >> qs_shift) & 0x03030303) |
+                        (((hmask.w >> hm_shift) & 0x01010101) << 2);
+ 
+-    // Subtract 4 by twiddling bits rather than using re-packing as mesa
+-    // compiles repacking poorly.
+-    return i32vec4(int32_t(((vals0 ^ 0x80808080) - 0x04040404) ^ 0x80808080),
+-                   int32_t(((vals1 ^ 0x80808080) - 0x04040404) ^ 0x80808080),
+-                   int32_t(((vals2 ^ 0x80808080) - 0x04040404) ^ 0x80808080),
+-                   int32_t(((vals3 ^ 0x80808080) - 0x04040404) ^ 0x80808080));
++    return i32vec4(vals0, vals1, vals2, vals3);
+ }
+ 
+ float get_d_scale(uint ib, uint iqs) {
+@@ -306,6 +301,11 @@
+     q_sum += dotPacked4x8EXT(qs_a.z, cache_b_qs[2]);
+     q_sum += dotPacked4x8EXT(qs_a.w, cache_b_qs[3]);
+ 
++    const int32_t y_sum = dotPacked4x8EXT(0x01010101, cache_b_qs[0])
++                        + dotPacked4x8EXT(0x01010101, cache_b_qs[1])
++                        + dotPacked4x8EXT(0x01010101, cache_b_qs[2])
++                        + dotPacked4x8EXT(0x01010101, cache_b_qs[3]);
++    q_sum -= 4 * y_sum;
+     return FLOAT_TYPE(float(cache_b_ds.x) * d_scale * float(q_sum));
+ }
+ #endif
