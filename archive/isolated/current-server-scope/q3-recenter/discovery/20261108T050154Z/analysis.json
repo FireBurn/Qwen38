@@ -1,0 +1,92 @@
+{
+  "blocks": [
+    {
+      "block": 0,
+      "matched": true,
+      "log_effect": -0.006695103073215414,
+      "cpu": {
+        "baseline": 0.10165515452996071,
+        "candidate": 0.09173402362166763
+      },
+      "builds": {
+        "baseline": 1.5,
+        "candidate": 1.4722222222222223
+      },
+      "runnable": {
+        "baseline": 2.584126984126984,
+        "candidate": 2.5138888888888893
+      }
+    },
+    {
+      "block": 1,
+      "matched": true,
+      "log_effect": -0.0037730744451129894,
+      "cpu": {
+        "baseline": 0.13164170775742323,
+        "candidate": 0.12569442603736206
+      },
+      "builds": {
+        "baseline": 2,
+        "candidate": 1.8055555555555556
+      },
+      "runnable": {
+        "baseline": 3.185714285714286,
+        "candidate": 3.0027777777777778
+      }
+    },
+    {
+      "block": 2,
+      "matched": true,
+      "log_effect": -0.0031086177139894033,
+      "cpu": {
+        "baseline": 0.07177274132879694,
+        "candidate": 0.06812611982669106
+      },
+      "builds": {
+        "baseline": 1,
+        "candidate": 1
+      },
+      "runnable": {
+        "baseline": 2.2777777777777777,
+        "candidate": 2.1944444444444446
+      }
+    },
+    {
+      "block": 3,
+      "matched": true,
+      "log_effect": -0.0035884035477540266,
+      "cpu": {
+        "baseline": 0.06831540291176595,
+        "candidate": 0.0665964587165998
+      },
+      "builds": {
+        "baseline": 1,
+        "candidate": 1
+      },
+      "runnable": {
+        "baseline": 2.125,
+        "candidate": 2.111111111111111
+      }
+    }
+  ],
+  "all4": {
+    "blocks": 4,
+    "geometric_speed_change_percent": -0.42821052252587644,
+    "descriptive_t95_percent": [
+      -0.685632043110062,
+      -0.17012176878476598
+    ],
+    "lower_bound_positive": false
+  },
+  "matched": {
+    "blocks": 4,
+    "geometric_speed_change_percent": -0.42821052252587644,
+    "descriptive_t95_percent": [
+      -0.685632043110062,
+      -0.17012176878476598
+    ],
+    "lower_bound_positive": false
+  },
+  "scope": "One short stochastic prompt; Q3 recenter candidate vs private baseline discovery, no quality, long-context or deployment claim.",
+  "confirmation_eligible": false
+}

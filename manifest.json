@@ -3101,6 +3101,14 @@
       "sanitized": false
     },
     {
+      "source": "isolated/current-server-scope/q3-recenter/DISCOVERY-PLAN.md",
+      "path": "archive/isolated/current-server-scope/q3-recenter/DISCOVERY-PLAN.md",
+      "source_sha256": "d10d326835f4821ad8127c544c327ef43cee752738ed59831bd09a493b24bd38",
+      "export_sha256": "d10d326835f4821ad8127c544c327ef43cee752738ed59831bd09a493b24bd38",
+      "bytes": 1585,
+      "sanitized": false
+    },
+    {
       "source": "isolated/current-server-scope/q3-recenter/MODEL-TRACE-PLAN.md",
       "path": "archive/isolated/current-server-scope/q3-recenter/MODEL-TRACE-PLAN.md",
       "source_sha256": "5197fb763877d838969c5b0400f86ca6ae250c249b6e5511f0330b087218cd78",
@@ -3147,6 +3155,414 @@
       "export_sha256": "815d47c2153122c6d2be82339493110a460b98c4613b4e8856f41ed289c26f09",
       "bytes": 493,
       "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/00-nbaseline.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/00-nbaseline.log",
+      "source_sha256": "8477578ea89409774613a9c9947e4f25265e362d7ce218dccacd0b322f4ab962",
+      "export_sha256": "b496ab1a903f00f24f182846729908f02719b2bd10eb1d4fc72bd0c554346920",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/00-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/00-result.json",
+      "source_sha256": "3f4fc9121aaa0df6c5ed48f094b0d4b47f663ebeeaedccff3513fac72a76be6d",
+      "export_sha256": "1105565cc335f36a17baef3c21fbb0bf725d6b1653ce05a7f402c1ab1c4d49eb",
+      "bytes": 2203,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/00-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/00-telemetry.json",
+      "source_sha256": "f4039d56fc7f9a1f49f283301f7690c7be263a05aef2e7ed5af0b81b39eac189",
+      "export_sha256": "f4039d56fc7f9a1f49f283301f7690c7be263a05aef2e7ed5af0b81b39eac189",
+      "bytes": 12670,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/01-ncandidate.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/01-ncandidate.log",
+      "source_sha256": "6cbed43a04195e6ca5e1ef868f76ea34dd537b55463ce26db0bf72c7b0fc7438",
+      "export_sha256": "b8460751dac52ac83ecc731117c70742670f902595cca81f9d2b453badbb128d",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/01-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/01-result.json",
+      "source_sha256": "dc0423e26c279729e362635963f7ae815178a062087af1935b5ad71d80f095bf",
+      "export_sha256": "4511ab54537a5f15d7727d92f1f2122aa155c4133a322924180253b07f45c39d",
+      "bytes": 1807,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/01-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/01-telemetry.json",
+      "source_sha256": "f30db57d349b70e9ece39737290ccbf7268b054f7c2270b1a46d8e77c2df68f4",
+      "export_sha256": "f30db57d349b70e9ece39737290ccbf7268b054f7c2270b1a46d8e77c2df68f4",
+      "bytes": 11714,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/02-ncandidate.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/02-ncandidate.log",
+      "source_sha256": "a39a13305324d5580ca8ead93bb7111d54f684c0056682d0e18019a4d9208f56",
+      "export_sha256": "7719771c6f805165929b2a749bc8f329c40f9b162d53c5a3f399bc04da5985f0",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/02-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/02-result.json",
+      "source_sha256": "d7a9e70ef64a7e3f8b34596e09fddf29d4ffb5f60305817b2d5864713b730b1c",
+      "export_sha256": "78b2bacf7abbe48572073a093d4c86ace2e4591f04ae24edc7a8f805fa160442",
+      "bytes": 1834,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/02-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/02-telemetry.json",
+      "source_sha256": "5039457c50e206886a8f2f5a220650c1efe4adbb43d5e0f0702bcf58637ca83c",
+      "export_sha256": "5039457c50e206886a8f2f5a220650c1efe4adbb43d5e0f0702bcf58637ca83c",
+      "bytes": 11815,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/03-nbaseline.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/03-nbaseline.log",
+      "source_sha256": "53cdd68d24ee6820e1766ceb1850b1aba2b820b103671f8e5d6bc1a9dcc4374b",
+      "export_sha256": "561a8fd4e775bc23f9a314e1891650399bdcafaf4d89107c86b285bb77cb60c1",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/03-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/03-result.json",
+      "source_sha256": "996363019629935613f6e0b23d59ef36ac27c89ca8403020ee11e325096574c2",
+      "export_sha256": "d64e481e625ee528e6c27d47147382f75fb4304d1e5e87f575c44e9a99a17ccc",
+      "bytes": 1803,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/03-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/03-telemetry.json",
+      "source_sha256": "22468a16d7d228ede3d7abd3c29c804facf2e0ba38c1f7cf47de49802f12ef3d",
+      "export_sha256": "22468a16d7d228ede3d7abd3c29c804facf2e0ba38c1f7cf47de49802f12ef3d",
+      "bytes": 11235,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/04-ncandidate.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/04-ncandidate.log",
+      "source_sha256": "0fddf5f664eacc1efe5cfd658295082fbb1acb4eb8c78ae23845227c2d2ff1a9",
+      "export_sha256": "a2faca5ae71608abb5fe68604f78b367fe2bdd6156b3c2636509918d1c26bd04",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/04-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/04-result.json",
+      "source_sha256": "eaa5084b5201c3a076f00512ff5ae367d294fcdd6b98ad5a3343c4b060952f21",
+      "export_sha256": "bec5194f491bd03fc42a5cc64c8ca576e7dac94e5f234dcac601c9c161cdb298",
+      "bytes": 1802,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/04-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/04-telemetry.json",
+      "source_sha256": "6588732ec32dbe7e8d0aafd79776000b153773636abcfb0ece56f2a56180621a",
+      "export_sha256": "6588732ec32dbe7e8d0aafd79776000b153773636abcfb0ece56f2a56180621a",
+      "bytes": 11250,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/05-nbaseline.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/05-nbaseline.log",
+      "source_sha256": "42026b2907ff91501934ff78437a142250eff50d6e4ef35f607bd8981fa89d33",
+      "export_sha256": "f7f7df5315119ae7d0c12134af57be3c2dff05d55110b16e8f513e22226291d8",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/05-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/05-result.json",
+      "source_sha256": "ff45acc267cacb98571de91fb5d2439a0c7561385891ea44585f81760d4b657b",
+      "export_sha256": "29c36a66b11623747839238e21b67871dcb429da132dcd25190f8c424825fac3",
+      "bytes": 1817,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/05-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/05-telemetry.json",
+      "source_sha256": "8cf8d8d5b7283dd452049697cbde34b2f429fa7b7adce23ff0c02901903ec455",
+      "export_sha256": "8cf8d8d5b7283dd452049697cbde34b2f429fa7b7adce23ff0c02901903ec455",
+      "bytes": 11252,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/06-nbaseline.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/06-nbaseline.log",
+      "source_sha256": "4ca7d9a6c097b58669fcfc2a9a712416f0af4ef1dec868bb14a2328cf7d7ee51",
+      "export_sha256": "12211962a70e7bec4adcd0cfd9e28b742bc480fc1059eab2a04de10078ad0d41",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/06-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/06-result.json",
+      "source_sha256": "6b95ea5c6b4bac0ef8cc890ad753478c8a561a8dae40be430480034088ffc98f",
+      "export_sha256": "e60ba9ac51334a3217c3ce820c197f6d3a1ed5f324cf7c1c298a618a16200fc3",
+      "bytes": 1813,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/06-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/06-telemetry.json",
+      "source_sha256": "8ecf48630c2f0ff46a64207b30c66c6a4455a46d26c8f754bab68deaaa863bb1",
+      "export_sha256": "8ecf48630c2f0ff46a64207b30c66c6a4455a46d26c8f754bab68deaaa863bb1",
+      "bytes": 11245,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/07-ncandidate.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/07-ncandidate.log",
+      "source_sha256": "a961a0b460ebb675ca111e6f5fe4c16abb1ac97d8625b6c7899cdba8acb02d5e",
+      "export_sha256": "4cfdc2a2e5305f9c0d9678f765583b529dfca13661f0696521263cec1150f529",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/07-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/07-result.json",
+      "source_sha256": "a080e743856513956ced254551bb2caf2a50d45b5e9ab9900492e8df5d927b67",
+      "export_sha256": "aed0bec8d9215595a83fa3e1809cbf5c5cb3caaf7be70c02e75169fe9e15bc25",
+      "bytes": 1834,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/07-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/07-telemetry.json",
+      "source_sha256": "c56fbc18ea60618fb7cbc1c408adf5b846d9d061a851358f947ae64dce81da93",
+      "export_sha256": "c56fbc18ea60618fb7cbc1c408adf5b846d9d061a851358f947ae64dce81da93",
+      "bytes": 11810,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/08-nbaseline.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/08-nbaseline.log",
+      "source_sha256": "e5a96bf3f761d8af68aad13d627367a4e18656ddd7d1764a8adf74562cd97e26",
+      "export_sha256": "5d405011d6c1a5572d5f5b0d8016c321615864692d96195346a6110e9a144452",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/08-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/08-result.json",
+      "source_sha256": "fb3ac411c98f3237e2166a9616be6724d940fbe83392a2ea88f4a1446c0f0ef3",
+      "export_sha256": "d9feb37b299945ba061f74dbc361ab3ec5f7f192af53ea61e07d0ce5e25520b8",
+      "bytes": 1803,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/08-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/08-telemetry.json",
+      "source_sha256": "a4e7a06d53a4cdba58ad25c69c623a631b185d99d301371498e8ac2c1279dff5",
+      "export_sha256": "a4e7a06d53a4cdba58ad25c69c623a631b185d99d301371498e8ac2c1279dff5",
+      "bytes": 11775,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/09-ncandidate.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/09-ncandidate.log",
+      "source_sha256": "c08c324e69c655d7009f005a8a8b5e09f6c15ef8838585667938853628f4d8e4",
+      "export_sha256": "caa1ce521bb4804470c01ce61dcfe19b567f3ab63bec77ad22b282777b11cc5a",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/09-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/09-result.json",
+      "source_sha256": "1786d4d5a4ccbbca047c1cc49e1d086a167862b9d08d7120625dd6c850a49398",
+      "export_sha256": "ce6a2d17f04fe866b61984ae39292ae4dc9f49a9fcf2ec0413a06e617c6aaf1c",
+      "bytes": 1818,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/09-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/09-telemetry.json",
+      "source_sha256": "c98eb60c1bb1d5eae7d44186a7d8d5da145aaff80e171e50131cad14b5617584",
+      "export_sha256": "c98eb60c1bb1d5eae7d44186a7d8d5da145aaff80e171e50131cad14b5617584",
+      "bytes": 11786,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/10-ncandidate.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/10-ncandidate.log",
+      "source_sha256": "90163be0fb3de43ed2d90973f841bb3a9c8e587c4f7b2231f5b54edc061b8ab1",
+      "export_sha256": "3a106cbdaae2e405bc6416bd1cab9bede0fb7db3217fa50702793136de9f6458",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/10-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/10-result.json",
+      "source_sha256": "9dfcba76a5964861099e6e0d1b2db8bc194a4585147e9a5b7dd610c50ed41a1b",
+      "export_sha256": "4cf3c7b53b8c582c9d7dd753469889d11f2a6493c8e913995583ee825beefc3c",
+      "bytes": 1819,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/10-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/10-telemetry.json",
+      "source_sha256": "b47258fd35031a7d87d17ab36d93bb67ffbd2305e85af004b18e283677f076f1",
+      "export_sha256": "b47258fd35031a7d87d17ab36d93bb67ffbd2305e85af004b18e283677f076f1",
+      "bytes": 11781,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/11-nbaseline.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/11-nbaseline.log",
+      "source_sha256": "b69ab1dd81585c056057805e356939ef97c4108e8a1a3643ca22d9bf28ee8a8e",
+      "export_sha256": "71445a8c809c1d82e3c17575d556bbee9427aadecffd7b4832aec992808fb240",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/11-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/11-result.json",
+      "source_sha256": "3e9b4a57e8b9c7473a0cc7bd1b84dddf7969930db53b5cdd6e1d9423fa1ea244",
+      "export_sha256": "fe2152e17026b8142e3eaded7fa3fcbc1fcc945ad71d7417c9dfca73f2d47d9b",
+      "bytes": 1816,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/11-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/11-telemetry.json",
+      "source_sha256": "fcc3f629d90f234928a5ad238171a184200656c5d6f18ed36d072be6f0b6c98e",
+      "export_sha256": "fcc3f629d90f234928a5ad238171a184200656c5d6f18ed36d072be6f0b6c98e",
+      "bytes": 11826,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/12-ncandidate.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/12-ncandidate.log",
+      "source_sha256": "cc2e4c5c932a48b9e4f8b09ef46341cd1aeb23f80062be897922b39316b810c4",
+      "export_sha256": "dfcd4195ed23640bb31dabafcf7d9a41697a08d4148100a963aef24a1ec61826",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/12-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/12-result.json",
+      "source_sha256": "eee3c36012754966d7b9f02b57e8fb91b1ab52d05c27dfd849106a7feec5dcb9",
+      "export_sha256": "7092ef6926fdb3322ef382946064d6686105235b6e8e2d999e45ad5f40539b07",
+      "bytes": 1817,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/12-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/12-telemetry.json",
+      "source_sha256": "a761cb0762cb53882628c8f46aaf13be9f34707338e4a3c9fb0e23f3e491d388",
+      "export_sha256": "a761cb0762cb53882628c8f46aaf13be9f34707338e4a3c9fb0e23f3e491d388",
+      "bytes": 11808,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/13-nbaseline.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/13-nbaseline.log",
+      "source_sha256": "1e02cec62ac7e1d48824b0678e72a4f5ad64063e108c8400707e8fb7405228a3",
+      "export_sha256": "c41053c0f6d77f3f24b26ddc725464820ba80ea4a686cd79f8850a5877b3c1b2",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/13-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/13-result.json",
+      "source_sha256": "e6d1a4567d1e2d258da074f61f7b1befe0a6ac9484be0835f03cd748450f9784",
+      "export_sha256": "eb75b99921b584aa1ca8f20a5dca0187f88a5b6386ce7a98dbb587ba40fe01e1",
+      "bytes": 1802,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/13-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/13-telemetry.json",
+      "source_sha256": "eb796b04e81aeb0b5fd46988cd15a8f365a3e96699702ab1054da3a3eaf88043",
+      "export_sha256": "eb796b04e81aeb0b5fd46988cd15a8f365a3e96699702ab1054da3a3eaf88043",
+      "bytes": 11796,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/14-nbaseline.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/14-nbaseline.log",
+      "source_sha256": "46e3a0b4860c9b896debccaa2b39a68090a27a3ec242c02c2c86255a5390e554",
+      "export_sha256": "4d5f56431b6a91d3950df5ff14a9ccf0367903f79978d1fa1192be63893a483f",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/14-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/14-result.json",
+      "source_sha256": "f900f9440439bc1e54da66f81945de1917304bdd7f4fc2ec5330807b3feae502",
+      "export_sha256": "1907ead94ce4d46a92a6858dfa9cdc85d3135d12ade333be486237c1ec347aee",
+      "bytes": 1804,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/14-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/14-telemetry.json",
+      "source_sha256": "0133193d62430b12c225d3926b3c52c56776367a15b9d8f0516cb7e4cb1f63cb",
+      "export_sha256": "0133193d62430b12c225d3926b3c52c56776367a15b9d8f0516cb7e4cb1f63cb",
+      "bytes": 11819,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/15-ncandidate.log",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/15-ncandidate.log",
+      "source_sha256": "c74006f8d0e1aaffc1e88aabb95d7f9de8a2ea3329b608ae77a9f7f78c52cd1e",
+      "export_sha256": "5fb9cedbc2add4fe0b35c7358cee39b1fb366590a79d5cfe82f3c8c8de4b8fce",
+      "bytes": 5924,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/15-result.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/15-result.json",
+      "source_sha256": "0315a7cb40545569c5e23da179369be3ce9e05770666f0d54ac0e1144426ab7f",
+      "export_sha256": "db09fbc381cf724fc08dfb5853ac8a4b9519e7a2eea161caadc65a75327ddb72",
+      "bytes": 1819,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/15-telemetry.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/15-telemetry.json",
+      "source_sha256": "abd73c8b8b3fc920f57de50bf4e1f00335e77f14bd4da4113c63f4ef78d1d9a0",
+      "export_sha256": "abd73c8b8b3fc920f57de50bf4e1f00335e77f14bd4da4113c63f4ef78d1d9a0",
+      "bytes": 11757,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/analysis.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/analysis.json",
+      "source_sha256": "211b667f34ca565711dce4398084c30cec89dfd2c929cac7aabb278ed8b83d11",
+      "export_sha256": "211b667f34ca565711dce4398084c30cec89dfd2c929cac7aabb278ed8b83d11",
+      "bytes": 2200,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/protocol.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/protocol.json",
+      "source_sha256": "6c9003391ca75d3ed7403f9fb15e47ea793454e2b236383b0b9aa247873fb386",
+      "export_sha256": "208b8f36f2f07ab40ee49d18c977b3120d06f820361cc7d6ac4778020e9a75e2",
+      "bytes": 3170,
+      "sanitized": true
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/results.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/discovery/20261108T050154Z/results.json",
+      "source_sha256": "ce1f09ddba201f177a668aad4a6e035fbfff29e5d832fbba8a14d3c09b3579d3",
+      "export_sha256": "5e1cd5bdb5e1dbb87dde69fa7e56214d1cb4c6e7da47f46fa2eef05d5241ef30",
+      "bytes": 31158,
+      "sanitized": true
     },
     {
       "source": "isolated/current-server-scope/q3-recenter/host-trace.patch",
@@ -3498,6 +3914,14 @@
       "source_sha256": "7f4a89d80c8eb7c5fc7a6aad40d07cab94ae5e5174f540affb799c048dc32559",
       "export_sha256": "7f4a89d80c8eb7c5fc7a6aad40d07cab94ae5e5174f540affb799c048dc32559",
       "bytes": 1590,
+      "sanitized": false
+    },
+    {
+      "source": "isolated/current-server-scope/q3-recenter/target-logits-dedup.json",
+      "path": "archive/isolated/current-server-scope/q3-recenter/target-logits-dedup.json",
+      "source_sha256": "7bd6137dc3534e5da85e09c11861e22fcd99fe9db9d10242fb0bb591a2cc41e7",
+      "export_sha256": "7bd6137dc3534e5da85e09c11861e22fcd99fe9db9d10242fb0bb591a2cc41e7",
+      "bytes": 496,
       "sanitized": false
     },
     {
@@ -40285,6 +40709,14 @@
       "sanitized": true
     },
     {
+      "source": "isolated/run_current_q3_discovery.py",
+      "path": "archive/isolated/run_current_q3_discovery.py",
+      "source_sha256": "0ee0f3c7971734846ca99ee4399c2eb384e2c23978a331f2f29fd305724faf4a",
+      "export_sha256": "b8ed23ab5328da0102c3cc7e0d2270d57f2d9568eebf4f3921f2778f9892ed26",
+      "bytes": 13163,
+      "sanitized": true
+    },
+    {
       "source": "isolated/run_current_q3_model_arm.py",
       "path": "archive/isolated/run_current_q3_model_arm.py",
       "source_sha256": "3d72464c36641d21bec33316e646a20fb030493c6596fe39711532078ff02873",
@@ -41487,9 +41919,9 @@
     {
       "source": "isolated/run_private_guarded_batch.py",
       "path": "archive/isolated/run_private_guarded_batch.py",
-      "source_sha256": "42d7354c2504e65d59891ac7d19b93a3fa7000880ec5fa5f0e63902cb4943b96",
-      "export_sha256": "42d7354c2504e65d59891ac7d19b93a3fa7000880ec5fa5f0e63902cb4943b96",
-      "bytes": 33146,
+      "source_sha256": "f71031bb0f59c7056be67c8097e21dd9086bebcef1ba6462d0c58061e26d2c42",
+      "export_sha256": "f71031bb0f59c7056be67c8097e21dd9086bebcef1ba6462d0c58061e26d2c42",
+      "bytes": 33208,
       "sanitized": false
     },
     {
@@ -42109,5 +42541,5 @@
       "sanitized": false
     }
   ],
-  "updated_utc": "2026-11-08T05:01:17.095999+00:00"
+  "updated_utc": "2026-11-08T05:05:59.735925+00:00"
 }

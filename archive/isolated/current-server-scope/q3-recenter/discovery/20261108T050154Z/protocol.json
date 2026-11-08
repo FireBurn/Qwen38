@@ -1,0 +1,60 @@
+{
+  "server_version": "version: 0.8.0-dev (build 12033, commit 785322d17)\nbuilt with Clang 23.1.4 for Linux x86_64",
+  "server_sha256": "a2eb82f7acfe36ad4963fe244d7df39116ea16946de86587ab7d827b5351d729",
+  "library_sha256": {
+    "${WORKSPACE}/isolated/current-server-scope/dflash-selector-anchor/baseline/libllama.so.0.8.0": "e10edd95fc85d5cc751f687adb361c7e533a1c8bc181c9b06f7d576aaaeecc03",
+    "${WORKSPACE}/isolated/current-server-scope/installed-build/bin/libggml-base.so.0.28.0": "95fad7d3c8f8401b19bb793779f1f0dca0c71e9dcd820d3c704b7a91ab90b4bd",
+    "${WORKSPACE}/isolated/current-server-scope/installed-build/bin/libggml-cpu.so.0.28.0": "90a68d552c44bf8742a12abda1d7eb0ff806c57ac6090678862866da2d2ac2af",
+    "${WORKSPACE}/isolated/current-server-scope/installed-build/bin/libggml.so.0.28.0": "23b8988fb73a1998cce1b13e1f37fddeff54d2423f5a3d13151fe5e7a009b98c",
+    "${WORKSPACE}/isolated/current-server-scope/installed-build/bin/libllama-common.so.0.8.0": "ac32282241e0044f818eb773bdf429bbc1658d6f9b859879b90b392338762ac6",
+    "/usr/lib/llama.cpp/libllama-server-impl.so": "72b92b68a25d19bffa72ee0ebac8b1807e7cdfaadaa1f658d5e24d451b4dd218",
+    "/usr/lib/libvulkan_radeon.so": "9a479819dbfbd9bfd398a76902f319946d5c6d7d6555fba7684dc78df6916a22",
+    "/usr/lib/libc.so.1": "194aa00efe7cac5f600639228c70f1a47878e038429077379890c8baa778f4de",
+    "${WORKSPACE}/isolated/current-server-scope/q3-recenter/baseline/libggml-vulkan.so.0.28.0": "d0b3e4d85cff9170db5b50fc36d107eb169368903ca7b5d5c9beb53372e737ae",
+    "${WORKSPACE}/isolated/current-server-scope/q3-recenter/candidate/libggml-vulkan.so.0.28.0": "a27faa9802457a0d43956afd5ceebda5862f5034d6df5a7e6b8d4e1eb40ee38d"
+  },
+  "models": {
+    "target": {
+      "path": "${HF_CACHE}/models--nerkyor--Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2/blobs/9985b3d41fc7dc0bb5d493f7523d4515504912a3a7fc830f66e0fd2f90f9fd95",
+      "revision": "7bb84cd2cb5a3754facb1b1a09bd8e85fa4e152b",
+      "bytes": 17303770432,
+      "inode": 43919954,
+      "device": 66307,
+      "mtime_ns": 1792524608612831475
+    },
+    "draft": {
+      "path": "${HF_CACHE}/models--incoai--Qwen3.8-27B-DFlash2-GGUF/blobs/d169ad335929adc0d77e10e2523f968f3e75f547637ad739b0a137ccde111b5f",
+      "revision": "144eb06583b4fb0b6e54bc814b16a206a240f4d2",
+      "bytes": 1143006816,
+      "inode": 45089044,
+      "device": 66307,
+      "mtime_ns": 1792524318282203469
+    }
+  },
+  "plan_sha256": "d10d326835f4821ad8127c544c327ef43cee752738ed59831bd09a493b24bd38",
+  "runner_sha256": "0ee0f3c7971734846ca99ee4399c2eb384e2c23978a331f2f29fd305724faf4a",
+  "sequence": [
+    "baseline",
+    "candidate",
+    "candidate",
+    "baseline",
+    "candidate",
+    "baseline",
+    "baseline",
+    "candidate",
+    "baseline",
+    "candidate",
+    "candidate",
+    "baseline",
+    "candidate",
+    "baseline",
+    "baseline",
+    "candidate"
+  ],
+  "prompt": "Explain how memory bandwidth and cache locality affect a GPU matrix multiplication, with a concise example.",
+  "child_overrides": {
+    "GGML_VK_VISIBLE_DEVICES": "1",
+    "radv_buffer_meta_path": "1",
+    "radv_enable_transfer_queue": "false"
+  }
+}
